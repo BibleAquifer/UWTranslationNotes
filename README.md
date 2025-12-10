@@ -1,4 +1,4 @@
-# _Translation Notes (unfoldingWord)_ Aquifer Resource
+# _unfoldingWord® Translation Notes_ Aquifer Resource
 
 This repository (`UWTranslationNotes`) contains Aquifer resource data with resource-level metadata, article-level metadata, and content files in JSON and Markdown formats.
 
