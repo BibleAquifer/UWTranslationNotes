@@ -8,7 +8,7 @@
 "index_reference": "65001014",
 "language": "spa",
 "review_level": "None",
-"content": "<p><strong>&quot;He aquí&quot;</strong></p><p>El término <strong>He aquí</strong> enfoca la atención de un oyente o lector en lo que un hablante o escritor está a punto de decir. Aunque literalmente significa “mira” o “ve”, el término puede usarse para dar aviso y atención, y así es como Judas lo está usando aquí. Traducción alternativa: “¡Presta atención a lo que tengo que decir!”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἰδοὺ</span></strong></p><p><strong>&quot;He aquí&quot;</strong></p><p>El término <strong>He aquí</strong> enfoca la atención de un oyente o lector en lo que un hablante o escritor está a punto de decir. Aunque literalmente significa “mira” o “ve”, el término puede usarse para dar aviso y atención, y así es como Judas lo está usando aquí. Traducción alternativa: “¡Presta atención a lo que tengo que decir!”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora</span></p>",
 "associations": {
 "passage": [
 {
@@ -29,16 +29,9 @@
 ],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"preferred_label": "santo",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"preferred_label": "profetizar",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Jehová",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -50,6 +43,13 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"preferred_label": "santo",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Adam",
 "type": "person",
 "preferred_label": "Adam",
@@ -57,9 +57,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
+"id": "keyterm:Speak",
+"type": "keyterm",
+"preferred_label": "profetizar",
 "confidence": 0.6,
 "match_method": "canonical"
 }
