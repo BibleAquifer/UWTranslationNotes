@@ -1,38 +1,75 @@
 [
-  {
-    "content_id": "531305",
-    "reference_id": 162877,
-    "version": "1.0.2",
-    "title": "1 Juan 2:5–6 (#1)",
-    "media_type": "Text",
-    "index_reference": "62002005-62002006",
-    "language": "spa",
-    "review_level": "None",
-    "content": "<p><strong>&quot;En esto sabemos que estamos en él&quot;</strong> - <strong>&quot;el que dice que permanece en él debe, tal como aquel anduvo, también andar él mismo&quot;</strong></p><p>Si fuera un orden más natural en tu idioma, podrías mover la última oración del versículo 5 al final del versículo 6. Luego presentarías los versículos combinados como 5–6. Traducción alternativa: “El que dice que permanece en él debe, tal como ese caminó, también caminar él mismo. Así es como sabemos que estamos en él.”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26824\" data-resourceType=\"UWTranslationManual\">Puentes de Verso</span></p>",
-    "associations": {
-      "passage": [
-        {
-          "start_ref": "62002005",
-          "start_ref_usfm": "1JN 2:5",
-          "end_ref": "62002005",
-          "end_ref_usfm": "1JN 2:5"
-        },
-        {
-          "start_ref": "62002005",
-          "start_ref_usfm": "1JN 2:5",
-          "end_ref": "62002006",
-          "end_ref_usfm": "1JN 2:6"
-        }
-      ],
-      "resource": [
-        {
-          "reference_id": 26824,
-          "content_id": 728082,
-          "resource_code": "UWTranslationManual",
-          "label": "Puentes de versículos",
-          "language": "spa"
-        }
-      ]
-    }
-  }
+{
+"content_id": "531305",
+"reference_id": 162877,
+"version": "1.0.4",
+"title": "1 Juan 2:5–6 (#1)",
+"media_type": "Text",
+"index_reference": "62002005-62002006",
+"language": "spa",
+"review_level": "None",
+"content": "<p><strong>&quot;En esto sabemos que estamos en él&quot;</strong> - <strong>&quot;el que dice que permanece en él debe, tal como aquel anduvo, también andar él mismo&quot;</strong></p><p>Si fuera un orden más natural en tu idioma, podrías mover la última oración del versículo 5 al final del versículo 6. Luego presentarías los versículos combinados como 5–6. Traducción alternativa: “El que dice que permanece en él debe, tal como ese caminó, también caminar él mismo. Así es como sabemos que estamos en él.”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26824\" data-resourceType=\"UWTranslationManual\">Puentes de Verso</span></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "62002005",
+"start_ref_usfm": "1JN 2:5",
+"end_ref": "62002005",
+"end_ref_usfm": "1JN 2:5"
+},
+{
+"start_ref": "62002005",
+"start_ref_usfm": "1JN 2:5",
+"end_ref": "62002006",
+"end_ref_usfm": "1JN 2:6"
+}
+],
+"resource": [
+{
+"reference_id": 26824,
+"content_id": 728082,
+"resource_code": "UWTranslationManual",
+"label": "Puentes de versículos",
+"language": "spa"
+}
+],
+"acai": [
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"preferred_label": "deber",
+"confidence": 0.375,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"preferred_label": "andar",
+"confidence": 0.375,
+"match_method": "canonical"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Jehová",
+"confidence": 0.375,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"preferred_label": "amar",
+"confidence": 0.375,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"preferred_label": "verdadero",
+"confidence": 0.375,
+"match_method": "canonical"
+}
+]
+}
+}
 ]
