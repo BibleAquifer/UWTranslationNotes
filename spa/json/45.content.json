@@ -8,7 +8,7 @@
 "index_reference": "45008006",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;{es} vida y paz&quot;</strong></p><p>Aquí, <strong>es</strong> indica que lo que sigue es el resultado de <strong>la mentalidad de la carne</strong>. Usa una forma natural en tu idioma para indicar resultado. Traducción alternativa: “resulta en vida y paz”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relación de Causa y Efecto</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ζωὴ καὶ εἰρήνη</span></strong></p><p><strong>&quot;{es} vida y paz&quot;</strong></p><p>Aquí, <strong>es</strong> indica que lo que sigue es el resultado de <strong>la mentalidad de la carne</strong>. Usa una forma natural en tu idioma para indicar resultado. Traducción alternativa: “resulta en vida y paz”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relación de Causa y Efecto</span></p>",
 "associations": {
 "passage": [
 {
@@ -29,6 +29,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Mind",
+"type": "keyterm",
+"preferred_label": "modo de pensar",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:HolySpirit",
 "type": "deity",
 "preferred_label": "Espíritu",
@@ -43,23 +50,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"preferred_label": "cuerpo",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Mind",
-"type": "keyterm",
-"preferred_label": "modo de pensar",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "preferred_label": "hacer la paz",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"preferred_label": "cuerpo",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -75,7 +75,7 @@
 "index_reference": "45008007",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;no se sujeta a la ley de Dios&quot;</strong></p><p>Aquí Pablo habla de <strong>la ley de Dios</strong> como si fuera un rey o maestro a quien alguien pudiera <strong>someterse</strong>. Pablo se refiere a alguien que no obedece las leyes de Dios. Si fuera útil en tu idioma, podrías expresar el significado de manera sencilla. Traducción alternativa: “no obedece la ley de Dios”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">Personificación</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τῷ & νόμῳ τοῦ Θεοῦ οὐχ ὑποτάσσεται</span></strong></p><p><strong>&quot;no se sujeta a la ley de Dios&quot;</strong></p><p>Aquí Pablo habla de <strong>la ley de Dios</strong> como si fuera un rey o maestro a quien alguien pudiera <strong>someterse</strong>. Pablo se refiere a alguien que no obedece las leyes de Dios. Si fuera útil en tu idioma, podrías expresar el significado de manera sencilla. Traducción alternativa: “no obedece la ley de Dios”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">Personificación</span></p>",
 "associations": {
 "passage": [
 {
@@ -96,9 +96,9 @@
 ],
 "acai": [
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"preferred_label": "cuerpo",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Jehová",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -110,9 +110,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"preferred_label": "cuerpo",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -135,7 +135,7 @@
 "index_reference": "45008015",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;Abba, Padre&quot;</strong></p><p>Aquí Pablo escribe los sonidos de esta palabra aramea judía <strong>Abba</strong> con letras griegas, que significa <strong>Padre</strong>. Dado que Juan traduce el significado a continuación en el versículo, debes escribir esta palabra usando los sonidos más similares en tu idioma.</p>",
+"content": "<p><strong><span style='direction: ltr;'>Ἀββά, ὁ Πατήρ</span></strong></p><p><strong>&quot;Abba, Padre&quot;</strong></p><p>Aquí Pablo escribe los sonidos de esta palabra aramea judía <strong>Abba</strong> con letras griegas, que significa <strong>Padre</strong>. Dado que Juan traduce el significado a continuación en el versículo, debes escribir esta palabra usando los sonidos más similares en tu idioma.</p>",
 "associations": {
 "passage": [
 {
@@ -155,9 +155,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:HolySpirit",
+"id": "deity:Lord",
 "type": "deity",
-"preferred_label": "Espíritu",
+"preferred_label": "Jehová",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -169,9 +169,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
+"id": "deity:HolySpirit",
 "type": "deity",
-"preferred_label": "Jehová",
+"preferred_label": "Espíritu",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -194,7 +194,7 @@
 "index_reference": "45009007",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;Pero&quot;</strong></p><p><strong>Pero</strong> antes indica que lo que sigue de alguna manera contradice lo que se dijo anteriormente. Aquí, Pablo está usando una cita de un libro del Antiguo Testamento (<a href=\"https://ref.ly/Gen21:12\"><span>Génesis<strong> </strong></a>21:12</span>). Si fuera útil en tu idioma, podrías usar una frase comparable que indique que Pablo está citando un texto importante. Traducción alternativa: “Pero Dios dice en las Escrituras,”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26840\" data-resourceType=\"UWTranslationManual\">Citas y márgenes de citas</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἀλλ’</span></strong></p><p><strong>&quot;Pero&quot;</strong></p><p><strong>Pero</strong> antes indica que lo que sigue de alguna manera contradice lo que se dijo anteriormente. Aquí, Pablo está usando una cita de un libro del Antiguo Testamento (<a href=\"https://ref.ly/Gen21:12\"><span>Génesis<strong> </strong></a>21:12</span>). Si fuera útil en tu idioma, podrías usar una frase comparable que indique que Pablo está citando un texto importante. Traducción alternativa: “Pero Dios dice en las Escrituras,”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26840\" data-resourceType=\"UWTranslationManual\">Citas y márgenes de citas</span></p>",
 "associations": {
 "passage": [
 {
@@ -240,7 +240,7 @@
 "index_reference": "45009025",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;Como dice también en Oseas&quot;</strong></p><p>Esta frase indica que lo que sigue en este versículo y el siguiente son citas de un libro del Antiguo Testamento (<a href=\"https://ref.ly/Hos2:23\">Oseas 2:23</a>; <a href=\"https://ref.ly/Hos1:10\">1:10</a>). Si fuera útil en tu idioma, podrías usar una frase comparable que indique que Pablo está citando de un texto importante. Traducción alternativa: “Como dice también en la escritura escrita por Oseas”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26840\" data-resourceType=\"UWTranslationManual\">Citas y márgenes de citas</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὡς καὶ ἐν τῷ Ὡσηὲ λέγει</span></strong></p><p><strong>&quot;Como dice también en Oseas&quot;</strong></p><p>Esta frase indica que lo que sigue en este versículo y el siguiente son citas de un libro del Antiguo Testamento (<a href=\"https://ref.ly/Hos2:23\">Oseas 2:23</a>; <a href=\"https://ref.ly/Hos1:10\">1:10</a>). Si fuera útil en tu idioma, podrías usar una frase comparable que indique que Pablo está citando de un texto importante. Traducción alternativa: “Como dice también en la escritura escrita por Oseas”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26840\" data-resourceType=\"UWTranslationManual\">Citas y márgenes de citas</span></p>",
 "associations": {
 "passage": [
 {
@@ -286,7 +286,7 @@
 "index_reference": "45011004",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;¿qué le dice la respuesta divina?&quot;</strong></p><p>Aquí Pablo utiliza esta pregunta para introducir una cita de un libro del Antiguo Testamento (<a href=\"https://ref.ly/1Kgs19:18\"><span>1 Reyes 19:18</a></span>). Si fuera útil en tu idioma, podrías usar una frase comparable que indique que Pablo está citando un texto importante. Traducción alternativa: “¿qué dice la respuesta divina a él en las Escrituras?”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26840\" data-resourceType=\"UWTranslationManual\">Citas y márgenes de cita</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τί λέγει αὐτῷ ὁ χρηματισμός</span></strong></p><p><strong>&quot;¿qué le dice la respuesta divina?&quot;</strong></p><p>Aquí Pablo utiliza esta pregunta para introducir una cita de un libro del Antiguo Testamento (<a href=\"https://ref.ly/1Kgs19:18\"><span>1 Reyes 19:18</a></span>). Si fuera útil en tu idioma, podrías usar una frase comparable que indique que Pablo está citando un texto importante. Traducción alternativa: “¿qué dice la respuesta divina a él en las Escrituras?”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26840\" data-resourceType=\"UWTranslationManual\">Citas y márgenes de cita</span></p>",
 "associations": {
 "passage": [
 {
@@ -307,16 +307,16 @@
 ],
 "acai": [
 {
-"id": "keyterm:DivineAnswer",
-"type": "keyterm",
-"preferred_label": "respuesta divina",
+"id": "deity:Baal",
+"type": "deity",
+"preferred_label": "Baal",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Baal",
-"type": "deity",
-"preferred_label": "Baal",
+"id": "keyterm:DivineAnswer",
+"type": "keyterm",
+"preferred_label": "respuesta divina",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -332,7 +332,7 @@
 "index_reference": "45011006",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;si&quot;</strong></p><p>Pablo está hablando como si esto fuera una posibilidad hipotética, pero quiere decir que en realidad es cierto. Si tu idioma no expresa algo como una condición cuando es seguro o verdadero, y si tus lectores podrían malinterpretar y pensar que lo que Juan está diciendo no es seguro, entonces puedes traducir sus palabras como una afirmación. Traducción alternativa: “ya que”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26740\" data-resourceType=\"UWTranslationManual\">Conectar — Condiciones Factuales</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>εἰ</span></strong></p><p><strong>&quot;si&quot;</strong></p><p>Pablo está hablando como si esto fuera una posibilidad hipotética, pero quiere decir que en realidad es cierto. Si tu idioma no expresa algo como una condición cuando es seguro o verdadero, y si tus lectores podrían malinterpretar y pensar que lo que Juan está diciendo no es seguro, entonces puedes traducir sus palabras como una afirmación. Traducción alternativa: “ya que”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26740\" data-resourceType=\"UWTranslationManual\">Conectar — Condiciones Factuales</span></p>",
 "associations": {
 "passage": [
 {
@@ -371,7 +371,7 @@
 "index_reference": "45011008",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;tal como está escrito&quot;</strong></p><p>Si tu idioma no utiliza la forma pasiva de esta manera, puedes expresarlo en forma activa o de otra manera que sea natural en tu idioma. Si debes indicar quién realizó la acción, la cita es una paráfrasis de <a href=\"https://ref.ly/Isa29:10\"><span>Isaías 29:10</a></span> y <a href=\"https://ref.ly/Deut29:4\"><span>Deuteronomio 29:4</a></span>. Traducción alternativa: “tal como Dios declaró”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Activo o Pasivo</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>καθὼς γέγραπται</span></strong></p><p><strong>&quot;tal como está escrito&quot;</strong></p><p>Si tu idioma no utiliza la forma pasiva de esta manera, puedes expresarlo en forma activa o de otra manera que sea natural en tu idioma. Si debes indicar quién realizó la acción, la cita es una paráfrasis de <a href=\"https://ref.ly/Isa29:10\"><span>Isaías 29:10</a></span> y <a href=\"https://ref.ly/Deut29:4\"><span>Deuteronomio 29:4</a></span>. Traducción alternativa: “tal como Dios declaró”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Activo o Pasivo</span></p>",
 "associations": {
 "passage": [
 {
@@ -392,16 +392,16 @@
 ],
 "acai": [
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"preferred_label": "espíritu",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Jehová",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"preferred_label": "espíritu",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -417,7 +417,7 @@
 "index_reference": "45011012",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;si&quot;</strong></p><p>Paul está hablando como si esto fuera una posibilidad hipotética, pero quiere decir que en realidad es cierto. Si tu idioma no expresa algo como una condición si es seguro o verdadero, y si tus lectores podrían malinterpretar y pensar que lo que John está diciendo no es seguro, entonces puedes traducir sus palabras como una afirmación. Traducción alternativa: “ya que”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26740\" data-resourceType=\"UWTranslationManual\">Conectar — Condiciones Factuales</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>εἰ</span></strong></p><p><strong>&quot;si&quot;</strong></p><p>Paul está hablando como si esto fuera una posibilidad hipotética, pero quiere decir que en realidad es cierto. Si tu idioma no expresa algo como una condición si es seguro o verdadero, y si tus lectores podrían malinterpretar y pensar que lo que John está diciendo no es seguro, entonces puedes traducir sus palabras como una afirmación. Traducción alternativa: “ya que”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26740\" data-resourceType=\"UWTranslationManual\">Conectar — Condiciones Factuales</span></p>",
 "associations": {
 "passage": [
 {
@@ -438,16 +438,16 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"preferred_label": "Ability",
+"id": "group:Gentile",
+"type": "group",
+"preferred_label": "nación; gente",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"preferred_label": "nación; gente",
+"id": "keyterm:Ability",
+"type": "keyterm",
+"preferred_label": "Ability",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -463,7 +463,7 @@
 "index_reference": "45011025",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;tú&quot;</strong> - <strong>&quot;puede que no sean sabios en ustedes mismos&quot;</strong></p><p>Aquí, <strong>ustedes</strong> y <strong>ustedes mismos</strong> son plurales y podrían referirse a: (1) cristianos no judíos, como en los versículos <a href=\"https://ref.ly/Rom11:17-Rom11:24\">11:17–24</a>. Traducción alternativa: “ustedes creyentes no judíos en Cristo … ustedes no judíos podrían ser sabios no en ustedes mismos” (2) todos los creyentes a quienes Pablo estaba escribiendo esta carta. Traducción alternativa: “ustedes creyentes en Jesús … ustedes creyentes podrían no ser sabios en ustedes mismos”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">Formas de &apos;Tú&apos; — Singular</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὑμᾶς & μὴ ἦτε παρ’ ἑαυτοῖς φρόνιμοι</span></strong></p><p><strong>&quot;tú&quot;</strong> - <strong>&quot;puede que no sean sabios en ustedes mismos&quot;</strong></p><p>Aquí, <strong>ustedes</strong> y <strong>ustedes mismos</strong> son plurales y podrían referirse a: (1) cristianos no judíos, como en los versículos <a href=\"https://ref.ly/Rom11:17-Rom11:24\">11:17–24</a>. Traducción alternativa: “ustedes creyentes no judíos en Cristo … ustedes no judíos podrían ser sabios no en ustedes mismos” (2) todos los creyentes a quienes Pablo estaba escribiendo esta carta. Traducción alternativa: “ustedes creyentes en Jesús … ustedes creyentes podrían no ser sabios en ustedes mismos”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">Formas de &apos;Tú&apos; — Singular</span></p>",
 "associations": {
 "passage": [
 {
@@ -484,16 +484,16 @@
 ],
 "acai": [
 {
-"id": "group:Gentile",
-"type": "group",
-"preferred_label": "nación; gente",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "Israel",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "Israel",
+"id": "group:Gentile",
+"type": "group",
+"preferred_label": "nación; gente",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -509,7 +509,7 @@
 "index_reference": "45014011",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;está escrito&quot;</strong></p><p>Si tu idioma no utiliza la forma pasiva de esta manera, puedes expresarlo en forma activa o de otra manera que sea natural en tu idioma. Dado que Pablo se refiere a algo que Isaías escribió (<a href=\"https://ref.ly/Isa49:18\">Isaías 49:18</a> y <a href=\"https://ref.ly/Isa45:23\">45:23</a>), podrías indicar a Isaías como el sujeto. Traducción alternativa: “Isaías escribió”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Activo o Pasivo</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>γέγραπται</span></strong></p><p><strong>&quot;está escrito&quot;</strong></p><p>Si tu idioma no utiliza la forma pasiva de esta manera, puedes expresarlo en forma activa o de otra manera que sea natural en tu idioma. Dado que Pablo se refiere a algo que Isaías escribió (<a href=\"https://ref.ly/Isa49:18\">Isaías 49:18</a> y <a href=\"https://ref.ly/Isa45:23\">45:23</a>), podrías indicar a Isaías como el sujeto. Traducción alternativa: “Isaías escribió”</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Activo o Pasivo</span></p>",
 "associations": {
 "passage": [
 {
@@ -530,16 +530,16 @@
 ],
 "acai": [
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"preferred_label": "Life",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Jehová",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
+"id": "keyterm:Life",
+"type": "keyterm",
+"preferred_label": "Life",
 "confidence": 0.6,
 "match_method": "canonical"
 }

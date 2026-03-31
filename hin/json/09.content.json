@@ -129,9 +129,16 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ramah",
-"type": "place",
-"preferred_label": "रामाह",
+"id": "person:Tohu",
+"type": "person",
+"preferred_label": "तोहू",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "person:Zuph",
+"type": "person",
+"preferred_label": "सूफ",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -139,6 +146,13 @@
 "id": "person:Elihu",
 "type": "person",
 "preferred_label": "एलीहू",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "place:Ramah",
+"type": "place",
+"preferred_label": "रामाह",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -157,29 +171,15 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Zuph",
-"type": "person",
-"preferred_label": "सूफ",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
-"id": "person:Tohu",
-"type": "person",
-"preferred_label": "तोहू",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "preferred_label": "एप्रैम",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Ephraim",
+"type": "person",
 "preferred_label": "एप्रैम",
 "confidence": 0.6,
 "match_method": "canonical"
@@ -209,9 +209,16 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ramah",
-"type": "place",
-"preferred_label": "रामाह",
+"id": "person:Tohu",
+"type": "person",
+"preferred_label": "तोहू",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "person:Zuph",
+"type": "person",
+"preferred_label": "सूफ",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -219,6 +226,13 @@
 "id": "person:Elihu",
 "type": "person",
 "preferred_label": "एलीहू",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "place:Ramah",
+"type": "place",
+"preferred_label": "रामाह",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -237,29 +251,15 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Zuph",
-"type": "person",
-"preferred_label": "सूफ",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
-"id": "person:Tohu",
-"type": "person",
-"preferred_label": "तोहू",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "preferred_label": "एप्रैम",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Ephraim",
+"type": "person",
 "preferred_label": "एप्रैम",
 "confidence": 0.6,
 "match_method": "canonical"
@@ -289,16 +289,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
+"id": "person:Peninnah",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "पनिन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "person:Peninnah",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "पनिन्ना",
+"preferred_label": "हन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 }
@@ -327,13 +327,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
 "id": "person:Phinehas.2",
 "type": "person",
 "preferred_label": "पीनहास",
@@ -341,9 +334,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Hophni",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "होप्नी",
+"preferred_label": "एली",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -355,9 +355,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Hophni",
+"type": "person",
+"preferred_label": "होप्नी",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -386,13 +386,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
 "id": "person:Phinehas.2",
 "type": "person",
 "preferred_label": "पीनहास",
@@ -400,9 +393,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Hophni",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "होप्नी",
+"preferred_label": "एली",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -414,9 +414,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Hophni",
+"type": "person",
+"preferred_label": "होप्नी",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -445,13 +445,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
 "id": "person:Phinehas.2",
 "type": "person",
 "preferred_label": "पीनहास",
@@ -459,9 +452,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Hophni",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "होप्नी",
+"preferred_label": "एली",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -473,9 +473,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Hophni",
+"type": "person",
+"preferred_label": "होप्नी",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -542,9 +542,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"preferred_label": "Love",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -556,9 +556,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Love",
+"type": "keyterm",
+"preferred_label": "Love",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -587,9 +587,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"preferred_label": "Love",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -601,9 +601,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Love",
+"type": "keyterm",
+"preferred_label": "Love",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -908,9 +908,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -929,9 +929,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -974,9 +974,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -995,9 +995,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1040,9 +1040,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1061,9 +1061,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1106,9 +1106,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1127,9 +1127,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1172,9 +1172,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1193,9 +1193,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -1705,16 +1705,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -1743,16 +1743,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -1781,16 +1781,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -1819,16 +1819,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Hannah",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -1857,16 +1857,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Hannah",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -1895,16 +1895,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Hannah",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -1978,16 +1978,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2030,16 +2030,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2082,16 +2082,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2134,16 +2134,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2310,9 +2310,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2324,16 +2324,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"preferred_label": "Peace",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"preferred_label": "Peace",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -2362,9 +2362,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2376,16 +2376,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"preferred_label": "Peace",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"preferred_label": "Peace",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -2414,9 +2414,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2428,16 +2428,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"preferred_label": "Peace",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"preferred_label": "Peace",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -2466,9 +2466,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -2480,16 +2480,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"preferred_label": "Peace",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"preferred_label": "Peace",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -2791,16 +2791,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "शमूएल",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -2836,16 +2836,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "शमूएल",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -2881,16 +2881,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "शमूएल",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -2926,16 +2926,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "शमूएल",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -2971,16 +2971,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हन्ना",
+"preferred_label": "शमूएल",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Hannah",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हन्ना",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -3016,6 +3016,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
@@ -3026,13 +3033,6 @@
 "id": "keyterm:Vow",
 "type": "keyterm",
 "preferred_label": "Vow",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3068,6 +3068,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
@@ -3078,13 +3085,6 @@
 "id": "keyterm:Vow",
 "type": "keyterm",
 "preferred_label": "Vow",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3120,6 +3120,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
@@ -3130,13 +3137,6 @@
 "id": "keyterm:Vow",
 "type": "keyterm",
 "preferred_label": "Vow",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3172,6 +3172,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
@@ -3182,13 +3189,6 @@
 "id": "keyterm:Vow",
 "type": "keyterm",
 "preferred_label": "Vow",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3224,6 +3224,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
@@ -3234,13 +3241,6 @@
 "id": "keyterm:Vow",
 "type": "keyterm",
 "preferred_label": "Vow",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3276,16 +3276,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3314,16 +3314,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3352,16 +3352,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3390,16 +3390,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3428,16 +3428,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "हन्ना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Hannah",
+"type": "person",
+"preferred_label": "हन्ना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3466,16 +3466,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Elkanah.2",
-"type": "person",
-"preferred_label": "एल्काना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Elkanah.2",
+"type": "person",
+"preferred_label": "एल्काना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3504,16 +3504,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Elkanah.2",
-"type": "person",
-"preferred_label": "एल्काना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Elkanah.2",
+"type": "person",
+"preferred_label": "एल्काना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3542,16 +3542,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Elkanah.2",
-"type": "person",
-"preferred_label": "एल्काना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Elkanah.2",
+"type": "person",
+"preferred_label": "एल्काना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3580,16 +3580,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Elkanah.2",
-"type": "person",
-"preferred_label": "एल्काना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Elkanah.2",
+"type": "person",
+"preferred_label": "एल्काना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3618,16 +3618,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Elkanah.2",
-"type": "person",
-"preferred_label": "एल्काना",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Elkanah.2",
+"type": "person",
+"preferred_label": "एल्काना",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -3656,16 +3656,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3684,9 +3684,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Skin-bottle",
+"id": "realia:Ephah",
 "type": "realia",
-"preferred_label": "Skin-Bottle",
+"preferred_label": "Ephah",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3698,9 +3698,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Skin-bottle",
 "type": "realia",
-"preferred_label": "Ephah",
+"preferred_label": "Skin-Bottle",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3736,16 +3736,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3764,9 +3764,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Skin-bottle",
+"id": "realia:Ephah",
 "type": "realia",
-"preferred_label": "Skin-Bottle",
+"preferred_label": "Ephah",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3778,9 +3778,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Skin-bottle",
 "type": "realia",
-"preferred_label": "Ephah",
+"preferred_label": "Skin-Bottle",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3816,16 +3816,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3844,9 +3844,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Skin-bottle",
+"id": "realia:Ephah",
 "type": "realia",
-"preferred_label": "Skin-Bottle",
+"preferred_label": "Ephah",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3858,9 +3858,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Skin-bottle",
 "type": "realia",
-"preferred_label": "Ephah",
+"preferred_label": "Skin-Bottle",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3896,16 +3896,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -3924,9 +3924,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Skin-bottle",
+"id": "realia:Ephah",
 "type": "realia",
-"preferred_label": "Skin-Bottle",
+"preferred_label": "Ephah",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -3938,9 +3938,9 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Skin-bottle",
 "type": "realia",
-"preferred_label": "Ephah",
+"preferred_label": "Skin-Bottle",
 "confidence": 0.54,
 "match_method": "canonical"
 },
@@ -4269,13 +4269,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4286,6 +4279,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4328,13 +4328,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4345,6 +4338,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4387,13 +4387,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4404,6 +4397,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4446,13 +4446,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4463,6 +4456,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4505,13 +4505,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4522,6 +4515,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4564,13 +4564,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4581,6 +4574,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4623,13 +4623,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4640,6 +4633,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4682,13 +4682,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4699,6 +4692,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4741,13 +4741,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "preferred_label": "हन्ना",
@@ -4758,6 +4751,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"preferred_label": "Salvation",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -4793,16 +4793,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"preferred_label": "Holy",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Holy",
+"type": "keyterm",
+"preferred_label": "Holy",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5541,16 +5541,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5579,16 +5579,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5617,16 +5617,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5655,16 +5655,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5693,16 +5693,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5731,16 +5731,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -5769,16 +5769,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"preferred_label": "Glory",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Glory",
+"type": "keyterm",
+"preferred_label": "Glory",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -6080,16 +6080,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6132,16 +6132,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6184,16 +6184,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6236,16 +6236,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6288,16 +6288,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6340,16 +6340,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6392,16 +6392,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6444,16 +6444,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Horn",
 "type": "keyterm",
-"preferred_label": "Anointed",
+"preferred_label": "Horn",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Horn",
+"id": "keyterm:Anointed",
 "type": "keyterm",
-"preferred_label": "Horn",
+"preferred_label": "Anointed",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6489,6 +6489,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "place:Ramah",
 "type": "place",
 "preferred_label": "रामाह",
@@ -6506,13 +6513,6 @@
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6548,6 +6548,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "place:Ramah",
 "type": "place",
 "preferred_label": "रामाह",
@@ -6565,13 +6572,6 @@
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6607,6 +6607,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "place:Ramah",
 "type": "place",
 "preferred_label": "रामाह",
@@ -6624,13 +6631,6 @@
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6666,6 +6666,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "place:Ramah",
 "type": "place",
 "preferred_label": "रामाह",
@@ -6683,13 +6690,6 @@
 "id": "person:Elkanah.2",
 "type": "person",
 "preferred_label": "एल्काना",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -6725,13 +6725,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -6742,6 +6735,13 @@
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "preferred_label": "Wickedness",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -6770,13 +6770,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -6787,6 +6780,13 @@
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "preferred_label": "Wickedness",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7043,6 +7043,13 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "preferred_label": "इस्राएल",
@@ -7053,13 +7060,6 @@
 "id": "group:Israel",
 "type": "group",
 "preferred_label": "इस्राएली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -7102,6 +7102,13 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "preferred_label": "इस्राएल",
@@ -7112,13 +7119,6 @@
 "id": "group:Israel",
 "type": "group",
 "preferred_label": "इस्राएली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -7161,6 +7161,13 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "preferred_label": "इस्राएल",
@@ -7171,13 +7178,6 @@
 "id": "group:Israel",
 "type": "group",
 "preferred_label": "इस्राएली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -7367,13 +7367,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -7384,6 +7377,13 @@
 "id": "keyterm:Offering",
 "type": "keyterm",
 "preferred_label": "Offering",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7412,13 +7412,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -7429,6 +7422,13 @@
 "id": "keyterm:Offering",
 "type": "keyterm",
 "preferred_label": "Offering",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7457,16 +7457,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -7502,16 +7502,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -7547,16 +7547,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -7713,6 +7713,13 @@
 "match_method": "canonical"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "preferred_label": "Bless",
@@ -7723,13 +7730,6 @@
 "id": "person:Eli",
 "type": "person",
 "preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7765,6 +7765,13 @@
 "match_method": "canonical"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "preferred_label": "Bless",
@@ -7775,13 +7782,6 @@
 "id": "person:Eli",
 "type": "person",
 "preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7817,6 +7817,13 @@
 "match_method": "canonical"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "preferred_label": "Bless",
@@ -7827,13 +7834,6 @@
 "id": "person:Eli",
 "type": "person",
 "preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7869,6 +7869,13 @@
 "match_method": "canonical"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "preferred_label": "Bless",
@@ -7879,13 +7886,6 @@
 "id": "person:Eli",
 "type": "person",
 "preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7921,6 +7921,13 @@
 "match_method": "canonical"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "preferred_label": "Bless",
@@ -7931,13 +7938,6 @@
 "id": "person:Eli",
 "type": "person",
 "preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -7973,6 +7973,13 @@
 "match_method": "canonical"
 },
 {
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "preferred_label": "Appoint",
@@ -7983,13 +7990,6 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8025,6 +8025,13 @@
 "match_method": "canonical"
 },
 {
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "preferred_label": "Appoint",
@@ -8035,13 +8042,6 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8077,6 +8077,13 @@
 "match_method": "canonical"
 },
 {
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "preferred_label": "Appoint",
@@ -8087,13 +8094,6 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8122,16 +8122,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -8167,16 +8167,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -8212,16 +8212,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -8257,16 +8257,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -8441,16 +8441,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8479,16 +8479,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8517,16 +8517,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8555,16 +8555,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8593,16 +8593,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8631,16 +8631,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8669,16 +8669,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8707,20 +8707,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -8731,6 +8717,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8759,20 +8759,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -8783,6 +8769,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8811,20 +8811,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -8835,6 +8821,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8863,20 +8863,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -8887,6 +8873,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8915,20 +8915,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -8939,6 +8925,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -8967,20 +8967,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -8991,6 +8977,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9019,20 +9019,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"preferred_label": "फ़िरौन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -9043,6 +9029,20 @@
 "id": "place:Egypt",
 "type": "place",
 "preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"preferred_label": "फ़िरौन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9071,16 +9071,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"preferred_label": "Offering",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"preferred_label": "Offering",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9099,6 +9099,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"preferred_label": "Stone Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -9109,13 +9116,6 @@
 "id": "realia:TempleAltar",
 "type": "realia",
 "preferred_label": "Temple Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"preferred_label": "Stone Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -9144,16 +9144,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"preferred_label": "Offering",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"preferred_label": "Offering",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9172,6 +9172,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"preferred_label": "Stone Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -9182,13 +9189,6 @@
 "id": "realia:TempleAltar",
 "type": "realia",
 "preferred_label": "Temple Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"preferred_label": "Stone Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -9217,16 +9217,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"preferred_label": "Offering",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"preferred_label": "Offering",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9245,6 +9245,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"preferred_label": "Stone Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -9255,13 +9262,6 @@
 "id": "realia:TempleAltar",
 "type": "realia",
 "preferred_label": "Temple Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"preferred_label": "Stone Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -9290,16 +9290,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"preferred_label": "Offering",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"preferred_label": "Offering",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9318,6 +9318,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"preferred_label": "Stone Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -9328,13 +9335,6 @@
 "id": "realia:TempleAltar",
 "type": "realia",
 "preferred_label": "Temple Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"preferred_label": "Stone Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -9370,13 +9370,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "preferred_label": "Offering",
@@ -9387,6 +9380,13 @@
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "preferred_label": "Slaughtering",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9422,13 +9422,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "preferred_label": "Offering",
@@ -9439,6 +9432,13 @@
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "preferred_label": "Slaughtering",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9474,13 +9474,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "preferred_label": "Offering",
@@ -9491,6 +9484,13 @@
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "preferred_label": "Slaughtering",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9526,13 +9526,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "preferred_label": "Offering",
@@ -9543,6 +9536,13 @@
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "preferred_label": "Slaughtering",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9571,9 +9571,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9585,9 +9585,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9616,9 +9616,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9630,9 +9630,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9661,9 +9661,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9675,9 +9675,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9706,9 +9706,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9720,9 +9720,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9751,9 +9751,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9765,9 +9765,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9796,9 +9796,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9810,9 +9810,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9841,9 +9841,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9855,9 +9855,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -9886,9 +9886,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"preferred_label": "Bring Honor and Glory on Oneself",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -9900,9 +9900,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"preferred_label": "Bring Honor and Glory on Oneself",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -10100,6 +10100,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"preferred_label": "Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -10110,13 +10117,6 @@
 "id": "realia:StoneAltar",
 "type": "realia",
 "preferred_label": "Stone Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"preferred_label": "Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -10152,6 +10152,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"preferred_label": "Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -10162,13 +10169,6 @@
 "id": "realia:StoneAltar",
 "type": "realia",
 "preferred_label": "Stone Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"preferred_label": "Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -10204,6 +10204,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"preferred_label": "Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -10214,13 +10221,6 @@
 "id": "realia:StoneAltar",
 "type": "realia",
 "preferred_label": "Stone Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"preferred_label": "Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -10256,6 +10256,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"preferred_label": "Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -10266,13 +10273,6 @@
 "id": "realia:StoneAltar",
 "type": "realia",
 "preferred_label": "Stone Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"preferred_label": "Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -10308,6 +10308,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"preferred_label": "Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -10318,13 +10325,6 @@
 "id": "realia:StoneAltar",
 "type": "realia",
 "preferred_label": "Stone Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"preferred_label": "Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -10360,6 +10360,13 @@
 "match_method": "canonical"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"preferred_label": "Altar",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "preferred_label": "Tabernacle Altar",
@@ -10370,13 +10377,6 @@
 "id": "realia:StoneAltar",
 "type": "realia",
 "preferred_label": "Stone Altar",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"preferred_label": "Altar",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -10944,9 +10944,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -10958,9 +10958,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -10996,9 +10996,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11010,9 +11010,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11048,9 +11048,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11062,9 +11062,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11100,9 +11100,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11114,9 +11114,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11152,9 +11152,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11166,9 +11166,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11204,9 +11204,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11218,9 +11218,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11256,9 +11256,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11270,9 +11270,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11692,16 +11692,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11761,9 +11761,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11775,9 +11775,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11806,9 +11806,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11820,9 +11820,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11851,9 +11851,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11865,9 +11865,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11896,9 +11896,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11910,9 +11910,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11941,9 +11941,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -11955,9 +11955,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -11986,9 +11986,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"preferred_label": "Word of the Lord",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12000,9 +12000,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"preferred_label": "Word of the Lord",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12031,16 +12031,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"preferred_label": "Perceive",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12052,9 +12045,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"preferred_label": "Perceive",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12083,16 +12083,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"preferred_label": "Perceive",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12104,9 +12097,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"preferred_label": "Perceive",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12135,9 +12135,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12149,9 +12149,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12180,9 +12180,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12194,9 +12194,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12225,9 +12225,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12239,9 +12239,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12270,9 +12270,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12284,9 +12284,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12315,16 +12315,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12353,16 +12353,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12391,6 +12391,13 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "preferred_label": "इस्राएल",
@@ -12401,13 +12408,6 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12436,6 +12436,13 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "preferred_label": "इस्राएल",
@@ -12446,13 +12453,6 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12481,6 +12481,13 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "preferred_label": "इस्राएल",
@@ -12491,13 +12498,6 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -12805,9 +12805,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"preferred_label": "Passion",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12819,9 +12819,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Appease",
 "type": "keyterm",
-"preferred_label": "Passion",
+"preferred_label": "Appease",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12833,9 +12833,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"preferred_label": "Appease",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12871,9 +12871,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"preferred_label": "Passion",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12885,9 +12885,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Appease",
 "type": "keyterm",
-"preferred_label": "Passion",
+"preferred_label": "Appease",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12899,9 +12899,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"preferred_label": "Appease",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12937,9 +12937,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"preferred_label": "Passion",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12951,9 +12951,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Appease",
 "type": "keyterm",
-"preferred_label": "Passion",
+"preferred_label": "Appease",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -12965,9 +12965,9 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"preferred_label": "Appease",
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -13003,13 +13003,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -13020,6 +13013,13 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -13069,13 +13069,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -13086,6 +13079,13 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -13135,13 +13135,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -13152,6 +13145,13 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -13201,13 +13201,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -13218,6 +13211,13 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -13267,16 +13267,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13522,16 +13522,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13560,16 +13560,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13598,16 +13598,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13636,16 +13636,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13674,16 +13674,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13712,16 +13712,16 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13909,23 +13909,9 @@
 "match_method": "canonical"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Dan",
 "type": "place",
 "preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -13947,6 +13933,20 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"preferred_label": "दान",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -13982,23 +13982,9 @@
 "match_method": "canonical"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Dan",
 "type": "place",
 "preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14020,6 +14006,20 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"preferred_label": "दान",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14055,23 +14055,9 @@
 "match_method": "canonical"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Dan",
 "type": "place",
 "preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14093,6 +14079,20 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"preferred_label": "दान",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14128,23 +14128,9 @@
 "match_method": "canonical"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Dan",
 "type": "place",
 "preferred_label": "दान",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14166,6 +14152,20 @@
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"preferred_label": "दान",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14201,9 +14201,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14215,9 +14215,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14253,9 +14253,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14267,9 +14267,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14305,20 +14305,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Aphek",
-"type": "place",
-"preferred_label": "अपेक",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -14336,6 +14322,20 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Aphek",
+"type": "place",
+"preferred_label": "अपेक",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14371,20 +14371,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Aphek",
-"type": "place",
-"preferred_label": "अपेक",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -14402,6 +14388,20 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Aphek",
+"type": "place",
+"preferred_label": "अपेक",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14437,20 +14437,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Aphek",
-"type": "place",
-"preferred_label": "अपेक",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -14468,6 +14454,20 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Aphek",
+"type": "place",
+"preferred_label": "अपेक",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -14721,23 +14721,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"preferred_label": "पलिश्ती",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14749,16 +14735,23 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "group:GenericElders",
+"id": "group:Philistine",
 "type": "group",
-"preferred_label": "Elders",
+"preferred_label": "पलिश्ती",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14770,9 +14763,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "group:GenericElders",
+"type": "group",
+"preferred_label": "Elders",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14808,23 +14808,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"preferred_label": "पलिश्ती",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14836,16 +14822,23 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "group:GenericElders",
+"id": "group:Philistine",
 "type": "group",
-"preferred_label": "Elders",
+"preferred_label": "पलिश्ती",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14857,9 +14850,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "group:GenericElders",
+"type": "group",
+"preferred_label": "Elders",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14895,13 +14895,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hophni",
-"type": "person",
-"preferred_label": "होप्नी",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
 "id": "place:Shiloh",
 "type": "place",
 "preferred_label": "शीलो",
@@ -14909,9 +14902,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Eli",
+"id": "person:Hophni",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "होप्नी",
+"confidence": 0.8,
+"match_method": "canonical"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"preferred_label": "Covenant",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -14923,20 +14923,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"preferred_label": "Covenant",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -14944,16 +14930,30 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:WingedCreature",
-"type": "realia",
-"preferred_label": "Winged Creature",
-"confidence": 0.54,
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
+"confidence": 0.6,
 "match_method": "canonical"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "preferred_label": "Ark of the Covenant",
+"confidence": 0.54,
+"match_method": "canonical"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"preferred_label": "Winged Creature",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -14989,13 +14989,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "preferred_label": "Covenant",
@@ -15006,6 +14999,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15048,13 +15048,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "preferred_label": "Covenant",
@@ -15065,6 +15058,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15100,16 +15100,16 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Hebrews",
-"type": "group",
-"preferred_label": "Hebrews",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
+"id": "group:Hebrews",
+"type": "group",
+"preferred_label": "Hebrews",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15166,16 +15166,16 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Hebrews",
-"type": "group",
-"preferred_label": "Hebrews",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
+"id": "group:Hebrews",
+"type": "group",
+"preferred_label": "Hebrews",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15253,16 +15253,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"preferred_label": "Fear",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15312,16 +15312,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"preferred_label": "Fear",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15371,16 +15371,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"preferred_label": "Fear",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15430,16 +15430,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"preferred_label": "Fear",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15489,16 +15489,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"preferred_label": "Fear",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15527,9 +15527,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15541,16 +15541,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15579,9 +15579,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15593,16 +15593,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15631,9 +15631,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15645,16 +15645,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15683,9 +15683,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15697,16 +15697,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15735,9 +15735,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15749,16 +15749,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15787,9 +15787,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15801,16 +15801,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15839,9 +15839,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"preferred_label": "Woe",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15853,16 +15853,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
+"id": "keyterm:Woe",
+"type": "keyterm",
+"preferred_label": "Woe",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -15891,9 +15891,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15905,9 +15905,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15943,9 +15943,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15957,9 +15957,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -15995,9 +15995,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16009,9 +16009,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16047,9 +16047,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "place:Philistine",
+"type": "place",
+"preferred_label": "Philistia",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16061,9 +16061,9 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "Philistia",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16279,13 +16279,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Hophni",
-"type": "person",
-"preferred_label": "होप्नी",
-"confidence": 0.8,
-"match_method": "canonical"
-},
-{
 "id": "person:Phinehas.2",
 "type": "person",
 "preferred_label": "पीनहास",
@@ -16293,10 +16286,10 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Eli",
+"id": "person:Hophni",
 "type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
+"preferred_label": "होप्नी",
+"confidence": 0.8,
 "match_method": "canonical"
 },
 {
@@ -16310,6 +16303,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16345,16 +16345,16 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Benjamin",
-"type": "group",
-"preferred_label": "बिन्यामीन",
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "शीलो",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Shiloh",
-"type": "place",
-"preferred_label": "शीलो",
+"id": "group:Benjamin",
+"type": "group",
+"preferred_label": "बिन्यामीन",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16390,13 +16390,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
@@ -16407,6 +16400,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16449,13 +16449,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
@@ -16466,6 +16459,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16508,13 +16508,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
@@ -16525,6 +16518,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16567,13 +16567,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
@@ -16584,6 +16577,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16626,13 +16626,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
-"type": "person",
-"preferred_label": "एली",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
@@ -16643,6 +16636,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16809,16 +16809,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Messenger",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "A Messenger",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Messenger",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "A Messenger",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -16847,16 +16847,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Eli",
+"id": "person:Messenger",
 "type": "person",
-"preferred_label": "एली",
+"preferred_label": "A Messenger",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Messenger",
+"id": "person:Eli",
 "type": "person",
-"preferred_label": "A Messenger",
+"preferred_label": "एली",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -16892,30 +16892,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Hophni",
-"type": "person",
-"preferred_label": "होप्नी",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16937,6 +16916,27 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Hophni",
+"type": "person",
+"preferred_label": "होप्नी",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -16979,30 +16979,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Hophni",
-"type": "person",
-"preferred_label": "होप्नी",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17024,6 +17003,27 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Hophni",
+"type": "person",
+"preferred_label": "होप्नी",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17066,16 +17066,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17125,16 +17125,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17184,16 +17184,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17243,16 +17243,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17295,13 +17295,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -17312,6 +17305,13 @@
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17347,13 +17347,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -17364,6 +17357,13 @@
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17399,13 +17399,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -17416,6 +17409,13 @@
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17451,13 +17451,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -17468,6 +17461,13 @@
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17503,13 +17503,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Phinehas.2",
-"type": "person",
-"preferred_label": "पीनहास",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -17520,6 +17513,13 @@
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Phinehas.2",
+"type": "person",
+"preferred_label": "पीनहास",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17748,20 +17748,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -17769,9 +17755,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17814,20 +17814,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -17835,9 +17821,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17880,20 +17880,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -17901,9 +17887,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -17946,20 +17946,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -17967,9 +17953,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18012,20 +18012,6 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -18033,9 +18019,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18071,20 +18071,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -18092,9 +18078,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18130,20 +18130,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -18151,9 +18137,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18189,20 +18189,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "preferred_label": "Glory",
@@ -18210,9 +18196,23 @@
 "match_method": "canonical"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18248,16 +18248,16 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ebenezer",
+"id": "place:Ashdod",
 "type": "place",
-"preferred_label": "एबेनेजेर",
+"preferred_label": "अश्दोद",
 "confidence": 0.8,
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
+"id": "place:Ebenezer",
 "type": "place",
-"preferred_label": "अश्दोद",
+"preferred_label": "एबेनेजेर",
 "confidence": 0.8,
 "match_method": "canonical"
 },
@@ -18356,16 +18356,16 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:ArkOfTheCovenant",
+"id": "realia:House",
 "type": "realia",
-"preferred_label": "Ark of the Covenant",
+"preferred_label": "House",
 "confidence": 0.54,
 "match_method": "canonical"
 },
 {
-"id": "realia:House",
+"id": "realia:ArkOfTheCovenant",
 "type": "realia",
-"preferred_label": "House",
+"preferred_label": "Ark of the Covenant",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -18429,16 +18429,16 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:ArkOfTheCovenant",
+"id": "realia:House",
 "type": "realia",
-"preferred_label": "Ark of the Covenant",
+"preferred_label": "House",
 "confidence": 0.54,
 "match_method": "canonical"
 },
 {
-"id": "realia:House",
+"id": "realia:ArkOfTheCovenant",
 "type": "realia",
-"preferred_label": "House",
+"preferred_label": "Ark of the Covenant",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -18502,16 +18502,16 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:ArkOfTheCovenant",
+"id": "realia:House",
 "type": "realia",
-"preferred_label": "Ark of the Covenant",
+"preferred_label": "House",
 "confidence": 0.54,
 "match_method": "canonical"
 },
 {
-"id": "realia:House",
+"id": "realia:ArkOfTheCovenant",
 "type": "realia",
-"preferred_label": "House",
+"preferred_label": "Ark of the Covenant",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -18575,16 +18575,16 @@
 "match_method": "canonical"
 },
 {
-"id": "realia:ArkOfTheCovenant",
+"id": "realia:House",
 "type": "realia",
-"preferred_label": "Ark of the Covenant",
+"preferred_label": "House",
 "confidence": 0.54,
 "match_method": "canonical"
 },
 {
-"id": "realia:House",
+"id": "realia:ArkOfTheCovenant",
 "type": "realia",
-"preferred_label": "House",
+"preferred_label": "Ark of the Covenant",
 "confidence": 0.54,
 "match_method": "canonical"
 }
@@ -18613,16 +18613,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18634,9 +18634,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18672,16 +18672,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18693,9 +18693,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18731,16 +18731,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18752,9 +18752,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18790,16 +18790,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"preferred_label": "Covenant Box",
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"preferred_label": "Covenant Box",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -18811,9 +18811,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19348,16 +19348,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -19393,16 +19393,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -19438,16 +19438,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -19483,16 +19483,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -19521,23 +19521,16 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19549,9 +19542,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19587,23 +19587,16 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19615,9 +19608,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19653,23 +19653,16 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Dagon",
+"type": "deity",
+"preferred_label": "दागोन",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "preferred_label": "Covenant Box",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Ashdod",
-"type": "place",
-"preferred_label": "अश्दोद",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19681,9 +19674,16 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Dagon",
-"type": "deity",
-"preferred_label": "दागोन",
+"id": "place:Ashdod",
+"type": "place",
+"preferred_label": "अश्दोद",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19726,13 +19726,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -19757,6 +19750,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19799,13 +19799,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -19830,6 +19823,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -19872,13 +19872,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -19903,6 +19896,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20211,13 +20211,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Ekron",
 "type": "place",
 "preferred_label": "एक्रोन",
@@ -20228,6 +20221,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20270,13 +20270,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Ekron",
 "type": "place",
 "preferred_label": "एक्रोन",
@@ -20287,6 +20280,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20329,13 +20329,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Ekron",
 "type": "place",
 "preferred_label": "एक्रोन",
@@ -20346,6 +20339,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20388,13 +20388,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Ekron",
 "type": "place",
 "preferred_label": "एक्रोन",
@@ -20405,6 +20398,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20447,13 +20447,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "place:Ekron",
 "type": "place",
 "preferred_label": "एक्रोन",
@@ -20464,6 +20457,13 @@
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20506,13 +20506,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -20530,6 +20523,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20572,13 +20572,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -20596,6 +20589,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20638,13 +20638,6 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
@@ -20662,6 +20655,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20887,9 +20887,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20901,9 +20901,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20946,9 +20946,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -20960,9 +20960,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21005,9 +21005,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21019,9 +21019,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21064,9 +21064,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21078,9 +21078,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21123,9 +21123,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21137,9 +21137,9 @@
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21175,16 +21175,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -21213,16 +21213,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -21251,16 +21251,16 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "इस्राएल",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Israel",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -21861,9 +21861,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Aaron",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हारून",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21875,9 +21875,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Aaron",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हारून",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21920,9 +21920,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Aaron",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हारून",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21934,9 +21934,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Aaron",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हारून",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21979,9 +21979,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
+"id": "person:Aaron",
 "type": "person",
-"preferred_label": "शमूएल",
+"preferred_label": "हारून",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -21993,9 +21993,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Aaron",
+"id": "person:Samuel",
 "type": "person",
-"preferred_label": "हारून",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22248,23 +22248,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22276,9 +22262,23 @@
 "match_method": "canonical"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "preferred_label": "मूसा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22307,23 +22307,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "इस्राएल",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "मिस्र",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22335,9 +22321,23 @@
 "match_method": "canonical"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "मिस्र",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "preferred_label": "मूसा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "इस्राएल",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22366,23 +22366,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Sisera",
-"type": "person",
-"preferred_label": "सीसरा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Hazor",
-"type": "place",
-"preferred_label": "हासोर",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22394,9 +22380,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Moab",
+"id": "person:Sisera",
+"type": "person",
+"preferred_label": "सीसरा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Hazor",
 "type": "place",
-"preferred_label": "मोआब",
+"preferred_label": "हासोर",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22404,6 +22397,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"preferred_label": "मोआब",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22432,23 +22432,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Sisera",
-"type": "person",
-"preferred_label": "सीसरा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Hazor",
-"type": "place",
-"preferred_label": "हासोर",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22460,9 +22446,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Moab",
+"id": "person:Sisera",
+"type": "person",
+"preferred_label": "सीसरा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Hazor",
 "type": "place",
-"preferred_label": "मोआब",
+"preferred_label": "हासोर",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22470,6 +22463,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"preferred_label": "मोआब",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22498,23 +22498,9 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Sisera",
-"type": "person",
-"preferred_label": "सीसरा",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "preferred_label": "पलिश्ती",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "place:Hazor",
-"type": "place",
-"preferred_label": "हासोर",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22526,9 +22512,16 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Moab",
+"id": "person:Sisera",
+"type": "person",
+"preferred_label": "सीसरा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Hazor",
 "type": "place",
-"preferred_label": "मोआब",
+"preferred_label": "हासोर",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22536,6 +22529,13 @@
 "id": "place:Philistine",
 "type": "place",
 "preferred_label": "Philistia",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"preferred_label": "मोआब",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22564,6 +22564,20 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Ashtoreth",
+"type": "deity",
+"preferred_label": "अश्तोरेत",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "preferred_label": "To Sin",
@@ -22581,20 +22595,6 @@
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "preferred_label": "Force to Serve",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Ashtoreth",
-"type": "deity",
-"preferred_label": "अश्तोरेत",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22623,6 +22623,20 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Ashtoreth",
+"type": "deity",
+"preferred_label": "अश्तोरेत",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "preferred_label": "To Sin",
@@ -22640,20 +22654,6 @@
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "preferred_label": "Force to Serve",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Ashtoreth",
-"type": "deity",
-"preferred_label": "अश्तोरेत",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22682,6 +22682,20 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Ashtoreth",
+"type": "deity",
+"preferred_label": "अश्तोरेत",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "preferred_label": "To Sin",
@@ -22699,20 +22713,6 @@
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "preferred_label": "Force to Serve",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Ashtoreth",
-"type": "deity",
-"preferred_label": "अश्तोरेत",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22741,23 +22741,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
-"preferred_label": "Safety",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Jephthah",
+"id": "person:Barak",
 "type": "person",
-"preferred_label": "यिप्तह",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"preferred_label": "गिदोन",
+"preferred_label": "बाराक",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22769,6 +22755,13 @@
 "match_method": "canonical"
 },
 {
+"id": "person:Jephthah",
+"type": "person",
+"preferred_label": "यिप्तह",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
@@ -22776,9 +22769,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Barak",
+"id": "keyterm:Safety",
+"type": "keyterm",
+"preferred_label": "Safety",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Gideon",
 "type": "person",
-"preferred_label": "बाराक",
+"preferred_label": "गिदोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22807,23 +22807,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
-"preferred_label": "Safety",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Jephthah",
+"id": "person:Barak",
 "type": "person",
-"preferred_label": "यिप्तह",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"preferred_label": "गिदोन",
+"preferred_label": "बाराक",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22835,6 +22821,13 @@
 "match_method": "canonical"
 },
 {
+"id": "person:Jephthah",
+"type": "person",
+"preferred_label": "यिप्तह",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
@@ -22842,9 +22835,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Barak",
+"id": "keyterm:Safety",
+"type": "keyterm",
+"preferred_label": "Safety",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Gideon",
 "type": "person",
-"preferred_label": "बाराक",
+"preferred_label": "गिदोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22873,23 +22873,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
-"preferred_label": "Safety",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Jephthah",
+"id": "person:Barak",
 "type": "person",
-"preferred_label": "यिप्तह",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"preferred_label": "गिदोन",
+"preferred_label": "बाराक",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -22901,6 +22887,13 @@
 "match_method": "canonical"
 },
 {
+"id": "person:Jephthah",
+"type": "person",
+"preferred_label": "यिप्तह",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
 "id": "person:Samuel",
 "type": "person",
 "preferred_label": "शमूएल",
@@ -22908,9 +22901,16 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Barak",
+"id": "keyterm:Safety",
+"type": "keyterm",
+"preferred_label": "Safety",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "person:Gideon",
 "type": "person",
-"preferred_label": "बाराक",
+"preferred_label": "गिदोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22946,13 +22946,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"preferred_label": "अम्मोन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -22963,6 +22956,13 @@
 "id": "group:Ammon",
 "type": "group",
 "preferred_label": "अम्मोनी",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"preferred_label": "अम्मोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -22998,13 +22998,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"preferred_label": "अम्मोन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -23015,6 +23008,13 @@
 "id": "group:Ammon",
 "type": "group",
 "preferred_label": "अम्मोनी",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"preferred_label": "अम्मोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23050,13 +23050,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"preferred_label": "अम्मोन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -23067,6 +23060,13 @@
 "id": "group:Ammon",
 "type": "group",
 "preferred_label": "अम्मोनी",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"preferred_label": "अम्मोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23102,13 +23102,6 @@
 "match_method": "canonical"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"preferred_label": "अम्मोन",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "preferred_label": "यहोवा",
@@ -23119,6 +23112,13 @@
 "id": "group:Ammon",
 "type": "group",
 "preferred_label": "अम्मोनी",
+"confidence": 0.6,
+"match_method": "canonical"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"preferred_label": "अम्मोन",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23209,9 +23209,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -23223,16 +23223,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
-"preferred_label": "Fear",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23261,9 +23261,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -23275,16 +23275,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
-"preferred_label": "Fear",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23313,9 +23313,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -23327,16 +23327,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
-"preferred_label": "Fear",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23365,9 +23365,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -23379,16 +23379,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
-"preferred_label": "Fear",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23417,9 +23417,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"preferred_label": "Force to Serve",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -23431,16 +23431,16 @@
 "match_method": "canonical"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
-"preferred_label": "Fear",
+"preferred_label": "Force to Serve",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"preferred_label": "Fear",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23469,16 +23469,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"preferred_label": "Rebel",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"preferred_label": "Rebel",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23507,16 +23507,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"preferred_label": "Rebel",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"preferred_label": "Rebel",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23545,16 +23545,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"preferred_label": "Rebel",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"preferred_label": "Rebel",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23583,16 +23583,16 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"preferred_label": "Rebel",
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "यहोवा",
 "confidence": 0.6,
 "match_method": "canonical"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "यहोवा",
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"preferred_label": "Rebel",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -23956,9 +23956,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -23970,9 +23970,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -24001,9 +24001,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -24015,9 +24015,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -24046,9 +24046,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -24060,9 +24060,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
@@ -24091,9 +24091,9 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"preferred_label": "To Sin",
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "शमूएल",
 "confidence": 0.6,
 "match_method": "canonical"
 },
@@ -24105,9 +24105,9 @@
 "match_method": "canonical"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"preferred_label": "शमूएल",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"preferred_label": "To Sin",
 "confidence": 0.6,
 "match_method": "canonical"
 }
