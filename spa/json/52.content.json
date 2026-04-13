@@ -31,16 +31,16 @@
 {
 "id": "deity:Lord",
 "type": "deity",
-"preferred_label": "Jehová",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "person:Jesus.2",
 "type": "person",
-"preferred_label": "Jesús",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Jesús"
 }
 ]
 }
@@ -82,18 +82,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
-"preferred_label": "Espíritu",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -136,51 +136,51 @@
 {
 "id": "keyterm:Blameless",
 "type": "keyterm",
-"preferred_label": "quedar libre de castigo",
 "confidence": 0.8,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"preferred_label": "consagración",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
-"confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "quedar libre de castigo"
 },
 {
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
-"preferred_label": "espíritu",
 "confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"preferred_label": "hacer la paz",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"preferred_label": "Jesús",
-"confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "espíritu"
 },
 {
 "id": "keyterm:Body.3",
 "type": "keyterm",
-"preferred_label": "cuerpo",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "consagración"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "hacer la paz"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }

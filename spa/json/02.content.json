@@ -23,16 +23,16 @@
 {
 "id": "deity:Lord",
 "type": "deity",
-"preferred_label": "Jehová",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "place:Egypt",
 "type": "place",
-"preferred_label": "Egipto",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Egipto"
 }
 ]
 }
@@ -61,9 +61,9 @@
 {
 "id": "deity:Lord",
 "type": "deity",
-"preferred_label": "Jehová",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -98,18 +98,18 @@
 ],
 "acai": [
 {
-"id": "realia:Cubit",
-"type": "realia",
-"preferred_label": "Cubit",
-"confidence": 0.54,
-"match_method": "canonical"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
-"preferred_label": "Acacia",
 "confidence": 0.54,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Acacia"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cubit"
 }
 ]
 }
@@ -136,25 +136,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"preferred_label": "santo",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
-"preferred_label": "sacerdocio",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "santo"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
-"preferred_label": "Sheep",
 "confidence": 0.54,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Sheep"
 }
 ]
 }
@@ -191,16 +191,16 @@
 {
 "id": "realia:Cubit",
 "type": "realia",
-"preferred_label": "Cubit",
 "confidence": 0.54,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Cubit"
 },
 {
 "id": "realia:HornsOfAltar",
 "type": "realia",
-"preferred_label": "Horns of Altar",
 "confidence": 0.54,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Horns of Altar"
 }
 ]
 }
@@ -235,32 +235,32 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "Jehová",
-"confidence": 0.6,
-"match_method": "canonical"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
-"preferred_label": "apaciguar",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "apaciguar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Offering",
 "type": "keyterm",
-"preferred_label": "ofrenda",
 "confidence": 0.6,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "ofrenda"
 },
 {
 "id": "realia:Shekel",
 "type": "realia",
-"preferred_label": "Shekel",
 "confidence": 0.54,
-"match_method": "canonical"
+"match_method": "canonical",
+"preferred_label": "Shekel"
 }
 ]
 }
