@@ -385,20 +385,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Abijah.6",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Abijah"
-},
-{
-"id": "person:Elizabeth",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Elizabeth"
-},
-{
 "id": "person:Zechariah",
 "type": "person",
 "confidence": 0.8,
@@ -413,11 +399,18 @@
 "preferred_label": "Herod"
 },
 {
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.6,
+"id": "person:Elizabeth",
+"type": "person",
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Judea"
+"preferred_label": "Elizabeth"
+},
+{
+"id": "person:Abijah.6",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Abijah"
 },
 {
 "id": "person:Aaron",
@@ -425,6 +418,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Aaron"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judea"
 },
 {
 "id": "keyterm:Name",
@@ -25256,18 +25256,18 @@
 "preferred_label": "Storeroom"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Heart"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
 }
 ]
 }
