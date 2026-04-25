@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>unfoldingWord® Translation Notes</b> © 2022 unfoldingWord. Released under CC BY-SA 4.0 license. <cite>unfoldingWord® Translation Notes</cite> has been adapted in the following languages: Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文) from <cite>unfoldingWord® Translation Notes</cite> © 2022 unfoldingWord. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
 "resource_code": "UWTranslationNotes",
-"date_created": "2026-04-13",
+"date_created": "2026-04-24",
 "language": "spa",
 "localizations": [
 "eng",
@@ -39,7 +39,8 @@
 "ind",
 "por",
 "zht",
-"apd"
+"apd",
+"guj"
 ],
 "order": "canonical",
 "content_type": "Html"
@@ -50,7 +51,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-04-13T10:32:47.468364"
+"dateCreated": "2026-04-24T13:28:33.911406"
 },
 "idAuthorities": {
 "aquifer": {
@@ -64,7 +65,7 @@
 "primary": {
 "aquifer": {
 "UWTranslationNotes": {
-"timestamp": "2026-04-13T10:32:47.468364"
+"timestamp": "2026-04-24T13:28:33.911406"
 }
 }
 },
@@ -96,25 +97,31 @@
 "ingredients": {
 "json/01.content.json": {
 "mimeType": "text/json",
-"size": 798,
+"size": 16642,
 "scope": {
 "GEN": [
-"Génesis 21:26 (#5)"
+"Génesis - Introducción",
+"Génesis 21:26 (#5)",
+"Génesis - Capítulo 1 Introducción"
 ]
 }
 },
 "json/02.content.json": {
 "mimeType": "text/json",
-"size": 10360,
+"size": 26527,
 "scope": {
 "EXO": [
+"Éxodo - Introducción",
 "Éxodo 3:7 (#8)",
 "Éxodo 12:14 (#1)",
 "Éxodo 25:23 (#1)",
 "Éxodo 29:31 (#1)",
 "Éxodo 30:2 (#2)",
 "Éxodo 30:15 (#1)",
-"Éxodo - Capítulo 1 Introducción"
+"Éxodo - Capítulo 1 Introducción",
+"Éxodo - Capítulo 2 Introducción",
+"Éxodo - Capítulo 3 Introducción",
+"Éxodo - Capítulo 5 Introducción"
 ]
 }
 },
@@ -7796,7 +7803,7 @@
 },
 "json/41.content.json": {
 "mimeType": "text/json",
-"size": 4350932,
+"size": 4350929,
 "scope": {
 "MRK": [
 "Marcos 1:1 (#1)",
@@ -21025,10 +21032,12 @@
 },
 "json/62.content.json": {
 "mimeType": "text/json",
-"size": 1901,
+"size": 5488,
 "scope": {
 "1JN": [
-"1 Juan 2:5–6 (#1)"
+"1 Juan 2:5–6 (#1)",
+"1 Juan 4:12 (#1)",
+"1 Juan 5:6 (#3)"
 ]
 }
 },
@@ -21043,14 +21052,14 @@
 },
 "md/01.content.md": {
 "mimeType": "text/markdown",
-"size": 992,
+"size": 14798,
 "scope": {
 "GEN": []
 }
 },
 "md/02.content.md": {
 "mimeType": "text/markdown",
-"size": 6519,
+"size": 18712,
 "scope": {
 "EXO": []
 }
@@ -21190,7 +21199,7 @@
 },
 "md/62.content.md": {
 "mimeType": "text/markdown",
-"size": 1740,
+"size": 3908,
 "scope": {
 "1JN": []
 }
@@ -21204,11 +21213,11 @@
 },
 "docx/01.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42127
+"size": 48529
 },
 "docx/02.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44373
+"size": 49116
 },
 "docx/07.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -21248,7 +21257,7 @@
 },
 "docx/41.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 462897
+"size": 462893
 },
 "docx/42.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -21288,7 +21297,7 @@
 },
 "docx/62.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42433
+"size": 43065
 },
 "docx/65.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -21296,11 +21305,11 @@
 },
 "pdf/01.content.pdf": {
 "mimeType": "application/pdf",
-"size": 51488
+"size": 132075
 },
 "pdf/02.content.pdf": {
 "mimeType": "application/pdf",
-"size": 88733
+"size": 160305
 },
 "pdf/07.content.pdf": {
 "mimeType": "application/pdf",
@@ -21340,7 +21349,7 @@
 },
 "pdf/41.content.pdf": {
 "mimeType": "application/pdf",
-"size": 6526266
+"size": 6526095
 },
 "pdf/42.content.pdf": {
 "mimeType": "application/pdf",
@@ -21380,7 +21389,7 @@
 },
 "pdf/62.content.pdf": {
 "mimeType": "application/pdf",
-"size": 56930
+"size": 63328
 },
 "pdf/65.content.pdf": {
 "mimeType": "application/pdf",
@@ -753056,6 +753065,267 @@
 "content_id": 760270,
 "language": "por",
 "title": "2 Timóteo 2.19 (#3)"
+}
+}
+},
+"900020": {
+"content_id": "900020",
+"reference_id": 209605,
+"index_reference": "01000000",
+"localizations": {
+"eng": {
+"content_id": 718624,
+"language": "eng",
+"title": "Genesis - Introduction"
+},
+"arb": {
+"content_id": 790036,
+"language": "arb",
+"title": "التكوين - مقدمة"
+},
+"hin": {
+"content_id": 792883,
+"language": "hin",
+"title": "उत्पत्ति - परिचय"
+},
+"por": {
+"content_id": 789892,
+"language": "por",
+"title": "Gênesis - Introdução"
+},
+"zht": {
+"content_id": 798520,
+"language": "zht",
+"title": "創世記 - 導論"
+}
+}
+},
+"900021": {
+"content_id": "900021",
+"reference_id": 209606,
+"index_reference": "01Genesis000",
+"localizations": {
+"eng": {
+"content_id": 718625,
+"language": "eng",
+"title": "Genesis - Chapter 1 Introduction"
+},
+"arb": {
+"content_id": 790037,
+"language": "arb",
+"title": "التكوين - مقدمة أصحاح 1"
+},
+"hin": {
+"content_id": 792884,
+"language": "hin",
+"title": "उत्पत्ति - अध्याय 1 परिचय"
+},
+"por": {
+"content_id": 789893,
+"language": "por",
+"title": "Gênesis - Introdução ao capítulo 1"
+},
+"zht": {
+"content_id": 798521,
+"language": "zht",
+"title": "創世記 - 第一章簡介"
+}
+}
+},
+"899980": {
+"content_id": "899980",
+"reference_id": 209553,
+"index_reference": "02000000",
+"localizations": {
+"eng": {
+"content_id": 718572,
+"language": "eng",
+"title": "Exodus - Introduction"
+},
+"arb": {
+"content_id": 789994,
+"language": "arb",
+"title": "الخروج - المقدمة"
+},
+"hin": {
+"content_id": 792831,
+"language": "hin",
+"title": "निर्गमन - परिचय"
+},
+"por": {
+"content_id": 789840,
+"language": "por",
+"title": "Êxodo - Introdução"
+},
+"zht": {
+"content_id": 798468,
+"language": "zht",
+"title": "出埃及記 - 導論"
+}
+}
+},
+"899981": {
+"content_id": "899981",
+"reference_id": 209555,
+"index_reference": "02Exodus000",
+"localizations": {
+"eng": {
+"content_id": 718574,
+"language": "eng",
+"title": "Exodus - Chapter 2 Introduction"
+},
+"arb": {
+"content_id": 789996,
+"language": "arb",
+"title": "الخروج - مقدمة أصحاح 2"
+},
+"hin": {
+"content_id": 792833,
+"language": "hin",
+"title": "निर्गमन - अध्याय 2 परिचय"
+},
+"por": {
+"content_id": 789842,
+"language": "por",
+"title": "Êxodo - Introdução ao capítulo 2"
+},
+"zht": {
+"content_id": 798470,
+"language": "zht",
+"title": "出埃及記 - 第二章簡介"
+}
+}
+},
+"899982": {
+"content_id": "899982",
+"reference_id": 209556,
+"index_reference": "02Exodus000",
+"localizations": {
+"eng": {
+"content_id": 718575,
+"language": "eng",
+"title": "Exodus - Chapter 3 Introduction"
+},
+"arb": {
+"content_id": 789997,
+"language": "arb",
+"title": "الخروج - مقدمة أصحاح 3"
+},
+"hin": {
+"content_id": 792834,
+"language": "hin",
+"title": "निर्गमन - अध्याय 3 परिचय"
+},
+"por": {
+"content_id": 789843,
+"language": "por",
+"title": "Êxodo - Introdução ao capítulo 3"
+},
+"zht": {
+"content_id": 798471,
+"language": "zht",
+"title": "出埃及記 - 第三章簡介"
+}
+}
+},
+"899984": {
+"content_id": "899984",
+"reference_id": 209558,
+"index_reference": "02Exodus000",
+"localizations": {
+"eng": {
+"content_id": 718577,
+"language": "eng",
+"title": "Exodus - Chapter 5 Introduction"
+},
+"arb": {
+"content_id": 789999,
+"language": "arb",
+"title": "الخروج - مقدمة أصحاح 5"
+},
+"hin": {
+"content_id": 792836,
+"language": "hin",
+"title": "निर्गमन - अध्याय 5 परिचय"
+},
+"por": {
+"content_id": 789845,
+"language": "por",
+"title": "Êxodo - Introdução ao capítulo 5"
+},
+"zht": {
+"content_id": 798473,
+"language": "zht",
+"title": "出埃及記 - 第五章簡介"
+}
+}
+},
+"531456": {
+"content_id": "531456",
+"reference_id": 163239,
+"index_reference": "62004012",
+"localizations": {
+"eng": {
+"content_id": 256819,
+"language": "eng",
+"title": "1 John 4:12 (#1)"
+},
+"arb": {
+"content_id": 770781,
+"language": "arb",
+"title": "١ يوحنا ٤: ١٢ (#١)"
+},
+"fra": {
+"content_id": 787994,
+"language": "fra",
+"title": "1 Jean 4.12 (#1)"
+},
+"hin": {
+"content_id": 400356,
+"language": "hin",
+"title": "1 यूहन्ना 4:12 (#1)"
+},
+"por": {
+"content_id": 845346,
+"language": "por",
+"title": "1 João 4.12 (#1)"
+},
+"guj": {
+"content_id": 884795,
+"language": "guj",
+"title": "યોહાનનો પહેલો પત્ર 4:12 (#1)"
+}
+}
+},
+"531697": {
+"content_id": "531697",
+"reference_id": 163320,
+"index_reference": "62005006",
+"localizations": {
+"eng": {
+"content_id": 256900,
+"language": "eng",
+"title": "1 John 5:6 (#3)"
+},
+"arb": {
+"content_id": 770862,
+"language": "arb",
+"title": "١ يوحنا ٥: ٦ (#٣)"
+},
+"fra": {
+"content_id": 788075,
+"language": "fra",
+"title": "1 Jean 5.6 (#3)"
+},
+"hin": {
+"content_id": 400399,
+"language": "hin",
+"title": "1 यूहन्ना 5:6 (#2)"
+},
+"por": {
+"content_id": 845427,
+"language": "por",
+"title": "1 João 5.6 (#3)"
 }
 }
 }
