@@ -35,18 +35,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Live.3",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "andar"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "deber"
+"preferred_label": "amar"
 },
 {
 "id": "keyterm:True",
@@ -56,11 +49,18 @@
 "preferred_label": "verdadero"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "amar"
+"preferred_label": "deber"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "andar"
 },
 {
 "id": "deity:Lord",
@@ -68,6 +68,126 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+}
+]
+}
+},
+{
+"content_id": "531456",
+"reference_id": 163239,
+"version": "1.0.4",
+"title": "1 Juan 4:12 (#1)",
+"media_type": "Text",
+"index_reference": "62004012",
+"language": "spa",
+"review_level": "None",
+"content": "<p><strong><span style='direction: ltr;'>ἐὰν ἀγαπῶμεν ἀλλήλους, ὁ Θεὸς ἐν ἡμῖν μένει, καὶ ἡ ἀγάπη αὐτοῦ τετελειωμένη ἐν ἡμῖν ἐστιν</span></strong></p><p><strong>&quot;Si nos amamos unos a otros, Dios permanece en nosotros, y su amor se perfecciona en nosotros&quot;</strong></p><p>Juan habla de una situación real como si se tratara de una hipótesis. Si tu idioma no expresa algo como una condición cuando ya es real, y si tus lectores pudieran pensar que lo que dice Juan no es real, entonces podrías traducir su afirmación sin usar &quot;si&quot;. Traducción alternativa: &quot;Pero como nos amamos unos a otros, Dios permanece en nosotros, y su amor se perfecciona en nosotros&quot; o &quot;Pero al amarnos unos a otros, sabemos que Dios permanece en nosotros, y su amor se perfecciona en nosotros&quot;.</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26740\" data-resourceType=\"UWTranslationManual\">Conectar — Condiciones Factuales</span></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "62004012",
+"start_ref_usfm": "1JN 4:12",
+"end_ref": "62004012",
+"end_ref_usfm": "1JN 4:12"
+}
+],
+"resource": [
+{
+"reference_id": 26696,
+"content_id": 727925,
+"resource_code": "Unknown",
+"label": "Situaciones hipotéticas",
+"language": "spa"
+},
+{
+"reference_id": 26740,
+"content_id": 727974,
+"resource_code": "UWTranslationManual",
+"label": "Conectar - Condiciones de hecho",
+"language": "spa"
+}
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amar"
+}
+]
+}
+},
+{
+"content_id": "531697",
+"reference_id": 163320,
+"version": "1.0.4",
+"title": "1 Juan 5:6 (#3)",
+"media_type": "Text",
+"index_reference": "62005006",
+"language": "spa",
+"review_level": "None",
+"content": "<p><strong>&quot;por agua y sangre&quot;</strong></p><p>Juan utiliza una metáfora que representa el <strong>agua y la sangre</strong> como medio por el cual Jesús llega hasta nosotros, o Jesús viniendo a nosotros a través del agua y de la sangre. El significado puede ser: (1) Jesús se convirtió en nuestro Salvador al recibir el bautismo en agua y someterse a la muerte en la cruz; traducción alternativa: &quot;como nuestro Salvador, al recibir el bautismo y la muerte&quot;, o (2) Jesús se convirtió en nuestro Salvador al nacer como ser humano y someterse a la muerte en la cruz. Traducción alternativa: &quot;como nuestro Salvador, al pasar por el nacimiento humano y la muerte&quot;.</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora</span></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "62005006",
+"start_ref_usfm": "1JN 5:6",
+"end_ref": "62005006",
+"end_ref_usfm": "1JN 5:6"
+}
+],
+"resource": [
+{
+"reference_id": 26706,
+"content_id": 727936,
+"resource_code": "UWTranslationManual",
+"label": "Metáfora",
+"language": "spa"
+}
+],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fidelidad"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "sangre"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
 }
 ]
 }

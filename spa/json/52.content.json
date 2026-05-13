@@ -29,18 +29,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jesús"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -141,11 +141,18 @@
 "preferred_label": "quedar libre de castigo"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "espíritu"
+"preferred_label": "Jesús"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Body.3",
@@ -155,11 +162,11 @@
 "preferred_label": "cuerpo"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "espíritu"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -174,13 +181,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "hacer la paz"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
 }
 ]
 }
