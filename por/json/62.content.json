@@ -14789,18 +14789,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "love"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -17183,11 +17183,11 @@
 ],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Holy Spirit"
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:BearWitness",
@@ -17195,6 +17195,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "testemunhar"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "keyterm:Blood",
@@ -17209,13 +17216,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Truth"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesus"
 }
 ]
 }
