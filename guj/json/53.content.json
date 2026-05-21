@@ -4100,20 +4100,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4121,11 +4107,11 @@
 "preferred_label": "Love"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Ask for"
+"preferred_label": "Jesus"
 },
 {
 "id": "deity:Lord",
@@ -4135,11 +4121,25 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "Favor"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 },
 {
 "id": "keyterm:Always",
@@ -4149,11 +4149,11 @@
 "preferred_label": "Always"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Good",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Good"
 }
 ]
 }
@@ -4939,18 +4939,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Live.3",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Live"
-},
-{
-"id": "keyterm:Teaching",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Teaching"
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Name",
@@ -4960,11 +4953,18 @@
 "preferred_label": "Name"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Teaching",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Teaching"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Live"
 }
 ]
 }
