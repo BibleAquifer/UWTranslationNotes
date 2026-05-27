@@ -35,18 +35,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -87,18 +87,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -139,18 +139,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -191,18 +191,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -243,18 +243,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -327,25 +327,18 @@
 "resource": [],
 "acai": [
 {
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Camel"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Donkey"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Cattle"
 },
 {
 "id": "fauna:Flock",
@@ -355,11 +348,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Camel",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -386,25 +386,18 @@
 "resource": [],
 "acai": [
 {
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Camel"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Donkey"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Cattle"
 },
 {
 "id": "fauna:Flock",
@@ -414,11 +407,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Camel",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -507,18 +507,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Job",
@@ -533,13 +540,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
 },
 {
 "id": "keyterm:Holy",
@@ -573,18 +573,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Job",
@@ -599,13 +606,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
 },
 {
 "id": "keyterm:Holy",
@@ -639,18 +639,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Job",
@@ -665,13 +672,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
 },
 {
 "id": "keyterm:Holy",
@@ -705,18 +705,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Job",
@@ -731,13 +738,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
 },
 {
 "id": "keyterm:Holy",
@@ -771,18 +771,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Job",
@@ -797,13 +804,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
 },
 {
 "id": "keyterm:Holy",
@@ -989,18 +989,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -1041,18 +1041,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -1093,18 +1093,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -1145,18 +1145,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -1197,18 +1197,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -1242,6 +1242,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1254,13 +1261,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -1294,6 +1294,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1306,13 +1313,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -1618,18 +1618,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -1656,18 +1656,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -1694,18 +1694,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -1798,18 +1798,18 @@
 "preferred_label": "Donkey"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
 "id": "realia:Mattock",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Mattock"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 }
 ]
 }
@@ -1857,18 +1857,18 @@
 "preferred_label": "Donkey"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
 "id": "realia:Mattock",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Mattock"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 }
 ]
 }
@@ -2172,18 +2172,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -2224,18 +2224,18 @@
 "preferred_label": "Chaldéens"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Camel"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -2276,18 +2276,18 @@
 "preferred_label": "Chaldéens"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Camel"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -2504,18 +2504,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -2542,18 +2542,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -2580,18 +2580,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -2618,18 +2618,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -2656,18 +2656,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -2694,6 +2694,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2706,13 +2713,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -2739,18 +2739,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -2777,18 +2777,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -2815,18 +2815,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -2860,6 +2860,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2872,13 +2879,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -2912,6 +2912,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2924,13 +2931,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -2964,6 +2964,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2976,13 +2983,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3016,6 +3016,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3028,13 +3035,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3068,6 +3068,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3080,13 +3087,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3120,6 +3120,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3132,13 +3139,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3172,6 +3172,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3184,13 +3191,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3224,6 +3224,13 @@
 "preferred_label": "Satan"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3236,13 +3243,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3269,18 +3269,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Satan"
 }
 ]
 }
@@ -3500,18 +3500,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -3545,18 +3545,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -3590,18 +3590,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -3635,18 +3635,18 @@
 "preferred_label": "Satan"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -3749,18 +3749,18 @@
 "preferred_label": "Job's Wife"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -3794,18 +3794,18 @@
 "preferred_label": "Job's Wife"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -3832,6 +3832,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3844,13 +3851,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3877,6 +3877,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3889,13 +3896,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3922,6 +3922,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3934,13 +3941,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 }
 ]
 }
@@ -3967,18 +3967,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Zophar",
+"id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Tsophar"
-},
-{
-"id": "person:Bildad",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Bildad"
+"preferred_label": "Éliphaz"
 },
 {
 "id": "group:Shuhites",
@@ -3988,13 +3981,6 @@
 "preferred_label": "Shuhites"
 },
 {
-"id": "group:Naamathites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Naamathites"
-},
-{
 "id": "group:Teman",
 "type": "group",
 "confidence": 0.8,
@@ -4002,11 +3988,25 @@
 "preferred_label": "colonne"
 },
 {
-"id": "person:Eliphaz.2",
+"id": "person:Bildad",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Éliphaz"
+"preferred_label": "Bildad"
+},
+{
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Naamathites"
+},
+{
+"id": "person:Zophar",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Tsophar"
 },
 {
 "id": "place:Teman",
@@ -4047,18 +4047,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Zophar",
+"id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Tsophar"
-},
-{
-"id": "person:Bildad",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Bildad"
+"preferred_label": "Éliphaz"
 },
 {
 "id": "group:Shuhites",
@@ -4068,13 +4061,6 @@
 "preferred_label": "Shuhites"
 },
 {
-"id": "group:Naamathites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Naamathites"
-},
-{
 "id": "group:Teman",
 "type": "group",
 "confidence": 0.8,
@@ -4082,11 +4068,25 @@
 "preferred_label": "colonne"
 },
 {
-"id": "person:Eliphaz.2",
+"id": "person:Bildad",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Éliphaz"
+"preferred_label": "Bildad"
+},
+{
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Naamathites"
+},
+{
+"id": "person:Zophar",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Tsophar"
 },
 {
 "id": "place:Teman",
@@ -5021,18 +5021,18 @@
 "preferred_label": "pleurer"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Dragon"
-},
-{
 "id": "fauna:GiantCroccodile",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Leviathan"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dragon"
 }
 ]
 }
@@ -5066,18 +5066,18 @@
 "preferred_label": "pleurer"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Dragon"
-},
-{
 "id": "fauna:GiantCroccodile",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Leviathan"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dragon"
 }
 ]
 }
@@ -5111,18 +5111,18 @@
 "preferred_label": "pleurer"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Dragon"
-},
-{
 "id": "fauna:GiantCroccodile",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Leviathan"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dragon"
 }
 ]
 }
@@ -5156,18 +5156,18 @@
 "preferred_label": "pleurer"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Dragon"
-},
-{
 "id": "fauna:GiantCroccodile",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Leviathan"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dragon"
 }
 ]
 }
@@ -7799,11 +7799,11 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Moth"
+"preferred_label": "House"
 },
 {
 "id": "realia:Foundation",
@@ -7813,11 +7813,11 @@
 "preferred_label": "Foundation"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Moth",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Moth"
 }
 ]
 }
@@ -7844,11 +7844,11 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Moth"
+"preferred_label": "House"
 },
 {
 "id": "realia:Foundation",
@@ -7858,11 +7858,11 @@
 "preferred_label": "Foundation"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Moth",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Moth"
 }
 ]
 }
@@ -7889,11 +7889,11 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Moth"
+"preferred_label": "House"
 },
 {
 "id": "realia:Foundation",
@@ -7903,11 +7903,11 @@
 "preferred_label": "Foundation"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Moth",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Moth"
 }
 ]
 }
@@ -7934,11 +7934,11 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Moth"
+"preferred_label": "House"
 },
 {
 "id": "realia:Foundation",
@@ -7948,11 +7948,11 @@
 "preferred_label": "Foundation"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Moth",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Moth"
 }
 ]
 }
@@ -9424,18 +9424,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:SoundWisdom",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "saine sagesse"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -9462,18 +9462,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:SoundWisdom",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "saine sagesse"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -9500,18 +9500,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -9538,18 +9538,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -9576,18 +9576,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -9614,18 +9614,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -9652,18 +9652,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "judicieux"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "judicieux"
 }
 ]
 }
@@ -11482,20 +11482,6 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:GreenVegetation",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Green Vegetation"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.54,
@@ -11503,11 +11489,25 @@
 "preferred_label": "Wild Donkey"
 },
 {
+"id": "flora:GreenVegetation",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Green Vegetation"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -11534,20 +11534,6 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:GreenVegetation",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Green Vegetation"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.54,
@@ -11555,11 +11541,25 @@
 "preferred_label": "Wild Donkey"
 },
 {
+"id": "flora:GreenVegetation",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Green Vegetation"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -11586,20 +11586,6 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:GreenVegetation",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Green Vegetation"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.54,
@@ -11607,11 +11593,25 @@
 "preferred_label": "Wild Donkey"
 },
 {
+"id": "flora:GreenVegetation",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Green Vegetation"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -12535,11 +12535,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bonté"
+"preferred_label": "Éternel"
 },
 {
 "id": "keyterm:Fear",
@@ -12549,11 +12549,11 @@
 "preferred_label": "craindre"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "bonté"
 }
 ]
 }
@@ -12580,11 +12580,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bonté"
+"preferred_label": "Éternel"
 },
 {
 "id": "keyterm:Fear",
@@ -12594,11 +12594,11 @@
 "preferred_label": "craindre"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "bonté"
 }
 ]
 }
@@ -12625,11 +12625,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bonté"
+"preferred_label": "Éternel"
 },
 {
 "id": "keyterm:Fear",
@@ -12639,11 +12639,11 @@
 "preferred_label": "craindre"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "bonté"
 }
 ]
 }
@@ -12670,11 +12670,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bonté"
+"preferred_label": "Éternel"
 },
 {
 "id": "keyterm:Fear",
@@ -12684,11 +12684,11 @@
 "preferred_label": "craindre"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "bonté"
 }
 ]
 }
@@ -16139,18 +16139,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 }
 ]
 }
@@ -16177,18 +16177,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 }
 ]
 }
@@ -22670,18 +22670,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "méchanceté"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "méchanceté"
 }
 ]
 }
@@ -22708,18 +22708,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "méchanceté"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "méchanceté"
 }
 ]
 }
@@ -22746,18 +22746,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Wild Donkey"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Donkey"
 }
 ]
 }
@@ -22784,18 +22784,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Wild Donkey"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Donkey"
 }
 ]
 }
@@ -23207,18 +23207,18 @@
 "preferred_label": "securité"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "s'appuyer sur"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "espoir"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "s'appuyer sur"
 }
 ]
 }
@@ -23252,18 +23252,18 @@
 "preferred_label": "securité"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "s'appuyer sur"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "espoir"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "s'appuyer sur"
 }
 ]
 }
@@ -23297,18 +23297,18 @@
 "preferred_label": "securité"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "s'appuyer sur"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "espoir"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "s'appuyer sur"
 }
 ]
 }
@@ -24506,18 +24506,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Understanding",
@@ -24551,18 +24551,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Understanding",
@@ -24596,18 +24596,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Understanding",
@@ -25543,18 +25543,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Deceit",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "tromperie"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -26320,18 +26320,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Ardour",
@@ -26434,18 +26434,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "keyterm:Bitter",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "chose amère"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 }
 ]
 }
@@ -26472,18 +26472,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "keyterm:Bitter",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "chose amère"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 }
 ]
 }
@@ -26510,18 +26510,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "keyterm:Bitter",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "chose amère"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 }
 ]
 }
@@ -26801,18 +26801,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pollution"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sans saleté"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pollution"
 }
 ]
 }
@@ -26839,18 +26839,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pollution"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sans saleté"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pollution"
 }
 ]
 }
@@ -26877,18 +26877,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pollution"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sans saleté"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pollution"
 }
 ]
 }
@@ -27828,18 +27828,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 },
 {
 "id": "realia:Bag",
@@ -27873,18 +27873,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 },
 {
 "id": "realia:Bag",
@@ -28179,18 +28179,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "percevoir"
-},
-{
 "id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rendre honoré"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "percevoir"
 }
 ]
 }
@@ -28441,18 +28441,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -28479,18 +28479,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -28517,18 +28517,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 }
 ]
 }
@@ -31066,18 +31066,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Vine"
 }
 ]
 }
@@ -31104,18 +31104,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Vine"
 }
 ]
 }
@@ -32154,18 +32154,18 @@
 "preferred_label": "colline"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
 "id": "realia:Sackcloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sackcloth"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 }
 ]
 }
@@ -34618,18 +34618,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Casting Net"
-},
-{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Trap"
+},
+{
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Casting Net"
 },
 {
 "id": "realia:Net",
@@ -34663,18 +34663,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Casting Net"
-},
-{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Trap"
+},
+{
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Casting Net"
 },
 {
 "id": "realia:Net",
@@ -35739,18 +35739,18 @@
 "preferred_label": "Fishnet"
 },
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Net"
-},
-{
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Siege-Works"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Net"
 }
 ]
 }
@@ -38454,18 +38454,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Viper"
-},
-{
 "id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cobra"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Viper"
 }
 ]
 }
@@ -38492,18 +38492,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Viper"
-},
-{
 "id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cobra"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Viper"
 }
 ]
 }
@@ -38530,18 +38530,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Viper"
-},
-{
 "id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cobra"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Viper"
 }
 ]
 }
@@ -38568,18 +38568,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Viper"
-},
-{
 "id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cobra"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Viper"
 }
 ]
 }
@@ -39582,18 +39582,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -39620,18 +39620,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -39658,18 +39658,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -40478,6 +40478,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Drum"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.54,
@@ -40490,13 +40497,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flute"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Drum"
 }
 ]
 }
@@ -40523,6 +40523,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Drum"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.54,
@@ -40535,13 +40542,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flute"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Drum"
 }
 ]
 }
@@ -40568,6 +40568,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Drum"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.54,
@@ -40580,13 +40587,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flute"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Drum"
 }
 ]
 }
@@ -40675,18 +40675,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "chemin"
 }
 ]
 }
@@ -40713,18 +40713,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "chemin"
 }
 ]
 }
@@ -40751,18 +40751,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "chemin"
 }
 ]
 }
@@ -41473,18 +41473,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -41511,18 +41511,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -42834,18 +42834,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "prospérer"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -42872,18 +42872,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "prospérer"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -42917,18 +42917,18 @@
 "preferred_label": "juste"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "être juste"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -42962,18 +42962,18 @@
 "preferred_label": "juste"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "être juste"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -43007,18 +43007,18 @@
 "preferred_label": "juste"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "être juste"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -46566,18 +46566,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -46611,18 +46611,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -46656,18 +46656,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -46701,18 +46701,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -47015,18 +47015,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Vine"
 }
 ]
 }
@@ -47053,18 +47053,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Vine"
 }
 ]
 }
@@ -47091,18 +47091,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Vine"
 }
 ]
 }
@@ -48676,6 +48676,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "force"
+},
+{
 "id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.6,
@@ -48688,13 +48695,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "indomptables"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "force"
 }
 ]
 }
@@ -48721,6 +48721,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "force"
+},
+{
 "id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.6,
@@ -48733,13 +48740,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "indomptables"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "force"
 }
 ]
 }
@@ -50806,18 +50806,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "proverbe"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -51415,18 +51415,18 @@
 "preferred_label": "puissant"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -51460,18 +51460,18 @@
 "preferred_label": "puissant"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -51505,18 +51505,18 @@
 "preferred_label": "puissant"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -51758,18 +51758,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Moth"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Moth"
 }
 ]
 }
@@ -51796,18 +51796,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Moth"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Moth"
 }
 ]
 }
@@ -51834,18 +51834,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Moth"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Moth"
 }
 ]
 }
@@ -52509,18 +52509,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Falcon"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vulture"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Falcon"
 }
 ]
 }
@@ -52547,18 +52547,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Falcon"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vulture"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Falcon"
 }
 ]
 }
@@ -52585,18 +52585,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Falcon"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vulture"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Falcon"
 }
 ]
 }
@@ -52623,18 +52623,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Falcon"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vulture"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Falcon"
 }
 ]
 }
@@ -53182,18 +53182,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éthiopie"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sans saleté"
+},
+{
+"id": "place:Ethiopia",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éthiopie"
 }
 ]
 }
@@ -53220,18 +53220,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éthiopie"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sans saleté"
+},
+{
+"id": "place:Ethiopia",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éthiopie"
 }
 ]
 }
@@ -53358,18 +53358,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -53518,18 +53518,18 @@
 "preferred_label": "capacité"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 },
 {
 "id": "keyterm:Understanding",
@@ -53570,18 +53570,18 @@
 "preferred_label": "capacité"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 },
 {
 "id": "keyterm:Understanding",
@@ -53622,18 +53622,18 @@
 "preferred_label": "capacité"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 },
 {
 "id": "keyterm:Understanding",
@@ -53674,18 +53674,18 @@
 "preferred_label": "capacité"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "craindre"
 },
 {
 "id": "keyterm:Understanding",
@@ -53719,18 +53719,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "proverbe"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -53942,18 +53942,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -53980,18 +53980,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -55391,18 +55391,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Dog"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -55436,18 +55436,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Dog"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -55644,18 +55644,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Orache",
-"type": "flora",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Orache"
-},
-{
 "id": "flora:Broom",
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "Broom"
+},
+{
+"id": "flora:Orache",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Orache"
 }
 ]
 }
@@ -55682,18 +55682,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Orache",
-"type": "flora",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Orache"
-},
-{
 "id": "flora:Broom",
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "Broom"
+},
+{
+"id": "flora:Orache",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Orache"
 }
 ]
 }
@@ -55720,18 +55720,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Orache",
-"type": "flora",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Orache"
-},
-{
 "id": "flora:Broom",
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "Broom"
+},
+{
+"id": "flora:Orache",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Orache"
 }
 ]
 }
@@ -55758,18 +55758,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Orache",
-"type": "flora",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Orache"
-},
-{
 "id": "flora:Broom",
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "Broom"
+},
+{
+"id": "flora:Orache",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Orache"
 }
 ]
 }
@@ -57504,18 +57504,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -57542,18 +57542,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -57580,18 +57580,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -57618,18 +57618,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -59779,18 +59779,18 @@
 "preferred_label": "se rebeller"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "person:Adam",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Adam"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 }
 ]
 }
@@ -59824,18 +59824,18 @@
 "preferred_label": "se rebeller"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "person:Adam",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Adam"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 }
 ]
 }
@@ -60357,18 +60357,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Weed"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "flora:Thistle",
@@ -60378,11 +60378,11 @@
 "preferred_label": "Thistle"
 },
 {
-"id": "flora:Wheat",
+"id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Barley"
 }
 ]
 }
@@ -60423,18 +60423,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Weed"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "flora:Thistle",
@@ -60444,11 +60444,11 @@
 "preferred_label": "Thistle"
 },
 {
-"id": "flora:Wheat",
+"id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Barley"
 }
 ]
 }
@@ -60489,18 +60489,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Weed"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "flora:Thistle",
@@ -60510,11 +60510,11 @@
 "preferred_label": "Thistle"
 },
 {
-"id": "flora:Wheat",
+"id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Barley"
 }
 ]
 }
@@ -60603,20 +60603,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Buzites"
-},
-{
-"id": "person:Ram.3",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ram"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
@@ -60631,6 +60617,27 @@
 "preferred_label": "Barakeel"
 },
 {
+"id": "group:Buzites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Buzites"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ram"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "être juste"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -60643,13 +60650,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "être juste"
 }
 ]
 }
@@ -60676,20 +60676,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Buzites"
-},
-{
-"id": "person:Ram.3",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ram"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
@@ -60704,6 +60690,27 @@
 "preferred_label": "Barakeel"
 },
 {
+"id": "group:Buzites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Buzites"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ram"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "être juste"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -60716,13 +60723,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "être juste"
 }
 ]
 }
@@ -60749,20 +60749,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Buzites"
-},
-{
-"id": "person:Ram.3",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ram"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
@@ -60777,6 +60763,27 @@
 "preferred_label": "Barakeel"
 },
 {
+"id": "group:Buzites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Buzites"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ram"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "être juste"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -60789,13 +60796,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "être juste"
 }
 ]
 }
@@ -60822,20 +60822,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Buzites"
-},
-{
-"id": "person:Ram.3",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ram"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
@@ -60850,6 +60836,27 @@
 "preferred_label": "Barakeel"
 },
 {
+"id": "group:Buzites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Buzites"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ram"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "être juste"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -60862,13 +60869,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "être juste"
 }
 ]
 }
@@ -60895,18 +60895,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "condamner comme coupable"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -60933,18 +60933,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "condamner comme coupable"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -60971,18 +60971,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Élihou"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -61009,18 +61009,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Élihou"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -61078,11 +61078,11 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
+"id": "person:Elihu.5",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Buzites"
+"preferred_label": "Élihou"
 },
 {
 "id": "person:Barachel",
@@ -61092,11 +61092,11 @@
 "preferred_label": "Barakeel"
 },
 {
-"id": "person:Elihu.5",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Élihou"
+"preferred_label": "Buzites"
 },
 {
 "id": "keyterm:Fear",
@@ -61130,11 +61130,11 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
+"id": "person:Elihu.5",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Buzites"
+"preferred_label": "Élihou"
 },
 {
 "id": "person:Barachel",
@@ -61144,11 +61144,11 @@
 "preferred_label": "Barakeel"
 },
 {
-"id": "person:Elihu.5",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Élihou"
+"preferred_label": "Buzites"
 },
 {
 "id": "keyterm:Fear",
@@ -61275,18 +61275,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -61313,18 +61313,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -61351,18 +61351,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -61528,18 +61528,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -62108,18 +62108,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "droiture"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -62146,18 +62146,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "droiture"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -62184,18 +62184,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "droiture"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -63362,18 +63362,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "agir avec bonté"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -63400,18 +63400,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "agir avec bonté"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -63438,18 +63438,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "agir avec bonté"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -63476,18 +63476,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "agir avec bonté"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -64391,18 +64391,18 @@
 "preferred_label": "être juste"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -64436,18 +64436,18 @@
 "preferred_label": "être juste"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -65956,18 +65956,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "prospérer"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "chemin"
 }
 ]
 }
@@ -65994,18 +65994,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "prospérer"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "chemin"
 }
 ]
 }
@@ -66279,18 +66279,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "se charger d'une faute"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "se charger d'une faute"
 }
 ]
 }
@@ -66317,18 +66317,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "se charger d'une faute"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "se charger d'une faute"
 }
 ]
 }
@@ -66355,18 +66355,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "se charger d'une faute"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "se charger d'une faute"
 }
 ]
 }
@@ -66600,6 +66600,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "prospérer"
+},
+{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.6,
@@ -66612,13 +66619,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "prospérer"
 }
 ]
 }
@@ -66645,6 +66645,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "prospérer"
+},
+{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.6,
@@ -66657,13 +66664,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "prospérer"
 }
 ]
 }
@@ -66690,6 +66690,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "prospérer"
+},
+{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.6,
@@ -66702,13 +66709,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "prospérer"
 }
 ]
 }
@@ -66735,6 +66735,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "prospérer"
+},
+{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.6,
@@ -66747,13 +66754,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Job"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "prospérer"
 }
 ]
 }
@@ -66856,18 +66856,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Rebel",
@@ -66901,18 +66901,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Rebel",
@@ -67255,18 +67255,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 }
 ]
 }
@@ -67293,18 +67293,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "pécher"
 }
 ]
 }
@@ -71039,18 +71039,18 @@
 "preferred_label": "percevoir"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -71084,18 +71084,18 @@
 "preferred_label": "percevoir"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -71129,18 +71129,18 @@
 "preferred_label": "percevoir"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -72158,18 +72158,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -72196,18 +72196,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -72234,18 +72234,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -72272,18 +72272,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -72310,18 +72310,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -72348,18 +72348,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "avis"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -75530,11 +75530,11 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Grass",
-"type": "flora",
+"id": "fauna:Flock",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Goat",
@@ -75544,11 +75544,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "flora:Grass",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Grass"
 }
 ]
 }
@@ -75582,18 +75582,18 @@
 "preferred_label": "être attiré à servir"
 },
 {
-"id": "fauna:WildOx",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Wild Ox"
-},
-{
 "id": "realia:Manger",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Manger"
+},
+{
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wild Ox"
 }
 ]
 }
@@ -75627,18 +75627,18 @@
 "preferred_label": "être attiré à servir"
 },
 {
-"id": "fauna:WildOx",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Wild Ox"
-},
-{
 "id": "realia:Manger",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Manger"
+},
+{
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wild Ox"
 }
 ]
 }
@@ -75665,18 +75665,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:WildOx",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Wild Ox"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Rope"
+},
+{
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wild Ox"
 }
 ]
 }
@@ -76620,13 +76620,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Quiver",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Quiver"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -76639,6 +76632,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Javelin"
+},
+{
+"id": "realia:Quiver",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Quiver"
 }
 ]
 }
@@ -76665,13 +76665,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Quiver",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Quiver"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -76684,6 +76677,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Javelin"
+},
+{
+"id": "realia:Quiver",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Quiver"
 }
 ]
 }
@@ -76710,13 +76710,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Quiver",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Quiver"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -76729,6 +76722,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Javelin"
+},
+{
+"id": "realia:Quiver",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Quiver"
 }
 ]
 }
@@ -77283,18 +77283,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -77383,18 +77383,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -77513,18 +77513,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -78272,18 +78272,18 @@
 "preferred_label": "Elephant"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -78324,18 +78324,18 @@
 "preferred_label": "Elephant"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -78376,18 +78376,18 @@
 "preferred_label": "Elephant"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -78428,18 +78428,18 @@
 "preferred_label": "Elephant"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -78480,18 +78480,18 @@
 "preferred_label": "Elephant"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
 }
 ]
 }
@@ -79047,18 +79047,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jourdain"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "s'appuyer sur"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jourdain"
 }
 ]
 }
@@ -79085,18 +79085,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jourdain"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "s'appuyer sur"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jourdain"
 }
 ]
 }
@@ -79123,18 +79123,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jourdain"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "s'appuyer sur"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jourdain"
 }
 ]
 }
@@ -79261,11 +79261,11 @@
 "preferred_label": "Leviathan"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Harpoon"
 },
 {
 "id": "fauna:Dragon",
@@ -79275,11 +79275,11 @@
 "preferred_label": "Dragon"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Rope",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Rope"
 }
 ]
 }
@@ -79313,11 +79313,11 @@
 "preferred_label": "Leviathan"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Harpoon"
 },
 {
 "id": "fauna:Dragon",
@@ -79327,11 +79327,11 @@
 "preferred_label": "Dragon"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Rope",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Rope"
 }
 ]
 }
@@ -79365,11 +79365,11 @@
 "preferred_label": "Leviathan"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Harpoon"
 },
 {
 "id": "fauna:Dragon",
@@ -79379,11 +79379,11 @@
 "preferred_label": "Dragon"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Rope",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Rope"
 }
 ]
 }
@@ -79417,11 +79417,11 @@
 "preferred_label": "Leviathan"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Harpoon"
 },
 {
 "id": "fauna:Dragon",
@@ -79431,11 +79431,11 @@
 "preferred_label": "Dragon"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Rope",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Rope"
 }
 ]
 }
@@ -79469,11 +79469,11 @@
 "preferred_label": "Leviathan"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Harpoon"
 },
 {
 "id": "fauna:Dragon",
@@ -79483,11 +79483,11 @@
 "preferred_label": "Dragon"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Rope",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Rope"
 }
 ]
 }
@@ -79514,18 +79514,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
 "id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Harpoon"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Rope"
 }
 ]
 }
@@ -79552,18 +79552,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
 "id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Harpoon"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Rope"
 }
 ]
 }
@@ -80967,18 +80967,18 @@
 "preferred_label": "Sword"
 },
 {
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Spear"
-},
-{
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Javelin"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
 }
 ]
 }
@@ -81012,18 +81012,18 @@
 "preferred_label": "Sword"
 },
 {
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Spear"
-},
-{
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Javelin"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
 }
 ]
 }
@@ -81057,18 +81057,18 @@
 "preferred_label": "Sword"
 },
 {
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Spear"
-},
-{
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Javelin"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
 }
 ]
 }
@@ -81164,18 +81164,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Arrow",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Arrow"
-},
-{
 "id": "realia:Sling",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sling"
+},
+{
+"id": "realia:Arrow",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Arrow"
 }
 ]
 }
@@ -81202,18 +81202,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Arrow",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Arrow"
-},
-{
 "id": "realia:Sling",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sling"
+},
+{
+"id": "realia:Arrow",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Arrow"
 }
 ]
 }
@@ -81715,13 +81715,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
@@ -81734,6 +81727,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -81760,13 +81760,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
@@ -81779,6 +81772,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
 }
 ]
 }
@@ -81904,13 +81904,6 @@
 "preferred_label": "Éliphaz"
 },
 {
-"id": "place:Teman",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Théman"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -81918,11 +81911,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "place:Teman",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Job"
+"preferred_label": "Théman"
 },
 {
 "id": "group:Teman",
@@ -81930,6 +81923,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "colonne"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -81963,13 +81963,6 @@
 "preferred_label": "Éliphaz"
 },
 {
-"id": "place:Teman",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Théman"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -81977,11 +81970,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "place:Teman",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Job"
+"preferred_label": "Théman"
 },
 {
 "id": "group:Teman",
@@ -81989,6 +81982,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "colonne"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -82045,13 +82045,6 @@
 "preferred_label": "insensé"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
@@ -82059,11 +82052,11 @@
 "preferred_label": "offrande"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Job"
 },
 {
 "id": "fauna:Lamb",
@@ -82071,6 +82064,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 }
 ]
 }
@@ -82104,13 +82104,6 @@
 "preferred_label": "insensé"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
@@ -82118,11 +82111,11 @@
 "preferred_label": "offrande"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Job"
 },
 {
 "id": "fauna:Lamb",
@@ -82130,6 +82123,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 }
 ]
 }
@@ -82156,11 +82156,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Zophar",
+"id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Tsophar"
+"preferred_label": "Éliphaz"
 },
 {
 "id": "person:Bildad",
@@ -82170,32 +82170,11 @@
 "preferred_label": "Bildad"
 },
 {
-"id": "person:Eliphaz.2",
+"id": "person:Zophar",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Éliphaz"
-},
-{
-"id": "place:Teman",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Théman"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
+"preferred_label": "Tsophar"
 },
 {
 "id": "group:Shuhites",
@@ -82205,11 +82184,11 @@
 "preferred_label": "Shuhites"
 },
 {
-"id": "group:Naamathites",
-"type": "group",
+"id": "place:Teman",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Naamathites"
+"preferred_label": "Théman"
 },
 {
 "id": "group:Teman",
@@ -82217,6 +82196,27 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "colonne"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Naamathites"
 }
 ]
 }
@@ -82243,18 +82243,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -82535,13 +82535,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Keziah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ketsia"
-},
-{
 "id": "person:Jemimah",
 "type": "person",
 "confidence": 0.8,
@@ -82554,6 +82547,13 @@
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Kéren-Happuc"
+},
+{
+"id": "person:Keziah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ketsia"
 }
 ]
 }
@@ -82580,13 +82580,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Keziah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ketsia"
-},
-{
 "id": "person:Jemimah",
 "type": "person",
 "confidence": 0.8,
@@ -82599,6 +82592,13 @@
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Kéren-Happuc"
+},
+{
+"id": "person:Keziah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ketsia"
 }
 ]
 }
@@ -82625,13 +82625,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Keziah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ketsia"
-},
-{
 "id": "person:Jemimah",
 "type": "person",
 "confidence": 0.8,
@@ -82644,6 +82637,13 @@
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Kéren-Happuc"
+},
+{
+"id": "person:Keziah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ketsia"
 }
 ]
 }
@@ -82670,18 +82670,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
@@ -82708,18 +82708,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Job"
 }
 ]
 }
