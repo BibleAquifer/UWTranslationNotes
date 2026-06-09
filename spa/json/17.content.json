@@ -43,18 +43,18 @@
 "preferred_label": "Assuero"
 },
 {
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Persas"
+},
+{
 "id": "group:Persia",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "persa"
-},
-{
-"id": "group:Mede",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Media"
 },
 {
 "id": "person:Medan",
@@ -64,11 +64,11 @@
 "preferred_label": "Medos"
 },
 {
-"id": "place:Persia",
-"type": "place",
+"id": "group:Mede",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Persas"
+"preferred_label": "Media"
 }
 ]
 }
@@ -134,11 +134,11 @@
 ],
 "acai": [
 {
-"id": "person:Kish.4",
+"id": "person:Jair.4",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Cis"
+"preferred_label": "Jair"
 },
 {
 "id": "person:Mordecai.2",
@@ -148,13 +148,6 @@
 "preferred_label": "Mardochêo"
 },
 {
-"id": "person:Jair.4",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Jair"
-},
-{
 "id": "person:Shimei.18",
 "type": "person",
 "confidence": 0.8,
@@ -162,15 +155,29 @@
 "preferred_label": "Semei"
 },
 {
-"id": "person:Benjamin",
+"id": "person:Kish.4",
 "type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cis"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Benjamín"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Benjamín"
@@ -181,13 +188,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Susán"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jews"
 }
 ]
 }
@@ -366,7 +366,7 @@
 {
 "reference_id": 26687,
 "content_id": 727916,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "Conocimiento asumido e información implícita",
 "language": "spa"
 }
@@ -458,7 +458,7 @@
 {
 "reference_id": 26680,
 "content_id": 727909,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "Doblete",
 "language": "spa"
 }
@@ -510,13 +510,6 @@
 "preferred_label": "Amán"
 },
 {
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Assuero"
-},
-{
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.6,
@@ -529,6 +522,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jews"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Assuero"
 }
 ]
 }
@@ -740,7 +740,7 @@
 {
 "reference_id": 26687,
 "content_id": 727916,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "Conocimiento asumido e información implícita",
 "language": "spa"
 }
@@ -786,7 +786,7 @@
 {
 "reference_id": 26687,
 "content_id": 727916,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "Conocimiento asumido e información implícita",
 "language": "spa"
 }

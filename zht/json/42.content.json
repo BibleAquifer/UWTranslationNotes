@@ -385,11 +385,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Herod",
+"id": "person:Abijah.6",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Herod"
+"preferred_label": "Abijah"
 },
 {
 "id": "person:Elizabeth",
@@ -406,11 +406,11 @@
 "preferred_label": "Zechariah"
 },
 {
-"id": "person:Abijah.6",
+"id": "person:Herod",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Abijah"
+"preferred_label": "Herod"
 },
 {
 "id": "place:Judea",
@@ -420,18 +420,18 @@
 "preferred_label": "Judea"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Aaron"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Name"
 }
 ]
 }
@@ -33578,7 +33578,7 @@
 "index_reference": "42008033",
 "language": "zht",
 "review_level": "None",
-"content": "<p><strong>「〔然後〕（譯註：和合本未譯出此連接詞）</strong><span><strong>鬼就從那人出來</strong></span><strong>」</strong></p><p><strong>然後</strong>這個術語可能意味著鬼從那人身上出來，是因為耶穌告訴牠們可以進入豬群。你可以像某些英文譯本那樣，以<strong>因此</strong>這個詞開始這句話，以顯示這一點。</p><p>見：<span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">連接-因果關係</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐξελθόντα δὲ τὰ δαιμόνια</span></strong></p><p><strong>「〔然後〕（譯註：和合本未譯出此連接詞）</strong><span><strong>鬼就從那人出來</strong></span><strong>」</strong></p><p><strong>然後</strong>這個術語可能意味著鬼從那人身上出來，是因為耶穌告訴牠們可以進入豬群。你可以像某些英文譯本那樣，以<strong>因此</strong>這個詞開始這句話，以顯示這一點。</p><p>見：<span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">連接-因果關係</span></p>",
 "associations": {
 "passage": [
 {
@@ -33597,7 +33597,29 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Pig"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Jackal"
+}
+]
 }
 },
 {
