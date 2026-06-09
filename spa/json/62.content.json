@@ -35,25 +35,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "andar"
 },
 {
 "id": "keyterm:Ought",
@@ -63,11 +49,25 @@
 "preferred_label": "deber"
 },
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "andar"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "verdadero"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "amar"
 }
 ]
 }
@@ -95,7 +95,7 @@
 {
 "reference_id": 26696,
 "content_id": 727925,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "Situaciones hipotéticas",
 "language": "spa"
 },
@@ -155,18 +155,11 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dar testimonio"
+"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Truth",
@@ -176,6 +169,13 @@
 "preferred_label": "fidelidad"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
 "id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.6,
@@ -183,11 +183,11 @@
 "preferred_label": "sangre"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:BearWitness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "dar testimonio"
 }
 ]
 }

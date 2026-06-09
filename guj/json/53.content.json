@@ -105,7 +105,7 @@
 {
 "reference_id": 26681,
 "content_id": 884180,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "અનુક્ત શબ્દ (વાક્યમાં કરેલો શબ્દનો લોપ)",
 "language": "guj"
 }
@@ -136,7 +136,7 @@
 {
 "reference_id": 26687,
 "content_id": 884186,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "અનુમાનિત જ્ઞાન અને ગર્ભિત માહિતી",
 "language": "guj"
 }
@@ -167,7 +167,7 @@
 {
 "reference_id": 26706,
 "content_id": 884206,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "રૂપક",
 "language": "guj"
 }
@@ -523,7 +523,7 @@
 {
 "reference_id": 26723,
 "content_id": 884220,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "સ્વવાચક સર્વનામો",
 "language": "guj"
 }
@@ -1476,7 +1476,7 @@
 {
 "reference_id": 26672,
 "content_id": 884173,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "﻿﻿સક્રિય (પ્રત્યક્ષ) અથવા નિષ્ક્રિય (પરોક્ષ)",
 "language": "guj"
 }
@@ -1600,7 +1600,7 @@
 {
 "reference_id": 26671,
 "content_id": 884172,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "﻿﻿﻿અમૂર્ત નામો",
 "language": "guj"
 }
@@ -1786,7 +1786,7 @@
 {
 "reference_id": 26681,
 "content_id": 884180,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "અનુક્ત શબ્દ (વાક્યમાં કરેલો શબ્દનો લોપ)",
 "language": "guj"
 }
@@ -4100,25 +4100,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Good",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "Hope"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Ask for"
 },
 {
 "id": "deity:Lord",
@@ -4126,6 +4119,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 },
 {
 "id": "person:Jesus.2",
@@ -4142,18 +4142,18 @@
 "preferred_label": "Always"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Ask for"
+"preferred_label": "Good"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Hope"
+"preferred_label": "Love"
 }
 ]
 }
@@ -4452,7 +4452,7 @@
 {
 "reference_id": 26685,
 "content_id": 884184,
-"resource_code": "Unknown",
+"resource_code": "UWTranslationNotes",
 "label": "વિશિષ્ટ અને સમાવેશક “અમે”",
 "language": "guj"
 }
@@ -4939,6 +4939,20 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Live"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
@@ -4951,20 +4965,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Teaching"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Live"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Name"
 }
 ]
 }
