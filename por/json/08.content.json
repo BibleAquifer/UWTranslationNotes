@@ -88,15 +88,15 @@
 "preferred_label": "Belém"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -148,15 +148,15 @@
 "preferred_label": "Belém"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -208,15 +208,15 @@
 "preferred_label": "Belém"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -254,11 +254,11 @@
 ],
 "acai": [
 {
-"id": "group:Ephrathah",
-"type": "group",
+"id": "person:Ephrathah",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Ephrathites"
+"preferred_label": "Efrata"
 },
 {
 "id": "person:Chilion",
@@ -268,6 +268,13 @@
 "preferred_label": "Quiliom"
 },
 {
+"id": "group:Ephrathah",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Ephrathites"
+},
+{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.8,
@@ -275,18 +282,25 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:Ephrathah",
-"type": "person",
-"confidence": 0.8,
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Efrata"
+"preferred_label": "Belém"
 },
 {
-"id": "person:Elimelech",
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elimeleque"
+"preferred_label": "Judá"
 },
 {
 "id": "person:Mahlon",
@@ -303,25 +317,11 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -356,18 +356,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -546,11 +546,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -560,11 +560,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -599,11 +599,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -613,11 +613,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -644,11 +644,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -658,11 +658,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -697,11 +697,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -711,11 +711,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -750,11 +750,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -764,11 +764,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -803,11 +803,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -817,11 +817,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -856,11 +856,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Appoint",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Appoint"
 },
 {
 "id": "deity:Lord",
@@ -870,11 +870,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -901,15 +901,15 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -939,18 +939,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -992,18 +992,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -1037,18 +1037,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -1082,18 +1082,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -1135,18 +1135,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -1188,18 +1188,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -1241,18 +1241,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "kindness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -3193,6 +3193,13 @@
 ],
 "acai": [
 {
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3205,13 +3212,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
 },
 {
 "id": "person:Naomi",
@@ -3260,6 +3260,13 @@
 ],
 "acai": [
 {
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3272,13 +3279,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
 },
 {
 "id": "person:Naomi",
@@ -3327,6 +3327,13 @@
 ],
 "acai": [
 {
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3339,13 +3346,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
 },
 {
 "id": "person:Naomi",
@@ -3401,18 +3401,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -3454,18 +3454,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -3507,18 +3507,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -3560,18 +3560,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -3838,18 +3838,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 },
 {
 "id": "flora:Barley",
@@ -3891,18 +3891,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 },
 {
 "id": "flora:Barley",
@@ -3944,13 +3944,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
@@ -3963,6 +3956,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4011,13 +4011,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
@@ -4030,6 +4023,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4078,13 +4078,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
@@ -4097,6 +4090,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4145,13 +4145,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
@@ -4164,6 +4157,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4357,11 +4357,11 @@
 ],
 "acai": [
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -4371,11 +4371,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Barley"
 }
 ]
 }
@@ -4410,11 +4410,11 @@
 ],
 "acai": [
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -4424,11 +4424,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Barley"
 }
 ]
 }
@@ -4455,11 +4455,11 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -4469,11 +4469,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Barley"
 }
 ]
 }
@@ -5216,18 +5216,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -5269,18 +5269,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -5322,18 +5322,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -5784,18 +5784,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -5829,18 +5829,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -5882,18 +5882,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6089,18 +6089,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -6135,18 +6135,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -6181,18 +6181,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -6227,18 +6227,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -6273,18 +6273,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -6319,11 +6319,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6333,11 +6333,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6379,11 +6379,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6393,11 +6393,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6439,11 +6439,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6453,11 +6453,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6499,11 +6499,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6513,11 +6513,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6559,11 +6559,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6573,11 +6573,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6619,11 +6619,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6633,11 +6633,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6679,11 +6679,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6693,11 +6693,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6731,11 +6731,11 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -6745,11 +6745,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Naomi",
@@ -6791,18 +6791,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -6837,18 +6837,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -6883,18 +6883,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -7020,18 +7020,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -7073,18 +7073,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -7399,18 +7399,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -7452,18 +7452,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -7505,18 +7505,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -7558,18 +7558,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -8202,11 +8202,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -8216,11 +8216,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -8255,11 +8255,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -8269,11 +8269,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -8308,11 +8308,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -8322,11 +8322,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -8361,11 +8361,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -8375,11 +8375,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -8414,11 +8414,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "kindness"
 },
 {
 "id": "keyterm:Bless",
@@ -8428,11 +8428,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -9787,18 +9787,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -10080,18 +10080,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -10147,18 +10147,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -10214,18 +10214,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -10273,18 +10273,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -10340,18 +10340,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -10407,18 +10407,18 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -10895,13 +10895,6 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -10914,6 +10907,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -10962,13 +10962,6 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -10981,6 +10974,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -11021,13 +11021,6 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -11040,6 +11033,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -11074,13 +11074,6 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11093,6 +11086,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11126,13 +11126,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11145,6 +11138,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11186,13 +11186,6 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11205,6 +11198,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11246,13 +11246,6 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11265,6 +11258,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11306,13 +11306,6 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11325,6 +11318,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11366,13 +11366,6 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11385,6 +11378,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11418,13 +11418,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -11437,6 +11430,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
@@ -11485,18 +11485,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11506,6 +11499,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11513,11 +11513,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11559,18 +11559,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11580,6 +11573,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11587,11 +11587,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11633,18 +11633,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11654,6 +11647,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11661,11 +11661,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11707,18 +11707,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11728,6 +11721,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11735,11 +11735,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11781,18 +11781,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11802,6 +11795,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11809,11 +11809,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11855,18 +11855,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11876,6 +11869,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11883,11 +11883,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11929,18 +11929,11 @@
 "preferred_label": "Lia"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
 },
 {
 "id": "place:Bethlehem",
@@ -11950,6 +11943,13 @@
 "preferred_label": "Belém"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11957,11 +11957,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Rachel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Raquel"
+"preferred_label": "Elders"
 }
 ]
 }
@@ -11996,18 +11996,18 @@
 ],
 "acai": [
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "person:Tamar",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Tamar"
 },
 {
 "id": "person:Judah.4",
@@ -12024,11 +12024,11 @@
 "preferred_label": "Perez"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Tamar",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Tamar"
 }
 ]
 }
@@ -12063,18 +12063,18 @@
 ],
 "acai": [
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "person:Tamar",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Tamar"
 },
 {
 "id": "person:Judah.4",
@@ -12091,11 +12091,11 @@
 "preferred_label": "Perez"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Tamar",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Tamar"
 }
 ]
 }
@@ -12296,6 +12296,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12308,13 +12315,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
 },
 {
 "id": "person:Naomi",
@@ -12363,6 +12363,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12375,13 +12382,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
 },
 {
 "id": "person:Naomi",
@@ -12430,6 +12430,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12442,13 +12449,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
 },
 {
 "id": "person:Naomi",
@@ -12497,6 +12497,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12509,13 +12516,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
 },
 {
 "id": "person:Naomi",
@@ -12564,6 +12564,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12576,13 +12583,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
 },
 {
 "id": "person:Naomi",
@@ -12850,13 +12850,6 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.8,
@@ -12864,11 +12857,11 @@
 "preferred_label": "Obede"
 },
 {
-"id": "person:David",
+"id": "person:Naomi",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Jesse",
@@ -12876,6 +12869,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -12910,13 +12910,6 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.8,
@@ -12924,11 +12917,11 @@
 "preferred_label": "Obede"
 },
 {
-"id": "person:David",
+"id": "person:Naomi",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Jesse",
@@ -12936,6 +12929,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -12970,13 +12970,6 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.8,
@@ -12984,11 +12977,11 @@
 "preferred_label": "Obede"
 },
 {
-"id": "person:David",
+"id": "person:Naomi",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Jesse",
@@ -12996,6 +12989,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13030,13 +13030,6 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.8,
@@ -13044,11 +13037,11 @@
 "preferred_label": "Obede"
 },
 {
-"id": "person:David",
+"id": "person:Naomi",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Jesse",
@@ -13056,6 +13049,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13090,13 +13090,6 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.8,
@@ -13104,11 +13097,11 @@
 "preferred_label": "Obede"
 },
 {
-"id": "person:David",
+"id": "person:Naomi",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Jesse",
@@ -13116,6 +13109,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13302,18 +13302,18 @@
 "preferred_label": "Aminadabe"
 },
 {
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Naassom"
-},
-{
 "id": "person:Salmon",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salmom"
+},
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Naassom"
 }
 ]
 }
@@ -13348,11 +13348,11 @@
 ],
 "acai": [
 {
-"id": "person:Obed",
+"id": "person:Jesse",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Obede"
+"preferred_label": "Jessé"
 },
 {
 "id": "person:David",
@@ -13362,11 +13362,11 @@
 "preferred_label": "Davi"
 },
 {
-"id": "person:Jesse",
+"id": "person:Obed",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jessé"
+"preferred_label": "Obede"
 }
 ]
 }
