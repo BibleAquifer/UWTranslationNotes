@@ -35,18 +35,25 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "deber"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "amar"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "deber"
 },
 {
 "id": "keyterm:Live.3",
@@ -61,13 +68,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "verdadero"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "amar"
 }
 ]
 }
@@ -109,18 +109,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amar"
 }
 ]
 }
@@ -134,7 +134,7 @@
 "index_reference": "62005006",
 "language": "spa",
 "review_level": "None",
-"content": "<p><strong>&quot;por agua y sangre&quot;</strong></p><p>Juan utiliza una metáfora que representa el <strong>agua y la sangre</strong> como medio por el cual Jesús llega hasta nosotros, o Jesús viniendo a nosotros a través del agua y de la sangre. El significado puede ser: (1) Jesús se convirtió en nuestro Salvador al recibir el bautismo en agua y someterse a la muerte en la cruz; traducción alternativa: &quot;como nuestro Salvador, al recibir el bautismo y la muerte&quot;, o (2) Jesús se convirtió en nuestro Salvador al nacer como ser humano y someterse a la muerte en la cruz. Traducción alternativa: &quot;como nuestro Salvador, al pasar por el nacimiento humano y la muerte&quot;.</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>δι’ ὕδατος καὶ αἵματος</span></strong></p><p><strong>&quot;por agua y sangre&quot;</strong></p><p>Juan utiliza una metáfora que representa el <strong>agua y la sangre</strong> como medio por el cual Jesús llega hasta nosotros, o Jesús viniendo a nosotros a través del agua y de la sangre. El significado puede ser: (1) Jesús se convirtió en nuestro Salvador al recibir el bautismo en agua y someterse a la muerte en la cruz; traducción alternativa: &quot;como nuestro Salvador, al recibir el bautismo y la muerte&quot;, o (2) Jesús se convirtió en nuestro Salvador al nacer como ser humano y someterse a la muerte en la cruz. Traducción alternativa: &quot;como nuestro Salvador, al pasar por el nacimiento humano y la muerte&quot;.</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora</span></p>",
 "associations": {
 "passage": [
 {
@@ -155,25 +155,11 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "dar testimonio"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "sangre"
 },
 {
 "id": "deity:HolySpirit",
@@ -188,6 +174,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fidelidad"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "sangre"
 }
 ]
 }
