@@ -14789,18 +14789,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "love"
 }
 ]
 }
@@ -17162,7 +17162,7 @@
 "index_reference": "62005006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>com a água do seu batismo e com o sangue da sua morte</strong></span><strong>&quot;.</strong></p><p>Uma tradução mais literal dirá apenas: <strong>por água e sangue</strong>. João está usando uma metáfora que retrata <strong>água e sangue</strong> como meios pelos quais Jesus é transmitido a nós ou vem a nós através da água e do sangue. O significado é: (1) Jesus tornou-se nosso Salvador ao ser batizado nas águas e submeter-se à morte na cruz, Tradução alternativa: &quot;como nosso Salvador, passando pelo batismo e pela morte&quot;, (2) Jesus tornou-se nosso Salvador ao experimentar o nascimento humano e submeter-se à morte na cruz. Tradução alternativa: &quot;como nosso Salvador, passando pelo nascimento e morte humana&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>δι’ ὕδατος καὶ αἵματος</span></strong></p><p><strong>&quot;</strong><span><strong>com a água do seu batismo e com o sangue da sua morte</strong></span><strong>&quot;.</strong></p><p>Uma tradução mais literal dirá apenas: <strong>por água e sangue</strong>. João está usando uma metáfora que retrata <strong>água e sangue</strong> como meios pelos quais Jesus é transmitido a nós ou vem a nós através da água e do sangue. O significado é: (1) Jesus tornou-se nosso Salvador ao ser batizado nas águas e submeter-se à morte na cruz, Tradução alternativa: &quot;como nosso Salvador, passando pelo batismo e pela morte&quot;, (2) Jesus tornou-se nosso Salvador ao experimentar o nascimento humano e submeter-se à morte na cruz. Tradução alternativa: &quot;como nosso Salvador, passando pelo nascimento e morte humana&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -17183,25 +17183,11 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "testemunhar"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "sangue"
 },
 {
 "id": "deity:HolySpirit",
@@ -17216,6 +17202,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Truth"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "sangue"
 }
 ]
 }

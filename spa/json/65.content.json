@@ -29,6 +29,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
 "id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.6,
@@ -36,11 +43,11 @@
 "preferred_label": "profetizar"
 },
 {
-"id": "person:Enoch.2",
-"type": "person",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Henoch"
+"preferred_label": "santo"
 },
 {
 "id": "person:Adam",
@@ -50,18 +57,11 @@
 "preferred_label": "Adam"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Enoch.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "Henoch"
 }
 ]
 }
