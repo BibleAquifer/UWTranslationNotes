@@ -4100,32 +4100,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
 },
 {
 "id": "person:Jesus.2",
@@ -4135,13 +4121,6 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4149,11 +4128,32 @@
 "preferred_label": "Hope"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
@@ -4946,11 +4946,11 @@
 "preferred_label": "Name"
 },
 {
-"id": "keyterm:Live.3",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Live"
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Teaching",
@@ -4960,11 +4960,11 @@
 "preferred_label": "Teaching"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Live.3",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Live"
 }
 ]
 }

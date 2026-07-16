@@ -385,6 +385,13 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Zechariah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Zechariah"
+},
+{
 "id": "person:Herod",
 "type": "person",
 "confidence": 0.8,
@@ -399,25 +406,11 @@
 "preferred_label": "Abijah"
 },
 {
-"id": "person:Zechariah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Zechariah"
-},
-{
 "id": "person:Elizabeth",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Elizabeth"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judea"
 },
 {
 "id": "keyterm:Name",
@@ -432,6 +425,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Aaron"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judea"
 }
 ]
 }
@@ -25256,18 +25256,18 @@
 "preferred_label": "Storeroom"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Good"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Heart"
 }
 ]
 }
@@ -33606,18 +33606,18 @@
 "preferred_label": "Demons"
 },
 {
-"id": "fauna:Pig",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Pig"
-},
-{
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Jackal"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Pig"
 }
 ]
 }
