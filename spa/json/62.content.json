@@ -35,18 +35,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "andar"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "deber"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "verdadero"
 },
 {
 "id": "deity:Lord",
@@ -63,11 +63,11 @@
 "preferred_label": "amar"
 },
 {
-"id": "keyterm:True",
+"id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "verdadero"
+"preferred_label": "andar"
 }
 ]
 }
@@ -155,6 +155,20 @@
 ],
 "acai": [
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
 "id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.6,
@@ -167,20 +181,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "dar testimonio"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Truth",
