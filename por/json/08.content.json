@@ -119,13 +119,6 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -138,6 +131,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Belém"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
 }
 ]
 }
@@ -179,13 +179,6 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -198,6 +191,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Belém"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
 }
 ]
 }
@@ -239,13 +239,6 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -258,6 +251,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Belém"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
 }
 ]
 }
@@ -299,6 +299,13 @@
 "preferred_label": "Quiliom"
 },
 {
+"id": "person:Ephrathah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Efrata"
+},
+{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.8,
@@ -313,11 +320,25 @@
 "preferred_label": "Ephrathites"
 },
 {
-"id": "person:Ephrathah",
+"id": "person:Elimelech",
 "type": "person",
-"confidence": 0.8,
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Efrata"
+"preferred_label": "Elimeleque"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Malom"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "person:Judah.4",
@@ -334,32 +355,11 @@
 "preferred_label": "Judá"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Belém"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
 }
 ]
 }
@@ -373,7 +373,7 @@
 "index_reference": "08001003",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׁאֵ֥ר הִ֖יא וּ⁠שְׁנֵ֥י בָנֶֽי⁠הָ</span></p><p><strong>&quot;e Noemi ficou com os dois filhos&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “Noemi e seus dois filhos permaneceram em Moabe sem ele”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
+"content": "<p><strong>&quot;e Noemi ficou com os dois filhos&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “Noemi e seus dois filhos permaneceram em Moabe sem ele”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -392,22 +392,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -419,7 +404,7 @@
 "index_reference": "08001004",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׂא֣וּ לָ⁠הֶ֗ם נָשִׁים֙</span></p><p><strong>&quot;que casaram com moças&quot;.</strong></p><p>No texto original, existe a expressão &quot;tomaram esposas para si&quot; é uma maneira de dizer que eles se casaram com mulheres. Eles não tomaram mulheres à força nem se casaram com mulheres que já eram casadas com outros homens.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><strong>&quot;que casaram com moças&quot;.</strong></p><p>No texto original, existe a expressão &quot;tomaram esposas para si&quot; é uma maneira de dizer que eles se casaram com mulheres. Eles não tomaram mulheres à força nem se casaram com mulheres que já eram casadas com outros homens.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -438,29 +423,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Orpah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Orfa"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -472,7 +435,7 @@
 "index_reference": "08001004",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>שֵׁ֤ם הָֽ⁠אַחַת֙ עָרְפָּ֔ה וְ⁠שֵׁ֥ם הַ⁠שֵּׁנִ֖ית ר֑וּת</span></p><p><strong>&quot;O nome de uma delas era Orfa, e o da outra, Rute&quot;.</strong></p><p>Se o seu idioma precisar distinguir qual mulher se casou com qual filho, você pode dizer que Orfa se casou com Quiliom e que Rute se casou com Malom. Tradução alternativa: &quot;o nome da mulher que se casou com Quiliom era Orfa, e o nome da mulher que se casou com Malom era Rute&quot;.</p>",
+"content": "<p><strong>&quot;O nome de uma delas era Orfa, e o da outra, Rute&quot;.</strong></p><p>Se o seu idioma precisar distinguir qual mulher se casou com qual filho, você pode dizer que Orfa se casou com Quiliom e que Rute se casou com Malom. Tradução alternativa: &quot;o nome da mulher que se casou com Quiliom era Orfa, e o nome da mulher que se casou com Malom era Rute&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -483,29 +446,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Orpah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Orfa"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -517,7 +458,7 @@
 "index_reference": "08001005",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׁאֵר֙ הָֽ⁠אִשָּׁ֔ה מִ⁠שְּׁנֵ֥י יְלָדֶ֖י⁠הָ וּ⁠מֵ⁠אִישָֽׁ⁠הּ</span></p><p><strong>&quot;E Noemi ficou só, sem os filhos e sem o marido&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “e a mulher estava sozinha, sem o marido ou os dois filhos” ou &quot;e Noemi foi deixada viúva e sem filhos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
+"content": "<p><strong>&quot;E Noemi ficou só, sem os filhos e sem o marido&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “e a mulher estava sozinha, sem o marido ou os dois filhos” ou &quot;e Noemi foi deixada viúva e sem filhos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -536,22 +477,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Chilion",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Quiliom"
-},
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-}
-]
+"acai": []
 }
 },
 {
@@ -563,7 +489,7 @@
 "index_reference": "08001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תָּ֤קָם הִיא֙ וְ⁠כַלֹּתֶ֔י⁠הָ וַ⁠תָּ֖שָׁב</span></p><p><strong>&quot;Então ela se aprontou para sair de Moabe com as suas noras&quot;.</strong></p><p>Esta parte da frase constitui um resumo introdutório do que ocorrerá na seção seguinte. Não relata eventos na linha do tempo da história. Se o seu idioma não utiliza resumos introdutórios como este, você pode traduzir essas ações como eventos. Tradução alternativa: “Então ela, junto com suas noras, preparou-se para voltar”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
+"content": "<p><strong>&quot;Então ela se aprontou para sair de Moabe com as suas noras&quot;.</strong></p><p>Esta parte da frase constitui um resumo introdutório do que ocorrerá na seção seguinte. Não relata eventos na linha do tempo da história. Se o seu idioma não utiliza resumos introdutórios como este, você pode traduzir essas ações como eventos. Tradução alternativa: “Então ela, junto com suas noras, preparou-se para voltar”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
 "associations": {
 "passage": [
 {
@@ -582,29 +508,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-}
-]
+"acai": []
 }
 },
 {
@@ -644,18 +548,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
 }
 ]
 }
@@ -680,29 +584,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-}
-]
+"acai": []
 }
 },
 {
@@ -714,7 +596,7 @@
 "index_reference": "08001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כִּ֤י שָֽׁמְעָה֙ בִּ⁠שְׂדֵ֣ה מוֹאָ֔ב כִּֽי־פָקַ֤ד יְהוָה֙ אֶת־עַמּ֔⁠וֹ לָ⁠תֵ֥ת לָ⁠הֶ֖ם לָֽחֶם</span></p><p><strong>&quot; &quot;.</strong></p><p>Noemi primeiro ouviu falar que Yahweh havia visitado seu povo e então decidiu retornar a Belém. Portanto, pode ser mais natural colocar essa informação primeiro, como no NTLH.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
+"content": "<p><strong>&quot; &quot;.</strong></p><p>Noemi primeiro ouviu falar que Yahweh havia visitado seu povo e então decidiu retornar a Belém. Portanto, pode ser mais natural colocar essa informação primeiro, como no NTLH.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
 "associations": {
 "passage": [
 {
@@ -733,29 +615,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-}
-]
+"acai": []
 }
 },
 {
@@ -767,7 +627,7 @@
 "index_reference": "08001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>שָֽׁמְעָה֙ בִּ⁠שְׂדֵ֣ה מוֹאָ֔ב</span></p><p><strong>&quot;Noemi soube que o Senhor tinha ajudado o seu povo&quot;.</strong></p><p>Está implícito que a notícia veio de Israel. Tradução alternativa: “enquanto ela estava na região de Moabe, ouviu de alguém que veio de Israel”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;Noemi soube que o Senhor tinha ajudado o seu povo&quot;.</strong></p><p>Está implícito que a notícia veio de Israel. Tradução alternativa: “enquanto ela estava na região de Moabe, ouviu de alguém que veio de Israel”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -786,29 +646,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-}
-]
+"acai": []
 }
 },
 {
@@ -820,7 +658,7 @@
 "index_reference": "08001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>פָקַ֤ד & אֶת־עַמּ֔⁠וֹ</span></p><p><strong>&quot;tinha ajudado o seu povo&quot;.</strong></p><p>No texto original, existe o termo &quot;visitado&quot;, o qual refere-se à &quot;cuidado&quot;. Se essa frase não tiver esse significado em seu idioma, você pode usar uma expressão que tenha esse significado ou declarar o significado de forma clara. Tradução alternativa: &quot;tinha aliviado a fome de seu povo&quot; ou &quot;tinha atendido seu povo&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>פָקַ֤ד &amp; אֶת־עַמּ֔⁠וֹ</span></p><p><strong>&quot;tinha ajudado o seu povo&quot;.</strong></p><p>No texto original, existe o termo &quot;visitado&quot;, o qual refere-se à &quot;cuidado&quot;. Se essa frase não tiver esse significado em seu idioma, você pode usar uma expressão que tenha esse significado ou declarar o significado de forma clara. Tradução alternativa: &quot;tinha aliviado a fome de seu povo&quot; ou &quot;tinha atendido seu povo&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -848,18 +686,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
 }
 ]
 }
@@ -901,18 +739,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
 }
 ]
 }
@@ -937,22 +775,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-}
-]
+"acai": []
 }
 },
 {
@@ -975,29 +798,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -1009,7 +810,7 @@
 "index_reference": "08001008",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה</span></p><p><strong>&quot;Voltem para casa e fiquem&quot;.</strong></p><p>Como Noemi está falando com duas pessoas, a forma de tratamento seria dual aqui, se o seu idioma utilizar essa forma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26733\" data-resourceType=\"UWTranslationManual\">Formas de ‘você’ — Dual/plural.</span></p>",
+"content": "<p><strong>&quot;Voltem para casa e fiquem&quot;.</strong></p><p>Como Noemi está falando com duas pessoas, a forma de tratamento seria dual aqui, se o seu idioma utilizar essa forma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26733\" data-resourceType=\"UWTranslationManual\">Formas de ‘você’ — Dual/plural.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1028,29 +829,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -1062,7 +841,7 @@
 "index_reference": "08001008",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה לְ⁠בֵ֣ית אִמָּ֑⁠הּ</span></p><p><strong>&quot;Voltem para casa e fiquem com as suas mães&quot;.</strong></p><p>Se este costume parecer estranho para seus leitores, você pode incluir uma nota de rodapé para explicá-lo, como: “De acordo com o costume dos antigos hebreus, uma jovem viúva poderia permanecer com a família de seu falecido marido ou voltar a viver com seus pais até se casar novamente”.</p>",
+"content": "<p><strong>&quot;Voltem para casa e fiquem com as suas mães&quot;.</strong></p><p>Se este costume parecer estranho para seus leitores, você pode incluir uma nota de rodapé para explicá-lo, como: “De acordo com o costume dos antigos hebreus, uma jovem viúva poderia permanecer com a família de seu falecido marido ou voltar a viver com seus pais até se casar novamente”.</p>",
 "associations": {
 "passage": [
 {
@@ -1073,29 +852,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -1118,29 +875,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -1152,7 +887,7 @@
 "index_reference": "08001008",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>יעשה יְהוָ֤ה עִמָּ⁠כֶם֙ חֶ֔סֶד כַּ⁠אֲשֶׁ֧ר עֲשִׂיתֶ֛ם עִם־הַ⁠מֵּתִ֖ים וְ⁠עִמָּדִֽ⁠י</span></p><p><strong>&quot;Que o Senhor seja bom para vocês, assim como vocês foram boas para mim e para os falecidos!&quot;.</strong></p><p>Noemi está pedindo a Deus para abençoar Orfa e Rute. Use uma forma natural de bênção em seu idioma. Tradução alternativa: “Eu oro para que Yahweh mostre a vocês fidelidade à aliança, assim como vocês mostraram aos falecidos e a mim”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
+"content": "<p><strong>&quot;Que o Senhor seja bom para vocês, assim como vocês foram boas para mim e para os falecidos!&quot;.</strong></p><p>Noemi está pedindo a Deus para abençoar Orfa e Rute. Use uma forma natural de bênção em seu idioma. Tradução alternativa: “Eu oro para que Yahweh mostre a vocês fidelidade à aliança, assim como vocês mostraram aos falecidos e a mim”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1171,29 +906,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -1330,15 +1043,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -1428,7 +1133,7 @@
 "index_reference": "08001009",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּשֶּׂ֥אנָה קוֹלָ֖⁠ן וַ⁠תִּבְכֶּֽינָה</span></p><p><strong>&quot;Porém elas começaram a chorar alto&quot;.</strong></p><p>No texto original, é usado o termo &quot;levantar a voz&quot; é uma expressão para falar ou chorar em voz alta. Tradução alternativa: “e eles choraram amargamente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><strong>&quot;Porém elas começaram a chorar alto&quot;.</strong></p><p>No texto original, é usado o termo &quot;levantar a voz&quot; é uma expressão para falar ou chorar em voz alta. Tradução alternativa: “e eles choraram amargamente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1447,15 +1152,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -1560,7 +1257,7 @@
 "index_reference": "08001010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אִתָּ֥⁠ךְ</span></p><p><strong>&quot;com a senhora&quot;.</strong></p><p>No texto original, existe a palavra &quot;você&quot;, a qual está no singular aqui porque se refere a Noemi.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">Formas de &apos;você&apos; — Singular.</span></p>",
+"content": "<p><strong>&quot;com a senhora&quot;.</strong></p><p>No texto original, existe a palavra &quot;você&quot;, a qual está no singular aqui porque se refere a Noemi.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">Formas de &apos;você&apos; — Singular.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1700,7 +1397,7 @@
 "index_reference": "08001011",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הַֽ⁠עֽוֹד־לִ֤⁠י בָנִים֙ בְּֽ⁠מֵעַ֔⁠י וְ⁠הָי֥וּ לָ⁠כֶ֖ם לַ⁠אֲנָשִֽׁים</span></p><p><strong>&quot;Vocês acham que eu ainda poderei ter filhos para casarem com vocês?&quot;.</strong></p><p>Noemi está usando a forma de pergunta para enfatizar que ela não pode ter outros filhos para as jovens se casarem. Se você não usaria a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Vocês sabem que eu não posso ter mais filhos que poderiam se tornar seus maridos”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><strong>&quot;Vocês acham que eu ainda poderei ter filhos para casarem com vocês?&quot;.</strong></p><p>Noemi está usando a forma de pergunta para enfatizar que ela não pode ter outros filhos para as jovens se casarem. Se você não usaria a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Vocês sabem que eu não posso ter mais filhos que poderiam se tornar seus maridos”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1719,15 +1416,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -1778,7 +1467,7 @@
 "index_reference": "08001012",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כִּ֤י אָמַ֨רְתִּי֙ יֶשׁ־לִ֣⁠י תִקְוָ֔ה גַּ֣ם הָיִ֤יתִי הַ⁠לַּ֨יְלָה֙ לְ⁠אִ֔ישׁ וְ⁠גַ֖ם יָלַ֥דְתִּי בָנִֽים</span></p><p><strong>&quot;Pois, ainda que eu tivesse esperança de casar outra vez ou mesmo que casasse esta noite e chegasse a ter filhos&quot;. </strong></p><p>Esta pergunta retórica começa aqui e continua no próximo versículo. Noemi usa essa pergunta para enfatizar que ela não pode fornecer outros filhos para elas se casarem. Se você não usaria a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Mesmo que fosse possível que eu pudesse esperar me casar imediatamente e também dar à luz filhos imediatamente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><strong>&quot;Pois, ainda que eu tivesse esperança de casar outra vez ou mesmo que casasse esta noite e chegasse a ter filhos&quot;. </strong></p><p>Esta pergunta retórica começa aqui e continua no próximo versículo. Noemi usa essa pergunta para enfatizar que ela não pode fornecer outros filhos para elas se casarem. Se você não usaria a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Mesmo que fosse possível que eu pudesse esperar me casar imediatamente e também dar à luz filhos imediatamente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1797,15 +1486,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "hope"
-}
-]
+"acai": []
 }
 },
 {
@@ -1828,15 +1509,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "hope"
-}
-]
+"acai": []
 }
 },
 {
@@ -1848,7 +1521,7 @@
 "index_reference": "08001013",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֲ⁠לָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲ⁠לָהֵן֙ תֵּֽעָגֵ֔נָה לְ⁠בִלְתִּ֖י הֱי֣וֹת לְ⁠אִ֑ישׁ</span></p><p><strong>&quot;será que vocês iriam esperar até que eles crescessem para vocês casarem com eles?&quot;.</strong></p><p>Noemi conclui a pergunta retórica que começou no versículo anterior e imediatamente faz outra pergunta retórica que enfatiza o mesmo significado. Tradução alternativa: “Você não esperaria até que eles crescessem para poder se casar com eles. Você precisaria se casar com um marido antes disso”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><strong>&quot;será que vocês iriam esperar até que eles crescessem para vocês casarem com eles?&quot;.</strong></p><p>Noemi conclui a pergunta retórica que começou no versículo anterior e imediatamente faz outra pergunta retórica que enfatiza o mesmo significado. Tradução alternativa: “Você não esperaria até que eles crescessem para poder se casar com eles. Você precisaria se casar com um marido antes disso”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1867,15 +1540,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -1887,7 +1552,7 @@
 "index_reference": "08001013",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֲ⁠לָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲ⁠לָהֵן֙ תֵּֽעָגֵ֔נָה לְ⁠בִלְתִּ֖י הֱי֣וֹת לְ⁠אִ֑ישׁ</span></p><p><strong>&quot;será que vocês iriam esperar até que eles crescessem para vocês casarem com eles?&quot;. </strong></p><p>Esta ideia refere-se ao costume entre os antigos hebreus de que, se um homem casado morresse, um de seus irmãos deveria se casar com a viúva. Veja a introdução para mais explicações. Se for útil, você pode colocar algumas dessas informações em uma nota de rodapé.</p>",
+"content": "<p><strong>&quot;será que vocês iriam esperar até que eles crescessem para vocês casarem com eles?&quot;. </strong></p><p>Esta ideia refere-se ao costume entre os antigos hebreus de que, se um homem casado morresse, um de seus irmãos deveria se casar com a viúva. Veja a introdução para mais explicações. Se for útil, você pode colocar algumas dessas informações em uma nota de rodapé.</p>",
 "associations": {
 "passage": [
 {
@@ -1898,15 +1563,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -1918,7 +1575,7 @@
 "index_reference": "08001013",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מַר־לִ֤⁠י מְאֹד֙</span></p><p><strong>&quot;e isso me deixa muito triste&quot;.</strong></p><p>No texto original, &quot;amargura&quot; é uma metáfora para tristeza. Tradução alternativa: “é uma profunda tristeza para mim”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><strong>&quot;e isso me deixa muito triste&quot;.</strong></p><p>No texto original, &quot;amargura&quot; é uma metáfora para tristeza. Tradução alternativa: “é uma profunda tristeza para mim”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1937,15 +1594,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -1996,7 +1645,7 @@
 "index_reference": "08001013",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>יָצְאָ֥ה בִ֖⁠י יַד־יְהוָֽה</span></p><p><strong>&quot;O Senhor está contra mim&quot;.</strong></p><p>A implicação é que o Senhor foi responsável pelas mortes na família de Noemi. Você pode incluir essa informação se isso for útil para seus leitores. Tradução alternativa: “O Senhor tirou nossos maridos”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;O Senhor está contra mim&quot;.</strong></p><p>A implicação é que o Senhor foi responsável pelas mortes na família de Noemi. Você pode incluir essa informação se isso for útil para seus leitores. Tradução alternativa: “O Senhor tirou nossos maridos”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2015,15 +1664,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -2166,7 +1807,7 @@
 "index_reference": "08001015",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;a sua cunhada&quot;.</strong></p><p>Noemi está usando a expressão <strong>sua cunhada</strong> para se referir a Orfa, a viúva do irmão do falecido marido de Rute. Use o termo natural em seu idioma para se referir a esse relacionamento. Tradução alternativa: &quot;a viúva do irmão do seu marido&quot; ou &quot;Orfa&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">Introdução de novos e antigos participantes.</span></p>",
+"content": "<p><span style='direction: rtl;'>יְבִמְתֵּ֔⁠ךְ</span></p><p><strong>&quot;a sua cunhada&quot;.</strong></p><p>Noemi está usando a expressão <strong>sua cunhada</strong> para se referir a Orfa, a viúva do irmão do falecido marido de Rute. Use o termo natural em seu idioma para se referir a esse relacionamento. Tradução alternativa: &quot;a viúva do irmão do seu marido&quot; ou &quot;Orfa&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">Introdução de novos e antigos participantes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2333,22 +1974,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -2381,18 +2007,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -2406,7 +2032,7 @@
 "index_reference": "08001016",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>עַמֵּ֣⁠ךְ עַמִּ֔⁠י וֵ⁠אלֹהַ֖יִ⁠ךְ אֱלֹהָֽ⁠י</span></p><p><strong>&quot;O seu povo será o meu povo, e o seu Deus será o meu Deus&quot;.</strong></p><p>Com essas frases, Rute se identifica completamente com a cultura e religião de Noemi, uma israelita. O original não possui verbos, então, se o seu idioma requer verbos aqui, escolha os que melhor comuniquem isso, assim como faz a NTLH.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">Elipse.</span></p>",
+"content": "<p><strong>&quot;O seu povo será o meu povo, e o seu Deus será o meu Deus&quot;.</strong></p><p>Com essas frases, Rute se identifica completamente com a cultura e religião de Noemi, uma israelita. O original não possui verbos, então, se o seu idioma requer verbos aqui, escolha os que melhor comuniquem isso, assim como faz a NTLH.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">Elipse.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2425,22 +2051,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -2569,7 +2180,7 @@
 "index_reference": "08001018",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תֶּחְדַּ֖ל לְ⁠דַבֵּ֥ר אֵלֶֽי⁠הָ</span></p><p><strong>&quot;não disse mais nada&quot;.</strong></p><p>Esta frase expressa o resultado da frase anterior. Você pode querer indicar isso usando um conector que introduza um resultado. Tradução alternativa: &quot;então ela parou de falar mais com ela&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
+"content": "<p><strong>&quot;não disse mais nada&quot;.</strong></p><p>Esta frase expressa o resultado da frase anterior. Você pode querer indicar isso usando um conector que introduza um resultado. Tradução alternativa: &quot;então ela parou de falar mais com ela&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2659,18 +2270,18 @@
 "preferred_label": "Women"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
 }
 ]
 }
@@ -2712,18 +2323,18 @@
 "preferred_label": "Women"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
 }
 ]
 }
@@ -2765,18 +2376,18 @@
 "preferred_label": "Women"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
 }
 ]
 }
@@ -2818,18 +2429,18 @@
 "preferred_label": "Women"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
 }
 ]
 }
@@ -2871,18 +2482,18 @@
 "preferred_label": "Women"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Belém"
 }
 ]
 }
@@ -2988,7 +2599,7 @@
 "index_reference": "08001021",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְ⁠רֵיקָ֖ם הֱשִׁיבַ֣⁠נִי יְהוָ֑ה</span></p><p><strong>&quot;Quando saí daqui, eu tinha tudo, mas o Senhor me fez voltar sem nada&quot;.</strong></p><p>Uma tradução mais literal irá dizer: &quot;Quanto a mim, saí cheia, mas o Senhor  me trouxe de volta vazia&quot;. Aqui, Noemi está falando de si mesma como um recipiente que pode estar &quot;cheio&quot; ou &quot;vazio&quot;. Se for útil no seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “Quanto a mim, saí com uma família completa, mas o Senhor me trouxe de volta sozinha”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><strong>&quot;Quando saí daqui, eu tinha tudo, mas o Senhor me fez voltar sem nada&quot;.</strong></p><p>Uma tradução mais literal irá dizer: &quot;Quanto a mim, saí cheia, mas o Senhor  me trouxe de volta vazia&quot;. Aqui, Noemi está falando de si mesma como um recipiente que pode estar &quot;cheio&quot; ou &quot;vazio&quot;. Se for útil no seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “Quanto a mim, saí com uma família completa, mas o Senhor me trouxe de volta sozinha”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3007,22 +2618,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -3080,7 +2676,7 @@
 "index_reference": "08001021",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַֽ⁠יהוָה֙ עָ֣נָה בִ֔⁠י וְ⁠שַׁדַּ֖י הֵ֥רַֽע לִֽ⁠י</span></p><p><strong>&quot;Então, por que me chamar de Feliz, se o Deus Todo-Poderoso me fez sofrer e me deu tanta aflição?&quot;.</strong></p><p>Essas duas declarações expressam a mesma ideia usando palavras diferentes para enfatizar que Deus tornou a vida de Noemi muito difícil. Tanto Deus quanto o Todo-poderoso referem-se a Deus. Se for útil para seus leitores, você pode combinar as declarações para mostrar que a segunda declaração não está trazendo uma ideia nova. Tradução alternativa: “Mas quanto a Yahweh, o Deus todo-poderoso, ele se opôs a mim e me tratou mal”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
+"content": "<p><strong>&quot;Então, por que me chamar de Feliz, se o Deus Todo-Poderoso me fez sofrer e me deu tanta aflição?&quot;.</strong></p><p>Essas duas declarações expressam a mesma ideia usando palavras diferentes para enfatizar que Deus tornou a vida de Noemi muito difícil. Tanto Deus quanto o Todo-poderoso referem-se a Deus. Se for útil para seus leitores, você pode combinar as declarações para mostrar que a segunda declaração não está trazendo uma ideia nova. Tradução alternativa: “Mas quanto a Yahweh, o Deus todo-poderoso, ele se opôs a mim e me tratou mal”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3099,22 +2695,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -3183,22 +2764,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -3210,7 +2776,7 @@
 "index_reference": "08001022",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תָּ֣שָׁב נָעֳמִ֗י וְ⁠ר֨וּת הַ⁠מּוֹאֲבִיָּ֤ה כַלָּתָ⁠הּ֙ עִמָּ֔⁠הּ הַ⁠שָּׁ֖בָה מִ⁠שְּׂדֵ֣י מוֹאָ֑ב</span></p><p><strong>&quot;E foi assim que Noemi voltou de Moabe, com Rute, a sua nora moabita&quot;.</strong></p><p>Esta frase apresenta um breve resumo e conclusão da história até o momento. Não introduz novas informações ou eventos na narrativa. Sua língua pode ter uma forma própria de indicar que este é o fim de uma seção de uma história. Utilize essa forma aqui.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26831\" data-resourceType=\"UWTranslationManual\">Fim da história.</span></p>",
+"content": "<p><strong>&quot;E foi assim que Noemi voltou de Moabe, com Rute, a sua nora moabita&quot;.</strong></p><p>Esta frase apresenta um breve resumo e conclusão da história até o momento. Não introduz novas informações ou eventos na narrativa. Sua língua pode ter uma forma própria de indicar que este é o fim de uma seção de uma história. Utilize essa forma aqui.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26831\" data-resourceType=\"UWTranslationManual\">Fim da história.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3229,43 +2795,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -3277,7 +2807,7 @@
 "index_reference": "08001022",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠הֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּ⁠תְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים</span></p><p><strong>&quot;Elas chegaram a Belém quando a colheita de cevada estava começando&quot;.</strong></p><p>Esta frase fornece informações de pano de fundo para ajudar os leitores a entenderem o que acontece a seguir na história. Na sua tradução, apresente essas informações de uma forma que deixe claro que se trata de informações de contexto.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de pano de fundo.</span></p>",
+"content": "<p><strong>&quot;Elas chegaram a Belém quando a colheita de cevada estava começando&quot;.</strong></p><p>Esta frase fornece informações de pano de fundo para ajudar os leitores a entenderem o que acontece a seguir na história. Na sua tradução, apresente essas informações de uma forma que deixe claro que se trata de informações de contexto.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de pano de fundo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3296,43 +2826,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -3344,7 +2838,7 @@
 "index_reference": "08001022",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בִּ⁠תְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים</span></p><p><strong>&quot;quando a colheita de cevada estava começando&quot;.</strong></p><p>A frase <strong> a colheita de cevada</strong> pode ser traduzida com uma frase verbal se isso for útil em seu idioma. Tradução alternativa: “quando os agricultores estavam apenas começando a colher cevada” ou &quot;quando os agricultores começaram a colher a cevada&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><strong>&quot;quando a colheita de cevada estava começando&quot;.</strong></p><p>A frase <strong> a colheita de cevada</strong> pode ser traduzida com uma frase verbal se isso for útil em seu idioma. Tradução alternativa: “quando os agricultores estavam apenas começando a colher cevada” ou &quot;quando os agricultores começaram a colher a cevada&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3363,43 +2857,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -3449,7 +2907,7 @@
 "index_reference": "08002001",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּֽ⁠לְ⁠נָעֳמִ֞י מוֹדַ֣ע לְ⁠אִישָׁ֗⁠הּ</span></p><p><strong>&quot;Noemi tinha um parente chamado Boaz&quot;.</strong></p><p>O versículo 1 fornece informações de pano de fundo sobre Boaz para que o leitor compreenda quem ele é. Na sua tradução, apresente essas informações de maneira que fique claro que são informações de contexto.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de pano de fundo.</span></p>",
+"content": "<p><strong>&quot;Noemi tinha um parente chamado Boaz&quot;.</strong></p><p>O versículo 1 fornece informações de pano de fundo sobre Boaz para que o leitor compreenda quem ele é. Na sua tradução, apresente essas informações de maneira que fique claro que são informações de contexto.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de pano de fundo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3468,29 +2926,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -3502,7 +2938,7 @@
 "index_reference": "08002001",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּֽ⁠לְ⁠נָעֳמִ֞י מוֹדַ֣ע לְ⁠אִישָׁ֗⁠הּ</span></p><p><strong>&quot;Noemi tinha um parente chamado Boaz&quot;.</strong></p><p>Esta frase apresenta <strong>Boaz</strong> como um novo participante na história. Se o seu idioma tiver uma forma específica de introduzir novos participantes, você pode usá-la aqui na sua tradução.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">Introdução de novos e antigos participantes.</span></p>",
+"content": "<p><strong>&quot;Noemi tinha um parente chamado Boaz&quot;.</strong></p><p>Esta frase apresenta <strong>Boaz</strong> como um novo participante na história. Se o seu idioma tiver uma forma específica de introduzir novos participantes, você pode usá-la aqui na sua tradução.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">Introdução de novos e antigos participantes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3521,29 +2957,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -3682,11 +3096,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Rute"
 },
 {
 "id": "keyterm:Favor",
@@ -3703,11 +3117,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Rute"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -3732,36 +3146,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -3794,11 +3179,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Rute"
 },
 {
 "id": "keyterm:Favor",
@@ -3815,11 +3200,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Rute"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -3854,11 +3239,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "Rute"
 },
 {
 "id": "keyterm:Favor",
@@ -3875,11 +3260,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Rute"
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -3914,18 +3299,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Elimeleque"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 },
 {
 "id": "flora:Barley",
@@ -3967,18 +3352,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Elimeleque"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 },
 {
 "id": "flora:Barley",
@@ -4020,11 +3405,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4034,11 +3419,11 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 },
 {
 "id": "place:Bethlehem",
@@ -4087,11 +3472,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4101,11 +3486,11 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 },
 {
 "id": "place:Bethlehem",
@@ -4154,11 +3539,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4168,11 +3553,11 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 },
 {
 "id": "place:Bethlehem",
@@ -4200,7 +3585,7 @@
 "index_reference": "08002004",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Que o Senhor o abençoe&quot;.</strong></p><p>Esta é uma bênção usada como saudação. Use uma forma para isso que seja natural em seu idioma. Tradução alternativa: &quot;Peço ao Senhor que lhe conceda coisas boas&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
+"content": "<p><span style='direction: rtl;'>יְבָרֶכְ⁠ךָ֥ יְהוָֽה</span></p><p><strong>&quot;Que o Senhor o abençoe&quot;.</strong></p><p>Esta é uma bênção usada como saudação. Use uma forma para isso que seja natural em seu idioma. Tradução alternativa: &quot;Peço ao Senhor que lhe conceda coisas boas&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4221,11 +3606,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Boaz",
@@ -4235,11 +3620,11 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 },
 {
 "id": "place:Bethlehem",
@@ -4267,7 +3652,7 @@
 "index_reference": "08002005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;ao chefe dos trabalhadores&quot;.</strong></p><p>No texto original, &quot;colocado acima&quot; é uma expressão que significa “gerenciando”. Se essa frase não tiver esse significado em seu idioma, você pode usar uma expressão idiomática que tenha esse significado ou declarar o significado de forma clara. Tradução alternativa: &quot;que estava supervisionando&quot; ou &quot;que estava encarregado de&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠נִּצָּ֖ב עַל</span></p><p><strong>&quot;ao chefe dos trabalhadores&quot;.</strong></p><p>No texto original, &quot;colocado acima&quot; é uma expressão que significa “gerenciando”. Se essa frase não tiver esse significado em seu idioma, você pode usar uma expressão idiomática que tenha esse significado ou declarar o significado de forma clara. Tradução alternativa: &quot;que estava supervisionando&quot; ou &quot;que estava encarregado de&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4313,7 +3698,7 @@
 "index_reference": "08002005",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לְ⁠מִ֖י הַ⁠נַּעֲרָ֥ה הַ⁠זֹּֽאת</span></p><p><strong>&quot;Quem é aquela moça ali?&quot;.</strong></p><p>Nessa cultura, as mulheres estavam sob a autoridade de seus parentes masculinos. Boaz estava perguntando quem poderia ser o marido ou pai de Rute. Ele não achava que Rute fosse uma escrava.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">Parentesco.</span></p>",
+"content": "<p><strong>&quot;Quem é aquela moça ali?&quot;.</strong></p><p>Nessa cultura, as mulheres estavam sob a autoridade de seus parentes masculinos. Boaz estava perguntando quem poderia ser o marido ou pai de Rute. Ele não achava que Rute fosse uma escrava.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">Parentesco.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4332,22 +3717,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -4359,7 +3729,7 @@
 "index_reference": "08002006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יַּ֗עַן & וַ⁠יֹּאמַ֑ר</span></p><p><strong>&quot;Ele respondeu&quot;.</strong></p><p>No texto original, existem as duas palavras &quot;respondeu&quot; e &quot;disse&quot;, as quais transmitem a mesma ideia. Se for mais natural em seu idioma, você pode expressar essa ideia de outra forma. Tradução alternativa: “Então… respondeu-lhe dizendo” ou “Então… disse”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26694\" data-resourceType=\"UWTranslationManual\">Hendíade.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּ֗עַן &amp; וַ⁠יֹּאמַ֑ר</span></p><p><strong>&quot;Ele respondeu&quot;.</strong></p><p>No texto original, existem as duas palavras &quot;respondeu&quot; e &quot;disse&quot;, as quais transmitem a mesma ideia. Se for mais natural em seu idioma, você pode expressar essa ideia de outra forma. Tradução alternativa: “Então… respondeu-lhe dizendo” ou “Então… disse”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26694\" data-resourceType=\"UWTranslationManual\">Hendíade.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4412,7 +3782,7 @@
 "index_reference": "08002007",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תֹּ֗אמֶר אֲלַקֳטָה־נָּא֙ וְ⁠אָסַפְתִּ֣י בָֽ⁠עֳמָרִ֔ים אַחֲרֵ֖י הַ⁠קּוֹצְרִ֑ים</span></p><p><strong>&quot;Ela me pediu que a deixasse ir atrás dos trabalhadores, catando as espigas que fossem caindo&quot;.</strong></p><p>Se o seu idioma não usaria uma citação indireta, você pode traduzir para uma citação direta dentro de uma citação direta. Tradução alternativa: “E ela disse: ‘Por favor, deixa-me respigar e recolher entre os feixes de cereal após os ceifeiros”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">Citações dentro de citações.</span></p>",
+"content": "<p><strong>&quot;Ela me pediu que a deixasse ir atrás dos trabalhadores, catando as espigas que fossem caindo&quot;.</strong></p><p>Se o seu idioma não usaria uma citação indireta, você pode traduzir para uma citação direta dentro de uma citação direta. Tradução alternativa: “E ela disse: ‘Por favor, deixa-me respigar e recolher entre os feixes de cereal após os ceifeiros”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">Citações dentro de citações.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4431,29 +3801,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sickle"
-}
-]
+"acai": []
 }
 },
 {
@@ -4493,18 +3841,18 @@
 "preferred_label": "House"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -4529,29 +3877,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sickle"
-}
-]
+"acai": []
 }
 },
 {
@@ -4584,18 +3910,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -4630,18 +3956,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -4861,15 +4187,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -4881,7 +4199,7 @@
 "index_reference": "08002010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּפֹּל֙ עַל־פָּנֶ֔י⁠הָ וַ⁠תִּשְׁתַּ֖חוּ אָ֑רְצָ⁠ה</span></p><p><strong>&quot;Aí Rute ajoelhou-se, encostou o rosto no chão&quot;.</strong></p><p>Estas são duas descrições de uma única ação. O escritor pode estar usando os dois termos juntos para dar ênfase. Se for mais claro para seus leitores, você pode expressar essa ênfase com uma única frase. Tradução alternativa: &quot;Então ela se prostrou diante dele&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\">Dupla.</span></p>",
+"content": "<p><strong>&quot;Aí Rute ajoelhou-se, encostou o rosto no chão&quot;.</strong></p><p>Estas são duas descrições de uma única ação. O escritor pode estar usando os dois termos juntos para dar ênfase. Se for mais claro para seus leitores, você pode expressar essa ênfase com uma única frase. Tradução alternativa: &quot;Então ela se prostrou diante dele&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\">Dupla.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4900,15 +4218,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "favor"
-}
-]
+"acai": []
 }
 },
 {
@@ -4959,7 +4269,7 @@
 "index_reference": "08002010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּפֹּל֙ עַל־פָּנֶ֔י⁠הָ וַ⁠תִּשְׁתַּ֖חוּ אָ֑רְצָ⁠ה</span></p><p><strong>&quot;Aí Rute ajoelhou-se, encostou o rosto no chão&quot;.</strong></p><p>Uma tradução mais literal irá dizer: &quot;caiu de cara&quot;. Essa expressão idiomática significa que ela se curvou com o rosto no chão. Se seus leitores não entenderem isso, você pode explicar o significado de forma clara. Tradução alternativa: &quot;Então ela se curvou, com o rosto no chão”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><strong>&quot;Aí Rute ajoelhou-se, encostou o rosto no chão&quot;.</strong></p><p>Uma tradução mais literal irá dizer: &quot;caiu de cara&quot;. Essa expressão idiomática significa que ela se curvou com o rosto no chão. Se seus leitores não entenderem isso, você pode explicar o significado de forma clara. Tradução alternativa: &quot;Então ela se curvou, com o rosto no chão”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4978,15 +4288,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "favor"
-}
-]
+"acai": []
 }
 },
 {
@@ -4998,7 +4300,7 @@
 "index_reference": "08002010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מַדּוּעַ֩ מָצָ֨אתִי חֵ֤ן בְּ⁠עֵינֶ֨י⁠ךָ֙ לְ⁠הַכִּירֵ֔⁠נִי וְ⁠אָּנֹכִ֖י נָכְרִיָּֽה</span></p><p><strong>&quot;Por que é que o senhor reparou em mim e é tão bom para mim, que sou estrangeira?&quot;.</strong></p><p>A pergunta de Rute expressa surpresa e também declara explicitamente a razão pela qual ela está surpresa com a bondade de Boaz. Isso contrasta com suas expectativas. Use uma maneira natural em seu idioma para introduzir um contraste. Em alguns idiomas, pode ser necessário transformar parte da pergunta dela em uma afirmação. Tradução alternativa: “Por que encontrei favor aos seus olhos? Os israelitas nunca mostram esse tipo de bondade aos moabitas” ou &quot;As pessoas nunca mostram esse tipo de bondade aos estrangeiros&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26743\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de contraste.</span></p>",
+"content": "<p><strong>&quot;Por que é que o senhor reparou em mim e é tão bom para mim, que sou estrangeira?&quot;.</strong></p><p>A pergunta de Rute expressa surpresa e também declara explicitamente a razão pela qual ela está surpresa com a bondade de Boaz. Isso contrasta com suas expectativas. Use uma maneira natural em seu idioma para introduzir um contraste. Em alguns idiomas, pode ser necessário transformar parte da pergunta dela em uma afirmação. Tradução alternativa: “Por que encontrei favor aos seus olhos? Os israelitas nunca mostram esse tipo de bondade aos moabitas” ou &quot;As pessoas nunca mostram esse tipo de bondade aos estrangeiros&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26743\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de contraste.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5017,15 +4319,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "favor"
-}
-]
+"acai": []
 }
 },
 {
@@ -5076,7 +4370,7 @@
 "index_reference": "08002011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Boaz respondeu&quot;.</strong></p><p>No texto original, existe tanto <strong>respondeu</strong> quanto &quot;disse<strong>&quot;, </strong>ambos descrevem a mesma ação. Se for útil em seu idioma, você pode usar apenas um verbo para isso, como no NTLH. Tradução alternativa: &quot;Então Boaz respondeu&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26694\" data-resourceType=\"UWTranslationManual\">Hendíade.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּ֤עַן בֹּ֨עַז֙ וַ⁠יֹּ֣אמֶר</span></p><p><strong>&quot;Boaz respondeu&quot;.</strong></p><p>No texto original, existe tanto <strong>respondeu</strong> quanto &quot;disse<strong>&quot;, </strong>ambos descrevem a mesma ação. Se for útil em seu idioma, você pode usar apenas um verbo para isso, como no NTLH. Tradução alternativa: &quot;Então Boaz respondeu&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26694\" data-resourceType=\"UWTranslationManual\">Hendíade.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5292,13 +4586,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -5311,6 +4598,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Seek Refugue"
 }
 ]
 }
@@ -5345,13 +4639,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -5364,6 +4651,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Seek Refugue"
 }
 ]
 }
@@ -5398,13 +4692,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -5417,6 +4704,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Seek Refugue"
 }
 ]
 }
@@ -5508,7 +4802,7 @@
 "index_reference": "08002013",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>עַל־לֵ֣ב שִׁפְחָתֶ֑⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>falando comigo com tanta bondade</strong></span><strong>&quot;.</strong></p><p>No texto original, Rute está falando sobre si mesma na terceira pessoa. Se isso não for natural em seu idioma, você pode usar a forma de primeira pessoa. Tradução alternativa: “ao coração de mim, sua serva”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">Primeira, segunda ou terceira pessoa.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>falando comigo com tanta bondade</strong></span><strong>&quot;.</strong></p><p>No texto original, Rute está falando sobre si mesma na terceira pessoa. Se isso não for natural em seu idioma, você pode usar a forma de primeira pessoa. Tradução alternativa: “ao coração de mim, sua serva”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">Primeira, segunda ou terceira pessoa.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5527,15 +4821,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "favor"
-}
-]
+"acai": []
 }
 },
 {
@@ -5675,22 +4961,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -5702,7 +4973,7 @@
 "index_reference": "08002014",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>גֹּ֤שִֽׁי הֲלֹם֙ וְ⁠אָכַ֣לְתְּ מִן־הַ⁠לֶּ֔חֶם וְ⁠טָבַ֥לְתְּ פִּתֵּ֖⁠ךְ בַּ⁠חֹ֑מֶץ</span></p><p><strong>&quot;</strong><span><strong>Venha aqui, pegue um pedaço de pão e molhe no vinho</strong></span><strong>&quot;.</strong></p><p>Os verbos nesta frase são imperativos que transmitem um convite gentil em vez de uma ordem. Use uma forma em seu idioma que transmita um convite gentil. Pode ser útil adicionar uma expressão como &quot;por favor&quot; para deixar isso claro. Tradução alternativa: &quot;Por favor, venha e sirva-se do pão e mergulhe-o no vinagre&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26698\" data-resourceType=\"UWTranslationManual\">Imperativos — Outros usos.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Venha aqui, pegue um pedaço de pão e molhe no vinho</strong></span><strong>&quot;.</strong></p><p>Os verbos nesta frase são imperativos que transmitem um convite gentil em vez de uma ordem. Use uma forma em seu idioma que transmita um convite gentil. Pode ser útil adicionar uma expressão como &quot;por favor&quot; para deixar isso claro. Tradução alternativa: &quot;Por favor, venha e sirva-se do pão e mergulhe-o no vinagre&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26698\" data-resourceType=\"UWTranslationManual\">Imperativos — Outros usos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5721,22 +4992,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -5748,7 +5004,7 @@
 "index_reference": "08002014",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠אָכַ֣לְתְּ מִן־הַ⁠לֶּ֔חֶם וְ⁠טָבַ֥לְתְּ פִּתֵּ֖⁠ךְ בַּ⁠חֹ֑מֶץ</span></p><p><strong>&quot;</strong><span><strong>Venha aqui, pegue um pedaço de pão e molhe no vinho</strong></span><strong>&quot;.</strong></p><p>Seria necessário mergulhar o pão e depois comê-lo, então pode ser mais natural em seu idioma colocar a informação sobre mergulhar o pão primeiro. Tradução alternativa: “mergulhe um pouco deste pão no vinagre e coma-o”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Venha aqui, pegue um pedaço de pão e molhe no vinho</strong></span><strong>&quot;.</strong></p><p>Seria necessário mergulhar o pão e depois comê-lo, então pode ser mais natural em seu idioma colocar a informação sobre mergulhar o pão primeiro. Tradução alternativa: “mergulhe um pouco deste pão no vinagre e coma-o”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5767,22 +5023,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -6113,7 +5354,7 @@
 "index_reference": "08002018",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׂא֙ וַ⁠תָּב֣וֹא הָ⁠עִ֔יר</span></p><p><strong>&quot;</strong><span><strong>Pegou a cevada, voltou para a cidade</strong></span><strong>&quot;.</strong></p><p>Está implícito que Rute levou o grão para casa.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Pegou a cevada, voltou para a cidade</strong></span><strong>&quot;.</strong></p><p>Está implícito que Rute levou o grão para casa.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6165,18 +5406,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6190,7 +5431,7 @@
 "index_reference": "08002019",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>יְהִ֥י מַכִּירֵ֖⁠ךְ בָּר֑וּךְ</span></p><p><strong>&quot;</strong><span><strong>Que Deus abençoe o homem que se interessou por você!</strong></span><strong>&quot;.</strong></p><p>Noemi está pedindo a Deus que abençoe Boaz. Você pode expressar isso como uma bênção ou uma oração. Use a forma que for mais natural no seu idioma. Tradução alternativa: “Deus, abençoe aquele que notou Rute hoje”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Que Deus abençoe o homem que se interessou por você!</strong></span><strong>&quot;.</strong></p><p>Noemi está pedindo a Deus que abençoe Boaz. Você pode expressar isso como uma bênção ou uma oração. Use a forma que for mais natural no seu idioma. Tradução alternativa: “Deus, abençoe aquele que notou Rute hoje”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6209,22 +5450,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -6236,7 +5462,7 @@
 "index_reference": "08002019",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>יְהִ֥י מַכִּירֵ֖⁠ךְ בָּר֑וּךְ</span></p><p><strong>&quot;</strong><span><strong>Que Deus abençoe o homem que se interessou por você!</strong></span><strong>&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “Que seja abençoado por Deus, quem te notou”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Que Deus abençoe o homem que se interessou por você!</strong></span><strong>&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “Que seja abençoado por Deus, quem te notou”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6255,22 +5481,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -6303,18 +5514,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Boaz"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6328,7 +5539,7 @@
 "index_reference": "08002019",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תַּגֵּ֣ד לַ⁠חֲמוֹתָ֗⁠הּ אֵ֤ת אֲשֶׁר־עָשְׂתָה֙ עִמּ֔⁠וֹ וַ⁠תֹּ֗אמֶר שֵׁ֤ם הָ⁠אִישׁ֙ אֲשֶׁ֨ר עָשִׂ֧יתִי עִמּ֛⁠וֹ הַ⁠יּ֖וֹם בֹּֽעַז</span></p><p><strong>&quot;</strong><span><strong>Aí Rute contou a Noemi que havia trabalhado na plantação de um homem chamado Boaz</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: &quot;E relatou à sua sogra com quem tinha trabalhado e disse: O nome do homem com quem hoje trabalhei é Boaz&quot;. Essas duas frases têm basicamente o mesmo significado. A segunda frase repete o sentido da primeira, usando palavras diferentes para destacar a importância dessa informação para a história. Se for útil para seus leitores, você pode combinar as frases ou conectá-las de uma forma que mostre que a segunda frase está repetindo a primeira, sem acrescentar algo novo. Tradução alternativa: &quot;Então ela contou à sua sogra que o nome do homem com quem havia trabalhado naquele dia era Boaz&quot; ou &quot;Então ela contou à sua sogra com quem havia trabalhado. Ela disse: &apos;O nome do homem com quem trabalhei hoje é Boaz&apos;&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Aí Rute contou a Noemi que havia trabalhado na plantação de um homem chamado Boaz</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: &quot;E relatou à sua sogra com quem tinha trabalhado e disse: O nome do homem com quem hoje trabalhei é Boaz&quot;. Essas duas frases têm basicamente o mesmo significado. A segunda frase repete o sentido da primeira, usando palavras diferentes para destacar a importância dessa informação para a história. Se for útil para seus leitores, você pode combinar as frases ou conectá-las de uma forma que mostre que a segunda frase está repetindo a primeira, sem acrescentar algo novo. Tradução alternativa: &quot;Então ela contou à sua sogra que o nome do homem com quem havia trabalhado naquele dia era Boaz&quot; ou &quot;Então ela contou à sua sogra com quem havia trabalhado. Ela disse: &apos;O nome do homem com quem trabalhei hoje é Boaz&apos;&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6347,22 +5558,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -6402,13 +5598,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6421,6 +5610,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6462,13 +5658,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6481,6 +5670,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6522,13 +5718,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6541,6 +5730,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6582,13 +5778,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6601,6 +5790,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6642,13 +5838,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6661,6 +5850,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6702,13 +5898,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6721,6 +5910,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6762,13 +5958,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6781,6 +5970,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6814,13 +6010,6 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6833,6 +6022,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Noemi"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -6867,18 +6063,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rute"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 }
 ]
 }
@@ -6892,7 +6088,7 @@
 "index_reference": "08002021",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אָמַ֣ר אֵלַ֗⁠י עִם־הַ⁠נְּעָרִ֤ים אֲשֶׁר־לִ⁠י֙ תִּדְבָּקִ֔י⁠ן עַ֣ד אִם־כִּלּ֔וּ אֵ֥ת כָּל־הַ⁠קָּצִ֖יר אֲשֶׁר־לִֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>ele disse que eu posso continuar trabalhando com os seus empregados até acabar a colheita</strong></span><strong>&quot;.</strong></p><p>No texto original, o autor usa uma citação dentro de outra citação. Se o seu idioma não usa uma citação direta dentro de outra citação direta, você pode traduzir a segunda citação direta como uma citação indireta. Tradução alternativa: “Ele disse que eu deveria ficar perto de seus servos até que eles terminassem toda a colheita deles”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">Citações dentro de citações.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>ele disse que eu posso continuar trabalhando com os seus empregados até acabar a colheita</strong></span><strong>&quot;.</strong></p><p>No texto original, o autor usa uma citação dentro de outra citação. Se o seu idioma não usa uma citação direta dentro de outra citação direta, você pode traduzir a segunda citação direta como uma citação indireta. Tradução alternativa: “Ele disse que eu deveria ficar perto de seus servos até que eles terminassem toda a colheita deles”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">Citações dentro de citações.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6911,22 +6107,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -6938,7 +6119,7 @@
 "index_reference": "08002021",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>עִם־הַ⁠נְּעָרִ֤ים אֲשֶׁר־לִ⁠י֙ תִּדְבָּקִ֔י⁠ן</span></p><p><strong>&quot;</strong><span><strong>eu posso continuar trabalhando com os seus empregados&quot;.</strong></span></p><p>A implicação é que Boaz deseja proteger e prover para Rute. Boaz estava expressando confiança de que seus trabalhadores não fariam mal a Rute. Você pode incluir essa informação se isso for útil para seus leitores. Tradução alternativa: &quot;Quero que você respigue em segurança, perto dos meus trabalhadores do campo&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>eu posso continuar trabalhando com os seus empregados&quot;.</strong></span></p><p>A implicação é que Boaz deseja proteger e prover para Rute. Boaz estava expressando confiança de que seus trabalhadores não fariam mal a Rute. Você pode incluir essa informação se isso for útil para seus leitores. Tradução alternativa: &quot;Quero que você respigue em segurança, perto dos meus trabalhadores do campo&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6957,22 +6138,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -6995,22 +6161,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -7022,7 +6173,7 @@
 "index_reference": "08002022",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠לֹ֥א יִפְגְּעוּ־בָ֖⁠ךְ</span></p><p><strong>&quot;</strong><span><strong>Pois, se fosse trabalhar na plantação de outro homem, você poderia ser humilhada</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se o pronome <strong>eles. </strong>Aqui, <strong>eles</strong> refere-se a qualquer pessoa em geral. Tradução alternativa: “para que alguém não te machuque” ou “para que ninguém te machuque”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">Pronomes.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Pois, se fosse trabalhar na plantação de outro homem, você poderia ser humilhada</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se o pronome <strong>eles. </strong>Aqui, <strong>eles</strong> refere-se a qualquer pessoa em geral. Tradução alternativa: “para que alguém não te machuque” ou “para que ninguém te machuque”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">Pronomes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7041,22 +6192,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -7121,7 +6257,7 @@
 "index_reference": "08002023",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>עַד־כְּל֥וֹת קְצִֽיר־הַ⁠שְּׂעֹרִ֖ים וּ⁠קְצִ֣יר הַֽ⁠חִטִּ֑ים</span></p><p><strong>&quot;</strong><span><strong>e catou espigas até terminar a colheita da cevada e do trigo</strong></span><strong>&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “até que os trabalhadores de Boaz tivessem colhido toda a cevada e o trigo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>e catou espigas até terminar a colheita da cevada e do trigo</strong></span><strong>&quot;.</strong></p><p>Se o seu idioma não utiliza essa forma ativa, você pode expressar a ideia de forma passiva ou de outra maneira que seja natural no seu idioma. Tradução alternativa: “até que os trabalhadores de Boaz tivessem colhido toda a cevada e o trigo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7140,29 +6276,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-}
-]
+"acai": []
 }
 },
 {
@@ -7244,7 +6358,7 @@
 "index_reference": "08003001",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Noemi&quot;.</strong></p><p>No texto original o autor usa a palavra <strong>sogra. </strong>Noemi é a mãe do falecido marido de Rute e, portanto, é a <strong>sogra</strong> de Rute. Tradução alternativa: &quot;a mãe do marido falecido de Rute&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">Parentesco.</span></p>",
+"content": "<p><span style='direction: rtl;'>חֲמוֹתָ֑⁠הּ</span></p><p><strong>&quot;Noemi&quot;.</strong></p><p>No texto original o autor usa a palavra <strong>sogra. </strong>Noemi é a mãe do falecido marido de Rute e, portanto, é a <strong>sogra</strong> de Rute. Tradução alternativa: &quot;a mãe do marido falecido de Rute&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">Parentesco.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7322,7 +6436,7 @@
 "index_reference": "08003001",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>חֲמוֹתָ֑⁠הּ</span></p><p><strong>&quot;Noemi&quot;.</strong></p><p>No texto original, neste versículo, <strong>ela</strong> refere-se a Rute. Tradução alternativa: “A sogra de Rute”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">Pronomes.</span></p>",
+"content": "<p><strong>&quot;Noemi&quot;.</strong></p><p>No texto original, neste versículo, <strong>ela</strong> refere-se a Rute. Tradução alternativa: “A sogra de Rute”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">Pronomes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7341,15 +6455,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -7506,18 +6612,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
 }
 ]
 }
@@ -7531,7 +6637,7 @@
 "index_reference": "08003002",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֲ⁠לֹ֥א בֹ֨עַז֙ מֹֽדַעְתָּ֔⁠נוּ אֲשֶׁ֥ר הָיִ֖ית אֶת־נַעֲרוֹתָ֑י⁠ו</span></p><p><strong>&quot;</strong><span><strong>Boaz, o homem que a deixou trabalhar com as suas empregadas, é um dos nossos parentes?</strong></span><strong>&quot;.</strong></p><p>Noemi usa a forma de pergunta aqui para lembrar Rute de algo que ela já havia lhe dito (Veja <a href=\"https://ref.ly/Ruth2:20\">2.20</a>). Se você não usa a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação. Tradução alternativa: “como você sabe, Boaz, aquele com cujas jovens trabalhadoras você tem trabalhado, é nosso parente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Boaz, o homem que a deixou trabalhar com as suas empregadas, é um dos nossos parentes?</strong></span><strong>&quot;.</strong></p><p>Noemi usa a forma de pergunta aqui para lembrar Rute de algo que ela já havia lhe dito (Veja <a href=\"https://ref.ly/Ruth2:20\">2.20</a>). Se você não usa a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação. Tradução alternativa: “como você sabe, Boaz, aquele com cujas jovens trabalhadoras você tem trabalhado, é nosso parente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7550,29 +6656,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -7584,7 +6668,7 @@
 "index_reference": "08003002",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֲשֶׁ֥ר הָיִ֖ית אֶת־נַעֲרוֹתָ֑י⁠ו</span></p><p><strong>&quot;</strong><span><strong>o homem que a deixou trabalhar com as suas empregadas</strong></span><strong>&quot;.</strong></p><p>A implicação é que Boaz era o dono dos campos onde Rute trabalhava junto com essas jovens, e não que Boaz era dono das jovens. Você pode esclarecer essa informação se isso fosse útil para seus leitores. Tradução alternativa: “aquele que possui os campos onde você tem trabalhado com as outras trabalhadoras”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>o homem que a deixou trabalhar com as suas empregadas</strong></span><strong>&quot;.</strong></p><p>A implicação é que Boaz era o dono dos campos onde Rute trabalhava junto com essas jovens, e não que Boaz era dono das jovens. Você pode esclarecer essa informação se isso fosse útil para seus leitores. Tradução alternativa: “aquele que possui os campos onde você tem trabalhado com as outras trabalhadoras”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7603,29 +6687,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -7665,18 +6727,18 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
 }
 ]
 }
@@ -7701,15 +6763,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-}
-]
+"acai": []
 }
 },
 {
@@ -7884,7 +6938,7 @@
 "index_reference": "08003004",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠הוּא֙ יַגִּ֣יד לָ֔⁠ךְ אֵ֖ת אֲשֶׁ֥ר תַּעַשִֽׂי⁠ן</span></p><p><strong>&quot;</strong><span><strong>Ele dirá o que você deve fazer</strong></span><strong>&quot;.</strong></p><p>O costume específico daquela época não está claro, mas Noemi parece acreditar que Boaz entenderá a ação de Rute como uma proposta de casamento. Boaz então aceitará ou rejeitará a oferta dela. Se for útil, você pode incluir esta informação em uma nota de rodapé.</p>",
+"content": "<p><strong>&quot;</strong><span><strong>Ele dirá o que você deve fazer</strong></span><strong>&quot;.</strong></p><p>O costume específico daquela época não está claro, mas Noemi parece acreditar que Boaz entenderá a ação de Rute como uma proposta de casamento. Boaz então aceitará ou rejeitará a oferta dela. Se for útil, você pode incluir esta informação em uma nota de rodapé.</p>",
 "associations": {
 "passage": [
 {
@@ -7930,7 +6984,7 @@
 "index_reference": "08003006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תַּ֕עַשׂ כְּ⁠כֹ֥ל אֲשֶׁר־צִוַּ֖תָּ⁠ה חֲמוֹתָֽ⁠הּ</span></p><p><strong>&quot;</strong><span><strong>e fez tudo o que a sua sogra havia mandado</strong></span><strong>&quot;.</strong></p><p>Esta declaração resume as ações que Rute fará em <a href=\"https://ref.ly/Ruth3:7\">3.7</a>. Se as pessoas entenderem erroneamente que Rute fez essas ações em <a href=\"https://ref.ly/Ruth3:6\">3.6</a> e depois as repetiu em <a href=\"https://ref.ly/Ruth3:7\">3.7</a>, então você pode traduzir esta frase como <strong>e ela obedeceu à sua sogra</strong>. Ou, se isso torna a ordem dos eventos mais clara, você pode mover esta frase para o final de <a href=\"https://ref.ly/Ruth3:7\">3.7</a>, então combinar os números dos versículos como uma ponte de versículo (6–7).</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>e fez tudo o que a sua sogra havia mandado</strong></span><strong>&quot;.</strong></p><p>Esta declaração resume as ações que Rute fará em <a href=\"https://ref.ly/Ruth3:7\">3.7</a>. Se as pessoas entenderem erroneamente que Rute fez essas ações em <a href=\"https://ref.ly/Ruth3:6\">3.6</a> e depois as repetiu em <a href=\"https://ref.ly/Ruth3:7\">3.7</a>, então você pode traduzir esta frase como <strong>e ela obedeceu à sua sogra</strong>. Ou, se isso torna a ordem dos eventos mais clara, você pode mover esta frase para o final de <a href=\"https://ref.ly/Ruth3:7\">3.7</a>, então combinar os números dos versículos como uma ponte de versículo (6–7).</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7949,15 +7003,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-}
-]
+"acai": []
 }
 },
 {
@@ -8019,15 +7065,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -8058,15 +7096,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -8078,7 +7108,7 @@
 "index_reference": "08003008",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יְהִי֙ בַּ⁠חֲצִ֣י הַ⁠לַּ֔יְלָה</span></p><p><strong>&quot;</strong><span><strong>No meio da noite ele</strong></span><strong>&quot;.</strong></p><p>Uma tradução mais literal dirá: <strong>E sucedeu</strong>. Esta cláusula fornece informações sobre quando o próximo evento na história ocorreu. Use uma maneira natural em seu idioma para fornecer informações de fundo. Tradução alternativa: “Horas depois, no meio da noite”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de fundo. </span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>No meio da noite ele</strong></span><strong>&quot;.</strong></p><p>Uma tradução mais literal dirá: <strong>E sucedeu</strong>. Esta cláusula fornece informações sobre quando o próximo evento na história ocorreu. Use uma maneira natural em seu idioma para fornecer informações de fundo. Tradução alternativa: “Horas depois, no meio da noite”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de fundo. </span></p>",
 "associations": {
 "passage": [
 {
@@ -8140,7 +7170,7 @@
 "index_reference": "08003008",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>de encontrar uma mulher deitada perto dos seus pés</strong></span><strong>&quot;.</strong></p><p>No texto original, usa-se a palavra <strong>Eis. </strong>Aqui, a palavra <strong>eis</strong> indica que o que segue foi extremamente surpreendente para Boaz. Use a forma de expressar surpresa do seu idioma. Tradução alternativa: &quot;E, para sua grande surpresa&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26684\" data-resourceType=\"UWTranslationManual\">Exclamações.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠הִנֵּ֣ה</span></p><p><strong>&quot;</strong><span><strong>de encontrar uma mulher deitada perto dos seus pés</strong></span><strong>&quot;.</strong></p><p>No texto original, usa-se a palavra <strong>Eis. </strong>Aqui, a palavra <strong>eis</strong> indica que o que segue foi extremamente surpreendente para Boaz. Use a forma de expressar surpresa do seu idioma. Tradução alternativa: &quot;E, para sua grande surpresa&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26684\" data-resourceType=\"UWTranslationManual\">Exclamações.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8171,7 +7201,7 @@
 "index_reference": "08003009",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֲמָתֶ֔⁠ךָ & אֲמָ֣תְ⁠ךָ֔</span></p><p><strong>&quot;a sua empregada&quot;.</strong></p><p>Uma tradução mais literal irá dizer:<strong> tua serva</strong>. Rute não era uma das servas de Boaz, mas referiu-se a si mesma como serva de Boaz como uma forma educada de expressar respeito a Boaz. Ela usou a maneira de sua língua para expressar humildade e respeito. Tradução alternativa: “sua humilde serva”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26837\" data-resourceType=\"UWTranslationManual\">Polidez.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲמָתֶ֔⁠ךָ &amp; אֲמָ֣תְ⁠ךָ֔</span></p><p><strong>&quot;a sua empregada&quot;.</strong></p><p>Uma tradução mais literal irá dizer:<strong> tua serva</strong>. Rute não era uma das servas de Boaz, mas referiu-se a si mesma como serva de Boaz como uma forma educada de expressar respeito a Boaz. Ela usou a maneira de sua língua para expressar humildade e respeito. Tradução alternativa: “sua humilde serva”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26837\" data-resourceType=\"UWTranslationManual\">Polidez.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8210,7 +7240,7 @@
 "index_reference": "08003009",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּ⁠פָרַשְׂתָּ֤ כְנָפֶ֨⁠ךָ֙ עַל־אֲמָ֣תְ⁠ךָ֔</span></p><p><span><strong> &quot;tem o dever de me proteger</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: <strong>estende, pois, tua aba sobre a tua serva.</strong> Isso era uma expressão cultural para casamento. Tradução alternativa: “Por favor, case-se comigo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span><strong> &quot;tem o dever de me proteger</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: <strong>estende, pois, tua aba sobre a tua serva.</strong> Isso era uma expressão cultural para casamento. Tradução alternativa: “Por favor, case-se comigo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8229,15 +7259,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -8268,15 +7290,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -8288,7 +7302,7 @@
 "index_reference": "08003010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּרוּכָ֨ה אַ֤תְּ לַֽ⁠יהוָה֙</span></p><p><strong>&quot;</strong><span><strong>Que o Senhor a abençoe</strong></span><strong>&quot;.</strong></p><p>Use uma forma natural para uma bênção em seu idioma. Tradução alternativa: “Que Yahweh abençoe você”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Que o Senhor a abençoe</strong></span><strong>&quot;.</strong></p><p>Use uma forma natural para uma bênção em seu idioma. Tradução alternativa: “Que Yahweh abençoe você”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8307,29 +7321,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -8369,18 +7361,18 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -8394,7 +7386,7 @@
 "index_reference": "08003010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֵיטַ֛בְתְּ חַסְדֵּ֥⁠ךְ הָ⁠אַחֲר֖וֹן מִן־הָ⁠רִאשׁ֑וֹן</span></p><p><strong>&quot;</strong><span><strong>Você está mostrando maior lealdade à família do seu sogro naquilo que está fazendo agora do que naquilo que fez pela sua sogra</strong></span><strong>&quot;.</strong></p><p>Ao casar-se com o parente de Noemi, que é um resgatador, Rute também proveria para Noemi, honraria o filho de Noemi e continuaria a linhagem familiar de Noemi. Boaz considera isso a maior demonstração de fidelidade de Rute para com Noemi. Se for útil para seus leitores, você pode colocar esta informação em uma nota de rodapé. Tradução alternativa: &quot;Você está demonstrando ainda mais bondade agora do que antes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>Você está mostrando maior lealdade à família do seu sogro naquilo que está fazendo agora do que naquilo que fez pela sua sogra</strong></span><strong>&quot;.</strong></p><p>Ao casar-se com o parente de Noemi, que é um resgatador, Rute também proveria para Noemi, honraria o filho de Noemi e continuaria a linhagem familiar de Noemi. Boaz considera isso a maior demonstração de fidelidade de Rute para com Noemi. Se for útil para seus leitores, você pode colocar esta informação em uma nota de rodapé. Tradução alternativa: &quot;Você está demonstrando ainda mais bondade agora do que antes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8413,29 +7405,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -8475,18 +7445,18 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -8528,18 +7498,18 @@
 "preferred_label": "kindness"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bless"
 }
 ]
 }
@@ -8689,15 +7659,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "fear"
-}
-]
+"acai": []
 }
 },
 {
@@ -8771,7 +7733,7 @@
 "index_reference": "08003012",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>גֹאֵ֖ל & גֹּאֵ֖ל</span></p><p><strong>&quot;</strong><span><strong>há um homem que também é seu parente e até mais chegado</strong></span><strong>&quot;.</strong></p><p>Veja como você traduziu <strong>parente-redentor</strong> (como faz o texto original) em <a href=\"https://ref.ly/Ruth2:20\">2.20</a>. Este termo refere-se ao parente masculino mais próximo em relação familiar a um homem que faleceu e que tinha a responsabilidade de ajudar sua viúva.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">Parentesco.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>há um homem que também é seu parente e até mais chegado</strong></span><strong>&quot;.</strong></p><p>Veja como você traduziu <strong>parente-redentor</strong> (como faz o texto original) em <a href=\"https://ref.ly/Ruth2:20\">2.20</a>. Este termo refere-se ao parente masculino mais próximo em relação familiar a um homem que faleceu e que tinha a responsabilidade de ajudar sua viúva.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">Parentesco.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8886,7 +7848,7 @@
 "index_reference": "08003013",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>prometo por Deus, o Senhor</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se a expressão <strong>assim como Yahweh vive</strong> é uma fórmula de juramento. Era um voto hebraico comum que obrigava o orador a cumprir o que dizia. Use uma forma natural em seu idioma para expressar um juramento. Tradução alternativa: &quot;assim como Yahweh certamente vive&quot; ou &quot;eu juro pela vida de Yahweh&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26834\" data-resourceType=\"UWTranslationManual\">Fórmulas de juramento.</span></p>",
+"content": "<p><span style='direction: rtl;'>חַי־יְהוָ֑ה</span></p><p><strong>&quot;</strong><span><strong>prometo por Deus, o Senhor</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se a expressão <strong>assim como Yahweh vive</strong> é uma fórmula de juramento. Era um voto hebraico comum que obrigava o orador a cumprir o que dizia. Use uma forma natural em seu idioma para expressar um juramento. Tradução alternativa: &quot;assim como Yahweh certamente vive&quot; ou &quot;eu juro pela vida de Yahweh&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26834\" data-resourceType=\"UWTranslationManual\">Fórmulas de juramento.</span></p>",
 "associations": {
 "passage": [
 {
@@ -9356,15 +8318,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -9376,7 +8330,7 @@
 "index_reference": "08003017",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כִּ֚י אָמַ֣ר אַל־תָּב֥וֹאִי רֵיקָ֖ם אֶל־חֲמוֹתֵֽ⁠ךְ</span></p><p><strong>&quot;</strong><span><strong>e disse: &apos;Não volte para casa sem levar alguma coisa para a sua sogra&apos;</strong></span><strong>&quot;.</strong></p><p>Se for mais claro no seu idioma, você pode traduzir isso para evitar uma citação dentro de outra citação. Tradução alternativa: “disse-me que eu não deveria ir de mãos vazias para a minha sogra”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">Citações dentro de citações.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>e disse: &apos;Não volte para casa sem levar alguma coisa para a sua sogra&apos;</strong></span><strong>&quot;.</strong></p><p>Se for mais claro no seu idioma, você pode traduzir isso para evitar uma citação dentro de outra citação. Tradução alternativa: “disse-me que eu não deveria ir de mãos vazias para a minha sogra”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">Citações dentro de citações.</span></p>",
 "associations": {
 "passage": [
 {
@@ -9395,15 +8349,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-}
-]
+"acai": []
 }
 },
 {
@@ -9415,7 +8361,7 @@
 "index_reference": "08003017",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Não volte para casa sem levar alguma coisa</strong></span><strong>&quot;.</strong></p><p>No texto original traz a ideia de <strong>mãos vazias. </strong>Ir <strong>de mãos vazias</strong> é uma expressão que significa visitar alguém sem ter nada a oferecer. Tradução alternativa: &quot;Você não deve ir de mãos vazias&quot; ou &quot;Não vá sem nada&quot; ou &quot;Você deve levar algo&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>אַל־תָּב֥וֹאִי רֵיקָ֖ם</span></p><p><strong>&quot;</strong><span><strong>Não volte para casa sem levar alguma coisa</strong></span><strong>&quot;.</strong></p><p>No texto original traz a ideia de <strong>mãos vazias. </strong>Ir <strong>de mãos vazias</strong> é uma expressão que significa visitar alguém sem ter nada a oferecer. Tradução alternativa: &quot;Você não deve ir de mãos vazias&quot; ou &quot;Não vá sem nada&quot; ou &quot;Você deve levar algo&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -9578,7 +8524,7 @@
 "index_reference": "08003018",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;esse assunto, ainda hoje&quot;.</strong></p><p>Aqui, <strong>esse assunto</strong> refere-se à necessidade das duas mulheres de um resgatador parente. Você pode incluir esta informação se isso for útil para seus leitores. Tradução alternativa: &quot;a menos que ele tenha resolvido nosso problema&quot; ou &quot;até que ele nos consiga um resgatador parente&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּֽי־אִם־כִּלָּ֥ה הַ⁠דָּבָ֖ר</span></p><p><strong>&quot;esse assunto, ainda hoje&quot;.</strong></p><p>Aqui, <strong>esse assunto</strong> refere-se à necessidade das duas mulheres de um resgatador parente. Você pode incluir esta informação se isso for útil para seus leitores. Tradução alternativa: &quot;a menos que ele tenha resolvido nosso problema&quot; ou &quot;até que ele nos consiga um resgatador parente&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -9710,7 +8656,7 @@
 "index_reference": "08004001",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Nesse momento&quot;.</strong></p><p>No texto original o autor usa a palavra <strong>eis. </strong>O autor está utilizando o termo <strong>eis</strong> para direcionar nossa atenção ao importante evento de Boaz ver exatamente a pessoa que ele desejava encontrar. Sua língua pode ter uma expressão comparável que você pode usar em sua tradução. Tradução alternativa: &quot;E surpreendentemente&quot; ou &quot;Para sua alegria&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠הִנֵּ֨ה</span></p><p><strong>&quot;Nesse momento&quot;.</strong></p><p>No texto original o autor usa a palavra <strong>eis. </strong>O autor está utilizando o termo <strong>eis</strong> para direcionar nossa atenção ao importante evento de Boaz ver exatamente a pessoa que ele desejava encontrar. Sua língua pode ter uma expressão comparável que você pode usar em sua tradução. Tradução alternativa: &quot;E surpreendentemente&quot; ou &quot;Para sua alegria&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10020,7 +8966,7 @@
 "index_reference": "08004004",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>נֶ֥גֶד הַֽ⁠יֹּשְׁבִים֮</span></p><p><strong>&quot;</strong><span><strong>na presença das autoridades do nosso povo e dos homens que estão sentados aqui</strong></span><strong>&quot;.</strong></p><p>Ter esses homens como testemunhas torna a transação legal e vinculante. Você pode incluir essa informação se isso fosse útil para seus leitores. Tradução alternativa: “na presença dessas testemunhas”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><strong>&quot;</strong><span><strong>na presença das autoridades do nosso povo e dos homens que estão sentados aqui</strong></span><strong>&quot;.</strong></p><p>Ter esses homens como testemunhas torna a transação legal e vinculante. Você pode incluir essa informação se isso fosse útil para seus leitores. Tradução alternativa: “na presença dessas testemunhas”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10039,15 +8985,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-}
-]
+"acai": []
 }
 },
 {
@@ -10059,7 +8997,7 @@
 "index_reference": "08004004",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Mas, se não quiser</strong></span><strong>&quot;.</strong></p><p>No texto original aqui, Boaz está perguntando sobre a disposição do homem em resgatar a propriedade. Use uma forma natural de expressar isso em seu idioma. Tradução alternativa: &quot;Se você estiver disposto a comprá-la de volta para mantê-la na família&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>אִם־תִּגְאַל֙</span></p><p><strong>&quot;</strong><span><strong>Mas, se não quiser</strong></span><strong>&quot;.</strong></p><p>No texto original aqui, Boaz está perguntando sobre a disposição do homem em resgatar a propriedade. Use uma forma natural de expressar isso em seu idioma. Tradução alternativa: &quot;Se você estiver disposto a comprá-la de volta para mantê-la na família&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10098,7 +9036,7 @@
 "index_reference": "08004004",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֵ֤ין זוּלָֽתְ⁠ךָ֙ לִ⁠גְא֔וֹל וְ⁠אָנֹכִ֖י אַחֲרֶ֑י⁠ךָ</span></p><p><strong>&quot;Mas, se não quiser, diga, pois o direito de comprar essas terras é primeiro seu e depois, meu&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>saiba, pois outro não há, senão tu, que a redima, e eu depois</strong>. Em alguns idiomas, pode ser confuso dizer estas coisas juntas: (1) pois outro não há... senão tu; (2) e eu depois. Pode parecer que Boaz está se contradizendo. Se for o caso, você pode dizer isso de outra forma. Tradução alternativa: “você é o primeiro na fila para resgatá-la, e eu sou o próximo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26742\" data-resourceType=\"UWTranslationManual\">Conectar — Cláusulas de exceção.</span></p>",
+"content": "<p><strong>&quot;Mas, se não quiser, diga, pois o direito de comprar essas terras é primeiro seu e depois, meu&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>saiba, pois outro não há, senão tu, que a redima, e eu depois</strong>. Em alguns idiomas, pode ser confuso dizer estas coisas juntas: (1) pois outro não há... senão tu; (2) e eu depois. Pode parecer que Boaz está se contradizendo. Se for o caso, você pode dizer isso de outra forma. Tradução alternativa: “você é o primeiro na fila para resgatá-la, e eu sou o próximo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26742\" data-resourceType=\"UWTranslationManual\">Conectar — Cláusulas de exceção.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10117,15 +9055,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-}
-]
+"acai": []
 }
 },
 {
@@ -10203,18 +9133,18 @@
 "preferred_label": "to cause to possess"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Boaz",
@@ -10270,18 +9200,18 @@
 "preferred_label": "to cause to possess"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Boaz",
@@ -10302,7 +9232,7 @@
 "index_reference": "08004005",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּ֠⁠מֵ⁠אֵת ר֣וּת & קָנִ֔יתָה</span></p><p><strong>&quot;também terá de casar com Rute&quot;.</strong></p><p>No texto original, Boaz está usando o termo <strong>comprar</strong> para indicar que o homem deve se casar com a mulher moabita. Se for útil em seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: &quot;você também deve se casar com Rute&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ֠⁠מֵ⁠אֵת ר֣וּת &amp; קָנִ֔יתָה</span></p><p><strong>&quot;também terá de casar com Rute&quot;.</strong></p><p>No texto original, Boaz está usando o termo <strong>comprar</strong> para indicar que o homem deve se casar com a mulher moabita. Se for útil em seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: &quot;você também deve se casar com Rute&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10337,18 +9267,18 @@
 "preferred_label": "to cause to possess"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Boaz",
@@ -10380,43 +9310,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Rute"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -10463,18 +9357,18 @@
 "preferred_label": "to cause to possess"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Boaz",
@@ -10495,7 +9389,7 @@
 "index_reference": "08004005",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הַ⁠מֵּת֙ & הַ⁠מֵּ֖ת</span></p><p><strong>&quot;falecido&quot;.</strong></p><p>No texto original, por duas vezes Boaz está usando o adjetivo <strong>morto</strong> como um substantivo para significar aquele que faleceu. Sua língua pode usar adjetivos da mesma forma. Se não, você pode traduzir esta palavra com uma frase equivalente. Tradução alternativa: “o homem que faleceu… o homem morto”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26708\" data-resourceType=\"UWTranslationManual\">Adjetivos nominais.</span></p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠מֵּת֙ &amp; הַ⁠מֵּ֖ת</span></p><p><strong>&quot;falecido&quot;.</strong></p><p>No texto original, por duas vezes Boaz está usando o adjetivo <strong>morto</strong> como um substantivo para significar aquele que faleceu. Sua língua pode usar adjetivos da mesma forma. Se não, você pode traduzir esta palavra com uma frase equivalente. Tradução alternativa: “o homem que faleceu… o homem morto”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26708\" data-resourceType=\"UWTranslationManual\">Adjetivos nominais.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10530,18 +9424,18 @@
 "preferred_label": "to cause to possess"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Noemi"
 },
 {
 "id": "person:Boaz",
@@ -10590,18 +9484,18 @@
 "preferred_label": "Kinsman Redeemer"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "to cause to possess"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "comprar"
 }
 ]
 }
@@ -10615,7 +9509,7 @@
 "index_reference": "08004006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>גְּאַל־לְ⁠ךָ֤ אַתָּה֙ אֶת־גְּאֻלָּתִ֔⁠י</span></p><p><strong>&quot;Use você o meu direito; eu prefiro não fazer isso&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Use o meu direito; eu não a redimirei</strong>. Se o seu idioma não utiliza um substantivo abstrato para as ideias de <strong>direito</strong> ou <strong>redenção</strong>, você pode expressar as mesmas ideias de outra maneira. Tradução alternativa: “Eu permitirei que você resgate a propriedade para si mesmo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><strong>&quot;Use você o meu direito; eu prefiro não fazer isso&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Use o meu direito; eu não a redimirei</strong>. Se o seu idioma não utiliza um substantivo abstrato para as ideias de <strong>direito</strong> ou <strong>redenção</strong>, você pode expressar as mesmas ideias de outra maneira. Tradução alternativa: “Eu permitirei que você resgate a propriedade para si mesmo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10634,29 +9528,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:KinsmanRedeemer",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Kinsman Redeemer"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-}
-]
+"acai": []
 }
 },
 {
@@ -10689,18 +9561,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "comprar"
 }
 ]
 }
@@ -10735,18 +9607,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "comprar"
 }
 ]
 }
@@ -10781,18 +9653,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "comprar"
 }
 ]
 }
@@ -10827,18 +9699,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "comprar"
 }
 ]
 }
@@ -10852,7 +9724,7 @@
 "index_reference": "08004008",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֧אמֶר הַ⁠גֹּאֵ֛ל לְ⁠בֹ֖עַז קְנֵה־לָ֑⁠ךְ וַ⁠יִּשְׁלֹ֖ף נַעֲלֽ⁠וֹ</span></p><p><strong>&quot;Compre você as terras. Em seguida tirou a sandália e deu a Boaz&quot;.</strong></p><p>Os eventos da história retomam aqui após as informações de fundo do versículo 7. Use a maneira de sua língua para começar a narrar os eventos da história novamente.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
+"content": "<p><strong>&quot;Compre você as terras. Em seguida tirou a sandália e deu a Boaz&quot;.</strong></p><p>Os eventos da história retomam aqui após as informações de fundo do versículo 7. Use a maneira de sua língua para começar a narrar os eventos da história novamente.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10871,22 +9743,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:KinsmanRedeemer",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Kinsman Redeemer"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -10898,7 +9755,7 @@
 "index_reference": "08004008",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֧אמֶר הַ⁠גֹּאֵ֛ל לְ⁠בֹ֖עַז קְנֵה־לָ֑⁠ךְ וַ⁠יִּשְׁלֹ֖ף נַעֲלֽ⁠וֹ</span></p><p><strong>&quot;Compre você as terras. Em seguida tirou a sandália e deu a Boaz&quot;.</strong></p><p>A expressão <strong>Em seguida</strong> no início deste versículo indica que este evento ocorreu devido ao costume descrito no versículo anterior. Se for mais claro no seu idioma, você pode inverter a ordem dessas frases. Tradução alternativa: “Então o parente-redentor tirou sua sandália e disse a Boaz: “Compre para você mesmo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
+"content": "<p><strong>&quot;Compre você as terras. Em seguida tirou a sandália e deu a Boaz&quot;.</strong></p><p>A expressão <strong>Em seguida</strong> no início deste versículo indica que este evento ocorreu devido ao costume descrito no versículo anterior. Se for mais claro no seu idioma, você pode inverter a ordem dessas frases. Tradução alternativa: “Então o parente-redentor tirou sua sandália e disse a Boaz: “Compre para você mesmo”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
 "associations": {
 "passage": [
 {
@@ -10917,22 +9774,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:KinsmanRedeemer",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Kinsman Redeemer"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-}
-]
+"acai": []
 }
 },
 {
@@ -11025,11 +9867,11 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Naomi",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Noemi"
+"preferred_label": "Elimeleque"
 },
 {
 "id": "person:Mahlon",
@@ -11039,11 +9881,11 @@
 "preferred_label": "Malom"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elimeleque"
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -11092,11 +9934,11 @@
 "preferred_label": "Boaz"
 },
 {
-"id": "person:Naomi",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Noemi"
+"preferred_label": "Elimeleque"
 },
 {
 "id": "person:Mahlon",
@@ -11106,11 +9948,11 @@
 "preferred_label": "Malom"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elimeleque"
+"preferred_label": "Noemi"
 }
 ]
 }
@@ -11135,43 +9977,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chilion",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Quiliom"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Boaz"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elimeleque"
-}
-]
+"acai": []
 }
 },
 {
@@ -11204,6 +10010,13 @@
 ],
 "acai": [
 {
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rute"
+},
+{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -11223,13 +10036,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
 }
 ]
 }
@@ -11243,7 +10049,7 @@
 "index_reference": "08004010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לְ⁠הָקִ֤ים שֵׁם־הַ⁠מֵּת֙ עַל־נַ֣חֲלָת֔⁠וֹ</span></p><p><strong>&quot;para que a propriedade continue com a família do falecido&quot;.</strong></p><p>Veja como você traduziu esta frase em <a href=\"https://ref.ly/Ruth4:5\">4.5</a>. Tradução alternativa: “para que eu possa dar a ela um filho que herdará a propriedade do seu falecido marido”.</p>",
+"content": "<p><strong>&quot;para que a propriedade continue com a família do falecido&quot;.</strong></p><p>Veja como você traduziu esta frase em <a href=\"https://ref.ly/Ruth4:5\">4.5</a>. Tradução alternativa: “para que eu possa dar a ela um filho que herdará a propriedade do seu falecido marido”.</p>",
 "associations": {
 "passage": [
 {
@@ -11254,36 +10060,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -11295,7 +10072,7 @@
 "index_reference": "08004010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הַ⁠מֵּת֙ & הַ⁠מֵּ֛ת</span></p><p><strong>&quot;viúva de Malom&quot;</strong> - <strong>&quot;falecido&quot;.</strong></p><p>No texto original, Boaz está usando por duas vezes o adjetivo <strong>morto</strong> como um substantivo para significar aquele que faleceu. Seu idioma pode usar adjetivos da mesma forma. Se não, você pode traduzir esta palavra com uma frase equivalente. Veja como você traduziu isso em <a href=\"https://ref.ly/Ruth4:5\">4.5</a>. Tradução alternativa: “o homem que faleceu… o homem falecido”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26708\" data-resourceType=\"UWTranslationManual\">Adjetivos nominais.</span></p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠מֵּת֙ &amp; הַ⁠מֵּ֛ת</span></p><p><strong>&quot;viúva de Malom&quot;</strong> - <strong>&quot;falecido&quot;.</strong></p><p>No texto original, Boaz está usando por duas vezes o adjetivo <strong>morto</strong> como um substantivo para significar aquele que faleceu. Seu idioma pode usar adjetivos da mesma forma. Se não, você pode traduzir esta palavra com uma frase equivalente. Veja como você traduziu isso em <a href=\"https://ref.ly/Ruth4:5\">4.5</a>. Tradução alternativa: “o homem que faleceu… o homem falecido”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26708\" data-resourceType=\"UWTranslationManual\">Adjetivos nominais.</span></p>",
 "associations": {
 "passage": [
 {
@@ -11316,6 +10093,13 @@
 ],
 "acai": [
 {
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rute"
+},
+{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -11335,13 +10119,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
 }
 ]
 }
@@ -11355,7 +10132,7 @@
 "index_reference": "08004010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠לֹא־יִכָּרֵ֧ת שֵׁם־הַ⁠מֵּ֛ת מֵ⁠עִ֥ם אֶחָ֖י⁠ו וּ⁠מִ⁠שַּׁ֣עַר מְקוֹמ֑⁠וֹ</span></p><p><strong>&quot;Assim o nome de Malom será sempre lembrado no meio deste povo e na sua cidade natal&quot;.</strong></p><p>Ser esquecido é mencionado aqui como se o nome de alguém estivesse sendo removido de uma lista do seu povo. Tradução alternativa: “para que ele não seja esquecido pelos descendentes de seus irmãos e pelo povo desta cidade”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><strong>&quot;Assim o nome de Malom será sempre lembrado no meio deste povo e na sua cidade natal&quot;.</strong></p><p>Ser esquecido é mencionado aqui como se o nome de alguém estivesse sendo removido de uma lista do seu povo. Tradução alternativa: “para que ele não seja esquecido pelos descendentes de seus irmãos e pelo povo desta cidade”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -11374,36 +10151,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -11415,7 +10163,7 @@
 "index_reference": "08004010",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠לֹא־יִכָּרֵ֧ת שֵׁם־הַ⁠מֵּ֛ת מֵ⁠עִ֥ם אֶחָ֖י⁠ו וּ⁠מִ⁠שַּׁ֣עַר מְקוֹמ֑⁠וֹ</span></p><p><strong>&quot;Assim o nome de Malom será sempre lembrado no meio deste povo e na sua cidade natal&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> para que o nome do falecido não seja desarraigado dentre seus irmãos e da porta do seu lugar</strong>. Se for mais claro no seu idioma, você pode usar uma expressão positiva para traduzir essa dupla negativa que consiste na partícula negativa <strong>não</strong> e na negativa <strong>ser cortado</strong>. Tradução alternativa: “para que o nome do falecido seja preservado entre seus irmãos e no portão de sua cidade”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">Negativos duplos.</span></p>",
+"content": "<p><strong>&quot;Assim o nome de Malom será sempre lembrado no meio deste povo e na sua cidade natal&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> para que o nome do falecido não seja desarraigado dentre seus irmãos e da porta do seu lugar</strong>. Se for mais claro no seu idioma, você pode usar uma expressão positiva para traduzir essa dupla negativa que consiste na partícula negativa <strong>não</strong> e na negativa <strong>ser cortado</strong>. Tradução alternativa: “para que o nome do falecido seja preservado entre seus irmãos e no portão de sua cidade”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">Negativos duplos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -11434,36 +10182,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -11496,6 +10215,13 @@
 ],
 "acai": [
 {
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rute"
+},
+{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -11515,13 +10241,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
 }
 ]
 }
@@ -11546,36 +10265,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Malom"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rute"
-}
-]
+"acai": []
 }
 },
 {
@@ -11608,11 +10298,18 @@
 ],
 "acai": [
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -11622,11 +10319,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Elders"
 },
 {
 "id": "place:Bethlehem",
@@ -11641,13 +10338,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
 }
 ]
 }
@@ -11682,11 +10372,18 @@
 ],
 "acai": [
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -11696,11 +10393,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Elders"
 },
 {
 "id": "place:Bethlehem",
@@ -11715,13 +10412,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
 }
 ]
 }
@@ -11735,7 +10425,7 @@
 "index_reference": "08004011",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>יִתֵּן֩ יְהוָ֨ה אֶֽת־הָ⁠אִשָּׁ֜ה הַ⁠בָּאָ֣ה אֶל־בֵּיתֶ֗⁠ךָ כְּ⁠רָחֵ֤ל ׀ וּ⁠כְ⁠לֵאָה֙ אֲשֶׁ֨ר בָּנ֤וּ שְׁתֵּי⁠הֶם֙ אֶת־בֵּ֣ית יִשְׂרָאֵ֔ל</span></p><p><strong>&quot;O Senhor faça com que essa mulher, que veio para o seu lar, seja como Raquel e Léia, que deram muitos filhos a Jacó, tornando-se assim as mães da nação israelita!&quot;.</strong></p><p>Aqui, as pessoas estão pedindo a Deus que abençoe Rute. A bênção se estende a Rute e Boaz até o versículo 12. Você pode expressar isso como uma bênção ou oração, da maneira mais natural em seu idioma. Tradução alternativa: “Pedimos ao Senhor que faça desta mulher que está entrando em sua casa como Raquel e Lia, as duas que edificaram a casa de Israel”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
+"content": "<p><strong>&quot;O Senhor faça com que essa mulher, que veio para o seu lar, seja como Raquel e Léia, que deram muitos filhos a Jacó, tornando-se assim as mães da nação israelita!&quot;.</strong></p><p>Aqui, as pessoas estão pedindo a Deus que abençoe Rute. A bênção se estende a Rute e Boaz até o versículo 12. Você pode expressar isso como uma bênção ou oração, da maneira mais natural em seu idioma. Tradução alternativa: “Pedimos ao Senhor que faça desta mulher que está entrando em sua casa como Raquel e Lia, as duas que edificaram a casa de Israel”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">Bênçãos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -11754,50 +10444,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Elders"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Belém"
-},
-{
-"id": "person:Leah",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
-}
-]
+"acai": []
 }
 },
 {
@@ -11830,11 +10477,18 @@
 ],
 "acai": [
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -11844,11 +10498,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Elders"
 },
 {
 "id": "place:Bethlehem",
@@ -11863,13 +10517,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
 }
 ]
 }
@@ -11883,7 +10530,7 @@
 "index_reference": "08004011",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בָּנ֤וּ & אֶת־בֵּ֣ית יִשְׂרָאֵ֔ל</span></p><p><strong>&quot;tornando-se assim as mães da nação israelita!&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>que ambas edificaram a casa de Israel</strong>. Aqui, as pessoas estão se referindo à nação de <strong>Israel</strong> como se fosse uma <strong>casa</strong>. Se for útil no seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “teve muitos filhos que, então, se tornaram a nação de Israel”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><span style='direction: rtl;'>בָּנ֤וּ &amp; אֶת־בֵּ֣ית יִשְׂרָאֵ֔ל</span></p><p><strong>&quot;tornando-se assim as mães da nação israelita!&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>que ambas edificaram a casa de Israel</strong>. Aqui, as pessoas estão se referindo à nação de <strong>Israel</strong> como se fosse uma <strong>casa</strong>. Se for útil no seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “teve muitos filhos que, então, se tornaram a nação de Israel”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -11904,11 +10551,18 @@
 ],
 "acai": [
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -11918,11 +10572,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Elders"
 },
 {
 "id": "place:Bethlehem",
@@ -11937,13 +10591,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
 }
 ]
 }
@@ -11978,11 +10625,18 @@
 ],
 "acai": [
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -11992,11 +10646,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Elders"
 },
 {
 "id": "place:Bethlehem",
@@ -12011,13 +10665,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
 }
 ]
 }
@@ -12052,11 +10699,18 @@
 ],
 "acai": [
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "Raquel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -12066,11 +10720,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Elders"
 },
 {
 "id": "place:Bethlehem",
@@ -12085,13 +10739,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lia"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Raquel"
 }
 ]
 }
@@ -12126,8 +10773,29 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "person:Tamar",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Tamar"
+},
+{
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -12138,27 +10806,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Perez"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Tamar",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Tamar"
 }
 ]
 }
@@ -12193,8 +10840,29 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "person:Tamar",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Tamar"
+},
+{
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -12205,27 +10873,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Perez"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Tamar",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Tamar"
 }
 ]
 }
@@ -12260,11 +10907,11 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
+"id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Boaz"
+"preferred_label": "Rute"
 },
 {
 "id": "deity:Lord",
@@ -12274,11 +10921,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Ruth",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Rute"
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -12313,11 +10960,11 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
+"id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Boaz"
+"preferred_label": "Rute"
 },
 {
 "id": "deity:Lord",
@@ -12327,11 +10974,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Ruth",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Rute"
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -12366,11 +11013,11 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
+"id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Boaz"
+"preferred_label": "Rute"
 },
 {
 "id": "deity:Lord",
@@ -12380,11 +11027,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Ruth",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Rute"
+"preferred_label": "Boaz"
 }
 ]
 }
@@ -12426,11 +11073,11 @@
 "preferred_label": "Women"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -12447,11 +11094,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 }
 ]
 }
@@ -12493,11 +11140,11 @@
 "preferred_label": "Women"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -12514,11 +11161,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 }
 ]
 }
@@ -12532,7 +11179,7 @@
 "index_reference": "08004014",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לֹ֣א הִשְׁבִּ֥ית לָ֛⁠ךְ גֹּאֵ֖ל הַ⁠יּ֑וֹם</span></p><p><strong>&quot;Louvado seja o Senhor, que lhe deu hoje um neto para cuidar de você!&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> que não deixou, hoje, sem te dar um remidor</strong>. Se for mais claro no seu idioma, você pode usar uma expressão positiva para traduzir esta dupla negativa que consiste na partícula negativa <strong>não</strong> e na preposição negativa <strong>sem</strong>. Tradução alternativa: “hoje lhe proporcionou um parente para resgatá-la”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">Negativos duplos.</span></p>",
+"content": "<p><strong>&quot;Louvado seja o Senhor, que lhe deu hoje um neto para cuidar de você!&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> que não deixou, hoje, sem te dar um remidor</strong>. Se for mais claro no seu idioma, você pode usar uma expressão positiva para traduzir esta dupla negativa que consiste na partícula negativa <strong>não</strong> e na preposição negativa <strong>sem</strong>. Tradução alternativa: “hoje lhe proporcionou um parente para resgatá-la”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">Negativos duplos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -12551,43 +11198,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "group:GenericFemales",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Women"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-}
-]
+"acai": []
 }
 },
 {
@@ -12627,11 +11238,11 @@
 "preferred_label": "Women"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -12648,11 +11259,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 }
 ]
 }
@@ -12694,11 +11305,11 @@
 "preferred_label": "Women"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -12715,11 +11326,11 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "bless"
 }
 ]
 }
@@ -12939,15 +11550,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-}
-]
+"acai": []
 }
 },
 {
@@ -12959,7 +11562,7 @@
 "index_reference": "08004017",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠תִּקְרֶאנָה֩ ל֨⁠וֹ הַ⁠שְּׁכֵנ֥וֹת שֵׁם֙ לֵ⁠אמֹ֔ר & וַ⁠תִּקְרֶ֤אנָֽה שְׁמ⁠וֹ֙ עוֹבֵ֔ד</span></p><p><strong>&quot;Ao vê-lo, as mulheres da vizinhança diziam: — Nasceu um filho para Noemi! E lhe deram o nome de Obede&quot;.</strong></p><p>Essas duas cláusulas têm basicamente o mesmo significado. A primeira frase introduz o evento de nomeação, e a segunda o repete para relatar o evento. Se for útil para seus leitores, você pode combinar as cláusulas, já que ambas se referem a dar um nome. Tradução alternativa: &quot;Então as mulheres da cidade disseram… E elas o chamaram de Obede&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
+"content": "<p><strong>&quot;Ao vê-lo, as mulheres da vizinhança diziam: — Nasceu um filho para Noemi! E lhe deram o nome de Obede&quot;.</strong></p><p>Essas duas cláusulas têm basicamente o mesmo significado. A primeira frase introduz o evento de nomeação, e a segunda o repete para relatar o evento. Se for útil para seus leitores, você pode combinar as cláusulas, já que ambas se referem a dar um nome. Tradução alternativa: &quot;Então as mulheres da cidade disseram… E elas o chamaram de Obede&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -12978,36 +11581,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Obed",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Obede"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Noemi"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Davi"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jessé"
-}
-]
+"acai": []
 }
 },
 {
@@ -13054,18 +11628,18 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Davi"
-},
-{
 "id": "person:Jesse",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13114,18 +11688,18 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Davi"
-},
-{
 "id": "person:Jesse",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13174,18 +11748,18 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Davi"
-},
-{
 "id": "person:Jesse",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13199,7 +11773,7 @@
 "index_reference": "08004017",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;que foi o pai do rei Davi&quot;.</strong></p><p>Embora o termo <strong>rei</strong> não esteja declarado no texto original, era claro para o público original que este Davi era o rei Davi. Tradução alternativa: &quot;que mais tarde se tornou o pai do Rei Davi&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲבִ֥י דָוִֽד</span></p><p><strong>&quot;que foi o pai do rei Davi&quot;.</strong></p><p>Embora o termo <strong>rei</strong> não esteja declarado no texto original, era claro para o público original que este Davi era o rei Davi. Tradução alternativa: &quot;que mais tarde se tornou o pai do Rei Davi&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -13234,18 +11808,18 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Davi"
-},
-{
 "id": "person:Jesse",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jessé"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Davi"
 }
 ]
 }
@@ -13305,7 +11879,7 @@
 "index_reference": "08004018",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>פֶּ֖רֶץ הוֹלִ֥יד אֶת־חֶצְרֽוֹן</span></p><p><strong>&quot;Peres, Esrom&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> Perez gerou a Esrom. Perez</strong>, ou Peres, e <strong>Ezrom</strong>, ou Esrom, são nomes de homens. Use formas desses nomes que sejam naturais no seu idioma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
+"content": "<p><strong>&quot;Peres, Esrom&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> Perez gerou a Esrom. Perez</strong>, ou Peres, e <strong>Ezrom</strong>, ou Esrom, são nomes de homens. Use formas desses nomes que sejam naturais no seu idioma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -13324,22 +11898,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Hezron.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Hezrom"
-},
-{
-"id": "person:Perez",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Perez"
-}
-]
+"acai": []
 }
 },
 {
@@ -13351,7 +11910,7 @@
 "index_reference": "08004019",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠חֶצְרוֹן֙ & אֶת־רָ֔ם & אֶת־עַמִּֽינָדָֽב</span></p><p><strong>&quot;Esrom&quot;</strong> - <strong>&quot;Rão&quot;</strong> - <strong>&quot;Aminadabe&quot;.</strong></p><p><strong>Esrom</strong>, ou Ezrom, <strong>Rão</strong> e <strong>Aminadabe</strong> são nomes de homens. Use formas desses nomes que sejam naturais em seu idioma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
+"content": "<p><strong>&quot;Esrom&quot;</strong> - <strong>&quot;Rão&quot;</strong> - <strong>&quot;Aminadabe&quot;.</strong></p><p><strong>Esrom</strong>, ou Ezrom, <strong>Rão</strong> e <strong>Aminadabe</strong> são nomes de homens. Use formas desses nomes que sejam naturais em seu idioma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -13370,29 +11929,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Ram",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ram"
-},
-{
-"id": "person:Hezron.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hezrom"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Aminadabe"
-}
-]
+"acai": []
 }
 },
 {
@@ -13404,7 +11941,7 @@
 "index_reference": "08004020",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠עַמִּֽינָדָב֙ & וְ⁠נַחְשׁ֖וֹן & אֶת־שַׂלְמָֽה</span></p><p><strong>&quot;Aminadabe, Nasom, Salmom&quot;.</strong></p><p><strong>Aminadabe</strong>, <strong>Nasom</strong> e <strong>Salmom</strong> são nomes de homens. Use formas desses nomes que sejam naturais no seu idioma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
+"content": "<p><strong>&quot;Aminadabe, Nasom, Salmom&quot;.</strong></p><p><strong>Aminadabe</strong>, <strong>Nasom</strong> e <strong>Salmom</strong> são nomes de homens. Use formas desses nomes que sejam naturais no seu idioma.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -13423,29 +11960,7 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Salmon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salmom"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Naassom"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Aminadabe"
-}
-]
+"acai": []
 }
 },
 {
@@ -13457,7 +11972,7 @@
 "index_reference": "08004022",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Boaz, Obede e Jessé&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> Obede gerou a Jessé, e Jessé gerou a Davi</strong>. Veja a nota sobre <strong>Davi</strong> em <a href=\"https://ref.ly/Ruth4:17\">4.17</a>. Tradução alternativa: &quot;rei Davi&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֶת־דָּוִֽד</span></p><p><strong>&quot;Boaz, Obede e Jessé&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> Obede gerou a Jessé, e Jessé gerou a Davi</strong>. Veja a nota sobre <strong>Davi</strong> em <a href=\"https://ref.ly/Ruth4:17\">4.17</a>. Tradução alternativa: &quot;rei Davi&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -13478,11 +11993,11 @@
 ],
 "acai": [
 {
-"id": "person:David",
+"id": "person:Jesse",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Jessé"
 },
 {
 "id": "person:Obed",
@@ -13492,11 +12007,11 @@
 "preferred_label": "Obede"
 },
 {
-"id": "person:Jesse",
+"id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jessé"
+"preferred_label": "Davi"
 }
 ]
 }
