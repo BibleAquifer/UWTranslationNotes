@@ -83,20 +83,6 @@
 ],
 "acai": [
 {
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
 "id": "person:Darius.2",
 "type": "person",
 "confidence": 0.8,
@@ -111,6 +97,13 @@
 "preferred_label": "यहोसादाक"
 },
 {
+"id": "person:Shealtiel.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "शालतीएल"
+},
+{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.8,
@@ -118,15 +111,29 @@
 "preferred_label": "हाग्गै"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "यहोशू"
+},
+{
+"id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "जरूब्बाबेल"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
@@ -139,18 +146,11 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
+"preferred_label": "यहूदा"
 }
 ]
 }
@@ -164,7 +164,7 @@
 "index_reference": "37001001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בִּ⁠שְׁנַ֤ת שְׁתַּ֨יִם֙ & בַּ⁠חֹ֨דֶשׁ֙ הַ⁠שִּׁשִּׁ֔י בְּ⁠י֥וֹם אֶחָ֖ד לַ⁠חֹ֑דֶשׁ</span></p><p><strong>&quot;दूसरे वर्ष के&quot;</strong> - <strong>&quot;छठवें महीने के पहले दिन&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;वर्ष दो में ... महीने छ: के दिन एक पर&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
+"content": "<p><strong>&quot;दूसरे वर्ष के&quot;</strong> - <strong>&quot;छठवें महीने के पहले दिन&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;वर्ष दो में ... महीने छ: के दिन एक पर&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -183,78 +183,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "दारा"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-}
-]
+"acai": []
 }
 },
 {
@@ -266,7 +195,7 @@
 "index_reference": "37001001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בַּ⁠חֹ֨דֶשׁ֙ הַ⁠שִּׁשִּׁ֔י בְּ⁠י֥וֹם אֶחָ֖ד לַ⁠חֹ֑דֶשׁ</span></p><p><strong>&quot;छठवें महीने के पहले दिन&quot;</strong></p><p>इब्रानी तिथिपत्र (कैलेंडर) का <strong>छठवा</strong> महीना पश्चिमी कैलेण्डर के अनुसार अगस्त और सितंबर के महीनों को सम्मिलित करता है। इस तिथि को अपने अनुवाद में कैसे व्यक्त किया जा सकता है, इस पर चर्चा के लिए हाग्गै की पुस्तक की प्रस्तावना देखें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
+"content": "<p><strong>&quot;छठवें महीने के पहले दिन&quot;</strong></p><p>इब्रानी तिथिपत्र (कैलेंडर) का <strong>छठवा</strong> महीना पश्चिमी कैलेण्डर के अनुसार अगस्त और सितंबर के महीनों को सम्मिलित करता है। इस तिथि को अपने अनुवाद में कैसे व्यक्त किया जा सकता है, इस पर चर्चा के लिए हाग्गै की पुस्तक की प्रस्तावना देखें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
 "associations": {
 "passage": [
 {
@@ -285,78 +214,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "दारा"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-}
-]
+"acai": []
 }
 },
 {
@@ -368,7 +226,7 @@
 "index_reference": "37001001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הָיָ֨ה דְבַר־יְהוָ֜ה בְּ⁠יַד־חַגַּ֣י הַ⁠נָּבִ֗יא</span></p><p><strong>&quot; यहोवा का यह वचन, हाग्गै भविष्यद्वक्ता के द्वारा... पहुँचा&quot;</strong></p><p>मूल भाषा में यहाँ हाग्गै भविष्यद्वक्ता के<strong> हाथ से</strong> वाक्याँश आया है, जबकि हिन्दी अनुवाद में भविष्यद्वक्ता <strong>के द्वारा</strong> है। यहाँ भविष्यद्वक्ता हाग्गै का एक हिस्सा, उनका <strong>हाथ</strong>, निर्वासितों के लौटे हुए लोगों तक <strong>यहोवा का वचन </strong>पहुँचाने के लिए पूरे हाग्गै का प्रतिनिधित्व करता है। यदि यह आपकी भाषा में उपयोगी हो, तो आप अपनी संस्कृति से एक समकक्ष अभिव्यक्ति का उपयोग कर सकते हैं या अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: “भविष्यद्वक्ता हाग्गै यहोवा का वचन लाए।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
+"content": "<p><strong>&quot; यहोवा का यह वचन, हाग्गै भविष्यद्वक्ता के द्वारा... पहुँचा&quot;</strong></p><p>मूल भाषा में यहाँ हाग्गै भविष्यद्वक्ता के<strong> हाथ से</strong> वाक्याँश आया है, जबकि हिन्दी अनुवाद में भविष्यद्वक्ता <strong>के द्वारा</strong> है। यहाँ भविष्यद्वक्ता हाग्गै का एक हिस्सा, उनका <strong>हाथ</strong>, निर्वासितों के लौटे हुए लोगों तक <strong>यहोवा का वचन </strong>पहुँचाने के लिए पूरे हाग्गै का प्रतिनिधित्व करता है। यदि यह आपकी भाषा में उपयोगी हो, तो आप अपनी संस्कृति से एक समकक्ष अभिव्यक्ति का उपयोग कर सकते हैं या अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: “भविष्यद्वक्ता हाग्गै यहोवा का वचन लाए।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
 "associations": {
 "passage": [
 {
@@ -387,78 +245,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "दारा"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-}
-]
+"acai": []
 }
 },
 {
@@ -491,20 +278,6 @@
 ],
 "acai": [
 {
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
 "id": "person:Darius.2",
 "type": "person",
 "confidence": 0.8,
@@ -519,6 +292,13 @@
 "preferred_label": "यहोसादाक"
 },
 {
+"id": "person:Shealtiel.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "शालतीएल"
+},
+{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.8,
@@ -526,15 +306,29 @@
 "preferred_label": "हाग्गै"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "यहोशू"
+},
+{
+"id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "जरूब्बाबेल"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
@@ -547,18 +341,11 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
+"preferred_label": "यहूदा"
 }
 ]
 }
@@ -572,7 +359,7 @@
 "index_reference": "37001002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כֹּ֥ה אָמַ֛ר יְהוָ֥ה צְבָא֖וֹת לֵ⁠אמֹ֑ר הָ⁠עָ֤ם הַ⁠זֶּה֙ אָֽמְר֔וּ לֹ֥א עֶת־בֹּ֛א עֶת־בֵּ֥ית יְהוָ֖ה לְ⁠הִבָּנֽוֹת</span></p><p><strong>&quot;सेनाओं का यहोवा यह कहता है, ये लोग कहते हैं कि यहोवा का भवन बनाने का समय नहीं आया है&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;सेनाओं के यहोवा चिंतित हैं कि ये लोग कह रहे हैं कि यहोवा के भवन के पुनर्निर्माण का समय अभी नहीं आया है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;सेनाओं का यहोवा यह कहता है, ये लोग कहते हैं कि यहोवा का भवन बनाने का समय नहीं आया है&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;सेनाओं के यहोवा चिंतित हैं कि ये लोग कह रहे हैं कि यहोवा के भवन के पुनर्निर्माण का समय अभी नहीं आया है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -591,22 +378,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -756,7 +528,7 @@
 "index_reference": "37001003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַֽ⁠יְהִי֙ דְּבַר־יְהוָ֔ה בְּ⁠יַד־חַגַּ֥י הַ⁠נָּבִ֖יא</span></p><p><strong>&quot;फिर यहोवा का यह वचन हाग्गै भविष्यद्वक्ता के द्वारा पहुँचा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में इसे कैसे अनुवादित किया। वैकल्पिक अनुवाद: &quot;तब हाग्गै भविष्यद्वक्ता यहोवा से यह संदेश लेकर आए&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;फिर यहोवा का यह वचन हाग्गै भविष्यद्वक्ता के द्वारा पहुँचा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में इसे कैसे अनुवादित किया। वैकल्पिक अनुवाद: &quot;तब हाग्गै भविष्यद्वक्ता यहोवा से यह संदेश लेकर आए&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -775,29 +547,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -809,7 +559,7 @@
 "index_reference": "37001004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הַ⁠עֵ֤ת לָ⁠כֶם֙ אַתֶּ֔ם לָ⁠שֶׁ֖בֶת בְּ⁠בָתֵּי⁠כֶ֣ם סְפוּנִ֑ים וְ⁠הַ⁠בַּ֥יִת הַ⁠זֶּ֖ה חָרֵֽב</span></p><p><strong>&quot;क्या तुम्हारे लिये अपने छतवाले घरों में रहने का समय है, जबकि यह भवन उजाड़ पड़ा है?&quot;</strong></p><p>यहोवा जोर देने के लिए प्रश्न रूप का उपयोग कर रहे हैं। यदि आप अपनी भाषा में उस उद्देश्य के लिए प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इसे एक कथन या एक विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: &quot;अब वह समय नहीं है कि तुम अपने खुद के छतवाले घरों में रहो, जबकि यह घर उजाड़ पड़ा है!&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><strong>&quot;क्या तुम्हारे लिये अपने छतवाले घरों में रहने का समय है, जबकि यह भवन उजाड़ पड़ा है?&quot;</strong></p><p>यहोवा जोर देने के लिए प्रश्न रूप का उपयोग कर रहे हैं। यदि आप अपनी भाषा में उस उद्देश्य के लिए प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इसे एक कथन या एक विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: &quot;अब वह समय नहीं है कि तुम अपने खुद के छतवाले घरों में रहो, जबकि यह घर उजाड़ पड़ा है!&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -828,15 +578,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -848,7 +590,7 @@
 "index_reference": "37001004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לָ⁠כֶם֙ אַתֶּ֔ם & בְּ⁠בָתֵּי⁠כֶ֣ם</span></p><p><strong>&quot;तुम्हारे लिये&quot;</strong> - <strong>&quot;अपने&quot;</strong> - <strong>&quot;घरों&quot;</strong></p><p>जैसा कि हाग्गै की सामान्य प्रस्तावना में चर्चा है, यहाँ और पूरी पुस्तक में, अन्तिम पद को छोड़कर, शब्द <strong>तुम</strong>, <strong>तुम्हारे</strong> और <strong>तुम्हारा</strong> बहुवचन हैं क्योंकि यहोवा वापस लौटे हुए निर्वासितों को सम्बोधित कर रहे हैं, इसलिए यदि आपकी भाषा में यह भेद होता है तो अनुवाद में बहुवचन रूप का उपयोग करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">‘आप&apos; के प्रकार — एकवचन</span></p>",
+"content": "<p><span style='direction: rtl;'>לָ⁠כֶם֙ אַתֶּ֔ם &amp; בְּ⁠בָתֵּי⁠כֶ֣ם</span></p><p><strong>&quot;तुम्हारे लिये&quot;</strong> - <strong>&quot;अपने&quot;</strong> - <strong>&quot;घरों&quot;</strong></p><p>जैसा कि हाग्गै की सामान्य प्रस्तावना में चर्चा है, यहाँ और पूरी पुस्तक में, अन्तिम पद को छोड़कर, शब्द <strong>तुम</strong>, <strong>तुम्हारे</strong> और <strong>तुम्हारा</strong> बहुवचन हैं क्योंकि यहोवा वापस लौटे हुए निर्वासितों को सम्बोधित कर रहे हैं, इसलिए यदि आपकी भाषा में यह भेद होता है तो अनुवाद में बहुवचन रूप का उपयोग करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">‘आप&apos; के प्रकार — एकवचन</span></p>",
 "associations": {
 "passage": [
 {
@@ -926,7 +668,7 @@
 "index_reference": "37001005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠עַתָּ֕ה כֹּ֥ה אָמַ֖ר יְהוָ֣ה צְבָא֑וֹת שִׂ֥ימוּ לְבַבְ⁠כֶ֖ם עַל־דַּרְכֵי⁠כֶֽם</span></p><p><strong>&quot;इसलिए अब सेनाओं का यहोवा यह कहता है, अपने-अपने चाल-चलन पर ध्यान करो&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;तो अब सेनाओं के यहोवा तुमसे कह रहे हैं कि अपने मार्गों पर ध्यान दो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;इसलिए अब सेनाओं का यहोवा यह कहता है, अपने-अपने चाल-चलन पर ध्यान करो&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;तो अब सेनाओं के यहोवा तुमसे कह रहे हैं कि अपने मार्गों पर ध्यान दो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -945,15 +687,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -1160,7 +894,7 @@
 "index_reference": "37001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לָב֖וֹשׁ וְ⁠אֵין־לְ⁠חֹ֣ם ל֑⁠וֹ</span></p><p><strong>&quot;तुम कपड़े पहनते हो, परन्तु गरमाते नहीं&quot;</strong></p><p>अब तक यहोवा यहूदियों से द्वितीय पुरुष में बात कर रहे हैं, इसलिए आपकी भाषा में इस वाक्य का अनुवाद भी द्वितीय पुरुष में करना स्वाभाविक हो सकता है। वैकल्पिक अनुवाद: &quot;तुम कपड़े पहनते हो, लेकिन अपने आप को गर्म नहीं कर पाते।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">प्रथम, द्वितीय या तृतीय पुरुष</span></p>",
+"content": "<p><strong>&quot;तुम कपड़े पहनते हो, परन्तु गरमाते नहीं&quot;</strong></p><p>अब तक यहोवा यहूदियों से द्वितीय पुरुष में बात कर रहे हैं, इसलिए आपकी भाषा में इस वाक्य का अनुवाद भी द्वितीय पुरुष में करना स्वाभाविक हो सकता है। वैकल्पिक अनुवाद: &quot;तुम कपड़े पहनते हो, लेकिन अपने आप को गर्म नहीं कर पाते।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">प्रथम, द्वितीय या तृतीय पुरुष</span></p>",
 "associations": {
 "passage": [
 {
@@ -1179,15 +913,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "realia:Bag",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Bag"
-}
-]
+"acai": []
 }
 },
 {
@@ -1199,7 +925,7 @@
 "index_reference": "37001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠הַ֨⁠מִּשְׂתַּכֵּ֔ר מִשְׂתַּכֵּ֖ר אֶל־צְר֥וֹר נָקֽוּב</span></p><p><strong>&quot;और जो मजदूरी कमाता है, वह अपनी मजदूरी की कमाई को छेदवाली थैली में रखता है&quot;</strong></p><p>यहोवा कुछ शब्द छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप सन्दर्भ से इन शब्दों की पूर्ति कर सकते हैं। वैकल्पिक अनुवाद: &quot;और मज़दूरी कमाने वाला मज़दूरी कमाता है, पर केवल उसे एक छिद्रित थैली में डालने के लिए।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप</span></p>",
+"content": "<p><strong>&quot;और जो मजदूरी कमाता है, वह अपनी मजदूरी की कमाई को छेदवाली थैली में रखता है&quot;</strong></p><p>यहोवा कुछ शब्द छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप सन्दर्भ से इन शब्दों की पूर्ति कर सकते हैं। वैकल्पिक अनुवाद: &quot;और मज़दूरी कमाने वाला मज़दूरी कमाता है, पर केवल उसे एक छिद्रित थैली में डालने के लिए।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप</span></p>",
 "associations": {
 "passage": [
 {
@@ -1218,15 +944,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "realia:Bag",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Bag"
-}
-]
+"acai": []
 }
 },
 {
@@ -1316,7 +1034,7 @@
 "index_reference": "37001007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כֹּ֥ה אָמַ֖ר יְהוָ֣ה צְבָא֑וֹת שִׂ֥ימוּ לְבַבְ⁠כֶ֖ם עַל־דַּרְכֵי⁠כֶֽם</span></p><p><strong>&quot;सेनाओं का यहोवा तुम से यह कहता है, अपने-अपने चाल चलन पर सोचो&quot;</strong></p><p>मूल भाषा में यहाँ <strong>हृदय</strong> और <strong>मार्गों</strong> शब्द का उपयोग हुआ है, जबकि हिंदी अनुवाद में <strong>चाल-चलन</strong> और <strong>सोचों </strong>शब्द का उपयोग हुआ है, दोनों ही समान अर्थ को संदर्भित करते हैं। यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;सेनाओं के यहोवा कह रहे हैं कि तुम अपने मार्गों पर ध्यान दो।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;सेनाओं का यहोवा तुम से यह कहता है, अपने-अपने चाल चलन पर सोचो&quot;</strong></p><p>मूल भाषा में यहाँ <strong>हृदय</strong> और <strong>मार्गों</strong> शब्द का उपयोग हुआ है, जबकि हिंदी अनुवाद में <strong>चाल-चलन</strong> और <strong>सोचों </strong>शब्द का उपयोग हुआ है, दोनों ही समान अर्थ को संदर्भित करते हैं। यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;सेनाओं के यहोवा कह रहे हैं कि तुम अपने मार्गों पर ध्यान दो।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -1335,15 +1053,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -1355,7 +1065,7 @@
 "index_reference": "37001007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>שִׂ֥ימוּ לְבַבְ⁠כֶ֖ם עַל־דַּרְכֵי⁠כֶֽם</span></p><p><strong>&quot;अपने-अपने चाल चलन पर सोचो&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:5\">1:5</a> में इसका अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;अपने विचारों को इस पर केन्द्रित करो कि तुम कैसा जीवन व्यतीत कर रहे हो&quot; या &quot;ध्यानपूर्वक विचार करो कि तुम कैसा जीवन व्यतीत कर रहे हो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;अपने-अपने चाल चलन पर सोचो&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:5\">1:5</a> में इसका अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;अपने विचारों को इस पर केन्द्रित करो कि तुम कैसा जीवन व्यतीत कर रहे हो&quot; या &quot;ध्यानपूर्वक विचार करो कि तुम कैसा जीवन व्यतीत कर रहे हो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -1374,15 +1084,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -1394,7 +1096,7 @@
 "index_reference": "37001008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>עֲל֥וּ הָ⁠הָ֛ר וַ⁠הֲבֵאתֶ֥ם עֵ֖ץ וּ⁠בְנ֣וּ הַ⁠בָּ֑יִת וְ⁠אֶרְצֶה־בּ֥⁠וֹ ו⁠אכבד אָמַ֥ר יְהוָֽה</span></p><p><strong>&quot;&quot;पहाड़ पर चढ़ जाओ और लकड़ी ले आओ और इस भवन को बनाओ&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;हाँ, यहोवा तुमको पहाड़ पर जाकर लकड़ी लाने और घर बनाने के लिए कह रहे हैं, और वह इसमें प्रसन्न होंगे और उन्हें महिमा मिलेगी&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;&quot;पहाड़ पर चढ़ जाओ और लकड़ी ले आओ और इस भवन को बनाओ&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;हाँ, यहोवा तुमको पहाड़ पर जाकर लकड़ी लाने और घर बनाने के लिए कह रहे हैं, और वह इसमें प्रसन्न होंगे और उन्हें महिमा मिलेगी&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -1413,29 +1115,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -1468,18 +1148,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bring Honor and Glory on Oneself"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -1521,18 +1201,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bring Honor and Glory on Oneself"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -1553,7 +1233,7 @@
 "index_reference": "37001009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>פָּנֹ֤ה אֶל־הַרְבֵּה֙ וְ⁠הִנֵּ֣ה לִ⁠מְעָ֔ט וַ⁠הֲבֵאתֶ֥ם הַ⁠בַּ֖יִת וְ⁠נָפַ֣חְתִּי ב֑⁠וֹ יַ֣עַן מֶ֗ה נְאֻם֙ יְהוָ֣ה צְבָא֔וֹת יַ֗עַן בֵּיתִ⁠י֙ אֲשֶׁר־ה֣וּא חָרֵ֔ב וְ⁠אַתֶּ֥ם רָצִ֖ים אִ֥ישׁ לְ⁠בֵיתֽ⁠וֹ</span></p><p><strong>&quot;तुम ने बहुत उपज की आशा रखी, परन्तु देखो थोड़ी ही है&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;<span>तुमने बहुत उपज चाही, परन्तु देखो थोड़ी ही मिली; और जब तुम उसे घर ले आए, तब मैंने उसको उड़ा दिया। सेनाओं के यहोवा चाहते हैं कि तुम जानों कि ऐसा क्यों हुआ? यह इसलिए हुआ कि उनका भवन उजाड़ पड़ा है और एक मनुष्य के समान तुम अपने घर को दौड़े जा रहे हो</span>&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;तुम ने बहुत उपज की आशा रखी, परन्तु देखो थोड़ी ही है&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;<span>तुमने बहुत उपज चाही, परन्तु देखो थोड़ी ही मिली; और जब तुम उसे घर ले आए, तब मैंने उसको उड़ा दिया। सेनाओं के यहोवा चाहते हैं कि तुम जानों कि ऐसा क्यों हुआ? यह इसलिए हुआ कि उनका भवन उजाड़ पड़ा है और एक मनुष्य के समान तुम अपने घर को दौड़े जा रहे हो</span>&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -1572,22 +1252,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -1737,7 +1402,7 @@
 "index_reference": "37001009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>יַ֣עַן מֶ֗ה & יַ֗עַן בֵּיתִ⁠י֙</span></p><p><strong>&quot;ऐसा क्यों हुआ?&quot;</strong> - <strong>&quot;इसलिए... कि मेरा भवन&quot;</strong></p><p>यहोवा जोर देने के लिए प्रश्न रूप का उपयोग कर रहे हैं। यदि आप अपनी भाषा में उस उद्देश्य के लिए प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इसे एक कथन या एक विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: “इसका एक महत्वपूर्ण कारण है! यह मेरे घर के कारण है।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>יַ֣עַן מֶ֗ה &amp; יַ֗עַן בֵּיתִ⁠י֙</span></p><p><strong>&quot;ऐसा क्यों हुआ?&quot;</strong> - <strong>&quot;इसलिए... कि मेरा भवन&quot;</strong></p><p>यहोवा जोर देने के लिए प्रश्न रूप का उपयोग कर रहे हैं। यदि आप अपनी भाषा में उस उद्देश्य के लिए प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इसे एक कथन या एक विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: “इसका एक महत्वपूर्ण कारण है! यह मेरे घर के कारण है।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -1921,7 +1586,7 @@
 "index_reference": "37001010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כָּלְא֥וּ שָמַ֖יִם מִ⁠טָּ֑ל וְ⁠הָ⁠אָ֖רֶץ כָּלְאָ֥ה יְבוּלָֽ⁠הּ</span></p><p><strong>&quot;आकाश&quot;</strong> - <strong>&quot;से ओस गिरना... बन्द है&quot;</strong></p><p>यहोवा ऐसे बोल रहे हैं जैसे <strong>आकाश</strong> और <strong>पृथ्वी</strong> जीवित वस्तुएँ हों जो सक्रिय रूप से यहूदियों से <strong>ओस</strong> और <span><strong>अन्न उपजना</strong></span> को रोक सकते हैं। यदि यह आपकी भाषा में उपयोगी हो, तो आप अर्थ को सीधे तौर पर कह सकते हैं। वैकल्पिक अनुवाद: &quot;तुम्हारे ऊपर के आकाश से कोई ओस नहीं होगी और पृथ्वी से कोई उत्पादन नहीं होगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">मानवीकरण</span></p>",
+"content": "<p><strong>&quot;आकाश&quot;</strong> - <strong>&quot;से ओस गिरना... बन्द है&quot;</strong></p><p>यहोवा ऐसे बोल रहे हैं जैसे <strong>आकाश</strong> और <strong>पृथ्वी</strong> जीवित वस्तुएँ हों जो सक्रिय रूप से यहूदियों से <strong>ओस</strong> और <span><strong>अन्न उपजना</strong></span> को रोक सकते हैं। यदि यह आपकी भाषा में उपयोगी हो, तो आप अर्थ को सीधे तौर पर कह सकते हैं। वैकल्पिक अनुवाद: &quot;तुम्हारे ऊपर के आकाश से कोई ओस नहीं होगी और पृथ्वी से कोई उत्पादन नहीं होगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">मानवीकरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -1983,7 +1648,7 @@
 "index_reference": "37001011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>עַל־הָ⁠אָ֣רֶץ וְ⁠עַל־הֶ⁠הָרִ֗ים וְ⁠עַל־הַ⁠דָּגָן֙ וְ⁠עַל־הַ⁠תִּיר֣וֹשׁ וְ⁠עַל־הַ⁠יִּצְהָ֔ר וְ⁠עַ֛ל אֲשֶׁ֥ר תּוֹצִ֖יא הָ⁠אֲדָמָ֑ה וְ⁠עַל־הָֽ⁠אָדָם֙ וְ⁠עַל־הַ⁠בְּהֵמָ֔ה וְ⁠עַ֖ל כָּל־יְגִ֥יעַ כַּפָּֽיִם</span></p><p><strong>&quot;पृथ्वी और पहाड़ों पर&quot;</strong></p><p>इस पद में, यहोवा ने यह दिखाने के लिए कई बार दोहराए जाने वाले वाक्यांशों का उपयोग किया है कि जो <strong>अकाल </strong>उनकी <strong>आज्ञा</strong> से पड़ा है, उसका प्रभाव कितना व्यापक है। इस प्रकार के वाक्यांशों की श्रृंखला को <span>वाग्मितापूर्ण प्रश्न <em>(</em></span><em>लिटनी)</em> कहा जाता है। यदि आपके पाठक इस शैली से परिचित नहीं हैं, तो उन्हें इसका प्रभाव समझाने के लिए आप अनुवाद में प्रत्येक वाक्यांश को अलग पंक्ति में रख सकते हैं, उदाहरण के लिए:\\n&quot;और मैंने विनाश के लिए आह्वान किया है\\nभूमि पर\\nऔर पहाड़ों पर\\nऔर अनाज पर\\nऔर नए दाखरस पर …”\\n</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26703\" data-resourceType=\"UWTranslationManual\">वाग्मितापूर्ण प्रश्न</span></p>",
+"content": "<p><strong>&quot;पृथ्वी और पहाड़ों पर&quot;</strong></p><p>इस पद में, यहोवा ने यह दिखाने के लिए कई बार दोहराए जाने वाले वाक्यांशों का उपयोग किया है कि जो <strong>अकाल </strong>उनकी <strong>आज्ञा</strong> से पड़ा है, उसका प्रभाव कितना व्यापक है। इस प्रकार के वाक्यांशों की श्रृंखला को <span>वाग्मितापूर्ण प्रश्न <em>(</em></span><em>लिटनी)</em> कहा जाता है। यदि आपके पाठक इस शैली से परिचित नहीं हैं, तो उन्हें इसका प्रभाव समझाने के लिए आप अनुवाद में प्रत्येक वाक्यांश को अलग पंक्ति में रख सकते हैं, उदाहरण के लिए:\\n&quot;और मैंने विनाश के लिए आह्वान किया है\\nभूमि पर\\nऔर पहाड़ों पर\\nऔर अनाज पर\\nऔर नए दाखरस पर …”\\n</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26703\" data-resourceType=\"UWTranslationManual\">वाग्मितापूर्ण प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -2002,57 +1667,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-}
-]
+"acai": []
 }
 },
 {
@@ -2064,7 +1679,7 @@
 "index_reference": "37001011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וָ⁠אֶקְרָ֨א חֹ֜רֶב עַל־הָ⁠אָ֣רֶץ וְ⁠עַל־הֶ⁠הָרִ֗ים וְ⁠עַל־הַ⁠דָּגָן֙ וְ⁠עַל־הַ⁠תִּיר֣וֹשׁ וְ⁠עַל־הַ⁠יִּצְהָ֔ר וְ⁠עַ֛ל אֲשֶׁ֥ר תּוֹצִ֖יא הָ⁠אֲדָמָ֑ה וְ⁠עַל־הָֽ⁠אָדָם֙ וְ⁠עַל־הַ⁠בְּהֵמָ֔ה וְ⁠עַ֖ל כָּל־יְגִ֥יעַ כַּפָּֽיִם</span></p><p><strong>&quot;और मेरी आज्ञा से पृथ्वी और पहाड़ों पर... अकाल पड़ा है&quot;</strong></p><p>यदि आपकी भाषा में <strong>अकाल</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। शब्द &quot;अकाल&quot; उस शब्द का संज्ञा रूप है, जिसके विशेषण रूप &quot;उजाड़&quot; का उपयोग यहोवा पद 4 और 9 में करते हैं। यहोवा कह रहे हैं कि यहूदा की भूमि उजाड़ पड़ी है, क्योंकि लोगों ने उनके मन्दिर को उजाड़ छोड़ दिया है। इसलिए यदि आप अपनी भाषा में भाववाचक संज्ञा &quot;अकाल&quot; का उपयोग नहीं करेंगे, तो यहाँ &quot;उजाड़&quot; जैसे विशेषण का उपयोग उपयुक्त हो सकता है। वैकल्पिक अनुवाद: &quot;और मैंने भूमि और पहाड़ों और अनाज और नए दाखमधु और तेल और जो भूमि उत्पन्न करती है और मनुष्य और पशु और तुम्हारे हाथों के सभी श्रम को उजाड़ होने की आज्ञा दी है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><strong>&quot;और मेरी आज्ञा से पृथ्वी और पहाड़ों पर... अकाल पड़ा है&quot;</strong></p><p>यदि आपकी भाषा में <strong>अकाल</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। शब्द &quot;अकाल&quot; उस शब्द का संज्ञा रूप है, जिसके विशेषण रूप &quot;उजाड़&quot; का उपयोग यहोवा पद 4 और 9 में करते हैं। यहोवा कह रहे हैं कि यहूदा की भूमि उजाड़ पड़ी है, क्योंकि लोगों ने उनके मन्दिर को उजाड़ छोड़ दिया है। इसलिए यदि आप अपनी भाषा में भाववाचक संज्ञा &quot;अकाल&quot; का उपयोग नहीं करेंगे, तो यहाँ &quot;उजाड़&quot; जैसे विशेषण का उपयोग उपयुक्त हो सकता है। वैकल्पिक अनुवाद: &quot;और मैंने भूमि और पहाड़ों और अनाज और नए दाखमधु और तेल और जो भूमि उत्पन्न करती है और मनुष्य और पशु और तुम्हारे हाथों के सभी श्रम को उजाड़ होने की आज्ञा दी है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -2083,57 +1698,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-}
-]
+"acai": []
 }
 },
 {
@@ -2173,32 +1738,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "Vine"
 },
 {
 "id": "realia:Must",
@@ -2208,11 +1752,32 @@
 "preferred_label": "Must"
 },
 {
-"id": "flora:Vine",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -2226,7 +1791,7 @@
 "index_reference": "37001011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠עַל־הַ⁠דָּגָן֙ וְ⁠עַל־הַ⁠תִּיר֣וֹשׁ וְ⁠עַל־הַ⁠יִּצְהָ֔ר</span></p><p><strong>&quot;और अन्न और नये दाखमधु पर&quot;</strong></p><p>यहाँ, <strong>अन्न</strong>, <strong>नये दाखमधु</strong> और <strong>तेल,</strong> गेहूँ, जौ, अंगूर और जैतून का प्रतिनिधित्व करते हैं, जिनसे ये उत्पाद प्राप्त होते हैं। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अपनी भाषा से एक समकक्ष अभिव्यक्ति का उपयोग कर सकते हैं या अर्थ को सीधे रूप में बता सकते हैं। वैकल्पिक अनुवाद: &quot;और गेहूँ और जौ पर और अंगूर और जैतून पर&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">लक्षणालंकार</span></p>",
+"content": "<p><strong>&quot;और अन्न और नये दाखमधु पर&quot;</strong></p><p>यहाँ, <strong>अन्न</strong>, <strong>नये दाखमधु</strong> और <strong>तेल,</strong> गेहूँ, जौ, अंगूर और जैतून का प्रतिनिधित्व करते हैं, जिनसे ये उत्पाद प्राप्त होते हैं। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अपनी भाषा से एक समकक्ष अभिव्यक्ति का उपयोग कर सकते हैं या अर्थ को सीधे रूप में बता सकते हैं। वैकल्पिक अनुवाद: &quot;और गेहूँ और जौ पर और अंगूर और जैतून पर&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">लक्षणालंकार</span></p>",
 "associations": {
 "passage": [
 {
@@ -2245,57 +1810,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-}
-]
+"acai": []
 }
 },
 {
@@ -2335,32 +1850,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "Vine"
 },
 {
 "id": "realia:Must",
@@ -2370,11 +1864,32 @@
 "preferred_label": "Must"
 },
 {
-"id": "flora:Vine",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -2416,32 +1931,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "Vine"
 },
 {
 "id": "realia:Must",
@@ -2451,11 +1945,32 @@
 "preferred_label": "Must"
 },
 {
-"id": "flora:Vine",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -2469,7 +1984,7 @@
 "index_reference": "37001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׁמַ֣ע & בְּ⁠קוֹל֙ יְהוָ֣ה אֱלֹֽהֵי⁠הֶ֔ם וְ⁠עַל־דִּבְרֵי֙ חַגַּ֣י הַ⁠נָּבִ֔יא</span></p><p><strong>&quot;तब&quot;</strong> - <strong>&quot;जो वचन उनके परमेश्वर यहोवा ने उनसे कहने के लिये हाग्गै भविष्यद्वक्ता को भेज दिया था, उसे उन्होंने मान लिया&quot;</strong></p><p>यहाँ <strong>मान लिया</strong> शब्द का अर्थ अप्रत्यक्ष रूप से &quot;आज्ञा मानी&quot; है। यदि यह आपके पाठकों के लिए उपयोगी होगा, तो आप अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: &quot;तब ... जो वचन उनके परमेश्वर यहोवा ने उनसे कहने के लिए हाग्गै भविष्यद्वक्ता को भेज दिया था, उसका उन्होंने पालन किया।&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׁמַ֣ע &amp; בְּ⁠קוֹל֙ יְהוָ֣ה אֱלֹֽהֵי⁠הֶ֔ם וְ⁠עַל־דִּבְרֵי֙ חַגַּ֣י הַ⁠נָּבִ֔יא</span></p><p><strong>&quot;तब&quot;</strong> - <strong>&quot;जो वचन उनके परमेश्वर यहोवा ने उनसे कहने के लिये हाग्गै भविष्यद्वक्ता को भेज दिया था, उसे उन्होंने मान लिया&quot;</strong></p><p>यहाँ <strong>मान लिया</strong> शब्द का अर्थ अप्रत्यक्ष रूप से &quot;आज्ञा मानी&quot; है। यदि यह आपके पाठकों के लिए उपयोगी होगा, तो आप अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: &quot;तब ... जो वचन उनके परमेश्वर यहोवा ने उनसे कहने के लिए हाग्गै भविष्यद्वक्ता को भेज दिया था, उसका उन्होंने पालन किया।&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -2497,13 +2012,6 @@
 "preferred_label": "जरूब्बाबेल"
 },
 {
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
 "id": "person:Shealtiel.2",
 "type": "person",
 "confidence": 0.6,
@@ -2518,13 +2026,6 @@
 "preferred_label": "यहोसादाक"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
@@ -2532,11 +2033,25 @@
 "preferred_label": "हाग्गै"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोशू"
 }
 ]
 }
@@ -2550,7 +2065,7 @@
 "index_reference": "37001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׁמַ֣ע & בְּ⁠קוֹל֙ יְהוָ֣ה אֱלֹֽהֵי⁠הֶ֔ם וְ⁠עַל־דִּבְרֵי֙ חַגַּ֣י הַ⁠נָּבִ֔יא</span></p><p><strong>&quot;तब&quot;</strong> - <strong>&quot;अपने परमेश्वर यहोवा की बात मानी; और जो वचन उनके परमेश्वर यहोवा ने उनसे कहने के लिये हाग्गै भविष्यद्वक्ता को भेज दिया था,&quot;</strong></p><p>यहाँ <strong>बात</strong> शब्द का अर्थ यहोवा द्वारा अपनी आवाज़ का उपयोग करके कही गई बातों से है और <strong>वचन</strong> शब्द का अर्थ हाग्गै द्वारा शब्दों का उपयोग करके कही गई बातों से है। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: “तब … यहोवा अपने परमेश्वर और हाग्गै भविष्यद्वक्ता ने जो कहा था, उसका पालन किया।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">लक्षणालंकार</span></p>",
+"content": "<p><strong>&quot;तब&quot;</strong> - <strong>&quot;अपने परमेश्वर यहोवा की बात मानी; और जो वचन उनके परमेश्वर यहोवा ने उनसे कहने के लिये हाग्गै भविष्यद्वक्ता को भेज दिया था,&quot;</strong></p><p>यहाँ <strong>बात</strong> शब्द का अर्थ यहोवा द्वारा अपनी आवाज़ का उपयोग करके कही गई बातों से है और <strong>वचन</strong> शब्द का अर्थ हाग्गै द्वारा शब्दों का उपयोग करके कही गई बातों से है। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: “तब … यहोवा अपने परमेश्वर और हाग्गै भविष्यद्वक्ता ने जो कहा था, उसका पालन किया।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">लक्षणालंकार</span></p>",
 "associations": {
 "passage": [
 {
@@ -2569,57 +2084,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-}
-]
+"acai": []
 }
 },
 {
@@ -2631,7 +2096,7 @@
 "index_reference": "37001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּ⁠קוֹל֙ יְהוָ֣ה אֱלֹֽהֵי⁠הֶ֔ם וְ⁠עַל־דִּבְרֵי֙ חַגַּ֣י הַ⁠נָּבִ֔יא</span></p><p><strong>&quot;अपने परमेश्वर यहोवा की बात ... और जो वचन... हाग्गै भविष्यद्वक्ता&quot;</strong></p><p>यहाँ एक ही विचार को <strong>और</strong> से जुड़े हुए दो वाक्यांशों के माध्यम से व्यक्त किया गया है। दूसरा वाक्यांश बताता है कि पहले वाक्यांश की क्रिया किस माध्यम से पूरी की गई। यदि यह आपकी भाषा में अधिक स्वाभाविक होगा, तो आप इस अर्थ को एक समकक्ष अभिव्यक्ति के साथ व्यक्त कर सकते हैं जो &quot;और&quot; का उपयोग नहीं करता हो। वैकल्पिक अनुवाद: &quot;जो यहोवा, उनके परमेश्वर ने हाग्गै भविष्यद्वक्ता के माध्यम से कहा था।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26694\" data-resourceType=\"UWTranslationManual\">द्विपद (हेंडियाडिस) </span></p>",
+"content": "<p><strong>&quot;अपने परमेश्वर यहोवा की बात ... और जो वचन... हाग्गै भविष्यद्वक्ता&quot;</strong></p><p>यहाँ एक ही विचार को <strong>और</strong> से जुड़े हुए दो वाक्यांशों के माध्यम से व्यक्त किया गया है। दूसरा वाक्यांश बताता है कि पहले वाक्यांश की क्रिया किस माध्यम से पूरी की गई। यदि यह आपकी भाषा में अधिक स्वाभाविक होगा, तो आप इस अर्थ को एक समकक्ष अभिव्यक्ति के साथ व्यक्त कर सकते हैं जो &quot;और&quot; का उपयोग नहीं करता हो। वैकल्पिक अनुवाद: &quot;जो यहोवा, उनके परमेश्वर ने हाग्गै भविष्यद्वक्ता के माध्यम से कहा था।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26694\" data-resourceType=\"UWTranslationManual\">द्विपद (हेंडियाडिस) </span></p>",
 "associations": {
 "passage": [
 {
@@ -2650,57 +2115,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-}
-]
+"acai": []
 }
 },
 {
@@ -2712,7 +2127,7 @@
 "index_reference": "37001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יִּֽירְא֥וּ הָ⁠עָ֖ם מִ⁠פְּנֵ֥י יְהוָֽה</span></p><p><strong>&quot;और लोगों ने यहोवा का भय माना&quot;</strong></p><p>मूल भाषा में यहाँ <strong>यहोवा का मुख</strong> वाक्यांश का उपयोग हुआ है, जबकि हिन्दी अनुवाद में <strong>यहोवा का भय माना</strong> वाक्यांश  का उपयोग हुआ है। यहाँ यहोवा का एक हिस्सा, उनका <strong>मुख</strong>, उनके पूरे अस्तित्व का प्रतिनिधित्व करता है। वैकल्पिक अनुवाद: &quot;और लोगों ने यहोवा का भय माना&quot; या &quot;और लोगों ने यहोवा का आदर किया&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
+"content": "<p><strong>&quot;और लोगों ने यहोवा का भय माना&quot;</strong></p><p>मूल भाषा में यहाँ <strong>यहोवा का मुख</strong> वाक्यांश का उपयोग हुआ है, जबकि हिन्दी अनुवाद में <strong>यहोवा का भय माना</strong> वाक्यांश  का उपयोग हुआ है। यहाँ यहोवा का एक हिस्सा, उनका <strong>मुख</strong>, उनके पूरे अस्तित्व का प्रतिनिधित्व करता है। वैकल्पिक अनुवाद: &quot;और लोगों ने यहोवा का भय माना&quot; या &quot;और लोगों ने यहोवा का आदर किया&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
 "associations": {
 "passage": [
 {
@@ -2731,57 +2146,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-}
-]
+"acai": []
 }
 },
 {
@@ -2793,7 +2158,7 @@
 "index_reference": "37001013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֲנִ֥י אִתְּ⁠כֶ֖ם נְאֻם־יְהוָֽה</span></p><p><strong>&quot;मैं तुम्हारे संग हूँ&quot;—यहोवा की यह वाणी है</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;यहोवा कहते हैं कि वह तुम्हारे साथ है!&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">प्रथम, द्वितीय या तृतीय पुरुष</span></p>",
+"content": "<p><strong>&quot;मैं तुम्हारे संग हूँ&quot;—यहोवा की यह वाणी है</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;यहोवा कहते हैं कि वह तुम्हारे साथ है!&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">प्रथम, द्वितीय या तृतीय पुरुष</span></p>",
 "associations": {
 "passage": [
 {
@@ -2812,29 +2177,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -2846,7 +2189,7 @@
 "index_reference": "37001014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֣עַר יְהוָ֡ה אֶת־רוּחַ֩ זְרֻבָּבֶ֨ל בֶּן־שַׁלְתִּיאֵ֜ל פַּחַ֣ת יְהוּדָ֗ה וְ⁠אֶת־ר֨וּחַ֙ יְהוֹשֻׁ֤עַ בֶּן־יְהוֹצָדָק֙ הַ⁠כֹּהֵ֣ן הַ⁠גָּד֔וֹל וְֽ⁠אֶת־ר֔וּחַ כֹּ֖ל שְׁאֵרִ֣ית הָ⁠עָ֑ם</span></p><p><strong>&quot;और यहोवा ने शालतीएल के पुत्र जरुब्बाबेल को जो यहूदा का अधिपति था, और यहोसादाक के पुत्र यहोशू महायाजक को, और सब बचे हुए लोगों के मन को उभारकर उत्साह से भर दिया&quot;</strong></p><p>मूल भाषा में यहाँ <strong>आत्मा</strong> शब्द आया है जबकि हिंदी अनुवाद में <strong>मन</strong> शब्द का उपयोग हुआ है। यहाँ जरूब्बाबेल, यहोशू और लोगों का एक हिस्सा, प्रत्येक मामले में उनका <strong>मन</strong>, सभी का प्रतिनिधित्व करता है। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: &quot;और यहोवा ने यहूदा के अधिपति, शालतीएल के पुत्र जरूब्बाबेल और यहोसादाक के पुत्र महायाजक यहोशू और सभी शेष लोगों को जागृत किया।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
+"content": "<p><strong>&quot;और यहोवा ने शालतीएल के पुत्र जरुब्बाबेल को जो यहूदा का अधिपति था, और यहोसादाक के पुत्र यहोशू महायाजक को, और सब बचे हुए लोगों के मन को उभारकर उत्साह से भर दिया&quot;</strong></p><p>मूल भाषा में यहाँ <strong>आत्मा</strong> शब्द आया है जबकि हिंदी अनुवाद में <strong>मन</strong> शब्द का उपयोग हुआ है। यहाँ जरूब्बाबेल, यहोशू और लोगों का एक हिस्सा, प्रत्येक मामले में उनका <strong>मन</strong>, सभी का प्रतिनिधित्व करता है। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अर्थ को स्पष्ट रूप से बता सकते हैं। वैकल्पिक अनुवाद: &quot;और यहोवा ने यहूदा के अधिपति, शालतीएल के पुत्र जरूब्बाबेल और यहोसादाक के पुत्र महायाजक यहोशू और सभी शेष लोगों को जागृत किया।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
 "associations": {
 "passage": [
 {
@@ -2865,64 +2208,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -2934,7 +2220,7 @@
 "index_reference": "37001014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֣עַר יְהוָ֡ה אֶת־רוּחַ֩ זְרֻבָּבֶ֨ל בֶּן־שַׁלְתִּיאֵ֜ל פַּחַ֣ת יְהוּדָ֗ה וְ⁠אֶת־ר֨וּחַ֙ יְהוֹשֻׁ֤עַ בֶּן־יְהוֹצָדָק֙ הַ⁠כֹּהֵ֣ן הַ⁠גָּד֔וֹל וְֽ⁠אֶת־ר֔וּחַ כֹּ֖ל שְׁאֵרִ֣ית הָ⁠עָ֑ם</span></p><p><strong>&quot;और यहोवा ने शालतीएल के पुत्र जरुब्बाबेल को जो यहूदा का अधिपति था, और यहोसादाक के पुत्र यहोशू महायाजक को, और सब बचे हुए लोगों के मन को उभारकर उत्साह से भर दिया&quot;</strong></p><p>मूल भाषा में यहाँ <strong>जगाया</strong> शब्द आया है, जबकि हिन्दी अनुवाद में <strong>भर दिया</strong> वाक्यांश का उपयोग हुआ है। यहाँ जरूब्बाबेल, यहोशू, और लोगों का वर्णन इस प्रकार किया गया है जैसे वे सचमुच सो रहे थे और यहोवा ने उन्हें जगाया। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप अर्थ को सीधे तौर पर कह सकते हैं। वैकल्पिक अनुवाद: &quot;और यहोवा ने यहूदा के अधिपति, शालतीएल के पुत्र जरूब्बाबेल और यहोसादाक के पुत्र महायाजक यहोशू और सभी शेष लोगों को प्रेरित किया”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><strong>&quot;और यहोवा ने शालतीएल के पुत्र जरुब्बाबेल को जो यहूदा का अधिपति था, और यहोसादाक के पुत्र यहोशू महायाजक को, और सब बचे हुए लोगों के मन को उभारकर उत्साह से भर दिया&quot;</strong></p><p>मूल भाषा में यहाँ <strong>जगाया</strong> शब्द आया है, जबकि हिन्दी अनुवाद में <strong>भर दिया</strong> वाक्यांश का उपयोग हुआ है। यहाँ जरूब्बाबेल, यहोशू, और लोगों का वर्णन इस प्रकार किया गया है जैसे वे सचमुच सो रहे थे और यहोवा ने उन्हें जगाया। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप अर्थ को सीधे तौर पर कह सकते हैं। वैकल्पिक अनुवाद: &quot;और यहोवा ने यहूदा के अधिपति, शालतीएल के पुत्र जरूब्बाबेल और यहोसादाक के पुत्र महायाजक यहोशू और सभी शेष लोगों को प्रेरित किया”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -2953,64 +2239,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -3022,7 +2251,7 @@
 "index_reference": "37001015",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּ⁠י֨וֹם עֶשְׂרִ֧ים וְ⁠אַרְבָּעָ֛ה לַ⁠חֹ֖דֶשׁ בַּ⁠שִּׁשִּׁ֑י</span></p><p><strong>&quot;छठवें महीने के चौबीसवें दिन&quot;</strong></p><p>इब्रानी तिथिपत्र (कैलेंडर) का <strong>छठवा महीना,</strong> पश्चिमी कैलेण्डर के अगस्त और सितंबर महीने के दौरान होता है। देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में दिन, महीना और वर्ष के समान सन्दर्भ का अनुवाद कैसे किया।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
+"content": "<p><strong>&quot;छठवें महीने के चौबीसवें दिन&quot;</strong></p><p>इब्रानी तिथिपत्र (कैलेंडर) का <strong>छठवा महीना,</strong> पश्चिमी कैलेण्डर के अगस्त और सितंबर महीने के दौरान होता है। देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में दिन, महीना और वर्ष के समान सन्दर्भ का अनुवाद कैसे किया।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
 "associations": {
 "passage": [
 {
@@ -3041,15 +2270,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "दारा"
-}
-]
+"acai": []
 }
 },
 {
@@ -3061,7 +2282,7 @@
 "index_reference": "37001015",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּ⁠י֨וֹם עֶשְׂרִ֧ים וְ⁠אַרְבָּעָ֛ה לַ⁠חֹ֖דֶשׁ בַּ⁠שִּׁשִּׁ֑י בִּ⁠שְׁנַ֥ת שְׁתַּ֖יִם</span></p><p><strong>&quot;दूसरे वर्ष के छठवें महीने के चौबीसवें दिन&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;छठवें महीने की 24 तारीख को, दूसरे वर्ष में&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
+"content": "<p><strong>&quot;दूसरे वर्ष के छठवें महीने के चौबीसवें दिन&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;छठवें महीने की 24 तारीख को, दूसरे वर्ष में&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -3080,15 +2301,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "दारा"
-}
-]
+"acai": []
 }
 },
 {
@@ -3123,7 +2336,7 @@
 "index_reference": "37002001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בַּ⁠שְּׁבִיעִ֕י בְּ⁠עֶשְׂרִ֥ים וְ⁠אֶחָ֖ד לַ⁠חֹ֑דֶשׁ</span></p><p><strong>&quot;सातवें महीने के इक्कीसवें दिन को&quot;</strong></p><p>यहाँ कुछ शब्द छोड़े गए हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप सन्दर्भ से इन शब्दों की पूर्ति कर सकते हैं। वैकल्पिक अनुवाद: &quot;सातवें महीने की इक्कीसवीं तारीख को&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप</span></p>",
+"content": "<p><strong>&quot;सातवें महीने के इक्कीसवें दिन को&quot;</strong></p><p>यहाँ कुछ शब्द छोड़े गए हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप सन्दर्भ से इन शब्दों की पूर्ति कर सकते हैं। वैकल्पिक अनुवाद: &quot;सातवें महीने की इक्कीसवीं तारीख को&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप</span></p>",
 "associations": {
 "passage": [
 {
@@ -3142,29 +2355,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -3176,7 +2367,7 @@
 "index_reference": "37002001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בַּ⁠שְּׁבִיעִ֕י בְּ⁠עֶשְׂרִ֥ים וְ⁠אֶחָ֖ד לַ⁠חֹ֑דֶשׁ</span></p><p><strong>&quot;सातवें महीने के इक्कीसवें दिन को&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;सातवें महीने की 21 तारीख को&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
+"content": "<p><strong>&quot;सातवें महीने के इक्कीसवें दिन को&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;सातवें महीने की 21 तारीख को&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -3195,29 +2386,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -3229,7 +2398,7 @@
 "index_reference": "37002001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בַּ⁠שְּׁבִיעִ֕י בְּ⁠עֶשְׂרִ֥ים וְ⁠אֶחָ֖ד לַ⁠חֹ֑דֶשׁ</span></p><p><strong>&quot;सातवें महीने के इक्कीसवें दिन को&quot;</strong></p><p>इब्रानी कैलेण्डर के <strong>सातवें</strong> महीने का <strong>इक्कीसवाँ</strong> दिन पश्चिमी कैलेण्डर में अक्टूबर के मध्य के करीब होता है। देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में दिन और महीने के समान सन्दर्भ का अनुवाद कैसे किया।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
+"content": "<p><strong>&quot;सातवें महीने के इक्कीसवें दिन को&quot;</strong></p><p>इब्रानी कैलेण्डर के <strong>सातवें</strong> महीने का <strong>इक्कीसवाँ</strong> दिन पश्चिमी कैलेण्डर में अक्टूबर के मध्य के करीब होता है। देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में दिन और महीने के समान सन्दर्भ का अनुवाद कैसे किया।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
 "associations": {
 "passage": [
 {
@@ -3248,29 +2417,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -3282,7 +2429,7 @@
 "index_reference": "37002001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הָיָה֙ דְּבַר־יְהוָ֔ה בְּ⁠יַד־חַגַּ֥י הַ⁠נָּבִ֖יא</span></p><p><strong>&quot;यहोवा का यह वचन हाग्गै भविष्यद्वक्ता के पास पहुँचा&quot;</strong></p><p>देखें कि आपने इस समान कथन का अनुवाद <a href=\"https://ref.ly/Hag1:1\">1:1</a> में कैसे किया। वैकल्पिक अनुवाद: &quot;हाग्गै भविष्यद्वक्ता यहोवा से एक संदेश लाए&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
+"content": "<p><strong>&quot;यहोवा का यह वचन हाग्गै भविष्यद्वक्ता के पास पहुँचा&quot;</strong></p><p>देखें कि आपने इस समान कथन का अनुवाद <a href=\"https://ref.ly/Hag1:1\">1:1</a> में कैसे किया। वैकल्पिक अनुवाद: &quot;हाग्गै भविष्यद्वक्ता यहोवा से एक संदेश लाए&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
 "associations": {
 "passage": [
 {
@@ -3301,29 +2448,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -3356,11 +2481,11 @@
 ],
 "acai": [
 {
-"id": "person:Joshua.5",
+"id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोशू"
+"preferred_label": "जरूब्बाबेल"
 },
 {
 "id": "person:Shealtiel.2",
@@ -3368,6 +2493,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "शालतीएल"
+},
+{
+"id": "person:Jehozadak",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोसादाक"
 },
 {
 "id": "person:Judah.4",
@@ -3384,18 +2516,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "person:Jehozadak",
+"id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
+"preferred_label": "यहोशू"
 }
 ]
 }
@@ -3409,7 +2534,7 @@
 "index_reference": "37002003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מִ֤י בָ⁠כֶם֙ הַ⁠נִּשְׁאָ֔ר אֲשֶׁ֤ר רָאָה֙ אֶת־הַ⁠בַּ֣יִת הַ⁠זֶּ֔ה בִּ⁠כְבוֹד֖⁠וֹ הָ⁠רִאשׁ֑וֹן וּ⁠מָ֨ה אַתֶּ֜ם רֹאִ֤ים אֹת⁠וֹ֙ עַ֔תָּה הֲ⁠ל֥וֹא כָמֹ֛⁠הוּ כְּ⁠אַ֖יִן בְּ⁠עֵינֵי⁠כֶֽם</span></p><p><strong>&quot;तुम में से कौन है, जिसने इस भवन की पहली महिमा देखी है? अब तुम इसे कैसी दशा में देखते हो? क्या यह सच नहीं कि यह तुम्हारी दृष्टि में उस पहले की अपेक्षा कुछ भी अच्छा नहीं है?&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर प्रत्यक्ष उद्धरण शामिल न हो, तो आप इस पद का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं, जो पिछले पद में शुरू होने वाले वाक्य को जारी रखता है। वैकल्पिक अनुवाद: &quot;उनमें से कौन बचा है जिन्होंने इस भवन को उसकी पूर्व महिमा में देखा था। उनसे पूछ कि वे इसे अब कैसे देख रहे हैं और क्या यह उनके दृष्टिकोण में कुछ भी नहीं जैसा है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर  उद्धरण </span></p>",
+"content": "<p><strong>&quot;तुम में से कौन है, जिसने इस भवन की पहली महिमा देखी है? अब तुम इसे कैसी दशा में देखते हो? क्या यह सच नहीं कि यह तुम्हारी दृष्टि में उस पहले की अपेक्षा कुछ भी अच्छा नहीं है?&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर प्रत्यक्ष उद्धरण शामिल न हो, तो आप इस पद का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं, जो पिछले पद में शुरू होने वाले वाक्य को जारी रखता है। वैकल्पिक अनुवाद: &quot;उनमें से कौन बचा है जिन्होंने इस भवन को उसकी पूर्व महिमा में देखा था। उनसे पूछ कि वे इसे अब कैसे देख रहे हैं और क्या यह उनके दृष्टिकोण में कुछ भी नहीं जैसा है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर  उद्धरण </span></p>",
 "associations": {
 "passage": [
 {
@@ -3428,22 +2553,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -3455,7 +2565,7 @@
 "index_reference": "37002003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מִ֤י בָ⁠כֶם֙ הַ⁠נִּשְׁאָ֔ר אֲשֶׁ֤ר רָאָה֙ אֶת־הַ⁠בַּ֣יִת הַ⁠זֶּ֔ה בִּ⁠כְבוֹד֖⁠וֹ הָ⁠רִאשׁ֑וֹן וּ⁠מָ֨ה אַתֶּ֜ם רֹאִ֤ים אֹת⁠וֹ֙ עַ֔תָּה הֲ⁠ל֥וֹא כָמֹ֛⁠הוּ כְּ⁠אַ֖יִן בְּ⁠עֵינֵי⁠כֶֽם</span></p><p><strong>&quot;तुम में से कौन है, जिसने इस भवन की पहली महिमा देखी है? अब तुम इसे कैसी दशा में देखते हो? क्या यह सच नहीं कि यह तुम्हारी दृष्टि में उस पहले की अपेक्षा कुछ भी अच्छा नहीं है?&quot;</strong></p><p>यहोवा जोर देने के लिए प्रश्न रूप का उपयोग कर रहे हैं। यदि आप अपनी भाषा में उस उद्देश्य के लिए प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इन प्रश्नों का अनुवाद कथनों या विस्मयादिबोधक के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;तुम में से कुछ ने इस मन्दिर को इसकी पूर्व महिमा में देखा था। मुझे पता है कि तुम इसके वर्तमान रूप से खुश नहीं हो। पहले के रूप की तुलना में, यह तुम्हारी नज़र में कुछ भी नहीं है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><strong>&quot;तुम में से कौन है, जिसने इस भवन की पहली महिमा देखी है? अब तुम इसे कैसी दशा में देखते हो? क्या यह सच नहीं कि यह तुम्हारी दृष्टि में उस पहले की अपेक्षा कुछ भी अच्छा नहीं है?&quot;</strong></p><p>यहोवा जोर देने के लिए प्रश्न रूप का उपयोग कर रहे हैं। यदि आप अपनी भाषा में उस उद्देश्य के लिए प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इन प्रश्नों का अनुवाद कथनों या विस्मयादिबोधक के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;तुम में से कुछ ने इस मन्दिर को इसकी पूर्व महिमा में देखा था। मुझे पता है कि तुम इसके वर्तमान रूप से खुश नहीं हो। पहले के रूप की तुलना में, यह तुम्हारी नज़र में कुछ भी नहीं है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -3474,22 +2584,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -3501,7 +2596,7 @@
 "index_reference": "37002003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בָ⁠כֶם֙ הַ⁠נִּשְׁאָ֔ר אֲשֶׁ֤ר רָאָה֙ אֶת־הַ⁠בַּ֣יִת הַ⁠זֶּ֔ה</span></p><p><strong>&quot;तुम में से कौन है, जिसने इस भवन&quot;</strong></p><p>यदि आपकी भाषा इस निष्क्रिय रूप का उपयोग नहीं करती है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य तरीके से व्यक्त कर सकते हैं जो स्वाभाविक हो। वैकल्पिक अनुवाद: &quot;तुम में से वह, जिसे अभी भी याद है कि यह मन्दिर कैसा दिखता था&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
+"content": "<p><strong>&quot;तुम में से कौन है, जिसने इस भवन&quot;</strong></p><p>यदि आपकी भाषा इस निष्क्रिय रूप का उपयोग नहीं करती है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य तरीके से व्यक्त कर सकते हैं जो स्वाभाविक हो। वैकल्पिक अनुवाद: &quot;तुम में से वह, जिसे अभी भी याद है कि यह मन्दिर कैसा दिखता था&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
 "associations": {
 "passage": [
 {
@@ -3520,22 +2615,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -3547,7 +2627,7 @@
 "index_reference": "37002003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֲשֶׁ֤ר רָאָה֙ אֶת־הַ⁠בַּ֣יִת הַ⁠זֶּ֔ה בִּ⁠כְבוֹד֖⁠וֹ הָ⁠רִאשׁ֑וֹן</span></p><p><strong>&quot;जिसने इस भवन की पहली महिमा देखी है&quot;</strong></p><p>यदि आपकी भाषा में <strong>महिमा</strong> के विचार के लिए भाववाचक संज्ञा का उपयोग नहीं होता है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: &quot;जिन्होंने देखा कि यह मदिर पहले कितना गौरवमय था&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><strong>&quot;जिसने इस भवन की पहली महिमा देखी है&quot;</strong></p><p>यदि आपकी भाषा में <strong>महिमा</strong> के विचार के लिए भाववाचक संज्ञा का उपयोग नहीं होता है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: &quot;जिन्होंने देखा कि यह मदिर पहले कितना गौरवमय था&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -3566,22 +2646,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -3639,7 +2704,7 @@
 "index_reference": "37002003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֲ⁠ל֥וֹא כָמֹ֛⁠הוּ כְּ⁠אַ֖יִן בְּ⁠עֵינֵי⁠כֶֽם</span></p><p><strong>&quot;यह तुम्हारी दृष्टि में उस पहले की अपेक्षा कुछ भी अच्छा नहीं है&quot;</strong></p><p>मूल भाषा में यहाँ <strong>आँखों</strong> शब्द आया है, जबकि हिन्दी अनुवाद में <strong>दृष्टि</strong> शब्द आया है, ये दोनों ही समान अर्थ को संदर्भित करते हैं। यहोवा यहाँ <strong>आँखों</strong> शब्द का उपयोग दृष्टि के अर्थ में कर रहे हैं। दृष्टि, बदले में, ध्यान, दृष्टिकोण और मूल्यांकन का प्रतिनिधित्व करती है। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अर्थ को सीधे तौर पर बता सकते हैं। वैकल्पिक अनुवाद: &quot;इसके मुकाबले, क्या तुम इसे कुछ नहीं मानते&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">लक्षणालंकार</span></p>",
+"content": "<p><strong>&quot;यह तुम्हारी दृष्टि में उस पहले की अपेक्षा कुछ भी अच्छा नहीं है&quot;</strong></p><p>मूल भाषा में यहाँ <strong>आँखों</strong> शब्द आया है, जबकि हिन्दी अनुवाद में <strong>दृष्टि</strong> शब्द आया है, ये दोनों ही समान अर्थ को संदर्भित करते हैं। यहोवा यहाँ <strong>आँखों</strong> शब्द का उपयोग दृष्टि के अर्थ में कर रहे हैं। दृष्टि, बदले में, ध्यान, दृष्टिकोण और मूल्यांकन का प्रतिनिधित्व करती है। यदि यह आपकी भाषा में उपयोगी होगा, तो आप अर्थ को सीधे तौर पर बता सकते हैं। वैकल्पिक अनुवाद: &quot;इसके मुकाबले, क्या तुम इसे कुछ नहीं मानते&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">लक्षणालंकार</span></p>",
 "associations": {
 "passage": [
 {
@@ -3658,22 +2723,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -3685,7 +2735,7 @@
 "index_reference": "37002004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠עַתָּ֣ה חֲזַ֣ק זְרֻבָּבֶ֣ל ׀ נְאֻם־יְהוָ֡ה וַ⁠חֲזַ֣ק יְהוֹשֻׁ֣עַ בֶּן־יְהוֹצָדָק֩ הַ⁠כֹּהֵ֨ן הַ⁠גָּד֜וֹל וַ⁠חֲזַ֨ק כָּל־עַ֥ם הָ⁠אָ֛רֶץ נְאֻם־יְהוָ֖ה וַֽ⁠עֲשׂ֑וּ כִּֽי־אֲנִ֣י אִתְּ⁠כֶ֔ם נְאֻ֖ם יְהוָ֥ה צְבָאֽוֹת</span></p><p><strong>&quot;तो भी, अब यहोवा की यह वाणी है, हे जरुब्बाबेल, हियाव बाँध; और हे यहोसादाक के पुत्र यहोशू महायाजक, हियाव बाँध; और यहोवा की यह भी वाणी है कि हे देश के सब लोगों हियाव बाँधकर काम करो, क्योंकि मैं तुम्हारे संग हूँ, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर प्रत्यक्ष उद्धरण शामिल न हों, तो आप इस पद में दूसरे स्तर के उद्धरण को अप्रत्यक्ष उद्धरण के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: &quot;लेकिन जरूब्बाबेल से कह कि मैं, यहोवा, घोषणा करता हूँ कि अब उसे दृढ़ होना चाहिए, और मैं, यहोवा, यहोसादाक के पुत्र, यहोशू महायाजक, और देश के सभी लोगों से घोषणा करता हूँ कि उन्हें दृढ़ होना चाहिए, और मैं, सेनाओं का यहोवा, घोषणा करता हूँ कि वे काम करें, क्योंकि मैं उनके साथ हूँ।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरण के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;तो भी, अब यहोवा की यह वाणी है, हे जरुब्बाबेल, हियाव बाँध; और हे यहोसादाक के पुत्र यहोशू महायाजक, हियाव बाँध; और यहोवा की यह भी वाणी है कि हे देश के सब लोगों हियाव बाँधकर काम करो, क्योंकि मैं तुम्हारे संग हूँ, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर प्रत्यक्ष उद्धरण शामिल न हों, तो आप इस पद में दूसरे स्तर के उद्धरण को अप्रत्यक्ष उद्धरण के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: &quot;लेकिन जरूब्बाबेल से कह कि मैं, यहोवा, घोषणा करता हूँ कि अब उसे दृढ़ होना चाहिए, और मैं, यहोवा, यहोसादाक के पुत्र, यहोशू महायाजक, और देश के सभी लोगों से घोषणा करता हूँ कि उन्हें दृढ़ होना चाहिए, और मैं, सेनाओं का यहोवा, घोषणा करता हूँ कि वे काम करें, क्योंकि मैं उनके साथ हूँ।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरण के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -3704,36 +2754,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-}
-]
+"acai": []
 }
 },
 {
@@ -3766,20 +2787,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोसादाक"
-},
-{
 "id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.6,
@@ -3792,6 +2799,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोशू"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Jehozadak",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोसादाक"
 }
 ]
 }
@@ -3805,7 +2826,7 @@
 "index_reference": "37002005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֶֽת־הַ⁠דָּבָ֞ר אֲשֶׁר־כָּרַ֤תִּי אִתְּ⁠כֶם֙ בְּ⁠צֵאתְ⁠כֶ֣ם מִ⁠מִּצְרַ֔יִם וְ⁠רוּחִ֖⁠י עֹמֶ֣דֶת בְּ⁠תוֹכְ⁠כֶ֑ם אַל־תִּירָֽאוּ</span></p><p><strong>&quot;तुम्हारे मिस्र से निकलने के समय जो वाचा मैंने तुम से बाँधी थी, उसी वाचा के अनुसार मेरा आत्मा तुम्हारे बीच में बना है; इसलिए तुम मत डरो&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस तरह से करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;उन्हें बता कि यह वही वचन है जो मैंने उनसे तब कहा था जब वे मिस्र से बाहर आए थे, और मेरा आत्मा उनके बीच बना रहता है, इसलिए उन्हें भयभीत नहीं होना चाहिए।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;तुम्हारे मिस्र से निकलने के समय जो वाचा मैंने तुम से बाँधी थी, उसी वाचा के अनुसार मेरा आत्मा तुम्हारे बीच में बना है; इसलिए तुम मत डरो&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस तरह से करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;उन्हें बता कि यह वही वचन है जो मैंने उनसे तब कहा था जब वे मिस्र से बाहर आए थे, और मेरा आत्मा उनके बीच बना रहता है, इसलिए उन्हें भयभीत नहीं होना चाहिए।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -3824,22 +2845,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-}
-]
+"acai": []
 }
 },
 {
@@ -3872,18 +2878,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
 }
 ]
 }
@@ -3918,18 +2924,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
 }
 ]
 }
@@ -3964,18 +2970,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
 }
 ]
 }
@@ -4010,18 +3016,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
 }
 ]
 }
@@ -4035,7 +3041,7 @@
 "index_reference": "37002006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כִּ֣י כֹ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת ע֥וֹד אַחַ֖ת מְעַ֣ט הִ֑יא וַ⁠אֲנִ֗י מַרְעִישׁ֙ אֶת־הַ⁠שָּׁמַ֣יִם וְ⁠אֶת־הָ⁠אָ֔רֶץ וְ⁠אֶת־הַ⁠יָּ֖ם וְ⁠אֶת־הֶ⁠חָרָבָֽה</span></p><p><strong>&quot;क्योंकि सेनाओं का यहोवा यह कहता है, अब थोड़ी ही देर बाकी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस तरह से करने का निर्णय लिया है कि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;क्योंकि मैं, सेनाओं का यहोवा, कहता हूँ कि थोड़ी देर में एक बार फिर यह होगा, और मैं आकाश, पृथ्वी, समुद्र और सूखी भूमि को हिला दूँगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;क्योंकि सेनाओं का यहोवा यह कहता है, अब थोड़ी ही देर बाकी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस तरह से करने का निर्णय लिया है कि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;क्योंकि मैं, सेनाओं का यहोवा, कहता हूँ कि थोड़ी देर में एक बार फिर यह होगा, और मैं आकाश, पृथ्वी, समुद्र और सूखी भूमि को हिला दूँगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -4054,15 +3060,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -4191,7 +3189,7 @@
 "index_reference": "37002007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠הִרְעַשְׁתִּי֙ אֶת־כָּל־הַ⁠גּוֹיִ֔ם וּ⁠בָ֖אוּ חֶמְדַּ֣ת כָּל־הַ⁠גּוֹיִ֑ם וּ⁠מִלֵּאתִ֞י אֶת־הַ⁠בַּ֤יִת הַ⁠זֶּה֙ כָּב֔וֹד אָמַ֖ר יְהוָ֥ה צְבָאֽוֹת</span></p><p><strong>&quot;और मैं सारी जातियों को हिलाऊँगा&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस तरह से करने का निर्णय लिया है कि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं, सेनाओं का यहोवा, कहता हूँ कि मैं सभी राष्ट्रों को हिला दूँगा, और वे सभी राष्ट्रों के खजाने के साथ आएँगे, और मैं इस भवन को महिमा से भर दूँगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर  उद्धरण</span></p>",
+"content": "<p><strong>&quot;और मैं सारी जातियों को हिलाऊँगा&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस तरह से करने का निर्णय लिया है कि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं, सेनाओं का यहोवा, कहता हूँ कि मैं सभी राष्ट्रों को हिला दूँगा, और वे सभी राष्ट्रों के खजाने के साथ आएँगे, और मैं इस भवन को महिमा से भर दूँगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर  उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -4210,29 +3208,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -4265,18 +3241,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -4318,18 +3294,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -4350,7 +3326,7 @@
 "index_reference": "37002008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>לִ֥⁠י הַ⁠כֶּ֖סֶף וְ⁠לִ֣⁠י הַ⁠זָּהָ֑ב נְאֻ֖ם יְהוָ֥ה צְבָאֽוֹת</span></p><p><strong>&quot;चाँदी तो मेरी है, और सोना भी मेरा ही है, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;सेनाओं के यहोवा ने घोषणा की है कि चाँदी और सोना मेरा ही है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;चाँदी तो मेरी है, और सोना भी मेरा ही है, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;सेनाओं के यहोवा ने घोषणा की है कि चाँदी और सोना मेरा ही है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -4369,22 +3345,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Money"
-}
-]
+"acai": []
 }
 },
 {
@@ -4442,7 +3403,7 @@
 "index_reference": "37002009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>גָּד֣וֹל יִֽהְיֶ֡ה כְּבוֹד֩ הַ⁠בַּ֨יִת הַ⁠זֶּ֤ה הָ⁠אַֽחֲרוֹן֙ מִן־הָ֣⁠רִאשׁ֔וֹן אָמַ֖ר יְהוָ֣ה צְבָא֑וֹת וּ⁠בַ⁠מָּק֤וֹם הַ⁠זֶּה֙ אֶתֵּ֣ן שָׁל֔וֹם נְאֻ֖ם יְהוָ֥ה צְבָאֽוֹת</span></p><p><strong>&quot;इस भवन की पिछली महिमा इसकी पहली महिमा से बड़ी होगी, सेनाओं के यहोवा का यही वचन है, और इस स्थान में मैं शान्ति दूँगा, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण को अप्रत्यक्ष उद्धरण के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं, सेनाओं का यहोवा, कहता हूँ कि इस भवन की बाद की महिमा पूर्व की तुलना में अधिक होगी, और मैं, सेनाओं का यहोवा, घोषणा करता हूँ कि मैं इस स्थान पर शांति प्रदान करूँगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;इस भवन की पिछली महिमा इसकी पहली महिमा से बड़ी होगी, सेनाओं के यहोवा का यही वचन है, और इस स्थान में मैं शान्ति दूँगा, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण को अप्रत्यक्ष उद्धरण के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं, सेनाओं का यहोवा, कहता हूँ कि इस भवन की बाद की महिमा पूर्व की तुलना में अधिक होगी, और मैं, सेनाओं का यहोवा, घोषणा करता हूँ कि मैं इस स्थान पर शांति प्रदान करूँगा।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -4461,36 +3422,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -4530,18 +3462,18 @@
 "preferred_label": "Peace"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -4562,7 +3494,7 @@
 "index_reference": "37002009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>גָּד֣וֹל יִֽהְיֶ֡ה כְּבוֹד֩ הַ⁠בַּ֨יִת הַ⁠זֶּ֤ה הָ⁠אַֽחֲרוֹן֙ מִן־הָ֣⁠רִאשׁ֔וֹן</span></p><p><strong>&quot;इस भवन की पिछली महिमा इसकी पहली महिमा से बड़ी होगी&quot;</strong></p><p>यदि आपकी भाषा में <strong>महिमा</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: “यह मन्दिर अब पहले से अधिक गौरवमयी हो जाएगा”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><strong>&quot;इस भवन की पिछली महिमा इसकी पहली महिमा से बड़ी होगी&quot;</strong></p><p>यदि आपकी भाषा में <strong>महिमा</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: “यह मन्दिर अब पहले से अधिक गौरवमयी हो जाएगा”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -4581,36 +3513,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-}
-]
+"acai": []
 }
 },
 {
@@ -4650,18 +3553,18 @@
 "preferred_label": "Peace"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -4710,18 +3613,18 @@
 "preferred_label": "Peace"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:House",
@@ -4777,18 +3680,18 @@
 "preferred_label": "दारा"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -4802,7 +3705,7 @@
 "index_reference": "37002010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּ⁠עֶשְׂרִ֤ים וְ⁠אַרְבָּעָה֙ לַ⁠תְּשִׁיעִ֔י בִּ⁠שְׁנַ֥ת שְׁתַּ֖יִם לְ⁠דָרְיָ֑וֶשׁ</span></p><p><strong>&quot;दारा के राज्य के दूसरे वर्ष के नौवें महीने के चौबीसवें दिन को&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;दारा के दूसरे वर्ष के नौवें महीने के 24वें दिन को&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
+"content": "<p><strong>&quot;दारा के राज्य के दूसरे वर्ष के नौवें महीने के चौबीसवें दिन को&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्याओं का उपयोग नहीं होता है, तो आप अपने अनुवाद में मूल संख्याओं या समकक्ष अभिव्यक्तियों का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;दारा के दूसरे वर्ष के नौवें महीने के 24वें दिन को&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -4821,36 +3724,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "दारा"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -4862,7 +3736,7 @@
 "index_reference": "37002010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּ⁠עֶשְׂרִ֤ים וְ⁠אַרְבָּעָה֙ לַ⁠תְּשִׁיעִ֔י</span></p><p><strong>&quot;नौवें महीने के चौबीसवें दिन&quot;</strong></p><p>इब्रानी कैलेण्डर के <strong>नौवें महीने</strong> के <strong>चौबीसवें दिन</strong> का समय पश्चिमी कैलेण्डर में दिसंबर के मध्य के करीब होता है। देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में दिन और महीने के समान सन्दर्भ का अनुवाद कैसे किया है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
+"content": "<p><strong>&quot;नौवें महीने के चौबीसवें दिन&quot;</strong></p><p>इब्रानी कैलेण्डर के <strong>नौवें महीने</strong> के <strong>चौबीसवें दिन</strong> का समय पश्चिमी कैलेण्डर में दिसंबर के मध्य के करीब होता है। देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में दिन और महीने के समान सन्दर्भ का अनुवाद कैसे किया है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26796\" data-resourceType=\"UWTranslationManual\">इब्रानी महीने</span></p>",
 "associations": {
 "passage": [
 {
@@ -4881,36 +3755,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "दारा"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -4922,7 +3767,7 @@
 "index_reference": "37002010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הָיָה֙ דְּבַר־יְהוָ֔ה אֶל־חַגַּ֥י הַ⁠נָּבִ֖יא לֵ⁠אמֹֽר</span></p><p><strong>&quot;यहोवा का यह वचन हाग्गै भविष्यद्वक्ता के पास पहुँचा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में समान कथन का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;हाग्गै <span>भविष्यद्वक्ता </span>को यहोवा से एक संदेश प्राप्त हुआ, जिसमें उन्होंने बताया&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;यहोवा का यह वचन हाग्गै भविष्यद्वक्ता के पास पहुँचा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:1\">1:1</a> में समान कथन का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;हाग्गै <span>भविष्यद्वक्ता </span>को यहोवा से एक संदेश प्राप्त हुआ, जिसमें उन्होंने बताया&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -4941,36 +3786,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "दारा"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -4982,7 +3798,7 @@
 "index_reference": "37002011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כֹּ֥ה אָמַ֖ר יְהוָ֣ה צְבָא֑וֹת שְׁאַל־נָ֧א אֶת־הַ⁠כֹּהֲנִ֛ים תּוֹרָ֖ה לֵ⁠אמֹֽר</span></p><p><strong>&quot;सेनाओं का यहोवा यह कहता है: याजकों से इस बात की व्यवस्था पूछ&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: “सेनाओं के यहोवा कहते हैं कि व्यवस्था के बारे में याजकों से पूछ। उनसे पूछ।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26720\" data-resourceType=\"UWTranslationManual\">उद्धरण चिह्न</span></p>",
+"content": "<p><strong>&quot;सेनाओं का यहोवा यह कहता है: याजकों से इस बात की व्यवस्था पूछ&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: “सेनाओं के यहोवा कहते हैं कि व्यवस्था के बारे में याजकों से पूछ। उनसे पूछ।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26720\" data-resourceType=\"UWTranslationManual\">उद्धरण चिह्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -5001,22 +3817,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -5028,7 +3829,7 @@
 "index_reference": "37002012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֵ֣ן ׀ יִשָּׂא־אִ֨ישׁ בְּשַׂר־קֹ֜דֶשׁ בִּ⁠כְנַ֣ף בִּגְד֗⁠וֹ וְ⁠נָגַ֣ע בִּ֠⁠כְנָפ⁠וֹ אֶל־הַ⁠לֶּ֨חֶם וְ⁠אֶל־הַ⁠נָּזִ֜יד וְ⁠אֶל־הַ⁠יַּ֧יִן וְ⁠אֶל־שֶׁ֛מֶן וְ⁠אֶל־כָּל־מַאֲכָ֖ל הֲ⁠יִקְדָּ֑שׁ</span></p><p><strong>&quot;यदि कोई अपने वस्त्र के आँचल में पवित्र माँस बाँधकर, उसी आँचल से रोटी या पकाए हुए भोजन या दाखमधु या तेल या किसी प्रकार के भोजन को छूए, तो क्या वह भोजन पवित्र ठहरेगा?&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर प्रत्यक्ष उद्धरण न हो, तो आप इस पद का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं, जो पिछले पद में शुरू होने वाले वाक्य को जारी रखता है। वैकल्पिक अनुवाद: &quot;यदि कोई व्यक्ति अपने वस्त्र में पवित्र मांस बाँधकर चलता हो और उसका वह वस्त्र रोटी, पकवान, दाखमधु, तेल या किसी अन्य भोजन को छू ले, तो क्या वह भोजन पवित्र हो जाता है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;यदि कोई अपने वस्त्र के आँचल में पवित्र माँस बाँधकर, उसी आँचल से रोटी या पकाए हुए भोजन या दाखमधु या तेल या किसी प्रकार के भोजन को छूए, तो क्या वह भोजन पवित्र ठहरेगा?&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर प्रत्यक्ष उद्धरण न हो, तो आप इस पद का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं, जो पिछले पद में शुरू होने वाले वाक्य को जारी रखता है। वैकल्पिक अनुवाद: &quot;यदि कोई व्यक्ति अपने वस्त्र में पवित्र मांस बाँधकर चलता हो और उसका वह वस्त्र रोटी, पकवान, दाखमधु, तेल या किसी अन्य भोजन को छू ले, तो क्या वह भोजन पवित्र हो जाता है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -5047,50 +3848,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Stew",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Stew"
-}
-]
+"acai": []
 }
 },
 {
@@ -5102,7 +3860,7 @@
 "index_reference": "37002012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הֵ֣ן ׀ יִשָּׂא־אִ֨ישׁ בְּשַׂר־קֹ֜דֶשׁ בִּ⁠כְנַ֣ף בִּגְד֗⁠וֹ וְ⁠נָגַ֣ע בִּ֠⁠כְנָפ⁠וֹ אֶל־הַ⁠לֶּ֨חֶם וְ⁠אֶל־הַ⁠נָּזִ֜יד וְ⁠אֶל־הַ⁠יַּ֧יִן וְ⁠אֶל־שֶׁ֛מֶן וְ⁠אֶל־כָּל־מַאֲכָ֖ל הֲ⁠יִקְדָּ֑שׁ</span></p><p><strong>&quot;यदि कोई अपने वस्त्र के आँचल में पवित्र माँस बाँधकर, उसी आँचल से रोटी या पकाए हुए भोजन या दाखमधु या तेल या किसी प्रकार के भोजन को छूए, तो क्या वह भोजन पवित्र ठहरेगा?&quot;</strong></p><p>यहोवा यहाँ एक काल्पनिक स्थिति का उपयोग करके एक शिक्षाप्रद बात सिखा रहे हैं। वैकल्पिक अनुवाद: &quot;मान लीजिए कि एक व्यक्ति अपने वस्त्र में पवित्र मांस ले जाता हो। मान लीजिए कि वह व्यक्ति उस वस्त्र से रोटी या पकाए हुए भोजन या दाखरस या तेल या किसी अन्य भोजन को छूता है। क्या इससे वह भोजन पवित्र हो जाएगा?&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26696\" data-resourceType=\"UWTranslationManual\">काल्पनिक स्थितियाँ</span></p>",
+"content": "<p><strong>&quot;यदि कोई अपने वस्त्र के आँचल में पवित्र माँस बाँधकर, उसी आँचल से रोटी या पकाए हुए भोजन या दाखमधु या तेल या किसी प्रकार के भोजन को छूए, तो क्या वह भोजन पवित्र ठहरेगा?&quot;</strong></p><p>यहोवा यहाँ एक काल्पनिक स्थिति का उपयोग करके एक शिक्षाप्रद बात सिखा रहे हैं। वैकल्पिक अनुवाद: &quot;मान लीजिए कि एक व्यक्ति अपने वस्त्र में पवित्र मांस ले जाता हो। मान लीजिए कि वह व्यक्ति उस वस्त्र से रोटी या पकाए हुए भोजन या दाखरस या तेल या किसी अन्य भोजन को छूता है। क्या इससे वह भोजन पवित्र हो जाएगा?&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26696\" data-resourceType=\"UWTranslationManual\">काल्पनिक स्थितियाँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -5121,50 +3879,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Stew",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Stew"
-}
-]
+"acai": []
 }
 },
 {
@@ -5204,25 +3919,18 @@
 "preferred_label": "Holy"
 },
 {
+"id": "realia:Stew",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Stew"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Wine"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
 },
 {
 "id": "flora:Vine",
@@ -5232,11 +3940,18 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:Stew",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -5278,25 +3993,18 @@
 "preferred_label": "Holy"
 },
 {
+"id": "realia:Stew",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Stew"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Wine"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
 },
 {
 "id": "flora:Vine",
@@ -5306,11 +4014,18 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:Stew",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -5345,18 +4060,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5391,18 +4106,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5437,18 +4152,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5483,18 +4198,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5529,18 +4244,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5554,7 +4269,7 @@
 "index_reference": "37002014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כֵּ֣ן הָֽ⁠עָם־הַ֠⁠זֶּה וְ⁠כֵן־הַ⁠גּ֨וֹי הַ⁠זֶּ֤ה לְ⁠פָנַ⁠י֙ נְאֻם־יְהוָ֔ה וְ⁠כֵ֖ן כָּל־מַעֲשֵׂ֣ה יְדֵי⁠הֶ֑ם וַ⁠אֲשֶׁ֥ר יַקְרִ֛יבוּ שָׁ֖ם טָמֵ֥א הֽוּא</span></p><p><strong>&quot;यहोवा की यही वाणी है, कि मेरी दृष्टि में यह प्रजा और यह जाति वैसी ही है, और इनके सब काम भी वैसे हैं; और जो कुछ वे वहाँ चढ़ाते हैं, वह भी अशुद्ध है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस प्रकार से करने का निर्णय लिया है कि उसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: “सेनाओं के यहोवा की यही वाणी है कि यह प्रजा और यह जाति उनके सामने ऐसे ही हैं; और उनके हाथों का हर काम भी ऐसा ही है; और जो कुछ वे वहाँ चढ़ाते हैं, वह अशुद्ध है।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;यहोवा की यही वाणी है, कि मेरी दृष्टि में यह प्रजा और यह जाति वैसी ही है, और इनके सब काम भी वैसे हैं; और जो कुछ वे वहाँ चढ़ाते हैं, वह भी अशुद्ध है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस प्रकार से करने का निर्णय लिया है कि उसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: “सेनाओं के यहोवा की यही वाणी है कि यह प्रजा और यह जाति उनके सामने ऐसे ही हैं; और उनके हाथों का हर काम भी ऐसा ही है; और जो कुछ वे वहाँ चढ़ाते हैं, वह अशुद्ध है।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -5573,29 +4288,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -5607,7 +4300,7 @@
 "index_reference": "37002014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>כֵּ֣ן הָֽ⁠עָם־הַ֠⁠זֶּה וְ⁠כֵן־הַ⁠גּ֨וֹי הַ⁠זֶּ֤ה</span></p><p><strong>&quot;यह प्रजा और यह जाति वैसी ही है&quot;</strong></p><p>शब्द <strong>वैसी ही है</strong> अप्रत्यक्ष रूप से अशुद्धता की स्थिति को सन्दर्भित करता है। आपके अनुवाद में इसे इंगित करना उपयोगी हो सकता है। वैकल्पिक अनुवाद: &quot;ये लोग अशुद्ध हैं और यह जाति अशुद्ध है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और अंतर्निहित जानकारी</span></p>",
+"content": "<p><strong>&quot;यह प्रजा और यह जाति वैसी ही है&quot;</strong></p><p>शब्द <strong>वैसी ही है</strong> अप्रत्यक्ष रूप से अशुद्धता की स्थिति को सन्दर्भित करता है। आपके अनुवाद में इसे इंगित करना उपयोगी हो सकता है। वैकल्पिक अनुवाद: &quot;ये लोग अशुद्ध हैं और यह जाति अशुद्ध है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और अंतर्निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -5626,29 +4319,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -5681,11 +4352,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "हाग्गै"
 },
 {
 "id": "deity:Lord",
@@ -5695,11 +4366,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Haggai",
-"type": "person",
+"id": "keyterm:Defilement",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "हाग्गै"
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5734,11 +4405,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "हाग्गै"
 },
 {
 "id": "deity:Lord",
@@ -5748,11 +4419,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Haggai",
-"type": "person",
+"id": "keyterm:Defilement",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "हाग्गै"
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5787,11 +4458,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "हाग्गै"
 },
 {
 "id": "deity:Lord",
@@ -5801,11 +4472,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Haggai",
-"type": "person",
+"id": "keyterm:Defilement",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "हाग्गै"
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5840,11 +4511,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "हाग्गै"
 },
 {
 "id": "deity:Lord",
@@ -5854,11 +4525,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Haggai",
-"type": "person",
+"id": "keyterm:Defilement",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "हाग्गै"
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5893,11 +4564,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "हाग्गै"
 },
 {
 "id": "deity:Lord",
@@ -5907,11 +4578,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Haggai",
-"type": "person",
+"id": "keyterm:Defilement",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "हाग्गै"
+"preferred_label": "Defilement"
 }
 ]
 }
@@ -5925,7 +4596,7 @@
 "index_reference": "37002015",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>שִֽׂימוּ־נָ֣א לְבַבְ⁠כֶ֔ם</span></p><p><strong>&quot;अब सोच-विचार करो&quot;</strong></p><p>देखें कि आपने इस अभिव्यक्ति का अनुवाद <a href=\"https://ref.ly/Hag1:5\">1:5</a> में कैसे किया। वैकल्पिक अनुवाद: &quot;जो कुछ अब तक होता आया है, उस पर ध्यान से सोचो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;अब सोच-विचार करो&quot;</strong></p><p>देखें कि आपने इस अभिव्यक्ति का अनुवाद <a href=\"https://ref.ly/Hag1:5\">1:5</a> में कैसे किया। वैकल्पिक अनुवाद: &quot;जो कुछ अब तक होता आया है, उस पर ध्यान से सोचो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -5944,15 +4615,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -6003,7 +4666,7 @@
 "index_reference": "37002015",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מִ⁠טֶּ֧רֶם שֽׂוּם־אֶ֛בֶן אֶל־אֶ֖בֶן בְּ⁠הֵיכַ֥ל יְהוָֽה</span></p><p><strong>&quot;जब यहोवा के मन्दिर में पत्थर पर पत्थर रखा ही नहीं गया था&quot;</strong></p><p>यहोवा मन्दिर के पुनर्निर्माण की पूरी प्रक्रिया को दर्शाने के लिए निर्माण प्रक्रिया के एक भाग का उपयोग कर रहे हैं। यदि आपकी भाषा में यह उपयोगी हो, तो आप अर्थ को स्पष्ट रूप से कह सकते हैं। वैकल्पिक अनुवाद: &quot;इससे पहले कि तुमने यहोवा के मन्दिर का पुनर्निर्माण शुरू किया&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
+"content": "<p><strong>&quot;जब यहोवा के मन्दिर में पत्थर पर पत्थर रखा ही नहीं गया था&quot;</strong></p><p>यहोवा मन्दिर के पुनर्निर्माण की पूरी प्रक्रिया को दर्शाने के लिए निर्माण प्रक्रिया के एक भाग का उपयोग कर रहे हैं। यदि आपकी भाषा में यह उपयोगी हो, तो आप अर्थ को स्पष्ट रूप से कह सकते हैं। वैकल्पिक अनुवाद: &quot;इससे पहले कि तुमने यहोवा के मन्दिर का पुनर्निर्माण शुरू किया&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
 "associations": {
 "passage": [
 {
@@ -6022,15 +4685,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -6198,7 +4853,7 @@
 "index_reference": "37002016",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בָּ֣א אֶל־הַ⁠יֶּ֗קֶב לַ⁠חְשֹׂף֙ חֲמִשִּׁ֣ים פּוּרָ֔ה וְ⁠הָיְתָ֖ה עֶשְׂרִֽים</span></p><p><strong>&quot;कोई दाखरस के कुण्ड के पास इस आशा से जाता कि पचास बर्तन भर निकालें, तब बीस ही निकलते थे&quot;</strong></p><p>यहोवा कुछ शब्दों को छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप सन्दर्भ से इन शब्दों की पूर्ति कर सकते हैं। वैकल्पिक अनुवाद: &quot;जब कोई व्यक्ति दाखरस के कुण्ड के पास आया, जिससे उसे उम्मीद थी कि उसमें से वह पचास बर्तन निकाल सकेगा, तो उसने पाया कि उसमें केवल बीस बर्तन भर ही था।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप </span></p>",
+"content": "<p><strong>&quot;कोई दाखरस के कुण्ड के पास इस आशा से जाता कि पचास बर्तन भर निकालें, तब बीस ही निकलते थे&quot;</strong></p><p>यहोवा कुछ शब्दों को छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में स्पष्ट होगा, तो आप सन्दर्भ से इन शब्दों की पूर्ति कर सकते हैं। वैकल्पिक अनुवाद: &quot;जब कोई व्यक्ति दाखरस के कुण्ड के पास आया, जिससे उसे उम्मीद थी कि उसमें से वह पचास बर्तन निकाल सकेगा, तो उसने पाया कि उसमें केवल बीस बर्तन भर ही था।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप </span></p>",
 "associations": {
 "passage": [
 {
@@ -6217,15 +4872,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Winepress"
-}
-]
+"acai": []
 }
 },
 {
@@ -6276,7 +4923,7 @@
 "index_reference": "37002017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>הִכֵּ֨יתִי אֶתְ⁠כֶ֜ם בַּ⁠שִּׁדָּפ֤וֹן וּ⁠בַ⁠יֵּֽרָקוֹן֙ וּ⁠בַ⁠בָּרָ֔ד אֵ֖ת כָּל־מַעֲשֵׂ֣ה יְדֵי⁠כֶ֑ם וְ⁠אֵין־אֶתְ⁠כֶ֥ם אֵלַ֖⁠י נְאֻם־יְהוָֽה</span></p><p><strong>&quot;मैंने तुम्हारी सारी खेती को लू और गेरूई और ओलों से मारा, तो भी तुम मेरी ओर न फिरे, यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस प्रकार से करने का निर्णय लिया है कि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;यहोवा की यही वाणी है कि उन्होंने <span>तुम्हारी सारी खेती को लू और गेरूई और ओलों से मारा</span>, परन्तु <span>तो भी तुम उनके न हुए</span>&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अंदर उद्धरण</span></p>",
+"content": "<p><strong>&quot;मैंने तुम्हारी सारी खेती को लू और गेरूई और ओलों से मारा, तो भी तुम मेरी ओर न फिरे, यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद इस प्रकार से करने का निर्णय लिया है कि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;यहोवा की यही वाणी है कि उन्होंने <span>तुम्हारी सारी खेती को लू और गेरूई और ओलों से मारा</span>, परन्तु <span>तो भी तुम उनके न हुए</span>&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अंदर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -6295,22 +4942,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grain"
-}
-]
+"acai": []
 }
 },
 {
@@ -6368,7 +5000,7 @@
 "index_reference": "37002017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֵ֖ת כָּל־מַעֲשֵׂ֣ה יְדֵי⁠כֶ֑ם</span></p><p><strong>&quot;तुम्हारे हाथों के सारे काम (तो भी तुम मेरी ओर न फिरे)&quot;</strong></p><p>मूल भाषा में यहाँ <strong>तुम्हारे हाथों के सारे काम </strong>वाक्यांश का उपयोग हुआ है, जबकि हिंदी अनुवाद में <strong>तो भी तुम मेरी ओर न फिरे</strong> वाक्यांश का उपयोग हुआ है। देखें कि आपने <a href=\"https://ref.ly/Hag2:14\">2:14</a> में समान अभिव्यक्ति का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;जो भी खाद्य पदार्थ तुम उत्पन्न कर रहे थे&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
+"content": "<p><strong>&quot;तुम्हारे हाथों के सारे काम (तो भी तुम मेरी ओर न फिरे)&quot;</strong></p><p>मूल भाषा में यहाँ <strong>तुम्हारे हाथों के सारे काम </strong>वाक्यांश का उपयोग हुआ है, जबकि हिंदी अनुवाद में <strong>तो भी तुम मेरी ओर न फिरे</strong> वाक्यांश का उपयोग हुआ है। देखें कि आपने <a href=\"https://ref.ly/Hag2:14\">2:14</a> में समान अभिव्यक्ति का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;जो भी खाद्य पदार्थ तुम उत्पन्न कर रहे थे&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26729\" data-resourceType=\"UWTranslationManual\">उपलक्षण</span></p>",
 "associations": {
 "passage": [
 {
@@ -6387,22 +5019,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grain"
-}
-]
+"acai": []
 }
 },
 {
@@ -6460,7 +5077,7 @@
 "index_reference": "37002018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>שִׂימוּ & לְבַבְ⁠כֶ֔ם</span></p><p><strong>&quot;अब सोच-विचार करो&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:5\">1:5</a> में समान वाक्यांश का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;ध्यान से विचार करो कि क्या हो रहा है&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>שִׂימוּ &amp; לְבַבְ⁠כֶ֔ם</span></p><p><strong>&quot;अब सोच-विचार करो&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag1:5\">1:5</a> में समान वाक्यांश का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;ध्यान से विचार करो कि क्या हो रहा है&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -6499,7 +5116,7 @@
 "index_reference": "37002018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מִן־הַ⁠יּ֥וֹם הַ⁠זֶּ֖ה וָ⁠מָ֑עְלָ⁠ה מִ⁠יּוֹם֩ עֶשְׂרִ֨ים וְ⁠אַרְבָּעָ֜ה לַ⁠תְּשִׁיעִ֗י לְ⁠מִן־הַ⁠יּ֛וֹם אֲשֶׁר־יֻסַּ֥ד הֵֽיכַל־יְהוָ֖ה</span></p><p><strong>&quot;कि आज से पहले अर्थात् जिस दिन यहोवा के मन्दिर की नींव डाली गई, उस दिन से लेकर नौवें महीने के इसी चौबीसवें दिन तक&quot;</strong></p><p>जैसा कि <a href=\"https://ref.ly/Hag2:15\">2:15</a> में है, शब्द <strong>पहले</strong> यहूदियों के बँधुआई से लौटने के बाद की पूरी अवधि को सन्दर्भित करता है। ** नौवें महीने के चौबीसवें दिन** का अर्थ दारा के दूसरे वर्ष में उस तारीख से है, जैसा कि <a href=\"https://ref.ly/Hag2:10\">2:10</a> इंगित है। वैकल्पिक अनुवाद: &quot;जब से तुम बँधुआई से लौटे हो तब से लेकर आज तक, अर्थात् जब से यहोवा के मन्दिर की नींव डाली गई तब से लेकर दारा के दूसरे वर्ष के नौवें महीने के इस चौबीसवें दिन तक”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और अंतर्निहित जानकारी</span></p>",
+"content": "<p><strong>&quot;कि आज से पहले अर्थात् जिस दिन यहोवा के मन्दिर की नींव डाली गई, उस दिन से लेकर नौवें महीने के इसी चौबीसवें दिन तक&quot;</strong></p><p>जैसा कि <a href=\"https://ref.ly/Hag2:15\">2:15</a> में है, शब्द <strong>पहले</strong> यहूदियों के बँधुआई से लौटने के बाद की पूरी अवधि को सन्दर्भित करता है। ** नौवें महीने के चौबीसवें दिन** का अर्थ दारा के दूसरे वर्ष में उस तारीख से है, जैसा कि <a href=\"https://ref.ly/Hag2:10\">2:10</a> इंगित है। वैकल्पिक अनुवाद: &quot;जब से तुम बँधुआई से लौटे हो तब से लेकर आज तक, अर्थात् जब से यहोवा के मन्दिर की नींव डाली गई तब से लेकर दारा के दूसरे वर्ष के नौवें महीने के इस चौबीसवें दिन तक”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और अंतर्निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -6518,15 +5135,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -6577,7 +5186,7 @@
 "index_reference": "37002018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>מִ⁠יּוֹם֩ עֶשְׂרִ֨ים וְ⁠אַרְבָּעָ֜ה לַ⁠תְּשִׁיעִ֗י</span></p><p><strong>&quot;नौवें महीने के इसी चौबीसवें दिन तक&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्या का उपयोग नहीं होता है, तो आप यहाँ मूल संख्या का उपयोग कर सकते हैं। देखें कि आपने <a href=\"https://ref.ly/Hag2:10\">2:10</a> में क्या किया। वैकल्पिक अनुवाद: &quot;नौवें महीने की 24 तारीख से&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
+"content": "<p><strong>&quot;नौवें महीने के इसी चौबीसवें दिन तक&quot;</strong></p><p>यदि आपकी भाषा में क्रमवाचक संख्या का उपयोग नहीं होता है, तो आप यहाँ मूल संख्या का उपयोग कर सकते हैं। देखें कि आपने <a href=\"https://ref.ly/Hag2:10\">2:10</a> में क्या किया। वैकल्पिक अनुवाद: &quot;नौवें महीने की 24 तारीख से&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -6596,15 +5205,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -6694,7 +5295,7 @@
 "index_reference": "37002018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>שִׂ֥ימוּ לְבַבְ⁠כֶֽם</span></p><p><strong>&quot;सोच-विचार करो&quot;</strong></p><p>देखें कि आपने इस वाक्यांश का <a href=\"https://ref.ly/Hag1:5\">1:5</a> में कैसे अनुवाद किया। वैकल्पिक अनुवाद: &quot;ध्यानपूर्वक विचार करो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;सोच-विचार करो&quot;</strong></p><p>देखें कि आपने इस वाक्यांश का <a href=\"https://ref.ly/Hag1:5\">1:5</a> में कैसे अनुवाद किया। वैकल्पिक अनुवाद: &quot;ध्यानपूर्वक विचार करो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -6713,15 +5314,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-}
-]
+"acai": []
 }
 },
 {
@@ -6761,32 +5354,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Pomegranate"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Coriander"
 },
 {
 "id": "flora:Fig",
@@ -6801,6 +5373,27 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Coriander"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6842,32 +5435,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Pomegranate"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Coriander"
 },
 {
 "id": "flora:Fig",
@@ -6882,6 +5454,27 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Coriander"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6923,32 +5516,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Pomegranate"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Coriander"
 },
 {
 "id": "flora:Fig",
@@ -6963,6 +5535,27 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Coriander"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6976,7 +5569,7 @@
 "index_reference": "37002020",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֨י דְבַר־יְהוָ֤ה ׀ שֵׁנִית֙ אֶל־חַגַּ֔י</span></p><p><strong>&quot;दूसरी बार यहोवा का यह वचन हाग्गै के पास पहुँचा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag2:10\">2:10</a> में समान वाक्यांश का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;और हाग्गै को यहोवा से एक और संदेश प्राप्त हुआ।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;दूसरी बार यहोवा का यह वचन हाग्गै के पास पहुँचा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag2:10\">2:10</a> में समान वाक्यांश का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;और हाग्गै को यहोवा से एक और संदेश प्राप्त हुआ।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -6995,29 +5588,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -7057,18 +5628,18 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7110,18 +5681,18 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "हाग्गै"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7135,7 +5706,7 @@
 "index_reference": "37002020",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בְּ⁠עֶשְׂרִ֧ים וְ⁠אַרְבָּעָ֛ה לַ⁠חֹ֖דֶשׁ</span></p><p><strong>&quot;महीने के चौबीसवें दिन को&quot;</strong></p><p>यदि आपकी भाषा में क्रमसूचक संख्या का उपयोग नहीं होता है, तो आप यहाँ मूल संख्या या समकक्ष अभिव्यक्ति का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;नौवें महीने के 24वें दिन&quot; या &quot;उसी महीने के 24वें दिन&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
+"content": "<p><strong>&quot;महीने के चौबीसवें दिन को&quot;</strong></p><p>यदि आपकी भाषा में क्रमसूचक संख्या का उपयोग नहीं होता है, तो आप यहाँ मूल संख्या या समकक्ष अभिव्यक्ति का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;नौवें महीने के 24वें दिन&quot; या &quot;उसी महीने के 24वें दिन&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26807\" data-resourceType=\"UWTranslationManual\">क्रमसूचक संख्याएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -7154,29 +5725,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -7207,29 +5756,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "हाग्गै"
-}
-]
+"acai": []
 }
 },
 {
@@ -7241,7 +5768,7 @@
 "index_reference": "37002021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֱמֹ֕ר אֶל־זְרֻבָּבֶ֥ל פַּֽחַת־יְהוּדָ֖ה לֵ⁠אמֹ֑ר אֲנִ֣י מַרְעִ֔ישׁ אֶת־הַ⁠שָּׁמַ֖יִם וְ⁠אֶת־הָ⁠אָֽרֶץ</span></p><p><strong>&quot;यहूदा के अधिपति जरुब्बाबेल से यह कह&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि एक उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;यहूदा के राज्यपाल जरूब्बाबेल से कह, और उसे  बता कि मैं आकाश और पृथ्वी को हिला रहा हूँ।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर  उद्धरण </span></p>",
+"content": "<p><strong>&quot;यहूदा के अधिपति जरुब्बाबेल से यह कह&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि एक उद्धरण के भीतर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;यहूदा के राज्यपाल जरूब्बाबेल से कह, और उसे  बता कि मैं आकाश और पृथ्वी को हिला रहा हूँ।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर  उद्धरण </span></p>",
 "associations": {
 "passage": [
 {
@@ -7260,29 +5787,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-}
-]
+"acai": []
 }
 },
 {
@@ -7294,7 +5799,7 @@
 "index_reference": "37002021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֲנִ֣י מַרְעִ֔ישׁ אֶת־הַ⁠שָּׁמַ֖יִם וְ⁠אֶת־הָ⁠אָֽרֶץ</span></p><p><strong>&quot;मैं आकाश और पृथ्वी दोनों को हिलाऊँगा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag2:6\">2:6</a> में समान अभिव्यक्ति का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;मैं तेरे चारों ओर की जातियों की स्थिति में ऐसे परिवर्तन ला रहा हूँ मानो मैं उन्हें हिला रहा हूँ&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><strong>&quot;मैं आकाश और पृथ्वी दोनों को हिलाऊँगा&quot;</strong></p><p>देखें कि आपने <a href=\"https://ref.ly/Hag2:6\">2:6</a> में समान अभिव्यक्ति का अनुवाद कैसे किया। वैकल्पिक अनुवाद: &quot;मैं तेरे चारों ओर की जातियों की स्थिति में ऐसे परिवर्तन ला रहा हूँ मानो मैं उन्हें हिला रहा हूँ&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -7313,29 +5818,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-}
-]
+"acai": []
 }
 },
 {
@@ -7375,15 +5858,15 @@
 "preferred_label": "जरूब्बाबेल"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
@@ -7421,13 +5904,6 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
@@ -7440,6 +5916,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -7474,13 +5957,6 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
@@ -7493,6 +5969,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -7506,7 +5989,7 @@
 "index_reference": "37002022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וְ⁠הָפַכְתִּ֤י מֶרְכָּבָה֙ וְ⁠רֹ֣כְבֶ֔י⁠הָ וְ⁠יָרְד֤וּ סוּסִים֙ וְ⁠רֹ֣כְבֵי⁠הֶ֔ם</span></p><p><strong>&quot;और रथों को चढ़वैयों समेत उलट दूँगा&quot;</strong></p><p>यहोवा, सेना के दो घटकों का उपयोग, पूरी सेना के सन्दर्भ में कर रहे हैं: उनके रथों (रथ और उनके सवार) और घोड़ों (घोड़े और उनके सवार)। यदि यह आपकी भाषा में उपयोगी होगा, तो आप एक समकक्ष अभिव्यक्ति या सरल भाषा का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं उन सभी राज्यों की पूरी सेनाओं का नाश कर दूँगा जो तुम्हारे विरोध में हैं&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26705\" data-resourceType=\"UWTranslationManual\">विभज्योतक</span></p>",
+"content": "<p><strong>&quot;और रथों को चढ़वैयों समेत उलट दूँगा&quot;</strong></p><p>यहोवा, सेना के दो घटकों का उपयोग, पूरी सेना के सन्दर्भ में कर रहे हैं: उनके रथों (रथ और उनके सवार) और घोड़ों (घोड़े और उनके सवार)। यदि यह आपकी भाषा में उपयोगी होगा, तो आप एक समकक्ष अभिव्यक्ति या सरल भाषा का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं उन सभी राज्यों की पूरी सेनाओं का नाश कर दूँगा जो तुम्हारे विरोध में हैं&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26705\" data-resourceType=\"UWTranslationManual\">विभज्योतक</span></p>",
 "associations": {
 "passage": [
 {
@@ -7525,29 +6008,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Horse"
-}
-]
+"acai": []
 }
 },
 {
@@ -7580,13 +6041,6 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
@@ -7599,6 +6053,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -7633,13 +6094,6 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
@@ -7652,6 +6106,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -7665,7 +6126,7 @@
 "index_reference": "37002022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אִ֖ישׁ בְּ⁠חֶ֥רֶב אָחִֽי⁠ו</span></p><p><strong>&quot;हर एक अपने भाई की तलवार से&quot;</strong></p><p>देखें कि आपने वाक्यांश &quot;हर एक&quot; के समान उपयोग का अनुवाद <a href=\"https://ref.ly/Hag1:9\">1:9</a> में कैसे किया। वैकल्पिक अनुवाद: &quot;उनमें से प्रत्येक अपने भाई की तलवार से&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><strong>&quot;हर एक अपने भाई की तलवार से&quot;</strong></p><p>देखें कि आपने वाक्यांश &quot;हर एक&quot; के समान उपयोग का अनुवाद <a href=\"https://ref.ly/Hag1:9\">1:9</a> में कैसे किया। वैकल्पिक अनुवाद: &quot;उनमें से प्रत्येक अपने भाई की तलवार से&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -7684,29 +6145,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Horse"
-}
-]
+"acai": []
 }
 },
 {
@@ -7739,13 +6178,6 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
@@ -7758,6 +6190,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -7792,13 +6231,6 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
@@ -7811,6 +6243,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -7824,7 +6263,7 @@
 "index_reference": "37002023",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>בַּ⁠יּ֣וֹם הַ⁠ה֣וּא נְאֻם־יְהוָ֣ה צְבָא֡וֹת אֶ֠קָּחֲ⁠ךָ זְרֻבָּבֶ֨ל בֶּן־שְׁאַלְתִּיאֵ֤ל עַבְדִּ⁠י֙ נְאֻם־יְהוָ֔ה וְ⁠שַׂמְתִּ֖י⁠ךָ כַּֽ⁠חוֹתָ֑ם כִּֽי־בְ⁠ךָ֣ בָחַ֔רְתִּי נְאֻ֖ם יְהוָ֥ה צְבָאֽוֹת</span></p><p><strong>&quot;सेनाओं के यहोवा की यही वाणी है, उस दिन, हे शालतीएल के पुत्र मेरे दास जरुब्बाबेल, मैं तुझे लेकर मुहर वाली अंगूठी के समान रखूँगा, यहोवा की यही वाणी है; क्योंकि मैंने तुझी को चुन लिया है, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं, सेनाओं का यहोवा, यह घोषणा करता हूँ कि उस दिन मैं शालतीएल के पुत्र जरूब्बाबेल, अपने सेवक को लूँगा, और मैं, सेनाओं का यहोवा, यह घोषणा करता हूँ कि उसे एक मुहर की अंगूठी के समान बनाऊँगा, क्योंकि मैंने उसे चुना है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
+"content": "<p><strong>&quot;सेनाओं के यहोवा की यही वाणी है, उस दिन, हे शालतीएल के पुत्र मेरे दास जरुब्बाबेल, मैं तुझे लेकर मुहर वाली अंगूठी के समान रखूँगा, यहोवा की यही वाणी है; क्योंकि मैंने तुझी को चुन लिया है, सेनाओं के यहोवा की यही वाणी है&quot;</strong></p><p>यदि आपने इस भविष्यवाणी का अनुवाद करने का निर्णय लिया है ताकि इसमें उद्धरण के भीतर उद्धरण न हो, तो आप इस पद में दूसरे स्तर के उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैं, सेनाओं का यहोवा, यह घोषणा करता हूँ कि उस दिन मैं शालतीएल के पुत्र जरूब्बाबेल, अपने सेवक को लूँगा, और मैं, सेनाओं का यहोवा, यह घोषणा करता हूँ कि उसे एक मुहर की अंगूठी के समान बनाऊँगा, क्योंकि मैंने उसे चुना है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण</span></p>",
 "associations": {
 "passage": [
 {
@@ -7843,29 +6282,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-}
-]
+"acai": []
 }
 },
 {
@@ -7930,7 +6347,7 @@
 "index_reference": "37002023",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>אֶ֠קָּחֲ⁠ךָ & וְ⁠שַׂמְתִּ֖י⁠ךָ & בְ⁠ךָ֣ בָחַ֔רְתִּי</span></p><p><strong>&quot;मैं तुझे लेकर,&quot;</strong> - <strong>&quot;समान रखूँगा&quot;</strong> - <strong>&quot;मैंने तुझी को चुन लिया है&quot;</strong></p><p>शब्द <strong>तुझे</strong> यहाँ एकवचन है क्योंकि यह जरूब्बाबेल को सन्दर्भित करता है, इसलिए यदि आपकी भाषा उस भेद को चिह्नित करती है तो आप अपने अनुवाद में एकवचन रूप का उपयोग करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">‘आप’ के प्रकार — एकवचन</span></p>",
+"content": "<p><strong>&quot;मैं तुझे लेकर,&quot;</strong> - <strong>&quot;समान रखूँगा&quot;</strong> - <strong>&quot;मैंने तुझी को चुन लिया है&quot;</strong></p><p>शब्द <strong>तुझे</strong> यहाँ एकवचन है क्योंकि यह जरूब्बाबेल को सन्दर्भित करता है, इसलिए यदि आपकी भाषा उस भेद को चिह्नित करती है तो आप अपने अनुवाद में एकवचन रूप का उपयोग करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">‘आप’ के प्रकार — एकवचन</span></p>",
 "associations": {
 "passage": [
 {
@@ -7949,29 +6366,7 @@
 "language": "hin"
 }
 ],
-"acai": [
-{
-"id": "person:Zerubbabel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जरूब्बाबेल"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शालतीएल"
-}
-]
+"acai": []
 }
 },
 {
