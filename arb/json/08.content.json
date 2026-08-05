@@ -150,6 +150,13 @@
 "preferred_label": "موآبَ"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -162,13 +169,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
 }
 ]
 }
@@ -210,6 +210,13 @@
 "preferred_label": "موآبَ"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -222,13 +229,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
 }
 ]
 }
@@ -270,6 +270,13 @@
 "preferred_label": "موآبَ"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -282,13 +289,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
 }
 ]
 }
@@ -323,25 +323,18 @@
 ],
 "acai": [
 {
-"id": "person:Chilion",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "كِلْيون"
-},
-{
-"id": "person:Ephrathah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "أَفْرَاتَةَ"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Chilion",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "كِلْيون"
 },
 {
 "id": "group:Ephrathah",
@@ -351,11 +344,11 @@
 "preferred_label": "Ephrathites"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Ephrathah",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
+"preferred_label": "أَفْرَاتَةَ"
 },
 {
 "id": "person:Mahlon",
@@ -365,22 +358,8 @@
 "preferred_label": "مَحْلون"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
-"id": "group:Judah",
-"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
@@ -391,6 +370,27 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
 }
 ]
 }
@@ -404,7 +404,7 @@
 "index_reference": "08001003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَبَقِيَتْ هِيَ وَٱبْنَاهَا&quot;</strong></p><p>إذا لم تكن لغتك تستخدم صيغة المبني للمجهول (كما هي مُستخدمة في الترجمة الانجليزية) ، يمكنك التعبير عن هذه الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;بقيت نعمي وابناها في موآب بدون زوجها&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׁאֵ֥ר הִ֖יא וּ⁠שְׁנֵ֥י בָנֶֽי⁠הָ</span></p><p><strong>&quot;وَبَقِيَتْ هِيَ وَٱبْنَاهَا&quot;</strong></p><p>إذا لم تكن لغتك تستخدم صيغة المبني للمجهول (كما هي مُستخدمة في الترجمة الانجليزية) ، يمكنك التعبير عن هذه الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;بقيت نعمي وابناها في موآب بدون زوجها&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
 "associations": {
 "passage": [
 {
@@ -423,7 +423,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
+}
+]
 }
 },
 {
@@ -435,7 +450,7 @@
 "index_reference": "08001004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَأَخَذَا لَهُمَا ٱمْرَأَتَيْنِ</strong></span><strong>&quot;</strong></p><p>إن عبارة <strong>أَخَذَا لَهُمَا ٱمْرَأَتَيْنِ</strong> هي تعبير اصطلاحي يعني أنهما تزوجا من نساء. فإنهما لم يأخذا النساء بالقوة ولا تزوجا من نساء متزوجات بالفعل من رجال آخرين.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׂא֣וּ לָ⁠הֶ֗ם נָשִׁים֙</span></p><p><strong>&quot;</strong><span><strong>فَأَخَذَا لَهُمَا ٱمْرَأَتَيْنِ</strong></span><strong>&quot;</strong></p><p>إن عبارة <strong>أَخَذَا لَهُمَا ٱمْرَأَتَيْنِ</strong> هي تعبير اصطلاحي يعني أنهما تزوجا من نساء. فإنهما لم يأخذا النساء بالقوة ولا تزوجا من نساء متزوجات بالفعل من رجال آخرين.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -454,7 +469,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Orpah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "عرْفَة"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -466,7 +503,7 @@
 "index_reference": "08001004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱسْمُ إِحْدَاهُمَا عُرْفَةُ وَٱسْمُ ٱلْأُخْرَى رَاعُوثُ</strong></span><strong>&quot;</strong></p><p>&quot;إذا كانت لغتك تقتضي توضيح أيّ امرأة تزوجت أي ابن، فيمكنك القول إن عرفة كانت زوجة كليون وأن راعوث كانت زوجة محلون. الترجمة البديلة: &quot;اسم امرأة كليون هو عرفة، واسم امرأة محلون هو راعوث&quot;&quot;</p>",
+"content": "<p><span style='direction: rtl;'>שֵׁ֤ם הָֽ⁠אַחַת֙ עָרְפָּ֔ה וְ⁠שֵׁ֥ם הַ⁠שֵּׁנִ֖ית ר֑וּת</span></p><p><strong>&quot;</strong><span><strong>ٱسْمُ إِحْدَاهُمَا عُرْفَةُ وَٱسْمُ ٱلْأُخْرَى رَاعُوثُ</strong></span><strong>&quot;</strong></p><p>&quot;إذا كانت لغتك تقتضي توضيح أيّ امرأة تزوجت أي ابن، فيمكنك القول إن عرفة كانت زوجة كليون وأن راعوث كانت زوجة محلون. الترجمة البديلة: &quot;اسم امرأة كليون هو عرفة، واسم امرأة محلون هو راعوث&quot;&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -477,7 +514,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Orpah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "عرْفَة"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -489,7 +548,7 @@
 "index_reference": "08001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَتُرِكَتِ ٱلْمَرْأَةُ مِنِ ٱبْنَيْهَا وَمِنْ رَجُلِهَا</strong></span><strong>&quot;</strong></p><p>&quot;إذا لم تكن لغتك تستخدم صيغة المبني للمجهول بهذه الطريقة، فيمكنك التعبير عن هذه الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;كانت المرأة وحدها بدون رجُلها أو إبنيها&quot; أو &quot;فبقيت نُعمي أرملة بلا أبناء&quot;&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׁאֵר֙ הָֽ⁠אִשָּׁ֔ה מִ⁠שְּׁנֵ֥י יְלָדֶ֖י⁠הָ וּ⁠מֵ⁠אִישָֽׁ⁠הּ</span></p><p><strong>&quot;</strong><span><strong>فَتُرِكَتِ ٱلْمَرْأَةُ مِنِ ٱبْنَيْهَا وَمِنْ رَجُلِهَا</strong></span><strong>&quot;</strong></p><p>&quot;إذا لم تكن لغتك تستخدم صيغة المبني للمجهول بهذه الطريقة، فيمكنك التعبير عن هذه الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;كانت المرأة وحدها بدون رجُلها أو إبنيها&quot; أو &quot;فبقيت نُعمي أرملة بلا أبناء&quot;&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
 "associations": {
 "passage": [
 {
@@ -508,7 +567,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Chilion",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "كِلْيون"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
+}
+]
 }
 },
 {
@@ -520,7 +594,7 @@
 "index_reference": "08001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَقَامَتْ هِيَ وَكَنَّتَاهَا وَرَجَعَتْ</strong></span><strong>&quot;</strong></p><p>يُقدم هذا الجزء من الجملة مُلخصًا تمهيديًا لما سيحدث في القسم التالي. إنها لا تسرد أحداثًا ضمن التسلسل الزمني للقصة. إذا لم تكن لغتك تستخدم مثل هذه الملخصات التمهيدية، فيمكنك ترجمة هذه الأفعال في صورة أحداث. الترجمة البديلة: &quot;ثم استعدت هي وكنَّتاها للرجوع&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּ֤קָם הִיא֙ וְ⁠כַלֹּתֶ֔י⁠הָ וַ⁠תָּ֖שָׁב</span></p><p><strong>&quot;</strong><span><strong>فَقَامَتْ هِيَ وَكَنَّتَاهَا وَرَجَعَتْ</strong></span><strong>&quot;</strong></p><p>يُقدم هذا الجزء من الجملة مُلخصًا تمهيديًا لما سيحدث في القسم التالي. إنها لا تسرد أحداثًا ضمن التسلسل الزمني للقصة. إذا لم تكن لغتك تستخدم مثل هذه الملخصات التمهيدية، فيمكنك ترجمة هذه الأفعال في صورة أحداث. الترجمة البديلة: &quot;ثم استعدت هي وكنَّتاها للرجوع&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
 "associations": {
 "passage": [
 {
@@ -539,7 +613,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -572,18 +668,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:Appoint",
@@ -604,7 +700,7 @@
 "index_reference": "08001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَكَنَّتَاهَا</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;والنساء اللواتي تزوجن من إبنَيْها&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠כַלֹּתֶ֔י⁠הָ</span></p><p><strong>&quot;</strong><span><strong>وَكَنَّتَاهَا</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;والنساء اللواتي تزوجن من إبنَيْها&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -615,7 +711,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -627,7 +745,7 @@
 "index_reference": "08001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِأَنَّهَا سَمِعَتْ فِي بِلَادِ مُوآبَ أَنَّ ٱلرَّبَّ قَدِ ٱفْتَقَدَ شَعْبَهُ</strong></span><strong>&quot;</strong></p><p>سمعت نعمي أولاً عن افتقاد الرب لشعبه، فقررت الرجوع إلى بيت لحم. لذلك، فإنه من الأنسب أن تُذكر هذه المعلومة أولاً، كما هو الحال في ترجمة UST.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֤י שָֽׁמְעָה֙ בִּ⁠שְׂדֵ֣ה מוֹאָ֔ב כִּֽי־פָקַ֤ד יְהוָה֙ אֶת־עַמּ֔⁠וֹ לָ⁠תֵ֥ת לָ⁠הֶ֖ם לָֽחֶם</span></p><p><strong>&quot;</strong><span><strong>لِأَنَّهَا سَمِعَتْ فِي بِلَادِ مُوآبَ أَنَّ ٱلرَّبَّ قَدِ ٱفْتَقَدَ شَعْبَهُ</strong></span><strong>&quot;</strong></p><p>سمعت نعمي أولاً عن افتقاد الرب لشعبه، فقررت الرجوع إلى بيت لحم. لذلك، فإنه من الأنسب أن تُذكر هذه المعلومة أولاً، كما هو الحال في ترجمة UST.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
 "associations": {
 "passage": [
 {
@@ -646,7 +764,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -658,7 +798,7 @@
 "index_reference": "08001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِأَنَّهَا سَمِعَتْ فِي بِلَادِ مُوآبَ</strong></span><strong>&quot;</strong></p><p>يُفهم ضمنيًا من ذلك أن الخبر جاء من إسرائيل. الترجمة البديلة: &quot;بينما كانت في بلاد موآب، سمعت من شخص جاء من إسرائيل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>שָֽׁמְעָה֙ בִּ⁠שְׂדֵ֣ה מוֹאָ֔ב</span></p><p><strong>&quot;</strong><span><strong>لِأَنَّهَا سَمِعَتْ فِي بِلَادِ مُوآبَ</strong></span><strong>&quot;</strong></p><p>يُفهم ضمنيًا من ذلك أن الخبر جاء من إسرائيل. الترجمة البديلة: &quot;بينما كانت في بلاد موآب، سمعت من شخص جاء من إسرائيل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -677,7 +817,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -710,18 +872,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:Appoint",
@@ -763,18 +925,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "موآبَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:Appoint",
@@ -795,7 +957,7 @@
 "index_reference": "08001007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَسِرْنَ فِي ٱلطَّرِيقِ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;وسِرنَ على طول الطريق&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תֵּלַ֣כְנָה בַ⁠דֶּ֔רֶךְ</span></p><p><strong>&quot;</strong><span><strong>وَسِرْنَ فِي ٱلطَّرِيقِ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;وسِرنَ على طول الطريق&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -806,7 +968,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+}
+]
 }
 },
 {
@@ -818,7 +995,7 @@
 "index_reference": "08001008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِكَنَّتَيْهَا</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;لزوجتَيّ ابنيها&quot; أو &quot;إلى أرملتَيّ ابنيها&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠שְׁתֵּ֣י כַלֹּתֶ֔י⁠הָ</span></p><p><strong>&quot;</strong><span><strong>لِكَنَّتَيْهَا</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;لزوجتَيّ ابنيها&quot; أو &quot;إلى أرملتَيّ ابنيها&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -829,7 +1006,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -841,7 +1040,7 @@
 "index_reference": "08001008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱذْهَبَا ٱرْجِعَا كُلُّ وَاحِدَةٍ</strong></span><strong>&quot;</strong></p><p>نظرًا لأن نعمي تتحدث إلى شخصين، فإن المخاطبة هنا ستكون بصيغة المثنى، إذا كانت لغتك تستخدم هذه الصيغة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26733\" data-resourceType=\"UWTranslationManual\">أشكال الضمير &quot;أنت&quot; — المثنى/الجمع</span></p>",
+"content": "<p><span style='direction: rtl;'>לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה</span></p><p><strong>&quot;</strong><span><strong>ٱذْهَبَا ٱرْجِعَا كُلُّ وَاحِدَةٍ</strong></span><strong>&quot;</strong></p><p>نظرًا لأن نعمي تتحدث إلى شخصين، فإن المخاطبة هنا ستكون بصيغة المثنى، إذا كانت لغتك تستخدم هذه الصيغة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26733\" data-resourceType=\"UWTranslationManual\">أشكال الضمير &quot;أنت&quot; — المثنى/الجمع</span></p>",
 "associations": {
 "passage": [
 {
@@ -860,7 +1059,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -872,7 +1093,7 @@
 "index_reference": "08001008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱذْهَبَا ٱرْجِعَا كُلُّ وَاحِدَةٍ إِلَى بَيْتِ أُمِّهَا</strong></span><strong>&quot;</strong></p><p>إذا كانت هذه العادة تبدو غريبة على قرائك، فيمكنك إضافة حاشية سُفلية لشرحها، مثل: &quot;حسب عادة العبرانيين القدماء، كان بإمكان الأرملة الشابة إما أن تبقى مع عائلة زوجها المتوفى أو أن ترجع للسكن مع والديها حتى تتزوج مرة أخرى.&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה לְ⁠בֵ֣ית אִמָּ֑⁠הּ</span></p><p><strong>&quot;</strong><span><strong>ٱذْهَبَا ٱرْجِعَا كُلُّ وَاحِدَةٍ إِلَى بَيْتِ أُمِّهَا</strong></span><strong>&quot;</strong></p><p>إذا كانت هذه العادة تبدو غريبة على قرائك، فيمكنك إضافة حاشية سُفلية لشرحها، مثل: &quot;حسب عادة العبرانيين القدماء، كان بإمكان الأرملة الشابة إما أن تبقى مع عائلة زوجها المتوفى أو أن ترجع للسكن مع والديها حتى تتزوج مرة أخرى.&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -883,7 +1104,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -895,7 +1138,7 @@
 "index_reference": "08001008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>إِلَى بَيْتِ أُمِّهَا</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;إلى بيت أمُّكِ&quot;&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠בֵ֣ית אִמָּ֑⁠הּ</span></p><p><strong>&quot;</strong><span><strong>إِلَى بَيْتِ أُمِّهَا</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;إلى بيت أمُّكِ&quot;&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -906,7 +1149,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -918,7 +1183,7 @@
 "index_reference": "08001008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلْيَصْنَعِ ٱلرَّبُّ مَعَكُمَا إِحْسَانًا كَمَا صَنَعْتُمَا بِٱلْمَوْتَى وَبِي</strong></span><strong>&quot;</strong></p><p>تطلب نعمي من الله أن يبارك عُرفة وراعوث. استخدم صيغة مناسبة للبركة في لغتك. الترجمة البديلة: &quot;أدعو أن يظهر لكما الرب الوفاء بالعهد كما أظهرتماه للموتى ولي.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
+"content": "<p><span style='direction: rtl;'>יעשה יְהוָ֤ה עִמָּ⁠כֶם֙ חֶ֔סֶד כַּ⁠אֲשֶׁ֧ר עֲשִׂיתֶ֛ם עִם־הַ⁠מֵּתִ֖ים וְ⁠עִמָּדִֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>وَلْيَصْنَعِ ٱلرَّبُّ مَعَكُمَا إِحْسَانًا كَمَا صَنَعْتُمَا بِٱلْمَوْتَى وَبِي</strong></span><strong>&quot;</strong></p><p>تطلب نعمي من الله أن يبارك عُرفة وراعوث. استخدم صيغة مناسبة للبركة في لغتك. الترجمة البديلة: &quot;أدعو أن يظهر لكما الرب الوفاء بالعهد كما أظهرتماه للموتى ولي.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
 "associations": {
 "passage": [
 {
@@ -937,7 +1202,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -970,13 +1257,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -989,6 +1269,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -1023,13 +1310,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1042,6 +1322,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -1055,7 +1342,7 @@
 "index_reference": "08001009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلْيُعْطِكُمَا ٱلرَّبُّ أَنْ تَجِدَا</strong></span><strong>&quot;</strong></p><p>&quot;هنا، تُتابع نعمي مباركتها. استخدم الصيغة المناسبة للبركة في لغتك. الترجمة البديلة: &quot;&quot;لعل الرب يعطيكما&quot;&quot; أو &quot;&quot;أدعو أن يسمح لكما الرب بأن تحصلا على&quot;&quot;&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
+"content": "<p><span style='direction: rtl;'>יִתֵּ֤ן יְהוָה֙ לָ⁠כֶ֔ם וּ⁠מְצֶ֣אןָ</span></p><p><strong>&quot;</strong><span><strong>وَلْيُعْطِكُمَا ٱلرَّبُّ أَنْ تَجِدَا</strong></span><strong>&quot;</strong></p><p>&quot;هنا، تُتابع نعمي مباركتها. استخدم الصيغة المناسبة للبركة في لغتك. الترجمة البديلة: &quot;&quot;لعل الرب يعطيكما&quot;&quot; أو &quot;&quot;أدعو أن يسمح لكما الرب بأن تحصلا على&quot;&quot;&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
 "associations": {
 "passage": [
 {
@@ -1074,7 +1361,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1164,7 +1459,7 @@
 "index_reference": "08001009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَرَفَعْنَ أَصْوَاتَهُنَّ وَبَكَيْنَ</strong></span><strong>&quot;</strong></p><p>رفع الصوت هو تعبير عن التحدث أو البكاء بصوتٍ عالٍ. الترجمة البديلة: &quot;وبكَينَ بصوتٍ عالٍ&quot; أو &quot;وبكَينَ بكاءً مُرًّا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשֶּׂ֥אנָה קוֹלָ֖⁠ן וַ⁠תִּבְכֶּֽינָה</span></p><p><strong>&quot;</strong><span><strong>وَرَفَعْنَ أَصْوَاتَهُنَّ وَبَكَيْنَ</strong></span><strong>&quot;</strong></p><p>رفع الصوت هو تعبير عن التحدث أو البكاء بصوتٍ عالٍ. الترجمة البديلة: &quot;وبكَينَ بصوتٍ عالٍ&quot; أو &quot;وبكَينَ بكاءً مُرًّا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1183,7 +1478,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1288,7 +1591,7 @@
 "index_reference": "08001010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>مَعَكِ</strong></span><strong>&quot;</strong></p><p>يأتي ضمير المخاطب هنا بصيغة المفرد لأنه يشير إلى نعمي.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">أشكال الضمير &quot;أنت&quot; — المفرد</span></p>",
+"content": "<p><span style='direction: rtl;'>אִתָּ֥⁠ךְ</span></p><p><strong>&quot;</strong><span><strong>مَعَكِ</strong></span><strong>&quot;</strong></p><p>يأتي ضمير المخاطب هنا بصيغة المفرد لأنه يشير إلى نعمي.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26735\" data-resourceType=\"UWTranslationManual\">أشكال الضمير &quot;أنت&quot; — المفرد</span></p>",
 "associations": {
 "passage": [
 {
@@ -1428,7 +1731,7 @@
 "index_reference": "08001011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>هَلْ فِي أَحْشَائِي بَنُونَ بَعْدُ حَتَّى يَكُونُوا لَكُمَا رِجَالًا؟</strong></span><strong>&quot;</strong></p><p>تستخدم نعمي صيغة السؤال هنا لتوضيح أنها لا تستطيع إنجاب أبناء آخرين ليتزوجوا من الشابتَين. إذا لم تكن تستخدم صيغة السؤال لهذا الغرض في لغتك، فيمكنك ترجمة ذلك في صورة بيان أو أسلوب تعجب. الترجمة البديلة: &quot;أنتما تعلمان أنني لا أستطيع إنجاب أبناء آخرين ليصبحوا أزواجًا لكما.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>הַֽ⁠עֽוֹד־לִ֤⁠י בָנִים֙ בְּֽ⁠מֵעַ֔⁠י וְ⁠הָי֥וּ לָ⁠כֶ֖ם לַ⁠אֲנָשִֽׁים</span></p><p><strong>&quot;</strong><span><strong>هَلْ فِي أَحْشَائِي بَنُونَ بَعْدُ حَتَّى يَكُونُوا لَكُمَا رِجَالًا؟</strong></span><strong>&quot;</strong></p><p>تستخدم نعمي صيغة السؤال هنا لتوضيح أنها لا تستطيع إنجاب أبناء آخرين ليتزوجوا من الشابتَين. إذا لم تكن تستخدم صيغة السؤال لهذا الغرض في لغتك، فيمكنك ترجمة ذلك في صورة بيان أو أسلوب تعجب. الترجمة البديلة: &quot;أنتما تعلمان أنني لا أستطيع إنجاب أبناء آخرين ليصبحوا أزواجًا لكما.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1447,7 +1750,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+}
+]
 }
 },
 {
@@ -1498,7 +1809,7 @@
 "index_reference": "08001012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَإِنْ قُلْتُ لِي رَجَاءٌ أَيْضًا بِأَنِّي أَصِيرُ هَذِهِ ٱللَّيْلَةَ لِرَجُلٍ وَأَلِدُ بَنِينَ أَيْضًا</strong></span><strong>&quot;</strong></p><p>يبدأ هذا السؤال البلاغي في هذه الآية، ويستمر في الآية التالية. إذ تستخدم نعمي هذا السؤال لتؤكد على عدم قدرتها على إنجاب أبناء آخرين ليكونوا أزواجًا لهما. إذا لم تستخدم صيغة السؤال لهذا الغرض في لغتك، فيمكنك ترجمته في صورة بيان أو أسلوب تعجب. الترجمة البديلة: &quot;حتى وإن كان من الممكن أن أتوقع الزواج  وإنجاب الأبناء على الفور&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֤י אָמַ֨רְתִּי֙ יֶשׁ־לִ֣⁠י תִקְוָ֔ה גַּ֣ם הָיִ֤יתִי הַ⁠לַּ֨יְלָה֙ לְ⁠אִ֔ישׁ וְ⁠גַ֖ם יָלַ֥דְתִּי בָנִֽים</span></p><p><strong>&quot;</strong><span><strong>وَإِنْ قُلْتُ لِي رَجَاءٌ أَيْضًا بِأَنِّي أَصِيرُ هَذِهِ ٱللَّيْلَةَ لِرَجُلٍ وَأَلِدُ بَنِينَ أَيْضًا</strong></span><strong>&quot;</strong></p><p>يبدأ هذا السؤال البلاغي في هذه الآية، ويستمر في الآية التالية. إذ تستخدم نعمي هذا السؤال لتؤكد على عدم قدرتها على إنجاب أبناء آخرين ليكونوا أزواجًا لهما. إذا لم تستخدم صيغة السؤال لهذا الغرض في لغتك، فيمكنك ترجمته في صورة بيان أو أسلوب تعجب. الترجمة البديلة: &quot;حتى وإن كان من الممكن أن أتوقع الزواج  وإنجاب الأبناء على الفور&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1517,7 +1828,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
@@ -1529,7 +1848,7 @@
 "index_reference": "08001012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَأَلِدُ بَنِينَ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;إذا كنت سأُنجب أبناء&quot; أو &quot;إذا كنت سأُلد أولادًا&quot;</p>",
+"content": "<p><span style='direction: rtl;'>יָלַ֥דְתִּי בָנִֽים</span></p><p><strong>&quot;</strong><span><strong>وَأَلِدُ بَنِينَ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;إذا كنت سأُنجب أبناء&quot; أو &quot;إذا كنت سأُلد أولادًا&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -1540,7 +1859,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
@@ -1552,7 +1879,7 @@
 "index_reference": "08001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>هَلْ تَصْبِرَانِ لَهُمْ حَتَّى يَكْبُرُوا؟ هَلْ تَنْحَجِزَانِ مِنْ أَجْلِهِمْ عَنْ أَنْ تَكُونَا لِرَجُلٍ؟</strong></span><strong>&quot;</strong></p><p>تستكمل نعمي السؤال البلاغي الذي بدأته في الآية السابقة، فتطرح سؤالًا بلاغيًا آخر يؤكد المعنى ذاته. الترجمة البديلة: &quot;لن تنتظرا حتى يكبروا لتتمكنا من الزواج منهم؟ بل عليكما أن تتزوجا من رجل قبل ذلك الحين.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠לָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲ⁠לָהֵן֙ תֵּֽעָגֵ֔נָה לְ⁠בִלְתִּ֖י הֱי֣וֹת לְ⁠אִ֑ישׁ</span></p><p><strong>&quot;</strong><span><strong>هَلْ تَصْبِرَانِ لَهُمْ حَتَّى يَكْبُرُوا؟ هَلْ تَنْحَجِزَانِ مِنْ أَجْلِهِمْ عَنْ أَنْ تَكُونَا لِرَجُلٍ؟</strong></span><strong>&quot;</strong></p><p>تستكمل نعمي السؤال البلاغي الذي بدأته في الآية السابقة، فتطرح سؤالًا بلاغيًا آخر يؤكد المعنى ذاته. الترجمة البديلة: &quot;لن تنتظرا حتى يكبروا لتتمكنا من الزواج منهم؟ بل عليكما أن تتزوجا من رجل قبل ذلك الحين.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1571,7 +1898,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1583,7 +1918,7 @@
 "index_reference": "08001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>هَلْ تَصْبِرَانِ لَهُمْ حَتَّى يَكْبُرُوا؟ هَلْ تَنْحَجِزَانِ مِنْ أَجْلِهِمْ عَنْ أَنْ تَكُونَا لِرَجُلٍ؟</strong></span><strong>&quot;</strong></p><p>تشير هذه الفكرة إلى العرف السائد لدى العبرانيين القدماء، وهي أنه إذا مات رجل متزوج، فإن أحد إخوته يتزوج من أرملتة. انظر المقدمة للمزيد من التوضيح. يمكنك إضافة بعض هذه المعلومات في حاشية سفلية، إذا كان ذلك مفيدًا.</p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠לָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲ⁠לָהֵן֙ תֵּֽעָגֵ֔נָה לְ⁠בִלְתִּ֖י הֱי֣וֹת לְ⁠אִ֑ישׁ</span></p><p><strong>&quot;</strong><span><strong>هَلْ تَصْبِرَانِ لَهُمْ حَتَّى يَكْبُرُوا؟ هَلْ تَنْحَجِزَانِ مِنْ أَجْلِهِمْ عَنْ أَنْ تَكُونَا لِرَجُلٍ؟</strong></span><strong>&quot;</strong></p><p>تشير هذه الفكرة إلى العرف السائد لدى العبرانيين القدماء، وهي أنه إذا مات رجل متزوج، فإن أحد إخوته يتزوج من أرملتة. انظر المقدمة للمزيد من التوضيح. يمكنك إضافة بعض هذه المعلومات في حاشية سفلية، إذا كان ذلك مفيدًا.</p>",
 "associations": {
 "passage": [
 {
@@ -1594,7 +1929,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1606,7 +1949,7 @@
 "index_reference": "08001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَإِنِّي مَغْمُومَةٌ جِدًّا</strong></span><strong>&quot;</strong></p><p>هنا، يُستخدم مصطلح المرارة (بحسب الترجمة الانجليزية) كاستعارة للتعبير عن الحزن. الترجمة البديلة: &quot;إنه حزن عظيم لي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>מַר־לִ֤⁠י מְאֹד֙</span></p><p><strong>&quot;</strong><span><strong>فَإِنِّي مَغْمُومَةٌ جِدًّا</strong></span><strong>&quot;</strong></p><p>هنا، يُستخدم مصطلح المرارة (بحسب الترجمة الانجليزية) كاستعارة للتعبير عن الحزن. الترجمة البديلة: &quot;إنه حزن عظيم لي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -1625,7 +1968,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1676,7 +2027,7 @@
 "index_reference": "08001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>يَدَ ٱلرَّبِّ قَدْ خَرَجَتْ عَلَيَّ</strong></span><strong>&quot;</strong></p><p>يُفهم ضمنيًا من هذا أن الرب تسبب في موت عائلة نعمي. يمكنك إضافة هذه المعلومات إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;الرب قد أخذ منَّا أزواجنا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>יָצְאָ֥ה בִ֖⁠י יַד־יְהוָֽה</span></p><p><strong>&quot;</strong><span><strong>يَدَ ٱلرَّبِّ قَدْ خَرَجَتْ عَلَيَّ</strong></span><strong>&quot;</strong></p><p>يُفهم ضمنيًا من هذا أن الرب تسبب في موت عائلة نعمي. يمكنك إضافة هذه المعلومات إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;الرب قد أخذ منَّا أزواجنا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -1695,7 +2046,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -2038,18 +2397,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رَاعوث"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
 }
 ]
 }
@@ -2063,7 +2422,7 @@
 "index_reference": "08001016",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>شَعْبُكِ شَعْبِي وَإِلَهُكِ إِلَهِي</strong></span><strong>&quot;</strong></p><p>من خلال هذه الكلمات، تُطابق راعوث نفسها تمامًا مع ثقافة نعمي الإسرائيلية ودينها. لا يحتوي النص الأصلي على أفعال، لذا إذا كانت لغتك تتطلب استخدام الأفعال هنا، فاختر الأفعال التي تعبر عن هذا بأفضل طريقة. الترجمة البديلة: &quot;شعبك سيكون شعبي، وإلهك سيكون إلهي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p>",
+"content": "<p><span style='direction: rtl;'>עַמֵּ֣⁠ךְ עַמִּ֔⁠י וֵ⁠אלֹהַ֖יִ⁠ךְ אֱלֹהָֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>شَعْبُكِ شَعْبِي وَإِلَهُكِ إِلَهِي</strong></span><strong>&quot;</strong></p><p>من خلال هذه الكلمات، تُطابق راعوث نفسها تمامًا مع ثقافة نعمي الإسرائيلية ودينها. لا يحتوي النص الأصلي على أفعال، لذا إذا كانت لغتك تتطلب استخدام الأفعال هنا، فاختر الأفعال التي تعبر عن هذا بأفضل طريقة. الترجمة البديلة: &quot;شعبك سيكون شعبي، وإلهك سيكون إلهي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p>",
 "associations": {
 "passage": [
 {
@@ -2082,7 +2441,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -2211,7 +2585,7 @@
 "index_reference": "08001018",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>كَفَّتْ عَنِ ٱلْكَلَامِ إِلَيْهَا</strong></span><strong>&quot;</strong></p><p>تُعتبر هذه العبارة نتيجة للعبارة السابقة. ربما ترغب في الإشارة إلى ذلك باستخدام أداة ربط تفيد النتيجة. الترجمة البديلة: &quot;لذلك كفَّت عن الكلام إليها أكثر&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תֶּחְדַּ֖ל לְ⁠דַבֵּ֥ר אֵלֶֽי⁠הָ</span></p><p><strong>&quot;</strong><span><strong>كَفَّتْ عَنِ ٱلْكَلَامِ إِلَيْهَا</strong></span><strong>&quot;</strong></p><p>تُعتبر هذه العبارة نتيجة للعبارة السابقة. ربما ترغب في الإشارة إلى ذلك باستخدام أداة ربط تفيد النتيجة. الترجمة البديلة: &quot;لذلك كفَّت عن الكلام إليها أكثر&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
 "associations": {
 "passage": [
 {
@@ -2630,7 +3004,7 @@
 "index_reference": "08001021",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>إِنِّي ذَهَبْتُ مُمْتَلِئَةً وَأَرْجَعَنِيَ ٱلرَّبُّ فَارِغَةً</strong></span><strong>&quot;</strong></p><p>هنا، تتكلم نُعمي عن نفسها وكأنها وعاء يمكن أن يكون <strong>ممتلئًا</strong> أو <strong>فارغًا</strong>. يمكنك توضيح المعنى بأسلوب صريح، إذا كان ذلك مفيدًا في لغتك. الترجمة البديلة: &quot;إني قد ذهبت ومعي عائلتي الكاملة، وأرجعني الرب وحيدة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְ⁠רֵיקָ֖ם הֱשִׁיבַ֣⁠נִי יְהוָ֑ה</span></p><p><strong>&quot;</strong><span><strong>إِنِّي ذَهَبْتُ مُمْتَلِئَةً وَأَرْجَعَنِيَ ٱلرَّبُّ فَارِغَةً</strong></span><strong>&quot;</strong></p><p>هنا، تتكلم نُعمي عن نفسها وكأنها وعاء يمكن أن يكون <strong>ممتلئًا</strong> أو <strong>فارغًا</strong>. يمكنك توضيح المعنى بأسلوب صريح، إذا كان ذلك مفيدًا في لغتك. الترجمة البديلة: &quot;إني قد ذهبت ومعي عائلتي الكاملة، وأرجعني الرب وحيدة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -2649,7 +3023,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+}
+]
 }
 },
 {
@@ -2707,7 +3096,7 @@
 "index_reference": "08001021",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَٱلرَّبُّ قَدْ أَذَلَّنِي وَٱلْقَدِيرُ قَدْ كَسَّرَنِي</strong></span><strong>&quot;</strong></p><p>تعبر هاتان العبارتان عن نفس الشيء باستخدام كلمات مختلفة لتأكيد فكرة أن الله جعل حياة نعمي شديدة الصعوبة. يشير كل من &quot;<strong>ٱلرَّبُّ&quot; </strong>و &quot;<strong>ٱلْقَدِيرُ&quot;</strong> إلى الله. إذا كان ذلك سيفيد قراءك، يمكنك دمج العبارتين لإظهار أن العبارة الثانية لا تضيف شيئًا جديدًا. الترجمة البديلة: &quot;ولكن الرب، القدير، قد قاومني وأساء إليَّ.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַֽ⁠יהוָה֙ עָ֣נָה בִ֔⁠י וְ⁠שַׁדַּ֖י הֵ֥רַֽע לִֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>وَٱلرَّبُّ قَدْ أَذَلَّنِي وَٱلْقَدِيرُ قَدْ كَسَّرَنِي</strong></span><strong>&quot;</strong></p><p>تعبر هاتان العبارتان عن نفس الشيء باستخدام كلمات مختلفة لتأكيد فكرة أن الله جعل حياة نعمي شديدة الصعوبة. يشير كل من &quot;<strong>ٱلرَّبُّ&quot; </strong>و &quot;<strong>ٱلْقَدِيرُ&quot;</strong> إلى الله. إذا كان ذلك سيفيد قراءك، يمكنك دمج العبارتين لإظهار أن العبارة الثانية لا تضيف شيئًا جديدًا. الترجمة البديلة: &quot;ولكن الرب، القدير، قد قاومني وأساء إليَّ.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
 "associations": {
 "passage": [
 {
@@ -2726,7 +3115,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+}
+]
 }
 },
 {
@@ -2784,7 +3188,7 @@
 "index_reference": "08001021",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>كَسَّرَنِي</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;جلب عليَّ مصيبة&quot; أو &quot;تسبب لي في مأساة&quot;</p>",
+"content": "<p><span style='direction: rtl;'>הֵ֥רַֽע לִֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>كَسَّرَنِي</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;جلب عليَّ مصيبة&quot; أو &quot;تسبب لي في مأساة&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -2795,7 +3199,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+}
+]
 }
 },
 {
@@ -2807,7 +3226,7 @@
 "index_reference": "08001022",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَرَجَعَتْ نُعْمِيَ وَرَاعُوثُ ٱلْمُوآبِيَّةُ كَنَّتُهَا مَعَهَا، ٱلَّتِي رَجَعَتْ مِنْ بِلَادِ مُوآبَ</strong></span><strong>&quot;</strong></p><p>تقدم هذه الجملة ملخصًا موجزًا وخاتمةً للقصة حتى هذه اللحظة. لا تقدم معلومات أو أحداث جديدة في القصة. قد تكون للغتك أسلوبها الخاص في التعبير عن نهاية جزء من القصة. اتبع هذا الأسلوب هنا.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26831\" data-resourceType=\"UWTranslationManual\">نهاية القصة</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּ֣שָׁב נָעֳמִ֗י וְ⁠ר֨וּת הַ⁠מּוֹאֲבִיָּ֤ה כַלָּתָ⁠הּ֙ עִמָּ֔⁠הּ הַ⁠שָּׁ֖בָה מִ⁠שְּׂדֵ֣י מוֹאָ֑ב</span></p><p><strong>&quot;</strong><span><strong>فَرَجَعَتْ نُعْمِيَ وَرَاعُوثُ ٱلْمُوآبِيَّةُ كَنَّتُهَا مَعَهَا، ٱلَّتِي رَجَعَتْ مِنْ بِلَادِ مُوآبَ</strong></span><strong>&quot;</strong></p><p>تقدم هذه الجملة ملخصًا موجزًا وخاتمةً للقصة حتى هذه اللحظة. لا تقدم معلومات أو أحداث جديدة في القصة. قد تكون للغتك أسلوبها الخاص في التعبير عن نهاية جزء من القصة. اتبع هذا الأسلوب هنا.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26831\" data-resourceType=\"UWTranslationManual\">نهاية القصة</span></p>",
 "associations": {
 "passage": [
 {
@@ -2826,7 +3245,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -2838,7 +3293,7 @@
 "index_reference": "08001022",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَدَخَلَتَا بَيْتَ لَحْمٍ فِي ٱبْتِدَاءِ حَصَادِ ٱلشَّعِيرِ</strong></span><strong>&quot;</strong></p><p>تقدم هذه العبارة معلومات أساسية تساعد القراء على فهم ما يحدث لاحقًا في القصة. قدم هذه المعلومات في ترجمتك بطريقة توضح أنها معلومات أساسية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">معلومات أساسية</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠הֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּ⁠תְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים</span></p><p><strong>&quot;</strong><span><strong>وَدَخَلَتَا بَيْتَ لَحْمٍ فِي ٱبْتِدَاءِ حَصَادِ ٱلشَّعِيرِ</strong></span><strong>&quot;</strong></p><p>تقدم هذه العبارة معلومات أساسية تساعد القراء على فهم ما يحدث لاحقًا في القصة. قدم هذه المعلومات في ترجمتك بطريقة توضح أنها معلومات أساسية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">معلومات أساسية</span></p>",
 "associations": {
 "passage": [
 {
@@ -2857,7 +3312,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -2869,7 +3360,7 @@
 "index_reference": "08001022",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فِي ٱبْتِدَاءِ حَصَادِ ٱلشَّعِيرِ</strong></span><strong>&quot;</strong></p><p>يمكنك ترجمة عبارة <strong>حَصَادِ ٱلشَّعِيرِ</strong> إلى جملة فعلية إذا كان ذلك مفيدًا في لغتك. الترجمة البديلة: &quot;عندما كان المزارعون قد بدأوا للتو في يحصدون الشعير&quot; أو &quot;عندما بدأ المزارعون يحصدون الشعير&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>בִּ⁠תְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים</span></p><p><strong>&quot;</strong><span><strong>فِي ٱبْتِدَاءِ حَصَادِ ٱلشَّعِيرِ</strong></span><strong>&quot;</strong></p><p>يمكنك ترجمة عبارة <strong>حَصَادِ ٱلشَّعِيرِ</strong> إلى جملة فعلية إذا كان ذلك مفيدًا في لغتك. الترجمة البديلة: &quot;عندما كان المزارعون قد بدأوا للتو في يحصدون الشعير&quot; أو &quot;عندما بدأ المزارعون يحصدون الشعير&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -2888,7 +3379,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -2938,7 +3465,7 @@
 "index_reference": "08002001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَكَانَ لِنُعْمِي ذُو قَرَابَةٍ لِرَجُلِهَا</strong></span><strong>&quot;</strong></p><p>تقدم الآية 1 معلومة أساسية عن بوعز ليفهم القارئ من هو. في ترجمتك، قم بتقديم هذه المعلومة بشكل يوضح أنها معلومة أساسية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">معلومات أساسية</span></p>",
+"content": "<p><span style='direction: rtl;'>וּֽ⁠לְ⁠נָעֳמִ֞י מוֹדַ֣ע לְ⁠אִישָׁ֗⁠הּ</span></p><p><strong>&quot;</strong><span><strong>وَكَانَ لِنُعْمِي ذُو قَرَابَةٍ لِرَجُلِهَا</strong></span><strong>&quot;</strong></p><p>تقدم الآية 1 معلومة أساسية عن بوعز ليفهم القارئ من هو. في ترجمتك، قم بتقديم هذه المعلومة بشكل يوضح أنها معلومة أساسية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">معلومات أساسية</span></p>",
 "associations": {
 "passage": [
 {
@@ -2957,7 +3484,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
+}
+]
 }
 },
 {
@@ -2969,7 +3518,7 @@
 "index_reference": "08002001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَكَانَ لِنُعْمِي ذُو قَرَابَةٍ لِرَجُلِهَا</strong></span><strong>&quot;</strong></p><p>تبدأ هذه العبارة بتقديم <strong>بوعز</strong> باعتباره مشاركًا جديدًا في القصة. إذا كان للغتك أسلوبها الخاص في تقديم المشاركين الجدد، يمكنك استخدامه هنا في ترجمتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">تقديم المشاركين الجدد والقدامى</span></p>",
+"content": "<p><span style='direction: rtl;'>וּֽ⁠לְ⁠נָעֳמִ֞י מוֹדַ֣ע לְ⁠אִישָׁ֗⁠הּ</span></p><p><strong>&quot;</strong><span><strong>وَكَانَ لِنُعْمِي ذُو قَرَابَةٍ لِرَجُلِهَا</strong></span><strong>&quot;</strong></p><p>تبدأ هذه العبارة بتقديم <strong>بوعز</strong> باعتباره مشاركًا جديدًا في القصة. إذا كان للغتك أسلوبها الخاص في تقديم المشاركين الجدد، يمكنك استخدامه هنا في ترجمتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">تقديم المشاركين الجدد والقدامى</span></p>",
 "associations": {
 "passage": [
 {
@@ -2988,7 +3537,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
+}
+]
 }
 },
 {
@@ -3028,18 +3599,18 @@
 "preferred_label": "بوعَز"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
 }
 ]
 }
@@ -3081,18 +3652,18 @@
 "preferred_label": "بوعَز"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
 }
 ]
 }
@@ -3127,6 +3698,20 @@
 ],
 "acai": [
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3139,20 +3724,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
 }
 ]
 }
@@ -3166,7 +3737,7 @@
 "index_reference": "08002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱلْمُوآبِيَّةُ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;التي من أرض موآب&quot;</p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠מּוֹאֲבִיָּ֜ה</span></p><p><strong>&quot;</strong><span><strong>ٱلْمُوآبِيَّةُ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;التي من أرض موآب&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -3177,7 +3748,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -3210,6 +3810,20 @@
 ],
 "acai": [
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3222,20 +3836,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
 }
 ]
 }
@@ -3270,6 +3870,20 @@
 ],
 "acai": [
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3282,20 +3896,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
 }
 ]
 }
@@ -3330,18 +3930,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "بوعَز"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
 },
 {
 "id": "flora:Barley",
@@ -3383,18 +3983,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "بوعَز"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
 },
 {
 "id": "flora:Barley",
@@ -3443,11 +4043,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بوعَز"
+"preferred_label": "لَحْمٍ"
 },
 {
 "id": "keyterm:Bless",
@@ -3457,11 +4057,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "لَحْمٍ"
+"preferred_label": "بوعَز"
 },
 {
 "id": "flora:Barley",
@@ -3510,11 +4110,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بوعَز"
+"preferred_label": "لَحْمٍ"
 },
 {
 "id": "keyterm:Bless",
@@ -3524,11 +4124,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "لَحْمٍ"
+"preferred_label": "بوعَز"
 },
 {
 "id": "flora:Barley",
@@ -3577,11 +4177,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بوعَز"
+"preferred_label": "لَحْمٍ"
 },
 {
 "id": "keyterm:Bless",
@@ -3591,11 +4191,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "لَحْمٍ"
+"preferred_label": "بوعَز"
 },
 {
 "id": "flora:Barley",
@@ -3644,11 +4244,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بوعَز"
+"preferred_label": "لَحْمٍ"
 },
 {
 "id": "keyterm:Bless",
@@ -3658,11 +4258,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "لَحْمٍ"
+"preferred_label": "بوعَز"
 },
 {
 "id": "flora:Barley",
@@ -3729,7 +4329,7 @@
 "index_reference": "08002005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِمَنْ هَذِهِ ٱلْفَتَاةُ؟</strong></span><strong>&quot;</strong></p><p>في تلك الثقافة، كانت النساء خاضعات لسلطة أقاربهن الذكور. كان بوعز يتساءل من قد يكون زوج راعوث أو أبيها. ولم يكن يعتقد أن راعوث كانت جارية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">صلة القرابة</span></p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠מִ֖י הַ⁠נַּעֲרָ֥ה הַ⁠זֹּֽאת</span></p><p><strong>&quot;</strong><span><strong>لِمَنْ هَذِهِ ٱلْفَتَاةُ؟</strong></span><strong>&quot;</strong></p><p>في تلك الثقافة، كانت النساء خاضعات لسلطة أقاربهن الذكور. كان بوعز يتساءل من قد يكون زوج راعوث أو أبيها. ولم يكن يعتقد أن راعوث كانت جارية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">صلة القرابة</span></p>",
 "associations": {
 "passage": [
 {
@@ -3748,7 +4348,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -3781,18 +4396,18 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "موآبَ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
 },
 {
 "id": "flora:Barley",
@@ -3813,7 +4428,7 @@
 "index_reference": "08002007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَقَالَتْ: دَعُونِي أَلْتَقِطْ وَأَجْمَعْ بَيْنَ ٱلْحُزَمِ وَرَاءَ ٱلْحَصَّادِينَ</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم إقتباسًا مباشرًا داخل اقتباس مباشر، فيمكنك ترجمة هذا الاقتباس الثاني إلى اقتباس غير مباشر. الترجمة البديلة: &quot;وسألتني ما إذا كان بإمكانها أن تلتقط وتجمع بين الحزم وراء الحصادين&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">اقتباسات داخل اقتباسات</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תֹּ֗אמֶר אֲלַקֳטָה־נָּא֙ וְ⁠אָסַפְתִּ֣י בָֽ⁠עֳמָרִ֔ים אַחֲרֵ֖י הַ⁠קּוֹצְרִ֑ים</span></p><p><strong>&quot;</strong><span><strong>وَقَالَتْ: دَعُونِي أَلْتَقِطْ وَأَجْمَعْ بَيْنَ ٱلْحُزَمِ وَرَاءَ ٱلْحَصَّادِينَ</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم إقتباسًا مباشرًا داخل اقتباس مباشر، فيمكنك ترجمة هذا الاقتباس الثاني إلى اقتباس غير مباشر. الترجمة البديلة: &quot;وسألتني ما إذا كان بإمكانها أن تلتقط وتجمع بين الحزم وراء الحصادين&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">اقتباسات داخل اقتباسات</span></p>",
 "associations": {
 "passage": [
 {
@@ -3832,7 +4447,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sickle"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "House"
+}
+]
 }
 },
 {
@@ -3865,13 +4502,6 @@
 ],
 "acai": [
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
@@ -3884,6 +4514,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -4207,7 +4844,7 @@
 "index_reference": "08002009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>مِمَّا ٱسْتَقَاهُ ٱلْغِلْمَانُ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;من الماء الذي استخرجه العمال من البئر&quot;</p>",
+"content": "<p><span style='direction: rtl;'>מֵ⁠אֲשֶׁ֥ר יִשְׁאֲב֖וּ⁠ן הַ⁠נְּעָרִֽים</span></p><p><strong>&quot;</strong><span><strong>مِمَّا ٱسْتَقَاهُ ٱلْغِلْمَانُ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;من الماء الذي استخرجه العمال من البئر&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -4218,7 +4855,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -4230,7 +4875,7 @@
 "index_reference": "08002010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَسَقَطَتْ عَلَى وَجْهِهَا وَسَجَدَتْ إِلَى ٱلْأَرْضِ</strong></span><strong>&quot;</strong></p><p>هذان وصفان لفعل واحد. ربما أراد الكاتب استخدام المصطلحين معًا للتأكيد. يمكنك التعبير عن التأكيد باستخدام عبارة واحدة، إذا كان ذلك أكثر وضوحًا لقرائك. ترجمة بديلة: &quot;فسجدت أمامه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\">نظير لغوي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּפֹּל֙ עַל־פָּנֶ֔י⁠הָ וַ⁠תִּשְׁתַּ֖חוּ אָ֑רְצָ⁠ה</span></p><p><strong>&quot;</strong><span><strong>فَسَقَطَتْ عَلَى وَجْهِهَا وَسَجَدَتْ إِلَى ٱلْأَرْضِ</strong></span><strong>&quot;</strong></p><p>هذان وصفان لفعل واحد. ربما أراد الكاتب استخدام المصطلحين معًا للتأكيد. يمكنك التعبير عن التأكيد باستخدام عبارة واحدة، إذا كان ذلك أكثر وضوحًا لقرائك. ترجمة بديلة: &quot;فسجدت أمامه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\">نظير لغوي</span></p>",
 "associations": {
 "passage": [
 {
@@ -4249,7 +4894,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4300,7 +4953,7 @@
 "index_reference": "08002010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَسَقَطَتْ عَلَى وَجْهِهَا وَسَجَدَتْ إِلَى ٱلْأَرْضِ</strong></span><strong>&quot;</strong></p><p>يُقصد بتعبير <strong>سَقَطَتْ عَلَى وَجْهِهَا</strong> أنها انحنت إلى الأسفل ووجهها نحو الأرض. إذا كان من المحتمل أن يسيء قراؤك فهم هذا التعبير، فيمكنك أن توضح المعنى بشكل أبسط. الترجمة البديلة: &quot;فانحنت إلى الأسفل، ووجهها نحو الأرض&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּפֹּל֙ עַל־פָּנֶ֔י⁠הָ וַ⁠תִּשְׁתַּ֖חוּ אָ֑רְצָ⁠ה</span></p><p><strong>&quot;</strong><span><strong>فَسَقَطَتْ عَلَى وَجْهِهَا وَسَجَدَتْ إِلَى ٱلْأَرْضِ</strong></span><strong>&quot;</strong></p><p>يُقصد بتعبير <strong>سَقَطَتْ عَلَى وَجْهِهَا</strong> أنها انحنت إلى الأسفل ووجهها نحو الأرض. إذا كان من المحتمل أن يسيء قراؤك فهم هذا التعبير، فيمكنك أن توضح المعنى بشكل أبسط. الترجمة البديلة: &quot;فانحنت إلى الأسفل، ووجهها نحو الأرض&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -4319,7 +4972,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4331,7 +4992,7 @@
 "index_reference": "08002010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>كَيْفَ وَجَدْتُ نِعْمَةً فِي عَيْنَيْكَ حَتَّى تَنْظُرَ إِلَيَّ وَأَنَا غَرِيبَةٌ؟</strong></span><strong>&quot;</strong></p><p>يُعبر سؤال &quot;راعوث&quot; عن الدهشة ويُبيّن صراحة سبب دهشتها من لطف&quot;بوعز&quot;. إنه كان على عكس توقعاتها. استخدم طريقة مناسبة في لغتك لتقديم هذا التباين. ربما تحتاج في بعض اللغات إلى تحويل جزء من سؤالها إلى جملة خبرية. الترجمة البديلة: &quot;كيف وجدت نعمة في عينيك؟ فإن الإسرائيليين لا يظهرون هذا النوع من اللطف للمؤابيين.&quot; أو &quot;الناس لا يقدمون هذا النوع من الإحسان للغرباء.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26743\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار التضاد والتباين</span></p>",
+"content": "<p><span style='direction: rtl;'>מַדּוּעַ֩ מָצָ֨אתִי חֵ֤ן בְּ⁠עֵינֶ֨י⁠ךָ֙ לְ⁠הַכִּירֵ֔⁠נִי וְ⁠אָּנֹכִ֖י נָכְרִיָּֽה</span></p><p><strong>&quot;</strong><span><strong>كَيْفَ وَجَدْتُ نِعْمَةً فِي عَيْنَيْكَ حَتَّى تَنْظُرَ إِلَيَّ وَأَنَا غَرِيبَةٌ؟</strong></span><strong>&quot;</strong></p><p>يُعبر سؤال &quot;راعوث&quot; عن الدهشة ويُبيّن صراحة سبب دهشتها من لطف&quot;بوعز&quot;. إنه كان على عكس توقعاتها. استخدم طريقة مناسبة في لغتك لتقديم هذا التباين. ربما تحتاج في بعض اللغات إلى تحويل جزء من سؤالها إلى جملة خبرية. الترجمة البديلة: &quot;كيف وجدت نعمة في عينيك؟ فإن الإسرائيليين لا يظهرون هذا النوع من اللطف للمؤابيين.&quot; أو &quot;الناس لا يقدمون هذا النوع من الإحسان للغرباء.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26743\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار التضاد والتباين</span></p>",
 "associations": {
 "passage": [
 {
@@ -4350,7 +5011,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4624,18 +5293,18 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -4677,18 +5346,18 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -4730,18 +5399,18 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -4833,7 +5502,7 @@
 "index_reference": "08002013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>قَلْبَ جَارِيَتِكَ</strong></span><strong>&quot;</strong></p><p>تتكلم راعوث عن نفسها بصيغة الغائب. إذا لم يكن ذلك مألوفًا في لغتك، فيمكنك استخدام صيغة المتكلم. الترجمة البديلة: &quot;قلبي، أنا خادمتكِ&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">صيغة المتكلم، والمخاطب، والغائب</span></p>",
+"content": "<p><span style='direction: rtl;'>עַל־לֵ֣ב שִׁפְחָתֶ֑⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>قَلْبَ جَارِيَتِكَ</strong></span><strong>&quot;</strong></p><p>تتكلم راعوث عن نفسها بصيغة الغائب. إذا لم يكن ذلك مألوفًا في لغتك، فيمكنك استخدام صيغة المتكلم. الترجمة البديلة: &quot;قلبي، أنا خادمتكِ&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">صيغة المتكلم، والمخاطب، والغائب</span></p>",
 "associations": {
 "passage": [
 {
@@ -4852,7 +5521,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4981,7 +5658,7 @@
 "index_reference": "08002014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>عِنْدَ وَقْتِ ٱلْأَكْلِ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;&quot;عند وقت الغداء&quot;&quot;&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠עֵ֣ת הָ⁠אֹ֗כֶל</span></p><p><strong>&quot;</strong><span><strong>عِنْدَ وَقْتِ ٱلْأَكْلِ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;&quot;عند وقت الغداء&quot;&quot;&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -4992,7 +5669,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -5004,7 +5696,7 @@
 "index_reference": "08002014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>تَقَدَّمِي إِلَى هَهُنَا وَكُلِي مِنَ ٱلْخُبْزِ، وَٱغْمِسِي لُقْمَتَكِ فِي ٱلْخَلِّ</strong></span><strong>&quot;</strong></p><p>الأفعال في هذه الجملة هي أفعال أمر تُعبّر عن دعوة كريمة وليست أمرًا. استخدم صيغة مناسبة في لغتك تُعبّر عن دعوة كريمة. قد يكون من الأنسب إضافة تعبير مثل &quot;من فضلك&quot; لتوضيح ذلك. الترجمة البديلة: &quot;من فضلك تقدَّمي وقدِّمي لنفسك الخبز واغمسيه في الخل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26698\" data-resourceType=\"UWTranslationManual\">أسلوب الأمر — استخدامات أخرى</span></p>",
+"content": "<p><span style='direction: rtl;'>גֹּ֤שִֽׁי הֲלֹם֙ וְ⁠אָכַ֣לְתְּ מִן־הַ⁠לֶּ֔חֶם וְ⁠טָבַ֥לְתְּ פִּתֵּ֖⁠ךְ בַּ⁠חֹ֑מֶץ</span></p><p><strong>&quot;</strong><span><strong>تَقَدَّمِي إِلَى هَهُنَا وَكُلِي مِنَ ٱلْخُبْزِ، وَٱغْمِسِي لُقْمَتَكِ فِي ٱلْخَلِّ</strong></span><strong>&quot;</strong></p><p>الأفعال في هذه الجملة هي أفعال أمر تُعبّر عن دعوة كريمة وليست أمرًا. استخدم صيغة مناسبة في لغتك تُعبّر عن دعوة كريمة. قد يكون من الأنسب إضافة تعبير مثل &quot;من فضلك&quot; لتوضيح ذلك. الترجمة البديلة: &quot;من فضلك تقدَّمي وقدِّمي لنفسك الخبز واغمسيه في الخل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26698\" data-resourceType=\"UWTranslationManual\">أسلوب الأمر — استخدامات أخرى</span></p>",
 "associations": {
 "passage": [
 {
@@ -5023,7 +5715,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -5035,7 +5742,7 @@
 "index_reference": "08002014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>كُلِي مِنَ ٱلْخُبْزِ، وَٱغْمِسِي لُقْمَتَكِ فِي ٱلْخَلِّ</strong></span><strong>&quot;</strong></p><p>يتطلب الأمر غمس الخبز ثم أكله، لذا قد يكون من الأنسب في لغتك أن تذكر غمس الخبز أولاً. الترجمة البديلة: &quot;اغمسي بعضًا من هذا الخبز في الخل ثم كلي منه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠אָכַ֣לְתְּ מִן־הַ⁠לֶּ֔חֶם וְ⁠טָבַ֥לְתְּ פִּתֵּ֖⁠ךְ בַּ⁠חֹ֑מֶץ</span></p><p><strong>&quot;</strong><span><strong>كُلِي مِنَ ٱلْخُبْزِ، وَٱغْمِسِي لُقْمَتَكِ فِي ٱلْخَلِّ</strong></span><strong>&quot;</strong></p><p>يتطلب الأمر غمس الخبز ثم أكله، لذا قد يكون من الأنسب في لغتك أن تذكر غمس الخبز أولاً. الترجمة البديلة: &quot;اغمسي بعضًا من هذا الخبز في الخل ثم كلي منه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
 "associations": {
 "passage": [
 {
@@ -5054,7 +5761,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -5278,7 +6000,7 @@
 "index_reference": "08002016",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلَا تَنْتَهِرُوهَا</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;&quot;ولا تُخجلوها&quot;&quot; أو &quot;&quot;ولا تخاطبوها بقسوة&quot;&quot;&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹ֥א תִגְעֲרוּ־בָֽ⁠הּ</span></p><p><strong>&quot;</strong><span><strong>وَلَا تَنْتَهِرُوهَا</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;&quot;ولا تُخجلوها&quot;&quot; أو &quot;&quot;ولا تخاطبوها بقسوة&quot;&quot;&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -5385,7 +6107,7 @@
 "index_reference": "08002018",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَحَمَلَتْهُ وَدَخَلَتِ ٱلْمَدِينَةَ</strong></span><strong>&quot;</strong></p><p>يُفهم ضمنيًا أن راعوث حملت الحبوب إلى البيت.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׂא֙ וַ⁠תָּב֣וֹא הָ⁠עִ֔יר</span></p><p><strong>&quot;</strong><span><strong>فَحَمَلَتْهُ وَدَخَلَتِ ٱلْمَدِينَةَ</strong></span><strong>&quot;</strong></p><p>يُفهم ضمنيًا أن راعوث حملت الحبوب إلى البيت.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -5437,18 +6159,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بوعَز"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
 }
 ]
 }
@@ -5462,7 +6184,7 @@
 "index_reference": "08002019",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِيَكُنِ ٱلنَّاظِرُ إِلَيْكِ مُبَارَكًا</strong></span><strong>&quot;</strong></p><p>تطلب نعمي من الله أن يبارك بوعز. يمكنك التعبير عن ذلك إما بالبركة أو بالدعاء. استخدم الطريقة الأنسب في لغتك. الترجمة البديلة: &quot;اللهم بارك من نظر إلى راعوث اليوم&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהִ֥י מַכִּירֵ֖⁠ךְ בָּר֑וּךְ</span></p><p><strong>&quot;</strong><span><strong>لِيَكُنِ ٱلنَّاظِرُ إِلَيْكِ مُبَارَكًا</strong></span><strong>&quot;</strong></p><p>تطلب نعمي من الله أن يبارك بوعز. يمكنك التعبير عن ذلك إما بالبركة أو بالدعاء. استخدم الطريقة الأنسب في لغتك. الترجمة البديلة: &quot;اللهم بارك من نظر إلى راعوث اليوم&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
 "associations": {
 "passage": [
 {
@@ -5481,7 +6203,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -5493,7 +6230,7 @@
 "index_reference": "08002019",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِيَكُنِ ٱلنَّاظِرُ إِلَيْكِ مُبَارَكًا</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم صيغة المبني للمجهول بهذا الشكل، يمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;ليبارك الله الناظر إليكِ&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהִ֥י מַכִּירֵ֖⁠ךְ בָּר֑וּךְ</span></p><p><strong>&quot;</strong><span><strong>لِيَكُنِ ٱلنَّاظِرُ إِلَيْكِ مُبَارَكًا</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم صيغة المبني للمجهول بهذا الشكل، يمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;ليبارك الله الناظر إليكِ&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
 "associations": {
 "passage": [
 {
@@ -5512,7 +6249,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -5545,18 +6297,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بوعَز"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
 }
 ]
 }
@@ -5570,7 +6322,7 @@
 "index_reference": "08002019",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَأَخْبَرَتْ حَمَاتَهَا بِٱلَّذِي ٱشْتَغَلَتْ مَعَهُ وَقَالَتِ: «ٱسْمُ ٱلرَّجُلِ ٱلَّذِي ٱشْتَغَلْتُ مَعَهُ ٱلْيَوْمَ بُوعَزُ»</strong></span><strong>&quot;</strong></p><p>تُعبر هاتان الجملتان أساسًا عن نفس المعنى. حيث تكرر الجملة الثانية معنى الأولى، باستخدام كلمات مختلفة للتأكيد على أهمية هذه المعلومة في القصة. إذا كان ذلك سيفيد قراءك، يمكنك أن تدمج الجملتين أو أن تربطهما بطريقة توضح أن الجملة الثانية تكرر الأولى، ولا تضيف معلومة جديدة. الترجمة البديلة: &quot;فأخبرت حماتها أن اسم الشخص الذي اشتغلت معه في ذلك اليوم هو بوعز&quot; أو &quot;فأخبرت حماتها مع من اشتغلت. فقالت: &quot;اسم الرجل الذي اشتغلت معه اليوم بوعز.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תַּגֵּ֣ד לַ⁠חֲמוֹתָ֗⁠הּ אֵ֤ת אֲשֶׁר־עָשְׂתָה֙ עִמּ֔⁠וֹ וַ⁠תֹּ֗אמֶר שֵׁ֤ם הָ⁠אִישׁ֙ אֲשֶׁ֨ר עָשִׂ֧יתִי עִמּ֛⁠וֹ הַ⁠יּ֖וֹם בֹּֽעַז</span></p><p><strong>&quot;</strong><span><strong>فَأَخْبَرَتْ حَمَاتَهَا بِٱلَّذِي ٱشْتَغَلَتْ مَعَهُ وَقَالَتِ: «ٱسْمُ ٱلرَّجُلِ ٱلَّذِي ٱشْتَغَلْتُ مَعَهُ ٱلْيَوْمَ بُوعَزُ»</strong></span><strong>&quot;</strong></p><p>تُعبر هاتان الجملتان أساسًا عن نفس المعنى. حيث تكرر الجملة الثانية معنى الأولى، باستخدام كلمات مختلفة للتأكيد على أهمية هذه المعلومة في القصة. إذا كان ذلك سيفيد قراءك، يمكنك أن تدمج الجملتين أو أن تربطهما بطريقة توضح أن الجملة الثانية تكرر الأولى، ولا تضيف معلومة جديدة. الترجمة البديلة: &quot;فأخبرت حماتها أن اسم الشخص الذي اشتغلت معه في ذلك اليوم هو بوعز&quot; أو &quot;فأخبرت حماتها مع من اشتغلت. فقالت: &quot;اسم الرجل الذي اشتغلت معه اليوم بوعز.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
 "associations": {
 "passage": [
 {
@@ -5589,7 +6341,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -5622,18 +6389,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5643,11 +6410,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5682,18 +6449,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5703,11 +6470,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5742,18 +6509,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5763,11 +6530,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5802,18 +6569,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5823,11 +6590,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5862,18 +6629,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5883,11 +6650,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5922,18 +6689,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5943,11 +6710,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5982,18 +6749,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -6003,11 +6770,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -6034,18 +6801,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -6055,11 +6822,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -6094,18 +6861,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رَاعوث"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
 }
 ]
 }
@@ -6119,7 +6886,7 @@
 "index_reference": "08002021",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>إِنَّهُ قَالَ لِي أَيْضًا: لَازِمِي فِتْيَانِي حَتَّى يُكَمِّلُوا جَمِيعَ حَصَادِي</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم الاقتباس المباشر داخل اقتباس آخر، فيمكنك ترجمة الاقتباس الثاني إلى اقتباس غير مباشر. الترجمة البديلة: &quot;قال إنه ينبغي أن ألازم فتيانه حتى يكمّلوا جميع حصاده &quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">اقتباسات داخل اقتباسات</span></p>",
+"content": "<p><span style='direction: rtl;'>אָמַ֣ר אֵלַ֗⁠י עִם־הַ⁠נְּעָרִ֤ים אֲשֶׁר־לִ⁠י֙ תִּדְבָּקִ֔י⁠ן עַ֣ד אִם־כִּלּ֔וּ אֵ֥ת כָּל־הַ⁠קָּצִ֖יר אֲשֶׁר־לִֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>إِنَّهُ قَالَ لِي أَيْضًا: لَازِمِي فِتْيَانِي حَتَّى يُكَمِّلُوا جَمِيعَ حَصَادِي</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم الاقتباس المباشر داخل اقتباس آخر، فيمكنك ترجمة الاقتباس الثاني إلى اقتباس غير مباشر. الترجمة البديلة: &quot;قال إنه ينبغي أن ألازم فتيانه حتى يكمّلوا جميع حصاده &quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">اقتباسات داخل اقتباسات</span></p>",
 "associations": {
 "passage": [
 {
@@ -6138,7 +6905,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -6150,7 +6932,7 @@
 "index_reference": "08002021",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لَازِمِي فِتْيَانِي</strong></span><strong>&quot;</strong></p><p>إن المعنى الضمني هنا هو أن بوعز يريد حماية راعوث وتوفير احتياجاتها. كان بوعز يعبر عن ثقته بأن فتياته لن تلحقن الأذى براعوث. يمكنك إضافة هذه المعلومة إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;أريدك أن تلتقطي بأمان، بالقرب من فتيات حقلي،&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>עִם־הַ⁠נְּעָרִ֤ים אֲשֶׁר־לִ⁠י֙ תִּדְבָּקִ֔י⁠ן</span></p><p><strong>&quot;</strong><span><strong>لَازِمِي فِتْيَانِي</strong></span><strong>&quot;</strong></p><p>إن المعنى الضمني هنا هو أن بوعز يريد حماية راعوث وتوفير احتياجاتها. كان بوعز يعبر عن ثقته بأن فتياته لن تلحقن الأذى براعوث. يمكنك إضافة هذه المعلومة إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;أريدك أن تلتقطي بأمان، بالقرب من فتيات حقلي،&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -6169,7 +6951,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -6181,7 +6978,7 @@
 "index_reference": "08002022",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أَنْ تَخْرُجِي مَعَ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;أن تعملي مع&quot; أو &quot;أن تلتقطي بجانب&quot;</p>",
+"content": "<p><span style='direction: rtl;'>תֵֽצְאִי֙ עִם</span></p><p><strong>&quot;</strong><span><strong>أَنْ تَخْرُجِي مَعَ</strong></span><strong>&quot;</strong></p><p>&quot;الترجمة البديلة: &quot;أن تعملي مع&quot; أو &quot;أن تلتقطي بجانب&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -6192,7 +6989,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -6204,7 +7016,7 @@
 "index_reference": "08002022",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>حَتَّى لَا يَقَعُوا بِكِ</strong></span><strong>&quot;</strong></p><p>هنا، يشير ضمير الغائب إلى أي شخص بشكل عام. يمكن ترجمتها أيضًا إلى: &quot;حتى لا يؤذيك أحد&quot; أو &quot;حتى لا يُلحق بك أحد الأذى&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">الضمائر</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹ֥א יִפְגְּעוּ־בָ֖⁠ךְ</span></p><p><strong>&quot;</strong><span><strong>حَتَّى لَا يَقَعُوا بِكِ</strong></span><strong>&quot;</strong></p><p>هنا، يشير ضمير الغائب إلى أي شخص بشكل عام. يمكن ترجمتها أيضًا إلى: &quot;حتى لا يؤذيك أحد&quot; أو &quot;حتى لا يُلحق بك أحد الأذى&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">الضمائر</span></p>",
 "associations": {
 "passage": [
 {
@@ -6223,7 +7035,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -6288,7 +7115,7 @@
 "index_reference": "08002023",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>حَتَّى ٱنْتَهَى حَصَادُ ٱلشَّعِيرِ وَحَصَادُ ٱلْحِنْطَةِ</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم صيغة المبني للمجهول (كما هو مستخدم في الترجمة الانجليزية)، يمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;حتى حصد عمال بوعز كل الشعير والقمح&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
+"content": "<p><span style='direction: rtl;'>עַד־כְּל֥וֹת קְצִֽיר־הַ⁠שְּׂעֹרִ֖ים וּ⁠קְצִ֣יר הַֽ⁠חִטִּ֑ים</span></p><p><strong>&quot;</strong><span><strong>حَتَّى ٱنْتَهَى حَصَادُ ٱلشَّعِيرِ وَحَصَادُ ٱلْحِنْطَةِ</strong></span><strong>&quot;</strong></p><p>إذا لم تكن لغتك تستخدم صيغة المبني للمجهول (كما هو مستخدم في الترجمة الانجليزية)، يمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تتناسب مع لغتك. الترجمة البديلة: &quot;حتى حصد عمال بوعز كل الشعير والقمح&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
 "associations": {
 "passage": [
 {
@@ -6307,7 +7134,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+}
+]
 }
 },
 {
@@ -6467,7 +7316,7 @@
 "index_reference": "08003001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>حَمَاتُهَا</strong></span><strong>&quot;</strong></p><p>في هذه الآية، يشير ضمير الغائب إلى راعوث. الترجمة البديلة: &quot;حماة راعوث&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">الضمائر</span></p>",
+"content": "<p><span style='direction: rtl;'>חֲמוֹתָ֑⁠הּ</span></p><p><strong>&quot;</strong><span><strong>حَمَاتُهَا</strong></span><strong>&quot;</strong></p><p>في هذه الآية، يشير ضمير الغائب إلى راعوث. الترجمة البديلة: &quot;حماة راعوث&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">الضمائر</span></p>",
 "associations": {
 "passage": [
 {
@@ -6486,7 +7335,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+}
+]
 }
 },
 {
@@ -6643,18 +7500,18 @@
 "preferred_label": "بوعَز"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6668,7 +7525,7 @@
 "index_reference": "08003002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أَلَيْسَ بُوعَزُ ذَا قَرَابَةٍ لَنَا، ٱلَّذِي كُنْتِ مَعَ فَتَيَاتِهِ؟</strong></span><strong>&quot;</strong></p><p>تستخدم نعمي صيغة السؤال هنا لتذكير راعوث بأمر كانت قد أخبرتها به سابقًا (انظر <a href=\"https://ref.ly/Ruth2:20\">2:20</a>). إذا لم تكن تستخدم  صيغة السؤال لهذا الغرض في لغتك، فيمكنك ترجمة هذه العبارة في صورة بيان. الترجمة البديلة: &quot;كما تعلمين، أن بوعز، الذي كنت تعملين مع فتياته، هو ذو قرابة لنا.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠לֹ֥א בֹ֨עַז֙ מֹֽדַעְתָּ֔⁠נוּ אֲשֶׁ֥ר הָיִ֖ית אֶת־נַעֲרוֹתָ֑י⁠ו</span></p><p><strong>&quot;</strong><span><strong>أَلَيْسَ بُوعَزُ ذَا قَرَابَةٍ لَنَا، ٱلَّذِي كُنْتِ مَعَ فَتَيَاتِهِ؟</strong></span><strong>&quot;</strong></p><p>تستخدم نعمي صيغة السؤال هنا لتذكير راعوث بأمر كانت قد أخبرتها به سابقًا (انظر <a href=\"https://ref.ly/Ruth2:20\">2:20</a>). إذا لم تكن تستخدم  صيغة السؤال لهذا الغرض في لغتك، فيمكنك ترجمة هذه العبارة في صورة بيان. الترجمة البديلة: &quot;كما تعلمين، أن بوعز، الذي كنت تعملين مع فتياته، هو ذو قرابة لنا.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -6687,7 +7544,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -6699,7 +7578,7 @@
 "index_reference": "08003002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱلَّذِي كُنْتِ مَعَ فَتَيَاتِهِ</strong></span><strong>&quot;</strong></p><p>إن المعنى الضمني هنا هو أن بوعز كان يملك الحقول التي عملت فيها راعوث مع الفتيات، وليس أن بوعز كان يملك الفتيات. يمكنك توضيح هذه المعلومة إذا كان ذلك سيفيد قراءك. الترجمة البديلة: &quot;صاحب الحقول حيث كنت تعملين مع العاملات الأخريات&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲשֶׁ֥ר הָיִ֖ית אֶת־נַעֲרוֹתָ֑י⁠ו</span></p><p><strong>&quot;</strong><span><strong>ٱلَّذِي كُنْتِ مَعَ فَتَيَاتِهِ</strong></span><strong>&quot;</strong></p><p>إن المعنى الضمني هنا هو أن بوعز كان يملك الحقول التي عملت فيها راعوث مع الفتيات، وليس أن بوعز كان يملك الفتيات. يمكنك توضيح هذه المعلومة إذا كان ذلك سيفيد قراءك. الترجمة البديلة: &quot;صاحب الحقول حيث كنت تعملين مع العاملات الأخريات&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -6718,7 +7597,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -6758,18 +7659,18 @@
 "preferred_label": "بوعَز"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6783,7 +7684,7 @@
 "index_reference": "08003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>تَدَهَّنِي</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;ادهني جسدك بزيت عطري&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וָ⁠סַ֗כְתְּ</span></p><p><strong>&quot;</strong><span><strong>تَدَهَّنِي</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;ادهني جسدك بزيت عطري&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -6794,7 +7695,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+}
+]
 }
 },
 {
@@ -6969,7 +7878,7 @@
 "index_reference": "08003004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَهُوَ يُخْبِرُكِ بِمَا تَعْمَلِينَ</strong></span><strong>&quot;</strong></p><p>لم يتضح العُرف المحدد في ذلك الوقت، لكن يبدو أن نعمي كانت تعتقد أن بوعز سيفهم أن تصرف راعوث هو عرض للزواج. عندها سيقوم بوعز إما بقبول عرضها أو رفضه. إذا كان ذلك مفيدًا، يمكنك إضافة هذه المعلومة في حاشية سفلية.</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠הוּא֙ יַגִּ֣יד לָ֔⁠ךְ אֵ֖ת אֲשֶׁ֥ר תַּעַשִֽׂי⁠ן</span></p><p><strong>&quot;</strong><span><strong>وَهُوَ يُخْبِرُكِ بِمَا تَعْمَلِينَ</strong></span><strong>&quot;</strong></p><p>لم يتضح العُرف المحدد في ذلك الوقت، لكن يبدو أن نعمي كانت تعتقد أن بوعز سيفهم أن تصرف راعوث هو عرض للزواج. عندها سيقوم بوعز إما بقبول عرضها أو رفضه. إذا كان ذلك مفيدًا، يمكنك إضافة هذه المعلومة في حاشية سفلية.</p>",
 "associations": {
 "passage": [
 {
@@ -7015,7 +7924,7 @@
 "index_reference": "08003006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَعَمِلَتْ حَسَبَ كُلِّ مَا أَمَرَتْهَا بِهِ حَمَاتُهَا</strong></span><strong>&quot;</strong></p><p>تُلخص هذه العبارة الأفعال التي ستقوم بها راعوث في <a href=\"https://ref.ly/Ruth3:7\">3:7</a>. إذا أساء الناس فهم ذلك وظنوا أن راعوث قامت بهذه الأفعال في <a href=\"https://ref.ly/Ruth3:6\">3:6</a> ثم أعادتها مرة أخرى في <a href=\"https://ref.ly/Ruth3:7\">3:7</a>، يمكنك ترجمة هذه الجملة إلى: &quot;<strong>وأطاعت حماتها&quot;</strong>. أو لتوضيح ترتيب الأحداث بشكل أفضل، يمكنك نقل هذه الجملة إلى نهاية <a href=\"https://ref.ly/Ruth3:7\">3:7</a>، ثم دمج أرقام الآيات كجسر بين الآيتين (6–7).</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תַּ֕עַשׂ כְּ⁠כֹ֥ל אֲשֶׁר־צִוַּ֖תָּ⁠ה חֲמוֹתָֽ⁠הּ</span></p><p><strong>&quot;</strong><span><strong>وَعَمِلَتْ حَسَبَ كُلِّ مَا أَمَرَتْهَا بِهِ حَمَاتُهَا</strong></span><strong>&quot;</strong></p><p>تُلخص هذه العبارة الأفعال التي ستقوم بها راعوث في <a href=\"https://ref.ly/Ruth3:7\">3:7</a>. إذا أساء الناس فهم ذلك وظنوا أن راعوث قامت بهذه الأفعال في <a href=\"https://ref.ly/Ruth3:6\">3:6</a> ثم أعادتها مرة أخرى في <a href=\"https://ref.ly/Ruth3:7\">3:7</a>، يمكنك ترجمة هذه الجملة إلى: &quot;<strong>وأطاعت حماتها&quot;</strong>. أو لتوضيح ترتيب الأحداث بشكل أفضل، يمكنك نقل هذه الجملة إلى نهاية <a href=\"https://ref.ly/Ruth3:7\">3:7</a>، ثم دمج أرقام الآيات كجسر بين الآيتين (6–7).</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
 "associations": {
 "passage": [
 {
@@ -7034,7 +7943,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+}
+]
 }
 },
 {
@@ -7085,7 +8002,7 @@
 "index_reference": "08003007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَدَخَلَتْ سِرًّا</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;فتسللت إلى الداخل&quot; أو &quot;فدخلت بهدوء شديد بحيث لم يسمعها أحد&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּבֹ֣א בַ⁠לָּ֔ט</span></p><p><strong>&quot;</strong><span><strong>فَدَخَلَتْ سِرًّا</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;فتسللت إلى الداخل&quot; أو &quot;فدخلت بهدوء شديد بحيث لم يسمعها أحد&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -7096,7 +8013,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -7108,7 +8033,7 @@
 "index_reference": "08003007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَكَشَفَتْ نَاحِيَةَ رِجْلَيْهِ</strong></span><strong>&quot;</strong></p><p>انظر كيف قمت بترجمة <strong>رِجْلَيْهِ </strong>في <a href=\"https://ref.ly/Ruth3:4\">3:4</a>. الترجمة البديلة: &quot;وكشفت الغطاء عن قدميه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26682\" data-resourceType=\"UWTranslationManual\">التلطيف أو الكناية</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תְּגַ֥ל מַרְגְּלֹתָ֖י⁠ו</span></p><p><strong>&quot;</strong><span><strong>وَكَشَفَتْ نَاحِيَةَ رِجْلَيْهِ</strong></span><strong>&quot;</strong></p><p>انظر كيف قمت بترجمة <strong>رِجْلَيْهِ </strong>في <a href=\"https://ref.ly/Ruth3:4\">3:4</a>. الترجمة البديلة: &quot;وكشفت الغطاء عن قدميه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26682\" data-resourceType=\"UWTranslationManual\">التلطيف أو الكناية</span></p>",
 "associations": {
 "passage": [
 {
@@ -7127,7 +8052,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -7139,7 +8072,7 @@
 "index_reference": "08003008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَكَانَ عِنْدَ ٱنْتِصَافِ ٱللَّيْلِ أَنَّ</strong></span><strong>&quot;</strong></p><p>تقدم هذه العبارة معلومة عن زمن وقوع الحدث التالي في القصة. استخدم أسلوبًا مناسبًا في لغتك لتقديم  المعلومات الأساسية. الترجمة البديلة: &quot;بعد بضع ساعات، في منتصف الليل،&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">المعلومات الأساسية</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִי֙ בַּ⁠חֲצִ֣י הַ⁠לַּ֔יְלָה</span></p><p><strong>&quot;</strong><span><strong>وَكَانَ عِنْدَ ٱنْتِصَافِ ٱللَّيْلِ أَنَّ</strong></span><strong>&quot;</strong></p><p>تقدم هذه العبارة معلومة عن زمن وقوع الحدث التالي في القصة. استخدم أسلوبًا مناسبًا في لغتك لتقديم  المعلومات الأساسية. الترجمة البديلة: &quot;بعد بضع ساعات، في منتصف الليل،&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">المعلومات الأساسية</span></p>",
 "associations": {
 "passage": [
 {
@@ -7271,7 +8204,7 @@
 "index_reference": "08003009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَٱبْسُطْ ذَيْلَ ثَوْبِكَ عَلَى أَمَتِكَ</strong></span><strong>&quot;</strong></p><p>كان هذا تعبيرًا متداولًا في الثقافة، يدل على الزواج. الترجمة البديلة: &quot;أرجوك تزوجني&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠פָרַשְׂתָּ֤ כְנָפֶ֨⁠ךָ֙ עַל־אֲמָ֣תְ⁠ךָ֔</span></p><p><strong>&quot;</strong><span><strong>فَٱبْسُطْ ذَيْلَ ثَوْبِكَ عَلَى أَمَتِكَ</strong></span><strong>&quot;</strong></p><p>كان هذا تعبيرًا متداولًا في الثقافة، يدل على الزواج. الترجمة البديلة: &quot;أرجوك تزوجني&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -7290,7 +8223,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -7302,7 +8243,7 @@
 "index_reference": "08003009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلِيٌّ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذا المصطلح في <a href=\"https://ref.ly/Ruth2:20\">2:20</a>.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">صلة القرابة</span></p>",
+"content": "<p><span style='direction: rtl;'>גֹאֵ֖ל</span></p><p><strong>&quot;</strong><span><strong>وَلِيٌّ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذا المصطلح في <a href=\"https://ref.ly/Ruth2:20\">2:20</a>.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">صلة القرابة</span></p>",
 "associations": {
 "passage": [
 {
@@ -7321,7 +8262,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -7333,7 +8282,7 @@
 "index_reference": "08003010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>إِنَّكِ مُبَارَكَةٌ مِنَ ٱلرَّبِّ</strong></span><strong>&quot;</strong></p><p>استخدم الصيغة الأنسب للبركة في لغتك. الترجمة البديلة: &quot;بركة من الرب عليك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
+"content": "<p><span style='direction: rtl;'>בְּרוּכָ֨ה אַ֤תְּ לַֽ⁠יהוָה֙</span></p><p><strong>&quot;</strong><span><strong>إِنَّكِ مُبَارَكَةٌ مِنَ ٱلرَّبِّ</strong></span><strong>&quot;</strong></p><p>استخدم الصيغة الأنسب للبركة في لغتك. الترجمة البديلة: &quot;بركة من الرب عليك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
 "associations": {
 "passage": [
 {
@@ -7352,7 +8301,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -7385,13 +8356,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7404,6 +8368,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -7417,7 +8388,7 @@
 "index_reference": "08003010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِأَنَّكِ قَدْ أَحْسَنْتِ مَعْرُوفَكِ فِي ٱلْأَخِيرِ أَكْثَرَ مِنَ ٱلْأَوَّلِ</strong></span><strong>&quot;</strong></p><p>إن راعوث بزواجها من قريب نعمي الذي هو وليّ لهما، ستُعيل نُعمي أيضًا، وتُكرِّم ابن نُعمي، وتحافظ على سلالة عائلة نُعمي. لذلك يعتبر بوعز أن هذا هو أعظم دليل على إخلاص راعوث لنُعمي. إذا كان ذلك مفيدًا لقرائك، يمكنك وضع هذه المعلومة في حاشية سفلية. الترجمة البديلة: &quot;أنت تظهرين الآن لطفًا ومحبة أكثر من ذي قبل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>הֵיטַ֛בְתְּ חַסְדֵּ֥⁠ךְ הָ⁠אַחֲר֖וֹן מִן־הָ⁠רִאשׁ֑וֹן</span></p><p><strong>&quot;</strong><span><strong>لِأَنَّكِ قَدْ أَحْسَنْتِ مَعْرُوفَكِ فِي ٱلْأَخِيرِ أَكْثَرَ مِنَ ٱلْأَوَّلِ</strong></span><strong>&quot;</strong></p><p>إن راعوث بزواجها من قريب نعمي الذي هو وليّ لهما، ستُعيل نُعمي أيضًا، وتُكرِّم ابن نُعمي، وتحافظ على سلالة عائلة نُعمي. لذلك يعتبر بوعز أن هذا هو أعظم دليل على إخلاص راعوث لنُعمي. إذا كان ذلك مفيدًا لقرائك، يمكنك وضع هذه المعلومة في حاشية سفلية. الترجمة البديلة: &quot;أنت تظهرين الآن لطفًا ومحبة أكثر من ذي قبل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -7436,7 +8407,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -7469,13 +8462,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7488,6 +8474,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -7522,13 +8515,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7541,6 +8527,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -7671,7 +8664,7 @@
 "index_reference": "08003011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱمْرَأَةٌ فَاضِلَةٌ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;امرأة حسنة الخلق&quot; أو &quot;امرأة صالحة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>אֵ֥שֶׁת חַ֖יִל</span></p><p><strong>&quot;</strong><span><strong>ٱمْرَأَةٌ فَاضِلَةٌ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;امرأة حسنة الخلق&quot; أو &quot;امرأة صالحة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -7690,7 +8683,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+}
+]
 }
 },
 {
@@ -7764,7 +8765,7 @@
 "index_reference": "08003012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلِيٌّ</strong></span><strong>&quot; - &quot;</strong><span><strong>وَلِيٌّ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة كلمة <strong>وَلِيٌّ </strong>في <a href=\"https://ref.ly/Ruth2:20\">2:20</a>. يشير هذا المصطلح إلى القريب الذكر الأقرب في صلة القرابة إلى الشخص المتوفى والذي تقع عليه مسؤولية مساعدة أرملته.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">صلة القرابة</span></p>",
+"content": "<p><span style='direction: rtl;'>גֹאֵ֖ל &amp; גֹּאֵ֖ל</span></p><p><strong>&quot;</strong><span><strong>وَلِيٌّ</strong></span><strong>&quot; - &quot;</strong><span><strong>وَلِيٌّ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة كلمة <strong>وَلِيٌّ </strong>في <a href=\"https://ref.ly/Ruth2:20\">2:20</a>. يشير هذا المصطلح إلى القريب الذكر الأقرب في صلة القرابة إلى الشخص المتوفى والذي تقع عليه مسؤولية مساعدة أرملته.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26799\" data-resourceType=\"UWTranslationManual\">صلة القرابة</span></p>",
 "associations": {
 "passage": [
 {
@@ -7816,18 +8817,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 }
 ]
 }
@@ -7854,18 +8855,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 }
 ]
 }
@@ -7900,18 +8901,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 }
 ]
 }
@@ -8330,7 +9331,7 @@
 "index_reference": "08003017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱلسِّتَّةَ مِنَ ٱلشَّعِيرِ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذه العبارة في <a href=\"https://ref.ly/Ruth3:15\">3:15</a>. الترجمة البديلة: &quot;ستة مكاييل من الشعير&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p>",
+"content": "<p><span style='direction: rtl;'>שֵׁשׁ־הַ⁠שְּׂעֹרִ֥ים</span></p><p><strong>&quot;</strong><span><strong>ٱلسِّتَّةَ مِنَ ٱلشَّعِيرِ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذه العبارة في <a href=\"https://ref.ly/Ruth3:15\">3:15</a>. الترجمة البديلة: &quot;ستة مكاييل من الشعير&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p>",
 "associations": {
 "passage": [
 {
@@ -8349,7 +9350,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -8361,7 +9370,7 @@
 "index_reference": "08003017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِأَنَّهُ قَالَ: لَا تَجِيئِي فَارِغَةً إِلَى حَمَاتِكِ</strong></span><strong>&apos;&quot;</strong></p><p>إذا كان ذلك أكثر وضوحًا في لغتك، يمكنك ترجمة هذه العبارة بحيث لا يكون هناك اقتباس داخل اقتباس. الترجمة البديلة: &quot;قال لي إنه لا ينبغي أن أجيء فارغة إلى حماتي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">اقتباسات داخل اقتباسات</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֚י אָמַ֣ר אַל־תָּב֥וֹאִי רֵיקָ֖ם אֶל־חֲמוֹתֵֽ⁠ךְ</span></p><p><strong>&quot;</strong><span><strong>لِأَنَّهُ قَالَ: لَا تَجِيئِي فَارِغَةً إِلَى حَمَاتِكِ</strong></span><strong>&apos;&quot;</strong></p><p>إذا كان ذلك أكثر وضوحًا في لغتك، يمكنك ترجمة هذه العبارة بحيث لا يكون هناك اقتباس داخل اقتباس. الترجمة البديلة: &quot;قال لي إنه لا ينبغي أن أجيء فارغة إلى حماتي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">اقتباسات داخل اقتباسات</span></p>",
 "associations": {
 "passage": [
 {
@@ -8380,7 +9389,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -8462,7 +9479,7 @@
 "index_reference": "08003018",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>يَابِنْتِي</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذا التعبير في ١:١١–١٣؛ ٢:٢، ٨، ٢٢؛ ٣:١، ١٠، ١١، ١٦.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26837\" data-resourceType=\"UWTranslationManual\">اللباقة</span></p>",
+"content": "<p><span style='direction: rtl;'>בִתִּ֔⁠י</span></p><p><strong>&quot;</strong><span><strong>يَابِنْتِي</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذا التعبير في ١:١١–١٣؛ ٢:٢، ٨، ٢٢؛ ٣:١، ١٠، ١١، ١٦.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26837\" data-resourceType=\"UWTranslationManual\">اللباقة</span></p>",
 "associations": {
 "passage": [
 {
@@ -8843,7 +9860,7 @@
 "index_reference": "08004002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ثُمَّ أَخَذَ عَشَرَةَ رِجَالٍ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;ثم اختار عشرة رجال&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּקַּ֞ח עֲשָׂרָ֧ה אֲנָשִׁ֛ים</span></p><p><strong>&quot;</strong><span><strong>ثُمَّ أَخَذَ عَشَرَةَ رِجَالٍ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;ثم اختار عشرة رجال&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -8887,11 +9904,11 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Naomi",
@@ -8901,11 +9918,11 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Elimelech",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "موآبَ"
+"preferred_label": "أَلِيمَالِك"
 }
 ]
 }
@@ -8997,7 +10014,7 @@
 "index_reference": "08004004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>قُدَّامَ ٱلْجَالِسِينَ</strong></span><strong>&quot;</strong></p><p>إن وجود هؤلاء الرجال كشهود سيجعل المعاملة قانونية وملزمة. يمكنك إضافة هذه المعلومة إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;بحضور هؤلاء الشهود&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>נֶ֥גֶד הַֽ⁠יֹּשְׁבִים֮</span></p><p><strong>&quot;</strong><span><strong>قُدَّامَ ٱلْجَالِسِينَ</strong></span><strong>&quot;</strong></p><p>إن وجود هؤلاء الرجال كشهود سيجعل المعاملة قانونية وملزمة. يمكنك إضافة هذه المعلومة إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;بحضور هؤلاء الشهود&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -9016,7 +10033,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
+}
+]
 }
 },
 {
@@ -9067,7 +10092,7 @@
 "index_reference": "08004004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لَيْسَ غَيْرُكَ يَفُكُّ وَأَنَا بَعْدَكَ</strong></span><strong>&quot;</strong></p><p>قد يكون من المربك،في بعض اللغات، الجمع بين هاتين العبارتين: (1) لا يوجد أحد غيرك ليفك الأرض، (2) استطيع أن أفك الأرض بعدك. قد يبدو الأمر وكأن بوعز يصرح بشيء ثم يناقضه. إذا كان الأمر كذلك، يمكنك التعبير عن هذا المعنى بطريقة مختلفة. الترجمة البديلة: &quot;أنت الأول في الأحقية لفكها، وأنا التالي في الأحقية&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26742\" data-resourceType=\"UWTranslationManual\">الربط — عبارات لإظهار الاستثناء</span></p>",
+"content": "<p><span style='direction: rtl;'>אֵ֤ין זוּלָֽתְ⁠ךָ֙ לִ⁠גְא֔וֹל וְ⁠אָנֹכִ֖י אַחֲרֶ֑י⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>لَيْسَ غَيْرُكَ يَفُكُّ وَأَنَا بَعْدَكَ</strong></span><strong>&quot;</strong></p><p>قد يكون من المربك،في بعض اللغات، الجمع بين هاتين العبارتين: (1) لا يوجد أحد غيرك ليفك الأرض، (2) استطيع أن أفك الأرض بعدك. قد يبدو الأمر وكأن بوعز يصرح بشيء ثم يناقضه. إذا كان الأمر كذلك، يمكنك التعبير عن هذا المعنى بطريقة مختلفة. الترجمة البديلة: &quot;أنت الأول في الأحقية لفكها، وأنا التالي في الأحقية&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26742\" data-resourceType=\"UWTranslationManual\">الربط — عبارات لإظهار الاستثناء</span></p>",
 "associations": {
 "passage": [
 {
@@ -9086,7 +10111,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
+}
+]
 }
 },
 {
@@ -9164,18 +10197,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Boaz",
@@ -9231,18 +10264,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Boaz",
@@ -9298,18 +10331,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Boaz",
@@ -9330,7 +10363,7 @@
 "index_reference": "08004005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ٱمْرَأَةِ ٱلْمَيِّتِ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;أرملة ابن أليمالك الذي مات&quot;</p>",
+"content": "<p><span style='direction: rtl;'>אֵֽשֶׁת־הַ⁠מֵּת֙</span></p><p><strong>&quot;</strong><span><strong>ٱمْرَأَةِ ٱلْمَيِّتِ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;أرملة ابن أليمالك الذي مات&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -9341,7 +10374,43 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -9388,18 +10457,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Boaz",
@@ -9455,18 +10524,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Boaz",
@@ -9540,7 +10609,7 @@
 "index_reference": "08004006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَفُكَّ أَنْتَ لِنَفْسِكَ فِكَاكِي&quot;</strong></p><p>إذا لم تكن لغتك تستخدم اسمًا مجردًا للتعبير أفكار <strong>الحق</strong> أو <strong>الخلاص</strong>، يمكنك التعبير عن هذه الأفكار بطرق أخرى. الترجمة البديلة: &quot;سأسمح لك بفك الممتلكات لنفسك&quot;</p><p>راجع: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>גְּאַל־לְ⁠ךָ֤ אַתָּה֙ אֶת־גְּאֻלָּתִ֔⁠י</span></p><p><strong>&quot;فَفُكَّ أَنْتَ لِنَفْسِكَ فِكَاكِي&quot;</strong></p><p>إذا لم تكن لغتك تستخدم اسمًا مجردًا للتعبير أفكار <strong>الحق</strong> أو <strong>الخلاص</strong>، يمكنك التعبير عن هذه الأفكار بطرق أخرى. الترجمة البديلة: &quot;سأسمح لك بفك الممتلكات لنفسك&quot;</p><p>راجع: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -9559,7 +10628,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:KinsmanRedeemer",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Kinsman Redeemer"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
+}
+]
 }
 },
 {
@@ -9755,7 +10846,7 @@
 "index_reference": "08004008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَقَالَ ٱلْوَلِيُّ لِبُوعَزَ: «ٱشْتَرِ لِنَفْسِكَ». وَخَلَعَ نَعْلَهُ</strong></span><strong>&quot;</strong></p><p>تبدأ أحداث القصة مرة أخرى هنا بعد تقديم المعلومات الأساسية في الآية 7. استخدم الأسلوب الأنسب في لغتك لبدء سرد أحداث القصة من جديد.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֧אמֶר הַ⁠גֹּאֵ֛ל לְ⁠בֹ֖עַז קְנֵה־לָ֑⁠ךְ וַ⁠יִּשְׁלֹ֖ף נַעֲלֽ⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>فَقَالَ ٱلْوَلِيُّ لِبُوعَزَ: «ٱشْتَرِ لِنَفْسِكَ». وَخَلَعَ نَعْلَهُ</strong></span><strong>&quot;</strong></p><p>تبدأ أحداث القصة مرة أخرى هنا بعد تقديم المعلومات الأساسية في الآية 7. استخدم الأسلوب الأنسب في لغتك لبدء سرد أحداث القصة من جديد.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
 "associations": {
 "passage": [
 {
@@ -9774,7 +10865,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:KinsmanRedeemer",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Kinsman Redeemer"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -9786,7 +10892,7 @@
 "index_reference": "08004008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَقَالَ ٱلْوَلِيُّ لِبُوعَزَ: «ٱشْتَرِ لِنَفْسِكَ». وَخَلَعَ نَعْلَهُ</strong></span><strong>&quot;</strong></p><p>تشير <strong>الفاء </strong>في بداية هذه الآية إلى أن هذا الحدث وقع نتيجة العُرف المذكور في الآية السابقة. إذا كان ذلك أكثر وضوحًا في لغتك، فيمكنك أن تعكس ترتيب هذه العبارات. الترجمة البديلة: &quot;فخلع الوليّ نعله وقال لبوعز، &quot;اشترها لنفسك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֧אמֶר הַ⁠גֹּאֵ֛ל לְ⁠בֹ֖עַז קְנֵה־לָ֑⁠ךְ וַ⁠יִּשְׁלֹ֖ף נַעֲלֽ⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>فَقَالَ ٱلْوَلِيُّ لِبُوعَزَ: «ٱشْتَرِ لِنَفْسِكَ». وَخَلَعَ نَعْلَهُ</strong></span><strong>&quot;</strong></p><p>تشير <strong>الفاء </strong>في بداية هذه الآية إلى أن هذا الحدث وقع نتيجة العُرف المذكور في الآية السابقة. إذا كان ذلك أكثر وضوحًا في لغتك، فيمكنك أن تعكس ترتيب هذه العبارات. الترجمة البديلة: &quot;فخلع الوليّ نعله وقال لبوعز، &quot;اشترها لنفسك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
 "associations": {
 "passage": [
 {
@@ -9805,7 +10911,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:KinsmanRedeemer",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Kinsman Redeemer"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
+}
+]
 }
 },
 {
@@ -9898,13 +11019,6 @@
 "preferred_label": "بوعَز"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
-},
-{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -9917,6 +11031,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
 }
 ]
 }
@@ -9965,11 +11086,63 @@
 "preferred_label": "بوعَز"
 },
 {
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "أَلِيمَالِك"
+}
+]
+}
+},
+{
+"content_id": "763022",
+"reference_id": 185120,
+"version": "1.0.4",
+"title": "راعوث 4: 9 (#3)",
+"media_type": "Text",
+"index_reference": "08004009",
+"language": "arb",
+"review_level": "None",
+"content": "<p><span style='direction: rtl;'>אֶת־כָּל־אֲשֶׁ֣ר לֶֽ⁠אֱלִימֶ֔לֶךְ וְ⁠אֵ֛ת כָּל־אֲשֶׁ֥ר לְ⁠כִלְי֖וֹן וּ⁠מַחְל֑וֹן</span></p><p><strong>&quot;</strong><span><strong>كُلَّ مَا لِأَلِيمَالِكَ وَكُلَّ مَا لِكِلْيُونَ وَمَحْلُونَ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;جميع الممتلكات التي كانت مملوكة سابقًا لزوج نُعمي وإبنيها المتوفين&quot;</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "08004009",
+"start_ref_usfm": "RUT 4:9",
+"end_ref": "08004009",
+"end_ref_usfm": "RUT 4:9"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Chilion",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "كِلْيون"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "بوعَز"
 },
 {
 "id": "person:Mahlon",
@@ -9984,31 +11157,15 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "نعْمِيَ"
-}
-]
-}
 },
 {
-"content_id": "763022",
-"reference_id": 185120,
-"version": "1.0.4",
-"title": "راعوث 4: 9 (#3)",
-"media_type": "Text",
-"index_reference": "08004009",
-"language": "arb",
-"review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>كُلَّ مَا لِأَلِيمَالِكَ وَكُلَّ مَا لِكِلْيُونَ وَمَحْلُونَ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;جميع الممتلكات التي كانت مملوكة سابقًا لزوج نُعمي وإبنيها المتوفين&quot;</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "08004009",
-"start_ref_usfm": "RUT 4:9",
-"end_ref": "08004009",
-"end_ref_usfm": "RUT 4:9"
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -10041,11 +11198,11 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "رَاعوث"
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Mahlon",
@@ -10062,11 +11219,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "موآبَ"
+"preferred_label": "رَاعوث"
 }
 ]
 }
@@ -10080,7 +11237,7 @@
 "index_reference": "08004010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لِأُقِيمَ ٱسْمَ ٱلْمَيِّتِ عَلَى مِيرَاثِهِ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذه العبارة في <a href=\"https://ref.ly/Ruth4:5\">4:5</a>. الترجمة البديلة: &quot;لكي أوفر لها ابنًا يرث ممتلكات الميت&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠הָקִ֤ים שֵׁם־הַ⁠מֵּת֙ עַל־נַ֣חֲלָת֔⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>لِأُقِيمَ ٱسْمَ ٱلْمَيِّتِ عَلَى مِيرَاثِهِ</strong></span><strong>&quot;</strong></p><p>انظر كيف قُمت بترجمة هذه العبارة في <a href=\"https://ref.ly/Ruth4:5\">4:5</a>. الترجمة البديلة: &quot;لكي أوفر لها ابنًا يرث ممتلكات الميت&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -10091,7 +11248,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -10124,11 +11310,11 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "رَاعوث"
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Mahlon",
@@ -10145,11 +11331,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "موآبَ"
+"preferred_label": "رَاعوث"
 }
 ]
 }
@@ -10163,7 +11349,7 @@
 "index_reference": "08004010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلَا يَنْقَرِضُ ٱسْمُ ٱلْمَيِّتِ مِنْ بَيْنِ إِخْوَتِهِ وَمِنْ بَابِ مَكَانِهِ</strong></span><strong>&quot;</strong></p><p>يُشار إلى النسيان هنا وكأنه حذف اسم الرجل من قائمة شعبه. الترجمة البديلة: &quot;حتى لا يُنسى من قبل أحفاد إخوته وأهل هذه المدينة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹא־יִכָּרֵ֧ת שֵׁם־הַ⁠מֵּ֛ת מֵ⁠עִ֥ם אֶחָ֖י⁠ו וּ⁠מִ⁠שַּׁ֣עַר מְקוֹמ֑⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>وَلَا يَنْقَرِضُ ٱسْمُ ٱلْمَيِّتِ مِنْ بَيْنِ إِخْوَتِهِ وَمِنْ بَابِ مَكَانِهِ</strong></span><strong>&quot;</strong></p><p>يُشار إلى النسيان هنا وكأنه حذف اسم الرجل من قائمة شعبه. الترجمة البديلة: &quot;حتى لا يُنسى من قبل أحفاد إخوته وأهل هذه المدينة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -10182,7 +11368,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -10194,7 +11409,7 @@
 "index_reference": "08004010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَلَا يَنْقَرِضُ ٱسْمُ ٱلْمَيِّتِ مِنْ بَيْنِ إِخْوَتِهِ وَمِنْ بَابِ مَكَانِهِ</strong></span><strong>&quot;</strong></p><p>إذا كان ذلك أكثر وضوحًا في لغتك، يمكنك استخدام تعبير مؤكد لترجمة هذا النفي المزدوج الذي يتكون من أداة النفي <strong>لا</strong> والكلمة المنفية <strong>يَنْقَرِضُ </strong>. الترجمة البديلة: &quot;لكي يبقى اسم الميت محفوظًا بين إخوته ومن باب مكانه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹא־יִכָּרֵ֧ת שֵׁם־הַ⁠מֵּ֛ת מֵ⁠עִ֥ם אֶחָ֖י⁠ו וּ⁠מִ⁠שַּׁ֣עַר מְקוֹמ֑⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>وَلَا يَنْقَرِضُ ٱسْمُ ٱلْمَيِّتِ مِنْ بَيْنِ إِخْوَتِهِ وَمِنْ بَابِ مَكَانِهِ</strong></span><strong>&quot;</strong></p><p>إذا كان ذلك أكثر وضوحًا في لغتك، يمكنك استخدام تعبير مؤكد لترجمة هذا النفي المزدوج الذي يتكون من أداة النفي <strong>لا</strong> والكلمة المنفية <strong>يَنْقَرِضُ </strong>. الترجمة البديلة: &quot;لكي يبقى اسم الميت محفوظًا بين إخوته ومن باب مكانه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
 "associations": {
 "passage": [
 {
@@ -10213,7 +11428,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -10246,11 +11490,11 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "رَاعوث"
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:Mahlon",
@@ -10267,11 +11511,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "موآبَ"
+"preferred_label": "رَاعوث"
 }
 ]
 }
@@ -10285,7 +11529,7 @@
 "index_reference": "08004010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أَنْتُمْ شُهُودٌ ٱلْيَوْمَ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;لقد رأيتم وسمعتم هذه الأمور اليوم، ويمكنكم التحدث عنها غدًا&quot;</p>",
+"content": "<p><span style='direction: rtl;'>עֵדִ֥ים אַתֶּ֖ם הַ⁠יּֽוֹם</span></p><p><strong>&quot;</strong><span><strong>أَنْتُمْ شُهُودٌ ٱلْيَوْمَ</strong></span><strong>&quot;</strong></p><p>الترجمة البديلة: &quot;لقد رأيتم وسمعتم هذه الأمور اليوم، ويمكنكم التحدث عنها غدًا&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -10296,7 +11540,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
+}
+]
 }
 },
 {
@@ -10336,13 +11609,6 @@
 "preferred_label": "رَاحِيل"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10350,11 +11616,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "place:Bethlehem",
@@ -10362,6 +11628,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10410,13 +11683,6 @@
 "preferred_label": "رَاحِيل"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10424,11 +11690,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "place:Bethlehem",
@@ -10436,6 +11702,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10456,7 +11729,7 @@
 "index_reference": "08004011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَلْيَجْعَلِ ٱلرَّبُّ ٱلْمَرْأَةَ ٱلدَّاخِلَةَ إِلَى بَيْتِكَ كَرَاحِيلَ وَكَلَيْئَةَ ٱللَّتَيْنِ بَنَتَا بَيْتَ إِسْرَائِيلَ</strong></span><strong>&quot;</strong></p><p>هنا، يطلب الشعب من الله أن يبارك راعوث. وتستمر بركتهم لراعوث وبوعز حتى الآية 12. يمكن التعبير عن هذا في صورة بركة أو دعاء، استخدم الطريقة الأنسب في لغتك. الترجمة البديلة: &quot;نطلب من الرب أن يجعل هذه المرأة التي تدخل بيتك مثل راحيل وليئة، اللتين أسستا بيت إسرائيل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
+"content": "<p><span style='direction: rtl;'>יִתֵּן֩ יְהוָ֨ה אֶֽת־הָ⁠אִשָּׁ֜ה הַ⁠בָּאָ֣ה אֶל־בֵּיתֶ֗⁠ךָ כְּ⁠רָחֵ֤ל ׀ וּ⁠כְ⁠לֵאָה֙ אֲשֶׁ֨ר בָּנ֤וּ שְׁתֵּי⁠הֶם֙ אֶת־בֵּ֣ית יִשְׂרָאֵ֔ל</span></p><p><strong>&quot;</strong><span><strong>فَلْيَجْعَلِ ٱلرَّبُّ ٱلْمَرْأَةَ ٱلدَّاخِلَةَ إِلَى بَيْتِكَ كَرَاحِيلَ وَكَلَيْئَةَ ٱللَّتَيْنِ بَنَتَا بَيْتَ إِسْرَائِيلَ</strong></span><strong>&quot;</strong></p><p>هنا، يطلب الشعب من الله أن يبارك راعوث. وتستمر بركتهم لراعوث وبوعز حتى الآية 12. يمكن التعبير عن هذا في صورة بركة أو دعاء، استخدم الطريقة الأنسب في لغتك. الترجمة البديلة: &quot;نطلب من الرب أن يجعل هذه المرأة التي تدخل بيتك مثل راحيل وليئة، اللتين أسستا بيت إسرائيل&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">البركات</span></p>",
 "associations": {
 "passage": [
 {
@@ -10475,7 +11748,50 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاحِيل"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيلَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
+},
+{
+"id": "person:Leah",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "لَيْئَةَ"
+}
+]
 }
 },
 {
@@ -10515,13 +11831,6 @@
 "preferred_label": "رَاحِيل"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10529,11 +11838,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "place:Bethlehem",
@@ -10541,6 +11850,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10589,13 +11905,6 @@
 "preferred_label": "رَاحِيل"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10603,11 +11912,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "place:Bethlehem",
@@ -10615,6 +11924,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10663,13 +11979,6 @@
 "preferred_label": "رَاحِيل"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10677,11 +11986,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "place:Bethlehem",
@@ -10689,6 +11998,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10737,13 +12053,6 @@
 "preferred_label": "رَاحِيل"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10751,11 +12060,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "place:Bethlehem",
@@ -10763,6 +12072,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لَحْمٍ"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10818,11 +12134,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Tamar",
+"id": "person:Perez",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ثَامَارَ"
+"preferred_label": "ٱقْتِحَامٌ"
 },
 {
 "id": "group:Judah",
@@ -10832,11 +12148,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Perez",
+"id": "person:Tamar",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱقْتِحَامٌ"
+"preferred_label": "ثَامَارَ"
 }
 ]
 }
@@ -10885,11 +12201,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Tamar",
+"id": "person:Perez",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ثَامَارَ"
+"preferred_label": "ٱقْتِحَامٌ"
 },
 {
 "id": "group:Judah",
@@ -10899,11 +12215,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Perez",
+"id": "person:Tamar",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱقْتِحَامٌ"
+"preferred_label": "ثَامَارَ"
 }
 ]
 }
@@ -10938,18 +12254,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رَاعوث"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
 },
 {
 "id": "person:Boaz",
@@ -10991,18 +12307,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رَاعوث"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
 },
 {
 "id": "person:Boaz",
@@ -11044,18 +12360,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "رَاعوث"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "رَاعوث"
 },
 {
 "id": "person:Boaz",
@@ -11104,6 +12420,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11116,13 +12439,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
 },
 {
 "id": "keyterm:Bless",
@@ -11171,6 +12487,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11183,13 +12506,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
 },
 {
 "id": "keyterm:Bless",
@@ -11210,7 +12526,7 @@
 "index_reference": "08004014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لَمْ يُعْدِمْكِ وَلِيًّا ٱلْيَوْمَ</strong></span><strong>&quot;</strong></p><p>إذا كان ذلك أكثر وضوحًا في لغتك، يمكنك استخدام تعبير مؤكد لترجمة هذا النفي المزدوج المكون من أداة النفي <strong>لَمْ </strong>والكلمة المنفية <strong>يُعْدِمْكِ </strong>. الترجمة البديلة: &quot;رزقك اليوم وليَّا ليخلصك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
+"content": "<p><span style='direction: rtl;'>לֹ֣א הִשְׁבִּ֥ית לָ֛⁠ךְ גֹּאֵ֖ל הַ⁠יּ֑וֹם</span></p><p><strong>&quot;</strong><span><strong>لَمْ يُعْدِمْكِ وَلِيًّا ٱلْيَوْمَ</strong></span><strong>&quot;</strong></p><p>إذا كان ذلك أكثر وضوحًا في لغتك، يمكنك استخدام تعبير مؤكد لترجمة هذا النفي المزدوج المكون من أداة النفي <strong>لَمْ </strong>والكلمة المنفية <strong>يُعْدِمْكِ </strong>. الترجمة البديلة: &quot;رزقك اليوم وليَّا ليخلصك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
 "associations": {
 "passage": [
 {
@@ -11229,7 +12545,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:GenericFemales",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Women"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيلَ"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+}
+]
 }
 },
 {
@@ -11269,6 +12621,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11281,13 +12640,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
 },
 {
 "id": "keyterm:Bless",
@@ -11336,6 +12688,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11348,13 +12707,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نعْمِيَ"
 },
 {
 "id": "keyterm:Bless",
@@ -11593,7 +12945,7 @@
 "index_reference": "08004017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَسَمَّتْهُ ٱلْجَارَاتُ ٱسْمًا قَائِلَاتٍ</strong></span><strong> &quot; - &quot;</strong><span><strong>وَدَعَوْنَ ٱسْمَهُ عُوبِيدَ</strong></span><strong>&quot;</strong></p><p>تحمل هاتان الجملتان في الأساس نفس المعنى. فإن العبارة الأولى تقدم حدث التسمية، بينما تكرره الثانية لسرد الحدث. إذا كان ذلك سيفيد قراءك، يمكنك دمج الجملتين اللتين تشيران إلى مناداة الاسم. الترجمة البديلة: &quot;ثم قالت نساء الحي .. ودعون اسمه عوبيد&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּקְרֶאנָה֩ ל֨⁠וֹ הַ⁠שְּׁכֵנ֥וֹת שֵׁם֙ לֵ⁠אמֹ֔ר &amp; וַ⁠תִּקְרֶ֤אנָֽה שְׁמ⁠וֹ֙ עוֹבֵ֔ד</span></p><p><strong>&quot;</strong><span><strong>وَسَمَّتْهُ ٱلْجَارَاتُ ٱسْمًا قَائِلَاتٍ</strong></span><strong> &quot; - &quot;</strong><span><strong>وَدَعَوْنَ ٱسْمَهُ عُوبِيدَ</strong></span><strong>&quot;</strong></p><p>تحمل هاتان الجملتان في الأساس نفس المعنى. فإن العبارة الأولى تقدم حدث التسمية، بينما تكرره الثانية لسرد الحدث. إذا كان ذلك سيفيد قراءك، يمكنك دمج الجملتين اللتين تشيران إلى مناداة الاسم. الترجمة البديلة: &quot;ثم قالت نساء الحي .. ودعون اسمه عوبيد&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
 "associations": {
 "passage": [
 {
@@ -11612,7 +12964,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Obed",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "عوبِيدَ"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "نعْمِيَ"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "دَاودَ"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسَّى"
+}
+]
 }
 },
 {
@@ -11659,18 +13040,18 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "دَاودَ"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسَّى"
 }
 ]
 }
@@ -11719,18 +13100,18 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "دَاودَ"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسَّى"
 }
 ]
 }
@@ -11779,18 +13160,18 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "دَاودَ"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسَّى"
 }
 ]
 }
@@ -11839,18 +13220,18 @@
 "preferred_label": "نعْمِيَ"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "دَاودَ"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسَّى"
 }
 ]
 }
@@ -11910,7 +13291,7 @@
 "index_reference": "08004018",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فَارَصُ وَلَدَ حَصْرُونَ</strong></span><strong>&quot;</strong></p><p><strong>فارص</strong> و<strong>حصرون</strong> هما أسماء رجال. استخدم مشتقات هذه الأسماء المألوفة في لغتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
+"content": "<p><span style='direction: rtl;'>פֶּ֖רֶץ הוֹלִ֥יד אֶת־חֶצְרֽוֹן</span></p><p><strong>&quot;</strong><span><strong>فَارَصُ وَلَدَ حَصْرُونَ</strong></span><strong>&quot;</strong></p><p><strong>فارص</strong> و<strong>حصرون</strong> هما أسماء رجال. استخدم مشتقات هذه الأسماء المألوفة في لغتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
 "associations": {
 "passage": [
 {
@@ -11929,7 +13310,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Hezron.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "حَصْرونَ"
+},
+{
+"id": "person:Perez",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱقْتِحَامٌ"
+}
+]
 }
 },
 {
@@ -11941,7 +13337,7 @@
 "index_reference": "08004019",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَحَصْرُونُ</strong></span><strong>&quot; - &quot;</strong><span><strong>رَامَ</strong></span><strong>&quot; - &quot;</strong><span><strong>عَمِّينَادَابَ</strong></span><strong>&quot;</strong></p><p><strong>حصرون</strong>، <strong>رام</strong>، و<strong>عميناداب</strong> هي أسماء رجال. استخدم مشتقات هذه الأسماء التي تتناسب مع لغتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠חֶצְרוֹן֙ &amp; אֶת־רָ֔ם &amp; אֶת־עַמִּֽינָדָֽב</span></p><p><strong>&quot;</strong><span><strong>وَحَصْرُونُ</strong></span><strong>&quot; - &quot;</strong><span><strong>رَامَ</strong></span><strong>&quot; - &quot;</strong><span><strong>عَمِّينَادَابَ</strong></span><strong>&quot;</strong></p><p><strong>حصرون</strong>، <strong>رام</strong>، و<strong>عميناداب</strong> هي أسماء رجال. استخدم مشتقات هذه الأسماء التي تتناسب مع لغتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
 "associations": {
 "passage": [
 {
@@ -11960,7 +13356,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ram",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "رَامَ"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "عَمِّينَادَابَ"
+},
+{
+"id": "person:Hezron.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "حَصْرونَ"
+}
+]
 }
 },
 {
@@ -11972,7 +13390,7 @@
 "index_reference": "08004020",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وَعَمِّينَادَابُ</strong></span><strong>&quot;، &quot;</strong><span><strong>نَحْشُونَ&quot;، &quot;سَلْمُونَ&quot;</strong></span></p><p><strong>عميناداب</strong>، <strong>نحشون</strong>، و<strong>سلمون</strong> هي أسماء رجال. استخدم مشتقات هذه الأسماء التي تتناسب مع لغتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠עַמִּֽינָדָב֙ &amp; וְ⁠נַחְשׁ֖וֹן &amp; אֶת־שַׂלְמָֽה</span></p><p><strong>&quot;</strong><span><strong>وَعَمِّينَادَابُ</strong></span><strong>&quot;، &quot;</strong><span><strong>نَحْشُونَ&quot;، &quot;سَلْمُونَ&quot;</strong></span></p><p><strong>عميناداب</strong>، <strong>نحشون</strong>، و<strong>سلمون</strong> هي أسماء رجال. استخدم مشتقات هذه الأسماء التي تتناسب مع لغتك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
 "associations": {
 "passage": [
 {
@@ -11991,7 +13409,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نَحْشونَ"
+},
+{
+"id": "person:Salmon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "سَلْمونَ"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "عَمِّينَادَابَ"
+}
+]
 }
 },
 {
@@ -12024,13 +13464,6 @@
 ],
 "acai": [
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.6,
@@ -12043,6 +13476,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "دَاودَ"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسَّى"
 }
 ]
 }

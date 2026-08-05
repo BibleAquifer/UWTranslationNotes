@@ -36,11 +36,11 @@
 "preferred_label": "Espíritu"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Peace",
@@ -50,18 +50,18 @@
 "preferred_label": "hacer la paz"
 },
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
 "id": "keyterm:Mind",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "modo de pensar"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Life"
 }
 ]
 }
@@ -96,11 +96,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Mind",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "modo de pensar"
+"preferred_label": "cuerpo"
 },
 {
 "id": "deity:Lord",
@@ -110,11 +110,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Mind",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "modo de pensar"
 },
 {
 "id": "keyterm:Law",
@@ -155,13 +155,6 @@
 "preferred_label": "esclavitud"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "espíritu"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
@@ -181,6 +174,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "temer"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "espíritu"
 }
 ]
 }
@@ -215,18 +215,18 @@
 ],
 "acai": [
 {
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Isaac"
-},
-{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Abraham"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Isaac"
 }
 ]
 }
@@ -307,18 +307,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:DivineAnswer",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "respuesta divina"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Baal"
+},
+{
+"id": "keyterm:DivineAnswer",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "respuesta divina"
 }
 ]
 }
@@ -392,18 +392,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "espíritu"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "espíritu"
 }
 ]
 }
@@ -438,18 +438,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "nación; gente"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ability"
 }
 ]
 }
@@ -484,18 +484,18 @@
 ],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "nación; gente"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
 }
 ]
 }
@@ -530,18 +530,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }

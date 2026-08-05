@@ -87,13 +87,6 @@
 "preferred_label": "Gaius"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
@@ -106,6 +99,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
 }
 ]
 }
@@ -147,13 +147,6 @@
 "preferred_label": "Gaius"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
@@ -166,6 +159,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
 }
 ]
 }
@@ -246,6 +246,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Live"
+},
+{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
@@ -258,13 +265,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bear Witness"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Live"
 }
 ]
 }
@@ -278,7 +278,7 @@
 "index_reference": "64001003",
 "language": "guj",
 "review_level": "Professional",
-"content": "<p><strong>&quot;તું સત્યમાં ચાલે છે&quot;</strong></p><p>વ્યક્તિ પોતાનું જીવન કેવી રીતે જીવી રહ્યો છે તેનું રૂપક, <strong>ચા****લવું</strong> છે. વૈકલ્પિક ભાષાંતર: “ઈશ્વરના સત્ય અનુસાર તું જીવન જીવી રહ્યો છે” (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">રૂપક</span>)</p>",
+"content": "<p><strong><span style='direction: ltr;'>σὺ ἐν ἀληθείᾳ περιπατεῖς</span></strong></p><p><strong>&quot;તું સત્યમાં ચાલે છે&quot;</strong></p><p>વ્યક્તિ પોતાનું જીવન કેવી રીતે જીવી રહ્યો છે તેનું રૂપક, <strong>ચા****લવું</strong> છે. વૈકલ્પિક ભાષાંતર: “ઈશ્વરના સત્ય અનુસાર તું જીવન જીવી રહ્યો છે” (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">રૂપક</span>)</p>",
 "associations": {
 "passage": [
 {
@@ -297,7 +297,29 @@
 "language": "guj"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Live"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+}
+]
 }
 },
 {
@@ -330,6 +352,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Live"
+},
+{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.6,
@@ -342,13 +371,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Truth"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Live"
 }
 ]
 }
@@ -525,7 +547,7 @@
 "index_reference": "64001008",
 "language": "guj",
 "review_level": "Professional",
-"content": "<p><strong>&quot;જેથી કે આપણે સત્યના માટે સાથી કાર્યકર્તાઓ બનીએ&quot;</strong></p><p>“તેથી ઈશ્વરનું સત્ય લોકોને પ્રગટ કરવામાં આપણે તેમની સાથે સંકળાયેલા હોઈશું&quot;</p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα συνεργοὶ γινώμεθα τῇ ἀληθείᾳ</span></strong></p><p><strong>&quot;જેથી કે આપણે સત્યના માટે સાથી કાર્યકર્તાઓ બનીએ&quot;</strong></p><p>“તેથી ઈશ્વરનું સત્ય લોકોને પ્રગટ કરવામાં આપણે તેમની સાથે સંકળાયેલા હોઈશું&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -544,7 +566,22 @@
 "language": "guj"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Obligated"
+}
+]
 }
 },
 {
@@ -655,7 +692,7 @@
 "index_reference": "64001009",
 "language": "guj",
 "review_level": "Professional",
-"content": "<p><strong>&quot;દિયોત્રેફેસ&quot;</strong></p><p>તે સમુદાયનો સભ્ય હતો. (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">નામોનો અનુવાદ કેવી રીતે કરવો</span>)</p>",
+"content": "<p><strong><span style='direction: ltr;'>Διοτρέφης</span></strong></p><p><strong>&quot;દિયોત્રેફેસ&quot;</strong></p><p>તે સમુદાયનો સભ્ય હતો. (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">નામોનો અનુવાદ કેવી રીતે કરવો</span>)</p>",
 "associations": {
 "passage": [
 {
@@ -674,7 +711,22 @@
 "language": "guj"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Diotrephes",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Diotrephes"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Church"
+}
+]
 }
 },
 {
@@ -686,7 +738,7 @@
 "index_reference": "64001009",
 "language": "guj",
 "review_level": "Professional",
-"content": "<p><strong>&quot;તેઓમાં મુખ્ય થવા ચાહે છે&quot;</strong></p><p>જે તેઓમાં સૌથી મહત્વના થવાનું પસંદ કરે છે અથવા &quot;તે તેઓનો આગેવાન હોય તે રીતે વર્તવું તેને ગમે છે&quot;</p>",
+"content": "<p><strong><span style='direction: ltr;'>ὁ φιλοπρωτεύων αὐτῶν</span></strong></p><p><strong>&quot;તેઓમાં મુખ્ય થવા ચાહે છે&quot;</strong></p><p>જે તેઓમાં સૌથી મહત્વના થવાનું પસંદ કરે છે અથવા &quot;તે તેઓનો આગેવાન હોય તે રીતે વર્તવું તેને ગમે છે&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -705,7 +757,22 @@
 "language": "guj"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Diotrephes",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Diotrephes"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Church"
+}
+]
 }
 },
 {
@@ -954,13 +1021,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Do Good"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -973,6 +1033,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Do Good"
 }
 ]
 }
@@ -1014,13 +1081,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Do Good"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1033,6 +1093,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Do Good"
 }
 ]
 }
@@ -1074,13 +1141,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Do Good"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1093,6 +1153,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Do Good"
 }
 ]
 }
@@ -1129,7 +1196,7 @@
 "index_reference": "64001012",
 "language": "guj",
 "review_level": "Professional",
-"content": "<p><strong>&quot;દેમેત્રિયસ વિષે સઘળાં &amp; સાક્ષી આપે છે&quot;</strong></p><p>આને સક્રિય સ્વરૂપે દર્શાવી શકાય. વૈકલ્પિક ભાષાંતર: &quot;જેઓ દિમેત્રીયસને ઓળખે છે તેઓ તેના વિષે સાક્ષી આપે છે&quot; અથવા &quot;દરેક વિશ્વાસી જે&nbsp;દિમેત્રીયસને ઓળખે છે તે તેના વિષે સારું બોલે છે&quot; જુઓ યુ.એસ.ટી. (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">﻿﻿સક્રિય (પ્રત્યક્ષ) અથવા નિષ્ક્રિય (પરોક્ષ)</span>)</p>",
+"content": "<p><strong><span style='direction: ltr;'>Δημητρίῳ μεμαρτύρηται ὑπὸ πάντων</span></strong></p><p><strong>&quot;દેમેત્રિયસ વિષે સઘળાં &amp; સાક્ષી આપે છે&quot;</strong></p><p>આને સક્રિય સ્વરૂપે દર્શાવી શકાય. વૈકલ્પિક ભાષાંતર: &quot;જેઓ દિમેત્રીયસને ઓળખે છે તેઓ તેના વિષે સાક્ષી આપે છે&quot; અથવા &quot;દરેક વિશ્વાસી જે&nbsp;દિમેત્રીયસને ઓળખે છે તે તેના વિષે સારું બોલે છે&quot; જુઓ યુ.એસ.ટી. (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">﻿﻿સક્રિય (પ્રત્યક્ષ) અથવા નિષ્ક્રિય (પરોક્ષ)</span>)</p>",
 "associations": {
 "passage": [
 {
@@ -1148,7 +1215,36 @@
 "language": "guj"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Demetrius",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Demetrius"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "True"
+}
+]
 }
 },
 {
@@ -1160,7 +1256,7 @@
 "index_reference": "64001012",
 "language": "guj",
 "review_level": "Professional",
-"content": "<p><strong>&quot;દેમેત્રિયસ&quot;</strong></p><p>આ સંભવિતપણે એક માણસ છે જેના વિષે યોહાન ઈચ્છા રાખે છે કે તે જ્યારે ગાયસ અને વિશ્વાસી સમુદાયની મુલાકાત લે ત્યારે તેઓ તેનો આવકાર કરે. તે કદાચ આ પત્ર પાઠવનાર વ્યક્તિ પણ હોઈ શકે છે. (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">નામોનો અનુવાદ કેવી રીતે કરવો</span>)</p>",
+"content": "<p><strong><span style='direction: ltr;'>Δημητρίῳ</span></strong></p><p><strong>&quot;દેમેત્રિયસ&quot;</strong></p><p>આ સંભવિતપણે એક માણસ છે જેના વિષે યોહાન ઈચ્છા રાખે છે કે તે જ્યારે ગાયસ અને વિશ્વાસી સમુદાયની મુલાકાત લે ત્યારે તેઓ તેનો આવકાર કરે. તે કદાચ આ પત્ર પાઠવનાર વ્યક્તિ પણ હોઈ શકે છે. (See: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">નામોનો અનુવાદ કેવી રીતે કરવો</span>)</p>",
 "associations": {
 "passage": [
 {
@@ -1179,7 +1275,36 @@
 "language": "guj"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Demetrius",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Demetrius"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "True"
+}
+]
 }
 },
 {
@@ -1491,18 +1616,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Name"
 }
 ]
 }
@@ -1537,18 +1662,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Name"
 }
 ]
 }
@@ -1583,18 +1708,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Name"
 }
 ]
 }

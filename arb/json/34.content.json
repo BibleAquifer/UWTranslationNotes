@@ -105,18 +105,18 @@
 ],
 "acai": [
 {
-"id": "place:Elkosh",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "ٱلْأَلْقوشِيِّ"
-},
-{
 "id": "person:Nahum.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "نَاحومَ"
+},
+{
+"id": "place:Elkosh",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "ٱلْأَلْقوشِيِّ"
 },
 {
 "id": "place:Nineveh",
@@ -172,18 +172,18 @@
 ],
 "acai": [
 {
-"id": "place:Elkosh",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "ٱلْأَلْقوشِيِّ"
-},
-{
 "id": "person:Nahum.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "نَاحومَ"
+},
+{
+"id": "place:Elkosh",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "ٱلْأَلْقوشِيِّ"
 },
 {
 "id": "place:Nineveh",
@@ -218,7 +218,7 @@
 "index_reference": "34001002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُنْتَقِمٌ مِن مُبْغِضِيهِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم اسمًا مجردًا للتعبير عن مفهوم <strong>النقمة</strong>، يمكنك التعبير عن الفكرة نفسها بطريقة أخرى. الترجمة البديلة: [ينتقم من خصومه]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>נֹקֵ֤ם &amp; לְ⁠צָרָ֔י⁠ו</span></p><p><strong>&quot;مُنْتَقِمٌ مِن مُبْغِضِيهِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم اسمًا مجردًا للتعبير عن مفهوم <strong>النقمة</strong>، يمكنك التعبير عن الفكرة نفسها بطريقة أخرى. الترجمة البديلة: [ينتقم من خصومه]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -237,7 +237,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Zealous.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Zealous"
+}
+]
 }
 },
 {
@@ -454,11 +469,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -475,11 +490,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Strength"
 }
 ]
 }
@@ -514,11 +529,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -535,11 +550,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Strength"
 }
 ]
 }
@@ -574,11 +589,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -595,11 +610,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Strength"
 }
 ]
 }
@@ -641,18 +656,18 @@
 "preferred_label": "فِي"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بَاشَانَ"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لبْنَانَ"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بَاشَانَ"
 }
 ]
 }
@@ -694,18 +709,18 @@
 "preferred_label": "فِي"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بَاشَانَ"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لبْنَانَ"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بَاشَانَ"
 }
 ]
 }
@@ -747,18 +762,18 @@
 "preferred_label": "فِي"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بَاشَانَ"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لبْنَانَ"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بَاشَانَ"
 }
 ]
 }
@@ -800,18 +815,18 @@
 "preferred_label": "فِي"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بَاشَانَ"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "لبْنَانَ"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بَاشَانَ"
 }
 ]
 }
@@ -980,7 +995,7 @@
 "index_reference": "34001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مَنْ يَقِفُ أَمَامَ سَخَطِهِ؟&quot;</strong> - <strong>&quot;غَيْظُهُ يَنْسَكِبُ كَالنَّارِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفاهيم كلمات مثل <strong>السخط</strong> و<strong>الغيظ</strong>، يمكنك التعبير عن الأفكار ذاتها بطرق أخرى. الترجمة البديلة: [عندما يشعر بالغضب تجاه شخص ما ... عندما يكون مغتاظًا، يبدو الأمر كما لو أن النار تتدفق منه]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠פְנֵ֤י זַעְמ⁠וֹ֙ &amp; חֲמָת⁠וֹ֙ נִתְּכָ֣ה כָ⁠אֵ֔שׁ</span></p><p><strong>&quot;مَنْ يَقِفُ أَمَامَ سَخَطِهِ؟&quot;</strong> - <strong>&quot;غَيْظُهُ يَنْسَكِبُ كَالنَّارِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفاهيم كلمات مثل <strong>السخط</strong> و<strong>الغيظ</strong>، يمكنك التعبير عن الأفكار ذاتها بطرق أخرى. الترجمة البديلة: [عندما يشعر بالغضب تجاه شخص ما ... عندما يكون مغتاظًا، يبدو الأمر كما لو أن النار تتدفق منه]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -1011,7 +1026,7 @@
 "index_reference": "34001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּ⁠מִ֥י יָק֖וּם בַּ⁠חֲר֣וֹן אַפּ֑⁠וֹ</span></p><p><strong>&quot;مَنْ يَقِفُ أَمَامَ سَخَطِهِ؟&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال للتأكيد على أنه لا يمكن لأحد أن يحتمل عندما يكون الرب غاضبًا. إذا لم تكن ستستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمة ذلك كجملة خبرية أو صيغة تعجب. الترجمة البديلة: [لا يمكن لأحد أن يحتمل عندما يكون غاضبًا!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠פְנֵ֤י זַעְמ⁠וֹ֙ מִ֣י יַֽעֲמ֔וֹד</span></p><p><strong>&quot;مَنْ يَقِفُ أَمَامَ سَخَطِهِ؟&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال للتأكيد على أنه لا يمكن لأحد أن يحتمل عندما يكون الرب غاضبًا. إذا لم تكن ستستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمة ذلك كجملة خبرية أو صيغة تعجب. الترجمة البديلة: [لا يمكن لأحد أن يحتمل عندما يكون غاضبًا!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1042,7 +1057,7 @@
 "index_reference": "34001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَمَنْ يَقُومُ فِي حُمُوِّ غَضَبِهِ؟&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال للتأكيد على أنه لا يمكن لأحد أن يقاوم عندما يكون الرب غاضبًا. إذا لم تكن ستستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمة ذلك في صيغة جملة خبرية أو صيغة تعجب. الترجمة البديلة: [لا أحد يستطيع مقاومة غضبه العارم!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠מִ֥י יָק֖וּם בַּ⁠חֲר֣וֹן אַפּ֑⁠וֹ</span></p><p><strong>&quot;وَمَنْ يَقُومُ فِي حُمُوِّ غَضَبِهِ؟&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال للتأكيد على أنه لا يمكن لأحد أن يقاوم عندما يكون الرب غاضبًا. إذا لم تكن ستستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمة ذلك في صيغة جملة خبرية أو صيغة تعجب. الترجمة البديلة: [لا أحد يستطيع مقاومة غضبه العارم!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1489,7 +1504,7 @@
 "index_reference": "34001010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَإِنَّهُمْ وَهُمْ مُشْتَبِكُونَ مِثْلَ الشَّوْكِ، وَسَكْرَانُونَ كَمِنْ خَمْرِهِمْ، يُؤْكَلُونَ كَالْقَشِّ الْيَابِسِ بِالْكَمَالِ&quot;</strong></p><p>يقول الكاتب إن أهل نينوى يشبهون شجيرات الشوك المتشابكة والقش الجاف في النار وكذلك مثل الشراب الذي في أيديهم، لأن كل هذه الأشياء تُستهلَك بسرعة. إذا كان ذلك مفيدًا في لغتك، يمكنك توضيح ذلك بشكل صريح. الترجمة البديلة: [هم مثل شجيرات الشوك في النار ومثل الشراب في أيدي أهل نينوى، فإنهم يُستهلَكُون بسرعة]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">التشبيه</span></p>",
+"content": "<p><span style='direction: rtl;'>עַד־סִירִ֣ים סְבֻכִ֔ים וּ⁠כְ⁠סָבְאָ֖⁠ם סְבוּאִ֑ים אֻ֨כְּל֔וּ</span></p><p><strong>&quot;فَإِنَّهُمْ وَهُمْ مُشْتَبِكُونَ مِثْلَ الشَّوْكِ، وَسَكْرَانُونَ كَمِنْ خَمْرِهِمْ، يُؤْكَلُونَ كَالْقَشِّ الْيَابِسِ بِالْكَمَالِ&quot;</strong></p><p>يقول الكاتب إن أهل نينوى يشبهون شجيرات الشوك المتشابكة والقش الجاف في النار وكذلك مثل الشراب الذي في أيديهم، لأن كل هذه الأشياء تُستهلَك بسرعة. إذا كان ذلك مفيدًا في لغتك، يمكنك توضيح ذلك بشكل صريح. الترجمة البديلة: [هم مثل شجيرات الشوك في النار ومثل الشراب في أيدي أهل نينوى، فإنهم يُستهلَكُون بسرعة]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">التشبيه</span></p>",
 "associations": {
 "passage": [
 {
@@ -1508,7 +1523,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "realia:StrongDrink",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Strong Drink"
+}
+]
 }
 },
 {
@@ -1520,7 +1550,7 @@
 "index_reference": "34001010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;كَمِنْ خَمْرِهِمْ&quot;</strong> - <strong>&quot;يُؤْكَلُونَ (هم)&quot;</strong></p><p>الضمير المتصل <strong>هم</strong> والضمير المستتر <strong>هم</strong> يشيران إلى سكان نينوى. إذا لم يكن هذا واضحًا لقرائك، يمكنك استخدام اسم شعب نينوى هنا. الترجمة البديلة: [وخمر أهل نينوى ... يُؤكل أهل نينوى]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">الضمائر - متى تستخدمها</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠כְ⁠סָבְאָ֖⁠ם &amp; אֻ֨כְּל֔וּ</span></p><p><strong>&quot;كَمِنْ خَمْرِهِمْ&quot;</strong> - <strong>&quot;يُؤْكَلُونَ (هم)&quot;</strong></p><p>الضمير المتصل <strong>هم</strong> والضمير المستتر <strong>هم</strong> يشيران إلى سكان نينوى. إذا لم يكن هذا واضحًا لقرائك، يمكنك استخدام اسم شعب نينوى هنا. الترجمة البديلة: [وخمر أهل نينوى ... يُؤكل أهل نينوى]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">الضمائر - متى تستخدمها</span></p>",
 "associations": {
 "passage": [
 {
@@ -1539,7 +1569,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "realia:StrongDrink",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Strong Drink"
+}
+]
 }
 },
 {
@@ -1618,18 +1663,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1664,18 +1709,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1710,18 +1755,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1756,18 +1801,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1781,7 +1826,7 @@
 "index_reference": "34001011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الْمُفْتَكِرُ ... شَرًّا&quot;</strong> - <strong>&quot;الْمُشِيرُ بِالْهَلاَكِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفهوم كلمات مثل <strong>الشر</strong> و<strong>الهلاك</strong>، يمكنك التعبير عن الأفكار ذاتها بطرق أخرى. الترجمة البديلة: [المفتكر الشرير … المشير المهلِك]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>חֹשֵׁ֥ב &amp; רָעָ֑ה יֹעֵ֖ץ בְּלִיָּֽעַל</span></p><p><strong>&quot;الْمُفْتَكِرُ ... شَرًّا&quot;</strong> - <strong>&quot;الْمُشِيرُ بِالْهَلاَكِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفهوم كلمات مثل <strong>الشر</strong> و<strong>الهلاك</strong>، يمكنك التعبير عن الأفكار ذاتها بطرق أخرى. الترجمة البديلة: [المفتكر الشرير … المشير المهلِك]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -1800,7 +1845,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
+}
+]
 }
 },
 {
@@ -1890,7 +1950,7 @@
 "index_reference": "34001012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَهكَذَا يُجَزُّونَ فَيَعْبُرُ&quot;</strong></p><p>يستخدم الكاتب الزمن الماضي (حسب الترجمة الإنجليزية) هنا للإشارة إلى شيء سيحدث بصورة أكيدة في المستقبل. إذا لم يكن من المعتاد القيام بذلك في لغتك، يمكنك استخدام زمن المستقبل. الترجمة البديلة: [سيتم جزهم، وسيعبرون]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">الاستخدام الاستثنائية للأزمنة</span></p>",
+"content": "<p><span style='direction: rtl;'>נָגֹ֖זּוּ וְ⁠עָבָ֑ר</span></p><p><strong>&quot;فَهكَذَا يُجَزُّونَ فَيَعْبُرُ&quot;</strong></p><p>يستخدم الكاتب الزمن الماضي (حسب الترجمة الإنجليزية) هنا للإشارة إلى شيء سيحدث بصورة أكيدة في المستقبل. إذا لم يكن من المعتاد القيام بذلك في لغتك، يمكنك استخدام زمن المستقبل. الترجمة البديلة: [سيتم جزهم، وسيعبرون]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">الاستخدام الاستثنائية للأزمنة</span></p>",
 "associations": {
 "passage": [
 {
@@ -1909,7 +1969,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -2261,6 +2329,13 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2273,13 +2348,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2321,6 +2389,13 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2333,13 +2408,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2381,6 +2449,13 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2393,13 +2468,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2434,13 +2502,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2467,6 +2528,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2501,13 +2569,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2534,6 +2595,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2568,13 +2636,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2601,6 +2662,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2635,13 +2703,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2668,6 +2729,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2702,13 +2770,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2735,6 +2796,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2769,13 +2837,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2802,6 +2863,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2836,13 +2904,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2869,6 +2930,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2903,13 +2971,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2936,6 +2997,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -3294,7 +3362,7 @@
 "index_reference": "34002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَإِنَّ الرَّبَّ يَرُدُّ عَظَمَةَ يَعْقُوبَ كَعَظَمَةِ إِسْرَائِيلَ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم اسمًا مجردًا لفكرة <strong>العَظَمة</strong>، يمكنك التعبير عن الفكرة نفسها بطريقة أخرى. الترجمة البديلة: [الرب جعل يعقوب عظيمًا مرة أخرى؛ وجعل إسرائيل عظيمًا أيضًا]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المُجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>שָׁ֤ב יְהוָה֙ אֶת־גְּא֣וֹן יַעֲקֹ֔ב כִּ⁠גְא֖וֹן יִשְׂרָאֵ֑ל</span></p><p><strong>&quot;فَإِنَّ الرَّبَّ يَرُدُّ عَظَمَةَ يَعْقُوبَ كَعَظَمَةِ إِسْرَائِيلَ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم اسمًا مجردًا لفكرة <strong>العَظَمة</strong>، يمكنك التعبير عن الفكرة نفسها بطريقة أخرى. الترجمة البديلة: [الرب جعل يعقوب عظيمًا مرة أخرى؛ وجعل إسرائيل عظيمًا أيضًا]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المُجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -3313,7 +3381,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيلَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -3392,18 +3475,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3420,6 +3496,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3427,11 +3510,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3473,18 +3556,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3501,6 +3577,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3508,11 +3591,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3554,18 +3637,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3582,6 +3658,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3589,11 +3672,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3635,18 +3718,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3663,6 +3739,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3670,11 +3753,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3716,18 +3799,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3744,6 +3820,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3751,11 +3834,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -4010,7 +4093,7 @@
 "index_reference": "34002006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;أَبْوَابُ الأَنْهَارِ انْفَتَحَتْ، وَالْقَصْرُ قَدْ ذَابَ&quot;</strong></p><p>يستخدم الكاتب صيغة الماضي هنا للإشارة إلى شيء سيحدث بالتأكيد في المستقبل. إذا لم يكن ذلك مألوفًا في لغتك، يمكنك استخدام صيغة المستقبل. الترجمة البديلة: [ستُفتح أبواب الأنهار، وسيذوب القصر]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">الاستخدام الاستثنائي للأزمنة</span></p>",
+"content": "<p><span style='direction: rtl;'>שַׁעֲרֵ֥י הַ⁠נְּהָר֖וֹת נִפְתָּ֑חוּ וְ⁠הַֽ⁠הֵיכָ֖ל נָמֽוֹג</span></p><p><strong>&quot;أَبْوَابُ الأَنْهَارِ انْفَتَحَتْ، وَالْقَصْرُ قَدْ ذَابَ&quot;</strong></p><p>يستخدم الكاتب صيغة الماضي هنا للإشارة إلى شيء سيحدث بالتأكيد في المستقبل. إذا لم يكن ذلك مألوفًا في لغتك، يمكنك استخدام صيغة المستقبل. الترجمة البديلة: [ستُفتح أبواب الأنهار، وسيذوب القصر]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">الاستخدام الاستثنائي للأزمنة</span></p>",
 "associations": {
 "passage": [
 {
@@ -4041,7 +4124,7 @@
 "index_reference": "34002006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;أَبْوَابُ الأَنْهَارِ&quot;</strong></p><p>يشير هذا التعبير إلى البوابات التي كانت تتحكم في تدفق النهر واتجاهه.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26822\" data-resourceType=\"UWTranslationManual\">ترجمة المجهولات</span></p>",
+"content": "<p><span style='direction: rtl;'>שַׁעֲרֵ֥י הַ⁠נְּהָר֖וֹת</span></p><p><strong>&quot;أَبْوَابُ الأَنْهَارِ&quot;</strong></p><p>يشير هذا التعبير إلى البوابات التي كانت تتحكم في تدفق النهر واتجاهه.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26822\" data-resourceType=\"UWTranslationManual\">ترجمة المجهولات</span></p>",
 "associations": {
 "passage": [
 {
@@ -4251,7 +4334,7 @@
 "index_reference": "34002007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَهُصَّبُ قَدِ انْكَشَفَتْ. أُطْلِعَتْ. وَجَوَارِيهَا&quot;</strong></p><p>الضمير في كلمة <strong>انْكَشَفَتْ</strong> والضمير في كلمة <strong>جَوَارِيهَا</strong> تشير إلى نينوى. إذا لم يكن هذا واضحًا لقرّائك، يمكنك استخدام الاسم &quot;نينوى&quot;. الترجمة البديلة: [نينوى تنكشف (تؤخذ للسبي)؛ نينوى تُطلع (تُقاد بعيدًا)، وجواري نينوى ,,,]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">الضمائر - متى تُستخدم</span></p>",
+"content": "<p><span style='direction: rtl;'>גֻּלְּתָ֣ה הֹֽעֲלָ֑תָה וְ⁠אַמְהֹתֶ֗י⁠הָ</span></p><p><strong>&quot;وَهُصَّبُ قَدِ انْكَشَفَتْ. أُطْلِعَتْ. وَجَوَارِيهَا&quot;</strong></p><p>الضمير في كلمة <strong>انْكَشَفَتْ</strong> والضمير في كلمة <strong>جَوَارِيهَا</strong> تشير إلى نينوى. إذا لم يكن هذا واضحًا لقرّائك، يمكنك استخدام الاسم &quot;نينوى&quot;. الترجمة البديلة: [نينوى تنكشف (تؤخذ للسبي)؛ نينوى تُطلع (تُقاد بعيدًا)، وجواري نينوى ,,,]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">الضمائر - متى تُستخدم</span></p>",
 "associations": {
 "passage": [
 {
@@ -4270,7 +4353,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dove"
+}
+]
 }
 },
 {
@@ -4555,7 +4646,7 @@
 "index_reference": "34002009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;اِنْهَبُوا فِضَّةً. اِنْهَبُوا ذَهَبًا، فَلاَ نِهَايَةَ لِلتُّحَفِ لِلْكَثْرَةِ مِنْ كُلِّ مَتَاعٍ شَهِيّ&quot;</strong></p><p>المعنى الضمني هو أن هذه هي كلمات المهاجمين. يمكنك أن تُضيف هذه المعلومة إذا كان ذلك سيساعد قرّاءك. الترجمة البديلة: [يقول المهاجمون، &quot;انهبوا الفضة، انهبوا الذهب، فلا نهاية للمخزون؛ وثروة من كل شيء نفيس&quot;]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p><p></p>",
+"content": "<p><span style='direction: rtl;'>בֹּ֥זּוּ כֶ֖סֶף בֹּ֣זּוּ זָהָ֑ב וְ⁠אֵ֥ין קֵ֨צֶה֙ לַ⁠תְּכוּנָ֔ה כָּבֹ֕ד מִ⁠כֹּ֖ל כְּלִ֥י חֶמְדָּֽה</span></p><p><strong>&quot;اِنْهَبُوا فِضَّةً. اِنْهَبُوا ذَهَبًا، فَلاَ نِهَايَةَ لِلتُّحَفِ لِلْكَثْرَةِ مِنْ كُلِّ مَتَاعٍ شَهِيّ&quot;</strong></p><p>المعنى الضمني هو أن هذه هي كلمات المهاجمين. يمكنك أن تُضيف هذه المعلومة إذا كان ذلك سيساعد قرّاءك. الترجمة البديلة: [يقول المهاجمون، &quot;انهبوا الفضة، انهبوا الذهب، فلا نهاية للمخزون؛ وثروة من كل شيء نفيس&quot;]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -4574,7 +4665,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Money"
+}
+]
 }
 },
 {
@@ -4833,7 +4939,7 @@
 "index_reference": "34002011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أَيْنَ مَأْوَى ٱلْأُسُودِ وَمَرْعَى أَشْبَالِ ٱلْأُسُودِ؟ حَيْثُ يَمْشِي ٱلْأَسَدُ وَٱللَّبُوَةُ وَشِبْلُ ٱلْأَسَدِ، وَلَيْسَ مَنْ يُخَوِّفُ</strong></span><strong>&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال ليؤكِّد أن هذا الموضع قد زال. فإذا لم تكن صيغة السؤال تُستَخدم في لغتك لهذا الغرض، يمكنك أن تترجمها على شكل تصريح أو تعجّب. ترجمة بديلة: [ذلك عرين الأسود، وموضع غذاء الأشبال، حيث كان الأسد يسير، واللَّبُوة هناك، وأشبال الأسد، حيث لم يكن يُخيفهم شيء، ذلك الموضع قد زال!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>אַיֵּה֙ מְע֣וֹן אֲרָי֔וֹת וּ⁠מִרְעֶ֥ה ה֖וּא לַ⁠כְּפִרִ֑ים אֲשֶׁ֣ר הָלַךְ֩ אַרְיֵ֨ה לָבִ֥יא שָׁ֛ם גּ֥וּר אַרְיֵ֖ה וְ⁠אֵ֥ין מַחֲרִֽיד</span></p><p><strong>&quot;</strong><span><strong>أَيْنَ مَأْوَى ٱلْأُسُودِ وَمَرْعَى أَشْبَالِ ٱلْأُسُودِ؟ حَيْثُ يَمْشِي ٱلْأَسَدُ وَٱللَّبُوَةُ وَشِبْلُ ٱلْأَسَدِ، وَلَيْسَ مَنْ يُخَوِّفُ</strong></span><strong>&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال ليؤكِّد أن هذا الموضع قد زال. فإذا لم تكن صيغة السؤال تُستَخدم في لغتك لهذا الغرض، يمكنك أن تترجمها على شكل تصريح أو تعجّب. ترجمة بديلة: [ذلك عرين الأسود، وموضع غذاء الأشبال، حيث كان الأسد يسير، واللَّبُوة هناك، وأشبال الأسد، حيث لم يكن يُخيفهم شيء، ذلك الموضع قد زال!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -4852,7 +4958,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
+}
+]
 }
 },
 {
@@ -4885,18 +5020,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -4906,11 +5041,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -4945,18 +5080,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -4966,11 +5101,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5005,18 +5140,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -5026,11 +5161,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5235,18 +5370,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5295,18 +5430,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5355,18 +5490,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5415,18 +5550,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5475,18 +5610,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5535,18 +5670,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5595,18 +5730,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5721,7 +5856,7 @@
 "index_reference": "34003002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;السَّوطِ&quot;</strong> - <strong>&quot;رَعْشَةِ الْبَكَرِ، وَخَيْلٌ تَخُبُّ وَمَرْكَبَاتٌ تَقْفِزُ&quot;</strong></p><p>في هذه الآية، كلمات <strong>السَّوطِ</strong>، و<strong>الْبَكَرِ</strong>، و<strong>الحصان</strong>، و<strong>العربة</strong> تأتي في صيغة المفرد، لكنها تُشير إلى أعداد كثيرة في مجموعها. إذا كان ذلك مفيدًا في لغتك، يمكنك التعبير عن ذلك ببساطة. الترجمة البديلة: [السوط... البكر يرعش والخيل تخُب والمركبات تقفز]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">أسماء الجموع</span></p><p></p>",
+"content": "<p><span style='direction: rtl;'>שׁ֔וֹט &amp; רַ֣עַשׁ אוֹפָ֑ן וְ⁠ס֣וּס דֹּהֵ֔ר וּ⁠מֶרְכָּבָ֖ה מְרַקֵּדָֽה</span></p><p><strong>&quot;السَّوطِ&quot;</strong> - <strong>&quot;رَعْشَةِ الْبَكَرِ، وَخَيْلٌ تَخُبُّ وَمَرْكَبَاتٌ تَقْفِزُ&quot;</strong></p><p>في هذه الآية، كلمات <strong>السَّوطِ</strong>، و<strong>الْبَكَرِ</strong>، و<strong>الحصان</strong>، و<strong>العربة</strong> تأتي في صيغة المفرد، لكنها تُشير إلى أعداد كثيرة في مجموعها. إذا كان ذلك مفيدًا في لغتك، يمكنك التعبير عن ذلك ببساطة. الترجمة البديلة: [السوط... البكر يرعش والخيل تخُب والمركبات تقفز]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">أسماء الجموع</span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -5740,7 +5875,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Whip",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Whip"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wagon"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+}
+]
 }
 },
 {
@@ -5752,7 +5916,7 @@
 "index_reference": "34003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَفُرْسَانٌ تَنْهَضُ، وَلَهِيبُ السَّيْفِ وَبَرِيقُ الرُّمْحِ&quot;</strong></p><p>في هذه الآية، تأتي الكلمات <strong>سيف</strong> و<strong>رمح</strong> بصيغة المفرد، ولكنها في الحقيقة تشير إلى  مجموعات متعددة. إذا كان ذلك مفيدًا في لغتك، يمكنك التعبير عن ذلك ببساطة. الترجمة البديلة: [فرسان تنهض، ولهيب السيوف وبريق الرماح]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">أسماء الجموع</span></p><p></p>",
+"content": "<p><span style='direction: rtl;'>פָּרָ֣שׁ מַעֲלֶ֗ה וְ⁠לַ֤הַב חֶ֨רֶב֙ וּ⁠בְרַ֣ק חֲנִ֔ית</span></p><p><strong>&quot;وَفُرْسَانٌ تَنْهَضُ، وَلَهِيبُ السَّيْفِ وَبَرِيقُ الرُّمْحِ&quot;</strong></p><p>في هذه الآية، تأتي الكلمات <strong>سيف</strong> و<strong>رمح</strong> بصيغة المفرد، ولكنها في الحقيقة تشير إلى  مجموعات متعددة. إذا كان ذلك مفيدًا في لغتك، يمكنك التعبير عن ذلك ببساطة. الترجمة البديلة: [فرسان تنهض، ولهيب السيوف وبريق الرماح]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">أسماء الجموع</span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -5771,7 +5935,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
+}
+]
 }
 },
 {
@@ -5783,7 +5962,7 @@
 "index_reference": "34003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فُرْسَانٌ تَنْهَضُ، وَلَهِيبُ السَّيْفِ وَبَرِيقُ الرُّمْحِ&quot;</strong></p><p>يحذف الكاتب بعض الكلمات التي تحتاجها الجملة في العديد من اللغات لتكون كاملة. يمكنك إضافة هذه الكلمات إذا كان ذلك سيجعلها أكثر وضوحًا في لغتك. الترجمة البديلة: [هناك فرسان تنهض، ولهيب سيوف، وبريق رماح]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p><p></p>",
+"content": "<p><span style='direction: rtl;'>פָּרָ֣שׁ מַעֲלֶ֗ה וְ⁠לַ֤הַב חֶ֨רֶב֙ וּ⁠בְרַ֣ק חֲנִ֔ית</span></p><p><strong>&quot;فُرْسَانٌ تَنْهَضُ، وَلَهِيبُ السَّيْفِ وَبَرِيقُ الرُّمْحِ&quot;</strong></p><p>يحذف الكاتب بعض الكلمات التي تحتاجها الجملة في العديد من اللغات لتكون كاملة. يمكنك إضافة هذه الكلمات إذا كان ذلك سيجعلها أكثر وضوحًا في لغتك. الترجمة البديلة: [هناك فرسان تنهض، ولهيب سيوف، وبريق رماح]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -5802,7 +5981,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
+}
+]
 }
 },
 {
@@ -5835,18 +6029,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -5881,18 +6075,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -5927,18 +6121,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -6533,7 +6727,7 @@
 "index_reference": "34003008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;هَلْ أَنْتِ أَفْضَلُ مِنْ نُوَ أَمُونَ الْجَالِسَةِ بَيْنَ الأَنْهَارِ، حَوْلَهَا الْمِيَاهُ الَّتِي هِيَ حِصْنُ الْبَحْرِ، وَمِنَ الْبَحْرِ سُورُهَا؟&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال للتأكيد على أن نينوى ليست أفضل من نو أمون. إذا لم تكن ستستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمتها في صيغة خبرية أو صيغة تعجب. الترجمة البديلة: [أنت لست أفضل من نو أمون الجالية بين الأنهار، وحولها المياه التي هي حصن البحر، ومن البحر سورها.!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p><p></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠תֵֽיטְבִי֙ מִ⁠נֹּ֣א אָמ֔וֹן הַ⁠יֹּֽשְׁבָה֙ בַּ⁠יְאֹרִ֔ים מַ֖יִם סָבִ֣יב לָ֑⁠הּ אֲשֶׁר־חֵ֣יל יָ֔ם מִ⁠יָּ֖ם חוֹמָתָֽ⁠הּ</span></p><p><strong>&quot;هَلْ أَنْتِ أَفْضَلُ مِنْ نُوَ أَمُونَ الْجَالِسَةِ بَيْنَ الأَنْهَارِ، حَوْلَهَا الْمِيَاهُ الَّتِي هِيَ حِصْنُ الْبَحْرِ، وَمِنَ الْبَحْرِ سُورُهَا؟&quot;</strong></p><p>يستخدم الكاتب صيغة السؤال للتأكيد على أن نينوى ليست أفضل من نو أمون. إذا لم تكن ستستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمتها في صيغة خبرية أو صيغة تعجب. الترجمة البديلة: [أنت لست أفضل من نو أمون الجالية بين الأنهار، وحولها المياه التي هي حصن البحر، ومن البحر سورها.!]</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -6552,7 +6746,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Amon",
+"type": "deity",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "آمون"
+},
+{
+"id": "place:Thebes",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "نو"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "فِي"
+}
+]
 }
 },
 {
@@ -6797,18 +7013,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مِصْرَ"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "لوبِيِّينَ"
 },
 {
 "id": "place:Put",
@@ -6818,11 +7034,11 @@
 "preferred_label": "فوط"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مِصْرَ"
+"preferred_label": "لوبِيِّينَ"
 }
 ]
 }
@@ -6857,18 +7073,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مِصْرَ"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "لوبِيِّينَ"
 },
 {
 "id": "place:Put",
@@ -6878,11 +7094,11 @@
 "preferred_label": "فوط"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مِصْرَ"
+"preferred_label": "لوبِيِّينَ"
 }
 ]
 }
@@ -6917,18 +7133,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مِصْرَ"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "لوبِيِّينَ"
 },
 {
 "id": "place:Put",
@@ -6938,11 +7154,11 @@
 "preferred_label": "فوط"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مِصْرَ"
+"preferred_label": "لوبِيِّينَ"
 }
 ]
 }
@@ -6977,18 +7193,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مِصْرَ"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "لوبِيِّينَ"
 },
 {
 "id": "place:Put",
@@ -6998,11 +7214,11 @@
 "preferred_label": "فوط"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مِصْرَ"
+"preferred_label": "لوبِيِّينَ"
 }
 ]
 }
@@ -7037,18 +7253,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مِصْرَ"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "لوبِيِّينَ"
 },
 {
 "id": "place:Put",
@@ -7058,11 +7274,11 @@
 "preferred_label": "فوط"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مِصْرَ"
+"preferred_label": "لوبِيِّينَ"
 }
 ]
 }
@@ -7097,18 +7313,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "مِصْرَ"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "لوبِيِّينَ"
 },
 {
 "id": "place:Put",
@@ -7118,11 +7334,11 @@
 "preferred_label": "فوط"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "مِصْرَ"
+"preferred_label": "لوبِيِّينَ"
 }
 ]
 }
@@ -7157,18 +7373,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7203,18 +7419,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7228,7 +7444,7 @@
 "index_reference": "34003010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><span><strong>&quot;وأطفالُها حُطِّمَتْ</strong></span><strong>&quot;</strong></p><p>إذا لم تستخدم لغتك صيغة المبني للمجهول، يمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بطريقة أخرى طبيعية في لغتك. ترجمة بديلة: &quot;أعداؤها سحقوا أطفالها الصغار&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
+"content": "<p><span style='direction: rtl;'>עֹלָלֶ֛י⁠הָ יְרֻטְּשׁ֖וּ</span></p><p><span><strong>&quot;وأطفالُها حُطِّمَتْ</strong></span><strong>&quot;</strong></p><p>إذا لم تستخدم لغتك صيغة المبني للمجهول، يمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بطريقة أخرى طبيعية في لغتك. ترجمة بديلة: &quot;أعداؤها سحقوا أطفالها الصغار&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">المبني للمعلوم أو المبني للمجهول</span></p>",
 "associations": {
 "passage": [
 {
@@ -7247,7 +7463,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
+}
+]
 }
 },
 {
@@ -7280,18 +7511,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7326,18 +7557,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7372,18 +7603,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7514,7 +7745,7 @@
 "index_reference": "34003012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>جميعُ قِلاعِكِ أشجارُ تينٍ بالبَواكيرِ</strong></span><strong>&quot;</strong></p><p>يتحدث الكاتب عن <strong>القِلاعِ</strong> وكأنها <strong>أشجار تين</strong> تحمل <strong>بواكير </strong>الثمر، لأنها ستُؤخذ بسهولة كما يُقطف التين الناضج بسهولة. وإذا كان الأنسب في لغتك، يمكنك أن تذكر المعنى بشكل مباشر. ترجمة بديلة: &quot;ستكون جميع حصونك سهلة السقوط كما يَسهُل قطف التين الناضج&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>כָּ֨ל־מִבְצָרַ֔יִ⁠ךְ תְּאֵנִ֖ים עִם־בִּכּוּרִ֑ים</span></p><p><strong>&quot;</strong><span><strong>جميعُ قِلاعِكِ أشجارُ تينٍ بالبَواكيرِ</strong></span><strong>&quot;</strong></p><p>يتحدث الكاتب عن <strong>القِلاعِ</strong> وكأنها <strong>أشجار تين</strong> تحمل <strong>بواكير </strong>الثمر، لأنها ستُؤخذ بسهولة كما يُقطف التين الناضج بسهولة. وإذا كان الأنسب في لغتك، يمكنك أن تذكر المعنى بشكل مباشر. ترجمة بديلة: &quot;ستكون جميع حصونك سهلة السقوط كما يَسهُل قطف التين الناضج&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -7533,7 +7764,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fig"
+}
+]
 }
 },
 {
@@ -8220,7 +8459,7 @@
 "index_reference": "34003017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>رؤَساؤُكِ كالجَرادِ، ووُلاتُكِ كحَرجَلَةِ الجَرادِ</strong></span><strong>&quot;</strong></p><p>يقول الكاتب إن الحراس والقادة يشبهون الجراد، لأنهم غير جديرين بالثقة وعديمو الولاء، كما أن الجراد يطير مبتعدًا عندما تتغير الظروف. وإذا كان أوضح لقرّائك، يمكنك أن تذكر ذلك بصراحة. ترجمة بديلة: &quot;إن حراسك وقادتك غير موثوقين وعديمو الولاء مثل الجراد&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">التشبيه</span></p>",
+"content": "<p><span style='direction: rtl;'>מִנְּזָרַ֨יִ⁠ךְ֙ כָּֽ⁠אַרְבֶּ֔ה וְ⁠טַפְסְרַ֖יִ⁠ךְ כְּ⁠ג֣וֹב גֹּבָ֑י</span></p><p><strong>&quot;</strong><span><strong>رؤَساؤُكِ كالجَرادِ، ووُلاتُكِ كحَرجَلَةِ الجَرادِ</strong></span><strong>&quot;</strong></p><p>يقول الكاتب إن الحراس والقادة يشبهون الجراد، لأنهم غير جديرين بالثقة وعديمو الولاء، كما أن الجراد يطير مبتعدًا عندما تتغير الظروف. وإذا كان أوضح لقرّائك، يمكنك أن تذكر ذلك بصراحة. ترجمة بديلة: &quot;إن حراسك وقادتك غير موثوقين وعديمو الولاء مثل الجراد&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">التشبيه</span></p>",
 "associations": {
 "passage": [
 {
@@ -8239,7 +8478,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Locust"
+}
+]
 }
 },
 {
@@ -8290,7 +8537,7 @@
 "index_reference": "34003017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وُلاتُكِ كحَرجَلَةِ الجَرادِ</strong></span><strong>&quot;</strong></p><p>يترك الكاتب كلمة ضرورية في لغات عديدة ليكتمل المعنى. وإذا كان من الأنسب للقراء، يمكنك أن تكمل النص بها. ترجمة بديلة: &quot;وقادتك مثل سرب من الجراد&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠טַפְסְרַ֖יִ⁠ךְ כְּ⁠ג֣וֹב גֹּבָ֑י</span></p><p><strong>&quot;</strong><span><strong>وُلاتُكِ كحَرجَلَةِ الجَرادِ</strong></span><strong>&quot;</strong></p><p>يترك الكاتب كلمة ضرورية في لغات عديدة ليكتمل المعنى. وإذا كان من الأنسب للقراء، يمكنك أن تكمل النص بها. ترجمة بديلة: &quot;وقادتك مثل سرب من الجراد&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">الحذف</span></p>",
 "associations": {
 "passage": [
 {
@@ -8309,7 +8556,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Locust"
+}
+]
 }
 },
 {
@@ -8388,6 +8643,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8400,13 +8662,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8448,6 +8703,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8460,13 +8722,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8508,6 +8763,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8520,13 +8782,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8568,6 +8823,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8580,13 +8842,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8628,6 +8883,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8640,13 +8902,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8660,7 +8915,7 @@
 "index_reference": "34003019",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ليس جَبرٌ لانكِسارِكَ</strong></span><strong>&quot;</strong></p><p>إذا لم تستعمل لغتك الأسماء المجرّدة مثل &quot;الراحة&quot; و&quot;الدمار&quot;، يمكنك أن تعبّر عن المعنى بطرق أخرى. ترجمة بديلة: &quot;لن يستطيع أحد أن يعينك عندما تُدمَّر&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>אֵין־כֵּהָ֣ה לְ⁠שִׁבְרֶ֔⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>ليس جَبرٌ لانكِسارِكَ</strong></span><strong>&quot;</strong></p><p>إذا لم تستعمل لغتك الأسماء المجرّدة مثل &quot;الراحة&quot; و&quot;الدمار&quot;، يمكنك أن تعبّر عن المعنى بطرق أخرى. ترجمة بديلة: &quot;لن يستطيع أحد أن يعينك عندما تُدمَّر&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {

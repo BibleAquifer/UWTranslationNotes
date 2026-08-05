@@ -105,18 +105,18 @@
 ],
 "acai": [
 {
-"id": "place:Elkosh",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Elcos"
-},
-{
 "id": "person:Nahum.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Naum"
+},
+{
+"id": "place:Elkosh",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Elcos"
 },
 {
 "id": "place:Nineveh",
@@ -172,18 +172,18 @@
 ],
 "acai": [
 {
-"id": "place:Elkosh",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Elcos"
-},
-{
 "id": "person:Nahum.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Naum"
+},
+{
+"id": "place:Elkosh",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Elcos"
 },
 {
 "id": "place:Nineveh",
@@ -218,7 +218,7 @@
 "index_reference": "34001002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>que se vinga dos seus inimigos</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se a palavra <strong>vinganaça. </strong>Se o seu idioma não utiliza um substantivo abstrato para a ideia de <strong>vingança</strong>, você pode expressar a mesma ideia de outra forma. Tradução alternativa: &quot;vingue-se de seus adversários&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><span style='direction: rtl;'>נֹקֵ֤ם &amp; לְ⁠צָרָ֔י⁠ו</span></p><p><strong>&quot;</strong><span><strong>que se vinga dos seus inimigos</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se a palavra <strong>vinganaça. </strong>Se o seu idioma não utiliza um substantivo abstrato para a ideia de <strong>vingança</strong>, você pode expressar a mesma ideia de outra forma. Tradução alternativa: &quot;vingue-se de seus adversários&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -237,7 +237,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Zealous.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Zealous"
+}
+]
 }
 },
 {
@@ -454,11 +469,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "strength"
+"preferred_label": "SENHOR"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -475,11 +490,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "strength"
 }
 ]
 }
@@ -514,11 +529,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "strength"
+"preferred_label": "SENHOR"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -535,11 +550,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "strength"
 }
 ]
 }
@@ -574,11 +589,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "strength"
+"preferred_label": "SENHOR"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -595,11 +610,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "strength"
 }
 ]
 }
@@ -641,18 +656,18 @@
 "preferred_label": "Carmelo"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Basã"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Libano"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Basã"
 }
 ]
 }
@@ -694,18 +709,18 @@
 "preferred_label": "Carmelo"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Basã"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Libano"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Basã"
 }
 ]
 }
@@ -747,18 +762,18 @@
 "preferred_label": "Carmelo"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Basã"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Libano"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Basã"
 }
 ]
 }
@@ -800,18 +815,18 @@
 "preferred_label": "Carmelo"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Basã"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Libano"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Basã"
 }
 ]
 }
@@ -980,7 +995,7 @@
 "index_reference": "34001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;à sua ira&quot; — &quot;</strong><span><strong>A sua fúria se derrama como um rio de fogo</strong></span><strong>&quot;.</strong></p><p>No texto original usam-se palavras que podem ser traduzidas como <strong>indignação </strong>e <strong>ira. </strong>Se o seu idioma não utiliza substantivos abstratos para as ideias de <strong>indignação</strong> e <strong>ira</strong>, você pode expressar essas ideias de outras maneiras. Tradução alternativa: &quot;Quando ele está indignado com alguém... Quando ele está irado, é como se o fogo saísse dele&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠פְנֵ֤י זַעְמ⁠וֹ֙ &amp; חֲמָת⁠וֹ֙ נִתְּכָ֣ה כָ⁠אֵ֔שׁ</span></p><p><strong>&quot;à sua ira&quot; — &quot;</strong><span><strong>A sua fúria se derrama como um rio de fogo</strong></span><strong>&quot;.</strong></p><p>No texto original usam-se palavras que podem ser traduzidas como <strong>indignação </strong>e <strong>ira. </strong>Se o seu idioma não utiliza substantivos abstratos para as ideias de <strong>indignação</strong> e <strong>ira</strong>, você pode expressar essas ideias de outras maneiras. Tradução alternativa: &quot;Quando ele está indignado com alguém... Quando ele está irado, é como se o fogo saísse dele&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1011,7 +1026,7 @@
 "index_reference": "34001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּ⁠מִ֥י יָק֖וּם בַּ⁠חֲר֣וֹן אַפּ֑⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>Quem pode resistir à sua ira?</strong></span><strong>&quot;.</strong></p><p>O autor utiliza a forma de pergunta para enfatizar que ninguém pode suportar quando Yahweh está irado. Se no seu idioma essa forma não é comum, você pode traduzir isso como uma afirmação ou exclamação. Tradução alternativa: &quot;Ninguém pode suportar quando ele está irado!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠פְנֵ֤י זַעְמ⁠וֹ֙ מִ֣י יַֽעֲמ֔וֹד</span></p><p><strong>&quot;</strong><span><strong>Quem pode resistir à sua ira?</strong></span><strong>&quot;.</strong></p><p>O autor utiliza a forma de pergunta para enfatizar que ninguém pode suportar quando Yahweh está irado. Se no seu idioma essa forma não é comum, você pode traduzir isso como uma afirmação ou exclamação. Tradução alternativa: &quot;Ninguém pode suportar quando ele está irado!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1042,7 +1057,7 @@
 "index_reference": "34001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Quem pode resistir à sua ira?</strong></span><strong>&quot;.</strong></p><p>O autor utiliza a forma de pergunta para enfatizar que ninguém pode resistir quando Yahweh está irado. Se no seu idioma essa forma não for comum, você pode traduzir como uma afirmação ou exclamação. Tradução alternativa: &quot;Ninguém pode resistir à sua ira feroz!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠מִ֥י יָק֖וּם בַּ⁠חֲר֣וֹן אַפּ֑⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>Quem pode resistir à sua ira?</strong></span><strong>&quot;.</strong></p><p>O autor utiliza a forma de pergunta para enfatizar que ninguém pode resistir quando Yahweh está irado. Se no seu idioma essa forma não for comum, você pode traduzir como uma afirmação ou exclamação. Tradução alternativa: &quot;Ninguém pode resistir à sua ira feroz!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1489,7 +1504,7 @@
 "index_reference": "34001010",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Como uma moita de espinheiros, como a palha seca, vocês serão completamente destruídos</strong></span><strong>&quot;.</strong></p><p>O autor está dizendo que os ninivitas são como arbustos espinhosos emaranhados e restolho seco em um incêndio, e como a bebida em suas próprias mãos, porque todas essas coisas são rapidamente consumidas. Se for útil em seu idioma, você pode afirmar isso explicitamente. Tradução alternativa: &quot;como arbustos espinhosos emaranhados em um incêndio e como uma bebida nas mãos de um ninivita, eles são rapidamente consumidos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">Símile.</span></p>",
+"content": "<p><span style='direction: rtl;'>עַד־סִירִ֣ים סְבֻכִ֔ים וּ⁠כְ⁠סָבְאָ֖⁠ם סְבוּאִ֑ים אֻ֨כְּל֔וּ</span></p><p><strong>&quot;</strong><span><strong>Como uma moita de espinheiros, como a palha seca, vocês serão completamente destruídos</strong></span><strong>&quot;.</strong></p><p>O autor está dizendo que os ninivitas são como arbustos espinhosos emaranhados e restolho seco em um incêndio, e como a bebida em suas próprias mãos, porque todas essas coisas são rapidamente consumidas. Se for útil em seu idioma, você pode afirmar isso explicitamente. Tradução alternativa: &quot;como arbustos espinhosos emaranhados em um incêndio e como uma bebida nas mãos de um ninivita, eles são rapidamente consumidos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">Símile.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1508,7 +1523,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "realia:StrongDrink",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Strong Drink"
+}
+]
 }
 },
 {
@@ -1520,7 +1550,7 @@
 "index_reference": "34001010",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Como uma moita de espinheiros</strong></span><strong>&quot; — &quot;</strong><span><strong>vocês serão completamente destruídos&quot;.</strong></span></p><p>No texto original usa-se o pronomes <strong>eles </strong>e <strong>deles.</strong> Os pronomes <strong>deles</strong> e <strong>eles </strong>referem-se aos ninivitas. Se isso não está claro para seus leitores, você pode usar o nome do povo aqui. Tradução alternativa: &quot;e a bebida dos ninivitas... os ninivitas são devorados&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">Pronomes — Quando usá-los. </span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠כְ⁠סָבְאָ֖⁠ם &amp; אֻ֨כְּל֔וּ</span></p><p><strong>&quot;</strong><span><strong>Como uma moita de espinheiros</strong></span><strong>&quot; — &quot;</strong><span><strong>vocês serão completamente destruídos&quot;.</strong></span></p><p>No texto original usa-se o pronomes <strong>eles </strong>e <strong>deles.</strong> Os pronomes <strong>deles</strong> e <strong>eles </strong>referem-se aos ninivitas. Se isso não está claro para seus leitores, você pode usar o nome do povo aqui. Tradução alternativa: &quot;e a bebida dos ninivitas... os ninivitas são devorados&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">Pronomes — Quando usá-los. </span></p>",
 "associations": {
 "passage": [
 {
@@ -1539,7 +1569,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "realia:StrongDrink",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Strong Drink"
+}
+]
 }
 },
 {
@@ -1618,18 +1663,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "wickedness"
 }
 ]
 }
@@ -1664,18 +1709,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "wickedness"
 }
 ]
 }
@@ -1710,18 +1755,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "wickedness"
 }
 ]
 }
@@ -1756,18 +1801,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "wickedness"
 }
 ]
 }
@@ -1781,7 +1826,7 @@
 "index_reference": "34001011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>de más intenções</strong></span><strong>&quot; — &quot;</strong><span><strong>que planeja o mal</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se a palavra <strong>maldade. </strong>Se o seu idioma não utiliza substantivos abstratos para as ideias de <strong>mal</strong> e <strong>maldade</strong>, você pode expressar as mesmas ideias de outra forma. Tradução alternativa: &quot;um conspirador maligno ... um conselheiro perverso&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><span style='direction: rtl;'>חֹשֵׁ֥ב &amp; רָעָ֑ה יֹעֵ֖ץ בְּלִיָּֽעַל</span></p><p><strong>&quot;</strong><span><strong>de más intenções</strong></span><strong>&quot; — &quot;</strong><span><strong>que planeja o mal</strong></span><strong>&quot;.</strong></p><p>No texto original usa-se a palavra <strong>maldade. </strong>Se o seu idioma não utiliza substantivos abstratos para as ideias de <strong>mal</strong> e <strong>maldade</strong>, você pode expressar as mesmas ideias de outra forma. Tradução alternativa: &quot;um conspirador maligno ... um conselheiro perverso&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1800,7 +1845,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "wickedness"
+}
+]
 }
 },
 {
@@ -1890,7 +1950,7 @@
 "index_reference": "34001012",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Os assírios serão destruídos e desaparecerão</strong></span><strong>&quot;.</strong></p><p>No texto original o autor usa o passado aqui para se referir a algo que certamente acontecerá no futuro. Se não for natural fazer isso em seu idioma, você pode usar o futuro. Tradução alternativa: &quot;eles serão tosquiados, e ele morrerá&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">Uso irregular de tempos (gramaticais).</span></p>",
+"content": "<p><span style='direction: rtl;'>נָגֹ֖זּוּ וְ⁠עָבָ֑ר</span></p><p><strong>&quot;</strong><span><strong>Os assírios serão destruídos e desaparecerão</strong></span><strong>&quot;.</strong></p><p>No texto original o autor usa o passado aqui para se referir a algo que certamente acontecerá no futuro. Se não for natural fazer isso em seu idioma, você pode usar o futuro. Tradução alternativa: &quot;eles serão tosquiados, e ele morrerá&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">Uso irregular de tempos (gramaticais).</span></p>",
 "associations": {
 "passage": [
 {
@@ -1909,7 +1969,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -2261,6 +2329,13 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2273,13 +2348,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2321,6 +2389,13 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2333,13 +2408,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2381,6 +2449,13 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2393,13 +2468,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2434,13 +2502,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2467,6 +2528,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2501,13 +2569,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2534,6 +2595,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2568,13 +2636,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2601,6 +2662,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2635,13 +2703,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2668,6 +2729,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2702,13 +2770,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2735,6 +2796,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2769,13 +2837,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2802,6 +2863,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2836,13 +2904,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2869,6 +2930,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -2903,13 +2971,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2936,6 +2997,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "peace"
 }
 ]
 }
@@ -3294,7 +3362,7 @@
 "index_reference": "34002002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>O Senhor Deus vai fazer voltar a glória do povo de Israel</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: <strong>Porque o Senhor trará outra vez a excelência de Jacó, como a excelência de Israel</strong>. Se o seu idioma não utiliza um substantivo abstrato para a ideia de <strong>excelência</strong>, você pode expressar a mesma ideia de outra maneira. Tradução alternativa: &quot;Yahweh tornou Jacó grande novamente; ele também tornou Israel grande&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><span style='direction: rtl;'>שָׁ֤ב יְהוָה֙ אֶת־גְּא֣וֹן יַעֲקֹ֔ב כִּ⁠גְא֖וֹן יִשְׂרָאֵ֑ל</span></p><p><strong>&quot;</strong><span><strong>O Senhor Deus vai fazer voltar a glória do povo de Israel</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: <strong>Porque o Senhor trará outra vez a excelência de Jacó, como a excelência de Israel</strong>. Se o seu idioma não utiliza um substantivo abstrato para a ideia de <strong>excelência</strong>, você pode expressar a mesma ideia de outra maneira. Tradução alternativa: &quot;Yahweh tornou Jacó grande novamente; ele também tornou Israel grande&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3313,7 +3381,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -3392,18 +3475,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3420,6 +3496,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3427,11 +3510,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3473,18 +3556,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3501,6 +3577,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3508,11 +3591,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3554,18 +3637,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3582,6 +3658,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3589,11 +3672,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3635,18 +3718,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3663,6 +3739,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3670,11 +3753,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3716,18 +3799,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3744,6 +3820,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3751,11 +3834,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -4010,7 +4093,7 @@
 "index_reference": "34002006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Abrem-se as comportas do rio, e no palácio reina o terror</strong></span><strong>&quot;.</strong></p><p>No texto original o autor usa o passado aqui para se referir a algo que certamente acontecerá no futuro. Se não for natural fazer isso em seu idioma, você pode usar o futuro. Tradução alternativa: &quot;Os portões dos rios se abrirão, e o palácio se derreterá&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">Uso irregular de tempos (gramaticais).</span></p>",
+"content": "<p><span style='direction: rtl;'>שַׁעֲרֵ֥י הַ⁠נְּהָר֖וֹת נִפְתָּ֑חוּ וְ⁠הַֽ⁠הֵיכָ֖ל נָמֽוֹג</span></p><p><strong>&quot;</strong><span><strong>Abrem-se as comportas do rio, e no palácio reina o terror</strong></span><strong>&quot;.</strong></p><p>No texto original o autor usa o passado aqui para se referir a algo que certamente acontecerá no futuro. Se não for natural fazer isso em seu idioma, você pode usar o futuro. Tradução alternativa: &quot;Os portões dos rios se abrirão, e o palácio se derreterá&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">Uso irregular de tempos (gramaticais).</span></p>",
 "associations": {
 "passage": [
 {
@@ -4041,7 +4124,7 @@
 "index_reference": "34002006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;comportas do rio&quot;.</strong></p><p>Isso se refere aos portões que controlavam o fluxo e a direção do rio.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26822\" data-resourceType=\"UWTranslationManual\">Traduzir desconhecidos. </span></p>",
+"content": "<p><span style='direction: rtl;'>שַׁעֲרֵ֥י הַ⁠נְּהָר֖וֹת</span></p><p><strong>&quot;comportas do rio&quot;.</strong></p><p>Isso se refere aos portões que controlavam o fluxo e a direção do rio.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26822\" data-resourceType=\"UWTranslationManual\">Traduzir desconhecidos. </span></p>",
 "associations": {
 "passage": [
 {
@@ -4251,7 +4334,7 @@
 "index_reference": "34002007",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>é levada embora, e as suas sacerdotisas a acompanham chorando</strong></span><strong>&quot;.</strong></p><p>No texto original os pronomes <strong>suas </strong>e <strong>a</strong> referem-se a Nínive. Se isso não está claro para seus leitores, você pode usar o nome. Tradução alternativa: &quot;Nínive é levada para o exílio; Nínive é conduzida, e as servas de Nínive&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">Pronomes — Quando usá-los.</span></p>",
+"content": "<p><span style='direction: rtl;'>גֻּלְּתָ֣ה הֹֽעֲלָ֑תָה וְ⁠אַמְהֹתֶ֗י⁠הָ</span></p><p><strong>&quot;</strong><span><strong>é levada embora, e as suas sacerdotisas a acompanham chorando</strong></span><strong>&quot;.</strong></p><p>No texto original os pronomes <strong>suas </strong>e <strong>a</strong> referem-se a Nínive. Se isso não está claro para seus leitores, você pode usar o nome. Tradução alternativa: &quot;Nínive é levada para o exílio; Nínive é conduzida, e as servas de Nínive&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">Pronomes — Quando usá-los.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4270,7 +4353,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dove"
+}
+]
 }
 },
 {
@@ -4555,7 +4646,7 @@
 "index_reference": "34002009",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Peguem a prata! Levem o ouro! A cidade está cheia de riquezas, há milhares de objetos de valor</strong></span><strong>&quot;.</strong></p><p>A implicação é que estas são as palavras dos atacantes. Você pode incluir esta informação se for útil para seus leitores. Tradução alternativa: &quot;Os atacantes dizem: &quot;Saquem prata, saquem ouro, pois não há fim para o suprimento; uma riqueza de todas as coisas deleitáveis&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>בֹּ֥זּוּ כֶ֖סֶף בֹּ֣זּוּ זָהָ֑ב וְ⁠אֵ֥ין קֵ֨צֶה֙ לַ⁠תְּכוּנָ֔ה כָּבֹ֕ד מִ⁠כֹּ֖ל כְּלִ֥י חֶמְדָּֽה</span></p><p><strong>&quot;</strong><span><strong>Peguem a prata! Levem o ouro! A cidade está cheia de riquezas, há milhares de objetos de valor</strong></span><strong>&quot;.</strong></p><p>A implicação é que estas são as palavras dos atacantes. Você pode incluir esta informação se for útil para seus leitores. Tradução alternativa: &quot;Os atacantes dizem: &quot;Saquem prata, saquem ouro, pois não há fim para o suprimento; uma riqueza de todas as coisas deleitáveis&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4574,7 +4665,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Money"
+}
+]
 }
 },
 {
@@ -4833,7 +4939,7 @@
 "index_reference": "34002011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>O que aconteceu com a cidade que era como uma cova de leões? Ali os leõezinhos recebiam comida; os leões e os seus filhotes viviam seguros, e ninguém os espantava</strong></span><strong>&quot;.</strong></p><p>O autor está usando a forma de pergunta para enfatizar que este lugar desapareceu. Se você não usaria a forma de pergunta para esse propósito em seu idioma, você pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: &quot;Aquela cova dos leões, aquele lugar de alimentação para os leõezinhos, onde o leão caminhava, a leoa ali, e os filhotes do leão, onde nada os assustava — esse lugar desapareceu!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><span style='direction: rtl;'>אַיֵּה֙ מְע֣וֹן אֲרָי֔וֹת וּ⁠מִרְעֶ֥ה ה֖וּא לַ⁠כְּפִרִ֑ים אֲשֶׁ֣ר הָלַךְ֩ אַרְיֵ֨ה לָבִ֥יא שָׁ֛ם גּ֥וּר אַרְיֵ֖ה וְ⁠אֵ֥ין מַחֲרִֽיד</span></p><p><strong>&quot;</strong><span><strong>O que aconteceu com a cidade que era como uma cova de leões? Ali os leõezinhos recebiam comida; os leões e os seus filhotes viviam seguros, e ninguém os espantava</strong></span><strong>&quot;.</strong></p><p>O autor está usando a forma de pergunta para enfatizar que este lugar desapareceu. Se você não usaria a forma de pergunta para esse propósito em seu idioma, você pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: &quot;Aquela cova dos leões, aquele lugar de alimentação para os leõezinhos, onde o leão caminhava, a leoa ali, e os filhotes do leão, onde nada os assustava — esse lugar desapareceu!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4852,7 +4958,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
+}
+]
 }
 },
 {
@@ -4885,18 +5020,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -4906,11 +5041,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -4945,18 +5080,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -4966,11 +5101,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5005,18 +5140,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -5026,11 +5161,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5235,18 +5370,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5295,18 +5430,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5355,18 +5490,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5415,18 +5550,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5475,18 +5610,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5535,18 +5670,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5595,18 +5730,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5721,7 +5856,7 @@
 "index_reference": "34003002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;dos chicotes&quot; — &quot;</strong><span><strong>Aí vêm os cavalos galopando, os carros de guerra vêm correndo</strong></span><strong>&quot;.</strong></p><p>No texto original, neste versículo, as palavras <strong>chicote</strong>, <strong>roda</strong>, <strong>cavalo</strong> e <strong>carruagem</strong> estão no singular, mas cada uma se refere a múltiplos itens como um grupo. Se for útil no seu idioma, você pode expressar isso de forma clara. Tradução alternativa: &quot;chicotes... rodas ruidosas, cavalos galopantes e carruagens saltitantes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">Substantivos coletivos.</span></p>",
+"content": "<p><span style='direction: rtl;'>שׁ֔וֹט &amp; רַ֣עַשׁ אוֹפָ֑ן וְ⁠ס֣וּס דֹּהֵ֔ר וּ⁠מֶרְכָּבָ֖ה מְרַקֵּדָֽה</span></p><p><strong>&quot;dos chicotes&quot; — &quot;</strong><span><strong>Aí vêm os cavalos galopando, os carros de guerra vêm correndo</strong></span><strong>&quot;.</strong></p><p>No texto original, neste versículo, as palavras <strong>chicote</strong>, <strong>roda</strong>, <strong>cavalo</strong> e <strong>carruagem</strong> estão no singular, mas cada uma se refere a múltiplos itens como um grupo. Se for útil no seu idioma, você pode expressar isso de forma clara. Tradução alternativa: &quot;chicotes... rodas ruidosas, cavalos galopantes e carruagens saltitantes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">Substantivos coletivos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5740,7 +5875,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Whip",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Whip"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wagon"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+}
+]
 }
 },
 {
@@ -5752,7 +5916,7 @@
 "index_reference": "34003003",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Os cavaleiros atacam com espadas brilhantes e lanças reluzentes</strong></span><strong>&quot;.</strong></p><p>No texto original, neste versículo, as palavras <strong>cavaleiro</strong>, <strong>espada</strong> e <strong>lança</strong> estão no singular, mas cada uma se refere a múltiplos itens como um grupo. Se for útil em seu idioma, você pode expressar isso de forma clara. Tradução alternativa: &quot;Os cavaleiros em carga e espadas reluzentes e lanças brilhantes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">Substantivos coletivos.</span></p>",
+"content": "<p><span style='direction: rtl;'>פָּרָ֣שׁ מַעֲלֶ֗ה וְ⁠לַ֤הַב חֶ֨רֶב֙ וּ⁠בְרַ֣ק חֲנִ֔ית</span></p><p><strong>&quot;</strong><span><strong>Os cavaleiros atacam com espadas brilhantes e lanças reluzentes</strong></span><strong>&quot;.</strong></p><p>No texto original, neste versículo, as palavras <strong>cavaleiro</strong>, <strong>espada</strong> e <strong>lança</strong> estão no singular, mas cada uma se refere a múltiplos itens como um grupo. Se for útil em seu idioma, você pode expressar isso de forma clara. Tradução alternativa: &quot;Os cavaleiros em carga e espadas reluzentes e lanças brilhantes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">Substantivos coletivos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5771,7 +5935,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
+}
+]
 }
 },
 {
@@ -5783,7 +5962,7 @@
 "index_reference": "34003003",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Os cavaleiros atacam com espadas brilhantes e lanças reluzentes</strong></span><strong>&quot;.</strong></p><p>No texto original, o autor está omitindo algumas das palavras que, em muitas línguas, uma frase precisaria para estar completa. Você pode fornecer essas palavras se for mais claro em seu idioma. Tradução alternativa: &quot;Há cavaleiros atacando, espadas reluzentes e lanças brilhantes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">Elipse. </span></p>",
+"content": "<p><span style='direction: rtl;'>פָּרָ֣שׁ מַעֲלֶ֗ה וְ⁠לַ֤הַב חֶ֨רֶב֙ וּ⁠בְרַ֣ק חֲנִ֔ית</span></p><p><strong>&quot;</strong><span><strong>Os cavaleiros atacam com espadas brilhantes e lanças reluzentes</strong></span><strong>&quot;.</strong></p><p>No texto original, o autor está omitindo algumas das palavras que, em muitas línguas, uma frase precisaria para estar completa. Você pode fornecer essas palavras se for mais claro em seu idioma. Tradução alternativa: &quot;Há cavaleiros atacando, espadas reluzentes e lanças brilhantes&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">Elipse. </span></p>",
 "associations": {
 "passage": [
 {
@@ -5802,7 +5981,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
+}
+]
 }
 },
 {
@@ -5835,18 +6029,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -5881,18 +6075,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -5927,18 +6121,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -6533,7 +6727,7 @@
 "index_reference": "34003008",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>você é melhor do que Tebas, a capital do Egito? Ela também era protegida por um rio: o rio Nilo era como um muro que a defendia</strong></span><strong>&quot;.</strong></p><p>O autor está usando a forma de pergunta para enfatizar que Nínive não é melhor do que Tebas. Se você não usa a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: &quot;Você não é melhor do que Tebas, que estava situada no rio Nilo, cercada por água, cuja defesa era o mar, com água como sua muralha!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠תֵֽיטְבִי֙ מִ⁠נֹּ֣א אָמ֔וֹן הַ⁠יֹּֽשְׁבָה֙ בַּ⁠יְאֹרִ֔ים מַ֖יִם סָבִ֣יב לָ֑⁠הּ אֲשֶׁר־חֵ֣יל יָ֔ם מִ⁠יָּ֖ם חוֹמָתָֽ⁠הּ</span></p><p><strong>&quot;</strong><span><strong>você é melhor do que Tebas, a capital do Egito? Ela também era protegida por um rio: o rio Nilo era como um muro que a defendia</strong></span><strong>&quot;.</strong></p><p>O autor está usando a forma de pergunta para enfatizar que Nínive não é melhor do que Tebas. Se você não usa a forma de pergunta para esse propósito em seu idioma, pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: &quot;Você não é melhor do que Tebas, que estava situada no rio Nilo, cercada por água, cuja defesa era o mar, com água como sua muralha!&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6552,7 +6746,29 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Amon",
+"type": "deity",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Amon"
+},
+{
+"id": "place:Thebes",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Tebas"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rio Nilo"
+}
+]
 }
 },
 {
@@ -6797,18 +7013,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Líbia"
 },
 {
 "id": "place:Put",
@@ -6818,11 +7034,11 @@
 "preferred_label": "Pute"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Líbia"
 }
 ]
 }
@@ -6857,18 +7073,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Líbia"
 },
 {
 "id": "place:Put",
@@ -6878,11 +7094,11 @@
 "preferred_label": "Pute"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Líbia"
 }
 ]
 }
@@ -6917,18 +7133,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Líbia"
 },
 {
 "id": "place:Put",
@@ -6938,11 +7154,11 @@
 "preferred_label": "Pute"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Líbia"
 }
 ]
 }
@@ -6977,18 +7193,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Líbia"
 },
 {
 "id": "place:Put",
@@ -6998,11 +7214,11 @@
 "preferred_label": "Pute"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Líbia"
 }
 ]
 }
@@ -7037,18 +7253,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Líbia"
 },
 {
 "id": "place:Put",
@@ -7058,11 +7274,11 @@
 "preferred_label": "Pute"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Líbia"
 }
 ]
 }
@@ -7097,18 +7313,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Líbia"
 },
 {
 "id": "place:Put",
@@ -7118,11 +7334,11 @@
 "preferred_label": "Pute"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "Líbia"
 }
 ]
 }
@@ -7157,18 +7373,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "being honor and glory on oneself"
 }
 ]
 }
@@ -7203,18 +7419,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "being honor and glory on oneself"
 }
 ]
 }
@@ -7228,7 +7444,7 @@
 "index_reference": "34003010",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>as crianças foram esmagadas</strong></span><strong>&quot;.</strong></p><p>Se o seu idioma não utiliza uma forma passiva como <strong>foram esmagadas</strong>, você pode expressar a ideia de forma ativa ou de outra maneira que seja natural no seu idioma. Tradução alternativa: &quot;seus inimigos esmagaram seus filhos pequenos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
+"content": "<p><span style='direction: rtl;'>עֹלָלֶ֛י⁠הָ יְרֻטְּשׁ֖וּ</span></p><p><strong>&quot;</strong><span><strong>as crianças foram esmagadas</strong></span><strong>&quot;.</strong></p><p>Se o seu idioma não utiliza uma forma passiva como <strong>foram esmagadas</strong>, você pode expressar a ideia de forma ativa ou de outra maneira que seja natural no seu idioma. Tradução alternativa: &quot;seus inimigos esmagaram seus filhos pequenos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">Ativo ou passivo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7247,7 +7463,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "being honor and glory on oneself"
+}
+]
 }
 },
 {
@@ -7280,18 +7511,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "being honor and glory on oneself"
 }
 ]
 }
@@ -7326,18 +7557,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "being honor and glory on oneself"
 }
 ]
 }
@@ -7372,18 +7603,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "being honor and glory on oneself"
 }
 ]
 }
@@ -7514,7 +7745,7 @@
 "index_reference": "34003012",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Todas as suas fortalezas são como figueiras cheias de figos maduros</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: Todas as tuas fortalezas serão como figueiras com seus primeiros frutos. O autor está comparando as <strong>fortalezas</strong> a <strong>figueiras </strong>com <strong>seus primeiros frutos</strong>, pois serão fáceis de capturar, assim como figos maduros são fáceis de colher. Se for útil em seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: &quot;Todas as suas fortalezas serão tão fáceis de capturar quanto figos maduros são de colher&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><span style='direction: rtl;'>כָּ֨ל־מִבְצָרַ֔יִ⁠ךְ תְּאֵנִ֖ים עִם־בִּכּוּרִ֑ים</span></p><p><strong>&quot;</strong><span><strong>Todas as suas fortalezas são como figueiras cheias de figos maduros</strong></span><strong>&quot;.</strong></p><p>Uma tradução literal dirá: Todas as tuas fortalezas serão como figueiras com seus primeiros frutos. O autor está comparando as <strong>fortalezas</strong> a <strong>figueiras </strong>com <strong>seus primeiros frutos</strong>, pois serão fáceis de capturar, assim como figos maduros são fáceis de colher. Se for útil em seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: &quot;Todas as suas fortalezas serão tão fáceis de capturar quanto figos maduros são de colher&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7533,7 +7764,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fig"
+}
+]
 }
 },
 {
@@ -8220,7 +8459,7 @@
 "index_reference": "34003017",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>As suas autoridades e os seus funcionários são como gafanhotos</strong></span><strong>&quot;.</strong></p><p>O autor está dizendo que os guardas e generais são como gafanhotos porque são pouco confiáveis e desleais, assim como os gafanhotos voam quando as condições mudam. Se for útil no seu idioma, você pode afirmar isso explicitamente. Tradução alternativa: &quot;Seus guardas e generais são tão pouco confiáveis e desleais quanto gafanhotos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">Símile. </span></p>",
+"content": "<p><span style='direction: rtl;'>מִנְּזָרַ֨יִ⁠ךְ֙ כָּֽ⁠אַרְבֶּ֔ה וְ⁠טַפְסְרַ֖יִ⁠ךְ כְּ⁠ג֣וֹב גֹּבָ֑י</span></p><p><strong>&quot;</strong><span><strong>As suas autoridades e os seus funcionários são como gafanhotos</strong></span><strong>&quot;.</strong></p><p>O autor está dizendo que os guardas e generais são como gafanhotos porque são pouco confiáveis e desleais, assim como os gafanhotos voam quando as condições mudam. Se for útil no seu idioma, você pode afirmar isso explicitamente. Tradução alternativa: &quot;Seus guardas e generais são tão pouco confiáveis e desleais quanto gafanhotos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">Símile. </span></p>",
 "associations": {
 "passage": [
 {
@@ -8239,7 +8478,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Locust"
+}
+]
 }
 },
 {
@@ -8290,7 +8537,7 @@
 "index_reference": "34003017",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>os seus funcionários são como gafanhotos</strong></span><strong>&quot;.</strong></p><p>No texto original, o autor está omitindo uma palavra que, em muitos idiomas, é necessária para que a frase esteja completa. Você pode fornecer essa palavra se for mais claro em seu idioma. Tradução alternativa: &quot;e seus generais são como um enxame de gafanhotos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">Elipse.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠טַפְסְרַ֖יִ⁠ךְ כְּ⁠ג֣וֹב גֹּבָ֑י</span></p><p><strong>&quot;</strong><span><strong>os seus funcionários são como gafanhotos</strong></span><strong>&quot;.</strong></p><p>No texto original, o autor está omitindo uma palavra que, em muitos idiomas, é necessária para que a frase esteja completa. Você pode fornecer essa palavra se for mais claro em seu idioma. Tradução alternativa: &quot;e seus generais são como um enxame de gafanhotos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">Elipse.</span></p>",
 "associations": {
 "passage": [
 {
@@ -8309,7 +8556,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Locust"
+}
+]
 }
 },
 {
@@ -8388,6 +8643,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8400,13 +8662,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8448,6 +8703,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8460,13 +8722,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8508,6 +8763,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8520,13 +8782,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8568,6 +8823,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8580,13 +8842,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8628,6 +8883,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8640,13 +8902,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8660,7 +8915,7 @@
 "index_reference": "34003019",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Não há remédio para as suas feridas</strong></span><strong>&quot;.</strong></p><p>Uma tradução mais literal dirá: &quot;Não há alívio para sua destruição&quot;<strong>. </strong>Se o seu idioma não utiliza substantivos abstratos para as ideias de <strong>alívio</strong> e <strong>destruição</strong>, você pode expressar essas ideias de outras maneiras. Tradução alternativa: &quot;Ninguém pode te ajudar quando você está destruído&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֵין־כֵּהָ֣ה לְ⁠שִׁבְרֶ֔⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>Não há remédio para as suas feridas</strong></span><strong>&quot;.</strong></p><p>Uma tradução mais literal dirá: &quot;Não há alívio para sua destruição&quot;<strong>. </strong>Se o seu idioma não utiliza substantivos abstratos para as ideias de <strong>alívio</strong> e <strong>destruição</strong>, você pode expressar essas ideias de outras maneiras. Tradução alternativa: &quot;Ninguém pode te ajudar quando você está destruído&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {

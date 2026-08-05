@@ -150,6 +150,13 @@
 "preferred_label": "मोआब"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -162,13 +169,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
 }
 ]
 }
@@ -210,6 +210,13 @@
 "preferred_label": "मोआब"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -222,13 +229,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
 }
 ]
 }
@@ -270,6 +270,13 @@
 "preferred_label": "मोआब"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
@@ -282,13 +289,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
 }
 ]
 }
@@ -323,25 +323,18 @@
 ],
 "acai": [
 {
-"id": "person:Chilion",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "किल्योन"
-},
-{
-"id": "person:Ephrathah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Ephrathah"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "person:Chilion",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "किल्योन"
 },
 {
 "id": "group:Ephrathah",
@@ -351,11 +344,11 @@
 "preferred_label": "एप्राती"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Ephrathah",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "एलीमेलेक"
+"preferred_label": "Ephrathah"
 },
 {
 "id": "person:Mahlon",
@@ -365,22 +358,8 @@
 "preferred_label": "महलोन"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Judah",
-"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
@@ -391,6 +370,27 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
 }
 ]
 }
@@ -404,7 +404,7 @@
 "index_reference": "08001003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसके दोनों पुत्र&quot;</strong></p><p><strong>नाओमी के पास केवल दो पुत्र ही रह गए</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׁאֵ֥ר הִ֖יא וּ⁠שְׁנֵ֥י בָנֶֽי⁠הָ</span></p><p><strong>&quot;उसके दोनों पुत्र&quot;</strong></p><p><strong>नाओमी के पास केवल दो पुत्र ही रह गए</strong></p>",
 "associations": {
 "passage": [
 {
@@ -423,7 +423,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
+}
+]
 }
 },
 {
@@ -435,7 +450,7 @@
 "index_reference": "08001004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;स्त्री ली&quot;</strong></p><p><strong>स्त्री से विवाह</strong>। यह महिलाओं से शादी करने का एक मुहावरा है। वे उन महिलाओं से विवाह नहीं करते थे जो पहले से शादीशुदा थीं।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׂא֣וּ לָ⁠הֶ֗ם נָשִׁים֙</span></p><p><strong>&quot;स्त्री ली&quot;</strong></p><p><strong>स्त्री से विवाह</strong>। यह महिलाओं से शादी करने का एक मुहावरा है। वे उन महिलाओं से विवाह नहीं करते थे जो पहले से शादीशुदा थीं।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -454,7 +469,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Orpah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "ओर्पा"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -466,7 +503,7 @@
 "index_reference": "08001004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p><strong>एक महिला का नाम था ... दूसरी महिला का नाम था</strong></p>",
+"content": "<p><span style='direction: rtl;'>שֵׁ֤ם הָֽ⁠אַחַת֙ עָרְפָּ֔ה וְ⁠שֵׁ֥ם הַ⁠שֵּׁנִ֖ית ר֑וּת</span></p><p><strong>&quot;&quot;</strong></p><p><strong>एक महिला का नाम था ... दूसरी महिला का नाम था</strong></p>",
 "associations": {
 "passage": [
 {
@@ -477,7 +514,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Orpah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "ओर्पा"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -489,7 +548,7 @@
 "index_reference": "08001005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;दोनों पति हो गई&quot;</strong></p><p>नाओमी विधवा थी और उसके दोनों पुत्र मर गए।</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׁאֵר֙ הָֽ⁠אִשָּׁ֔ה מִ⁠שְּׁנֵ֥י יְלָדֶ֖י⁠הָ וּ⁠מֵ⁠אִישָֽׁ⁠הּ</span></p><p><strong>&quot;दोनों पति हो गई&quot;</strong></p><p>नाओमी विधवा थी और उसके दोनों पुत्र मर गए।</p>",
 "associations": {
 "passage": [
 {
@@ -508,7 +567,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Chilion",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "किल्योन"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "महलोन"
+}
+]
 }
 },
 {
@@ -520,7 +594,7 @@
 "index_reference": "08001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>तब वह ...</strong> </span><strong>उस देश से अपनी दोनों बहुओं समेत लौट जाने को चली&quot;</strong></p><p>वाक्य का यह भाग अगले भाग में होने वाली घटनाओं का एक प्रारंभिक सारांश है। यह कहानी की समयरेखा में घटित घटनाओं से सम्बन्धित नहीं है। यदि आपकी भाषा में इस प्रकार के प्रारंभिक सारांश का प्रयोग नहीं है, तो आप इन कार्यों का अनुवाद घटनाओं के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;तब वह ... अपनी दोनों बहुओं समेत लौट जाने की तैयारी करने लगी&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">एक नई घटना का परिचय</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּ֤קָם הִיא֙ וְ⁠כַלֹּתֶ֔י⁠הָ וַ⁠תָּ֖שָׁב</span></p><p><strong>&quot;</strong><span><strong>तब वह ...</strong> </span><strong>उस देश से अपनी दोनों बहुओं समेत लौट जाने को चली&quot;</strong></p><p>वाक्य का यह भाग अगले भाग में होने वाली घटनाओं का एक प्रारंभिक सारांश है। यह कहानी की समयरेखा में घटित घटनाओं से सम्बन्धित नहीं है। यदि आपकी भाषा में इस प्रकार के प्रारंभिक सारांश का प्रयोग नहीं है, तो आप इन कार्यों का अनुवाद घटनाओं के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;तब वह ... अपनी दोनों बहुओं समेत लौट जाने की तैयारी करने लगी&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">एक नई घटना का परिचय</span></p>",
 "associations": {
 "passage": [
 {
@@ -539,7 +613,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -572,18 +668,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Appoint",
@@ -604,7 +700,7 @@
 "index_reference": "08001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;बहुओं&quot;</strong></p><p>जिन महिलाओं ने नाओमी के पुत्रों से शादी की</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠כַלֹּתֶ֔י⁠הָ</span></p><p><strong>&quot;बहुओं&quot;</strong></p><p>जिन महिलाओं ने नाओमी के पुत्रों से शादी की</p>",
 "associations": {
 "passage": [
 {
@@ -615,7 +711,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -627,7 +745,7 @@
 "index_reference": "08001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p>नाओमी ने पहले यह सुना कि यहोवा ने कैसे अपने लोगों की सुधि ली है, और फिर उसने बैतलहम लौटने का निर्णय लिया, इसलिए इस जानकारी को पहले रखना अधिक स्वाभाविक हो सकता है, जैसा कि आई.आर.वी. में है। </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">सूचना संरचना</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֤י שָֽׁמְעָה֙ בִּ⁠שְׂדֵ֣ה מוֹאָ֔ב כִּֽי־פָקַ֤ד יְהוָה֙ אֶת־עַמּ֔⁠וֹ לָ⁠תֵ֥ת לָ⁠הֶ֖ם לָֽחֶם</span></p><p><strong>&quot;&quot;</strong></p><p>नाओमी ने पहले यह सुना कि यहोवा ने कैसे अपने लोगों की सुधि ली है, और फिर उसने बैतलहम लौटने का निर्णय लिया, इसलिए इस जानकारी को पहले रखना अधिक स्वाभाविक हो सकता है, जैसा कि आई.आर.वी. में है। </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">सूचना संरचना</span></p>",
 "associations": {
 "passage": [
 {
@@ -646,7 +764,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -658,7 +798,7 @@
 "index_reference": "08001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;सुनकर&quot;</strong> - <strong>&quot;देश&quot;</strong></p><p>&quot;<strong>जब वह मोआब के देश में ही थी उसने सुना था</strong>l यह अस्पष्ट है कि यह खबर इस्राएल से आई थी। वैकल्पिक अनुवाद: &quot;&quot;उसने मोआब में रहते हुए इस्राएल से आए किसी व्यक्ति से सुना था&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>שָֽׁמְעָה֙ בִּ⁠שְׂדֵ֣ה מוֹאָ֔ב</span></p><p><strong>&quot;सुनकर&quot;</strong> - <strong>&quot;देश&quot;</strong></p><p>&quot;<strong>जब वह मोआब के देश में ही थी उसने सुना था</strong>l यह अस्पष्ट है कि यह खबर इस्राएल से आई थी। वैकल्पिक अनुवाद: &quot;&quot;उसने मोआब में रहते हुए इस्राएल से आए किसी व्यक्ति से सुना था&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -677,7 +817,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+}
+]
 }
 },
 {
@@ -710,18 +872,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Appoint",
@@ -763,18 +925,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मोआब"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Appoint",
@@ -795,7 +957,7 @@
 "index_reference": "08001007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मार्ग लिया&quot;</strong></p><p><strong>और वे मार्ग से चले गए</strong>। मार्ग से हो लेने का अर्थ है मार्ग से पैदल हो लेना।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תֵּלַ֣כְנָה בַ⁠דֶּ֔רֶךְ</span></p><p><strong>&quot;मार्ग लिया&quot;</strong></p><p><strong>और वे मार्ग से चले गए</strong>। मार्ग से हो लेने का अर्थ है मार्ग से पैदल हो लेना।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -806,7 +968,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+}
+]
 }
 },
 {
@@ -818,7 +995,7 @@
 "index_reference": "08001008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;दोनों बहुओं&quot;</strong></p><p><strong>उसके दो पुत्रों की पत्नियाँ</strong> या <strong>उसके दो पुत्रों की विधवाएँ</strong></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠שְׁתֵּ֣י כַלֹּתֶ֔י⁠הָ</span></p><p><strong>&quot;दोनों बहुओं&quot;</strong></p><p><strong>उसके दो पुत्रों की पत्नियाँ</strong> या <strong>उसके दो पुत्रों की विधवाएँ</strong></p>",
 "associations": {
 "passage": [
 {
@@ -829,7 +1006,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -841,7 +1040,7 @@
 "index_reference": "08001008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p>नाओमी दो लोगों से बात कर रही थी, इसलिए जिन भाषाओं में <strong>तुम</strong> का दोहरा रूप होता है, उसकी सारी बातचीत में इसका इस्तेमाल करेंगे।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26731\" data-resourceType=\"UWTranslationManual\">&apos;आप&apos; के रूप</span></p>",
+"content": "<p><span style='direction: rtl;'>לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה</span></p><p><strong>&quot;&quot;</strong></p><p>नाओमी दो लोगों से बात कर रही थी, इसलिए जिन भाषाओं में <strong>तुम</strong> का दोहरा रूप होता है, उसकी सारी बातचीत में इसका इस्तेमाल करेंगे।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26731\" data-resourceType=\"UWTranslationManual\">&apos;आप&apos; के रूप</span></p>",
 "associations": {
 "passage": [
 {
@@ -860,7 +1059,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -872,7 +1093,7 @@
 "index_reference": "08001008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तुम अपने-अपने मायके लौट जाओ&quot;</strong></p><p>यदि यह प्रथा आपके पाठकों को अजीब लगती है, तो आप इसे समझाने के लिए एक पाद टिप्पणी शामिल कर सकते हैं, जैसे: &quot;प्राचीन इब्री लोगों की प्रथा के अनुसार, एक युवा विधवा स्त्री अपने मृत पति के परिवार के साथ रह सकती थी या पुनः विवाह करने तक अपने माता-पिता के साथ रहने के लिए लौट सकती थी&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה לְ⁠בֵ֣ית אִמָּ֑⁠הּ</span></p><p><strong>&quot;तुम अपने-अपने मायके लौट जाओ&quot;</strong></p><p>यदि यह प्रथा आपके पाठकों को अजीब लगती है, तो आप इसे समझाने के लिए एक पाद टिप्पणी शामिल कर सकते हैं, जैसे: &quot;प्राचीन इब्री लोगों की प्रथा के अनुसार, एक युवा विधवा स्त्री अपने मृत पति के परिवार के साथ रह सकती थी या पुनः विवाह करने तक अपने माता-पिता के साथ रहने के लिए लौट सकती थी&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -883,7 +1104,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -895,7 +1138,7 @@
 "index_reference": "08001008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मायके&quot;</strong></p><p><strong>अपनी अपनी माताओं के घर को</strong></p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠בֵ֣ית אִמָּ֑⁠הּ</span></p><p><strong>&quot;मायके&quot;</strong></p><p><strong>अपनी अपनी माताओं के घर को</strong></p>",
 "associations": {
 "passage": [
 {
@@ -906,7 +1149,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -918,7 +1183,7 @@
 "index_reference": "08001008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और जैसे तुम ने उनसे जो मर गए हैं और मुझसे भी प्रीति की है, वैसे ही यहोवा तुम पर कृपा करे&quot;</strong></p><p>नाओमी परमेश्वर से ओर्पा और रूत को आशीष देने के लिए प्रार्थना कर रही है। अपने शब्दों में आशीष के लिए एक स्वाभाविक रूप का उपयोग करें। वैकल्पिक अनुवाद: &quot;मैं प्रार्थना करती हूँ कि यहोवा तुम पर कृपा दिखाएँ जैसे तुम ने उनसे जो मर गए हैं और मुझसे दिखाई है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें </span></p>",
+"content": "<p><span style='direction: rtl;'>יעשה יְהוָ֤ה עִמָּ⁠כֶם֙ חֶ֔סֶד כַּ⁠אֲשֶׁ֧ר עֲשִׂיתֶ֛ם עִם־הַ⁠מֵּתִ֖ים וְ⁠עִמָּדִֽ⁠י</span></p><p><strong>&quot;और जैसे तुम ने उनसे जो मर गए हैं और मुझसे भी प्रीति की है, वैसे ही यहोवा तुम पर कृपा करे&quot;</strong></p><p>नाओमी परमेश्वर से ओर्पा और रूत को आशीष देने के लिए प्रार्थना कर रही है। अपने शब्दों में आशीष के लिए एक स्वाभाविक रूप का उपयोग करें। वैकल्पिक अनुवाद: &quot;मैं प्रार्थना करती हूँ कि यहोवा तुम पर कृपा दिखाएँ जैसे तुम ने उनसे जो मर गए हैं और मुझसे दिखाई है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें </span></p>",
 "associations": {
 "passage": [
 {
@@ -937,7 +1202,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -970,13 +1257,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -989,6 +1269,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -1023,13 +1310,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1042,6 +1322,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -1055,7 +1342,7 @@
 "index_reference": "08001009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा ऐसा करे कि फिर&quot;</strong> - <strong>&quot;के&quot;</strong></p><p><strong>ऐसा हो कि यहोवा तुम्हें दे</strong> या <strong>यहोवा ऐसा करे कि तुम पाओ</strong></p>",
+"content": "<p><span style='direction: rtl;'>יִתֵּ֤ן יְהוָה֙ לָ⁠כֶ֔ם וּ⁠מְצֶ֣אןָ</span></p><p><strong>&quot;यहोवा ऐसा करे कि फिर&quot;</strong> - <strong>&quot;के&quot;</strong></p><p><strong>ऐसा हो कि यहोवा तुम्हें दे</strong> या <strong>यहोवा ऐसा करे कि तुम पाओ</strong></p>",
 "associations": {
 "passage": [
 {
@@ -1074,7 +1361,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1164,7 +1459,7 @@
 "index_reference": "08001009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;चिल्ला चिल्लाकर रोने लगीं&quot;</strong></p><p>चिल्लाना, ऊँची आवाज से बात करने के लिए एक मुहावरा है। बेटियाँ चिल्लाईं या फूट-फूट कर रोईं।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשֶּׂ֥אנָה קוֹלָ֖⁠ן וַ⁠תִּבְכֶּֽינָה</span></p><p><strong>&quot;चिल्ला चिल्लाकर रोने लगीं&quot;</strong></p><p>चिल्लाना, ऊँची आवाज से बात करने के लिए एक मुहावरा है। बेटियाँ चिल्लाईं या फूट-फूट कर रोईं।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -1183,7 +1478,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1288,7 +1591,7 @@
 "index_reference": "08001010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;संग&quot;</strong></p><p>यहाँ <strong>तेरे</strong> शब्द एकवचन है जो नाओमी से सबंधित है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26731\" data-resourceType=\"UWTranslationManual\">&apos;आप&apos; के रूप</span></p>",
+"content": "<p><span style='direction: rtl;'>אִתָּ֥⁠ךְ</span></p><p><strong>&quot;संग&quot;</strong></p><p>यहाँ <strong>तेरे</strong> शब्द एकवचन है जो नाओमी से सबंधित है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26731\" data-resourceType=\"UWTranslationManual\">&apos;आप&apos; के रूप</span></p>",
 "associations": {
 "passage": [
 {
@@ -1428,7 +1731,7 @@
 "index_reference": "08001011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;क्या कोख में और पुत्र हैं&quot;</strong></p><p>&quot;यह एक बयानबाजी प्रश्न है। नाओमी इस प्रश्न का उपयोग यह कहने के लिए करती है कि उनके विवाह के लिए वे अब पुत्रों को जन्म नहीं दे सकती। वैकल्पिक अनुवाद: &quot;&quot;स्पष्ट रूप से यह संभव नहीं है कि मैं और पुत्रों को जन्म दूँ जो तुम्हारे पति हो सकें।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>הַֽ⁠עֽוֹד־לִ֤⁠י בָנִים֙ בְּֽ⁠מֵעַ֔⁠י וְ⁠הָי֥וּ לָ⁠כֶ֖ם לַ⁠אֲנָשִֽׁים</span></p><p><strong>&quot;&quot;क्या कोख में और पुत्र हैं&quot;</strong></p><p>&quot;यह एक बयानबाजी प्रश्न है। नाओमी इस प्रश्न का उपयोग यह कहने के लिए करती है कि उनके विवाह के लिए वे अब पुत्रों को जन्म नहीं दे सकती। वैकल्पिक अनुवाद: &quot;&quot;स्पष्ट रूप से यह संभव नहीं है कि मैं और पुत्रों को जन्म दूँ जो तुम्हारे पति हो सकें।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -1447,7 +1750,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+}
+]
 }
 },
 {
@@ -1498,7 +1809,7 @@
 "index_reference": "08001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;हूँ।&quot;</strong></p><p>&quot;यह बयानबाजी प्रश्न यहाँ से शुरू होकर और अगले पद में जारी रहता है। नाओमी इस प्रश्न का उपयोग यह कहने के लिए करती है कि उस से अब पुत्र नहीं हो सकते जिनसे उनका विवाह हो सके। वैकल्पिक अनुवाद: &quot;&quot;भले ही यह संभव हो कि मुझे आशा है, और आज मेरा पति होता भी, और मेरे पुत्र भी होते ...&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֤י אָמַ֨רְתִּי֙ יֶשׁ־לִ֣⁠י תִקְוָ֔ה גַּ֣ם הָיִ֤יתִי הַ⁠לַּ֨יְלָה֙ לְ⁠אִ֔ישׁ וְ⁠גַ֖ם יָלַ֥דְתִּי בָנִֽים</span></p><p><strong>&quot;&quot;हूँ।&quot;</strong></p><p>&quot;यह बयानबाजी प्रश्न यहाँ से शुरू होकर और अगले पद में जारी रहता है। नाओमी इस प्रश्न का उपयोग यह कहने के लिए करती है कि उस से अब पुत्र नहीं हो सकते जिनसे उनका विवाह हो सके। वैकल्पिक अनुवाद: &quot;&quot;भले ही यह संभव हो कि मुझे आशा है, और आज मेरा पति होता भी, और मेरे पुत्र भी होते ...&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -1517,7 +1828,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
@@ -1529,7 +1848,7 @@
 "index_reference": "08001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मेरे पुत्र भी&quot;</strong></p><p><strong>बच्चों को जन्म देना</strong> या <strong>पुत्रों को जन्म देना</strong></p>",
+"content": "<p><span style='direction: rtl;'>יָלַ֥דְתִּי בָנִֽים</span></p><p><strong>&quot;&quot;मेरे पुत्र भी&quot;</strong></p><p><strong>बच्चों को जन्म देना</strong> या <strong>पुत्रों को जन्म देना</strong></p>",
 "associations": {
 "passage": [
 {
@@ -1540,7 +1859,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
@@ -1552,7 +1879,7 @@
 "index_reference": "08001013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;तो भी क्या&quot;</strong> - <strong>&quot;आशा&quot;</strong> - <strong>&quot;उनके निमित्त पति&quot;</strong></p><p>नाओमी पिछले पद के बयानबाजी सवाल को पूरा करती है, और एक दूसरे सवाल को पूछती है जो सामान अर्थ पर महत्त्व देता है। वैकल्पिक अनुवाद: “ … तुम उनके बड़े होने तक इंतजार नहीं करोगे ताकि तुम उनसे शादी कर सको। इससे पहले ही तुम्हें एक पति से शादी करनी होगी।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠לָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲ⁠לָהֵן֙ תֵּֽעָגֵ֔נָה לְ⁠בִלְתִּ֖י הֱי֣וֹת לְ⁠אִ֑ישׁ</span></p><p><strong>&quot;&quot;तो भी क्या&quot;</strong> - <strong>&quot;आशा&quot;</strong> - <strong>&quot;उनके निमित्त पति&quot;</strong></p><p>नाओमी पिछले पद के बयानबाजी सवाल को पूरा करती है, और एक दूसरे सवाल को पूछती है जो सामान अर्थ पर महत्त्व देता है। वैकल्पिक अनुवाद: “ … तुम उनके बड़े होने तक इंतजार नहीं करोगे ताकि तुम उनसे शादी कर सको। इससे पहले ही तुम्हें एक पति से शादी करनी होगी।”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -1571,7 +1898,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1583,7 +1918,7 @@
 "index_reference": "08001013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;तो भी क्या&quot;</strong> - <strong>&quot;आशा&quot;</strong> - <strong>&quot;उनके निमित्त पति&quot;</strong></p><p>यह नियोग विवाह की प्रथा की ओर संकेत करता है, जिसमें यह उम्मीद की जाती है कि, यदि विवाहित व्यक्ति की मृत्यु हो जाती है, तो उसका एक भाई उस विधवा से शादी करेगा। अधिक स्पष्टीकरण के लिए परिचय देखें।</p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠לָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲ⁠לָהֵן֙ תֵּֽעָגֵ֔נָה לְ⁠בִלְתִּ֖י הֱי֣וֹת לְ⁠אִ֑ישׁ</span></p><p><strong>&quot;&quot;तो भी क्या&quot;</strong> - <strong>&quot;आशा&quot;</strong> - <strong>&quot;उनके निमित्त पति&quot;</strong></p><p>यह नियोग विवाह की प्रथा की ओर संकेत करता है, जिसमें यह उम्मीद की जाती है कि, यदि विवाहित व्यक्ति की मृत्यु हो जाती है, तो उसका एक भाई उस विधवा से शादी करेगा। अधिक स्पष्टीकरण के लिए परिचय देखें।</p>",
 "associations": {
 "passage": [
 {
@@ -1594,7 +1929,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1606,7 +1949,7 @@
 "index_reference": "08001013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मेरा&quot;</strong> - <strong>&quot;बहुत&quot;</strong> - <strong>&quot;उठा&quot;</strong></p><p>&quot;कड़वाहट दु:ख का अलंकार है। वैकल्पिक अनुवाद: &quot;&quot;इस से मुझे बहुत पीड़ा पहुँचती है&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><span style='direction: rtl;'>מַר־לִ֤⁠י מְאֹד֙</span></p><p><strong>&quot;&quot;मेरा&quot;</strong> - <strong>&quot;बहुत&quot;</strong> - <strong>&quot;उठा&quot;</strong></p><p>&quot;कड़वाहट दु:ख का अलंकार है। वैकल्पिक अनुवाद: &quot;&quot;इस से मुझे बहुत पीड़ा पहुँचती है&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -1625,7 +1968,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1676,7 +2027,7 @@
 "index_reference": "08001013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;करने से&quot;</strong> - <strong>&quot;यहोवा&quot;</strong></p><p>&quot;यहोवा ने जो किया है, वह स्पष्ट रूप से कहा जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;यहोवा ने हमारे पतियों को छीन लिया&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>יָצְאָ֥ה בִ֖⁠י יַד־יְהוָֽה</span></p><p><strong>&quot;&quot;करने से&quot;</strong> - <strong>&quot;यहोवा&quot;</strong></p><p>&quot;यहोवा ने जो किया है, वह स्पष्ट रूप से कहा जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;यहोवा ने हमारे पतियों को छीन लिया&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -1695,7 +2046,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -2038,18 +2397,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "रूत"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
 }
 ]
 }
@@ -2063,7 +2422,7 @@
 "index_reference": "08001016",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;लोग लोग&quot;</strong></p><p>&quot;रूत नाओमी के समाज, इस्राएलियों का जिक्र कर रही थी। वैकल्पिक अनुवाद: &quot;&quot;तेरे देश के लोग मेरे अपने लोग होंगे&quot;&quot; या &quot;&quot;मैं तेरे रिश्तेदारों को अपने निज रिश्तेदार मानूंगी&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>עַמֵּ֣⁠ךְ עַמִּ֔⁠י וֵ⁠אלֹהַ֖יִ⁠ךְ אֱלֹהָֽ⁠י</span></p><p><strong>&quot;लोग लोग&quot;</strong></p><p>&quot;रूत नाओमी के समाज, इस्राएलियों का जिक्र कर रही थी। वैकल्पिक अनुवाद: &quot;&quot;तेरे देश के लोग मेरे अपने लोग होंगे&quot;&quot; या &quot;&quot;मैं तेरे रिश्तेदारों को अपने निज रिश्तेदार मानूंगी&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -2082,7 +2441,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -2211,7 +2585,7 @@
 "index_reference": "08001018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;को तैयार&quot;</strong> - <strong>&quot;बात&quot;</strong></p><p><strong>नाओमी ने रूत से उलझना छोड़ दिया</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תֶּחְדַּ֖ל לְ⁠דַבֵּ֥ר אֵלֶֽי⁠הָ</span></p><p><strong>&quot;को तैयार&quot;</strong> - <strong>&quot;बात&quot;</strong></p><p><strong>नाओमी ने रूत से उलझना छोड़ दिया</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2630,7 +3004,7 @@
 "index_reference": "08001021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मैं भरी पूरी चली गई&quot;</strong> - <strong>&quot;खाली यहोवा&quot;</strong> - <strong>&quot;फिर&quot;</strong></p><p>जब नाओमी ने बैतलहम को छोड़ा, तो उसका पति और दो बेटे उसके साथ थे, और वह खुश थी। नाओमी अपने पति और पुत्रों की मौत के लिए यहोवा को दोषी ठहराती है, यह कहते हुए कि उसने बैतलहम को उनके बिना वापस जाने का कारण बना दिया है, और अब वह शोकमय और दुखी है।</p>",
+"content": "<p><span style='direction: rtl;'>אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְ⁠רֵיקָ֖ם הֱשִׁיבַ֣⁠נִי יְהוָ֑ה</span></p><p><strong>&quot;मैं भरी पूरी चली गई&quot;</strong> - <strong>&quot;खाली यहोवा&quot;</strong> - <strong>&quot;फिर&quot;</strong></p><p>जब नाओमी ने बैतलहम को छोड़ा, तो उसका पति और दो बेटे उसके साथ थे, और वह खुश थी। नाओमी अपने पति और पुत्रों की मौत के लिए यहोवा को दोषी ठहराती है, यह कहते हुए कि उसने बैतलहम को उनके बिना वापस जाने का कारण बना दिया है, और अब वह शोकमय और दुखी है।</p>",
 "associations": {
 "passage": [
 {
@@ -2649,7 +3023,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+}
+]
 }
 },
 {
@@ -2707,7 +3096,7 @@
 "index_reference": "08001021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;इसलिए जबकि यहोवा ही ने मेरे विरुद्ध साक्षी दी, और सर्वशक्तिमान ने मुझे दुःख दिया है&quot;</strong></p><p>ये दोनों कथन अलग-अलग शब्दों का उपयोग करके एक ही बात व्यक्त करते हैं कि परमेश्वर ने नाओमी के जीवन को अत्यंत कठिन बना दिया है। दोनों <strong>यहोवा</strong> और <strong>सर्वशक्तिमान</strong> परमेश्वर को संदर्भित करते हैं। यदि आपके पाठकों के लिए यह सहायक हो, तो आप कथनों को इस तरह से जोड़ सकते हैं कि दूसरा कथन कोई नई बात नहीं कह रहा है। वैकल्पिक अनुवाद: &quot;<span>इसलिए जबकि</span> सर्वशक्तिमान परमेश्वर यहोवा ने मेरा विरोध किया है और मेरे साथ बुरा किया है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
+"content": "<p><span style='direction: rtl;'>וַֽ⁠יהוָה֙ עָ֣נָה בִ֔⁠י וְ⁠שַׁדַּ֖י הֵ֥רַֽע לִֽ⁠י</span></p><p><strong>&quot;इसलिए जबकि यहोवा ही ने मेरे विरुद्ध साक्षी दी, और सर्वशक्तिमान ने मुझे दुःख दिया है&quot;</strong></p><p>ये दोनों कथन अलग-अलग शब्दों का उपयोग करके एक ही बात व्यक्त करते हैं कि परमेश्वर ने नाओमी के जीवन को अत्यंत कठिन बना दिया है। दोनों <strong>यहोवा</strong> और <strong>सर्वशक्तिमान</strong> परमेश्वर को संदर्भित करते हैं। यदि आपके पाठकों के लिए यह सहायक हो, तो आप कथनों को इस तरह से जोड़ सकते हैं कि दूसरा कथन कोई नई बात नहीं कह रहा है। वैकल्पिक अनुवाद: &quot;<span>इसलिए जबकि</span> सर्वशक्तिमान परमेश्वर यहोवा ने मेरा विरोध किया है और मेरे साथ बुरा किया है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
 "associations": {
 "passage": [
 {
@@ -2726,7 +3115,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+}
+]
 }
 },
 {
@@ -2784,7 +3188,7 @@
 "index_reference": "08001021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मुझे&quot;</strong> - <strong>&quot;विरुद्ध&quot;</strong></p><p><strong>मुझ पर विपत्ति आने दी</strong> या <strong>मेरे लिए दुर्भाग्य हुआ</strong></p>",
+"content": "<p><span style='direction: rtl;'>הֵ֥רַֽע לִֽ⁠י</span></p><p><strong>&quot;मुझे&quot;</strong> - <strong>&quot;विरुद्ध&quot;</strong></p><p><strong>मुझ पर विपत्ति आने दी</strong> या <strong>मेरे लिए दुर्भाग्य हुआ</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2795,7 +3199,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+}
+]
 }
 },
 {
@@ -2807,7 +3226,7 @@
 "index_reference": "08001022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;नाओमी&quot;</strong></p><p>एक सारांश कथन यहाँ शुरू होता है। अंग्रेजी में यह शब्द **इस प्रकार ** द्वारा अंकित है। यह निर्धारित करें कि आपकी भाषा के चिन्ह/मार्क कैसे निष्कर्ष या सारांश बयान करते हैं और यहाँ इस का पालन करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26831\" data-resourceType=\"UWTranslationManual\">कहानी का अंत</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּ֣שָׁב נָעֳמִ֗י וְ⁠ר֨וּת הַ⁠מּוֹאֲבִיָּ֤ה כַלָּתָ⁠הּ֙ עִמָּ֔⁠הּ הַ⁠שָּׁ֖בָה מִ⁠שְּׂדֵ֣י מוֹאָ֑ב</span></p><p><strong>&quot;&quot;नाओमी&quot;</strong></p><p>एक सारांश कथन यहाँ शुरू होता है। अंग्रेजी में यह शब्द **इस प्रकार ** द्वारा अंकित है। यह निर्धारित करें कि आपकी भाषा के चिन्ह/मार्क कैसे निष्कर्ष या सारांश बयान करते हैं और यहाँ इस का पालन करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26831\" data-resourceType=\"UWTranslationManual\">कहानी का अंत</span></p>",
 "associations": {
 "passage": [
 {
@@ -2826,7 +3245,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बैतलहम"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -2838,7 +3293,7 @@
 "index_reference": "08001022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;वे जौ कटने&quot;</strong></p><p>यह वाक्य पृष्ठभूमि की जानकारी देता है, जिसमें बताया गया कि नाओमी और रूत बैतलहम में उस समय आए थे जब इस्राएली जौ की कटाई कर रहे थे।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠הֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּ⁠תְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים</span></p><p><strong>&quot;&quot;वे जौ कटने&quot;</strong></p><p>यह वाक्य पृष्ठभूमि की जानकारी देता है, जिसमें बताया गया कि नाओमी और रूत बैतलहम में उस समय आए थे जब इस्राएली जौ की कटाई कर रहे थे।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -2857,7 +3312,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बैतलहम"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -2869,7 +3360,7 @@
 "index_reference": "08001022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;जौ कटने&quot;</strong></p><p>&quot;<strong>जौ की फसल</strong>l वाक्यांश <strong>जौ की कटनी</strong> का अनुवाद मौखिक वाक्यांश के साथ किया जा सकता हैl वैकल्पिक अनुवाद: &quot;&quot;जब किसान जौ की फसल की कटनी की शुरुआत करने वाले थे&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">अमूर्त संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>בִּ⁠תְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים</span></p><p><strong>&quot;&quot;जौ कटने&quot;</strong></p><p>&quot;<strong>जौ की फसल</strong>l वाक्यांश <strong>जौ की कटनी</strong> का अनुवाद मौखिक वाक्यांश के साथ किया जा सकता हैl वैकल्पिक अनुवाद: &quot;&quot;जब किसान जौ की फसल की कटनी की शुरुआत करने वाले थे&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">अमूर्त संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -2888,7 +3379,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बैतलहम"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -2938,7 +3465,7 @@
 "index_reference": "08002001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;नाओमी&quot;</strong></p><p>पद 1, बोअज के विषय में पृष्ठभूमि की जानकारी देता है ताकि पाठक समझें कि वह कौन है। आपकी भाषा में पृष्ठभूमि की जानकारी देने का एक विशिष्ट तरीका भी हो सकता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>וּֽ⁠לְ⁠נָעֳמִ֞י מוֹדַ֣ע לְ⁠אִישָׁ֗⁠הּ</span></p><p><strong>&quot;नाओमी&quot;</strong></p><p>पद 1, बोअज के विषय में पृष्ठभूमि की जानकारी देता है ताकि पाठक समझें कि वह कौन है। आपकी भाषा में पृष्ठभूमि की जानकारी देने का एक विशिष्ट तरीका भी हो सकता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -2957,7 +3484,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
+}
+]
 }
 },
 {
@@ -2969,7 +3518,7 @@
 "index_reference": "08002001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;नाओमी&quot;</strong></p><p>यह वाक्य कहानी के अगले भाग का परिचय देता है, जिसमें रूत बोअज से मिलती है। बोअज को कहानी में एक नए प्रतिभागी के रूप में यहां पेश किया गया है। आपकी भाषा में एक कहानी में नई घटनाओं या नए पात्रों को पेश करने का एक विशिष्ट तरीका भी हो सकता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">नए और पुराने प्रतिभागियों का परिचय</span></p>",
+"content": "<p><span style='direction: rtl;'>וּֽ⁠לְ⁠נָעֳמִ֞י מוֹדַ֣ע לְ⁠אִישָׁ֗⁠הּ</span></p><p><strong>&quot;नाओमी&quot;</strong></p><p>यह वाक्य कहानी के अगले भाग का परिचय देता है, जिसमें रूत बोअज से मिलती है। बोअज को कहानी में एक नए प्रतिभागी के रूप में यहां पेश किया गया है। आपकी भाषा में एक कहानी में नई घटनाओं या नए पात्रों को पेश करने का एक विशिष्ट तरीका भी हो सकता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26835\" data-resourceType=\"UWTranslationManual\">नए और पुराने प्रतिभागियों का परिचय</span></p>",
 "associations": {
 "passage": [
 {
@@ -2988,7 +3537,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
+}
+]
 }
 },
 {
@@ -3028,18 +3599,18 @@
 "preferred_label": "बोअज"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "एलीमेलेक"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
 }
 ]
 }
@@ -3081,18 +3652,18 @@
 "preferred_label": "बोअज"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "एलीमेलेक"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
 }
 ]
 }
@@ -3127,6 +3698,20 @@
 ],
 "acai": [
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3139,20 +3724,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
 }
 ]
 }
@@ -3166,7 +3737,7 @@
 "index_reference": "08002002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मोआबिन&quot;</strong></p><p>यह कथन का एक और तरीका है कि महिला मोआब देश या कबीले से थीl</p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠מּוֹאֲבִיָּ֜ה</span></p><p><strong>&quot;मोआबिन&quot;</strong></p><p>यह कथन का एक और तरीका है कि महिला मोआब देश या कबीले से थीl</p>",
 "associations": {
 "passage": [
 {
@@ -3177,7 +3748,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -3210,6 +3810,20 @@
 ],
 "acai": [
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3222,20 +3836,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
 }
 ]
 }
@@ -3270,6 +3870,20 @@
 ],
 "acai": [
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
@@ -3282,20 +3896,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
 }
 ]
 }
@@ -3330,18 +3930,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "एलीमेलेक"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बोअज"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
 },
 {
 "id": "flora:Barley",
@@ -3383,18 +3983,18 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "एलीमेलेक"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बोअज"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
 },
 {
 "id": "flora:Barley",
@@ -3443,11 +4043,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बोअज"
+"preferred_label": "बैतलहम"
 },
 {
 "id": "keyterm:Bless",
@@ -3457,11 +4057,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बैतलहम"
+"preferred_label": "बोअज"
 },
 {
 "id": "flora:Barley",
@@ -3510,11 +4110,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बोअज"
+"preferred_label": "बैतलहम"
 },
 {
 "id": "keyterm:Bless",
@@ -3524,11 +4124,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बैतलहम"
+"preferred_label": "बोअज"
 },
 {
 "id": "flora:Barley",
@@ -3577,11 +4177,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बोअज"
+"preferred_label": "बैतलहम"
 },
 {
 "id": "keyterm:Bless",
@@ -3591,11 +4191,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बैतलहम"
+"preferred_label": "बोअज"
 },
 {
 "id": "flora:Barley",
@@ -3644,11 +4244,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Boaz",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बोअज"
+"preferred_label": "बैतलहम"
 },
 {
 "id": "keyterm:Bless",
@@ -3658,11 +4258,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "person:Boaz",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "बैतलहम"
+"preferred_label": "बोअज"
 },
 {
 "id": "flora:Barley",
@@ -3729,7 +4329,7 @@
 "index_reference": "08002005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;किस की कन्या है&quot;</strong></p><p>उस संस्कृति में, महिलाएं अपने पुरुष रिश्तेदारों के अधिकार के अधीन में थीं। बोअज पूछ रहा था कि रूत का पति या पिता कौन है। उसने नहीं सोचा था कि रूत एक दासी थीl</p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠מִ֖י הַ⁠נַּעֲרָ֥ה הַ⁠זֹּֽאת</span></p><p><strong>&quot;किस की कन्या है&quot;</strong></p><p>उस संस्कृति में, महिलाएं अपने पुरुष रिश्तेदारों के अधिकार के अधीन में थीं। बोअज पूछ रहा था कि रूत का पति या पिता कौन है। उसने नहीं सोचा था कि रूत एक दासी थीl</p>",
 "associations": {
 "passage": [
 {
@@ -3748,7 +4348,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -3781,18 +4396,18 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मोआब"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
 },
 {
 "id": "flora:Barley",
@@ -3813,7 +4428,7 @@
 "index_reference": "08002007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसने कहा था, ‘मुझे लवनेवालों के पीछे-पीछे पूलों के बीच बीनने और बालें बटोरने दे&apos;&quot;</strong></p><p>यदि आपकी भाषा में प्रत्यक्ष उद्धरण के अन्दर प्रत्यक्ष उद्धरण का उपयोग नहीं होता है, तो आप इस दूसरे प्रत्यक्ष उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;उसने मुझ से पूछा कि क्या वह लवनेवालों के पीछे-पीछे पूलों के बीच से बीन सकती और बालें बटोर सकती है&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण </span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תֹּ֗אמֶר אֲלַקֳטָה־נָּא֙ וְ⁠אָסַפְתִּ֣י בָֽ⁠עֳמָרִ֔ים אַחֲרֵ֖י הַ⁠קּוֹצְרִ֑ים</span></p><p><strong>&quot;उसने कहा था, ‘मुझे लवनेवालों के पीछे-पीछे पूलों के बीच बीनने और बालें बटोरने दे&apos;&quot;</strong></p><p>यदि आपकी भाषा में प्रत्यक्ष उद्धरण के अन्दर प्रत्यक्ष उद्धरण का उपयोग नहीं होता है, तो आप इस दूसरे प्रत्यक्ष उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;उसने मुझ से पूछा कि क्या वह लवनेवालों के पीछे-पीछे पूलों के बीच से बीन सकती और बालें बटोर सकती है&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण </span></p>",
 "associations": {
 "passage": [
 {
@@ -3832,7 +4447,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sickle"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "House"
+}
+]
 }
 },
 {
@@ -3865,13 +4502,6 @@
 ],
 "acai": [
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
@@ -3884,6 +4514,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Barley"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -4207,7 +4844,7 @@
 "index_reference": "08002009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;जिस&quot;</strong> - <strong>&quot;जवानों&quot;</strong></p><p>पानी निकालने का अर्थ कुएँ से पानी खींचना या बरतन से पानी लेना।</p>",
+"content": "<p><span style='direction: rtl;'>מֵ⁠אֲשֶׁ֥ר יִשְׁאֲב֖וּ⁠ן הַ⁠נְּעָרִֽים</span></p><p><strong>&quot;&quot;जिस&quot;</strong> - <strong>&quot;जवानों&quot;</strong></p><p>पानी निकालने का अर्थ कुएँ से पानी खींचना या बरतन से पानी लेना।</p>",
 "associations": {
 "passage": [
 {
@@ -4218,7 +4855,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -4230,7 +4875,7 @@
 "index_reference": "08002010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;भूमि झुककर मुँह&quot;</strong></p><p>ये एक क्रिया के दो उल्लेख हैं। यदि यह आपकी भाषा में भ्रमित है, तो केवल एक विवरण का उपयोग करें, जैसे कि यू एस टी में किया गया है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-युग्म\" data-resourceType=\"UWTranslationManual\">युग्म</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּפֹּל֙ עַל־פָּנֶ֔י⁠הָ וַ⁠תִּשְׁתַּ֖חוּ אָ֑רְצָ⁠ה</span></p><p><strong>&quot;&quot;भूमि झुककर मुँह&quot;</strong></p><p>ये एक क्रिया के दो उल्लेख हैं। यदि यह आपकी भाषा में भ्रमित है, तो केवल एक विवरण का उपयोग करें, जैसे कि यू एस टी में किया गया है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-युग्म\" data-resourceType=\"UWTranslationManual\">युग्म</span></p>",
 "associations": {
 "passage": [
 {
@@ -4249,7 +4894,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4300,7 +4953,7 @@
 "index_reference": "08002010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मुँह&quot;</strong></p><p>यह एक मुहावरा है जिसका अर्थ है कि वह मुँह के बल भूमि पर झुकी।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּפֹּל֙ עַל־פָּנֶ֔י⁠הָ וַ⁠תִּשְׁתַּ֖חוּ אָ֑רְצָ⁠ה</span></p><p><strong>&quot;&quot;मुँह&quot;</strong></p><p>यह एक मुहावरा है जिसका अर्थ है कि वह मुँह के बल भूमि पर झुकी।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -4319,7 +4972,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4331,7 +4992,7 @@
 "index_reference": "08002010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;क्या&quot;</strong> - <strong>&quot;अनुग्रह&quot;</strong></p><p>रूत एक वास्तविक प्रश्न पूछ रही है।</p>",
+"content": "<p><span style='direction: rtl;'>מַדּוּעַ֩ מָצָ֨אתִי חֵ֤ן בְּ⁠עֵינֶ֨י⁠ךָ֙ לְ⁠הַכִּירֵ֔⁠נִי וְ⁠אָּנֹכִ֖י נָכְרִיָּֽה</span></p><p><strong>&quot;&quot;क्या&quot;</strong> - <strong>&quot;अनुग्रह&quot;</strong></p><p>रूत एक वास्तविक प्रश्न पूछ रही है।</p>",
 "associations": {
 "passage": [
 {
@@ -4350,7 +5011,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4624,18 +5293,18 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -4677,18 +5346,18 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -4730,18 +5399,18 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -4833,7 +5502,7 @@
 "index_reference": "08002013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तूने अपनी दासी के मन में&quot;</strong></p><p>रूत अपने बारे में तृतीय पुरुष में बोल रही हैं। यदि यह आपकी भाषा में स्वाभाविक नहीं है, तो आप प्रथम पुरुष के रूप उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;मुझ, अपनी दासी के मन में&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">प्रथम, द्वितीय या तृतीय पुरुष</span></p>",
+"content": "<p><span style='direction: rtl;'>עַל־לֵ֣ב שִׁפְחָתֶ֑⁠ךָ</span></p><p><strong>&quot;तूने अपनी दासी के मन में&quot;</strong></p><p>रूत अपने बारे में तृतीय पुरुष में बोल रही हैं। यदि यह आपकी भाषा में स्वाभाविक नहीं है, तो आप प्रथम पुरुष के रूप उपयोग कर सकते हैं। वैकल्पिक अनुवाद: &quot;मुझ, अपनी दासी के मन में&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">प्रथम, द्वितीय या तृतीय पुरुष</span></p>",
 "associations": {
 "passage": [
 {
@@ -4852,7 +5521,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4981,7 +5658,7 @@
 "index_reference": "08002014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;समय&quot;</strong> - <strong>&quot;रोटी&quot;</strong></p><p>यह दोपहर के भोजन का संकेत देता है।</p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠עֵ֣ת הָ⁠אֹ֗כֶל</span></p><p><strong>&quot;समय&quot;</strong> - <strong>&quot;रोटी&quot;</strong></p><p>यह दोपहर के भोजन का संकेत देता है।</p>",
 "associations": {
 "passage": [
 {
@@ -4992,7 +5669,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -5004,7 +5696,7 @@
 "index_reference": "08002014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहीं आकर रोटी खा, और अपना कौर सिरके में डूबा&quot;</strong></p><p>इस वाक्य में क्रियाएँ आज्ञासूचक हैं जो आज्ञा के बजाय एक अनुग्रहपूर्ण आमंत्रण का बोध कराती हैं। अपनी भाषा में ऐसे रूप का प्रयोग करें जो अनुग्रहपूर्ण आमंत्रण का बोध कराता हो। इसे स्पष्ट करने के लिए &quot;कृपया&quot; जैसे वाक्यांश जोड़ना उपयोगी हो सकता है। वैकल्पिक अनुवाद: &quot;कृपया आइए और रोटी लेकर उसे सिरके में डुबोकर खाइए&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26698\" data-resourceType=\"UWTranslationManual\">आज्ञाएँ — अन्य उपयोग</span></p>",
+"content": "<p><span style='direction: rtl;'>גֹּ֤שִֽׁי הֲלֹם֙ וְ⁠אָכַ֣לְתְּ מִן־הַ⁠לֶּ֔חֶם וְ⁠טָבַ֥לְתְּ פִּתֵּ֖⁠ךְ בַּ⁠חֹ֑מֶץ</span></p><p><strong>&quot;यहीं आकर रोटी खा, और अपना कौर सिरके में डूबा&quot;</strong></p><p>इस वाक्य में क्रियाएँ आज्ञासूचक हैं जो आज्ञा के बजाय एक अनुग्रहपूर्ण आमंत्रण का बोध कराती हैं। अपनी भाषा में ऐसे रूप का प्रयोग करें जो अनुग्रहपूर्ण आमंत्रण का बोध कराता हो। इसे स्पष्ट करने के लिए &quot;कृपया&quot; जैसे वाक्यांश जोड़ना उपयोगी हो सकता है। वैकल्पिक अनुवाद: &quot;कृपया आइए और रोटी लेकर उसे सिरके में डुबोकर खाइए&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26698\" data-resourceType=\"UWTranslationManual\">आज्ञाएँ — अन्य उपयोग</span></p>",
 "associations": {
 "passage": [
 {
@@ -5023,7 +5715,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -5035,7 +5742,7 @@
 "index_reference": "08002014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;रोटी खा, और अपना कौर सिरके में डूबा&quot;</strong></p><p>रोटी को <span>सिरके में</span> डुबोना और फिर उसे खाना आवश्यक होगा, इसलिए यह आपकी भाषा में अधिक स्वाभाविक हो सकता है कि रोटी को डूबाने की जानकारी पहले दी जाए। वैकल्पिक अनुवाद: &quot;इस रोटी में से कुछ को सिरके में डुबोकर खा&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">सूचना संरचना</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠אָכַ֣לְתְּ מִן־הַ⁠לֶּ֔חֶם וְ⁠טָבַ֥לְתְּ פִּתֵּ֖⁠ךְ בַּ⁠חֹ֑מֶץ</span></p><p><strong>&quot;रोटी खा, और अपना कौर सिरके में डूबा&quot;</strong></p><p>रोटी को <span>सिरके में</span> डुबोना और फिर उसे खाना आवश्यक होगा, इसलिए यह आपकी भाषा में अधिक स्वाभाविक हो सकता है कि रोटी को डूबाने की जानकारी पहले दी जाए। वैकल्पिक अनुवाद: &quot;इस रोटी में से कुछ को सिरके में डुबोकर खा&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">सूचना संरचना</span></p>",
 "associations": {
 "passage": [
 {
@@ -5054,7 +5761,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -5278,7 +6000,7 @@
 "index_reference": "08002016",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसे डाँटना मत&quot;</strong></p><p><strong>उसे शर्मिंदा ना करो</strong> या <strong>उस के साथ रूखेपन से ना बोलो</strong></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹ֥א תִגְעֲרוּ־בָֽ⁠הּ</span></p><p><strong>&quot;उसे डाँटना मत&quot;</strong></p><p><strong>उसे शर्मिंदा ना करो</strong> या <strong>उस के साथ रूखेपन से ना बोलो</strong></p>",
 "associations": {
 "passage": [
 {
@@ -5385,7 +6107,7 @@
 "index_reference": "08002018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;उठाकर नगर&quot;</strong></p><p>यह अस्पष्ट है कि रूथ अनाज लेकर घर चली गई।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּשָּׂא֙ וַ⁠תָּב֣וֹא הָ⁠עִ֔יר</span></p><p><strong>&quot;&quot;उठाकर नगर&quot;</strong></p><p>यह अस्पष्ट है कि रूथ अनाज लेकर घर चली गई।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -5437,18 +6159,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "बोअज"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
 }
 ]
 }
@@ -5462,7 +6184,7 @@
 "index_reference": "08002019",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;धन्य वह हो जिसने तेरी सुधि ली है&quot;</strong></p><p>नाओमी परमेश्वर से बोअज को आशीष देने की प्रार्थना कर रही है। आप इसे आशीष या प्रार्थना के रूप में व्यक्त कर सकते हैं। अपनी भाषा में जो भी अधिक स्वाभाविक लगे, उसका उपयोग करें। वैकल्पिक अनुवाद: &quot;हे परमेश्वर, जिसने आज रूत की सुधि ली है, उसे आशीष दें&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהִ֥י מַכִּירֵ֖⁠ךְ בָּר֑וּךְ</span></p><p><strong>&quot;धन्य वह हो जिसने तेरी सुधि ली है&quot;</strong></p><p>नाओमी परमेश्वर से बोअज को आशीष देने की प्रार्थना कर रही है। आप इसे आशीष या प्रार्थना के रूप में व्यक्त कर सकते हैं। अपनी भाषा में जो भी अधिक स्वाभाविक लगे, उसका उपयोग करें। वैकल्पिक अनुवाद: &quot;हे परमेश्वर, जिसने आज रूत की सुधि ली है, उसे आशीष दें&quot; </p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें</span></p>",
 "associations": {
 "passage": [
 {
@@ -5481,7 +6203,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -5493,7 +6230,7 @@
 "index_reference": "08002019",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;धन्य वह हो जिसने तेरी सुधि ली है&quot;</strong></p><p>यदि आपकी भाषा इस निष्क्रिय रूप का उपयोग नहीं करती है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य तरीके से व्यक्त कर सकते हैं जो स्वाभाविक है। वैकल्पिक अनुवाद: &quot;जिसने तेरी सुधि ली है, परमेश्वर उसे आशीष दें&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהִ֥י מַכִּירֵ֖⁠ךְ בָּר֑וּךְ</span></p><p><strong>&quot;धन्य वह हो जिसने तेरी सुधि ली है&quot;</strong></p><p>यदि आपकी भाषा इस निष्क्रिय रूप का उपयोग नहीं करती है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य तरीके से व्यक्त कर सकते हैं जो स्वाभाविक है। वैकल्पिक अनुवाद: &quot;जिसने तेरी सुधि ली है, परमेश्वर उसे आशीष दें&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
 "associations": {
 "passage": [
 {
@@ -5512,7 +6249,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -5545,18 +6297,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "बोअज"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
 }
 ]
 }
@@ -5570,7 +6322,7 @@
 "index_reference": "08002019",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तब उसने अपनी सास को बता दिया, कि मैंने किसके पास काम किया, और कहा, “जिस पुरुष के पास मैंने आज काम किया उसका नाम बोअज है&quot;</strong></p><p>इन दोनों वाक्यों का मूलतः एक ही अर्थ है। दूसरा वाक्य पहले वाक्य के अर्थ को दोहराता है, जबकि कहानी के लिए इस जानकारी के महत्व पर ज़ोर देने के लिए अलग-अलग शब्दों का प्रयोग किया गया है। अगर यह आपके पाठकों के लिए उपयोगी हो, तो आप वाक्यों को एक साथ जोड़ सकते हैं या उन्हें इस तरह से जोड़ सकते हैं जिससे लगे कि दूसरा वाक्य पहले वाक्य को दोहरा रहा है, कुछ अतिरिक्त नहीं कह रहा है। वैकल्पिक अनुवाद: &quot;तब उसने अपनी सास को बता दिया कि उस दिन उसने जिस पुरुष के पास काम किया था उसका नाम बोअज था&quot; या &quot;फिर उसने अपनी सास को बता दिया कि उसने किसके पास काम किया था। उसने कहा, &quot;आज मैंने जिस पुरुष के पास काम किया उसका नाम बोअज है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תַּגֵּ֣ד לַ⁠חֲמוֹתָ֗⁠הּ אֵ֤ת אֲשֶׁר־עָשְׂתָה֙ עִמּ֔⁠וֹ וַ⁠תֹּ֗אמֶר שֵׁ֤ם הָ⁠אִישׁ֙ אֲשֶׁ֨ר עָשִׂ֧יתִי עִמּ֛⁠וֹ הַ⁠יּ֖וֹם בֹּֽעַז</span></p><p><strong>&quot;तब उसने अपनी सास को बता दिया, कि मैंने किसके पास काम किया, और कहा, “जिस पुरुष के पास मैंने आज काम किया उसका नाम बोअज है&quot;</strong></p><p>इन दोनों वाक्यों का मूलतः एक ही अर्थ है। दूसरा वाक्य पहले वाक्य के अर्थ को दोहराता है, जबकि कहानी के लिए इस जानकारी के महत्व पर ज़ोर देने के लिए अलग-अलग शब्दों का प्रयोग किया गया है। अगर यह आपके पाठकों के लिए उपयोगी हो, तो आप वाक्यों को एक साथ जोड़ सकते हैं या उन्हें इस तरह से जोड़ सकते हैं जिससे लगे कि दूसरा वाक्य पहले वाक्य को दोहरा रहा है, कुछ अतिरिक्त नहीं कह रहा है। वैकल्पिक अनुवाद: &quot;तब उसने अपनी सास को बता दिया कि उस दिन उसने जिस पुरुष के पास काम किया था उसका नाम बोअज था&quot; या &quot;फिर उसने अपनी सास को बता दिया कि उसने किसके पास काम किया था। उसने कहा, &quot;आज मैंने जिस पुरुष के पास काम किया उसका नाम बोअज है।&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
 "associations": {
 "passage": [
 {
@@ -5589,7 +6341,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -5622,18 +6389,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5643,11 +6410,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5682,18 +6449,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5703,11 +6470,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5742,18 +6509,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5763,11 +6530,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5802,18 +6569,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5823,11 +6590,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5862,18 +6629,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5883,11 +6650,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5922,18 +6689,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -5943,11 +6710,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -5982,18 +6749,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -6003,11 +6770,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -6034,18 +6801,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Naomi",
@@ -6055,11 +6822,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -6094,18 +6861,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "रूत"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
 }
 ]
 }
@@ -6119,7 +6886,7 @@
 "index_reference": "08002021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>“उसने मुझसे यह भी कहा, ‘जब तक मेरे सेवक मेरी सारी कटनी पूरी न कर चुकें तब तक उन्हीं के संग-संग लगी रह&quot;</strong></p><p>यदि आपकी भाषा में प्रत्यक्ष उद्धरण के अंदर प्रत्यक्ष उद्धरण का उपयोग नहीं होता है, तो आप दूसरे प्रत्यक्ष उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;उसने कहा कि मुझे उसके सेवकों के संग-संग रहना चाहिए जब तक कि वे उसकी सारी कटनी पूरी न कर चुकें&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण </span></p>",
+"content": "<p><span style='direction: rtl;'>אָמַ֣ר אֵלַ֗⁠י עִם־הַ⁠נְּעָרִ֤ים אֲשֶׁר־לִ⁠י֙ תִּדְבָּקִ֔י⁠ן עַ֣ד אִם־כִּלּ֔וּ אֵ֥ת כָּל־הַ⁠קָּצִ֖יר אֲשֶׁר־לִֽ⁠י</span></p><p><strong>“उसने मुझसे यह भी कहा, ‘जब तक मेरे सेवक मेरी सारी कटनी पूरी न कर चुकें तब तक उन्हीं के संग-संग लगी रह&quot;</strong></p><p>यदि आपकी भाषा में प्रत्यक्ष उद्धरण के अंदर प्रत्यक्ष उद्धरण का उपयोग नहीं होता है, तो आप दूसरे प्रत्यक्ष उद्धरण का अनुवाद अप्रत्यक्ष उद्धरण के रूप में कर सकते हैं। वैकल्पिक अनुवाद: &quot;उसने कहा कि मुझे उसके सेवकों के संग-संग रहना चाहिए जब तक कि वे उसकी सारी कटनी पूरी न कर चुकें&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण </span></p>",
 "associations": {
 "passage": [
 {
@@ -6138,7 +6905,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -6150,7 +6932,7 @@
 "index_reference": "08002021",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसने यह&quot;</strong> - <strong>&quot;सेवक&quot;</strong> - <strong>&quot;उन्हीं के संग&quot;</strong></p><p>बोअज यकीन दिला रहा था कि उसके सेवक रूत को कुछ हानि नहीं पहुँचाएगे।</p>",
+"content": "<p><span style='direction: rtl;'>עִם־הַ⁠נְּעָרִ֤ים אֲשֶׁר־לִ⁠י֙ תִּדְבָּקִ֔י⁠ן</span></p><p><strong>&quot;उसने यह&quot;</strong> - <strong>&quot;सेवक&quot;</strong> - <strong>&quot;उन्हीं के संग&quot;</strong></p><p>बोअज यकीन दिला रहा था कि उसके सेवक रूत को कुछ हानि नहीं पहुँचाएगे।</p>",
 "associations": {
 "passage": [
 {
@@ -6169,7 +6951,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -6181,7 +6978,7 @@
 "index_reference": "08002022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;अपनी&quot;</strong> - <strong>&quot;जाया&quot;</strong></p><p><strong>तू साथ जाया कर</strong></p>",
+"content": "<p><span style='direction: rtl;'>תֵֽצְאִי֙ עִם</span></p><p><strong>&quot;&quot;अपनी&quot;</strong> - <strong>&quot;जाया&quot;</strong></p><p><strong>तू साथ जाया कर</strong></p>",
 "associations": {
 "passage": [
 {
@@ -6192,7 +6989,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -6204,7 +7016,7 @@
 "index_reference": "08002022",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;वे तुझको&quot;</strong> - <strong>&quot;न&quot;</strong></p><p>संभावित अर्थ 1) अन्य मजदूर रूत से दुर्व्यवहार कर सकते हैं या उसके साथ बलात्कार की कोशिश कर सकते हैं या 2) दूसरे खेत में, मालिक हस्तक्षेप कर सकते हैं या उसे कटाई करते समय बीनने से रोक सकते हैं।</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹ֥א יִפְגְּעוּ־בָ֖⁠ךְ</span></p><p><strong>&quot;वे तुझको&quot;</strong> - <strong>&quot;न&quot;</strong></p><p>संभावित अर्थ 1) अन्य मजदूर रूत से दुर्व्यवहार कर सकते हैं या उसके साथ बलात्कार की कोशिश कर सकते हैं या 2) दूसरे खेत में, मालिक हस्तक्षेप कर सकते हैं या उसे कटाई करते समय बीनने से रोक सकते हैं।</p>",
 "associations": {
 "passage": [
 {
@@ -6223,7 +7035,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -6288,7 +7115,7 @@
 "index_reference": "08002023",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;जौ और गेहूँ दोनों की कटनी के अन्त तक&quot;</strong></p><p>यदि आपकी भाषा इस निष्क्रिय रूप का उपयोग नहीं करती है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य तरीके से व्यक्त कर सकते हैं जो स्वाभाविक है। वैकल्पिक अनुवाद: &quot;जब तक बोअज के सेवकों ने सारे जौ और गेहूँ की कटनी पूरी न कर ली&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
+"content": "<p><span style='direction: rtl;'>עַד־כְּל֥וֹת קְצִֽיר־הַ⁠שְּׂעֹרִ֖ים וּ⁠קְצִ֣יר הַֽ⁠חִטִּ֑ים</span></p><p><strong>&quot;जौ और गेहूँ दोनों की कटनी के अन्त तक&quot;</strong></p><p>यदि आपकी भाषा इस निष्क्रिय रूप का उपयोग नहीं करती है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य तरीके से व्यक्त कर सकते हैं जो स्वाभाविक है। वैकल्पिक अनुवाद: &quot;जब तक बोअज के सेवकों ने सारे जौ और गेहूँ की कटनी पूरी न कर ली&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
 "associations": {
 "passage": [
 {
@@ -6307,7 +7134,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+}
+]
 }
 },
 {
@@ -6467,7 +7316,7 @@
 "index_reference": "08003001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसकी सास&quot;</strong></p><p>इस पद में, <strong>उसकी</strong> रूत को संदर्भित करता है। वैकल्पिक अनुवाद: &quot;रूत की सास&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">सर्वनाम</span></p>",
+"content": "<p><span style='direction: rtl;'>חֲמוֹתָ֑⁠הּ</span></p><p><strong>&quot;उसकी सास&quot;</strong></p><p>इस पद में, <strong>उसकी</strong> रूत को संदर्भित करता है। वैकल्पिक अनुवाद: &quot;रूत की सास&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26718\" data-resourceType=\"UWTranslationManual\">सर्वनाम</span></p>",
 "associations": {
 "passage": [
 {
@@ -6486,7 +7335,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+}
+]
 }
 },
 {
@@ -6643,18 +7500,18 @@
 "preferred_label": "बोअज"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6668,7 +7525,7 @@
 "index_reference": "08003002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;बोअज&quot;</strong> - <strong>&quot;कुटुम्बी नहीं&quot;</strong></p><p>&quot;नाओमी ने इस सवाल का इस्तेमाल रूत को याद दिलाने के लिए किया, जो उसने पहले ही उसे बता दिया था (देखें 2:20), जो वह कहने वाली है उसका कारण। वैकल्पिक अनुवाद: &quot;&quot;जैसा कि तू जानती है कि बोअज हमारा कुटुम्बी हैं।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠לֹ֥א בֹ֨עַז֙ מֹֽדַעְתָּ֔⁠נוּ אֲשֶׁ֥ר הָיִ֖ית אֶת־נַעֲרוֹתָ֑י⁠ו</span></p><p><strong>&quot;बोअज&quot;</strong> - <strong>&quot;कुटुम्बी नहीं&quot;</strong></p><p>&quot;नाओमी ने इस सवाल का इस्तेमाल रूत को याद दिलाने के लिए किया, जो उसने पहले ही उसे बता दिया था (देखें 2:20), जो वह कहने वाली है उसका कारण। वैकल्पिक अनुवाद: &quot;&quot;जैसा कि तू जानती है कि बोअज हमारा कुटुम्बी हैं।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -6687,7 +7544,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -6699,7 +7578,7 @@
 "index_reference": "08003002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;दासियों&quot;</strong></p><p>&quot;यदि यह समझने में आता है तो अनुवाद स्पष्ट कर सकता है कि वह इन दासियों के साथ खेतों में काम कर रही थी। वैकल्पिक अनुवाद: &quot;&quot;खेतों में तेरे साथ काम करने वाली महिलायें&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲשֶׁ֥ר הָיִ֖ית אֶת־נַעֲרוֹתָ֑י⁠ו</span></p><p><strong>&quot;&quot;दासियों&quot;</strong></p><p>&quot;यदि यह समझने में आता है तो अनुवाद स्पष्ट कर सकता है कि वह इन दासियों के साथ खेतों में काम कर रही थी। वैकल्पिक अनुवाद: &quot;&quot;खेतों में तेरे साथ काम करने वाली महिलायें&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -6718,7 +7597,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -6758,18 +7659,18 @@
 "preferred_label": "बोअज"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -6783,7 +7684,7 @@
 "index_reference": "08003003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तेल लगा&quot;</strong></p><p>यह शायद एक तरह से इत्र की किस्म के सुगंधी वाले तेल को अपने बदन पर मलने का संदर्भ है।</p>",
+"content": "<p><span style='direction: rtl;'>וָ⁠סַ֗כְתְּ</span></p><p><strong>&quot;तेल लगा&quot;</strong></p><p>यह शायद एक तरह से इत्र की किस्म के सुगंधी वाले तेल को अपने बदन पर मलने का संदर्भ है।</p>",
 "associations": {
 "passage": [
 {
@@ -6794,7 +7695,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+}
+]
 }
 },
 {
@@ -6969,7 +7878,7 @@
 "index_reference": "08003004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तू&quot;</strong> - <strong>&quot;भीतर उसके&quot;</strong> - <strong>&quot;तुझे क्या करना&quot;</strong></p><p>उस समय का विशिष्ट रिवाज़ अस्पष्ट है, लेकिन नाओमी का ऐसा मानना है कि बोअज रूत की कार्रवाई को शादी के प्रस्ताव के रूप में समझेगा। तब बोअज उसके प्रस्ताव को स्वीकार या अस्वीकार कर देगा।</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠הוּא֙ יַגִּ֣יד לָ֔⁠ךְ אֵ֖ת אֲשֶׁ֥ר תַּעַשִֽׂי⁠ן</span></p><p><strong>&quot;तू&quot;</strong> - <strong>&quot;भीतर उसके&quot;</strong> - <strong>&quot;तुझे क्या करना&quot;</strong></p><p>उस समय का विशिष्ट रिवाज़ अस्पष्ट है, लेकिन नाओमी का ऐसा मानना है कि बोअज रूत की कार्रवाई को शादी के प्रस्ताव के रूप में समझेगा। तब बोअज उसके प्रस्ताव को स्वीकार या अस्वीकार कर देगा।</p>",
 "associations": {
 "passage": [
 {
@@ -7015,7 +7924,7 @@
 "index_reference": "08003006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;वह&quot;</strong> - <strong>&quot;अपनी सास&quot;</strong></p><p>यह कथन क्रियाओं को संक्षेप में बताता है कि जो रूत पद 7 में करेगी। यदि लोग इस बात को समझते हैं कि रूत ने इन क्रियाओं को पद 6 में किया है और फिर उन्हें पद 7 में फिर से किया है, तो आप इस वाक्य को इस रीति से अनुवाद कर सकते हैं <strong>और उसने अपनी सास की बात मानी</strong>। या यदि यह घटनाओं के क्रम को अधिक स्पष्ट कर दे, तो आप इस वाक्य को पद 7 के आखिर में ले जा सकते हैं, फिर पद संख्याओं को (6–7) में संयोजित करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26683\" data-resourceType=\"UWTranslationManual\">घटनाओं का क्रम</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תַּ֕עַשׂ כְּ⁠כֹ֥ל אֲשֶׁר־צִוַּ֖תָּ⁠ה חֲמוֹתָֽ⁠הּ</span></p><p><strong>&quot;&quot;वह&quot;</strong> - <strong>&quot;अपनी सास&quot;</strong></p><p>यह कथन क्रियाओं को संक्षेप में बताता है कि जो रूत पद 7 में करेगी। यदि लोग इस बात को समझते हैं कि रूत ने इन क्रियाओं को पद 6 में किया है और फिर उन्हें पद 7 में फिर से किया है, तो आप इस वाक्य को इस रीति से अनुवाद कर सकते हैं <strong>और उसने अपनी सास की बात मानी</strong>। या यदि यह घटनाओं के क्रम को अधिक स्पष्ट कर दे, तो आप इस वाक्य को पद 7 के आखिर में ले जा सकते हैं, फिर पद संख्याओं को (6–7) में संयोजित करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26683\" data-resourceType=\"UWTranslationManual\">घटनाओं का क्रम</span></p>",
 "associations": {
 "passage": [
 {
@@ -7034,7 +7943,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+}
+]
 }
 },
 {
@@ -7085,7 +8002,7 @@
 "index_reference": "08003007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;गई&quot;</strong></p><p><strong>फिर वह चुपचाप भीतर गई</strong> या <strong>फिर वह चुपचाप अंदर गई ताकि किसी को मालूम ना हो</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּבֹ֣א בַ⁠לָּ֔ט</span></p><p><strong>&quot;गई&quot;</strong></p><p><strong>फिर वह चुपचाप भीतर गई</strong> या <strong>फिर वह चुपचाप अंदर गई ताकि किसी को मालूम ना हो</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7096,7 +8013,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -7108,7 +8033,7 @@
 "index_reference": "08003007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;पाँव उघाड़&quot;</strong></p><p><strong>और उसकी टांगों से चादर को हटा दिया</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תְּגַ֥ל מַרְגְּלֹתָ֖י⁠ו</span></p><p><strong>&quot;पाँव उघाड़&quot;</strong></p><p><strong>और उसकी टांगों से चादर को हटा दिया</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7127,7 +8052,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -7139,7 +8072,7 @@
 "index_reference": "08003008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;आधी रात&quot;</strong></p><p>यह खंड कहानी में एक नई घटना का परिचय देता है, जिसमें बताया गया है कि जब बोआज जाग गया।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">नए घटनाक्रम का परिचय</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִי֙ בַּ⁠חֲצִ֣י הַ⁠לַּ֔יְלָה</span></p><p><strong>&quot;&quot;आधी रात&quot;</strong></p><p>यह खंड कहानी में एक नई घटना का परिचय देता है, जिसमें बताया गया है कि जब बोआज जाग गया।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">नए घटनाक्रम का परिचय</span></p>",
 "associations": {
 "passage": [
 {
@@ -7271,7 +8204,7 @@
 "index_reference": "08003009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;तब&quot;</strong></p><p>&quot;यह शादी के लिए एक सांस्कृतिक मुहावरा था। वैकल्पिक अनुवाद: &quot;&quot;कृपया मुझसे शादी करें&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠פָרַשְׂתָּ֤ כְנָפֶ֨⁠ךָ֙ עַל־אֲמָ֣תְ⁠ךָ֔</span></p><p><strong>&quot;&quot;तब&quot;</strong></p><p>&quot;यह शादी के लिए एक सांस्कृतिक मुहावरा था। वैकल्पिक अनुवाद: &quot;&quot;कृपया मुझसे शादी करें&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -7290,7 +8223,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -7302,7 +8243,7 @@
 "index_reference": "08003009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;छुड़ानेवाला&quot;</strong></p><p>देखें कि आपने इस शब्द का अनुवाद [2:20] (../ 02/20 / zu5f) में कैसे किया।</p>",
+"content": "<p><span style='direction: rtl;'>גֹאֵ֖ל</span></p><p><strong>&quot;छुड़ानेवाला&quot;</strong></p><p>देखें कि आपने इस शब्द का अनुवाद [2:20] (../ 02/20 / zu5f) में कैसे किया।</p>",
 "associations": {
 "passage": [
 {
@@ -7321,7 +8262,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -7333,7 +8282,7 @@
 "index_reference": "08003010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा की ओर से तुझ पर आशीष हो&quot;</strong></p><p>अपनी भाषा में आशीष के लिए एक स्वाभाविक रूप का उपयोग करें। वैकल्पिक अनुवाद: &quot;यहोवा की ओर से तुझ पर आशीष हो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें </span></p>",
+"content": "<p><span style='direction: rtl;'>בְּרוּכָ֨ה אַ֤תְּ לַֽ⁠יהוָה֙</span></p><p><strong>&quot;यहोवा की ओर से तुझ पर आशीष हो&quot;</strong></p><p>अपनी भाषा में आशीष के लिए एक स्वाभाविक रूप का उपयोग करें। वैकल्पिक अनुवाद: &quot;यहोवा की ओर से तुझ पर आशीष हो&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें </span></p>",
 "associations": {
 "passage": [
 {
@@ -7352,7 +8301,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -7385,13 +8356,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7404,6 +8368,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -7417,7 +8388,7 @@
 "index_reference": "08003010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;पिछली प्रीति पहली&quot;</strong></p><p><strong>तू ने अपनी पिछली प्रीति पहिली से अधिक दिखाई</strong></p>",
+"content": "<p><span style='direction: rtl;'>הֵיטַ֛בְתְּ חַסְדֵּ֥⁠ךְ הָ⁠אַחֲר֖וֹן מִן־הָ⁠רִאשׁ֑וֹן</span></p><p><strong>&quot;&quot;पिछली प्रीति पहली&quot;</strong></p><p><strong>तू ने अपनी पिछली प्रीति पहिली से अधिक दिखाई</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7436,7 +8407,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -7469,13 +8462,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7488,6 +8474,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -7522,13 +8515,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -7541,6 +8527,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 }
 ]
 }
@@ -7671,7 +8664,7 @@
 "index_reference": "08003011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मेरे&quot;</strong></p><p><strong>नेकनामी महिला</strong>, <strong>एक भली स्त्री</strong></p>",
+"content": "<p><span style='direction: rtl;'>אֵ֥שֶׁת חַ֖יִל</span></p><p><strong>&quot;&quot;मेरे&quot;</strong></p><p><strong>नेकनामी महिला</strong>, <strong>एक भली स्त्री</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7690,7 +8683,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+}
+]
 }
 },
 {
@@ -7764,7 +8765,7 @@
 "index_reference": "08003012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मुझसे&quot;</strong></p><p>यह उस पुरुष रिश्तेदार का कर्तव्य था जो मरने वाले व्यक्ति की विधवा की मदद करने लिए उसी पारिवार में करीबी था। देखें कि आपने ** एक छुड़ानेवाले बंधुआ ** का [2:20] में अनुवाद कैसे किया .. (.. 02/20 / zu5f) और सुनिश्चित करें कि यहाँ वैसा ही समझ में आता हो।</p>",
+"content": "<p><span style='direction: rtl;'>גֹאֵ֖ל &amp; גֹּאֵ֖ל</span></p><p><strong>&quot;&quot;मुझसे&quot;</strong></p><p>यह उस पुरुष रिश्तेदार का कर्तव्य था जो मरने वाले व्यक्ति की विधवा की मदद करने लिए उसी पारिवार में करीबी था। देखें कि आपने ** एक छुड़ानेवाले बंधुआ ** का [2:20] में अनुवाद कैसे किया .. (.. 02/20 / zu5f) और सुनिश्चित करें कि यहाँ वैसा ही समझ में आता हो।</p>",
 "associations": {
 "passage": [
 {
@@ -7816,18 +8817,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 }
 ]
 }
@@ -7854,18 +8855,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 }
 ]
 }
@@ -7900,18 +8901,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 }
 ]
 }
@@ -8330,7 +9331,7 @@
 "index_reference": "08003017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;छः जौ&quot;</strong></p><p>देखें कि आपने इसका अनुवाद [3:15] (../ 03/15 / f5zg) में कैसे किया।</p>",
+"content": "<p><span style='direction: rtl;'>שֵׁשׁ־הַ⁠שְּׂעֹרִ֥ים</span></p><p><strong>&quot;छः जौ&quot;</strong></p><p>देखें कि आपने इसका अनुवाद [3:15] (../ 03/15 / f5zg) में कैसे किया।</p>",
 "associations": {
 "passage": [
 {
@@ -8349,7 +9350,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -8361,7 +9370,7 @@
 "index_reference": "08003017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;फिर उसने कहा... कि अपनी सास के पास खाली हाथ मत जा&quot;</strong></p><p>मूल भाषा में इस पद में उद्धरण के उद्धरण लिखा है जबकि हिंदी आई.आर.वि. अनुवाद में एक ही उद्धरण लिखा है। यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के अन्दर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;यह कहकर मुझे दिया कि मैं अपनी सास के पास खाली हाथ न जाऊँ&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण </span></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֚י אָמַ֣ר אַל־תָּב֥וֹאִי רֵיקָ֖ם אֶל־חֲמוֹתֵֽ⁠ךְ</span></p><p><strong>&quot;फिर उसने कहा... कि अपनी सास के पास खाली हाथ मत जा&quot;</strong></p><p>मूल भाषा में इस पद में उद्धरण के उद्धरण लिखा है जबकि हिंदी आई.आर.वि. अनुवाद में एक ही उद्धरण लिखा है। यदि यह आपकी भाषा में अधिक स्पष्ट होगा, तो आप इसका अनुवाद कर सकते हैं ताकि उद्धरण के अन्दर उद्धरण न हो। वैकल्पिक अनुवाद: &quot;यह कहकर मुझे दिया कि मैं अपनी सास के पास खाली हाथ न जाऊँ&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26721\" data-resourceType=\"UWTranslationManual\">उद्धरणों के अन्दर उद्धरण </span></p>",
 "associations": {
 "passage": [
 {
@@ -8380,7 +9389,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Barley"
+}
+]
 }
 },
 {
@@ -8462,7 +9479,7 @@
 "index_reference": "08003018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;बेटी&quot;</strong></p><p>देखें कि आपने 1:11–13 में इसका अनुवाद कैसे किया; 2:2, 8, 22; 3:1, 10, 11, 16।</p>",
+"content": "<p><span style='direction: rtl;'>בִתִּ֔⁠י</span></p><p><strong>&quot;बेटी&quot;</strong></p><p>देखें कि आपने 1:11–13 में इसका अनुवाद कैसे किया; 2:2, 8, 22; 3:1, 10, 11, 16।</p>",
 "associations": {
 "passage": [
 {
@@ -8843,7 +9860,7 @@
 "index_reference": "08004002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;दस&quot;</strong> - <strong>&quot;लोगों&quot;</strong></p><p><strong>तब उसने दस पुरुषों को चुना</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּקַּ֞ח עֲשָׂרָ֧ה אֲנָשִׁ֛ים</span></p><p><strong>&quot;दस&quot;</strong> - <strong>&quot;लोगों&quot;</strong></p><p><strong>तब उसने दस पुरुषों को चुना</strong></p>",
 "associations": {
 "passage": [
 {
@@ -8887,11 +9904,11 @@
 ],
 "acai": [
 {
-"id": "person:Elimelech",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "एलीमेलेक"
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Naomi",
@@ -8901,11 +9918,11 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Elimelech",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "एलीमेलेक"
 }
 ]
 }
@@ -8997,7 +10014,7 @@
 "index_reference": "08004004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;सामने&quot;</strong></p><p><strong>की उपस्थिति मे</strong>l इन लोगों की गवाही के होने से लेन-देन कानूनी और बाध्यकारी हो जाएगा।</p>",
+"content": "<p><span style='direction: rtl;'>נֶ֥גֶד הַֽ⁠יֹּשְׁבִים֮</span></p><p><strong>&quot;सामने&quot;</strong></p><p><strong>की उपस्थिति मे</strong>l इन लोगों की गवाही के होने से लेन-देन कानूनी और बाध्यकारी हो जाएगा।</p>",
 "associations": {
 "passage": [
 {
@@ -9016,7 +10033,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
+}
+]
 }
 },
 {
@@ -9067,7 +10092,7 @@
 "index_reference": "08004004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;के&quot;</strong> - <strong>&quot;छुड़ाने&quot;</strong></p><p>कुछ भाषाओं में, इन चीजों को एक साथ कहना भ्रमित हो सकता है: 1) भूमि को छुड़ाने के लिए कोई नहीं है, 2) केवल आप भूमि को छुड़ा सकते हैं, 3) तब मैं भूमि को छुड़ा सकता हूँ। यदि आपकी भाषा में ऐसा है, तो यू एस टी को देखें जो अधिक स्पष्ट है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26742\" data-resourceType=\"UWTranslationManual\">जोड़ें — अपवाद खंड</span></p>",
+"content": "<p><span style='direction: rtl;'>אֵ֤ין זוּלָֽתְ⁠ךָ֙ לִ⁠גְא֔וֹל וְ⁠אָנֹכִ֖י אַחֲרֶ֑י⁠ךָ</span></p><p><strong>&quot;&quot;के&quot;</strong> - <strong>&quot;छुड़ाने&quot;</strong></p><p>कुछ भाषाओं में, इन चीजों को एक साथ कहना भ्रमित हो सकता है: 1) भूमि को छुड़ाने के लिए कोई नहीं है, 2) केवल आप भूमि को छुड़ा सकते हैं, 3) तब मैं भूमि को छुड़ा सकता हूँ। यदि आपकी भाषा में ऐसा है, तो यू एस टी को देखें जो अधिक स्पष्ट है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26742\" data-resourceType=\"UWTranslationManual\">जोड़ें — अपवाद खंड</span></p>",
 "associations": {
 "passage": [
 {
@@ -9086,7 +10111,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
+}
+]
 }
 },
 {
@@ -9164,18 +10197,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Boaz",
@@ -9231,18 +10264,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Boaz",
@@ -9298,18 +10331,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Boaz",
@@ -9330,7 +10363,7 @@
 "index_reference": "08004005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मरे स्त्री&quot;</strong></p><p><strong>एलीमेलेक के बेटे की विधवा जो मर गया</strong></p>",
+"content": "<p><span style='direction: rtl;'>אֵֽשֶׁת־הַ⁠מֵּת֙</span></p><p><strong>&quot;मरे स्त्री&quot;</strong></p><p><strong>एलीमेलेक के बेटे की विधवा जो मर गया</strong></p>",
 "associations": {
 "passage": [
 {
@@ -9341,7 +10374,43 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "रूत"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -9388,18 +10457,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Boaz",
@@ -9455,18 +10524,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Boaz",
@@ -9540,7 +10609,7 @@
 "index_reference": "08004006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मैं&quot;</strong> - <strong>&quot;अधिकार तू&quot;</strong></p><p><strong>सिवाए मेरे तू इसे छुड़ा ले</strong></p>",
+"content": "<p><span style='direction: rtl;'>גְּאַל־לְ⁠ךָ֤ אַתָּה֙ אֶת־גְּאֻלָּתִ֔⁠י</span></p><p><strong>&quot;&quot;मैं&quot;</strong> - <strong>&quot;अधिकार तू&quot;</strong></p><p><strong>सिवाए मेरे तू इसे छुड़ा ले</strong></p>",
 "associations": {
 "passage": [
 {
@@ -9559,7 +10628,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:KinsmanRedeemer",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Kinsman Redeemer"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Redeem"
+}
+]
 }
 },
 {
@@ -9755,7 +10846,7 @@
 "index_reference": "08004008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;इसलिए उस छुड़ानेवाले कुटुम्बी ने बोअज से यह कहकर; “कि तू उसे मोल ले,” अपनी जूती उतारी&quot;</strong></p><p>पद 7 की पृष्ठभूमि की जानकारी के बाद कहानी की घटनाएँ यहाँ फिर से शुरू होती हैं। अपनी भाषा की शैली में कहानी की घटनाओं को पुनः वर्णित करने के तरीके का उपयोग करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">एक नई घटना का परिचय</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֧אמֶר הַ⁠גֹּאֵ֛ל לְ⁠בֹ֖עַז קְנֵה־לָ֑⁠ךְ וַ⁠יִּשְׁלֹ֖ף נַעֲלֽ⁠וֹ</span></p><p><strong>&quot;इसलिए उस छुड़ानेवाले कुटुम्बी ने बोअज से यह कहकर; “कि तू उसे मोल ले,” अपनी जूती उतारी&quot;</strong></p><p>पद 7 की पृष्ठभूमि की जानकारी के बाद कहानी की घटनाएँ यहाँ फिर से शुरू होती हैं। अपनी भाषा की शैली में कहानी की घटनाओं को पुनः वर्णित करने के तरीके का उपयोग करें।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">एक नई घटना का परिचय</span></p>",
 "associations": {
 "passage": [
 {
@@ -9774,7 +10865,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:KinsmanRedeemer",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Kinsman Redeemer"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -9786,7 +10892,7 @@
 "index_reference": "08004008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;छुड़ानेवाले&quot;</strong> - <strong>&quot;कहकर&quot;</strong></p><p>पद की पृष्ठभूमि की जानकारी के बाद कहानी की घटनाएं यहाँ फिर से शुरू होती हैं। कहानी की घटनाओं को फिर से बताने के लिए अपनी भाषा के तरीके का उपयोग करें।</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֧אמֶר הַ⁠גֹּאֵ֛ל לְ⁠בֹ֖עַז קְנֵה־לָ֑⁠ךְ וַ⁠יִּשְׁלֹ֖ף נַעֲלֽ⁠וֹ</span></p><p><strong>&quot;छुड़ानेवाले&quot;</strong> - <strong>&quot;कहकर&quot;</strong></p><p>पद की पृष्ठभूमि की जानकारी के बाद कहानी की घटनाएं यहाँ फिर से शुरू होती हैं। कहानी की घटनाओं को फिर से बताने के लिए अपनी भाषा के तरीके का उपयोग करें।</p>",
 "associations": {
 "passage": [
 {
@@ -9805,7 +10911,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:KinsmanRedeemer",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Kinsman Redeemer"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बोअज"
+}
+]
 }
 },
 {
@@ -9898,13 +11019,6 @@
 "preferred_label": "बोअज"
 },
 {
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "एलीमेलेक"
-},
-{
 "id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
@@ -9917,6 +11031,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
 }
 ]
 }
@@ -9965,11 +11086,63 @@
 "preferred_label": "बोअज"
 },
 {
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "महलोन"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "एलीमेलेक"
+}
+]
+}
+},
+{
+"content_id": "403181",
+"reference_id": 185120,
+"version": "1.0.4",
+"title": "रूत 4:9 (#3)",
+"media_type": "Text",
+"index_reference": "08004009",
+"language": "hin",
+"review_level": "None",
+"content": "<p><span style='direction: rtl;'>אֶת־כָּל־אֲשֶׁ֣ר לֶֽ⁠אֱלִימֶ֔לֶךְ וְ⁠אֵ֛ת כָּל־אֲשֶׁ֥ר לְ⁠כִלְי֖וֹן וּ⁠מַחְל֑וֹן</span></p><p><strong>&quot;&quot;सब&quot;</strong> - <strong>&quot;जो&quot;</strong> - <strong>&quot;एलीमेलेक&quot;</strong></p><p>यह नाओमी के मृतक पति और बेटों की सभी भूमि और संपत्ति को संदर्भित करता है।</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "08004009",
+"start_ref_usfm": "RUT 4:9",
+"end_ref": "08004009",
+"end_ref_usfm": "RUT 4:9"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Chilion",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "किल्योन"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "बोअज"
 },
 {
 "id": "person:Mahlon",
@@ -9984,31 +11157,15 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नाओमी"
-}
-]
-}
 },
 {
-"content_id": "403181",
-"reference_id": 185120,
-"version": "1.0.4",
-"title": "रूत 4:9 (#3)",
-"media_type": "Text",
-"index_reference": "08004009",
-"language": "hin",
-"review_level": "None",
-"content": "<p><strong>&quot;&quot;सब&quot;</strong> - <strong>&quot;जो&quot;</strong> - <strong>&quot;एलीमेलेक&quot;</strong></p><p>यह नाओमी के मृतक पति और बेटों की सभी भूमि और संपत्ति को संदर्भित करता है।</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "08004009",
-"start_ref_usfm": "RUT 4:9",
-"end_ref": "08004009",
-"end_ref_usfm": "RUT 4:9"
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "एलीमेलेक"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -10041,11 +11198,11 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "रूत"
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Mahlon",
@@ -10062,11 +11219,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "रूत"
 }
 ]
 }
@@ -10080,7 +11237,7 @@
 "index_reference": "08004010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मनसा&quot;</strong></p><p>&quot;देखें कि आपने इस वाक्यांश का 4:5 में अनुवाद कैसे किया है। वैकल्पिक अनुवाद: &quot;&quot;ताकि मैं उसे एक बेटा दे सकूं जो मृत व्यक्ति की संपत्ति को प्राप्त करेगा&quot;&quot;&quot;</p>",
+"content": "<p><span style='direction: rtl;'>לְ⁠הָקִ֤ים שֵׁם־הַ⁠מֵּת֙ עַל־נַ֣חֲלָת֔⁠וֹ</span></p><p><strong>&quot;&quot;मनसा&quot;</strong></p><p>&quot;देखें कि आपने इस वाक्यांश का 4:5 में अनुवाद कैसे किया है। वैकल्पिक अनुवाद: &quot;&quot;ताकि मैं उसे एक बेटा दे सकूं जो मृत व्यक्ति की संपत्ति को प्राप्त करेगा&quot;&quot;&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -10091,7 +11248,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "महलोन"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -10124,11 +11310,11 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "रूत"
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Mahlon",
@@ -10145,11 +11331,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "रूत"
 }
 ]
 }
@@ -10163,7 +11349,7 @@
 "index_reference": "08004010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;के लिये&quot;</strong> - <strong>&quot;नाम&quot;</strong> - <strong>&quot;न&quot;</strong></p><p>&quot;भूल जाने की बात इस तरह की जाती है जैसे कि किसी का नाम उन लोगों की सूची से काट दिया जाता है जो पहले रहते थे। वैकल्पिक अनुवाद: &quot;&quot;ताकि वह अपने भाइयों के वंशजों और इस शहर के लोगों द्वारा नहीं भुलाया जाएगा&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹא־יִכָּרֵ֧ת שֵׁם־הַ⁠מֵּ֛ת מֵ⁠עִ֥ם אֶחָ֖י⁠ו וּ⁠מִ⁠שַּׁ֣עַר מְקוֹמ֑⁠וֹ</span></p><p><strong>&quot;&quot;के लिये&quot;</strong> - <strong>&quot;नाम&quot;</strong> - <strong>&quot;न&quot;</strong></p><p>&quot;भूल जाने की बात इस तरह की जाती है जैसे कि किसी का नाम उन लोगों की सूची से काट दिया जाता है जो पहले रहते थे। वैकल्पिक अनुवाद: &quot;&quot;ताकि वह अपने भाइयों के वंशजों और इस शहर के लोगों द्वारा नहीं भुलाया जाएगा&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -10182,7 +11368,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "महलोन"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -10194,7 +11409,7 @@
 "index_reference": "08004010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;नाम&quot;</strong> - <strong>&quot;न&quot;</strong></p><p>&quot;इसे सकारात्मक कहा जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;ताकि उसका नाम संरक्षित रहे&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">दोहरे नकारात्मक</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠לֹא־יִכָּרֵ֧ת שֵׁם־הַ⁠מֵּ֛ת מֵ⁠עִ֥ם אֶחָ֖י⁠ו וּ⁠מִ⁠שַּׁ֣עַר מְקוֹמ֑⁠וֹ</span></p><p><strong>&quot;&quot;नाम&quot;</strong> - <strong>&quot;न&quot;</strong></p><p>&quot;इसे सकारात्मक कहा जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;ताकि उसका नाम संरक्षित रहे&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">दोहरे नकारात्मक</span></p>",
 "associations": {
 "passage": [
 {
@@ -10213,7 +11428,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "महलोन"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -10246,11 +11490,11 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "रूत"
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Mahlon",
@@ -10267,11 +11511,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "रूत"
 }
 ]
 }
@@ -10285,7 +11529,7 @@
 "index_reference": "08004010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तुम आज साक्षी&quot;</strong></p><p><strong>तूने आज इन चीजों को देखा और सुना है, और कल इस के विषय में बात कर सकते हो</strong></p>",
+"content": "<p><span style='direction: rtl;'>עֵדִ֥ים אַתֶּ֖ם הַ⁠יּֽוֹם</span></p><p><strong>&quot;तुम आज साक्षी&quot;</strong></p><p><strong>तूने आज इन चीजों को देखा और सुना है, और कल इस के विषय में बात कर सकते हो</strong></p>",
 "associations": {
 "passage": [
 {
@@ -10296,7 +11540,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "महलोन"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
+}
+]
 }
 },
 {
@@ -10336,13 +11609,6 @@
 "preferred_label": "राहेल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10350,11 +11616,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:Bethlehem",
@@ -10362,6 +11628,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10410,13 +11683,6 @@
 "preferred_label": "राहेल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10424,11 +11690,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:Bethlehem",
@@ -10436,6 +11702,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10456,7 +11729,7 @@
 "index_reference": "08004011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यह जो स्त्री तेरे घर में आती है उसको यहोवा इस्राएल के घराने की दो उपजानेवाली राहेल और लिआ के समान करे&quot;</strong></p><p>यहाँ, लोग परमेश्वर से रूत को आशीष देने के लिए प्रार्थना कर रहे हैं। उनकी आशीष रूत और बोअज के लिए पद 12 तक जारी रहती है। आप इसे आशीष या प्रार्थना के रूप में व्यक्त कर सकते हैं, जो भी आपकी भाषा में अधिक स्वाभाविक हो। वैकल्पिक अनुवाद: &quot;हम यहोवा से प्रार्थना करते हैं कि वह इस स्त्री को, जो तेरे घर में आती है, उसे इस्राएल के घराने की दो उपजानेवाली राहेल और लिआ के समान करे&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें</span></p>",
+"content": "<p><span style='direction: rtl;'>יִתֵּן֩ יְהוָ֨ה אֶֽת־הָ⁠אִשָּׁ֜ה הַ⁠בָּאָ֣ה אֶל־בֵּיתֶ֗⁠ךָ כְּ⁠רָחֵ֤ל ׀ וּ⁠כְ⁠לֵאָה֙ אֲשֶׁ֨ר בָּנ֤וּ שְׁתֵּי⁠הֶם֙ אֶת־בֵּ֣ית יִשְׂרָאֵ֔ל</span></p><p><strong>&quot;यह जो स्त्री तेरे घर में आती है उसको यहोवा इस्राएल के घराने की दो उपजानेवाली राहेल और लिआ के समान करे&quot;</strong></p><p>यहाँ, लोग परमेश्वर से रूत को आशीष देने के लिए प्रार्थना कर रहे हैं। उनकी आशीष रूत और बोअज के लिए पद 12 तक जारी रहती है। आप इसे आशीष या प्रार्थना के रूप में व्यक्त कर सकते हैं, जो भी आपकी भाषा में अधिक स्वाभाविक हो। वैकल्पिक अनुवाद: &quot;हम यहोवा से प्रार्थना करते हैं कि वह इस स्त्री को, जो तेरे घर में आती है, उसे इस्राएल के घराने की दो उपजानेवाली राहेल और लिआ के समान करे&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26785\" data-resourceType=\"UWTranslationManual\">आशीषें</span></p>",
 "associations": {
 "passage": [
 {
@@ -10475,7 +11748,50 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "राहेल"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
+},
+{
+"id": "person:Leah",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "लिआ"
+}
+]
 }
 },
 {
@@ -10515,13 +11831,6 @@
 "preferred_label": "राहेल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10529,11 +11838,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:Bethlehem",
@@ -10541,6 +11850,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10589,13 +11905,6 @@
 "preferred_label": "राहेल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10603,11 +11912,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:Bethlehem",
@@ -10615,6 +11924,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10663,13 +11979,6 @@
 "preferred_label": "राहेल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10677,11 +11986,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:Bethlehem",
@@ -10689,6 +11998,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10737,13 +12053,6 @@
 "preferred_label": "राहेल"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -10751,11 +12060,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Elders"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:Bethlehem",
@@ -10763,6 +12072,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बैतलहम"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Leah",
@@ -10818,11 +12134,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "person:Tamar",
+"id": "person:Perez",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "तामार"
+"preferred_label": "पेरेस"
 },
 {
 "id": "group:Judah",
@@ -10832,11 +12148,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "person:Perez",
+"id": "person:Tamar",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पेरेस"
+"preferred_label": "तामार"
 }
 ]
 }
@@ -10885,11 +12201,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "person:Tamar",
+"id": "person:Perez",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "तामार"
+"preferred_label": "पेरेस"
 },
 {
 "id": "group:Judah",
@@ -10899,11 +12215,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "person:Perez",
+"id": "person:Tamar",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पेरेस"
+"preferred_label": "तामार"
 }
 ]
 }
@@ -10938,18 +12254,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "रूत"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
 },
 {
 "id": "person:Boaz",
@@ -10991,18 +12307,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "रूत"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
 },
 {
 "id": "person:Boaz",
@@ -11044,18 +12360,18 @@
 ],
 "acai": [
 {
-"id": "person:Ruth",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "रूत"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "रूत"
 },
 {
 "id": "person:Boaz",
@@ -11104,6 +12420,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11116,13 +12439,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
 },
 {
 "id": "keyterm:Bless",
@@ -11171,6 +12487,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11183,13 +12506,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
 },
 {
 "id": "keyterm:Bless",
@@ -11210,7 +12526,7 @@
 "index_reference": "08004014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;तुझे आज&quot;</strong></p><p>&quot;इस वाक्यांश को सकारात्मक रूप से व्यक्त किया जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;जिसने आपको छुड़ाने के लिए आज एक बंधुआ प्रदान किया है&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">दोहरे नकारात्मक</span></p>",
+"content": "<p><span style='direction: rtl;'>לֹ֣א הִשְׁבִּ֥ית לָ֛⁠ךְ גֹּאֵ֖ל הַ⁠יּ֑וֹם</span></p><p><strong>&quot;&quot;तुझे आज&quot;</strong></p><p>&quot;इस वाक्यांश को सकारात्मक रूप से व्यक्त किया जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;जिसने आपको छुड़ाने के लिए आज एक बंधुआ प्रदान किया है&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">दोहरे नकारात्मक</span></p>",
 "associations": {
 "passage": [
 {
@@ -11229,7 +12545,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:GenericFemales",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Women"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bless"
+}
+]
 }
 },
 {
@@ -11269,6 +12621,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11281,13 +12640,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
 },
 {
 "id": "keyterm:Bless",
@@ -11336,6 +12688,13 @@
 "preferred_label": "Women"
 },
 {
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -11348,13 +12707,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नाओमी"
 },
 {
 "id": "keyterm:Bless",
@@ -11593,7 +12945,7 @@
 "index_reference": "08004017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसकी पड़ोसिनों&quot;</strong> - <strong>&quot;नाम ओबेद रखा&quot;</strong></p><p>पहला वाक्यांश नामकरण की घटना का परिचय देता है, और दूसरा घटना को दर्ज करने के लिए इसे दोहराता हैl यदि यह भ्रामक है, तो दो वाक्यांश संयुक्त हो सकते हैंl <strong>तो पड़ोसी महिलाओं ने उसे ओबेद नाम दिया</strong> या <strong>पड़ोस की महिलाओं ने कहा ... और उन्होंने उसका नाम ओबेद रखा</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תִּקְרֶאנָה֩ ל֨⁠וֹ הַ⁠שְּׁכֵנ֥וֹת שֵׁם֙ לֵ⁠אמֹ֔ר &amp; וַ⁠תִּקְרֶ֤אנָֽה שְׁמ⁠וֹ֙ עוֹבֵ֔ד</span></p><p><strong>&quot;उसकी पड़ोसिनों&quot;</strong> - <strong>&quot;नाम ओबेद रखा&quot;</strong></p><p>पहला वाक्यांश नामकरण की घटना का परिचय देता है, और दूसरा घटना को दर्ज करने के लिए इसे दोहराता हैl यदि यह भ्रामक है, तो दो वाक्यांश संयुक्त हो सकते हैंl <strong>तो पड़ोसी महिलाओं ने उसे ओबेद नाम दिया</strong> या <strong>पड़ोस की महिलाओं ने कहा ... और उन्होंने उसका नाम ओबेद रखा</strong></p>",
 "associations": {
 "passage": [
 {
@@ -11612,7 +12964,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Obed",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "ओबेद"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "नाओमी"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "दाऊद"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यिशै"
+}
+]
 }
 },
 {
@@ -11659,18 +13040,18 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यिशै"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दाऊद"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यिशै"
 }
 ]
 }
@@ -11719,18 +13100,18 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यिशै"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दाऊद"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यिशै"
 }
 ]
 }
@@ -11779,18 +13160,18 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यिशै"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दाऊद"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यिशै"
 }
 ]
 }
@@ -11839,18 +13220,18 @@
 "preferred_label": "नाओमी"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यिशै"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दाऊद"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यिशै"
 }
 ]
 }
@@ -11910,7 +13291,7 @@
 "index_reference": "08004018",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;पेरेस से हेस्रोन&quot;</strong></p><p><strong>पेरेस</strong> और <strong>हेस्रोन</strong> पुरुषों के नाम हैं। इन नामों के ऐसे रूपों का प्रयोग करें जो आपकी भाषा में स्वाभाविक हों।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
+"content": "<p><span style='direction: rtl;'>פֶּ֖רֶץ הוֹלִ֥יד אֶת־חֶצְרֽוֹן</span></p><p><strong>&quot;पेरेस से हेस्रोन&quot;</strong></p><p><strong>पेरेस</strong> और <strong>हेस्रोन</strong> पुरुषों के नाम हैं। इन नामों के ऐसे रूपों का प्रयोग करें जो आपकी भाषा में स्वाभाविक हों।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -11929,7 +13310,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Hezron.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "हेस्रोन"
+},
+{
+"id": "person:Perez",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पेरेस"
+}
+]
 }
 },
 {
@@ -11941,7 +13337,7 @@
 "index_reference": "08004019",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;हेस्रोन&quot;</strong></p><p>इन नामों के रूपों का उपयोग करें जो आपकी भाषा में स्वाभाविक हैंl</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠חֶצְרוֹן֙ &amp; אֶת־רָ֔ם &amp; אֶת־עַמִּֽינָדָֽב</span></p><p><strong>&quot;&quot;हेस्रोन&quot;</strong></p><p>इन नामों के रूपों का उपयोग करें जो आपकी भाषा में स्वाभाविक हैंl</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -11960,7 +13356,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ram",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "राम"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अम्मीनादाब"
+},
+{
+"id": "person:Hezron.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "हेस्रोन"
+}
+]
 }
 },
 {
@@ -11972,7 +13390,7 @@
 "index_reference": "08004020",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p><strong>अम्मीनादाब</strong>, <strong>नहशोन</strong>, और <strong>सलमोन</strong> पुरुषों के नाम हैं। इन नामों के ऐसे रूपों का प्रयोग करें जो आपकी भाषा में स्वाभाविक हों।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠עַמִּֽינָדָב֙ &amp; וְ⁠נַחְשׁ֖וֹן &amp; אֶת־שַׂלְמָֽה</span></p><p><strong>&quot;&quot;</strong></p><p><strong>अम्मीनादाब</strong>, <strong>नहशोन</strong>, और <strong>सलमोन</strong> पुरुषों के नाम हैं। इन नामों के ऐसे रूपों का प्रयोग करें जो आपकी भाषा में स्वाभाविक हों।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -11991,7 +13409,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नहशोन"
+},
+{
+"id": "person:Salmon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "सलमोन"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अम्मीनादाब"
+}
+]
 }
 },
 {
@@ -12024,13 +13464,6 @@
 ],
 "acai": [
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यिशै"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.6,
@@ -12043,6 +13476,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दाऊद"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यिशै"
 }
 ]
 }
