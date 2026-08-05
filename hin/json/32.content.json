@@ -192,13 +192,6 @@
 ],
 "acai": [
 {
-"id": "person:Amittai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "अमित्तै"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.8,
@@ -206,11 +199,11 @@
 "preferred_label": "योना"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "person:Amittai",
+"type": "person",
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "अमित्तै"
 },
 {
 "id": "deity:Lord",
@@ -218,6 +211,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
 }
 ]
 }
@@ -277,7 +277,7 @@
 "index_reference": "32001001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;अमित्तै के&quot;</strong></p><p>यह योना के पिता का नाम है l (देखें :[[rc://hi/ta/man/translate/translate-names]])</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲמִתַּ֖י</span></p><p><strong>&quot;अमित्तै के&quot;</strong></p><p>यह योना के पिता का नाम है l (देखें :[[rc://hi/ta/man/translate/translate-names]])</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">नामों का अनुवाद कैसे करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -296,7 +296,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "person:Amittai",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "अमित्तै"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -479,7 +508,7 @@
 "index_reference": "32001002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उठकर उस बड़े नगर नीनवे को जा, और उसके विरुद्ध प्रचार कर; क्योंकि उसकी बुराई मेरी दृष्टि में आ चुकी है&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्वाभाविक होगा, तो आप इन उपवाक्यों के क्रम को उलट सकते हैं क्योंकि पद का दूसरा भाग उस परिणाम का कारण देता है जिसे पहला भाग वर्णित करता है। वैकल्पिक अनुवाद: &quot;नीनवे की बुराई मेरी दृष्टि में आ चुकी है। इसलिए, उठकर, उस बड़े नगर को जा, और उसके विरुद्ध प्रचार कर&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">जोड़ें — कारण-और-परिणाम सम्बन्ध</span></p>",
+"content": "<p><span style='direction: rtl;'>ק֠וּם לֵ֧ךְ אֶל־נִֽינְוֵ֛ה הָ⁠עִ֥יר הַ⁠גְּדוֹלָ֖ה וּ⁠קְרָ֣א עָלֶ֑י⁠הָ כִּֽי־עָלְתָ֥ה רָעָתָ֖⁠ם לְ⁠פָנָֽ⁠י</span></p><p><strong>&quot;उठकर उस बड़े नगर नीनवे को जा, और उसके विरुद्ध प्रचार कर; क्योंकि उसकी बुराई मेरी दृष्टि में आ चुकी है&quot;</strong></p><p>यदि यह आपकी भाषा में अधिक स्वाभाविक होगा, तो आप इन उपवाक्यों के क्रम को उलट सकते हैं क्योंकि पद का दूसरा भाग उस परिणाम का कारण देता है जिसे पहला भाग वर्णित करता है। वैकल्पिक अनुवाद: &quot;नीनवे की बुराई मेरी दृष्टि में आ चुकी है। इसलिए, उठकर, उस बड़े नगर को जा, और उसके विरुद्ध प्रचार कर&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">जोड़ें — कारण-और-परिणाम सम्बन्ध</span></p>",
 "associations": {
 "passage": [
 {
@@ -498,7 +527,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+}
+]
 }
 },
 {
@@ -510,7 +547,7 @@
 "index_reference": "32001002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसकी बुराई मेरी दृष्टि में आ चुकी है&quot;</strong></p><p>यदि आपकी भाषा में <strong>बुराई</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैंने देखा है कि वे कितने दुष्ट हो गए हैं&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>עָלְתָ֥ה רָעָתָ֖⁠ם לְ⁠פָנָֽ⁠י</span></p><p><strong>&quot;उसकी बुराई मेरी दृष्टि में आ चुकी है&quot;</strong></p><p>यदि आपकी भाषा में <strong>बुराई</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: &quot;मैंने देखा है कि वे कितने दुष्ट हो गए हैं&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -529,7 +566,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+}
+]
 }
 },
 {
@@ -608,7 +653,7 @@
 "index_reference": "32001003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा के सम्मुख से&quot;</strong></p><p>&quot;यह एक अभिव्यक्ति है जो यहोवा के सम्मुख उसकी उपस्थिति का प्रतिनिधित्व करने के लिए संदर्भित करती है। यहोवा के सम्मुख के विचार में उसका ज्ञान, ध्यान, खास देख-रेख या न्याय भी सम्मिलित है। दूर भागने से, योना आशा कर रहा है कि यहोवा इस बात पर ध्यान नहीं देगा कि वह अवज्ञा कर रहा है। वैकल्पिक अनुवाद: &quot;&quot;यहोवा की उपस्थिति से&quot;&quot; या &quot;&quot;यहोवा से&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><span style='direction: rtl;'>מִ⁠לִּ⁠פְנֵ֖י יְהוָ֑ה &amp; מִ⁠לִּ⁠פְנֵ֖י יְהוָֽה</span></p><p><strong>&quot;यहोवा के सम्मुख से&quot;</strong></p><p>&quot;यह एक अभिव्यक्ति है जो यहोवा के सम्मुख उसकी उपस्थिति का प्रतिनिधित्व करने के लिए संदर्भित करती है। यहोवा के सम्मुख के विचार में उसका ज्ञान, ध्यान, खास देख-रेख या न्याय भी सम्मिलित है। दूर भागने से, योना आशा कर रहा है कि यहोवा इस बात पर ध्यान नहीं देगा कि वह अवज्ञा कर रहा है। वैकल्पिक अनुवाद: &quot;&quot;यहोवा की उपस्थिति से&quot;&quot; या &quot;&quot;यहोवा से&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -627,7 +672,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Joppa",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "याफा"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तर्शीश"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1111,13 +1192,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1130,6 +1204,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Ship",
@@ -1163,13 +1244,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1182,6 +1256,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Ship",
@@ -1238,13 +1319,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1257,6 +1331,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Ship",
@@ -1277,7 +1358,7 @@
 "index_reference": "32001005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;योना जहाज के निचले भाग में उतरकर&quot;</strong></p><p>यह पृष्ठभूमि की जानकारी है। इस तरह से अनुवाद करें कि यह स्पष्ट हो कि योना ने तूफान आने से पहले ही ऐसा कर लिया था।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠יוֹנָ֗ה יָרַד֙ אֶל־יַרְכְּתֵ֣י הַ⁠סְּפִינָ֔ה וַ⁠יִּשְׁכַּ֖ב וַ⁠יֵּרָדַֽם</span></p><p><strong>&quot;योना जहाज के निचले भाग में उतरकर&quot;</strong></p><p>यह पृष्ठभूमि की जानकारी है। इस तरह से अनुवाद करें कि यह स्पष्ट हो कि योना ने तूफान आने से पहले ही ऐसा कर लिया था।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -1296,7 +1377,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1308,7 +1418,7 @@
 "index_reference": "32001005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;जहाज के निचले भाग&quot;</strong></p><p><strong>जहाज के निचले भाग में</strong></p>",
+"content": "<p><span style='direction: rtl;'>יַרְכְּתֵ֣י הַ⁠סְּפִינָ֔ה</span></p><p><strong>&quot;जहाज के निचले भाग&quot;</strong></p><p><strong>जहाज के निचले भाग में</strong></p>",
 "associations": {
 "passage": [
 {
@@ -1319,7 +1429,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1331,7 +1470,7 @@
 "index_reference": "32001005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;वहाँ लेटकर सो गया, और गहरी नींद में पड़ा हुआ था&quot;</strong></p><p><strong>और वहाँ गहरी नींद में सो रहा था</strong> या <strong>और वहाँ लेटा हुआ था और गहरी नींद में सो रहा था</strong>। इस कारण, तूफान से वह नहीं उठा l</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׁכַּ֖ב וַ⁠יֵּרָדַֽם</span></p><p><strong>&quot;वहाँ लेटकर सो गया, और गहरी नींद में पड़ा हुआ था&quot;</strong></p><p><strong>और वहाँ गहरी नींद में सो रहा था</strong> या <strong>और वहाँ लेटा हुआ था और गहरी नींद में सो रहा था</strong>। इस कारण, तूफान से वह नहीं उठा l</p>",
 "associations": {
 "passage": [
 {
@@ -1342,7 +1481,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1463,7 +1631,7 @@
 "index_reference": "32001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;अपने देवता की दुहाई दे&quot;</strong></p><p><strong>अपने देवता से प्रार्थना कर!</strong> <strong>दुहाई दे</strong> अर्थ किसी से मदद के लिए ज़ोर से पुकारना l</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>קְרָ֣א אֶל־אֱלֹהֶ֔י⁠ךָ</span></p><p><strong>&quot;अपने देवता की दुहाई दे&quot;</strong></p><p><strong>अपने देवता से प्रार्थना कर!</strong> <strong>दुहाई दे</strong> अर्थ किसी से मदद के लिए ज़ोर से पुकारना l</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -1482,7 +1650,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1494,7 +1670,7 @@
 "index_reference": "32001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;संभव है परमेश्वर हमारी चिंता करे, हमारा नाश न हो&quot;</strong></p><p>&quot;हो सकता है कि योना का देवता उन्हें बचाए इस अस्पष्ट जानकारी को स्पष्ट किया जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;शायद तेरा देवता हमारी सुने और हमें बचाए ताकि हम नाश न हो&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>אוּלַ֞י יִתְעַשֵּׁ֧ת הָ⁠אֱלֹהִ֛ים לָ֖⁠נוּ וְ⁠לֹ֥א נֹאבֵֽד</span></p><p><strong>&quot;संभव है परमेश्वर हमारी चिंता करे, हमारा नाश न हो&quot;</strong></p><p>&quot;हो सकता है कि योना का देवता उन्हें बचाए इस अस्पष्ट जानकारी को स्पष्ट किया जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;शायद तेरा देवता हमारी सुने और हमें बचाए ताकि हम नाश न हो&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -1513,7 +1689,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -1564,7 +1748,7 @@
 "index_reference": "32001007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तब मल्लाहों ने आपस में कहा&quot;</strong></p><p>&quot;वाक्यांश <strong>प्रत्येक आदमी ... अपने दोस्त के लिए</strong> पारस्परिक कार्यवाही को व्यक्त करने वाला एक मुहावरा है। इसका अर्थ है कि समूह के सभी पुरुष एक-दूसरे से ऐसा कह रहे थे। वैकल्पिक अनुवाद: &quot;&quot;नाविकों ने एक दूसरे से कहा&quot;&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּאמְר֞וּ אִ֣ישׁ אֶל־רֵעֵ֗⁠הוּ</span></p><p><strong>&quot;तब मल्लाहों ने आपस में कहा&quot;</strong></p><p>&quot;वाक्यांश <strong>प्रत्येक आदमी ... अपने दोस्त के लिए</strong> पारस्परिक कार्यवाही को व्यक्त करने वाला एक मुहावरा है। इसका अर्थ है कि समूह के सभी पुरुष एक-दूसरे से ऐसा कह रहे थे। वैकल्पिक अनुवाद: &quot;&quot;नाविकों ने एक दूसरे से कहा&quot;&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -1575,7 +1759,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
+}
+]
 }
 },
 {
@@ -1587,7 +1786,7 @@
 "index_reference": "32001007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;आओ, हम चिट्ठी डालकर जान लें कि यह विपत्ति हम पर किस के कारण पड़ी है&quot;</strong></p><p><strong>यह जानने के लिए कि यह विपत्ति हम पर किसके कारण पड़ी है हमें चिट्ठी डालनी चाहिए</strong> l पुरुषों का ऐसा मानना था कि चिट्ठी किसके नाम की होगी यह देवता निर्णय करेंगे उन्हें यह बताने के लिए जो वह जानना चाहते हैं l यह एक प्रकार का शकुन-विचार था।</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נֵ֣דְעָ֔ה בְּ⁠שֶׁ⁠לְּ⁠מִ֛י הָ⁠רָעָ֥ה הַ⁠זֹּ֖את לָ֑⁠נוּ</span></p><p><strong>&quot;आओ, हम चिट्ठी डालकर जान लें कि यह विपत्ति हम पर किस के कारण पड़ी है&quot;</strong></p><p><strong>यह जानने के लिए कि यह विपत्ति हम पर किसके कारण पड़ी है हमें चिट्ठी डालनी चाहिए</strong> l पुरुषों का ऐसा मानना था कि चिट्ठी किसके नाम की होगी यह देवता निर्णय करेंगे उन्हें यह बताने के लिए जो वह जानना चाहते हैं l यह एक प्रकार का शकुन-विचार था।</p>",
 "associations": {
 "passage": [
 {
@@ -1598,7 +1797,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
+}
+]
 }
 },
 {
@@ -1646,18 +1860,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
 }
 ]
 }
@@ -1692,18 +1906,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
 }
 ]
 }
@@ -1738,18 +1952,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
 }
 ]
 }
@@ -1822,18 +2036,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Hebrews",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hebrews"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "group:Hebrews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hebrews"
 }
 ]
 }
@@ -2054,7 +2268,7 @@
 "index_reference": "32001010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;वे जान गए थे कि वह यहोवा के सम्मुख से भाग आया है, क्योंकि उसने आप ही उनको बता दिया था&quot;</strong></p><p>योना ने <span>मल्लाहों</span> को बताया कि <strong>वह यहोवा के सम्मुख से भाग आया है</strong>, इससे पहले कि वे <strong>बहुत डर जाएँ</strong>। अगर आपकी भाषा में घटना के क्रम में जानकारी देना ज़्यादा स्वाभाविक है, तो आप इस वाक्य को दूसरे वाक्य से पहले रखकर इसका अनुवाद इस प्रकार कर सकते हैं। वैकल्पिक अनुवाद: &quot;योना ने उन लोगों से कहा कि वह यहोवा के सम्मुख से भाग आया है&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">सूचना संरचना</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּֽי־יָדְע֣וּ הָ⁠אֲנָשִׁ֗ים כִּֽי־מִ⁠לִּ⁠פְנֵ֤י יְהוָה֙ ה֣וּא בֹרֵ֔חַ כִּ֥י הִגִּ֖יד לָ⁠הֶֽם</span></p><p><strong>&quot;वे जान गए थे कि वह यहोवा के सम्मुख से भाग आया है, क्योंकि उसने आप ही उनको बता दिया था&quot;</strong></p><p>योना ने <span>मल्लाहों</span> को बताया कि <strong>वह यहोवा के सम्मुख से भाग आया है</strong>, इससे पहले कि वे <strong>बहुत डर जाएँ</strong>। अगर आपकी भाषा में घटना के क्रम में जानकारी देना ज़्यादा स्वाभाविक है, तो आप इस वाक्य को दूसरे वाक्य से पहले रखकर इसका अनुवाद इस प्रकार कर सकते हैं। वैकल्पिक अनुवाद: &quot;योना ने उन लोगों से कहा कि वह यहोवा के सम्मुख से भाग आया है&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">सूचना संरचना</span></p>",
 "associations": {
 "passage": [
 {
@@ -2073,7 +2287,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+}
+]
 }
 },
 {
@@ -2162,7 +2391,7 @@
 "index_reference": "32001011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;समुद्र की लहरें बढ़ती ही जाती थीं&quot;</strong></p><p>&quot;यही कारण था कि पुरुषों ने योना से पूछा कि उन्हें क्या करना चाहिए। यदि परिणाम से पहले कारण बताने के लिए आपकी भाषा में यह अधिक स्पष्ट है, तो &quot;&quot;इसलिए&quot;&quot; या “इस तरह” जैसे शब्द परिणाम के साथ जोड़कर, वचन 11 की शुरुआत में कहा जा सकता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">जोड़ें — कारण और परिणाम संबंध</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּאמְר֤וּ אֵלָי⁠ו֙ מַה־נַּ֣עֲשֶׂה לָּ֔⁠ךְ וְ⁠יִשְׁתֹּ֥ק הַ⁠יָּ֖ם מֵֽ⁠עָלֵ֑י⁠נוּ כִּ֥י הַ⁠יָּ֖ם הוֹלֵ֥ךְ וְ⁠סֹעֵֽר</span></p><p><strong>&quot;समुद्र की लहरें बढ़ती ही जाती थीं&quot;</strong></p><p>&quot;यही कारण था कि पुरुषों ने योना से पूछा कि उन्हें क्या करना चाहिए। यदि परिणाम से पहले कारण बताने के लिए आपकी भाषा में यह अधिक स्पष्ट है, तो &quot;&quot;इसलिए&quot;&quot; या “इस तरह” जैसे शब्द परिणाम के साथ जोड़कर, वचन 11 की शुरुआत में कहा जा सकता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">जोड़ें — कारण और परिणाम संबंध</span></p>",
 "associations": {
 "passage": [
 {
@@ -2193,7 +2422,7 @@
 "index_reference": "32001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;क्योंकि मैं जानता हूँ, कि यह भारी आँधी तुम्हारे ऊपर मेरे ही कारण आई है&quot;</strong></p><p><strong>क्योंकि मुझे पता है कि यह भयंकर तूफान मेरे ही कारण है</strong></p>",
+"content": "<p><span style='direction: rtl;'>כִּ֚י יוֹדֵ֣עַ אָ֔נִי כִּ֣י בְ⁠שֶׁ⁠לִּ֔⁠י הַ⁠סַּ֧עַר הַ⁠גָּד֛וֹל הַ⁠זֶּ֖ה עֲלֵי⁠כֶֽם</span></p><p><strong>&quot;क्योंकि मैं जानता हूँ, कि यह भारी आँधी तुम्हारे ऊपर मेरे ही कारण आई है&quot;</strong></p><p><strong>क्योंकि मुझे पता है कि यह भयंकर तूफान मेरे ही कारण है</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2216,7 +2445,7 @@
 "index_reference": "32001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तब समुद्र शान्त पड़ जाएगा&quot;</strong></p><p>देखें कि आपने <strong>शान्त पड़ जाएगा </strong>को <a href=\"https://ref.ly/Jonah0:0\">पद 11</a> में कैसे अनुवादित किया था।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠יִשְׁתֹּ֥ק הַ⁠יָּ֖ם מֵֽ⁠עֲלֵי⁠כֶ֑ם</span></p><p><strong>&quot;तब समुद्र शान्त पड़ जाएगा&quot;</strong></p><p>देखें कि आपने <strong>शान्त पड़ जाएगा </strong>को <a href=\"https://ref.ly/Jonah0:0\">पद 11</a> में कैसे अनुवादित किया था।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -2278,7 +2507,7 @@
 "index_reference": "32001013",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;समुद्र लहरें&quot;</strong> - <strong>&quot;बढ़ती ही जाती थीं&quot;</strong></p><p><strong>तूफान भयंकर हो गया, और लहरें प्रचण्ड हो गईं</strong> देखें कि आपने इस मुहावरे का अनुवाद वचन 11 में कैसे किया है ।</p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠יָּ֔ם הוֹלֵ֥ךְ וְ⁠סֹעֵ֖ר</span></p><p><strong>&quot;समुद्र लहरें&quot;</strong> - <strong>&quot;बढ़ती ही जाती थीं&quot;</strong></p><p><strong>तूफान भयंकर हो गया, और लहरें प्रचण्ड हो गईं</strong> देखें कि आपने इस मुहावरे का अनुवाद वचन 11 में कैसे किया है ।</p>",
 "associations": {
 "passage": [
 {
@@ -2339,7 +2568,7 @@
 "index_reference": "32001014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तब उन्होंने&quot;</strong> - <strong>&quot;को पुकारकर कहा, “हे यहोवा&quot;</strong></p><p><strong>इसलिए पुरुषों ने ऊँची आवाज से यहोवा से प्रार्थना की</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּקְרְא֨וּ אֶל־יְהוָ֜ה</span></p><p><strong>&quot;तब उन्होंने&quot;</strong> - <strong>&quot;को पुकारकर कहा, “हे यहोवा&quot;</strong></p><p><strong>इसलिए पुरुषों ने ऊँची आवाज से यहोवा से प्रार्थना की</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2350,7 +2579,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2408,7 +2652,7 @@
 "index_reference": "32001014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा&quot;</strong> - <strong>&quot;हम विनती करते हैं, इस पुरुष के प्राण के बदले हमारा नाश न हो&quot;</strong></p><p><strong>हे यहोवा, कृपया इस पुरुष की मृत्यु के कारण हमें मत नाश कर</strong> या <strong>हे यहोवा, भले ही हम इसकी मृत्यु का कारण बनने जा रहे हैं, कृपया हमें मत मार</strong></p>",
+"content": "<p><span style='direction: rtl;'>אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה</span></p><p><strong>&quot;यहोवा&quot;</strong> - <strong>&quot;हम विनती करते हैं, इस पुरुष के प्राण के बदले हमारा नाश न हो&quot;</strong></p><p><strong>हे यहोवा, कृपया इस पुरुष की मृत्यु के कारण हमें मत नाश कर</strong> या <strong>हे यहोवा, भले ही हम इसकी मृत्यु का कारण बनने जा रहे हैं, कृपया हमें मत मार</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2419,7 +2663,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2477,7 +2736,7 @@
 "index_reference": "32001014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;हे यहोवा, जो कुछ तेरी इच्छा थी वही तूने किया है&quot;</strong></p><p>** हे यहोवा, जो कुछ तेरी इच्छा थी वही तू ने किया है** या <strong>हे यहोवा, तूने ही यह सब कुछ होने दिया है</strong></p>",
+"content": "<p><span style='direction: rtl;'>אָנָּ֤ה יְהוָה֙ אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה וְ⁠אַל־תִּתֵּ֥ן עָלֵ֖י⁠נוּ דָּ֣ם נָקִ֑יא כִּֽי־אַתָּ֣ה יְהוָ֔ה כַּ⁠אֲשֶׁ֥ר חָפַ֖צְתָּ עָשִֽׂיתָ</span></p><p><strong>&quot;हे यहोवा, जो कुछ तेरी इच्छा थी वही तूने किया है&quot;</strong></p><p>** हे यहोवा, जो कुछ तेरी इच्छा थी वही तू ने किया है** या <strong>हे यहोवा, तूने ही यह सब कुछ होने दिया है</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2488,7 +2747,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2500,7 +2774,7 @@
 "index_reference": "32001014",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;हम विनती करते हैं, कि इस पुरुष के प्राण के बदले हमारा नाश न हो, और न हमें निर्दोष की हत्या का दोषी ठहरा&quot;</strong></p><p>इन दोनों वाक्यांशों का मूलतः एक ही अर्थ है। दूसरा वाक्यांश, अलग-अलग शब्दों का उपयोग करके उसी विचार को दोहराकर, पहले वाक्यांश के अर्थ पर ज़ोर देता है। यदि यह आपके पाठकों के लिए उपयोगी हो, तो आप वाक्यांशों को <strong>और</strong> के अलावा किसी अन्य शब्द से जोड़ सकते हैं ताकि यह दर्शाया जा सके कि दूसरा वाक्यांश पहले वाक्यांश को दोहरा रहा है, कुछ अतिरिक्त नहीं कह रहा है। वैकल्पिक अनुवाद: &quot;<span>हम विनती करते हैं, कि इस पुरुष के प्राण के बदले हमारा नाश न हो,</span> अर्थात, <span>हमें निर्दोष की हत्या का दोषी </span>न <span>ठहरा</span>”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
+"content": "<p><span style='direction: rtl;'>אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה וְ⁠אַל־תִּתֵּ֥ן עָלֵ֖י⁠נוּ דָּ֣ם נָקִ֑יא</span></p><p><strong>&quot;हम विनती करते हैं, कि इस पुरुष के प्राण के बदले हमारा नाश न हो, और न हमें निर्दोष की हत्या का दोषी ठहरा&quot;</strong></p><p>इन दोनों वाक्यांशों का मूलतः एक ही अर्थ है। दूसरा वाक्यांश, अलग-अलग शब्दों का उपयोग करके उसी विचार को दोहराकर, पहले वाक्यांश के अर्थ पर ज़ोर देता है। यदि यह आपके पाठकों के लिए उपयोगी हो, तो आप वाक्यांशों को <strong>और</strong> के अलावा किसी अन्य शब्द से जोड़ सकते हैं ताकि यह दर्शाया जा सके कि दूसरा वाक्यांश पहले वाक्यांश को दोहरा रहा है, कुछ अतिरिक्त नहीं कह रहा है। वैकल्पिक अनुवाद: &quot;<span>हम विनती करते हैं, कि इस पुरुष के प्राण के बदले हमारा नाश न हो,</span> अर्थात, <span>हमें निर्दोष की हत्या का दोषी </span>न <span>ठहरा</span>”</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
 "associations": {
 "passage": [
 {
@@ -2519,7 +2793,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2531,7 +2820,7 @@
 "index_reference": "32001015",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और समुद्र की भयानक लहरें थम गईं&quot;</strong></p><p><strong>समुद्र की भयानक लहरें थम गईं</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּעֲמֹ֥ד הַ⁠יָּ֖ם מִ⁠זַּעְפּֽ⁠וֹ</span></p><p><strong>&quot;और समुद्र की भयानक लहरें थम गईं&quot;</strong></p><p><strong>समुद्र की भयानक लहरें थम गईं</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2542,7 +2831,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+}
+]
 }
 },
 {
@@ -2643,18 +2940,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
 }
 ]
 }
@@ -2703,18 +3000,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
 }
 ]
 }
@@ -2728,7 +3025,7 @@
 "index_reference": "32001017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p>General Information:\\n\\nकुछ संस्करण इस पद को अध्याय 2 के पहले पद के रूप में अंकित करते हैं। आप अपनी भाषा समूह द्वारा उपयोग किए जाने वाले मुख्य संस्करण के अनुसार पदों को अंकित कर सकते हैं।</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִ⁠בְלֹ֖עַ אֶת־יוֹנָ֑ה וַ⁠יְהִ֤י יוֹנָה֙ בִּ⁠מְעֵ֣י הַ⁠דָּ֔ג שְׁלֹשָׁ֥ה יָמִ֖ים וּ⁠שְׁלֹשָׁ֥ה לֵילֽוֹת</span></p><p><strong>&quot;&quot;</strong></p><p>General Information:\\n\\nकुछ संस्करण इस पद को अध्याय 2 के पहले पद के रूप में अंकित करते हैं। आप अपनी भाषा समूह द्वारा उपयोग किए जाने वाले मुख्य संस्करण के अनुसार पदों को अंकित कर सकते हैं।</p>",
 "associations": {
 "passage": [
 {
@@ -2739,7 +3036,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fish"
+}
+]
 }
 },
 {
@@ -2751,7 +3070,7 @@
 "index_reference": "32001017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा ने एक महा मच्छ ठहराया था योना को निगल ले&quot;</strong></p><p>&quot;यह खंड कहानी के अगले भाग का परिचय देता है, जहाँ यहोवा योना को समुद्र से बचाता है, जब योना प्रार्थना करता है। इस संदर्भ में, कहानी का एक नया हिस्सा पेश करने के लिए अंग्रेजी में &quot;&quot;अब&quot;&quot; शब्द का उपयोग किया जाता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">नए घटनाक्रम का परिचय</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִ⁠בְלֹ֖עַ אֶת־יוֹנָ֑ה</span></p><p><strong>&quot;यहोवा ने एक महा मच्छ ठहराया था योना को निगल ले&quot;</strong></p><p>&quot;यह खंड कहानी के अगले भाग का परिचय देता है, जहाँ यहोवा योना को समुद्र से बचाता है, जब योना प्रार्थना करता है। इस संदर्भ में, कहानी का एक नया हिस्सा पेश करने के लिए अंग्रेजी में &quot;&quot;अब&quot;&quot; शब्द का उपयोग किया जाता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">नए घटनाक्रम का परिचय</span></p>",
 "associations": {
 "passage": [
 {
@@ -2770,7 +3089,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fish"
+}
+]
 }
 },
 {
@@ -2871,18 +3212,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "fauna:Fish",
@@ -2903,7 +3244,7 @@
 "index_reference": "32002002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p><strong>योना ने कहा</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֗אמֶר</span></p><p><strong>&quot;&quot;</strong></p><p><strong>योना ने कहा</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2914,7 +3255,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
+}
+]
 }
 },
 {
@@ -2926,7 +3282,7 @@
 "index_reference": "32002002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी,&quot;</strong></p><p>&quot;यह पंक्ति मछली के पेट में योना के अनुभव और प्रार्थना का वर्णन करते हुए एक काव्य की शुरुआत करती है। काव्य उस सटीक शब्द को नहीं देता जो उस समय योना ने प्रार्थना की थी क्योंकि काव्य पाठ बाद में लिखा गया था, मछली में योना के अनुभव, उसकी प्रार्थना और परमेश्वर के उत्तर का वर्णन करते हुए जैसे कि वे पहले ही बीत चुका था l काव्य की इस पहली पंक्ति को दो तरीकों में से एक में समझा जा सकता है: या तो प्रार्थना के वर्णन के रूप में यहोवा को संबोधित किया जा रहा है; या प्रार्थना के वर्णन के परिचय के रूप में किसी अन्य व्यक्ति को संबोधित किया जा रहा है। &quot;&quot;मुक्ति यहोवा ही से होती है !&quot;&quot; वाक्यांश से संबंधित नोट [2:9] में (../02/09/jdrh) में भी देखें ।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_writing-काव्य\" data-resourceType=\"UWTranslationManual\">काव्य</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי</span></p><p><strong>&quot;&quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी,&quot;</strong></p><p>&quot;यह पंक्ति मछली के पेट में योना के अनुभव और प्रार्थना का वर्णन करते हुए एक काव्य की शुरुआत करती है। काव्य उस सटीक शब्द को नहीं देता जो उस समय योना ने प्रार्थना की थी क्योंकि काव्य पाठ बाद में लिखा गया था, मछली में योना के अनुभव, उसकी प्रार्थना और परमेश्वर के उत्तर का वर्णन करते हुए जैसे कि वे पहले ही बीत चुका था l काव्य की इस पहली पंक्ति को दो तरीकों में से एक में समझा जा सकता है: या तो प्रार्थना के वर्णन के रूप में यहोवा को संबोधित किया जा रहा है; या प्रार्थना के वर्णन के परिचय के रूप में किसी अन्य व्यक्ति को संबोधित किया जा रहा है। &quot;&quot;मुक्ति यहोवा ही से होती है !&quot;&quot; वाक्यांश से संबंधित नोट [2:9] में (../02/09/jdrh) में भी देखें ।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_writing-काव्य\" data-resourceType=\"UWTranslationManual\">काव्य</span></p>",
 "associations": {
 "passage": [
 {
@@ -2945,7 +3301,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
+}
+]
 }
 },
 {
@@ -2957,7 +3328,7 @@
 "index_reference": "32002002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी&quot;</strong></p><p><strong>मैंने अपनी बड़ी मुसीबत के समय यहोवा से प्रार्थना की</strong> या <strong>यहोवा, मैंने अपने संकट के समय तुझे पुकारा</strong></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי</span></p><p><strong>&quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी&quot;</strong></p><p><strong>मैंने अपनी बड़ी मुसीबत के समय यहोवा से प्रार्थना की</strong> या <strong>यहोवा, मैंने अपने संकट के समय तुझे पुकारा</strong></p>",
 "associations": {
 "passage": [
 {
@@ -2968,7 +3339,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
+}
+]
 }
 },
 {
@@ -2993,18 +3379,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3039,18 +3425,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3085,18 +3471,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3131,18 +3517,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3156,7 +3542,7 @@
 "index_reference": "32002002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी, और उसने मेरी सुन ली है; अधोलोक के उदर में से मैं चिल्ला उठा, और तूने मेरी सुन ली&quot;</strong></p><p>इस पद के दोनों हिस्सों का अर्थ मूलतः एक ही है। दूसरा हिस्सा उसी विचार को अलग-अलग शब्दों में दोहराकर पहले हिस्से के अर्थ पर ज़ोर देता है। अगर यह आपके पाठकों के लिए सहायक हो, तो आप वाक्यांशों को इस तरह से जोड़ सकते हैं कि लगे कि दूसरा वाक्यांश पहले वाले को दोहरा रहा है, कुछ अतिरिक्त नहीं कह रहा। वैकल्पिक अनुवाद: &quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी, और उसने मेरी सुन ली है; अर्थात, अधोलोक के उदर में से मैं चिल्ला उठा, और तूने मेरी सुन ली&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי מִ⁠בֶּ֧טֶן שְׁא֛וֹל שִׁוַּ֖עְתִּי שָׁמַ֥עְתָּ קוֹלִֽ⁠י</span></p><p><strong>&quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी, और उसने मेरी सुन ली है; अधोलोक के उदर में से मैं चिल्ला उठा, और तूने मेरी सुन ली&quot;</strong></p><p>इस पद के दोनों हिस्सों का अर्थ मूलतः एक ही है। दूसरा हिस्सा उसी विचार को अलग-अलग शब्दों में दोहराकर पहले हिस्से के अर्थ पर ज़ोर देता है। अगर यह आपके पाठकों के लिए सहायक हो, तो आप वाक्यांशों को इस तरह से जोड़ सकते हैं कि लगे कि दूसरा वाक्यांश पहले वाले को दोहरा रहा है, कुछ अतिरिक्त नहीं कह रहा। वैकल्पिक अनुवाद: &quot;मैंने संकट में पड़े हुए यहोवा की दुहाई दी, और उसने मेरी सुन ली है; अर्थात, अधोलोक के उदर में से मैं चिल्ला उठा, और तूने मेरी सुन ली&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">समानांतरता</span></p>",
 "associations": {
 "passage": [
 {
@@ -3175,7 +3561,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
+}
+]
 }
 },
 {
@@ -3210,7 +3611,7 @@
 "index_reference": "32002003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और मैं धाराओं के बीच में पड़ा था&quot;</strong></p><p><strong>समुद्र का पानी मेरे ऊपर से बह गया</strong></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נָהָ֖ר יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;और मैं धाराओं के बीच में पड़ा था&quot;</strong></p><p><strong>समुद्र का पानी मेरे ऊपर से बह गया</strong></p>",
 "associations": {
 "passage": [
 {
@@ -3473,7 +3874,7 @@
 "index_reference": "32002005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;मैं जल से यहाँ तक घिरा हुआ था कि मेरे प्राण निकले जाते थे;&quot;</strong></p><p>योना अपनी स्थिति की गंभीरता और निराशा को व्यक्त करने के लिए दो समान वाक्यांशों का उपयोग करता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-समांतरता\" data-resourceType=\"UWTranslationManual\">समांतरता</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲפָפ֤וּ⁠נִי מַ֨יִם֙ עַד־נֶ֔פֶשׁ תְּה֖וֹם יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;&quot;मैं जल से यहाँ तक घिरा हुआ था कि मेरे प्राण निकले जाते थे;&quot;</strong></p><p>योना अपनी स्थिति की गंभीरता और निराशा को व्यक्त करने के लिए दो समान वाक्यांशों का उपयोग करता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-समांतरता\" data-resourceType=\"UWTranslationManual\">समांतरता</span></p>",
 "associations": {
 "passage": [
 {
@@ -3492,7 +3893,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+}
+]
 }
 },
 {
@@ -3558,7 +3967,7 @@
 "index_reference": "32002005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;गहरा सागर मेरे चारों ओर था&quot;</strong></p><p><strong>गहरा जल मेरे चारों ओर था</strong></p>",
+"content": "<p><span style='direction: rtl;'>תְּה֖וֹם יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;गहरा सागर मेरे चारों ओर था&quot;</strong></p><p><strong>गहरा जल मेरे चारों ओर था</strong></p>",
 "associations": {
 "passage": [
 {
@@ -3569,7 +3978,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+}
+]
 }
 },
 {
@@ -3612,7 +4029,7 @@
 "index_reference": "32002006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मैं सदा के लिये भूमि में बन्द हो गया था&quot;</strong></p><p>&quot;यहाँ योना पृथ्वी से कैद की तुलना करने के लिए अलंकार का उपयोग करता है। वैकल्पिक अनुवाद: &quot;&quot;पृथ्वी एक कैद की तरह थी जो मुझे हमेशा के लिए बंद करने वाली थी&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><span style='direction: rtl;'>הָ⁠אָ֛רֶץ בְּרִחֶ֥י⁠הָ בַעֲדִ֖⁠י לְ⁠עוֹלָ֑ם</span></p><p><strong>&quot;मैं सदा के लिये भूमि में बन्द हो गया था&quot;</strong></p><p>&quot;यहाँ योना पृथ्वी से कैद की तुलना करने के लिए अलंकार का उपयोग करता है। वैकल्पिक अनुवाद: &quot;&quot;पृथ्वी एक कैद की तरह थी जो मुझे हमेशा के लिए बंद करने वाली थी&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -3631,7 +4048,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
+}
+]
 }
 },
 {
@@ -3664,18 +4096,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3702,18 +4134,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3748,18 +4180,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3794,18 +4226,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नरक"
 }
 ]
 }
@@ -3889,7 +4321,7 @@
 "index_reference": "32002007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;मेरी प्रार्थना तेरे पास तेरे पवित्र मन्दिर में पहुँच गई&quot;</strong></p><p>&quot;योना बोलता है जैसे कि उसकी प्रार्थना परमेश्वर और उसके मन्दिर की यात्रा कर सकती है। इसका अर्थ है कि परमेश्वर ने उसकी प्रार्थना सुनी और उस पर प्रतिक्रिया दी। वैकल्पिक अनुवाद: &quot;&quot;फिर तू अपने पवित्र मन्दिर में मेरी प्रार्थना सुनें&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּב֤וֹא אֵלֶ֨י⁠ךָ֙ תְּפִלָּתִ֔⁠י אֶל־הֵיכַ֖ל קָדְשֶֽׁ⁠ךָ</span></p><p><strong>&quot;मेरी प्रार्थना तेरे पास तेरे पवित्र मन्दिर में पहुँच गई&quot;</strong></p><p>&quot;योना बोलता है जैसे कि उसकी प्रार्थना परमेश्वर और उसके मन्दिर की यात्रा कर सकती है। इसका अर्थ है कि परमेश्वर ने उसकी प्रार्थना सुनी और उस पर प्रतिक्रिया दी। वैकल्पिक अनुवाद: &quot;&quot;फिर तू अपने पवित्र मन्दिर में मेरी प्रार्थना सुनें&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-रूपक\" data-resourceType=\"UWTranslationManual\">रूपक</span></p>",
 "associations": {
 "passage": [
 {
@@ -3908,7 +4340,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -4104,20 +4544,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4130,6 +4556,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4156,20 +4596,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4182,6 +4608,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4208,20 +4648,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4234,6 +4660,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4268,20 +4708,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4294,6 +4720,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4328,20 +4768,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4354,6 +4780,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4380,18 +4820,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "fauna:Fish",
@@ -4433,18 +4873,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "fauna:Fish",
@@ -4486,18 +4926,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "fauna:Fish",
@@ -4549,7 +4989,7 @@
 "index_reference": "32003001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा यह वचन&quot;</strong> - <strong>&quot;पहुँचा&quot;</strong></p><p>यह वाक्यांश योना की कहानी के दूसरे आधे हिस्से का परिचय देता है। वही वाक्यांश कहानी के पहले भाग (1:1) का परिचय देता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">नए घटनाक्रम का परिचय</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֧י דְבַר־יְהוָ֛ה</span></p><p><strong>&quot;यहोवा यह वचन&quot;</strong> - <strong>&quot;पहुँचा&quot;</strong></p><p>यह वाक्यांश योना की कहानी के दूसरे आधे हिस्से का परिचय देता है। वही वाक्यांश कहानी के पहले भाग (1:1) का परिचय देता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">नए घटनाक्रम का परिचय</span></p>",
 "associations": {
 "passage": [
 {
@@ -4568,7 +5008,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -4580,7 +5042,7 @@
 "index_reference": "32003001",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा यह वचन&quot;</strong> - <strong>&quot;पहुँचा&quot;</strong></p><p>&quot;यह एक मुहावरा है जिसका अर्थ है कि यहोवा ने किसी तरह से अपने संदेश को बोला या संवाद किया.. देखें कि आपने <a href=\"https://ref.ly/Jonah1:1\">1:1</a>में इसका अनुवाद कैसे किया । वैकल्पिक अनुवाद: &quot;&quot;यहोवा ने अपना संदेश सुनाया&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֧י דְבַר־יְהוָ֛ה</span></p><p><strong>&quot;यहोवा यह वचन&quot;</strong> - <strong>&quot;पहुँचा&quot;</strong></p><p>&quot;यह एक मुहावरा है जिसका अर्थ है कि यहोवा ने किसी तरह से अपने संदेश को बोला या संवाद किया.. देखें कि आपने <a href=\"https://ref.ly/Jonah1:1\">1:1</a>में इसका अनुवाद कैसे किया । वैकल्पिक अनुवाद: &quot;&quot;यहोवा ने अपना संदेश सुनाया&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -4599,7 +5061,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -4681,7 +5165,7 @@
 "index_reference": "32003002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;जो बात मैं तुझ से कहूँगा, उसमें प्रचार कर&quot;</strong></p><p><strong>जो मैंने तुझे उन्हें बताने को कहा है वहाँ के लोगों को बता</strong></p>",
+"content": "<p><span style='direction: rtl;'>וִּ⁠קְרָ֤א אֵלֶ֨י⁠הָ֙ אֶת־הַ⁠קְּרִיאָ֔ה אֲשֶׁ֥ר אָנֹכִ֖י דֹּבֵ֥ר אֵלֶֽי⁠ךָ</span></p><p><strong>&quot;जो बात मैं तुझ से कहूँगा, उसमें प्रचार कर&quot;</strong></p><p><strong>जो मैंने तुझे उन्हें बताने को कहा है वहाँ के लोगों को बता</strong></p>",
 "associations": {
 "passage": [
 {
@@ -4692,7 +5176,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+}
+]
 }
 },
 {
@@ -4725,11 +5217,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "नीनवे"
+"preferred_label": "योना"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4746,11 +5238,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योना"
+"preferred_label": "नीनवे"
 }
 ]
 }
@@ -4785,11 +5277,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "नीनवे"
+"preferred_label": "योना"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4806,11 +5298,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योना"
+"preferred_label": "नीनवे"
 }
 ]
 }
@@ -4824,7 +5316,7 @@
 "index_reference": "32003003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;नीनवे एक बहुत बड़ा नगर था, तीन दिन की यात्रा का था&quot;</strong></p><p>यह वाक्य नीनवे शहर के विषय में पृष्ठभूमि की जानकारी देता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נִֽינְוֵ֗ה הָיְתָ֤ה עִיר־גְּדוֹלָה֙ לֵֽ⁠אלֹהִ֔ים מַהֲלַ֖ךְ שְׁלֹ֥שֶׁת יָמִֽים</span></p><p><strong>&quot;नीनवे एक बहुत बड़ा नगर था, तीन दिन की यात्रा का था&quot;</strong></p><p>यह वाक्य नीनवे शहर के विषय में पृष्ठभूमि की जानकारी देता है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">पृष्ठभूमि जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -4843,7 +5335,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+}
+]
 }
 },
 {
@@ -4876,11 +5397,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "नीनवे"
+"preferred_label": "योना"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4897,11 +5418,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योना"
+"preferred_label": "नीनवे"
 }
 ]
 }
@@ -4936,11 +5457,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "नीनवे"
+"preferred_label": "योना"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4957,11 +5478,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योना"
+"preferred_label": "नीनवे"
 }
 ]
 }
@@ -4975,7 +5496,7 @@
 "index_reference": "32003004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और योना नगर प्रवेश करके एक दिन की यात्रा पूरी की, और यह प्रचार करता गया&quot;</strong></p><p>इस वाक्यांश के दो संभावित अर्थ हैं: 1) योना ने शहर में प्रवेश करके एक दिन की यात्रा पूरी की, तब उसने प्रचार करना शुरू किया; या 2) जब योना पहले दिन नगर से गुजर रहा था, तो उसने प्रचार करना शुरू कर दिया।</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֤חֶל יוֹנָה֙ לָ⁠ב֣וֹא בָ⁠עִ֔יר מַהֲלַ֖ךְ י֣וֹם אֶחָ֑ד וַ⁠יִּקְרָא֙</span></p><p><strong>&quot;और योना नगर प्रवेश करके एक दिन की यात्रा पूरी की, और यह प्रचार करता गया&quot;</strong></p><p>इस वाक्यांश के दो संभावित अर्थ हैं: 1) योना ने शहर में प्रवेश करके एक दिन की यात्रा पूरी की, तब उसने प्रचार करना शुरू किया; या 2) जब योना पहले दिन नगर से गुजर रहा था, तो उसने प्रचार करना शुरू कर दिया।</p>",
 "associations": {
 "passage": [
 {
@@ -4986,7 +5507,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+}
+]
 }
 },
 {
@@ -5011,18 +5547,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नीनवे"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
 }
 ]
 }
@@ -5036,7 +5572,7 @@
 "index_reference": "32003004",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;अब से चालीस दिन&quot;</strong></p><p><strong>40 दिनों के बाद</strong> या <strong>40 दिनों में</strong> <strong>40 दिन शेष रह गए, और</strong></p>",
+"content": "<p><span style='direction: rtl;'>ע֚וֹד אַרְבָּעִ֣ים י֔וֹם</span></p><p><strong>&quot;अब से चालीस दिन&quot;</strong></p><p><strong>40 दिनों के बाद</strong> या <strong>40 दिनों में</strong> <strong>40 दिन शेष रह गए, और</strong></p>",
 "associations": {
 "passage": [
 {
@@ -5047,7 +5583,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+}
+]
 }
 },
 {
@@ -5111,18 +5662,18 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नीनवे"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
 }
 ]
 }
@@ -5157,13 +5708,6 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नीनवे"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5176,6 +5720,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
 },
 {
 "id": "realia:Sackcloth",
@@ -5227,7 +5778,7 @@
 "index_reference": "32003005",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;बड़े से लेकर छोटे तक सभी ने&quot;</strong></p><p><strong>सबसे बड़े से लेकर छोटे तक सभों ने</strong> या <strong>सभी महत्वपूर्ण लोगों और सभी महत्वहीन लोगों सहित</strong></p>",
+"content": "<p><span style='direction: rtl;'>מִ⁠גְּדוֹלָ֖⁠ם וְ⁠עַד־קְטַנָּֽ⁠ם</span></p><p><strong>&quot;बड़े से लेकर छोटे तक सभी ने&quot;</strong></p><p><strong>सबसे बड़े से लेकर छोटे तक सभों ने</strong> या <strong>सभी महत्वपूर्ण लोगों और सभी महत्वहीन लोगों सहित</strong></p>",
 "associations": {
 "passage": [
 {
@@ -5238,7 +5789,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+}
+]
 }
 },
 {
@@ -5271,13 +5851,6 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "नीनवे"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5290,6 +5863,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
 },
 {
 "id": "realia:Sackcloth",
@@ -5362,7 +5942,7 @@
 "index_reference": "32003006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और उसने सिंहासन पर से उठ&quot;</strong></p><p><strong>वह अपने सिंहासन से उठ गया</strong> या <strong>वह अपने सिंहासन से उठ खड़ा हुआ</strong>। राजा ने यह दिखाने के लिए अपना सिंहासन छोड़ दिया कि वह विनम्रतापूर्वक काम कर रहा है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">प्रतीकात्मक क्रिया</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֨קָם֙ מִ⁠כִּסְא֔⁠וֹ וַ⁠יַּעֲבֵ֥ר אַדַּרְתּ֖⁠וֹ מֵֽ⁠עָלָ֑י⁠ו</span></p><p><strong>&quot;और उसने सिंहासन पर से उठ&quot;</strong></p><p><strong>वह अपने सिंहासन से उठ गया</strong> या <strong>वह अपने सिंहासन से उठ खड़ा हुआ</strong>। राजा ने यह दिखाने के लिए अपना सिंहासन छोड़ दिया कि वह विनम्रतापूर्वक काम कर रहा है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">प्रतीकात्मक क्रिया</span></p>",
 "associations": {
 "passage": [
 {
@@ -5381,7 +5961,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
@@ -5445,7 +6054,7 @@
 "index_reference": "32003006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;राख पर बैठ गया&quot;</strong></p><p>राख में बैठना विनम्रता और दुःख प्रकट करने का एक तरीका था। इस घटना में, यह दिखाना था कि उसे अपने पाप के लिए कितना अधिक पछतावा है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">प्रतीकात्मक क्रिया</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְכַ֣ס שַׂ֔ק וַ⁠יֵּ֖שֶׁב עַל־הָ⁠אֵֽפֶר</span></p><p><strong>&quot;राख पर बैठ गया&quot;</strong></p><p>राख में बैठना विनम्रता और दुःख प्रकट करने का एक तरीका था। इस घटना में, यह दिखाना था कि उसे अपने पाप के लिए कितना अधिक पछतावा है।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">प्रतीकात्मक क्रिया</span></p>",
 "associations": {
 "passage": [
 {
@@ -5464,7 +6073,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
@@ -5496,11 +6134,56 @@
 "preferred_label": "नीनवे"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
+}
+]
+}
+},
+{
+"content_id": "394766",
+"reference_id": 190599,
+"version": "1.0.4",
+"title": "योना 3:7 (#2)",
+"media_type": "Text",
+"index_reference": "32003007",
+"language": "hin",
+"review_level": "None",
+"content": "<p><span style='direction: rtl;'>מִ⁠טַּ֧עַם הַ⁠מֶּ֛לֶךְ וּ⁠גְדֹלָ֖י⁠ו</span></p><p><strong>&quot;राजा ने अपने प्रधानों से&quot;</strong></p><p><strong>राजा और उसके अधिकारियों के पूर्ण अधिकार के साथ एक आदेश</strong></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "32003007",
+"start_ref_usfm": "JON 3:7",
+"end_ref": "32003007",
+"end_ref_usfm": "JON 3:7"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
 },
 {
 "id": "fauna:Goat",
@@ -5515,31 +6198,15 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
-}
-]
-}
 },
 {
-"content_id": "394766",
-"reference_id": 190599,
-"version": "1.0.4",
-"title": "योना 3:7 (#2)",
-"media_type": "Text",
-"index_reference": "32003007",
-"language": "hin",
-"review_level": "None",
-"content": "<p><strong>&quot;राजा ने अपने प्रधानों से&quot;</strong></p><p><strong>राजा और उसके अधिकारियों के पूर्ण अधिकार के साथ एक आदेश</strong></p>",
-"associations": {
-"passage": [
-{
-"start_ref": "32003007",
-"start_ref_usfm": "JON 3:7",
-"end_ref": "32003007",
-"end_ref_usfm": "JON 3:7"
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -5571,13 +6238,6 @@
 "preferred_label": "नीनवे"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5590,6 +6250,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5623,13 +6290,6 @@
 "preferred_label": "नीनवे"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5642,6 +6302,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5714,13 +6381,6 @@
 "preferred_label": "नीनवे"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5733,6 +6393,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5766,18 +6433,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5819,18 +6486,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5864,18 +6531,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5917,18 +6584,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -6090,7 +6757,7 @@
 "index_reference": "32003010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;जब परमेश्वर ने उनके कामों को देखा, कि वे कुमार्ग फिर रहे हैं&quot;</strong></p><p><strong>परमेश्वर ने देखा कि उन्होंने बुरे काम करना बंद कर दिया</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּ֤רְא הָֽ⁠אֱלֹהִים֙ אֶֽת־מַ֣עֲשֵׂי⁠הֶ֔ם כִּי־שָׁ֖בוּ מִ⁠דַּרְכָּ֣⁠ם הָ⁠רָעָ֑ה</span></p><p><strong>&quot;जब परमेश्वर ने उनके कामों को देखा, कि वे कुमार्ग फिर रहे हैं&quot;</strong></p><p><strong>परमेश्वर ने देखा कि उन्होंने बुरे काम करना बंद कर दिया</strong></p>",
 "associations": {
 "passage": [
 {
@@ -6101,7 +6768,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -6497,11 +7172,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6511,18 +7186,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तर्शीश"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Kindness",
@@ -6543,7 +7218,7 @@
 "index_reference": "32004002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा जब मैं अपने देश में था, क्या&quot;</strong> - <strong>&quot;यही बात न कहता था&quot;</strong></p><p>&quot;योना ने परमेश्वर को यह बताने के लिए इस भाषणगत् प्रश्न का उपयोग किया कि वह कितना क्रोधित था। यदि यह अधिक स्पष्ट है, तो इसे एक कथन में प्रस्तुत किया जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;आह, यहोवा, जब मैं अपने देश में था तब मैंने यही तो कहा था !&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהוָה֙ הֲ⁠לוֹא־זֶ֣ה דְבָרִ֗⁠י עַד־הֱיוֹתִ⁠י֙ עַל־אַדְמָתִ֔⁠י</span></p><p><strong>&quot;यहोवा जब मैं अपने देश में था, क्या&quot;</strong> - <strong>&quot;यही बात न कहता था&quot;</strong></p><p>&quot;योना ने परमेश्वर को यह बताने के लिए इस भाषणगत् प्रश्न का उपयोग किया कि वह कितना क्रोधित था। यदि यह अधिक स्पष्ट है, तो इसे एक कथन में प्रस्तुत किया जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;आह, यहोवा, जब मैं अपने देश में था तब मैंने यही तो कहा था !&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -6562,7 +7237,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Generous"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तर्शीश"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6574,7 +7285,7 @@
 "index_reference": "32004002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;यहोवा जब मैं अपने देश में था, क्या&quot;</strong> - <strong>&quot;यही बात न कहता था&quot;</strong></p><p>&quot;जब योना अपने देश में था, तब जो बात उसने कही थी इसे स्पष्ट रूप से कहा जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;हे यहोवा, जब मैं अपने देश में ही था तो मुझे पता था कि यदि मैंने नीनवे के लोगों को चेतावनी दी, तो वे पश्चाताप करेंगे, और आप उन्हें नष्ट नहीं करेंगे।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהוָה֙ הֲ⁠לוֹא־זֶ֣ה דְבָרִ֗⁠י עַד־הֱיוֹתִ⁠י֙ עַל־אַדְמָתִ֔⁠י</span></p><p><strong>&quot;यहोवा जब मैं अपने देश में था, क्या&quot;</strong> - <strong>&quot;यही बात न कहता था&quot;</strong></p><p>&quot;जब योना अपने देश में था, तब जो बात उसने कही थी इसे स्पष्ट रूप से कहा जा सकता है। वैकल्पिक अनुवाद: &quot;&quot;हे यहोवा, जब मैं अपने देश में ही था तो मुझे पता था कि यदि मैंने नीनवे के लोगों को चेतावनी दी, तो वे पश्चाताप करेंगे, और आप उन्हें नष्ट नहीं करेंगे।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -6593,7 +7304,43 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Generous"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तर्शीश"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6626,11 +7373,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6640,18 +7387,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तर्शीश"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Kindness",
@@ -6672,7 +7419,7 @@
 "index_reference": "32004002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;करुणानिधान है&quot;</strong></p><p><strong>और बहुत विश्वासयोग्य</strong> या <strong>और तू लोगों को बहुत प्रेम करता है</strong></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠רַב־חֶ֔סֶד</span></p><p><strong>&quot;करुणानिधान है&quot;</strong></p><p><strong>और बहुत विश्वासयोग्य</strong> या <strong>और तू लोगों को बहुत प्रेम करता है</strong></p>",
 "associations": {
 "passage": [
 {
@@ -6683,7 +7430,43 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Generous"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तर्शीश"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6716,11 +7499,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6730,18 +7513,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तर्शीश"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Kindness",
@@ -7003,7 +7786,7 @@
 "index_reference": "32004006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;योना के सिर पर छाया हो&quot;</strong></p><p><strong>छाया के लिए योना के सिर पर</strong></p>",
+"content": "<p><span style='direction: rtl;'>מֵ⁠עַ֣ל לְ⁠יוֹנָ֗ה לִֽ⁠הְי֥וֹת צֵל֙ עַל־רֹאשׁ֔⁠וֹ</span></p><p><strong>&quot;योना के सिर पर छाया हो&quot;</strong></p><p><strong>छाया के लिए योना के सिर पर</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7014,7 +7797,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -7046,18 +7851,18 @@
 "preferred_label": "Castor Oil"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7099,18 +7904,18 @@
 "preferred_label": "Castor Oil"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7124,7 +7929,7 @@
 "index_reference": "32004007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;परमेश्वर ने एक कीड़े को भेजा&quot;</strong></p><p><strong>तब परमेश्वर ने एक कीड़ा भेजा</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן הָֽ⁠אֱלֹהִים֙ תּוֹלַ֔עַת</span></p><p><strong>&quot;परमेश्वर ने एक कीड़े को भेजा&quot;</strong></p><p><strong>तब परमेश्वर ने एक कीड़ा भेजा</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7135,7 +7940,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "fauna:Maggot",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Worm"
+}
+]
 }
 },
 {
@@ -7236,18 +8063,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7282,18 +8109,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7320,18 +8147,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7366,18 +8193,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7391,7 +8218,7 @@
 "index_reference": "32004008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;कि वह मूर्छा खाने लगा&quot;</strong></p><p><strong>और वह बहुत निर्बल हो गया</strong> या <strong>और उसने अपनी ताकत खो दी</strong></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּתְעַלָּ֑ף</span></p><p><strong>&quot;कि वह मूर्छा खाने लगा&quot;</strong></p><p><strong>और वह बहुत निर्बल हो गया</strong> या <strong>और उसने अपनी ताकत खो दी</strong></p>",
 "associations": {
 "passage": [
 {
@@ -7402,7 +8229,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -7427,18 +8269,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7465,18 +8307,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -7511,18 +8353,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "flora:CastorOil",
@@ -7566,7 +8408,7 @@
 "index_reference": "32004009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तेरा क्रोध जो... भड़का है&quot;</strong> - <strong>&quot;मेरा जो क्रोध भड़का है&quot; </strong></p><p>वाक्यांश <strong>तेरा क्रोध जो... भड़का है </strong>और<strong> मेरा जो क्रोध भड़का है</strong> एक मुहावरे के उदाहरण हैं जो योना के क्रोध के बारे में इस तरह से बात करता है जैसे कि उसके अन्दर आग जल रही हो। देखें कि आपने इस मुहावरे का अनुवाद <a href=\"https://ref.ly/Jonah4:1\">4:1</a> में कैसे किया था।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>חָרָֽה־לְ⁠ךָ֖ &amp; חָֽרָה־לִ֖⁠י</span></p><p><strong>&quot;तेरा क्रोध जो... भड़का है&quot;</strong> - <strong>&quot;मेरा जो क्रोध भड़का है&quot; </strong></p><p>वाक्यांश <strong>तेरा क्रोध जो... भड़का है </strong>और<strong> मेरा जो क्रोध भड़का है</strong> एक मुहावरे के उदाहरण हैं जो योना के क्रोध के बारे में इस तरह से बात करता है जैसे कि उसके अन्दर आग जल रही हो। देखें कि आपने इस मुहावरे का अनुवाद <a href=\"https://ref.ly/Jonah4:1\">4:1</a> में कैसे किया था।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -7585,7 +8427,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "योना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+}
+]
 }
 },
 {
@@ -7735,7 +8599,7 @@
 "index_reference": "32004011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;फिर बड़ा नगर नीनवे, एक लाख बीस हजार से अधिक मनुष्य हैं, जो दाएँ-बाएँ हाथों का नहीं पहचानते, बहुत पशु उसमें रहते हैं, मैं पर तरस न खाऊँ&quot;</strong></p><p>&quot;परमेश्वर ने अपने बयान पर जोर देने के लिए इस भाषणगत् प्रश्न का उपयोग किया कि उसे नीनवे पर दया करनी चाहिए। वैकल्पिक अनुवाद: &quot;&quot;मुझे नीनवे, उस बड़े शहर पर निश्चित रूप से दया करनी चाहिए, जिसमें 120,000 से अधिक लोग हैं जो अपने दाहिने हाथ और उनके बाएँ हाथ और कईं मवेशियों के बीच अंतर नहीं कर सकते हैं।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>וַֽ⁠אֲנִי֙ לֹ֣א אָח֔וּס עַל־נִינְוֵ֖ה הָ⁠עִ֣יר הַ⁠גְּדוֹלָ֑ה אֲשֶׁ֣ר יֶשׁ־בָּ֡⁠הּ הַרְבֵּה֩ מִֽ⁠שְׁתֵּים־עֶשְׂרֵ֨ה רִבּ֜וֹ אָדָ֗ם אֲשֶׁ֤ר לֹֽא־יָדַע֙ בֵּין־יְמִינ֣⁠וֹ לִ⁠שְׂמֹאל֔⁠וֹ וּ⁠בְהֵמָ֖ה רַבָּֽה</span></p><p><strong>&quot;फिर बड़ा नगर नीनवे, एक लाख बीस हजार से अधिक मनुष्य हैं, जो दाएँ-बाएँ हाथों का नहीं पहचानते, बहुत पशु उसमें रहते हैं, मैं पर तरस न खाऊँ&quot;</strong></p><p>&quot;परमेश्वर ने अपने बयान पर जोर देने के लिए इस भाषणगत् प्रश्न का उपयोग किया कि उसे नीनवे पर दया करनी चाहिए। वैकल्पिक अनुवाद: &quot;&quot;मुझे नीनवे, उस बड़े शहर पर निश्चित रूप से दया करनी चाहिए, जिसमें 120,000 से अधिक लोग हैं जो अपने दाहिने हाथ और उनके बाएँ हाथ और कईं मवेशियों के बीच अंतर नहीं कर सकते हैं।&quot;&quot;</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -7754,7 +8618,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 },
 {
@@ -7804,7 +8683,7 @@
 "index_reference": "32004011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;एक लाख बीस हजार&quot;</strong> - <strong>&quot;मनुष्य हैं&quot;</strong></p><p><strong>एक लाख बीस हजार लोग</strong></p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_translate-संख्या\" data-resourceType=\"UWTranslationManual\">संख्या</span></p>",
+"content": "<p><span style='direction: rtl;'>מִֽ⁠שְׁתֵּים־עֶשְׂרֵ֨ה רִבּ֜וֹ</span></p><p><strong>&quot;एक लाख बीस हजार&quot;</strong> - <strong>&quot;मनुष्य हैं&quot;</strong></p><p><strong>एक लाख बीस हजार लोग</strong></p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_translate-संख्या\" data-resourceType=\"UWTranslationManual\">संख्या</span></p>",
 "associations": {
 "passage": [
 {
@@ -7823,7 +8702,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 },
 {
@@ -7835,7 +8729,7 @@
 "index_reference": "32004011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;जो दाएँ-बाएँ हाथों का नहीं पहचानते&quot;</strong></p><p>इस मुहावरे का अर्थ है, <strong>जो सही और गलत के बीच अंतर नहीं जानते</strong>।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲשֶׁ֤ר לֹֽא־יָדַע֙ בֵּין־יְמִינ֣⁠וֹ לִ⁠שְׂמֹאל֔⁠וֹ</span></p><p><strong>&quot;जो दाएँ-बाएँ हाथों का नहीं पहचानते&quot;</strong></p><p>इस मुहावरे का अर्थ है, <strong>जो सही और गलत के बीच अंतर नहीं जानते</strong>।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_figs-मुहावरा\" data-resourceType=\"UWTranslationManual\">मुहावरा</span></p>",
 "associations": {
 "passage": [
 {
@@ -7854,7 +8748,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "नीनवे"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 }
 ]

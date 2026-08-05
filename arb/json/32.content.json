@@ -192,13 +192,6 @@
 ],
 "acai": [
 {
-"id": "person:Amittai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "أَمِتَّايَ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.8,
@@ -206,11 +199,11 @@
 "preferred_label": "يونَانَ"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "person:Amittai",
+"type": "person",
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "أَمِتَّايَ"
 },
 {
 "id": "deity:Lord",
@@ -218,6 +211,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
 }
 ]
 }
@@ -231,7 +231,7 @@
 "index_reference": "32001001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أمِتّايَ</strong></span><strong>&quot;</strong></p><p><strong>أمِتّاي</strong> هو اسم والد يونان.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲמִתַּ֖י</span></p><p><strong>&quot;</strong><span><strong>أمِتّايَ</strong></span><strong>&quot;</strong></p><p><strong>أمِتّاي</strong> هو اسم والد يونان.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
 "associations": {
 "passage": [
 {
@@ -250,7 +250,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "person:Amittai",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "أَمِتَّايَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -402,7 +431,7 @@
 "index_reference": "32001002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>قُمِ اذهَبْ إلَى نينَوَى المدينةِ العظيمَةِ ونادِ علَيها، لأنَّهُ قد صَعِدَ شَرُّهُمْ أمامي</strong></span><strong>&quot;</strong></p><p>إذا كان ذلك أكثر طبيعية في لغتك، يمكنك عكس ترتيب هذه الجمل، لأن النصف الثاني من الآية يوضّح سبب النتيجة التي تصفها النصف الأول. ترجمة بديلة: &quot;ارتكبت نينوى الشر أمام وجهي. فانهض، واذهب إلى تلك المدينة العظيمة، ووجه إليها دعوة التحذير.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
+"content": "<p><span style='direction: rtl;'>ק֠וּם לֵ֧ךְ אֶל־נִֽינְוֵ֛ה הָ⁠עִ֥יר הַ⁠גְּדוֹלָ֖ה וּ⁠קְרָ֣א עָלֶ֑י⁠הָ כִּֽי־עָלְתָ֥ה רָעָתָ֖⁠ם לְ⁠פָנָֽ⁠י</span></p><p><strong>&quot;</strong><span><strong>قُمِ اذهَبْ إلَى نينَوَى المدينةِ العظيمَةِ ونادِ علَيها، لأنَّهُ قد صَعِدَ شَرُّهُمْ أمامي</strong></span><strong>&quot;</strong></p><p>إذا كان ذلك أكثر طبيعية في لغتك، يمكنك عكس ترتيب هذه الجمل، لأن النصف الثاني من الآية يوضّح سبب النتيجة التي تصفها النصف الأول. ترجمة بديلة: &quot;ارتكبت نينوى الشر أمام وجهي. فانهض، واذهب إلى تلك المدينة العظيمة، ووجه إليها دعوة التحذير.&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
 "associations": {
 "passage": [
 {
@@ -421,7 +450,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
@@ -433,7 +470,7 @@
 "index_reference": "32001002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;قد صَعِدَ شَرُّهُمْ أمامي&quot;</strong></p><p>إذا لم تكن لغتك تستخدم اسمًا مجردًا للتعبير عن فكرة <strong>الشر</strong>، يمكنك صياغة المعنى بطريقة أخرى. ترجمة بديلة: &quot;لقد رأيت كم صاروا أشرارًا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><span style='direction: rtl;'>עָלְתָ֥ה רָעָתָ֖⁠ם לְ⁠פָנָֽ⁠י</span></p><p><strong>&quot;قد صَعِدَ شَرُّهُمْ أمامي&quot;</strong></p><p>إذا لم تكن لغتك تستخدم اسمًا مجردًا للتعبير عن فكرة <strong>الشر</strong>، يمكنك صياغة المعنى بطريقة أخرى. ترجمة بديلة: &quot;لقد رأيت كم صاروا أشرارًا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -452,7 +489,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
@@ -531,7 +576,7 @@
 "index_reference": "32001003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>مِنْ وجهِ الرَّبِّ</strong></span><strong>&quot; - &quot;</strong><span><strong>مِنْ وجهِ الرَّبِّ</strong></span><strong>&quot;</strong></p><p>يُشير تعبير &quot;<strong>وجه الرَّبِّ</strong>&quot; إلى وجوده وحضوره. ويمكنك، إن كان ذلك أوضح لقرائك، أن تبيّن المعنى بشكل مباشر. وحضور يهوه يتضمن معرفته وانتباهه ومراقبته ودينونته. ومن خلال هروب يونان، كان يتمنى ألا ينتبه يهوه إلى عصيانه. ترجمة بديلة: &quot;من أمام الرَّبِّ&quot; أو &quot;هرب من حضرة الرَّبِّ&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>מִ⁠לִּ⁠פְנֵ֖י יְהוָ֑ה &amp; מִ⁠לִּ⁠פְנֵ֖י יְהוָֽה</span></p><p><strong>&quot;</strong><span><strong>مِنْ وجهِ الرَّبِّ</strong></span><strong>&quot; - &quot;</strong><span><strong>مِنْ وجهِ الرَّبِّ</strong></span><strong>&quot;</strong></p><p>يُشير تعبير &quot;<strong>وجه الرَّبِّ</strong>&quot; إلى وجوده وحضوره. ويمكنك، إن كان ذلك أوضح لقرائك، أن تبيّن المعنى بشكل مباشر. وحضور يهوه يتضمن معرفته وانتباهه ومراقبته ودينونته. ومن خلال هروب يونان، كان يتمنى ألا ينتبه يهوه إلى عصيانه. ترجمة بديلة: &quot;من أمام الرَّبِّ&quot; أو &quot;هرب من حضرة الرَّبِّ&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -550,7 +595,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Joppa",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "يَافَا"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تَرْشِيشَ"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1003,13 +1084,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1022,6 +1096,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "realia:Ship",
@@ -1055,13 +1136,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1074,6 +1148,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "realia:Ship",
@@ -1107,13 +1188,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1126,6 +1200,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "realia:Ship",
@@ -1146,7 +1227,7 @@
 "index_reference": "32001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وأمّا يونانُ فكانَ قد نَزَلَ إلَى جَوْفِ السَّفينَةِ واضطَجَعَ ونامَ نَوْمًا ثَقيلًا</strong></span><strong>&quot;</strong></p><p>تُقدّم هذه الجملة معلومات أساسية عن ظروف يونان لكي تساعد القارئ على فهم ما سيحدث لاحقًا في القصة. وعليك في الترجمة أن تبيّن أن هذه المعلومة تمثل خلفية، وأن يونان كان قد قام بهذا الأمر مسبقًا قبل وقوع العاصفة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">معلومات أساسية</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠יוֹנָ֗ה יָרַד֙ אֶל־יַרְכְּתֵ֣י הַ⁠סְּפִינָ֔ה וַ⁠יִּשְׁכַּ֖ב וַ⁠יֵּרָדַֽם</span></p><p><strong>&quot;</strong><span><strong>وأمّا يونانُ فكانَ قد نَزَلَ إلَى جَوْفِ السَّفينَةِ واضطَجَعَ ونامَ نَوْمًا ثَقيلًا</strong></span><strong>&quot;</strong></p><p>تُقدّم هذه الجملة معلومات أساسية عن ظروف يونان لكي تساعد القارئ على فهم ما سيحدث لاحقًا في القصة. وعليك في الترجمة أن تبيّن أن هذه المعلومة تمثل خلفية، وأن يونان كان قد قام بهذا الأمر مسبقًا قبل وقوع العاصفة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">معلومات أساسية</span></p>",
 "associations": {
 "passage": [
 {
@@ -1165,7 +1246,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1177,7 +1287,7 @@
 "index_reference": "32001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>جَوْفِ السَّفينَةِ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;الجزء الداخلي للسفينة&quot;</p>",
+"content": "<p><span style='direction: rtl;'>יַרְכְּתֵ֣י הַ⁠סְּפִינָ֔ה</span></p><p><strong>&quot;</strong><span><strong>جَوْفِ السَّفينَةِ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;الجزء الداخلي للسفينة&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -1188,7 +1298,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1200,7 +1339,7 @@
 "index_reference": "32001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>واضطَجَعَ ونامَ نَوْمًا ثَقيلًا</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;وكان مستلقيًا هناك نائمًا نومًا عميقًا&quot; أو &quot;واستلقى غارقًا في النوم&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׁכַּ֖ב וַ⁠יֵּרָדַֽם</span></p><p><strong>&quot;</strong><span><strong>واضطَجَعَ ونامَ نَوْمًا ثَقيلًا</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;وكان مستلقيًا هناك نائمًا نومًا عميقًا&quot; أو &quot;واستلقى غارقًا في النوم&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -1211,7 +1350,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1332,7 +1500,7 @@
 "index_reference": "32001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>اصرُخْ إلَى إلهِكَ</strong></span><strong>&quot;</strong></p><p>تعني عبارة &quot;<strong>اصرُخْ إلَى</strong>&quot; أن يطلب الشخص المساعدة بصوت عالٍ. ترجمة بديلة: &quot;صلِّ إلى إلهك&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>קְרָ֣א אֶל־אֱלֹהֶ֔י⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>اصرُخْ إلَى إلهِكَ</strong></span><strong>&quot;</strong></p><p>تعني عبارة &quot;<strong>اصرُخْ إلَى</strong>&quot; أن يطلب الشخص المساعدة بصوت عالٍ. ترجمة بديلة: &quot;صلِّ إلى إلهك&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1351,7 +1519,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1363,7 +1539,7 @@
 "index_reference": "32001006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>عَسَى أنْ يَفتَكِرَ الإلهُ فينا فلا نَهلِكَ</strong></span><strong>&quot;</strong></p><p>المعنى الضمني هو أن إله يونان قد يلاحظهم ويخلّصهم أيضًا. يمكنك إضافة هذه المعلومة إذا كان ذلك سيساعد قراءك. ترجمة بديلة: &quot;لعل إلهك يسمع ويخلّصنا فلا نموت&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>אוּלַ֞י יִתְעַשֵּׁ֧ת הָ⁠אֱלֹהִ֛ים לָ֖⁠נוּ וְ⁠לֹ֥א נֹאבֵֽד</span></p><p><strong>&quot;</strong><span><strong>عَسَى أنْ يَفتَكِرَ الإلهُ فينا فلا نَهلِكَ</strong></span><strong>&quot;</strong></p><p>المعنى الضمني هو أن إله يونان قد يلاحظهم ويخلّصهم أيضًا. يمكنك إضافة هذه المعلومة إذا كان ذلك سيساعد قراءك. ترجمة بديلة: &quot;لعل إلهك يسمع ويخلّصنا فلا نموت&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -1382,7 +1558,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1433,7 +1617,7 @@
 "index_reference": "32001007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وقالَ بَعضُهُمْ لبَعضٍ</strong></span><strong>&quot;</strong></p><p>تُعد عبارة <strong>&quot;وقالَ بَعضُهُمْ لبَعضٍ&quot;</strong> تعبيرًا مجازيًا يدل على فعل متبادل. والمعنى أن الجماعة اتخذت القرار معًا. ترجمة بديلة: &quot;ثم قال البحارة جميعًا بعضهم لبعض&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּאמְר֞וּ אִ֣ישׁ אֶל־רֵעֵ֗⁠הוּ</span></p><p><strong>&quot;</strong><span><strong>وقالَ بَعضُهُمْ لبَعضٍ</strong></span><strong>&quot;</strong></p><p>تُعد عبارة <strong>&quot;وقالَ بَعضُهُمْ لبَعضٍ&quot;</strong> تعبيرًا مجازيًا يدل على فعل متبادل. والمعنى أن الجماعة اتخذت القرار معًا. ترجمة بديلة: &quot;ثم قال البحارة جميعًا بعضهم لبعض&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -1444,7 +1628,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
+}
+]
 }
 },
 {
@@ -1456,7 +1655,7 @@
 "index_reference": "32001007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لنَعرِفَ بسَبَبِ مَنْ هذِهِ البَليَّةُ</strong></span><strong>&quot;</strong></p><p>تشير كلمة &quot;<strong>لنَعرِف</strong>&quot; إلى أن الرجال كانوا يعتقدون أن الآلهة تتحكم في نتيجة إلقاء القرعة لتكشف لهم ما يريدون معرفته. وكان هذا نوعًا من العِرافة. يمكنك تضمين هذه المعلومة إذا كان ذلك سيساعد قراءك. ترجمة بديلة: &quot;لكي تخبرنا الآلهة من الذي جلب هذه المصيبة&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נֵ֣דְעָ֔ה בְּ⁠שֶׁ⁠לְּ⁠מִ֛י הָ⁠רָעָ֥ה הַ⁠זֹּ֖את לָ֑⁠נוּ</span></p><p><strong>&quot;</strong><span><strong>لنَعرِفَ بسَبَبِ مَنْ هذِهِ البَليَّةُ</strong></span><strong>&quot;</strong></p><p>تشير كلمة &quot;<strong>لنَعرِف</strong>&quot; إلى أن الرجال كانوا يعتقدون أن الآلهة تتحكم في نتيجة إلقاء القرعة لتكشف لهم ما يريدون معرفته. وكان هذا نوعًا من العِرافة. يمكنك تضمين هذه المعلومة إذا كان ذلك سيساعد قراءك. ترجمة بديلة: &quot;لكي تخبرنا الآلهة من الذي جلب هذه المصيبة&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -1467,7 +1666,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
+}
+]
 }
 },
 {
@@ -1515,18 +1729,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
 }
 ]
 }
@@ -1561,18 +1775,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
 }
 ]
 }
@@ -1607,18 +1821,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
 }
 ]
 }
@@ -1691,18 +1905,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Hebrews",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hebrews"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "group:Hebrews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hebrews"
 }
 ]
 }
@@ -1892,7 +2106,7 @@
 "index_reference": "32001010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فإنَّ الرِّجالَ عَرَفوا أنَّهُ هارِبٌ مِنْ وجهِ الرَّبِّ، لأنَّهُ أخبَرَهُمْ</strong></span><strong>&quot;</strong></p><p>أخبر يونان البحارة أنه <strong>هارِبٌ مِنْ وجهِ الرَّبِّ</strong> قبل أن يُبدوا خوفًا شديدًا. وإذا كان من الأنسب في لغتك ترتيب الأحداث حسب وقوعها، يمكنك أن تضع هذه الجملة قبل الأخرى وتترجمها على النحو التالي. ترجمة بديلة: &quot;أخبر يونان الرجال أنه يهرب من أمام وجه الرب&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּֽי־יָדְע֣וּ הָ⁠אֲנָשִׁ֗ים כִּֽי־מִ⁠לִּ⁠פְנֵ֤י יְהוָה֙ ה֣וּא בֹרֵ֔חַ כִּ֥י הִגִּ֖יד לָ⁠הֶֽם</span></p><p><strong>&quot;</strong><span><strong>فإنَّ الرِّجالَ عَرَفوا أنَّهُ هارِبٌ مِنْ وجهِ الرَّبِّ، لأنَّهُ أخبَرَهُمْ</strong></span><strong>&quot;</strong></p><p>أخبر يونان البحارة أنه <strong>هارِبٌ مِنْ وجهِ الرَّبِّ</strong> قبل أن يُبدوا خوفًا شديدًا. وإذا كان من الأنسب في لغتك ترتيب الأحداث حسب وقوعها، يمكنك أن تضع هذه الجملة قبل الأخرى وتترجمها على النحو التالي. ترجمة بديلة: &quot;أخبر يونان الرجال أنه يهرب من أمام وجه الرب&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">بنية المعلومات</span></p>",
 "associations": {
 "passage": [
 {
@@ -1911,7 +2125,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Fear"
+}
+]
 }
 },
 {
@@ -2000,7 +2229,7 @@
 "index_reference": "32001011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فقالوا لهُ: «ماذا نَصنَعُ بكَ ليَسكُنَ البحرُ عَنّا؟» لأنَّ البحرَ كانَ يَزدادُ اضطِرابًا</strong></span><strong>&quot;</strong></p><p>إذا كان من الطبيعي أكثر في لغتك، يمكنك أن تعكس ترتيب العبارات، لأن العبارة الثانية تذكر السبب الذي يفسر النتيجة التي وصفتها العبارة الأولى. ترجمة بديلة: &quot;كان البحر يمضي ويعصف، لذلك قالوا له: ماذا نفعل بك حتى يهدأ البحر عنّا؟&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּאמְר֤וּ אֵלָי⁠ו֙ מַה־נַּ֣עֲשֶׂה לָּ֔⁠ךְ וְ⁠יִשְׁתֹּ֥ק הַ⁠יָּ֖ם מֵֽ⁠עָלֵ֑י⁠נוּ כִּ֥י הַ⁠יָּ֖ם הוֹלֵ֥ךְ וְ⁠סֹעֵֽר</span></p><p><strong>&quot;</strong><span><strong>فقالوا لهُ: «ماذا نَصنَعُ بكَ ليَسكُنَ البحرُ عَنّا؟» لأنَّ البحرَ كانَ يَزدادُ اضطِرابًا</strong></span><strong>&quot;</strong></p><p>إذا كان من الطبيعي أكثر في لغتك، يمكنك أن تعكس ترتيب العبارات، لأن العبارة الثانية تذكر السبب الذي يفسر النتيجة التي وصفتها العبارة الأولى. ترجمة بديلة: &quot;كان البحر يمضي ويعصف، لذلك قالوا له: ماذا نفعل بك حتى يهدأ البحر عنّا؟&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإظهار علاقة السبب والنتيجة</span></p>",
 "associations": {
 "passage": [
 {
@@ -2031,7 +2260,7 @@
 "index_reference": "32001012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لأنَّني عالِمٌ أنَّهُ بسَبَبي هذا النَّوْءُ العظيمُ علَيكُمْ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;لأني أعلم أن هذه العاصفة العظيمة هي بسببي&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>כִּ֚י יוֹדֵ֣עַ אָ֔נִי כִּ֣י בְ⁠שֶׁ⁠לִּ֔⁠י הַ⁠סַּ֧עַר הַ⁠גָּד֛וֹל הַ⁠זֶּ֖ה עֲלֵי⁠כֶֽם</span></p><p><strong>&quot;</strong><span><strong>لأنَّني عالِمٌ أنَّهُ بسَبَبي هذا النَّوْءُ العظيمُ علَيكُمْ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;لأني أعلم أن هذه العاصفة العظيمة هي بسببي&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -2054,7 +2283,7 @@
 "index_reference": "32001012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فيَسكُنَ البحرُ عنكُمْ</strong></span><strong>&quot;</strong></p><p>انظر كيف ترجمت التعبير الاصطلاحي &quot;<span><strong>ليَسكُنَ البحرُ عَنّا</strong>&quot;</span> في <a href=\"https://ref.ly/Jonah0:0\">الآية 11</a>.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠יִשְׁתֹּ֥ק הַ⁠יָּ֖ם מֵֽ⁠עֲלֵי⁠כֶ֑ם</span></p><p><strong>&quot;</strong><span><strong>فيَسكُنَ البحرُ عنكُمْ</strong></span><strong>&quot;</strong></p><p>انظر كيف ترجمت التعبير الاصطلاحي &quot;<span><strong>ليَسكُنَ البحرُ عَنّا</strong>&quot;</span> في <a href=\"https://ref.ly/Jonah0:0\">الآية 11</a>.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -2116,7 +2345,7 @@
 "index_reference": "32001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لأنَّ البحرَ كانَ يَزدادُ اضطِرابًا علَيهِمْ</strong></span><strong>&quot;</strong></p><p>انظر كيف ترجمت هذا التعبير الاصطلاحي في <a href=\"https://ref.ly/Jonah1:11\">1:11</a>. ترجمة بديلة: &quot;ازدادت العاصفة سوءًا، وارتفعت الأمواج أكثر&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠יָּ֔ם הוֹלֵ֥ךְ וְ⁠סֹעֵ֖ר</span></p><p><strong>&quot;</strong><span><strong>لأنَّ البحرَ كانَ يَزدادُ اضطِرابًا علَيهِمْ</strong></span><strong>&quot;</strong></p><p>انظر كيف ترجمت هذا التعبير الاصطلاحي في <a href=\"https://ref.ly/Jonah1:11\">1:11</a>. ترجمة بديلة: &quot;ازدادت العاصفة سوءًا، وارتفعت الأمواج أكثر&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -2177,7 +2406,7 @@
 "index_reference": "32001014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فصَرَخوا إلَى الرَّبِّ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;لذلك، رفع الرجال أصواتهم بالصلاة إلى الرب&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּקְרְא֨וּ אֶל־יְהוָ֜ה</span></p><p><strong>&quot;</strong><span><strong>فصَرَخوا إلَى الرَّبِّ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;لذلك، رفع الرجال أصواتهم بالصلاة إلى الرب&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -2188,7 +2417,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2246,7 +2490,7 @@
 "index_reference": "32001014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>لا نَهلِكْ مِنْ أجلِ نَفسِ هذا الرَّجُلِ</strong></span><strong>&quot;</strong></p><p>تعني عبارة &quot;<strong>نَفس هذا الرَّجُلِ</strong>&quot; في هذا السياق، &quot;إزهاق حياة هذا الرجل&quot;. يمكنك أن تدرج هذا التوضيح إذا كان ذلك مفيدًا لقرّائك. ترجمة بديلة: &quot;رجاءً لا تقتلنا لأننا سنهلك هذا الرجل&quot; أو &quot;حتى وإن كنا سنؤدي إلى موت هذا الرجل، رجاءً لا تقتلنا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה</span></p><p><strong>&quot;</strong><span><strong>لا نَهلِكْ مِنْ أجلِ نَفسِ هذا الرَّجُلِ</strong></span><strong>&quot;</strong></p><p>تعني عبارة &quot;<strong>نَفس هذا الرَّجُلِ</strong>&quot; في هذا السياق، &quot;إزهاق حياة هذا الرجل&quot;. يمكنك أن تدرج هذا التوضيح إذا كان ذلك مفيدًا لقرّائك. ترجمة بديلة: &quot;رجاءً لا تقتلنا لأننا سنهلك هذا الرجل&quot; أو &quot;حتى وإن كنا سنؤدي إلى موت هذا الرجل، رجاءً لا تقتلنا&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -2257,7 +2501,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2315,7 +2574,7 @@
 "index_reference": "32001014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>آهِ يَارَبُّ، لَا نَهْلِكْ مِنْ أَجْلِ نَفْسِ هَذَا ٱلرَّجُلِ، وَلَا تَجْعَلْ عَلَيْنَا دَمًا بَرِيئًا، لِأَنَّكَ يَارَبُّ فَعَلْتَ كَمَا شِئْتَ</strong></span><strong>&quot;</strong></p><p>إذا كان من الأنسب في لغتك، يمكنك أن تنقل العبارة الأخيرة إلى بداية صلاة البحّارة، لأن هذه العبارة تبيّن سبب ما يطلبونه في بقية الدعاء.. الترجمة البديلة: &quot;آه! يا رب أنت قد اخترت أن تفعل الأمر على هذا النحو. لذلك، يا رب، لا تدعنا نهلك بسبب حياة هذا الرجل، ولا تجعل علينا دمًا بريئًا&quot; أو &quot;آه! يا رب أنت قد سبَّبت حدوث كل هذا، فنسألك يا رب، لا تدعنا نهلك بسبب حياة هذا الرجل، ولا تجعل علينا دمًا بريئًا&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإبراز علاقة السبب والنتيجة</span></p>",
+"content": "<p><span style='direction: rtl;'>אָנָּ֤ה יְהוָה֙ אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה וְ⁠אַל־תִּתֵּ֥ן עָלֵ֖י⁠נוּ דָּ֣ם נָקִ֑יא כִּֽי־אַתָּ֣ה יְהוָ֔ה כַּ⁠אֲשֶׁ֥ר חָפַ֖צְתָּ עָשִֽׂיתָ</span></p><p><strong>&quot;</strong><span><strong>آهِ يَارَبُّ، لَا نَهْلِكْ مِنْ أَجْلِ نَفْسِ هَذَا ٱلرَّجُلِ، وَلَا تَجْعَلْ عَلَيْنَا دَمًا بَرِيئًا، لِأَنَّكَ يَارَبُّ فَعَلْتَ كَمَا شِئْتَ</strong></span><strong>&quot;</strong></p><p>إذا كان من الأنسب في لغتك، يمكنك أن تنقل العبارة الأخيرة إلى بداية صلاة البحّارة، لأن هذه العبارة تبيّن سبب ما يطلبونه في بقية الدعاء.. الترجمة البديلة: &quot;آه! يا رب أنت قد اخترت أن تفعل الأمر على هذا النحو. لذلك، يا رب، لا تدعنا نهلك بسبب حياة هذا الرجل، ولا تجعل علينا دمًا بريئًا&quot; أو &quot;آه! يا رب أنت قد سبَّبت حدوث كل هذا، فنسألك يا رب، لا تدعنا نهلك بسبب حياة هذا الرجل، ولا تجعل علينا دمًا بريئًا&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">الربط — لإبراز علاقة السبب والنتيجة</span></p>",
 "associations": {
 "passage": [
 {
@@ -2326,7 +2585,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2338,7 +2612,7 @@
 "index_reference": "32001014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لَا نَهْلِكْ مِنْ أَجْلِ نَفْسِ هَذَا ٱلرَّجُلِ، وَلَا تَجْعَلْ عَلَيْنَا دَمًا بَرِيئًا&quot;</strong></p><p>هاتان العبارتان تحملان المعنى نفسه في الجوهر، غير أنّ الثانية تؤكّد معنى الأولى من خلال تكراره بألفاظ مختلفة. وإذا كان أوضح للقرّاء، فيمكن ربط العبارتين بكلمة غير &quot;و&quot; ليتبيّن أنّ العبارة الثانية إعادة للمعنى نفسه لا إضافة جديدة. الترجمة البديلة: &quot;من فضلك لا تدعنا نهلك بسبب حياة هذا الإنسان؛ أي لا تحملنا مسؤولية دم بريء&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي.</span></p>",
+"content": "<p><span style='direction: rtl;'>אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה וְ⁠אַל־תִּתֵּ֥ן עָלֵ֖י⁠נוּ דָּ֣ם נָקִ֑יא</span></p><p><strong>&quot;لَا نَهْلِكْ مِنْ أَجْلِ نَفْسِ هَذَا ٱلرَّجُلِ، وَلَا تَجْعَلْ عَلَيْنَا دَمًا بَرِيئًا&quot;</strong></p><p>هاتان العبارتان تحملان المعنى نفسه في الجوهر، غير أنّ الثانية تؤكّد معنى الأولى من خلال تكراره بألفاظ مختلفة. وإذا كان أوضح للقرّاء، فيمكن ربط العبارتين بكلمة غير &quot;و&quot; ليتبيّن أنّ العبارة الثانية إعادة للمعنى نفسه لا إضافة جديدة. الترجمة البديلة: &quot;من فضلك لا تدعنا نهلك بسبب حياة هذا الإنسان؛ أي لا تحملنا مسؤولية دم بريء&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2357,7 +2631,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Exempt"
+}
+]
 }
 },
 {
@@ -2369,7 +2658,7 @@
 "index_reference": "32001015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فوَقَفَ البحرُ عن هَيَجانِهِ</strong></span><strong>&quot;</strong></p><p>يُذكر <strong>البحر </strong>هنا وكأنه شخص يمكنه أن يغضب ويثور. وإذا كان من الأنسب في لغتك، يمكنك أن تعبّر عن المعنى بشكل مباشر. ترجمة بديلة: &quot;توقف البحر عن حركته العنيفة&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">التشخيص</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּעֲמֹ֥ד הַ⁠יָּ֖ם מִ⁠זַּעְפּֽ⁠וֹ</span></p><p><strong>&quot;</strong><span><strong>فوَقَفَ البحرُ عن هَيَجانِهِ</strong></span><strong>&quot;</strong></p><p>يُذكر <strong>البحر </strong>هنا وكأنه شخص يمكنه أن يغضب ويثور. وإذا كان من الأنسب في لغتك، يمكنك أن تعبّر عن المعنى بشكل مباشر. ترجمة بديلة: &quot;توقف البحر عن حركته العنيفة&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">التشخيص</span></p>",
 "associations": {
 "passage": [
 {
@@ -2380,7 +2669,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+}
+]
 }
 },
 {
@@ -2458,18 +2755,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
 }
 ]
 }
@@ -2518,18 +2815,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
 }
 ]
 }
@@ -2543,7 +2840,7 @@
 "index_reference": "32001017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;&quot;</strong></p><p>تقوم بعض الترجمات بترقيم هذه الآية كأول آية من الإصحاح الثاني. قد ترغب في ترقيم الآيات وفقًا للنسخة الرئيسية التي يستخدمها متحدثو لغتك.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִ⁠בְלֹ֖עַ אֶת־יוֹנָ֑ה וַ⁠יְהִ֤י יוֹנָה֙ בִּ⁠מְעֵ֣י הַ⁠דָּ֔ג שְׁלֹשָׁ֥ה יָמִ֖ים וּ⁠שְׁלֹשָׁ֥ה לֵילֽוֹת</span></p><p><strong>&quot;&quot;</strong></p><p>تقوم بعض الترجمات بترقيم هذه الآية كأول آية من الإصحاح الثاني. قد ترغب في ترقيم الآيات وفقًا للنسخة الرئيسية التي يستخدمها متحدثو لغتك.</p>",
 "associations": {
 "passage": [
 {
@@ -2554,7 +2851,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fish"
+}
+]
 }
 },
 {
@@ -2566,7 +2885,7 @@
 "index_reference": "32001017",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وأمّا الرَّبُّ فأعَدَّ حوتًا عظيمًا ليَبتَلِعَ يونانَ</strong></span><strong>&quot;</strong></p><p>يستخدم الكاتب كلمة &quot;<strong>وأمّا</strong>&quot; لتقديم حدث جديد في القصة. استخدم في لغتك كلمة أو عبارة أو أي وسيلة طبيعية لتقديم حدث جديد. يبدأ هذا الحدث الجديد الجزء التالي من القصة، حيث يخلص يهوه يونان من البحر، ويقوم يونان بالصلاة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִ⁠בְלֹ֖עַ אֶת־יוֹנָ֑ה</span></p><p><strong>&quot;</strong><span><strong>وأمّا الرَّبُّ فأعَدَّ حوتًا عظيمًا ليَبتَلِعَ يونانَ</strong></span><strong>&quot;</strong></p><p>يستخدم الكاتب كلمة &quot;<strong>وأمّا</strong>&quot; لتقديم حدث جديد في القصة. استخدم في لغتك كلمة أو عبارة أو أي وسيلة طبيعية لتقديم حدث جديد. يبدأ هذا الحدث الجديد الجزء التالي من القصة، حيث يخلص يهوه يونان من البحر، ويقوم يونان بالصلاة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
 "associations": {
 "passage": [
 {
@@ -2585,7 +2904,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fish"
+}
+]
 }
 },
 {
@@ -2655,18 +2996,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "fauna:Fish",
@@ -2687,7 +3028,7 @@
 "index_reference": "32002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>وقالَ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;وقال يونان&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֗אמֶר</span></p><p><strong>&quot;</strong><span><strong>وقالَ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;وقال يونان&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -2698,7 +3039,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2710,7 +3066,7 @@
 "index_reference": "32002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>دَعَوْتُ مِنْ ضيقي الرَّبَّ، فاستَجابَني</strong></span><strong>&quot;</strong></p><p>هذا أسلوب شعري. إذا كانت لغتك تمتلك طريقة للإشارة إلى الشعر، يمكنك استخدامها هنا. يبدأ هذه السطر قصيدة تصف تجربة يونان من جوف الحوت، وصلاته، واستجابة الله. وتروي القصيدة هذه الأحداث بعد وقوعها.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26836\" data-resourceType=\"UWTranslationManual\">الشعر</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי</span></p><p><strong>&quot;</strong><span><strong>دَعَوْتُ مِنْ ضيقي الرَّبَّ، فاستَجابَني</strong></span><strong>&quot;</strong></p><p>هذا أسلوب شعري. إذا كانت لغتك تمتلك طريقة للإشارة إلى الشعر، يمكنك استخدامها هنا. يبدأ هذه السطر قصيدة تصف تجربة يونان من جوف الحوت، وصلاته، واستجابة الله. وتروي القصيدة هذه الأحداث بعد وقوعها.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26836\" data-resourceType=\"UWTranslationManual\">الشعر</span></p>",
 "associations": {
 "passage": [
 {
@@ -2729,7 +3085,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2741,7 +3112,7 @@
 "index_reference": "32002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;دَعَوْتُ مِنْ ضيقي الرَّبَّ، فاستَجابَني&quot;</strong></p><p>في هذه القصيدة التي تُعد أيضًا صلاة، يُشير يونان إلى الله بصيغة الغائب (باستخدام كلمة &quot;فاستَجابَني&quot;) وبصيغة المخاطب (باستخدام كلمة &quot;<span>فسمِعتَ</span>&quot;). وإذا لم يكن هذا طبيعيًا في لغتك، يمكنك استخدام صيغة المخاطب طوال القصيدة. ترجمة بديلة: &quot;صرختُ إليك يا رب في ضيقي، فأجبتني&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">صيغة المتكلم والمخاطب والغائب</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי</span></p><p><strong>&quot;دَعَوْتُ مِنْ ضيقي الرَّبَّ، فاستَجابَني&quot;</strong></p><p>في هذه القصيدة التي تُعد أيضًا صلاة، يُشير يونان إلى الله بصيغة الغائب (باستخدام كلمة &quot;فاستَجابَني&quot;) وبصيغة المخاطب (باستخدام كلمة &quot;<span>فسمِعتَ</span>&quot;). وإذا لم يكن هذا طبيعيًا في لغتك، يمكنك استخدام صيغة المخاطب طوال القصيدة. ترجمة بديلة: &quot;صرختُ إليك يا رب في ضيقي، فأجبتني&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">صيغة المتكلم والمخاطب والغائب</span></p>",
 "associations": {
 "passage": [
 {
@@ -2752,7 +3123,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2777,18 +3163,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2823,18 +3209,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2869,18 +3255,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2915,18 +3301,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2940,7 +3326,7 @@
 "index_reference": "32002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;صَرَخْتُ مِنْ جَوْفِ ٱلْهَاوِيَةِ، فَسَمِعْتَ صَوْتِي&quot;</strong></p><p>نصّا الآية ينقلان المعنى نفسه، غير أنّ الشطر الثاني يؤكّد ما ورد في الشطر الأول بإعادة الفكرة ذاتها بألفاظ مختلفة. وإذا كان أوضح للقرّاء، فيمكن ربط العبارتين بما يُظهر أنّ الثانية تكرار للأولى لا إضافة جديدة. الترجمة البديلة: &quot;صرخت إلى الرب من ضيقي، فأجابني؛ أي من بطن الهاوية صرخت، وسمعت صوتي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי מִ⁠בֶּ֧טֶן שְׁא֛וֹל שִׁוַּ֖עְתִּי שָׁמַ֥עְתָּ קוֹלִֽ⁠י</span></p><p><strong>&quot;صَرَخْتُ مِنْ جَوْفِ ٱلْهَاوِيَةِ، فَسَمِعْتَ صَوْتِي&quot;</strong></p><p>نصّا الآية ينقلان المعنى نفسه، غير أنّ الشطر الثاني يؤكّد ما ورد في الشطر الأول بإعادة الفكرة ذاتها بألفاظ مختلفة. وإذا كان أوضح للقرّاء، فيمكن ربط العبارتين بما يُظهر أنّ الثانية تكرار للأولى لا إضافة جديدة. الترجمة البديلة: &quot;صرخت إلى الرب من ضيقي، فأجابني؛ أي من بطن الهاوية صرخت، وسمعت صوتي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
 "associations": {
 "passage": [
 {
@@ -2959,7 +3345,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2994,7 +3395,7 @@
 "index_reference": "32002003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>جازَتْ فوقي جميعُ تيّاراتِكَ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;وتدفقت مياه البحر حولي من كل جانب&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נָהָ֖ר יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;</strong><span><strong>جازَتْ فوقي جميعُ تيّاراتِكَ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;وتدفقت مياه البحر حولي من كل جانب&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -3234,7 +3635,7 @@
 "index_reference": "32002005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>قد اكتَنَفَتني مياهٌ إلَى النَّفسِ. أحاطَ بي غَمرٌ</strong></span><strong>&quot;</strong></p><p>تعني هاتان العبارتان تقريبًا نفس الشيء، حيث تُشدّد الثانية على الأولى بتكرار الفكرة بأسلوب آخر. ولجعل المعنى واضحًا للقارئ، يمكن ربط العبارتين لتوضيح أن الثانية تعيد ما سبق وليس إضافة جديدة. ترجمة بديلة: &quot;أحاطت بي المياه من كل جانب، فالبحر العميق كان يحيطني&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲפָפ֤וּ⁠נִי מַ֨יִם֙ עַד־נֶ֔פֶשׁ תְּה֖וֹם יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;</strong><span><strong>قد اكتَنَفَتني مياهٌ إلَى النَّفسِ. أحاطَ بي غَمرٌ</strong></span><strong>&quot;</strong></p><p>تعني هاتان العبارتان تقريبًا نفس الشيء، حيث تُشدّد الثانية على الأولى بتكرار الفكرة بأسلوب آخر. ولجعل المعنى واضحًا للقارئ، يمكن ربط العبارتين لتوضيح أن الثانية تعيد ما سبق وليس إضافة جديدة. ترجمة بديلة: &quot;أحاطت بي المياه من كل جانب، فالبحر العميق كان يحيطني&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">التوازي</span></p>",
 "associations": {
 "passage": [
 {
@@ -3253,7 +3654,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+}
+]
 }
 },
 {
@@ -3319,7 +3728,7 @@
 "index_reference": "32002005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أحاطَ بي غَمرٌ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;كانت المياه العميقة تحيط بي من كل جانب&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>תְּה֖וֹם יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;</strong><span><strong>أحاطَ بي غَمرٌ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;كانت المياه العميقة تحيط بي من كل جانب&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -3330,7 +3739,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+}
+]
 }
 },
 {
@@ -3373,7 +3790,7 @@
 "index_reference": "32002006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>مَغاليقُ الأرضِ علَيَّ إلَى الأبدِ</strong></span><strong>&quot;</strong></p><p>يتحدث يونان هنا عن <strong>الأرض </strong>تحت الماء كما لو كانت تحتوي على <strong>مَغاليق </strong>مثل السجن. وإذا كان ذلك أوضح في لغتك، يمكنك أن توضّح المعنى مباشرة. ترجمة بديلة: &quot;كانت الأرض كالسجن الذي على وشك أن يحبسني إلى الأبد&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>הָ⁠אָ֛רֶץ בְּרִחֶ֥י⁠הָ בַעֲדִ֖⁠י לְ⁠עוֹלָ֑ם</span></p><p><strong>&quot;</strong><span><strong>مَغاليقُ الأرضِ علَيَّ إلَى الأبدِ</strong></span><strong>&quot;</strong></p><p>يتحدث يونان هنا عن <strong>الأرض </strong>تحت الماء كما لو كانت تحتوي على <strong>مَغاليق </strong>مثل السجن. وإذا كان ذلك أوضح في لغتك، يمكنك أن توضّح المعنى مباشرة. ترجمة بديلة: &quot;كانت الأرض كالسجن الذي على وشك أن يحبسني إلى الأبد&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -3392,7 +3809,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -3425,18 +3857,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3463,18 +3895,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3509,18 +3941,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3555,18 +3987,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3650,7 +4082,7 @@
 "index_reference": "32002007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>فجاءَتْ إلَيكَ صَلاتي إلَى هَيكلِ قُدسِكَ</strong></span><strong>&quot;</strong></p><p>يتحدث يونان هنا كما لو أن <strong>صلاته </strong>يمكن أن تصل إلى الله وإلى هيكله. ويعني هذا أن الله قد سمع صلاته واستجاب لها. وإذا كان ذلك أوضح في لغتك، يمكنك توضيح المعنى مباشرة. ترجمة بديلة: &quot;ثم سمعت صلاتي في هيكلك المقدس&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּב֤וֹא אֵלֶ֨י⁠ךָ֙ תְּפִלָּתִ֔⁠י אֶל־הֵיכַ֖ל קָדְשֶֽׁ⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>فجاءَتْ إلَيكَ صَلاتي إلَى هَيكلِ قُدسِكَ</strong></span><strong>&quot;</strong></p><p>يتحدث يونان هنا كما لو أن <strong>صلاته </strong>يمكن أن تصل إلى الله وإلى هيكله. ويعني هذا أن الله قد سمع صلاته واستجاب لها. وإذا كان ذلك أوضح في لغتك، يمكنك توضيح المعنى مباشرة. ترجمة بديلة: &quot;ثم سمعت صلاتي في هيكلك المقدس&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -3669,7 +4101,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -3811,20 +4251,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3837,6 +4263,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -3863,20 +4303,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3889,6 +4315,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -3915,20 +4355,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3941,6 +4367,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -3975,20 +4415,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4001,6 +4427,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4035,20 +4475,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4061,6 +4487,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Praise"
 }
 ]
 }
@@ -4087,18 +4527,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "fauna:Fish",
@@ -4140,18 +4580,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "fauna:Fish",
@@ -4193,18 +4633,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "fauna:Fish",
@@ -4256,7 +4696,7 @@
 "index_reference": "32003001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ثُمَّ صارَ قَوْلُ الرَّبِّ</strong></span><strong>&quot;</strong></p><p>تُقدّم هذه العبارة الجزء الثاني من قصة يونان. وقد استخدمت نفس العبارة لبدء النصف الأول في <a href=\"https://ref.ly/Jonah1:1\">1:1</a>، انظر كيف تمت ترجمتها هناك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֧י דְבַר־יְהוָ֛ה</span></p><p><strong>&quot;</strong><span><strong>ثُمَّ صارَ قَوْلُ الرَّبِّ</strong></span><strong>&quot;</strong></p><p>تُقدّم هذه العبارة الجزء الثاني من قصة يونان. وقد استخدمت نفس العبارة لبدء النصف الأول في <a href=\"https://ref.ly/Jonah1:1\">1:1</a>، انظر كيف تمت ترجمتها هناك.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">تقديم حدث جديد</span></p>",
 "associations": {
 "passage": [
 {
@@ -4275,7 +4715,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -4287,7 +4749,7 @@
 "index_reference": "32003001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ثُمَّ صارَ قَوْلُ الرَّبِّ</strong></span><strong>&quot;</strong></p><p>يعني هذا التعبير الاصطلاحي أن يهوه تكلم بطريقة ما. انظر كيف ترجمتها في <a href=\"https://ref.ly/Jonah1:1\">1:1</a>. ترجمة بديلة: &quot;حينئذ تكلم الرب برسالته&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֧י דְבַר־יְהוָ֛ה</span></p><p><strong>&quot;</strong><span><strong>ثُمَّ صارَ قَوْلُ الرَّبِّ</strong></span><strong>&quot;</strong></p><p>يعني هذا التعبير الاصطلاحي أن يهوه تكلم بطريقة ما. انظر كيف ترجمتها في <a href=\"https://ref.ly/Jonah1:1\">1:1</a>. ترجمة بديلة: &quot;حينئذ تكلم الرب برسالته&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -4306,7 +4768,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -4388,7 +4872,7 @@
 "index_reference": "32003002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ونادِ لها المُناداةَ الّتي أنا مُكلِّمُكَ بها</strong></span><strong>&quot;</strong></p><p>يُشير الضمير في كلمة &quot;<strong>لها</strong>&quot; هنا إلى مدينة نينوى، بمعنى الناس الذين يعيشون فيها. وإذا كان من الأفضل توضيح المعنى في لغتك، يمكنك صياغته بوضوح. ترجمة بديلة: &quot;وأبلغ أهل نينوى بما أقول لك أن تخبرهم به&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">مجاز مُرسل</span></p>",
+"content": "<p><span style='direction: rtl;'>וִּ⁠קְרָ֤א אֵלֶ֨י⁠הָ֙ אֶת־הַ⁠קְּרִיאָ֔ה אֲשֶׁ֥ר אָנֹכִ֖י דֹּבֵ֥ר אֵלֶֽי⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>ونادِ لها المُناداةَ الّتي أنا مُكلِّمُكَ بها</strong></span><strong>&quot;</strong></p><p>يُشير الضمير في كلمة &quot;<strong>لها</strong>&quot; هنا إلى مدينة نينوى، بمعنى الناس الذين يعيشون فيها. وإذا كان من الأفضل توضيح المعنى في لغتك، يمكنك صياغته بوضوح. ترجمة بديلة: &quot;وأبلغ أهل نينوى بما أقول لك أن تخبرهم به&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">مجاز مُرسل</span></p>",
 "associations": {
 "passage": [
 {
@@ -4399,7 +4883,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
@@ -4432,11 +4924,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "نِينَوَى"
+"preferred_label": "يونَانَ"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4453,11 +4945,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يونَانَ"
+"preferred_label": "نِينَوَى"
 }
 ]
 }
@@ -4492,11 +4984,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "نِينَوَى"
+"preferred_label": "يونَانَ"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4513,11 +5005,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يونَانَ"
+"preferred_label": "نِينَوَى"
 }
 ]
 }
@@ -4531,7 +5023,7 @@
 "index_reference": "32003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>أمّا نينَوَى فكانتْ مدينةً عظيمَةً للهِ مَسيرَةَ ثَلاثَةِ أيّامٍ</strong></span><strong>&quot;</strong></p><p>تُقدّم هذه الجملة تفاصيل أساسية عن مدينة نينوى لتوضيح الأحداث القادمة في القصة. في ترجمتك، اعرض هذه المعلومات بشكل يبيّن أنها خلفية، على سبيل المثال باستخدام كلمة &quot;<strong>كانتْ</strong>&quot; في البداية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">الربط — المعلومات الخلفية</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נִֽינְוֵ֗ה הָיְתָ֤ה עִיר־גְּדוֹלָה֙ לֵֽ⁠אלֹהִ֔ים מַהֲלַ֖ךְ שְׁלֹ֥שֶׁת יָמִֽים</span></p><p><strong>&quot;</strong><span><strong>أمّا نينَوَى فكانتْ مدينةً عظيمَةً للهِ مَسيرَةَ ثَلاثَةِ أيّامٍ</strong></span><strong>&quot;</strong></p><p>تُقدّم هذه الجملة تفاصيل أساسية عن مدينة نينوى لتوضيح الأحداث القادمة في القصة. في ترجمتك، اعرض هذه المعلومات بشكل يبيّن أنها خلفية، على سبيل المثال باستخدام كلمة &quot;<strong>كانتْ</strong>&quot; في البداية.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">الربط — المعلومات الخلفية</span></p>",
 "associations": {
 "passage": [
 {
@@ -4550,7 +5042,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
@@ -4583,11 +5104,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "نِينَوَى"
+"preferred_label": "يونَانَ"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4604,11 +5125,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يونَانَ"
+"preferred_label": "نِينَوَى"
 }
 ]
 }
@@ -4643,11 +5164,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "نِينَوَى"
+"preferred_label": "يونَانَ"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4664,11 +5185,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "يونَانَ"
+"preferred_label": "نِينَوَى"
 }
 ]
 }
@@ -4682,7 +5203,7 @@
 "index_reference": "32003004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَٱبْتَدَأَ يُونَانُ يَدْخُلُ ٱلْمَدِينَةَ مَسِيرَةَ يَوْمٍ وَاحِدٍ، وَنَادَى&quot;</strong></p><p>يمكن أن تعني العبارة <strong>رحلة ليوم واحد</strong>: (1) سار يونان مسيرة يوم إلى المدينة ثم بدأ ينادي. الترجمة البديلة: &quot;لذلك سار يونان إلى المدينة لمدة يوم واحد، ثم بدأ ينادي&quot;. (2) بينما كان يونان يسير عبر المدينة في اليوم الأول، بدأ ينادي. الترجمة البديلة: &quot;فابتدأ يونان يسير في المدينة يومًا واحدًا، وبينما كان يمضي أخذ ينادي&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֤חֶל יוֹנָה֙ לָ⁠ב֣וֹא בָ⁠עִ֔יר מַהֲלַ֖ךְ י֣וֹם אֶחָ֑ד וַ⁠יִּקְרָא֙</span></p><p><strong>&quot;فَٱبْتَدَأَ يُونَانُ يَدْخُلُ ٱلْمَدِينَةَ مَسِيرَةَ يَوْمٍ وَاحِدٍ، وَنَادَى&quot;</strong></p><p>يمكن أن تعني العبارة <strong>رحلة ليوم واحد</strong>: (1) سار يونان مسيرة يوم إلى المدينة ثم بدأ ينادي. الترجمة البديلة: &quot;لذلك سار يونان إلى المدينة لمدة يوم واحد، ثم بدأ ينادي&quot;. (2) بينما كان يونان يسير عبر المدينة في اليوم الأول، بدأ ينادي. الترجمة البديلة: &quot;فابتدأ يونان يسير في المدينة يومًا واحدًا، وبينما كان يمضي أخذ ينادي&quot;.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -4693,7 +5214,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
@@ -4718,18 +5254,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نِينَوَى"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
 }
 ]
 }
@@ -4743,7 +5279,7 @@
 "index_reference": "32003004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>بَعدَ أربَعينَ يومًا</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;بعد أربعين يومًا&quot; أو &quot;عندما تنقضي أربعون يومًا&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>ע֚וֹד אַרְבָּעִ֣ים י֔וֹם</span></p><p><strong>&quot;</strong><span><strong>بَعدَ أربَعينَ يومًا</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;بعد أربعين يومًا&quot; أو &quot;عندما تنقضي أربعون يومًا&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -4754,7 +5290,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
@@ -4787,18 +5338,18 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نِينَوَى"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
 }
 ]
 }
@@ -4833,13 +5384,6 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نِينَوَى"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4852,6 +5396,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
 },
 {
 "id": "realia:Sackcloth",
@@ -4872,7 +5423,7 @@
 "index_reference": "32003005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مِنْ كَبِيرِهِمْ إِلَى صَغِيرِهِمْ&quot;</strong></p><p>الترجمة البديلة: &quot;من الأشخاص الأكثر أهمية إلى الأقل أهمية&quot; أو &quot;بما في ذلك جميع الناس، سواء أكانوا مهمين أم غير مهمين&quot;</p>",
+"content": "<p><span style='direction: rtl;'>מִ⁠גְּדוֹלָ֖⁠ם וְ⁠עַד־קְטַנָּֽ⁠ם</span></p><p><strong>&quot;مِنْ كَبِيرِهِمْ إِلَى صَغِيرِهِمْ&quot;</strong></p><p>الترجمة البديلة: &quot;من الأشخاص الأكثر أهمية إلى الأقل أهمية&quot; أو &quot;بما في ذلك جميع الناس، سواء أكانوا مهمين أم غير مهمين&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -4883,7 +5434,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+}
+]
 }
 },
 {
@@ -4916,13 +5496,6 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "نِينَوَى"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4935,6 +5508,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
 },
 {
 "id": "realia:Sackcloth",
@@ -5007,7 +5587,7 @@
 "index_reference": "32003006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَقَامَ عَنْ كُرْسِيِّهِ وَخَلَعَ رِدَاءَهُ عَنْهُ&quot;</strong></p><p>إن نزول الملك <strong>عن عرشه وخلع ردائه</strong> يظهر أنه كان يتصرف بتواضع. كان العرش والرداء الملكي كلاهما رموزًا لسلطته وقوته كملك لأمة قوية. إذا لم يكن معنى هذه الأفعال واضحًا لقرائك، يمكنك توضيح ذلك في النص أو في حاشية. الترجمة البديلة: &quot;وتخلى عن عرشه الملكي وخلع ردائه الملكي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">الأفعال الرمزية</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֨קָם֙ מִ⁠כִּסְא֔⁠וֹ וַ⁠יַּעֲבֵ֥ר אַדַּרְתּ֖⁠וֹ מֵֽ⁠עָלָ֑י⁠ו</span></p><p><strong>&quot;فَقَامَ عَنْ كُرْسِيِّهِ وَخَلَعَ رِدَاءَهُ عَنْهُ&quot;</strong></p><p>إن نزول الملك <strong>عن عرشه وخلع ردائه</strong> يظهر أنه كان يتصرف بتواضع. كان العرش والرداء الملكي كلاهما رموزًا لسلطته وقوته كملك لأمة قوية. إذا لم يكن معنى هذه الأفعال واضحًا لقرائك، يمكنك توضيح ذلك في النص أو في حاشية. الترجمة البديلة: &quot;وتخلى عن عرشه الملكي وخلع ردائه الملكي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">الأفعال الرمزية</span></p>",
 "associations": {
 "passage": [
 {
@@ -5026,7 +5606,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
@@ -5090,7 +5699,7 @@
 "index_reference": "32003006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَتَغَطَّى بِمِسْحٍ وَجَلَسَ عَلَى الرَّمَادِ&quot;</strong></p><p>&quot;إن ارتداء <strong>المسوح</strong> والجلوس <strong>على الرماد</strong> هما أفعال رمزية تهدف إلى التعبير عن الحزن العميق والتوبة. إذا لم يكن هذا واضحًا لقرائك، يمكنك توضيح أهمية هذه الأفعال في النص أو في حاشية. الترجمة البديلة: &quot;&quot;وغطى نفسه بالمسوح وجلس بين الرماد ليعبر عن حزنه العميق وتوبته&quot;&quot;&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">الأفعال الرمزية</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְכַ֣ס שַׂ֔ק וַ⁠יֵּ֖שֶׁב עַל־הָ⁠אֵֽפֶר</span></p><p><strong>&quot;وَتَغَطَّى بِمِسْحٍ وَجَلَسَ عَلَى الرَّمَادِ&quot;</strong></p><p>&quot;إن ارتداء <strong>المسوح</strong> والجلوس <strong>على الرماد</strong> هما أفعال رمزية تهدف إلى التعبير عن الحزن العميق والتوبة. إذا لم يكن هذا واضحًا لقرائك، يمكنك توضيح أهمية هذه الأفعال في النص أو في حاشية. الترجمة البديلة: &quot;&quot;وغطى نفسه بالمسوح وجلس بين الرماد ليعبر عن حزنه العميق وتوبته&quot;&quot;&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">الأفعال الرمزية</span></p>",
 "associations": {
 "passage": [
 {
@@ -5109,7 +5718,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
@@ -5141,11 +5779,56 @@
 "preferred_label": "نِينَوَى"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
+}
+]
+}
+},
+{
+"content_id": "794293",
+"reference_id": 190599,
+"version": "1.0.4",
+"title": "يونان 3: 7 (#3)",
+"media_type": "Text",
+"index_reference": "32003007",
+"language": "arb",
+"review_level": "None",
+"content": "<p><span style='direction: rtl;'>מִ⁠טַּ֧עַם הַ⁠מֶּ֛לֶךְ וּ⁠גְדֹלָ֖י⁠ו</span></p><p><strong>&quot;عَنْ أَمْرِ الْمَلِكِ وَعُظَمَائِهِ&quot;</strong></p><p>الترجمة البديلة: &quot;أمر يحمل كامل سلطان الملك ورؤسائه&quot;</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "32003007",
+"start_ref_usfm": "JON 3:7",
+"end_ref": "32003007",
+"end_ref_usfm": "JON 3:7"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
 },
 {
 "id": "fauna:Goat",
@@ -5160,31 +5843,15 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
-}
-]
-}
 },
 {
-"content_id": "794293",
-"reference_id": 190599,
-"version": "1.0.4",
-"title": "يونان 3: 7 (#3)",
-"media_type": "Text",
-"index_reference": "32003007",
-"language": "arb",
-"review_level": "None",
-"content": "<p><strong>&quot;عَنْ أَمْرِ الْمَلِكِ وَعُظَمَائِهِ&quot;</strong></p><p>الترجمة البديلة: &quot;أمر يحمل كامل سلطان الملك ورؤسائه&quot;</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "32003007",
-"start_ref_usfm": "JON 3:7",
-"end_ref": "32003007",
-"end_ref_usfm": "JON 3:7"
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -5216,13 +5883,6 @@
 "preferred_label": "نِينَوَى"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5235,6 +5895,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5268,13 +5935,6 @@
 "preferred_label": "نِينَوَى"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5287,6 +5947,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5328,13 +5995,6 @@
 "preferred_label": "نِينَوَى"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5347,6 +6007,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5380,18 +6047,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5433,18 +6100,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5478,18 +6145,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5531,18 +6198,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5704,7 +6371,7 @@
 "index_reference": "32003010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَلَمَّا رَأَى اللهُ أَعْمَالَهُمْ أَنَّهُمْ رَجَعُوا عَنْ طَرِيقِهِمِ الرَّدِيئَةِ،&quot;</strong></p><p>الترجمة البديلة: &quot;رأى الله أنهم كفوا عن ارتكاب الأفعال الشريرة&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּ֤רְא הָֽ⁠אֱלֹהִים֙ אֶֽת־מַ֣עֲשֵׂי⁠הֶ֔ם כִּי־שָׁ֖בוּ מִ⁠דַּרְכָּ֣⁠ם הָ⁠רָעָ֑ה</span></p><p><strong>&quot;فَلَمَّا رَأَى اللهُ أَعْمَالَهُمْ أَنَّهُمْ رَجَعُوا عَنْ طَرِيقِهِمِ الرَّدِيئَةِ،&quot;</strong></p><p>الترجمة البديلة: &quot;رأى الله أنهم كفوا عن ارتكاب الأفعال الشريرة&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -5715,7 +6382,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -6111,11 +6786,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6125,18 +6800,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "تَرْشِيشَ"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Kindness",
@@ -6157,7 +6832,7 @@
 "index_reference": "32004002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;يَا رَبُّ، أَلَيْسَ هذَا كَلاَمِي إِذْ كُنْتُ بَعْدُ فِي أَرْضِي؟&quot;</strong></p><p>استخدم يونان هذا السؤال البلاغي ليعبر لله عن مدى غضبه. إذا لم تكن تستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمته في صيغة جملة خبرية أو صيغة تعجب. الترجمة البديلة: &quot;يا رب، هذا ما قلته إذ كنت بعد في أرضي!&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהוָה֙ הֲ⁠לוֹא־זֶ֣ה דְבָרִ֗⁠י עַד־הֱיוֹתִ⁠י֙ עַל־אַדְמָתִ֔⁠י</span></p><p><strong>&quot;يَا رَبُّ، أَلَيْسَ هذَا كَلاَمِي إِذْ كُنْتُ بَعْدُ فِي أَرْضِي؟&quot;</strong></p><p>استخدم يونان هذا السؤال البلاغي ليعبر لله عن مدى غضبه. إذا لم تكن تستخدم صيغة السؤال لهذا الغرض في لغتك، يمكنك ترجمته في صيغة جملة خبرية أو صيغة تعجب. الترجمة البديلة: &quot;يا رب، هذا ما قلته إذ كنت بعد في أرضي!&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -6176,7 +6851,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Generous"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تَرْشِيشَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6188,7 +6899,7 @@
 "index_reference": "32004002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;يَا رَبُّ، أَلَيْسَ هذَا كَلاَمِي إِذْ كُنْتُ بَعْدُ فِي أَرْضِي؟&quot;</strong></p><p>المعنى الضمني هنا هو أن يونان سبق فأخبر بدقة بما سيحدث. يمكنك تضمين هذه المعلومات إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;يا رب، عندما كنت لا أزال في أرضي، ألم أقل إنه إذا أنذرت أهل نينوى، فقد يتوبون ولن تهلكهم&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהוָה֙ הֲ⁠לוֹא־זֶ֣ה דְבָרִ֗⁠י עַד־הֱיוֹתִ⁠י֙ עַל־אַדְמָתִ֔⁠י</span></p><p><strong>&quot;يَا رَبُّ، أَلَيْسَ هذَا كَلاَمِي إِذْ كُنْتُ بَعْدُ فِي أَرْضِي؟&quot;</strong></p><p>المعنى الضمني هنا هو أن يونان سبق فأخبر بدقة بما سيحدث. يمكنك تضمين هذه المعلومات إذا كانت ستفيد قراءك. الترجمة البديلة: &quot;يا رب، عندما كنت لا أزال في أرضي، ألم أقل إنه إذا أنذرت أهل نينوى، فقد يتوبون ولن تهلكهم&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -6207,7 +6918,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Generous"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تَرْشِيشَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6240,11 +6987,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6254,18 +7001,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "تَرْشِيشَ"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Kindness",
@@ -6286,7 +7033,7 @@
 "index_reference": "32004002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَكَثِيرُ الرَّحْمَةِ&quot;</strong></p><p>الترجمة البديلة: &quot;وأمين جدًا&quot; أو &quot;وممتلئ محبة لشعبك&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠רַב־חֶ֔סֶד</span></p><p><strong>&quot;وَكَثِيرُ الرَّحْمَةِ&quot;</strong></p><p>الترجمة البديلة: &quot;وأمين جدًا&quot; أو &quot;وممتلئ محبة لشعبك&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -6297,7 +7044,43 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Generous"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تَرْشِيشَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6330,11 +7113,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6344,18 +7127,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "تَرْشِيشَ"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Generous"
 },
 {
 "id": "keyterm:Kindness",
@@ -6594,7 +7377,7 @@
 "index_reference": "32004006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَوْقَ يُونَانَ لِتَكُونَ ظِلاُ عَلَى رَأْسِهِ&quot;</strong></p><p>الترجمة البديلة: &quot;فوق رأس يونان لتوفير الظل&quot;</p>",
+"content": "<p><span style='direction: rtl;'>מֵ⁠עַ֣ל לְ⁠יוֹנָ֗ה לִֽ⁠הְי֥וֹת צֵל֙ עַל־רֹאשׁ֔⁠וֹ</span></p><p><strong>&quot;فَوْقَ يُونَانَ لِتَكُونَ ظِلاُ عَلَى رَأْسِهِ&quot;</strong></p><p>الترجمة البديلة: &quot;فوق رأس يونان لتوفير الظل&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -6605,7 +7388,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -6637,18 +7442,18 @@
 "preferred_label": "Castor Oil"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6690,18 +7495,18 @@
 "preferred_label": "Castor Oil"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6715,7 +7520,7 @@
 "index_reference": "32004007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;ثُمَّ أَعَدَّ اللهُ دُودَةً&quot;</strong></p><p>الترجمة البديلة: &quot;ثم أرسل الله دودة&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן הָֽ⁠אֱלֹהִים֙ תּוֹלַ֔עַת</span></p><p><strong>&quot;ثُمَّ أَعَدَّ اللهُ دُودَةً&quot;</strong></p><p>الترجمة البديلة: &quot;ثم أرسل الله دودة&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -6726,7 +7531,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "fauna:Maggot",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Worm"
+}
+]
 }
 },
 {
@@ -6804,18 +7631,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6850,18 +7677,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6888,18 +7715,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6934,18 +7761,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6959,7 +7786,7 @@
 "index_reference": "32004008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَذَبُلَ&quot;</strong></p><p>الترجمة البديلة: &quot;وأصبح ضعيفًا للغاية&quot; أو &quot;وفقد قوته&quot;</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּתְעַלָּ֑ף</span></p><p><strong>&quot;فَذَبُلَ&quot;</strong></p><p>الترجمة البديلة: &quot;وأصبح ضعيفًا للغاية&quot; أو &quot;وفقد قوته&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -6970,7 +7797,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -6995,18 +7837,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -7033,18 +7875,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -7079,18 +7921,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "flora:CastorOil",
@@ -7111,7 +7953,7 @@
 "index_reference": "32004009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;هَلِ اغْتَظْتَ&quot;</strong> - <strong>&quot;اغْتَظْتُ&quot;</strong></p><p>العبارات <strong>أحرقك</strong> و<strong>أحرقني (حسب الترجمة الإنجليزية)</strong> هي أمثلة على تعبير اصطلاحي يصف غضب يونان كما لو كان نارًا تشتعل داخله. انظر كيف ترجمت هذا التعبير الاصطلاحي في <a href=\"https://ref.ly/Jonah4:1\">4:1</a>.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>חָרָֽה־לְ⁠ךָ֖ &amp; חָֽרָה־לִ֖⁠י</span></p><p><strong>&quot;هَلِ اغْتَظْتَ&quot;</strong> - <strong>&quot;اغْتَظْتُ&quot;</strong></p><p>العبارات <strong>أحرقك</strong> و<strong>أحرقني (حسب الترجمة الإنجليزية)</strong> هي أمثلة على تعبير اصطلاحي يصف غضب يونان كما لو كان نارًا تشتعل داخله. انظر كيف ترجمت هذا التعبير الاصطلاحي في <a href=\"https://ref.ly/Jonah4:1\">4:1</a>.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -7130,7 +7972,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يونَانَ"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+}
+]
 }
 },
 {
@@ -7280,7 +8144,7 @@
 "index_reference": "32004011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;أَفَلَا أَشْفَقُ أَنَا عَلَى نِينَوَى ٱلْمَدِينَةِ ٱلْعَظِيمَةِ ٱلَّتِي يُوجَدُ فِيهَا أَكْثَرُ مِنِ ٱثْنَتَيْ عَشَرَةَ رِبْوَةً مِنَ ٱلنَّاسِ ٱلَّذِينَ لَا يَعْرِفُونَ يَمِينَهُمْ مِنْ شِمَالِهِمْ، وَبَهَائِمُ كَثِيرَةٌ؟&quot;</strong></p><p>يستخدم الله أسلوب السؤال ليؤكّد حقّه في أن يرحم نينوى. فإذا لم يكن من المألوف في لغتك استعمال السؤال لهذا الغرض، فيمكن أن يُترجَم الكلام على صورة تقرير أو تعجّب. الترجمة البديلة: [أنا حَقًّا ينبغي أن أرحم نينوى، تلك المدينة العظيمة، التي فيها أكثر من مئةٍ وعشرين ألف إنسان لا يعرفون يمينهم من شمالهم، ومعهم أيضًا كثير من البهائم!].</p><p>يرجى مراجعة: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
+"content": "<p><span style='direction: rtl;'>וַֽ⁠אֲנִי֙ לֹ֣א אָח֔וּס עַל־נִינְוֵ֖ה הָ⁠עִ֣יר הַ⁠גְּדוֹלָ֑ה אֲשֶׁ֣ר יֶשׁ־בָּ֡⁠הּ הַרְבֵּה֩ מִֽ⁠שְׁתֵּים־עֶשְׂרֵ֨ה רִבּ֜וֹ אָדָ֗ם אֲשֶׁ֤ר לֹֽא־יָדַע֙ בֵּין־יְמִינ֣⁠וֹ לִ⁠שְׂמֹאל֔⁠וֹ וּ⁠בְהֵמָ֖ה רַבָּֽה</span></p><p><strong>&quot;أَفَلَا أَشْفَقُ أَنَا عَلَى نِينَوَى ٱلْمَدِينَةِ ٱلْعَظِيمَةِ ٱلَّتِي يُوجَدُ فِيهَا أَكْثَرُ مِنِ ٱثْنَتَيْ عَشَرَةَ رِبْوَةً مِنَ ٱلنَّاسِ ٱلَّذِينَ لَا يَعْرِفُونَ يَمِينَهُمْ مِنْ شِمَالِهِمْ، وَبَهَائِمُ كَثِيرَةٌ؟&quot;</strong></p><p>يستخدم الله أسلوب السؤال ليؤكّد حقّه في أن يرحم نينوى. فإذا لم يكن من المألوف في لغتك استعمال السؤال لهذا الغرض، فيمكن أن يُترجَم الكلام على صورة تقرير أو تعجّب. الترجمة البديلة: [أنا حَقًّا ينبغي أن أرحم نينوى، تلك المدينة العظيمة، التي فيها أكثر من مئةٍ وعشرين ألف إنسان لا يعرفون يمينهم من شمالهم، ومعهم أيضًا كثير من البهائم!].</p><p>يرجى مراجعة: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">السؤال البلاغي</span></p>",
 "associations": {
 "passage": [
 {
@@ -7299,7 +8163,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 },
 {
@@ -7349,7 +8228,7 @@
 "index_reference": "32004011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;اثْنَتَيْ عَشَرَةَ رِبْوَةً&quot;</strong></p><p>الترجمة البديلة: &quot;مئة وعشرون ألفًا&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26806\" data-resourceType=\"UWTranslationManual\">الأرقام</span></p>",
+"content": "<p><span style='direction: rtl;'>מִֽ⁠שְׁתֵּים־עֶשְׂרֵ֨ה רִבּ֜וֹ</span></p><p><strong>&quot;اثْنَتَيْ عَشَرَةَ رِبْوَةً&quot;</strong></p><p>الترجمة البديلة: &quot;مئة وعشرون ألفًا&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26806\" data-resourceType=\"UWTranslationManual\">الأرقام</span></p>",
 "associations": {
 "passage": [
 {
@@ -7368,7 +8247,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 },
 {
@@ -7380,7 +8274,7 @@
 "index_reference": "32004011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مِنَ النَّاسِ الَّذِينَ لاَ يَعْرِفُونَ يَمِينَهُمْ مِنْ شِمَالِهِمْ&quot;</strong></p><p>هذا التعبير الاصطلاحي يعني &quot;الذين لا يميزون الفرق بين الصواب والخطأ&quot;. إذا لم يكن لهذا التعبير نفس المعنى في لغتك، يمكنك استخدام تعبير اصطلاحي آخر من لغتك يحمل هذا المعنى أو توضيح المعنى بشكل مباشر. ترجمة بديلة: &quot;الأشخاص الذين لا يميزون الأعلى من الأسفل&quot; أو &quot;الأشخاص الذين لا يعرفون ما هو الأفضل لهم&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲשֶׁ֤ר לֹֽא־יָדַע֙ בֵּין־יְמִינ֣⁠וֹ לִ⁠שְׂמֹאל֔⁠וֹ</span></p><p><strong>&quot;مِنَ النَّاسِ الَّذِينَ لاَ يَعْرِفُونَ يَمِينَهُمْ مِنْ شِمَالِهِمْ&quot;</strong></p><p>هذا التعبير الاصطلاحي يعني &quot;الذين لا يميزون الفرق بين الصواب والخطأ&quot;. إذا لم يكن لهذا التعبير نفس المعنى في لغتك، يمكنك استخدام تعبير اصطلاحي آخر من لغتك يحمل هذا المعنى أو توضيح المعنى بشكل مباشر. ترجمة بديلة: &quot;الأشخاص الذين لا يميزون الأعلى من الأسفل&quot; أو &quot;الأشخاص الذين لا يعرفون ما هو الأفضل لهم&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">تعبير اصطلاحي</span></p>",
 "associations": {
 "passage": [
 {
@@ -7399,7 +8293,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "نِينَوَى"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 }
 ]

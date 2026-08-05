@@ -77,7 +77,7 @@
 "index_reference": "56001001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لأَجْلِ إِيمَانِ مُخْتَارِي اللهِ وَمَعْرِفَةِ الْحَقِّ&quot;</strong></p><p>إن كلمات <strong>الإيمان،</strong> و<strong>المعرفة</strong>، و<strong>الحق </strong>هي أسماء مُجردة. ولكن بإمكانك التعبير عن تلك الأفكار بطريقة أخرى، إذا كان ذلك سيجعل المعني أكثر وضوحًا في لغتك. فيمكنك استخدام ترجمة بديلة: &quot;لمساعدة شعب الله المختار على الاستمرار في الثقة به ومعرفة كل ما هو حقيقي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>κατὰ πίστιν ἐκλεκτῶν Θεοῦ, καὶ ἐπίγνωσιν ἀληθείας</span></strong></p><p><strong>&quot;لأَجْلِ إِيمَانِ مُخْتَارِي اللهِ وَمَعْرِفَةِ الْحَقِّ&quot;</strong></p><p>إن كلمات <strong>الإيمان،</strong> و<strong>المعرفة</strong>، و<strong>الحق </strong>هي أسماء مُجردة. ولكن بإمكانك التعبير عن تلك الأفكار بطريقة أخرى، إذا كان ذلك سيجعل المعني أكثر وضوحًا في لغتك. فيمكنك استخدام ترجمة بديلة: &quot;لمساعدة شعب الله المختار على الاستمرار في الثقة به ومعرفة كل ما هو حقيقي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">الأسماء المجردة</span></p>",
 "associations": {
 "passage": [
 {
@@ -96,7 +96,50 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بولسَ"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Chosen"
+}
+]
 }
 },
 {
@@ -129,6 +172,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
@@ -136,25 +186,11 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Chosen"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "بولسَ"
 },
 {
 "id": "person:Jesus.2",
@@ -164,11 +200,18 @@
 "preferred_label": "يَسوع"
 },
 {
-"id": "person:Paul",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بولسَ"
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Chosen"
 }
 ]
 }
@@ -203,6 +246,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
@@ -210,25 +260,11 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Chosen"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "بولسَ"
 },
 {
 "id": "person:Jesus.2",
@@ -238,11 +274,18 @@
 "preferred_label": "يَسوع"
 },
 {
-"id": "person:Paul",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بولسَ"
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Chosen"
 }
 ]
 }
@@ -256,7 +299,7 @@
 "index_reference": "56001001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الَّذِي هُوَ حَسَبُ التَّقْوَى&quot;</strong></p><p>إن كلمة <strong>التقوى</strong> هنا هي كلمة مجردة تشير إلى العيش بطريقة تُرضي الله. الترجمة البديلة: &quot;التي تكون مناسبة لتمجيد الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τῆς κατ’ εὐσέβειαν</span></strong></p><p><strong>&quot;الَّذِي هُوَ حَسَبُ التَّقْوَى&quot;</strong></p><p>إن كلمة <strong>التقوى</strong> هنا هي كلمة مجردة تشير إلى العيش بطريقة تُرضي الله. الترجمة البديلة: &quot;التي تكون مناسبة لتمجيد الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p>",
 "associations": {
 "passage": [
 {
@@ -275,7 +318,50 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بولسَ"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Chosen"
+}
+]
 }
 },
 {
@@ -308,11 +394,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Promise",
@@ -322,25 +408,25 @@
 "preferred_label": "Promise"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 }
 ]
 }
@@ -354,7 +440,7 @@
 "index_reference": "56001002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;عَلَى رَجَاءِ الْحَيَاةِ الأَبَدِيَّةِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفهوم <strong>الرجاء</strong>، فيمكنك التعبير عن نفس الفكرة بطريقة أخرى. ترجمة بديلة: &quot;التي تقودنا كي نتوقع الحياة الأبدية بثقة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐπ’ ἐλπίδι ζωῆς αἰωνίου</span></strong></p><p><strong>&quot;عَلَى رَجَاءِ الْحَيَاةِ الأَبَدِيَّةِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفهوم <strong>الرجاء</strong>، فيمكنك التعبير عن نفس الفكرة بطريقة أخرى. ترجمة بديلة: &quot;التي تقودنا كي نتوقع الحياة الأبدية بثقة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -373,7 +459,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
@@ -406,11 +528,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Promise",
@@ -420,25 +542,25 @@
 "preferred_label": "Promise"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 }
 ]
 }
@@ -475,7 +597,7 @@
 "index_reference": "56001003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فِي أَوْقَاتِهَا الْخَاصَّةِ&quot;</strong></p><p>ترجمة بديلة: &quot;في الوقت المناسب&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>καιροῖς ἰδίοις</span></strong></p><p><strong>&quot;فِي أَوْقَاتِهَا الْخَاصَّةِ&quot;</strong></p><p>ترجمة بديلة: &quot;في الوقت المناسب&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -486,7 +608,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+}
+]
 }
 },
 {
@@ -519,20 +670,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -545,6 +682,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -579,20 +730,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -605,6 +742,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -639,20 +790,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -665,6 +802,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -699,20 +850,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -725,6 +862,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -766,18 +917,11 @@
 "preferred_label": "تِيطسَ"
 },
 {
-"id": "keyterm:InCommon",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "In Common"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Favor"
 },
 {
 "id": "deity:Lord",
@@ -794,13 +938,6 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
@@ -808,11 +945,25 @@
 "preferred_label": "Savior"
 },
 {
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "In Common"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
 }
 ]
 }
@@ -854,18 +1005,11 @@
 "preferred_label": "تِيطسَ"
 },
 {
-"id": "keyterm:InCommon",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "In Common"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Favor"
 },
 {
 "id": "deity:Lord",
@@ -882,13 +1026,6 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
@@ -896,11 +1033,25 @@
 "preferred_label": "Savior"
 },
 {
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "In Common"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
 }
 ]
 }
@@ -942,18 +1093,11 @@
 "preferred_label": "تِيطسَ"
 },
 {
-"id": "keyterm:InCommon",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "In Common"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Favor"
 },
 {
 "id": "deity:Lord",
@@ -970,13 +1114,6 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
@@ -984,11 +1121,25 @@
 "preferred_label": "Savior"
 },
 {
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "In Common"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
 }
 ]
 }
@@ -1002,7 +1153,7 @@
 "index_reference": "56001004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;نِعْمَةٌ وَرَحْمَةٌ وَسَلاَمٌ مِنَ اللهِ الآبِ وَالرَّبِّ يَسُوعَ الْمَسِيحِ مُخَلِّصِنَا&quot;</strong></p><p>إذا كانت لغتك لا تستخدم هذه الأسماء المجردة للتعبير عن مفاهيم <strong>النعمة، والرحمة،</strong> و<strong>السلام</strong>، فيمكنك التعبير عن نفس هذه الأفكار بطريقة أخرى. ترجمة بديلة: &quot;ليكن الله الآب والمسيح يسوع مخلصنا كريماً معك ويمنحك روحاً هادئة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>χάρις καὶ εἰρήνη ἀπὸ Θεοῦ Πατρὸς καὶ Χριστοῦ Ἰησοῦ τοῦ Σωτῆρος ἡμῶν</span></strong></p><p><strong>&quot;نِعْمَةٌ وَرَحْمَةٌ وَسَلاَمٌ مِنَ اللهِ الآبِ وَالرَّبِّ يَسُوعَ الْمَسِيحِ مُخَلِّصِنَا&quot;</strong></p><p>إذا كانت لغتك لا تستخدم هذه الأسماء المجردة للتعبير عن مفاهيم <strong>النعمة، والرحمة،</strong> و<strong>السلام</strong>، فيمكنك التعبير عن نفس هذه الأفكار بطريقة أخرى. ترجمة بديلة: &quot;ليكن الله الآب والمسيح يسوع مخلصنا كريماً معك ويمنحك روحاً هادئة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1021,7 +1172,64 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Titus",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "تِيطسَ"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "In Common"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+}
+]
 }
 },
 {
@@ -1033,7 +1241,7 @@
 "index_reference": "56001004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَالرَّبِّ يَسُوعَ الْمَسِيحِ مُخَلِّصِنَا&quot;</strong></p><p>ترجمة بديلة: &quot;المسيح يسوع الذي هو مخلصنا&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>Χριστοῦ Ἰησοῦ τοῦ Σωτῆρος ἡμῶν</span></strong></p><p><strong>&quot;وَالرَّبِّ يَسُوعَ الْمَسِيحِ مُخَلِّصِنَا&quot;</strong></p><p>ترجمة بديلة: &quot;المسيح يسوع الذي هو مخلصنا&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1044,7 +1252,64 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Titus",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "تِيطسَ"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "In Common"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+}
+]
 }
 },
 {
@@ -1084,18 +1349,11 @@
 "preferred_label": "تِيطسَ"
 },
 {
-"id": "keyterm:InCommon",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "In Common"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Favor"
 },
 {
 "id": "deity:Lord",
@@ -1112,13 +1370,6 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
@@ -1126,11 +1377,25 @@
 "preferred_label": "Savior"
 },
 {
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "In Common"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
 }
 ]
 }
@@ -1183,7 +1448,7 @@
 "index_reference": "56001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;تركتك في كريت&quot;</strong></p><p>ترجمة بديلة: &quot;قلت لك أن تبقى في كريت&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἀπέλιπόν σε ἐν Κρήτῃ</span></strong></p><p><strong>&quot;تركتك في كريت&quot;</strong></p><p>ترجمة بديلة: &quot;قلت لك أن تبقى في كريت&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1194,7 +1459,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Crete",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "كِرِيتَ"
+}
+]
 }
 },
 {
@@ -1206,7 +1479,7 @@
 "index_reference": "56001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لِكَيْ تُكَمِّلَ تَرْتِيبَ الأُمُورِ النَّاقِصَةِ&quot;</strong></p><p>ترجمة بديلة: &quot;حتى تنتهي من ترتيب الأشياء التي تحتاج أن تُتممها&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα τὰ λείποντα ἐπιδιορθώσῃ</span></strong></p><p><strong>&quot;لِكَيْ تُكَمِّلَ تَرْتِيبَ الأُمُورِ النَّاقِصَةِ&quot;</strong></p><p>ترجمة بديلة: &quot;حتى تنتهي من ترتيب الأشياء التي تحتاج أن تُتممها&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1217,7 +1490,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Crete",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "كِرِيتَ"
+}
+]
 }
 },
 {
@@ -1229,7 +1510,7 @@
 "index_reference": "56001005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;تُقِيمَ&quot;</strong> - <strong>&quot;شُيُوخًا&quot;</strong></p><p>ترجمة بديلة: &quot;تُعيّن شيوخًا&quot; أو &quot;تختار شيوخًا&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>καταστήσῃς &amp; πρεσβυτέρους</span></strong></p><p><strong>&quot;تُقِيمَ&quot;</strong> - <strong>&quot;شُيُوخًا&quot;</strong></p><p>ترجمة بديلة: &quot;تُعيّن شيوخًا&quot; أو &quot;تختار شيوخًا&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1240,7 +1521,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Crete",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "كِرِيتَ"
+}
+]
 }
 },
 {
@@ -1528,7 +1817,7 @@
 "index_reference": "56001007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَلاَ مُدْمِنِ الْخَمْرِ&quot;</strong></p><p>ترجمة بديلة: &quot;ليس شخصًا شرّيبًا للخمور&quot; أو &quot;ليس شخصًا يشرب الكثير من الخمر&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>μὴ πάροινον</span></strong></p><p><strong>&quot;وَلاَ مُدْمِنِ الْخَمْرِ&quot;</strong></p><p>ترجمة بديلة: &quot;ليس شخصًا شرّيبًا للخمور&quot; أو &quot;ليس شخصًا يشرب الكثير من الخمر&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1539,7 +1828,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:WithoutReproach",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Without Reproach"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1551,7 +1855,7 @@
 "index_reference": "56001007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَلاَ ضَرَّابٍ&quot;</strong></p><p>ترجمة بديلة: &quot;ليس عنيفًا&quot; أو &quot;ليس ممن يحبون الشجار&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>μὴ πλήκτην</span></strong></p><p><strong>&quot;وَلاَ ضَرَّابٍ&quot;</strong></p><p>ترجمة بديلة: &quot;ليس عنيفًا&quot; أو &quot;ليس ممن يحبون الشجار&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1562,7 +1866,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:WithoutReproach",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Without Reproach"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -1595,18 +1914,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:LikingWhatIsGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Liking What Is Good"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:LikingWhatIsGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Liking What Is Good"
 },
 {
 "id": "keyterm:Holy",
@@ -1648,18 +1967,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:LikingWhatIsGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Liking What Is Good"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:LikingWhatIsGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Liking What Is Good"
 },
 {
 "id": "keyterm:Holy",
@@ -1680,7 +1999,7 @@
 "index_reference": "56001008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُتَعَقِّلًا&quot;</strong> - <strong>&quot;ضَابِطًا لِنَفْسِهِ&quot;</strong></p><p>إن مفردات مثل <strong>متعقلًا و ضابطًا لنفسه</strong> متشابهة جدًا في المعنى وقد تُترجم بمصطلح واحد إذا لم تكن اللغة المستهدفة تحتوي على مفردات مماثلة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\"><span>تعبير مزدوج</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>σώφρονα &amp; ἐγκρατῆ</span></strong></p><p><strong>&quot;مُتَعَقِّلًا&quot;</strong> - <strong>&quot;ضَابِطًا لِنَفْسِهِ&quot;</strong></p><p>إن مفردات مثل <strong>متعقلًا و ضابطًا لنفسه</strong> متشابهة جدًا في المعنى وقد تُترجم بمصطلح واحد إذا لم تكن اللغة المستهدفة تحتوي على مفردات مماثلة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\"><span>تعبير مزدوج</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1699,7 +2018,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:LikingWhatIsGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Liking What Is Good"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Holy"
+}
+]
 }
 },
 {
@@ -1732,18 +2073,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:LikingWhatIsGood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Liking What Is Good"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:LikingWhatIsGood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Liking What Is Good"
 },
 {
 "id": "keyterm:Holy",
@@ -1817,7 +2158,7 @@
 "index_reference": "56001009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الَّتِي بِحَسَبِ التَّعْلِيمِ&quot;</strong></p><p>ترجمة بديلة: &quot;التي تتفق مع الأشياء التي علمناها له&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>κατὰ τὴν διδαχὴν</span></strong></p><p><strong>&quot;الَّتِي بِحَسَبِ التَّعْلِيمِ&quot;</strong></p><p>ترجمة بديلة: &quot;التي تتفق مع الأشياء التي علمناها له&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -1828,7 +2169,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Encourage"
+}
+]
 }
 },
 {
@@ -2195,7 +2558,7 @@
 "index_reference": "56001012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;قَالَ وَاحِدٌ مِنْهُمْ، وَهُوَ نَبِيٌّ لَهُمْ خَاصٌّ&quot;</strong></p><p>ترجمة بديلة: &quot;شخص من أهل كريت، وهو واحد منهم يعتبرونه هم أنفسهم نبيًا&quot;</p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>τις ἐξ αὐτῶν, ἴδιος αὐτῶν προφήτης</span></strong></p><p><strong>&quot;قَالَ وَاحِدٌ مِنْهُمْ، وَهُوَ نَبِيٌّ لَهُمْ خَاصٌّ&quot;</strong></p><p>ترجمة بديلة: &quot;شخص من أهل كريت، وهو واحد منهم يعتبرونه هم أنفسهم نبيًا&quot;</p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2206,7 +2569,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:CretanProphet",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cretan Prophet"
+},
+{
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cretans"
+},
+{
+"id": "place:Crete",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "كِرِيتَ"
+}
+]
 }
 },
 {
@@ -2239,18 +2624,18 @@
 ],
 "acai": [
 {
-"id": "group:Cretan",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Cretans"
-},
-{
 "id": "person:CretanProphet",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Cretan Prophet"
+},
+{
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cretans"
 },
 {
 "id": "place:Crete",
@@ -2292,18 +2677,18 @@
 ],
 "acai": [
 {
-"id": "group:Cretan",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Cretans"
-},
-{
 "id": "person:CretanProphet",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Cretan Prophet"
+},
+{
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cretans"
 },
 {
 "id": "place:Crete",
@@ -2345,18 +2730,18 @@
 ],
 "acai": [
 {
-"id": "group:Cretan",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Cretans"
-},
-{
 "id": "person:CretanProphet",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Cretan Prophet"
+},
+{
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cretans"
 },
 {
 "id": "place:Crete",
@@ -2377,7 +2762,7 @@
 "index_reference": "56001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فَلِهذَا السَّبَبِ وَبِّخْهُمْ بِصَرَامَةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;لهذا السبب، يجب عليك أن تكون حازمًا معهم واستخدم كلمات قوية يدركها الكريتيون لتصحيحهم&quot;</p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>δι’ ἣν αἰτίαν ἔλεγχε αὐτοὺς ἀποτόμως</span></strong></p><p><strong>&quot;فَلِهذَا السَّبَبِ وَبِّخْهُمْ بِصَرَامَةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;لهذا السبب، يجب عليك أن تكون حازمًا معهم واستخدم كلمات قوية يدركها الكريتيون لتصحيحهم&quot;</p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2388,7 +2773,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "True"
+}
+]
 }
 },
 {
@@ -2421,6 +2828,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2433,13 +2847,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "True"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
 }
 ]
 }
@@ -2474,6 +2881,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2486,13 +2900,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "True"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
 }
 ]
 }
@@ -2506,7 +2913,7 @@
 "index_reference": "56001013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لِكَيْ يَكُونُوا أَصِحَّاءَ فِي الإِيمَانِ&quot;</strong></p><p>انظر الملاحظة على كلمة <strong>أَصِحَّاءَ </strong>في <a target=\"_blank\" rel=\"noopener noreferrer nofollow\">تيطس 9:1</a>. ترجمة بديلة: &quot;حتى يكون لديهم إيمان صحيح&quot; أو &quot;حتى يكون إيمانهم حقيقيًا&quot; أو &quot;حتى يؤمنوا فقط بما هو صحيح عن الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα ὑγιαίνωσιν ἐν τῇ πίστει</span></strong></p><p><strong>&quot;لِكَيْ يَكُونُوا أَصِحَّاءَ فِي الإِيمَانِ&quot;</strong></p><p>انظر الملاحظة على كلمة <strong>أَصِحَّاءَ </strong>في <a target=\"_blank\" rel=\"noopener noreferrer nofollow\">تيطس 9:1</a>. ترجمة بديلة: &quot;حتى يكون لديهم إيمان صحيح&quot; أو &quot;حتى يكون إيمانهم حقيقيًا&quot; أو &quot;حتى يؤمنوا فقط بما هو صحيح عن الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2525,7 +2932,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "True"
+}
+]
 }
 },
 {
@@ -2558,6 +2987,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2570,13 +3006,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "True"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
 }
 ]
 }
@@ -2611,6 +3040,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2623,13 +3059,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "True"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Believe"
 }
 ]
 }
@@ -2643,7 +3072,7 @@
 "index_reference": "56001014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;إِلَى خُرَافَاتٍ يَهُودِيَّةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;التعاليم الزائفة لليهود&quot;</p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>Ἰουδαϊκοῖς μύθοις</span></strong></p><p><strong>&quot;إِلَى خُرَافَاتٍ يَهُودِيَّةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;التعاليم الزائفة لليهود&quot;</p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2654,7 +3083,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Commandment"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jews"
+}
+]
 }
 },
 {
@@ -2666,7 +3117,7 @@
 "index_reference": "56001014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُرْتَدِّينَ عَنِ الْحَقِّ&quot;</strong></p><p>يتحدث بولس عن الحق كما لو كان شيئًا يمكن للمرء أن يبتعد عنه أو يتجنبه. ترجمة بديلة: &quot;الذين يرفضون الحق&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἀποστρεφομένων τὴν ἀλήθειαν</span></strong></p><p><strong>&quot;مُرْتَدِّينَ عَنِ الْحَقِّ&quot;</strong></p><p>يتحدث بولس عن الحق كما لو كان شيئًا يمكن للمرء أن يبتعد عنه أو يتجنبه. ترجمة بديلة: &quot;الذين يرفضون الحق&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2685,7 +3136,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Commandment"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jews"
+}
+]
 }
 },
 {
@@ -2757,7 +3230,7 @@
 "index_reference": "56001015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لِلطَّاهِرِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;لأولئك الذين يقبلهم الله&quot;</p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>τοῖς καθαροῖς</span></strong></p><p><strong>&quot;لِلطَّاهِرِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;لأولئك الذين يقبلهم الله&quot;</p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2768,7 +3241,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Clean"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Conscience"
+}
+]
 }
 },
 {
@@ -2840,7 +3342,7 @@
 "index_reference": "56001015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَأَمَّا لِلنَّجِسِينَ وَغَيْرِ الْمُؤْمِنِينَ فَلَيْسَ شَيْءٌ طَاهِرًا&quot;</strong></p><p>يتحدث بولس عن الخطاة كما لو كانوا فاسدين جسديًا أو دنسين. ترجمة بديلة: &quot;ولكن إذا كان الناس دنسين أخلاقيًا وغير مؤمنين، فلا يمكنهم فعل أي شيء نقي&quot; أو &quot;ولكن عندما يكون الناس ممتلئين بالخطية وعدم الإيمان، فلا شيء يفعلونه سيكون مقبولًا لدي الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p><p></p>",
+"content": "<p><strong><span style='direction: ltr;'>τοῖς δὲ μεμιαμμένοις καὶ ἀπίστοις, οὐδὲν καθαρόν</span></strong></p><p><strong>&quot;وَأَمَّا لِلنَّجِسِينَ وَغَيْرِ الْمُؤْمِنِينَ فَلَيْسَ شَيْءٌ طَاهِرًا&quot;</strong></p><p>يتحدث بولس عن الخطاة كما لو كانوا فاسدين جسديًا أو دنسين. ترجمة بديلة: &quot;ولكن إذا كان الناس دنسين أخلاقيًا وغير مؤمنين، فلا يمكنهم فعل أي شيء نقي&quot; أو &quot;ولكن عندما يكون الناس ممتلئين بالخطية وعدم الإيمان، فلا شيء يفعلونه سيكون مقبولًا لدي الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p><p></p>",
 "associations": {
 "passage": [
 {
@@ -2859,7 +3361,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Clean"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Defilement"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Conscience"
+}
+]
 }
 },
 {
@@ -2917,7 +3448,7 @@
 "index_reference": "56001016",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;بِالأَعْمَالِ&quot;</strong> - <strong>&quot;يُنْكِرُونَهُ&quot;</strong></p><p>ترجمة بديلة: &quot;الطريقة التي يعيشون بها تُثبت أنهم لا يعرفونه&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τοῖς &amp; ἔργοις ἀρνοῦνται</span></strong></p><p><strong>&quot;بِالأَعْمَالِ&quot;</strong> - <strong>&quot;يُنْكِرُونَهُ&quot;</strong></p><p>ترجمة بديلة: &quot;الطريقة التي يعيشون بها تُثبت أنهم لا يعرفونه&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -2928,7 +3459,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
@@ -2994,7 +3540,7 @@
 "index_reference": "56002001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;بِالتَّعْلِيمِ الصَّحِيحِ&quot;</strong></p><p>انظر الملاحظة حول <strong>التعليم الصحيح </strong>في <a target=\"_blank\" rel=\"noopener noreferrer nofollow\">تيطس 9:1</a>. ترجمة بديلة: &quot;بالعقيدة الصحيحة&quot; أو &quot;بالتعاليم السليمة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>استعارة</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τῇ ὑγιαινούσῃ διδασκαλίᾳ</span></strong></p><p><strong>&quot;بِالتَّعْلِيمِ الصَّحِيحِ&quot;</strong></p><p>انظر الملاحظة حول <strong>التعليم الصحيح </strong>في <a target=\"_blank\" rel=\"noopener noreferrer nofollow\">تيطس 9:1</a>. ترجمة بديلة: &quot;بالعقيدة الصحيحة&quot; أو &quot;بالتعاليم السليمة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>استعارة</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3046,18 +3592,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
@@ -3071,7 +3617,7 @@
 "index_reference": "56002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;صَاحِينَ&quot;</strong> - <strong>&quot;ذَوِي وَقَارٍ، مُتَعَقِّلِينَ&quot;</strong></p><p>إن هذه الكلمات الثلاث متقاربة جدًا في المعنى وقد يتم دمجها في مصطلح أو مصطلحين اثنين، وذلك إذا لم تكن اللغة المستهدفة تحتوي على ثلاثة مصطلحات منفصلة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\"><span>تعبير مزدوج</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>νηφαλίους &amp; σεμνούς, σώφρονας</span></strong></p><p><strong>&quot;صَاحِينَ&quot;</strong> - <strong>&quot;ذَوِي وَقَارٍ، مُتَعَقِّلِينَ&quot;</strong></p><p>إن هذه الكلمات الثلاث متقاربة جدًا في المعنى وقد يتم دمجها في مصطلح أو مصطلحين اثنين، وذلك إذا لم تكن اللغة المستهدفة تحتوي على ثلاثة مصطلحات منفصلة.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26680\" data-resourceType=\"UWTranslationManual\"><span>تعبير مزدوج</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3090,7 +3636,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
+}
+]
 }
 },
 {
@@ -3102,7 +3663,7 @@
 "index_reference": "56002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>صَاحِينَ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;متزنين&quot; أو &quot;ضابطين لأنفسهم&quot;</p>",
+"content": "<p><strong><span style='direction: ltr;'>νηφαλίους</span></strong></p><p><strong>&quot;</strong><span><strong>صَاحِينَ</strong></span><strong>&quot;</strong></p><p>ترجمة بديلة: &quot;متزنين&quot; أو &quot;ضابطين لأنفسهم&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -3113,7 +3674,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
+}
+]
 }
 },
 {
@@ -3125,7 +3701,7 @@
 "index_reference": "56002002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُتَعَقِّلِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;يضبطون رغباتهم&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>σώφρονας</span></strong></p><p><strong>&quot;مُتَعَقِّلِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;يضبطون رغباتهم&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3136,7 +3712,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
+}
+]
 }
 },
 {
@@ -3169,18 +3760,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
@@ -3215,18 +3806,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
@@ -3261,18 +3852,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
@@ -3307,18 +3898,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
@@ -3410,7 +4001,7 @@
 "index_reference": "56002003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;غَيْرَ مُسْتَعْبَدَاتٍ لِلْخَمْرِ الْكَثِيرِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم هذه الصيغة للمبني للمجهول، يمكنك ذكر ذلك في الشكل المبني للمعلوم. ترجمة بديلة: &quot;يشربن الكثير من الخمر&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\"><span>مبني للمعلوم أو مبني للمجهول</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>οἴνῳ πολλῷ δεδουλωμένας</span></strong></p><p><strong>&quot;غَيْرَ مُسْتَعْبَدَاتٍ لِلْخَمْرِ الْكَثِيرِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم هذه الصيغة للمبني للمجهول، يمكنك ذكر ذلك في الشكل المبني للمعلوم. ترجمة بديلة: &quot;يشربن الكثير من الخمر&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\"><span>مبني للمعلوم أو مبني للمجهول</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3429,7 +4020,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wine"
+}
+]
 }
 },
 {
@@ -3519,7 +4118,7 @@
 "index_reference": "56002004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُحِبَّاتٍ لِرِجَالِهِنَّ&quot;</strong></p><p>ترجمة بديلة: &quot;أن يحببن أزواجهن&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>φιλάνδρους</span></strong></p><p><strong>&quot;مُحِبَّاتٍ لِرِجَالِهِنَّ&quot;</strong></p><p>ترجمة بديلة: &quot;أن يحببن أزواجهن&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3530,7 +4129,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:HavingLoveForOnesHusband",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Having Love for One's Husband"
+}
+]
 }
 },
 {
@@ -3542,7 +4149,7 @@
 "index_reference": "56002004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;أَوْلاَدَهُنَّ&quot;</strong></p><p>ترجمة بديلة: &quot;ومُحبات لأطفالهن&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>φιλοτέκνους</span></strong></p><p><strong>&quot;أَوْلاَدَهُنَّ&quot;</strong></p><p>ترجمة بديلة: &quot;ومُحبات لأطفالهن&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3553,7 +4160,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:HavingLoveForOnesHusband",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Having Love for One's Husband"
+}
+]
 }
 },
 {
@@ -3565,7 +4180,7 @@
 "index_reference": "56002005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;خَاضِعَاتٍ لِرِجَالِهِنَّ،&quot;</strong></p><p>ترجمة بديلة: &quot;وأن يُطعن أزواجهن&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὑποτασσομένας τοῖς ἰδίοις ἀνδράσιν</span></strong></p><p><strong>&quot;خَاضِعَاتٍ لِرِجَالِهِنَّ،&quot;</strong></p><p>ترجمة بديلة: &quot;وأن يُطعن أزواجهن&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3576,7 +4191,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Blaspheme"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Pure"
+}
+]
 }
 },
 {
@@ -3616,13 +4260,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -3635,6 +4272,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Blaspheme"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Pure"
 }
 ]
 }
@@ -3648,7 +4292,7 @@
 "index_reference": "56002005",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لِكَيْ لاَ يُجَدَّفَ عَلَى كَلِمَةِ اللهِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم صيغة المبني للمجهول هذه، فيمكنك قول ذلك في شكل المبني للمعلوم. ترجمة بديلة: &quot;حتى لا يهين أحد كلمة الله&quot; أو &quot;حتى لا يهين أحد الله بقول أشياء قبيحة عن رسالته&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\"><span>مبني للمعلوم أو مبني للمجهول</span></span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα μὴ ὁ λόγος τοῦ Θεοῦ βλασφημῆται</span></strong></p><p><strong>&quot;لِكَيْ لاَ يُجَدَّفَ عَلَى كَلِمَةِ اللهِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم صيغة المبني للمجهول هذه، فيمكنك قول ذلك في شكل المبني للمعلوم. ترجمة بديلة: &quot;حتى لا يهين أحد كلمة الله&quot; أو &quot;حتى لا يهين أحد الله بقول أشياء قبيحة عن رسالته&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\"><span>مبني للمعلوم أو مبني للمجهول</span></span></p>",
 "associations": {
 "passage": [
 {
@@ -3667,7 +4311,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Blaspheme"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Pure"
+}
+]
 }
 },
 {
@@ -3707,13 +4380,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -3726,6 +4392,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Blaspheme"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Pure"
 }
 ]
 }
@@ -3770,7 +4443,7 @@
 "index_reference": "56002007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فِي كُلِّ شَيْءٍ&quot;</strong></p><p>من الممكن أن تكون هذه العبارة جزءًا من الجملة السابقة بدلاً من هذه الجملة. إذا كانت النسخة المستخدمة من الكتاب المقدس في منطقتك تستخدم هذه العبارة لإنهاء الجملة السابقة، فيمكنك اختيار فعل الشيء نفسه.</p>",
+"content": "<p><strong><span style='direction: ltr;'>περὶ πάντα</span></strong></p><p><strong>&quot;فِي كُلِّ شَيْءٍ&quot;</strong></p><p>من الممكن أن تكون هذه العبارة جزءًا من الجملة السابقة بدلاً من هذه الجملة. إذا كانت النسخة المستخدمة من الكتاب المقدس في منطقتك تستخدم هذه العبارة لإنهاء الجملة السابقة، فيمكنك اختيار فعل الشيء نفسه.</p>",
 "associations": {
 "passage": [
 {
@@ -3793,7 +4466,7 @@
 "index_reference": "56002007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُقَدِّمًا نَفْسَكَ&quot;</strong></p><p>ترجمة بديلة: &quot;أظهر نفسك بأن تكون&quot; أو &quot;يجب أن تخدم أنت نفسك بصفة&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>σεαυτὸν παρεχόμενος</span></strong></p><p><strong>&quot;مُقَدِّمًا نَفْسَكَ&quot;</strong></p><p>ترجمة بديلة: &quot;أظهر نفسك بأن تكون&quot; أو &quot;يجب أن تخدم أنت نفسك بصفة&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -3816,7 +4489,7 @@
 "index_reference": "56002007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;قُدْوَةً لِلأَعْمَالِ الْحَسَنَةِ&quot;</strong></p><p>ترجمة بديلة: &quot;كنموذج لمن يقوم بالأشياء الصحيحة والمناسبة&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τύπον καλῶν ἔργων</span></strong></p><p><strong>&quot;قُدْوَةً لِلأَعْمَالِ الْحَسَنَةِ&quot;</strong></p><p>ترجمة بديلة: &quot;كنموذج لمن يقوم بالأشياء الصحيحة والمناسبة&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4119,7 +4792,7 @@
 "index_reference": "56002009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فِي كُلِّ شَيْءٍ&quot;</strong></p><p>ترجمة بديلة: &quot;في كل موقف&quot; أو &quot;دائماً&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐν πᾶσιν</span></strong></p><p><strong>&quot;فِي كُلِّ شَيْءٍ&quot;</strong></p><p>ترجمة بديلة: &quot;في كل موقف&quot; أو &quot;دائماً&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4201,13 +4874,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4220,6 +4886,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -4261,11 +4934,56 @@
 "preferred_label": "Good"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Savior"
+}
+]
+}
+},
+{
+"content_id": "144362",
+"reference_id": 115627,
+"version": "1.0.4",
+"title": "تيطس 10:2 (3#)",
+"media_type": "Text",
+"index_reference": "56002010",
+"language": "arb",
+"review_level": "None",
+"content": "<p><strong><span style='direction: ltr;'>πᾶσαν πίστιν ἐνδεικνυμένους ἀγαθήν</span></strong></p><p><strong>&quot;مُقَدِّمِينَ كُلَّ أَمَانَةٍ صَالِحَةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;لإظهار أنهم يستحقون ثقة أسيادهم لهم&quot;</p><p><span>&nbsp;</span></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "56002010",
+"start_ref_usfm": "TIT 2:10",
+"end_ref": "56002010",
+"end_ref_usfm": "TIT 2:10"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
 },
 {
 "id": "deity:Lord",
@@ -4280,31 +4998,15 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
-}
-]
-}
 },
 {
-"content_id": "144362",
-"reference_id": 115627,
-"version": "1.0.4",
-"title": "تيطس 10:2 (3#)",
-"media_type": "Text",
-"index_reference": "56002010",
-"language": "arb",
-"review_level": "None",
-"content": "<p><strong>&quot;مُقَدِّمِينَ كُلَّ أَمَانَةٍ صَالِحَةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;لإظهار أنهم يستحقون ثقة أسيادهم لهم&quot;</p><p><span>&nbsp;</span></p>",
-"associations": {
-"passage": [
-{
-"start_ref": "56002010",
-"start_ref_usfm": "TIT 2:10",
-"end_ref": "56002010",
-"end_ref_usfm": "TIT 2:10"
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -4344,11 +5046,56 @@
 "preferred_label": "Good"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Savior"
+}
+]
+}
+},
+{
+"content_id": "144364",
+"reference_id": 115629,
+"version": "1.0.4",
+"title": "تيطس 10:2 (5#)",
+"media_type": "Text",
+"index_reference": "56002010",
+"language": "arb",
+"review_level": "None",
+"content": "<p><strong><span style='direction: ltr;'>ἐν πᾶσιν</span></strong></p><p><strong>&quot;فِي كُلِّ شَيْءٍ&quot;</strong></p><p>ترجمة بديلة: &quot;في كل أمر يفعلونه&quot;</p><p><span>&nbsp;</span></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "56002010",
+"start_ref_usfm": "TIT 2:10",
+"end_ref": "56002010",
+"end_ref_usfm": "TIT 2:10"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
 },
 {
 "id": "deity:Lord",
@@ -4363,31 +5110,15 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
-}
-]
-}
 },
 {
-"content_id": "144364",
-"reference_id": 115629,
-"version": "1.0.4",
-"title": "تيطس 10:2 (5#)",
-"media_type": "Text",
-"index_reference": "56002010",
-"language": "arb",
-"review_level": "None",
-"content": "<p><strong>&quot;فِي كُلِّ شَيْءٍ&quot;</strong></p><p>ترجمة بديلة: &quot;في كل أمر يفعلونه&quot;</p><p><span>&nbsp;</span></p>",
-"associations": {
-"passage": [
-{
-"start_ref": "56002010",
-"start_ref_usfm": "TIT 2:10",
-"end_ref": "56002010",
-"end_ref_usfm": "TIT 2:10"
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -4399,7 +5130,7 @@
 "index_reference": "56002010",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لِكَيْ يُزَيِّنُوا تَعْلِيمَ مُخَلِّصِنَا اللهِ&quot;</strong></p><p>ترجمة بديلة: &quot;حتى يجعلون التعليم عن الله مخلصنا جذابًا&quot; أو &quot;قد يجعلون الناس يفهمون أن التعليم عن الله مخلصنا حسن&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τὴν διδασκαλίαν τὴν τοῦ Σωτῆρος ἡμῶν, Θεοῦ, κοσμῶσιν</span></strong></p><p><strong>&quot;لِكَيْ يُزَيِّنُوا تَعْلِيمَ مُخَلِّصِنَا اللهِ&quot;</strong></p><p>ترجمة بديلة: &quot;حتى يجعلون التعليم عن الله مخلصنا جذابًا&quot; أو &quot;قد يجعلون الناس يفهمون أن التعليم عن الله مخلصنا حسن&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4410,7 +5141,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+}
+]
 }
 },
 {
@@ -4450,13 +5210,6 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4469,6 +5222,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -4503,13 +5263,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4522,6 +5275,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }
@@ -4535,7 +5295,7 @@
 "index_reference": "56002011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;قَدْ ظَهَرَتْ&quot;</strong> - <strong>&quot;نِعْمَةُ اللهِ&quot;</strong></p><p>يتحدث بولس عن <strong>نعمة الله</strong> هنا كما لو أنها كانت شخصًا قد ظهر أو جاء. انظر إلى ترجمات أخري للحصول على طرق بديلة للتعبير عن ذلك. ترجمة بديلة: &quot;الله يُقدّم نعمته الآن&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\"><span>التشخيص</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐπεφάνη &amp; ἡ χάρις τοῦ Θεοῦ</span></strong></p><p><strong>&quot;قَدْ ظَهَرَتْ&quot;</strong> - <strong>&quot;نِعْمَةُ اللهِ&quot;</strong></p><p>يتحدث بولس عن <strong>نعمة الله</strong> هنا كما لو أنها كانت شخصًا قد ظهر أو جاء. انظر إلى ترجمات أخري للحصول على طرق بديلة للتعبير عن ذلك. ترجمة بديلة: &quot;الله يُقدّم نعمته الآن&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\"><span>التشخيص</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4554,7 +5314,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4566,7 +5348,7 @@
 "index_reference": "56002011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لأَنَّهُ قَدْ ظَهَرَتْ نِعْمَةُ اللهِ الْمُخَلِّصَةُ، لِجَمِيعِ النَّاسِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم اسمًا مجردًا لتوصيل فكرة <strong>النعمة</strong>، فيمكنك التعبير عن نفس الفكرة بطريقة أخرى. ترجمة بديلة: &quot;لأن الله كان رحيمًا للغاية وذلك من خلال تدبير طريقة لخلاص جميع الناس&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐπεφάνη γὰρ ἡ χάρις τοῦ Θεοῦ, σωτήριος πᾶσιν ἀνθρώποις</span></strong></p><p><strong>&quot;لأَنَّهُ قَدْ ظَهَرَتْ نِعْمَةُ اللهِ الْمُخَلِّصَةُ، لِجَمِيعِ النَّاسِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم اسمًا مجردًا لتوصيل فكرة <strong>النعمة</strong>، فيمكنك التعبير عن نفس الفكرة بطريقة أخرى. ترجمة بديلة: &quot;لأن الله كان رحيمًا للغاية وذلك من خلال تدبير طريقة لخلاص جميع الناس&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4585,7 +5367,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -4618,13 +5422,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4637,6 +5434,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }
@@ -4671,13 +5475,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4690,6 +5487,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }
@@ -4724,18 +5528,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Worldly",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Worldly"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Ability",
@@ -4745,11 +5549,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Worldly",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Worldly"
 }
 ]
 }
@@ -4784,18 +5588,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Worldly",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Worldly"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Ability",
@@ -4805,11 +5609,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Worldly",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Worldly"
 }
 ]
 }
@@ -4844,18 +5648,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Worldly",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Worldly"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Ability",
@@ -4865,11 +5669,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Worldly",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Worldly"
 }
 ]
 }
@@ -4904,18 +5708,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Worldly",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Worldly"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Ability",
@@ -4925,11 +5729,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Worldly",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Worldly"
 }
 ]
 }
@@ -4943,7 +5747,7 @@
 "index_reference": "56002012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الْفُجُورَ&quot;</strong> - <strong>&quot;وَالتَّقْوَى&quot;</strong></p><p>ترجمة بديلة: &quot;سلوك لا يُمجّد لله ... طريقة تُمجّد لله&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τὴν ἀσέβειαν &amp; εὐσεβῶς</span></strong></p><p><strong>&quot;الْفُجُورَ&quot;</strong> - <strong>&quot;وَالتَّقْوَى&quot;</strong></p><p>ترجمة بديلة: &quot;سلوك لا يُمجّد لله ... طريقة تُمجّد لله&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4954,7 +5758,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Worldly",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Worldly"
+}
+]
 }
 },
 {
@@ -4966,7 +5799,7 @@
 "index_reference": "56002012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;فِي الْعَالَمِ الْحَاضِرِ&quot;</strong></p><p>ترجمة بديلة: &quot;بينما نعيش في هذا العالم&quot; أو &quot;خلال هذا الوقت&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐν τῷ νῦν αἰῶνι</span></strong></p><p><strong>&quot;فِي الْعَالَمِ الْحَاضِرِ&quot;</strong></p><p>ترجمة بديلة: &quot;بينما نعيش في هذا العالم&quot; أو &quot;خلال هذا الوقت&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -4977,7 +5810,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Worldly",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Worldly"
+}
+]
 }
 },
 {
@@ -4989,7 +5851,7 @@
 "index_reference": "56002013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مُنْتَظِرِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;بينما ننتظر استقبال&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>προσδεχόμενοι</span></strong></p><p><strong>&quot;مُنْتَظِرِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;بينما ننتظر استقبال&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5000,7 +5862,50 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Happy"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+}
+]
 }
 },
 {
@@ -5040,11 +5945,25 @@
 "preferred_label": "Savior"
 },
 {
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Happy"
 },
 {
 "id": "keyterm:Glory",
@@ -5054,25 +5973,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
-},
-{
-"id": "keyterm:Happy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Happy"
 }
 ]
 }
@@ -5086,7 +5991,7 @@
 "index_reference": "56002013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الرَّجَاءَ الْمُبَارَكَ وَظُهُورَ مَجْدِ اللهِ الْعَظِيمِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفاهيم مثل <strong>الرجاء </strong>و<strong>المجد</strong>، يمكنك التعبير عن نفس الأفكار بطرق أخرى. ترجمة بديلة: &quot;ما نتوق إليه، الظهور المبارك والمجيد&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τὴν μακαρίαν ἐλπίδα, καὶ ἐπιφάνειαν τῆς δόξης</span></strong></p><p><strong>&quot;الرَّجَاءَ الْمُبَارَكَ وَظُهُورَ مَجْدِ اللهِ الْعَظِيمِ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفاهيم مثل <strong>الرجاء </strong>و<strong>المجد</strong>، يمكنك التعبير عن نفس الأفكار بطرق أخرى. ترجمة بديلة: &quot;ما نتوق إليه، الظهور المبارك والمجيد&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5105,7 +6010,50 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Happy"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+}
+]
 }
 },
 {
@@ -5117,7 +6065,7 @@
 "index_reference": "56002013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الرَّجَاءَ الْمُبَارَكَ وَظُهُورَ مَجْدِ اللهِ الْعَظِيمِ وَمُخَلِّصِنَا يَسُوعَ الْمَسِيحِ&quot;</strong></p><p>يستخدم بولس هنا صيغة الملكية لوصف حدث يتميز بوجود <strong>المجد</strong>، وهو <strong>ظهور</strong> <strong>يسوع المسيح</strong>. إذا كانت لغتك لا تستخدم صيغة الملكية للتعبير عن هذا، يمكنك قولها بشكل مختلف. ترجمة بديلة: &quot;الحدث المبارك الذي كنا نرجوه عندما يظهر إلهنا العظيم ومخلصنا يسوع المسيح بشكل مجيد&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26717\" data-resourceType=\"UWTranslationManual\"><span>الملكية</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τὴν μακαρίαν ἐλπίδα, καὶ ἐπιφάνειαν τῆς δόξης τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ</span></strong></p><p><strong>&quot;الرَّجَاءَ الْمُبَارَكَ وَظُهُورَ مَجْدِ اللهِ الْعَظِيمِ وَمُخَلِّصِنَا يَسُوعَ الْمَسِيحِ&quot;</strong></p><p>يستخدم بولس هنا صيغة الملكية لوصف حدث يتميز بوجود <strong>المجد</strong>، وهو <strong>ظهور</strong> <strong>يسوع المسيح</strong>. إذا كانت لغتك لا تستخدم صيغة الملكية للتعبير عن هذا، يمكنك قولها بشكل مختلف. ترجمة بديلة: &quot;الحدث المبارك الذي كنا نرجوه عندما يظهر إلهنا العظيم ومخلصنا يسوع المسيح بشكل مجيد&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26717\" data-resourceType=\"UWTranslationManual\"><span>الملكية</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5136,7 +6084,50 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Happy"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+}
+]
 }
 },
 {
@@ -5148,7 +6139,7 @@
 "index_reference": "56002013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;اللهِ الْعَظِيمِ وَمُخَلِّصِنَا يَسُوعَ الْمَسِيحِ&quot;</strong></p><p>إن كلا التعبيرين <strong>الله العظيم</strong> و<strong>مُخلصنا</strong> يشيران إلى شخص واحد، <strong>يسوع المسيح</strong>. ترجمة بديلة: &quot;يسوع المسيح الذي هو إلهنا العظيم ومخلصنا&quot;</p><p>انظر: تثنية الواحد</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν, Ἰησοῦ Χριστοῦ</span></strong></p><p><strong>&quot;اللهِ الْعَظِيمِ وَمُخَلِّصِنَا يَسُوعَ الْمَسِيحِ&quot;</strong></p><p>إن كلا التعبيرين <strong>الله العظيم</strong> و<strong>مُخلصنا</strong> يشيران إلى شخص واحد، <strong>يسوع المسيح</strong>. ترجمة بديلة: &quot;يسوع المسيح الذي هو إلهنا العظيم ومخلصنا&quot;</p><p>انظر: تثنية الواحد</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5167,7 +6158,50 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Happy"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+}
+]
 }
 },
 {
@@ -5200,18 +6234,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "To Cleanse"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lawless"
 },
 {
 "id": "keyterm:Liberation",
@@ -5253,18 +6287,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "To Cleanse"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lawless"
 },
 {
 "id": "keyterm:Liberation",
@@ -5306,18 +6340,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "To Cleanse"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lawless"
 },
 {
 "id": "keyterm:Liberation",
@@ -5359,18 +6393,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "To Cleanse"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lawless"
 },
 {
 "id": "keyterm:Liberation",
@@ -5412,18 +6446,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "To Cleanse"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lawless"
 },
 {
 "id": "keyterm:Liberation",
@@ -5444,7 +6478,7 @@
 "index_reference": "56002014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;غَيُورًا فِي أَعْمَال حَسَنَةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;الذين يتطلّعون إلى القيام بالأعمال الصالحة&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ζηλωτὴν καλῶν ἔργων</span></strong></p><p><strong>&quot;غَيُورًا فِي أَعْمَال حَسَنَةٍ&quot;</strong></p><p>ترجمة بديلة: &quot;الذين يتطلّعون إلى القيام بالأعمال الصالحة&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5455,7 +6489,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Cleanse"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lawless"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Liberation"
+}
+]
 }
 },
 {
@@ -5488,13 +6544,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5507,6 +6556,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5541,13 +6597,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5560,6 +6609,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5594,13 +6650,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5613,6 +6662,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5647,13 +6703,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5666,6 +6715,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5679,7 +6735,7 @@
 "index_reference": "56002015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لا يَسْتَهِنْ بِكَ أَحَدٌ&quot;</strong></p><p>ترجمة بديلة: &quot;لا تسمح لأي شخص بتجاهلك&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>μηδείς σου περιφρονείτω</span></strong></p><p><strong>&quot;لا يَسْتَهِنْ بِكَ أَحَدٌ&quot;</strong></p><p>ترجمة بديلة: &quot;لا تسمح لأي شخص بتجاهلك&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5690,7 +6746,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
+}
+]
 }
 },
 {
@@ -5702,7 +6780,7 @@
 "index_reference": "56002015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لاَ يَسْتَهِنْ بِكَ أَحَدٌ&quot;</strong></p><p>يمكنك قول هذا بشكل إيجابي: &quot;تأكد من أن الجميع يستمع إليك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\"><span>النفي المزدوج</span></span></p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>μηδείς σου περιφρονείτω</span></strong></p><p><strong>&quot;لاَ يَسْتَهِنْ بِكَ أَحَدٌ&quot;</strong></p><p>يمكنك قول هذا بشكل إيجابي: &quot;تأكد من أن الجميع يستمع إليك&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\"><span>النفي المزدوج</span></span></p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5721,7 +6799,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
+}
+]
 }
 },
 {
@@ -5754,13 +6854,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.6,
@@ -5773,6 +6866,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5809,7 +6909,7 @@
 "index_reference": "56003001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;ذَكِّرْهُمْ&quot;</strong> - <strong>&quot;أَنْ يَخْضَعُوا&quot;</strong></p><p>ترجمة بديلة: &quot;أخبر شعبنا مرة أخرى بما يعرفونه بالفعل، أن يخضعوا&quot; أو &quot;استمر في تذكيرهم بالخضوع&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὑπομίμνῃσκε αὐτοὺς &amp; ὑποτάσσεσθαι</span></strong></p><p><strong>&quot;ذَكِّرْهُمْ&quot;</strong> - <strong>&quot;أَنْ يَخْضَعُوا&quot;</strong></p><p>ترجمة بديلة: &quot;أخبر شعبنا مرة أخرى بما يعرفونه بالفعل، أن يخضعوا&quot; أو &quot;استمر في تذكيرهم بالخضوع&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5820,7 +6920,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
+}
+]
 }
 },
 {
@@ -5860,18 +6982,18 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5913,18 +7035,18 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
 }
 ]
 }
@@ -5938,7 +7060,7 @@
 "index_reference": "56003001",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَيَكُونُوا مُسْتَعِدِّينَ لِكُلِّ عَمَل صَالِحٍ&quot;</strong></p><p>ترجمة بديلة: &quot;أن يكونوا مستعدين لفعل الخير كلما كانت هناك فرصة لذلك&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>πρὸς πᾶν ἔργον ἀγαθὸν ἑτοίμους εἶναι</span></strong></p><p><strong>&quot;وَيَكُونُوا مُسْتَعِدِّينَ لِكُلِّ عَمَل صَالِحٍ&quot;</strong></p><p>ترجمة بديلة: &quot;أن يكونوا مستعدين لفعل الخير كلما كانت هناك فرصة لذلك&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5949,7 +7071,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Authority"
+}
+]
 }
 },
 {
@@ -5961,7 +7105,7 @@
 "index_reference": "56003002",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;يَطْعَنُوا&quot;</strong></p><p>ترجمة بديلة: &quot;أن يتحدّثوا بالسوء عن&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>βλασφημεῖν</span></strong></p><p><strong>&quot;يَطْعَنُوا&quot;</strong></p><p>ترجمة بديلة: &quot;أن يتحدّثوا بالسوء عن&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -5972,7 +7116,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Gentle",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Gentle"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Blaspheme"
+}
+]
 }
 },
 {
@@ -6231,7 +7390,7 @@
 "index_reference": "56003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;كُنَّا&quot;</strong> - <strong>&quot;أَغْبِيَاءَ&quot;</strong></p><p>ترجمة بديلة: &quot;كنا غير مُبالين&quot; أو &quot;كنا غير حكماء&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἦμεν &amp; ἀνόητοι</span></strong></p><p><strong>&quot;كُنَّا&quot;</strong> - <strong>&quot;أَغْبِيَاءَ&quot;</strong></p><p>ترجمة بديلة: &quot;كنا غير مُبالين&quot; أو &quot;كنا غير حكماء&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -6242,7 +7401,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be Enslaved"
+}
+]
 }
 },
 {
@@ -6293,7 +7460,7 @@
 "index_reference": "56003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;ضَالِّينَ، مُسْتَعْبَدِينَ لِشَهَوَاتٍ وَلَذَّاتٍ مُخْتَلِفَةٍ&quot;</strong></p><p>إذا لم تكن لغتك تستخدم هذا الشكل المبني للمجهول، فيمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تكون طبيعية في لغتك. ترجمة بديلة: &quot;لقد قادتنا الشهوات والملذات المختلفة بعيدًا و استعبدتنا&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\"><span>مبني للمعلوم أو مبني للمجهول</span></span></p>",
+"content": "<p><strong><span style='direction: ltr;'>πλανώμενοι, δουλεύοντες ἐπιθυμίαις καὶ ἡδοναῖς ποικίλαις</span></strong></p><p><strong>&quot;ضَالِّينَ، مُسْتَعْبَدِينَ لِشَهَوَاتٍ وَلَذَّاتٍ مُخْتَلِفَةٍ&quot;</strong></p><p>إذا لم تكن لغتك تستخدم هذا الشكل المبني للمجهول، فيمكنك التعبير عن الفكرة بصيغة المبني للمعلوم أو بأي طريقة أخرى تكون طبيعية في لغتك. ترجمة بديلة: &quot;لقد قادتنا الشهوات والملذات المختلفة بعيدًا و استعبدتنا&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\"><span>مبني للمعلوم أو مبني للمجهول</span></span></p>",
 "associations": {
 "passage": [
 {
@@ -6312,7 +7479,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be Enslaved"
+}
+]
 }
 },
 {
@@ -6402,7 +7577,7 @@
 "index_reference": "56003003",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مَمْقُوتِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;نفعل الأشياء التي جعلت الآخرين يكرهوننا&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>στυγητοί</span></strong></p><p><strong>&quot;مَمْقُوتِينَ&quot;</strong></p><p>ترجمة بديلة: &quot;نفعل الأشياء التي جعلت الآخرين يكرهوننا&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -6413,7 +7588,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be Enslaved"
+}
+]
 }
 },
 {
@@ -6446,6 +7629,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6458,13 +7648,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6478,7 +7661,7 @@
 "index_reference": "56003004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;حِينَ&quot;</strong> - <strong>&quot;ظَهَرَ لُطْفُ مُخَلِّصِنَا اللهِ وَإِحْسَانُهُ&quot;</strong></p><p>يتحدث بولس هنا عن <strong>لطف</strong> و<strong>إحسان</strong> الله كما لو أنها كانت أشياء مادية ظهرت أمام أعيننا. إذا كان ذلك مفيدًا في لغتك، فيمكنك توضيح المعنى بشكل أكثر بساطة. ترجمة بديلة: &quot;عندما أعلن الله مخلصنا لطفه ومحبته للناس&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>استعارة</span></span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὅτε &amp; ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ</span></strong></p><p><strong>&quot;حِينَ&quot;</strong> - <strong>&quot;ظَهَرَ لُطْفُ مُخَلِّصِنَا اللهِ وَإِحْسَانُهُ&quot;</strong></p><p>يتحدث بولس هنا عن <strong>لطف</strong> و<strong>إحسان</strong> الله كما لو أنها كانت أشياء مادية ظهرت أمام أعيننا. إذا كان ذلك مفيدًا في لغتك، فيمكنك توضيح المعنى بشكل أكثر بساطة. ترجمة بديلة: &quot;عندما أعلن الله مخلصنا لطفه ومحبته للناس&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>استعارة</span></span></p>",
 "associations": {
 "passage": [
 {
@@ -6497,7 +7680,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6509,7 +7714,7 @@
 "index_reference": "56003004",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;حِينَ&quot;</strong> - <strong>&quot;ظَهَرَ لُطْفُ مُخَلِّصِنَا اللهِ وَإِحْسَانُهُ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفاهيم <strong>اللطف</strong> و<strong>الإحسان</strong>، فيمكنك التعبير عن نفس تلك الأفكار بطريقة أخرى. ترجمة بديلة: &quot;عندما أظهر الله، الذي يخلصنا، مدى لطفه وحبه للبشرية&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὅτε &amp; ἡ χρηστότης καὶ ἡ φιλανθρωπία ἐπεφάνη τοῦ Σωτῆρος ἡμῶν, Θεοῦ</span></strong></p><p><strong>&quot;حِينَ&quot;</strong> - <strong>&quot;ظَهَرَ لُطْفُ مُخَلِّصِنَا اللهِ وَإِحْسَانُهُ&quot;</strong></p><p>إذا كانت لغتك لا تستخدم الأسماء المجردة للتعبير عن مفاهيم <strong>اللطف</strong> و<strong>الإحسان</strong>، فيمكنك التعبير عن نفس تلك الأفكار بطريقة أخرى. ترجمة بديلة: &quot;عندما أظهر الله، الذي يخلصنا، مدى لطفه وحبه للبشرية&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\"><span>الأسماء المجردة</span></span></p>",
 "associations": {
 "passage": [
 {
@@ -6528,7 +7733,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
@@ -6561,6 +7788,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6573,13 +7807,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Kindness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -6614,13 +7841,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6628,18 +7848,25 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرّوحِ"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرّوحِ"
 }
 ]
 }
@@ -6674,13 +7901,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6688,18 +7908,25 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرّوحِ"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرّوحِ"
 }
 ]
 }
@@ -6734,13 +7961,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6748,18 +7968,25 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرّوحِ"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرّوحِ"
 }
 ]
 }
@@ -6794,18 +8021,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -6840,18 +8067,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -6865,7 +8092,7 @@
 "index_reference": "56003006",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;بِيَسُوعَ الْمَسِيحِ مُخَلِّصِنَا&quot;</strong></p><p>ترجمة بديلة: &quot;بسبب ما فعله مخلصنا يسوع المسيح من أجلنا&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>διὰ Ἰησοῦ Χριστοῦ, τοῦ Σωτῆρος ἡμῶν</span></strong></p><p><strong>&quot;بِيَسُوعَ الْمَسِيحِ مُخَلِّصِنَا&quot;</strong></p><p>ترجمة بديلة: &quot;بسبب ما فعله مخلصنا يسوع المسيح من أجلنا&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -6876,7 +8103,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
+}
+]
 }
 },
 {
@@ -6909,18 +8151,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }
@@ -6955,6 +8197,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
@@ -6969,25 +8218,18 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 }
 ]
 }
@@ -7022,6 +8264,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
@@ -7036,25 +8285,18 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 }
 ]
 }
@@ -7089,6 +8331,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
@@ -7103,25 +8352,18 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 }
 ]
 }
@@ -7156,6 +8398,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
@@ -7170,25 +8419,18 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
 }
 ]
 }
@@ -7202,7 +8444,7 @@
 "index_reference": "56003007",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;نَصِيرُ وَرَثَةً حَسَبَ رَجَاءِ الْحَيَاةِ الأَبَدِيَّةِ&quot;</strong></p><p>يتكلم بولس عن الأشخاص الذين قد أعطاهم الله المواعيد، باعتبار أنهم سيرثون هذه الأشياء الموعودة، تمامًا كما يرث الشخص الممتلكات أو الأشياء من أحد أفراد الأسرة. ترجمة بديلة: &quot;نرجو أن نحصل على الحياة الأبدية التي وعدنا بها الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p>",
+"content": "<p><strong><span style='direction: ltr;'>κληρονόμοι γενηθῶμεν, κατ’ ἐλπίδα ζωῆς αἰωνίου</span></strong></p><p><strong>&quot;نَصِيرُ وَرَثَةً حَسَبَ رَجَاءِ الْحَيَاةِ الأَبَدِيَّةِ&quot;</strong></p><p>يتكلم بولس عن الأشخاص الذين قد أعطاهم الله المواعيد، باعتبار أنهم سيرثون هذه الأشياء الموعودة، تمامًا كما يرث الشخص الممتلكات أو الأشياء من أحد أفراد الأسرة. ترجمة بديلة: &quot;نرجو أن نحصل على الحياة الأبدية التي وعدنا بها الله&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\"><span>الاستعارة</span></span></p>",
 "associations": {
 "passage": [
 {
@@ -7221,7 +8463,43 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
@@ -7254,18 +8532,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Faithfulness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:Believe",
@@ -7307,18 +8585,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Faithfulness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:Believe",
@@ -7339,7 +8617,7 @@
 "index_reference": "56003008",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;لِكَيْ يَهْتَمَّ الَّذِينَ آمَنُوا بِاللهِ أَنْ يُمَارِسُوا أَعْمَالًا حَسَنَةً&quot;</strong></p><p>ترجمة بديلة: &quot;حتى يسعى الذين آمنوا بالله بجد للقيام بالأعمال الصالحة&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>φροντίζωσιν καλῶν ἔργων, προΐστασθαι</span></strong></p><p><strong>&quot;لِكَيْ يَهْتَمَّ الَّذِينَ آمَنُوا بِاللهِ أَنْ يُمَارِسُوا أَعْمَالًا حَسَنَةً&quot;</strong></p><p>ترجمة بديلة: &quot;حتى يسعى الذين آمنوا بالله بجد للقيام بالأعمال الصالحة&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -7350,7 +8628,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+}
+]
 }
 },
 {
@@ -7383,18 +8683,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Faithfulness"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
 },
 {
 "id": "keyterm:Believe",
@@ -7454,7 +8754,7 @@
 "index_reference": "56003009",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الْغَبِيَّةُ&quot;</strong> - <strong>&quot;الْمُبَاحَثَاتُ&quot;</strong></p><p>ترجمة بديلة: &quot;مجادلات تتعلق بأمور غير مهمة&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>μωρὰς &amp; ζητήσεις</span></strong></p><p><strong>&quot;الْغَبِيَّةُ&quot;</strong> - <strong>&quot;الْمُبَاحَثَاتُ&quot;</strong></p><p>ترجمة بديلة: &quot;مجادلات تتعلق بأمور غير مهمة&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -7465,7 +8765,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Worthless",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Worthless"
+}
+]
 }
 },
 {
@@ -7656,7 +8964,7 @@
 "index_reference": "56003011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مِثْلَ هذَا&quot;</strong></p><p>ترجمة بديلة: &quot;شخص مثل ذلك&quot;</p><p><span>&nbsp;</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ὁ τοιοῦτος</span></strong></p><p><strong>&quot;مِثْلَ هذَا&quot;</strong></p><p>ترجمة بديلة: &quot;شخص مثل ذلك&quot;</p><p><span>&nbsp;</span></p>",
 "associations": {
 "passage": [
 {
@@ -7667,7 +8975,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:SelfCondemned",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Self-Condemned"
+}
+]
 }
 },
 {
@@ -7700,18 +9023,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:SelfCondemned",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Self-Condemned"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:SelfCondemned",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Self-Condemned"
 }
 ]
 }
@@ -7725,7 +9048,7 @@
 "index_reference": "56003011",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;مَحْكُومًا عَلَيْهِ مِنْ نَفْسِهِ&quot;</strong></p><p>ترجمة بديلة: &quot;يجلب القضاء على نفسه&quot;</p>",
+"content": "<p><strong><span style='direction: ltr;'>ὢν αὐτοκατάκριτος</span></strong></p><p><strong>&quot;مَحْكُومًا عَلَيْهِ مِنْ نَفْسِهِ&quot;</strong></p><p>ترجمة بديلة: &quot;يجلب القضاء على نفسه&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -7736,7 +9059,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:SelfCondemned",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Self-Condemned"
+}
+]
 }
 },
 {
@@ -7769,18 +9107,18 @@
 ],
 "acai": [
 {
-"id": "person:Artemas",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "أَرْتِيمَاسَ"
-},
-{
 "id": "place:Nicopolis",
 "type": "place",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "نِيكوبولِيسَ"
+},
+{
+"id": "person:Artemas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "أَرْتِيمَاسَ"
 },
 {
 "id": "person:Tychicus",
@@ -7808,7 +9146,7 @@
 "index_reference": "56003012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;أَرْتِيمَاس&quot;</strong> - <strong>&quot;تِيخِيكُس&quot;</strong></p><p><strong>أَرْتِيمَاس </strong>و<strong>تِيخِيكُسَ</strong> هما أسماء رجال.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>Ἀρτεμᾶν &amp; Τυχικόν</span></strong></p><p><strong>&quot;أَرْتِيمَاس&quot;</strong> - <strong>&quot;تِيخِيكُس&quot;</strong></p><p><strong>أَرْتِيمَاس </strong>و<strong>تِيخِيكُسَ</strong> هما أسماء رجال.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
 "associations": {
 "passage": [
 {
@@ -7827,7 +9165,36 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nicopolis",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "نِيكوبولِيسَ"
+},
+{
+"id": "person:Artemas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "أَرْتِيمَاسَ"
+},
+{
+"id": "person:Tychicus",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تِيخِيكس"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Decided"
+}
+]
 }
 },
 {
@@ -7839,7 +9206,7 @@
 "index_reference": "56003012",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot; بَادِرْ أَنْ تَأْتِيَ&quot;</strong></p><p>ترجمة بديلة: &quot;ابذل قصارى جهدك أن تأتي&quot;</p>",
+"content": "<p><strong><span style='direction: ltr;'>σπούδασον ἐλθεῖν</span></strong></p><p><strong>&quot; بَادِرْ أَنْ تَأْتِيَ&quot;</strong></p><p>ترجمة بديلة: &quot;ابذل قصارى جهدك أن تأتي&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -7850,7 +9217,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Nicopolis",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "نِيكوبولِيسَ"
+},
+{
+"id": "person:Artemas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "أَرْتِيمَاسَ"
+},
+{
+"id": "person:Tychicus",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "تِيخِيكس"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Decided"
+}
+]
 }
 },
 {
@@ -7883,18 +9279,18 @@
 ],
 "acai": [
 {
-"id": "person:Artemas",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "أَرْتِيمَاسَ"
-},
-{
 "id": "place:Nicopolis",
 "type": "place",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "نِيكوبولِيسَ"
+},
+{
+"id": "person:Artemas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "أَرْتِيمَاسَ"
 },
 {
 "id": "person:Tychicus",
@@ -7968,7 +9364,7 @@
 "index_reference": "56003013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;زِينَاس&quot;</strong> - <strong>&quot;أَبُلُّوس&quot;</strong></p><p><strong>زِينَاس </strong>و <strong>أَبُلُّوس </strong>هما أسماء رجال.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>Ζηνᾶν &amp; Ἀπολλῶν</span></strong></p><p><strong>&quot;زِينَاس&quot;</strong> - <strong>&quot;أَبُلُّوس&quot;</strong></p><p><strong>زِينَاس </strong>و <strong>أَبُلُّوس </strong>هما أسماء رجال.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">كيفية ترجمة الأسماء</span></p>",
 "associations": {
 "passage": [
 {
@@ -7987,7 +9383,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Zenas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "زِينَاسَ"
+},
+{
+"id": "person:Apollos",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَبلّوس"
+}
+]
 }
 },
 {
@@ -7999,7 +9410,7 @@
 "index_reference": "56003013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;وَأَبُلُّوس&quot;</strong></p><p>ترجمة بديلة: &quot;وأيضًا أبولوس&quot;</p>",
+"content": "<p><strong><span style='direction: ltr;'>καὶ Ἀπολλῶν</span></strong></p><p><strong>&quot;وَأَبُلُّوس&quot;</strong></p><p>ترجمة بديلة: &quot;وأيضًا أبولوس&quot;</p>",
 "associations": {
 "passage": [
 {
@@ -8010,7 +9421,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Zenas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "زِينَاسَ"
+},
+{
+"id": "person:Apollos",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَبلّوس"
+}
+]
 }
 },
 {
@@ -8022,7 +9448,7 @@
 "index_reference": "56003013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;حَتَّى لاَ يُعْوِزَهُمَا شَيْءٌ&quot;</strong></p><p>هنا، <strong>حتى </strong>تشير إلى الطريقة التي يجب أن يرسل بها تيطس هؤلاء الرجال. ترجمة بديلة: &quot;بطريقة لا ينقصهم شيء&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_Connect — Goal (Purpose) Relationship\" data-resourceType=\"UWTranslationManual\">الاتصال - علاقة الهدف (الغرض)</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα μηδὲν αὐτοῖς λείπῃ</span></strong></p><p><strong>&quot;حَتَّى لاَ يُعْوِزَهُمَا شَيْءٌ&quot;</strong></p><p>هنا، <strong>حتى </strong>تشير إلى الطريقة التي يجب أن يرسل بها تيطس هؤلاء الرجال. ترجمة بديلة: &quot;بطريقة لا ينقصهم شيء&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_Connect — Goal (Purpose) Relationship\" data-resourceType=\"UWTranslationManual\">الاتصال - علاقة الهدف (الغرض)</span></p>",
 "associations": {
 "passage": [
 {
@@ -8041,7 +9467,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Zenas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "زِينَاسَ"
+},
+{
+"id": "person:Apollos",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَبلّوس"
+}
+]
 }
 },
 {
@@ -8053,7 +9494,7 @@
 "index_reference": "56003013",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;حَتَّى لاَ يُعْوِزَهُمَا شَيْءٌ&quot;</strong></p><p>يمكنك قول هذا بشكل إيجابي. ترجمة بديلة: &quot;حتى يكون لديهم كل ما يحتاجون إليه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα μηδὲν αὐτοῖς λείπῃ</span></strong></p><p><strong>&quot;حَتَّى لاَ يُعْوِزَهُمَا شَيْءٌ&quot;</strong></p><p>يمكنك قول هذا بشكل إيجابي. ترجمة بديلة: &quot;حتى يكون لديهم كل ما يحتاجون إليه&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
 "associations": {
 "passage": [
 {
@@ -8072,7 +9513,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Zenas",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "زِينَاسَ"
+},
+{
+"id": "person:Apollos",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَبلّوس"
+}
+]
 }
 },
 {
@@ -8177,7 +9633,7 @@
 "index_reference": "56003014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;حَتَّى لاَ يَكُونُوا بِلاَ ثَمَرٍ&quot;</strong></p><p>يتحدث بولس عن الناس الذين يقومون بعمل جيد كما لو كانوا أشجارًا تحمل ثمارًا جيدة. ترجمة بديلة: &quot;حتى لا يعيشوا حياة بلا فائدة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα μὴ ὦσιν ἄκαρποι</span></strong></p><p><strong>&quot;حَتَّى لاَ يَكُونُوا بِلاَ ثَمَرٍ&quot;</strong></p><p>يتحدث بولس عن الناس الذين يقومون بعمل جيد كما لو كانوا أشجارًا تحمل ثمارًا جيدة. ترجمة بديلة: &quot;حتى لا يعيشوا حياة بلا فائدة&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">الاستعارة</span></p>",
 "associations": {
 "passage": [
 {
@@ -8208,7 +9664,7 @@
 "index_reference": "56003014",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;حَتَّى لاَ يَكُونُوا بِلاَ ثَمَرٍ&quot;</strong></p><p>يمكنك قول هذا بشكل إيجابي. ترجمة بديلة: &quot;حتى يكونوا مثمرين&quot; أو &quot;بهذه الطريقة سيكونون مُنتجين&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἵνα μὴ ὦσιν ἄκαρποι</span></strong></p><p><strong>&quot;حَتَّى لاَ يَكُونُوا بِلاَ ثَمَرٍ&quot;</strong></p><p>يمكنك قول هذا بشكل إيجابي. ترجمة بديلة: &quot;حتى يكونوا مثمرين&quot; أو &quot;بهذه الطريقة سيكونون مُنتجين&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26679\" data-resourceType=\"UWTranslationManual\">النفي المزدوج</span></p>",
 "associations": {
 "passage": [
 {
@@ -8239,7 +9695,7 @@
 "index_reference": "56003015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;يُسَلِّم عَلَيْك&quot;</strong></p><p>هنا، <strong>الضمير </strong>مفرد. هذه تحية شخصية إلى تيطس.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_Forms of ‘You’ — Singular\" data-resourceType=\"UWTranslationManual\">أشكال &quot;أنت&quot; — المفرد</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἀσπάζονταί σε</span></strong></p><p><strong>&quot;يُسَلِّم عَلَيْك&quot;</strong></p><p>هنا، <strong>الضمير </strong>مفرد. هذه تحية شخصية إلى تيطس.</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"UW_TXManual_Forms of ‘You’ — Singular\" data-resourceType=\"UWTranslationManual\">أشكال &quot;أنت&quot; — المفرد</span></p>",
 "associations": {
 "passage": [
 {
@@ -8258,7 +9714,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Friendship"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -8270,7 +9748,7 @@
 "index_reference": "56003015",
 "language": "arb",
 "review_level": "None",
-"content": "<p><strong>&quot;الَّذِينَ مَعِي جَمِيعًا&quot;</strong></p><p>ترجمة بديلة: &quot;كل الناس الذين معي&quot; أو &quot;كل المؤمنين الذين هنا معي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
+"content": "<p><strong><span style='direction: ltr;'>οἱ μετ’ ἐμοῦ πάντες</span></strong></p><p><strong>&quot;الَّذِينَ مَعِي جَمِيعًا&quot;</strong></p><p>ترجمة بديلة: &quot;كل الناس الذين معي&quot; أو &quot;كل المؤمنين الذين هنا معي&quot;</p><p>انظر: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">المعرفة المفترضة والمعلومات الضمنية</span></p>",
 "associations": {
 "passage": [
 {
@@ -8289,7 +9767,29 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Friendship"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
+}
+]
 }
 },
 {
@@ -8329,18 +9829,18 @@
 "preferred_label": "Friendship"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }
@@ -8382,18 +9882,18 @@
 "preferred_label": "Friendship"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }
@@ -8435,18 +9935,18 @@
 "preferred_label": "Friendship"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }
@@ -8488,18 +9988,18 @@
 "preferred_label": "Friendship"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Favor"
 }
 ]
 }

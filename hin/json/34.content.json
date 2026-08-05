@@ -105,18 +105,18 @@
 ],
 "acai": [
 {
-"id": "place:Elkosh",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Elkosh"
-},
-{
 "id": "person:Nahum.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "नहूम"
+},
+{
+"id": "place:Elkosh",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Elkosh"
 },
 {
 "id": "place:Nineveh",
@@ -172,18 +172,18 @@
 ],
 "acai": [
 {
-"id": "place:Elkosh",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Elkosh"
-},
-{
 "id": "person:Nahum.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "नहूम"
+},
+{
+"id": "place:Elkosh",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Elkosh"
 },
 {
 "id": "place:Nineveh",
@@ -218,7 +218,7 @@
 "index_reference": "34001002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;अपने द्रोहियों से बदला लेता है&quot;</strong></p><p>यदि आपकी भाषा में <strong>बदले</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [अपने विरोधियों से बदला लेते हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>נֹקֵ֤ם &amp; לְ⁠צָרָ֔י⁠ו</span></p><p><strong>&quot;अपने द्रोहियों से बदला लेता है&quot;</strong></p><p>यदि आपकी भाषा में <strong>बदले</strong> के विचार के लिए कोई भाववाचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [अपने विरोधियों से बदला लेते हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -237,7 +237,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Zealous.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Zealous"
+}
+]
 }
 },
 {
@@ -454,11 +469,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -475,11 +490,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "Strength"
 }
 ]
 }
@@ -514,11 +529,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -535,11 +550,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "Strength"
 }
 ]
 }
@@ -574,11 +589,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -595,11 +610,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "Strength"
 }
 ]
 }
@@ -641,18 +656,18 @@
 "preferred_label": "कर्मेल"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "बाशान"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "लबानोन"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बाशान"
 }
 ]
 }
@@ -694,18 +709,18 @@
 "preferred_label": "कर्मेल"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "बाशान"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "लबानोन"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बाशान"
 }
 ]
 }
@@ -747,18 +762,18 @@
 "preferred_label": "कर्मेल"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "बाशान"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "लबानोन"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बाशान"
 }
 ]
 }
@@ -800,18 +815,18 @@
 "preferred_label": "कर्मेल"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "बाशान"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "लबानोन"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "बाशान"
 }
 ]
 }
@@ -980,7 +995,7 @@
 "index_reference": "34001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;उसके क्रोध का सामना&quot;</strong> - <strong>&quot;उसकी जलजलाहट आग के समान भड़क जाती है&quot;</strong></p><p>यदि आपकी भाषा <strong>क्रोध</strong> और <strong>जलजलाहट</strong> के विचारों के लिए भाववाचक संज्ञाओं का उपयोग नहीं करती है, तो आप इन्हीं विचारों को अन्य तरीकों से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [जब वह किसी पर क्रोधित होते हैं... जब वह जलजलाहट में होते हैं, तो ऐसा लगता है जैसे उनमें से आग भड़क रही हो]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠פְנֵ֤י זַעְמ⁠וֹ֙ &amp; חֲמָת⁠וֹ֙ נִתְּכָ֣ה כָ⁠אֵ֔שׁ</span></p><p><strong>&quot;उसके क्रोध का सामना&quot;</strong> - <strong>&quot;उसकी जलजलाहट आग के समान भड़क जाती है&quot;</strong></p><p>यदि आपकी भाषा <strong>क्रोध</strong> और <strong>जलजलाहट</strong> के विचारों के लिए भाववाचक संज्ञाओं का उपयोग नहीं करती है, तो आप इन्हीं विचारों को अन्य तरीकों से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [जब वह किसी पर क्रोधित होते हैं... जब वह जलजलाहट में होते हैं, तो ऐसा लगता है जैसे उनमें से आग भड़क रही हो]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -1011,7 +1026,7 @@
 "index_reference": "34001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><span style='direction: rtl;'>וּ⁠מִ֥י יָק֖וּם בַּ⁠חֲר֣וֹן אַפּ֑⁠וֹ</span></p><p><strong>&quot;उसके क्रोध का सामना कौन कर सकता है&quot;</strong></p><p>लेखक प्रश्नवाचक रूप का प्रयोग इस बात पर ज़ोर देने के लिए कर रहा है कि जब यहोवा क्रोधित होता है तो कोई भी उन्हें सहन नहीं कर सकता। अगर आप अपनी भाषा में इस उद्देश्य के लिए प्रश्नवाचक रूप का प्रयोग नहीं करते हैं, तो आप इसे एक कथन या विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: [जब वह क्रोधित होते हैं तो उन्हें कोई सहन नहीं कर सकता!]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>לִ⁠פְנֵ֤י זַעְמ⁠וֹ֙ מִ֣י יַֽעֲמ֔וֹד</span></p><p><strong>&quot;उसके क्रोध का सामना कौन कर सकता है&quot;</strong></p><p>लेखक प्रश्नवाचक रूप का प्रयोग इस बात पर ज़ोर देने के लिए कर रहा है कि जब यहोवा क्रोधित होता है तो कोई भी उन्हें सहन नहीं कर सकता। अगर आप अपनी भाषा में इस उद्देश्य के लिए प्रश्नवाचक रूप का प्रयोग नहीं करते हैं, तो आप इसे एक कथन या विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: [जब वह क्रोधित होते हैं तो उन्हें कोई सहन नहीं कर सकता!]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -1042,7 +1057,7 @@
 "index_reference": "34001006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और जब उसका क्रोध भड़कता है, तब कौन ठहर सकता है&quot;</strong></p><p>लेखक प्रश्नवाचक रूप का प्रयोग इस बात पर ज़ोर देने के लिए कर रहा है कि जब यहोवा क्रोधित होते हैं तो कोई भी उनका विरोध नहीं कर सकता। अगर आप अपनी भाषा में इस उद्देश्य के लिए प्रश्नवाचक रूप का प्रयोग नहीं करते हैं, तो आप इसे एक कथन या विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: [कोई भी उनके भयंकर क्रोध का विरोध नहीं कर सकता!]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠מִ֥י יָק֖וּם בַּ⁠חֲר֣וֹן אַפּ֑⁠וֹ</span></p><p><strong>&quot;और जब उसका क्रोध भड़कता है, तब कौन ठहर सकता है&quot;</strong></p><p>लेखक प्रश्नवाचक रूप का प्रयोग इस बात पर ज़ोर देने के लिए कर रहा है कि जब यहोवा क्रोधित होते हैं तो कोई भी उनका विरोध नहीं कर सकता। अगर आप अपनी भाषा में इस उद्देश्य के लिए प्रश्नवाचक रूप का प्रयोग नहीं करते हैं, तो आप इसे एक कथन या विस्मयादिबोधक के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: [कोई भी उनके भयंकर क्रोध का विरोध नहीं कर सकता!]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -1489,7 +1504,7 @@
 "index_reference": "34001010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;चाहे वे काँटों से उलझे हुए हों, और मदिरा के नशे में चूर भी हों, तो भी वे... भस्म किए जाएँगे&quot;</strong></p><p>लेखक कह रहा है कि नीनवे के लोग उलझे हुए काँटों और आग में सुखाए हुए भूसे के समान हैं, और अपने ही हाथों में रखी हुई मदिरा के समान हैं, क्योंकि ये सब चीज़ें झटपट भस्म हो जाती हैं। यदि यह आपकी भाषा में सहायक होगा, तो आप इसे स्पष्ट रूप से कह सकते हैं। वैकल्पिक अनुवाद: [जैसे आग में उलझे हुए काँटे और नीनवे के लोगों के हाथ में मदिरा, वैसे ही वे भी तुरन्त भस्म हो जाते हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">उपमा</span></p>",
+"content": "<p><span style='direction: rtl;'>עַד־סִירִ֣ים סְבֻכִ֔ים וּ⁠כְ⁠סָבְאָ֖⁠ם סְבוּאִ֑ים אֻ֨כְּל֔וּ</span></p><p><strong>&quot;चाहे वे काँटों से उलझे हुए हों, और मदिरा के नशे में चूर भी हों, तो भी वे... भस्म किए जाएँगे&quot;</strong></p><p>लेखक कह रहा है कि नीनवे के लोग उलझे हुए काँटों और आग में सुखाए हुए भूसे के समान हैं, और अपने ही हाथों में रखी हुई मदिरा के समान हैं, क्योंकि ये सब चीज़ें झटपट भस्म हो जाती हैं। यदि यह आपकी भाषा में सहायक होगा, तो आप इसे स्पष्ट रूप से कह सकते हैं। वैकल्पिक अनुवाद: [जैसे आग में उलझे हुए काँटे और नीनवे के लोगों के हाथ में मदिरा, वैसे ही वे भी तुरन्त भस्म हो जाते हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">उपमा</span></p>",
 "associations": {
 "passage": [
 {
@@ -1508,7 +1523,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "realia:StrongDrink",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Strong Drink"
+}
+]
 }
 },
 {
@@ -1520,7 +1550,7 @@
 "index_reference": "34001010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;और मदिरा के नशे में चूर भी हों&quot;</strong> - <strong>&quot;वे&quot;-&quot;भस्म किए जाएँगे&quot;</strong></p><p>सर्वनाम <strong>वे</strong> नीनवे के लोगों को संदर्भित करता है। यदि यह आपके पाठकों के लिए स्पष्ट नहीं है, तो आप यहाँ लोगों के नाम का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: [और नीनवे के लोग मदिरा के नशे में चूर हों ... नीनवे के लोग भस्म किए जाएँगे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">सर्वनाम — उनका उपयोग कब करें</span></p>",
+"content": "<p><span style='direction: rtl;'>וּ⁠כְ⁠סָבְאָ֖⁠ם &amp; אֻ֨כְּל֔וּ</span></p><p><strong>&quot;और मदिरा के नशे में चूर भी हों&quot;</strong> - <strong>&quot;वे&quot;-&quot;भस्म किए जाएँगे&quot;</strong></p><p>सर्वनाम <strong>वे</strong> नीनवे के लोगों को संदर्भित करता है। यदि यह आपके पाठकों के लिए स्पष्ट नहीं है, तो आप यहाँ लोगों के नाम का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: [और नीनवे के लोग मदिरा के नशे में चूर हों ... नीनवे के लोग भस्म किए जाएँगे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">सर्वनाम — उनका उपयोग कब करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -1539,7 +1569,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "realia:StrongDrink",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Strong Drink"
+}
+]
 }
 },
 {
@@ -1618,18 +1663,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1664,18 +1709,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1710,18 +1755,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1756,18 +1801,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Wickedness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
 }
 ]
 }
@@ -1781,7 +1826,7 @@
 "index_reference": "34001011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;विरुद्ध कल्पना करता&quot;</strong> - <strong>&quot;नीचता की युक्ति बाँधता&quot;</strong></p><p>यदि आपकी भाषा <strong>विरुद्ध</strong> और <strong>नीचता</strong> के विचारों के लिए भाववाचक संज्ञाओं का उपयोग नहीं करती है, तो आप इन्हीं विचारों को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [एक विरुद्ध कल्पना करने वाला … एक नीचता की युक्ति करने वाला]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>חֹשֵׁ֥ב &amp; רָעָ֑ה יֹעֵ֖ץ בְּלִיָּֽעַל</span></p><p><strong>&quot;विरुद्ध कल्पना करता&quot;</strong> - <strong>&quot;नीचता की युक्ति बाँधता&quot;</strong></p><p>यदि आपकी भाषा <strong>विरुद्ध</strong> और <strong>नीचता</strong> के विचारों के लिए भाववाचक संज्ञाओं का उपयोग नहीं करती है, तो आप इन्हीं विचारों को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [एक विरुद्ध कल्पना करने वाला … एक नीचता की युक्ति करने वाला]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -1800,7 +1845,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Wickedness"
+}
+]
 }
 },
 {
@@ -1890,7 +1950,7 @@
 "index_reference": "34001012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;तो भी पूरी रीति से काटे जाएँगे और शून्य हो जाएँगे&quot;</strong></p><p>लेखक यहाँ भूतकाल का प्रयोग किसी ऐसी घटना का संकेत देने के लिए कर रहा है जो निश्चित रूप से भविष्य में घटित होगी। अगर आपकी भाषा में ऐसा करना स्वाभाविक न हो, तो आप भविष्यकाल का प्रयोग कर सकते हैं। वैकल्पिक अनुवाद: [उन्हें काटा जाएगा, और वह शून्य हो जाएँगे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">काल के अनियमित उपयोग</span></p>",
+"content": "<p><span style='direction: rtl;'>נָגֹ֖זּוּ וְ⁠עָבָ֑ר</span></p><p><strong>&quot;तो भी पूरी रीति से काटे जाएँगे और शून्य हो जाएँगे&quot;</strong></p><p>लेखक यहाँ भूतकाल का प्रयोग किसी ऐसी घटना का संकेत देने के लिए कर रहा है जो निश्चित रूप से भविष्य में घटित होगी। अगर आपकी भाषा में ऐसा करना स्वाभाविक न हो, तो आप भविष्यकाल का प्रयोग कर सकते हैं। वैकल्पिक अनुवाद: [उन्हें काटा जाएगा, और वह शून्य हो जाएँगे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">काल के अनियमित उपयोग</span></p>",
 "associations": {
 "passage": [
 {
@@ -1909,7 +1969,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -2261,6 +2329,13 @@
 "preferred_label": "यहोवा"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2273,13 +2348,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2321,6 +2389,13 @@
 "preferred_label": "यहोवा"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2333,13 +2408,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2381,6 +2449,13 @@
 "preferred_label": "यहोवा"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -2393,13 +2468,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -2434,13 +2502,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2467,6 +2528,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2501,13 +2569,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2534,6 +2595,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2568,13 +2636,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2601,6 +2662,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2635,13 +2703,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2668,6 +2729,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2702,13 +2770,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2735,6 +2796,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2769,13 +2837,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2802,6 +2863,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2836,13 +2904,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2869,6 +2930,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -2903,13 +2971,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.6,
@@ -2936,6 +2997,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 }
 ]
 }
@@ -3294,7 +3362,7 @@
 "index_reference": "34002002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>यहोवा याकूब की बड़ाई इस्राएल की बड़ाई के समान ज्यों की त्यों कर रहा है</strong></span><strong>&quot;</strong></p><p>यदि आपकी भाषा में <strong>बड़ाई</strong> के विचार के लिए कोई भाववचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [यहोवा ने याकूब को फिर से महान बना दिया है; उन्होंने इस्राएल को भी महान बना दिया है]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>שָׁ֤ב יְהוָה֙ אֶת־גְּא֣וֹן יַעֲקֹ֔ב כִּ⁠גְא֖וֹן יִשְׂרָאֵ֑ל</span></p><p><strong>&quot;</strong><span><strong>यहोवा याकूब की बड़ाई इस्राएल की बड़ाई के समान ज्यों की त्यों कर रहा है</strong></span><strong>&quot;</strong></p><p>यदि आपकी भाषा में <strong>बड़ाई</strong> के विचार के लिए कोई भाववचक संज्ञा नहीं है, तो आप उसी विचार को किसी अन्य तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [यहोवा ने याकूब को फिर से महान बना दिया है; उन्होंने इस्राएल को भी महान बना दिया है]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -3313,7 +3381,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+}
+]
 }
 },
 {
@@ -3392,18 +3475,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3420,6 +3496,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3427,11 +3510,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3473,18 +3556,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3501,6 +3577,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3508,11 +3591,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3554,18 +3637,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3582,6 +3658,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3589,11 +3672,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3635,18 +3718,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3663,6 +3739,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3670,11 +3753,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -3716,18 +3799,11 @@
 ],
 "acai": [
 {
-"id": "realia:Chariot",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:JuniperTree",
@@ -3744,6 +3820,13 @@
 "preferred_label": "Cypress"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -3751,11 +3834,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
+"id": "flora:Juniper",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Dyed Cloth"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:SmallShield",
@@ -4010,7 +4093,7 @@
 "index_reference": "34002006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>नहरों के द्वार खुल जाते हैं, और राजभवन गलकर बैठा जाता है</strong></span><strong>&quot;</strong></p><p>लेखक यहाँ भविष्य में निश्चित रूप से होने वाली किसी घटना का उल्लेख करने के लिए भूतकाल का उपयोग करते हैं। यदि आपकी भाषा में ऐसा करना स्वाभाविक नहीं है, तो आप भविष्य काल का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: [नदियों के द्वार खुलेंगे, और राजभवन पिघल जाएगा]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">काल का अनियमित उपयोग</span></p>",
+"content": "<p><span style='direction: rtl;'>שַׁעֲרֵ֥י הַ⁠נְּהָר֖וֹת נִפְתָּ֑חוּ וְ⁠הַֽ⁠הֵיכָ֖ל נָמֽוֹג</span></p><p><strong>&quot;</strong><span><strong>नहरों के द्वार खुल जाते हैं, और राजभवन गलकर बैठा जाता है</strong></span><strong>&quot;</strong></p><p>लेखक यहाँ भविष्य में निश्चित रूप से होने वाली किसी घटना का उल्लेख करने के लिए भूतकाल का उपयोग करते हैं। यदि आपकी भाषा में ऐसा करना स्वाभाविक नहीं है, तो आप भविष्य काल का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: [नदियों के द्वार खुलेंगे, और राजभवन पिघल जाएगा]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26817\" data-resourceType=\"UWTranslationManual\">काल का अनियमित उपयोग</span></p>",
 "associations": {
 "passage": [
 {
@@ -4041,7 +4124,7 @@
 "index_reference": "34002006",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;नहरों के द्वार&quot;</strong></p><p>यह उन द्वारों को संदर्भित करता है जो नदी के प्रवाह और दिशा को नियंत्रित करते हैं।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26822\" data-resourceType=\"UWTranslationManual\">अज्ञातों का अनुवाद करें</span></p>",
+"content": "<p><span style='direction: rtl;'>שַׁעֲרֵ֥י הַ⁠נְּהָר֖וֹת</span></p><p><strong>&quot;नहरों के द्वार&quot;</strong></p><p>यह उन द्वारों को संदर्भित करता है जो नदी के प्रवाह और दिशा को नियंत्रित करते हैं।</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26822\" data-resourceType=\"UWTranslationManual\">अज्ञातों का अनुवाद करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -4251,7 +4334,7 @@
 "index_reference": "34002007",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>हुसेब नंगी करके बँधुआई में ले ली जाएगी, और उसकी दासियाँ</strong></span><strong>&quot;</strong></p><p>सर्वनाम <strong>उसकी</strong> नीनवे को संदर्भित करते हैं। यदि यह आपके पाठकों के लिए स्पष्ट नहीं है, तो आप नाम का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: [नीनवे को बँधुआई में ले जाया गया; नीनवे को दूर ले जाया गया, और नीनवे की <span>दासियाँ</span>]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">सर्वनाम — उनका उपयोग कब करें</span></p>",
+"content": "<p><span style='direction: rtl;'>גֻּלְּתָ֣ה הֹֽעֲלָ֑תָה וְ⁠אַמְהֹתֶ֗י⁠הָ</span></p><p><strong>&quot;</strong><span><strong>हुसेब नंगी करके बँधुआई में ले ली जाएगी, और उसकी दासियाँ</strong></span><strong>&quot;</strong></p><p>सर्वनाम <strong>उसकी</strong> नीनवे को संदर्भित करते हैं। यदि यह आपके पाठकों के लिए स्पष्ट नहीं है, तो आप नाम का उपयोग कर सकते हैं। वैकल्पिक अनुवाद: [नीनवे को बँधुआई में ले जाया गया; नीनवे को दूर ले जाया गया, और नीनवे की <span>दासियाँ</span>]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26838\" data-resourceType=\"UWTranslationManual\">सर्वनाम — उनका उपयोग कब करें</span></p>",
 "associations": {
 "passage": [
 {
@@ -4270,7 +4353,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Dove"
+}
+]
 }
 },
 {
@@ -4555,7 +4646,7 @@
 "index_reference": "34002009",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>चाँदी को लूटो, सोने को लूटो, उसके रखे हुए धन की बहुतायत, और वैभव की सब प्रकार की मनभावनी सामग्री का कुछ परिमाण नहीं।</strong></span><strong>&quot;</strong></p><p><span>अभिप्राय यह है कि ये शब्द आक्रमणकारियों के हैं</span>। यदि यह आपके पाठकों के लिए सहायक होगा तो आप इस जानकारी को शामिल कर सकते हैं। वैकल्पिक अनुवाद: [आक्रमण करने वाले कहते हैं, &quot;<span>चाँदी को लूटो, सोने को लूटो, उसके रखे हुए धन की बहुतायत, और वैभव की सब प्रकार की मनभावनी सामग्री का कुछ परिमाण नहीं</span>&quot;]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और अंतर्निहित जानकारी</span></p>",
+"content": "<p><span style='direction: rtl;'>בֹּ֥זּוּ כֶ֖סֶף בֹּ֣זּוּ זָהָ֑ב וְ⁠אֵ֥ין קֵ֨צֶה֙ לַ⁠תְּכוּנָ֔ה כָּבֹ֕ד מִ⁠כֹּ֖ל כְּלִ֥י חֶמְדָּֽה</span></p><p><strong>&quot;</strong><span><strong>चाँदी को लूटो, सोने को लूटो, उसके रखे हुए धन की बहुतायत, और वैभव की सब प्रकार की मनभावनी सामग्री का कुछ परिमाण नहीं।</strong></span><strong>&quot;</strong></p><p><span>अभिप्राय यह है कि ये शब्द आक्रमणकारियों के हैं</span>। यदि यह आपके पाठकों के लिए सहायक होगा तो आप इस जानकारी को शामिल कर सकते हैं। वैकल्पिक अनुवाद: [आक्रमण करने वाले कहते हैं, &quot;<span>चाँदी को लूटो, सोने को लूटो, उसके रखे हुए धन की बहुतायत, और वैभव की सब प्रकार की मनभावनी सामग्री का कुछ परिमाण नहीं</span>&quot;]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">अनुमानित ज्ञान और अंतर्निहित जानकारी</span></p>",
 "associations": {
 "passage": [
 {
@@ -4574,7 +4665,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Money"
+}
+]
 }
 },
 {
@@ -4833,7 +4939,7 @@
 "index_reference": "34002011",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>सिंहों की वह माँद, और जवान सिंह के आखेट का वह स्थान कहाँ रहा जिसमें सिंह और सिंहनी अपने बच्चों समेत बेखटके फिरते थे?</strong></span><strong>&quot;</strong></p><p><span>लेखक यह बात प्रश्न के रूप में कहकर ज़ोर देना चाहते हैं कि वह स्थान अब नहीं रहा। यदि आपकी भाषा में इस उद्देश्य के लिए प्रश्नवाचक रूप उपयोग नहीं होता, तो आप इसे कथन या विस्मयादिबोधक वाक्य के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: [वह सिंहों का मांद, वह स्थान जहाँ वे अपने बच्चों को भोजन कराते थे, जहाँ सिंह चलता था, उसकी सिंहनी और उसके शावक निर्भय रहते थे—वह स्थान अब नष्ट हो गया है!]</span></p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>אַיֵּה֙ מְע֣וֹן אֲרָי֔וֹת וּ⁠מִרְעֶ֥ה ה֖וּא לַ⁠כְּפִרִ֑ים אֲשֶׁ֣ר הָלַךְ֩ אַרְיֵ֨ה לָבִ֥יא שָׁ֛ם גּ֥וּר אַרְיֵ֖ה וְ⁠אֵ֥ין מַחֲרִֽיד</span></p><p><strong>&quot;</strong><span><strong>सिंहों की वह माँद, और जवान सिंह के आखेट का वह स्थान कहाँ रहा जिसमें सिंह और सिंहनी अपने बच्चों समेत बेखटके फिरते थे?</strong></span><strong>&quot;</strong></p><p><span>लेखक यह बात प्रश्न के रूप में कहकर ज़ोर देना चाहते हैं कि वह स्थान अब नहीं रहा। यदि आपकी भाषा में इस उद्देश्य के लिए प्रश्नवाचक रूप उपयोग नहीं होता, तो आप इसे कथन या विस्मयादिबोधक वाक्य के रूप में अनुवाद कर सकते हैं। वैकल्पिक अनुवाद: [वह सिंहों का मांद, वह स्थान जहाँ वे अपने बच्चों को भोजन कराते थे, जहाँ सिंह चलता था, उसकी सिंहनी और उसके शावक निर्भय रहते थे—वह स्थान अब नष्ट हो गया है!]</span></p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -4852,7 +4958,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Grass"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
+}
+]
 }
 },
 {
@@ -4885,18 +5020,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -4906,11 +5041,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -4945,18 +5080,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -4966,11 +5101,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5005,18 +5140,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Grass",
@@ -5026,11 +5161,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5235,18 +5370,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5295,18 +5430,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5355,18 +5490,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5415,18 +5550,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5475,18 +5610,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5535,18 +5670,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5595,18 +5730,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Lion"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 }
 ]
 }
@@ -5721,7 +5856,7 @@
 "index_reference": "34003002",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>कोड़ों की</strong></span><strong>&quot; - &quot;</strong><span><strong>पहियों की घड़घड़ाहट</strong></span><strong>, </strong><span><strong>घोड़े कूदते-फाँदते और रथ उछलते चलते हैं</strong></span><strong>&quot;</strong></p><p>मूल भाषा में यह पद एक वचन में हैं परन्तु हिन्दी में इसे बहुवचन में अनुवादित किया गया हैं । शब्द <strong>कोड़ों</strong>, <strong>पहियों</strong>, <strong>घोड़े</strong>, और <strong>रथ</strong>  प्रत्येक का संदर्भ एक दल के रूप में कई वस्तुओं से है। यदि यह आपकी भाषा में सहायक हो, तो आप इसे सीधे कह सकते हैं। वैकल्पिक अनुवाद: [कोड़े ... खड़खड़ाते पहिए, दौड़ते घोड़े, और उछलते रथ]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">समूहवाचक संज्ञाएँ </span></p>",
+"content": "<p><span style='direction: rtl;'>שׁ֔וֹט &amp; רַ֣עַשׁ אוֹפָ֑ן וְ⁠ס֣וּס דֹּהֵ֔ר וּ⁠מֶרְכָּבָ֖ה מְרַקֵּדָֽה</span></p><p><strong>&quot;</strong><span><strong>कोड़ों की</strong></span><strong>&quot; - &quot;</strong><span><strong>पहियों की घड़घड़ाहट</strong></span><strong>, </strong><span><strong>घोड़े कूदते-फाँदते और रथ उछलते चलते हैं</strong></span><strong>&quot;</strong></p><p>मूल भाषा में यह पद एक वचन में हैं परन्तु हिन्दी में इसे बहुवचन में अनुवादित किया गया हैं । शब्द <strong>कोड़ों</strong>, <strong>पहियों</strong>, <strong>घोड़े</strong>, और <strong>रथ</strong>  प्रत्येक का संदर्भ एक दल के रूप में कई वस्तुओं से है। यदि यह आपकी भाषा में सहायक हो, तो आप इसे सीधे कह सकते हैं। वैकल्पिक अनुवाद: [कोड़े ... खड़खड़ाते पहिए, दौड़ते घोड़े, और उछलते रथ]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">समूहवाचक संज्ञाएँ </span></p>",
 "associations": {
 "passage": [
 {
@@ -5740,7 +5875,36 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Whip",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Whip"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Wagon"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+}
+]
 }
 },
 {
@@ -5752,7 +5916,7 @@
 "index_reference": "34003003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>सवार चढ़ाई करते, तलवारें और भाले बिजली के समान चमकते हैं</strong></span><strong>&quot;</strong></p><p>मूल भाषा में इस पद में, <strong>सवार</strong>, <strong>तलवारें</strong>, और <strong>भाले </strong>शब्द एकवचन रूप में हैं, लेकिन प्रत्येक का संदर्भ एक दल के रूप में कई वस्तुओं से है। हिंदी में यह बहुवचन में अनुवादित किया गया है। यदि आपकी भाषा में यह सहायक हो, तो आप इसे सीधे कह सकते हैं। वैकल्पिक अनुवाद: [आक्रमण करते घुड़सवार और चमकती तलवारें और चमकते बरछे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">समूहवाचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>פָּרָ֣שׁ מַעֲלֶ֗ה וְ⁠לַ֤הַב חֶ֨רֶב֙ וּ⁠בְרַ֣ק חֲנִ֔ית</span></p><p><strong>&quot;</strong><span><strong>सवार चढ़ाई करते, तलवारें और भाले बिजली के समान चमकते हैं</strong></span><strong>&quot;</strong></p><p>मूल भाषा में इस पद में, <strong>सवार</strong>, <strong>तलवारें</strong>, और <strong>भाले </strong>शब्द एकवचन रूप में हैं, लेकिन प्रत्येक का संदर्भ एक दल के रूप में कई वस्तुओं से है। हिंदी में यह बहुवचन में अनुवादित किया गया है। यदि आपकी भाषा में यह सहायक हो, तो आप इसे सीधे कह सकते हैं। वैकल्पिक अनुवाद: [आक्रमण करते घुड़सवार और चमकती तलवारें और चमकते बरछे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26738\" data-resourceType=\"UWTranslationManual\">समूहवाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {
@@ -5771,7 +5935,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
+}
+]
 }
 },
 {
@@ -5783,7 +5962,7 @@
 "index_reference": "34003003",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>सवार चढ़ाई करते, तलवारें और भाले बिजली के समान चमकते हैं</strong></span><strong>&quot;</strong></p><p>मूल भाषा में, लेखक कुछ शब्दों को छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में अधिक स्पष्ट हो, तो आप कुछ शब्दों को जोड़ सकते हैं, जैसे हिंदी अनुवाद में किया गया है। वैकल्पिक अनुवाद: [वहाँ चढ़ाई करते हुए घुड़सवार हैं और चमकती तलवारें और चमकते भाले हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप </span></p>",
+"content": "<p><span style='direction: rtl;'>פָּרָ֣שׁ מַעֲלֶ֗ה וְ⁠לַ֤הַב חֶ֨רֶב֙ וּ⁠בְרַ֣ק חֲנִ֔ית</span></p><p><strong>&quot;</strong><span><strong>सवार चढ़ाई करते, तलवारें और भाले बिजली के समान चमकते हैं</strong></span><strong>&quot;</strong></p><p>मूल भाषा में, लेखक कुछ शब्दों को छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होते हैं। यदि यह आपकी भाषा में अधिक स्पष्ट हो, तो आप कुछ शब्दों को जोड़ सकते हैं, जैसे हिंदी अनुवाद में किया गया है। वैकल्पिक अनुवाद: [वहाँ चढ़ाई करते हुए घुड़सवार हैं और चमकती तलवारें और चमकते भाले हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप </span></p>",
 "associations": {
 "passage": [
 {
@@ -5802,7 +5981,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
+}
+]
 }
 },
 {
@@ -5835,18 +6029,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -5881,18 +6075,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -5927,18 +6121,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Spear"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -6533,7 +6727,7 @@
 "index_reference": "34003008",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>क्या तू अमोन नगरी से बढ़कर है, जो नहरों के बीच बसी थी, और उसके चारों ओर जल था, और महानद उसके लिये किला और शहरपनाह का काम देता था</strong></span><strong>&quot;</strong></p><p>लेखक प्रश्न रूप का उपयोग यह जोर देने के लिए कर रहे हैं कि नीनवे अमोन से बेहतर नहीं है। यदि आप इस उद्देश्य के लिए अपनी भाषा में प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इसे एक कथन या एक विस्मयादिबोधक के रूप में अनुवादीत कर सकते हैं। वैकल्पिक अनुवाद: [आप अमोन से बेहतर नहीं हैं, जो नील नदी पर स्थित था, जिसके चारों ओर पानी था, जिसकी रक्षा समुद्र करता था, और पानी उसकी दीवार थी!]</p><p>देखें:<span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\"> आलंकारिक प्रश्न</span></p>",
+"content": "<p><span style='direction: rtl;'>הֲ⁠תֵֽיטְבִי֙ מִ⁠נֹּ֣א אָמ֔וֹן הַ⁠יֹּֽשְׁבָה֙ בַּ⁠יְאֹרִ֔ים מַ֖יִם סָבִ֣יב לָ֑⁠הּ אֲשֶׁר־חֵ֣יל יָ֔ם מִ⁠יָּ֖ם חוֹמָתָֽ⁠הּ</span></p><p><strong>&quot;</strong><span><strong>क्या तू अमोन नगरी से बढ़कर है, जो नहरों के बीच बसी थी, और उसके चारों ओर जल था, और महानद उसके लिये किला और शहरपनाह का काम देता था</strong></span><strong>&quot;</strong></p><p>लेखक प्रश्न रूप का उपयोग यह जोर देने के लिए कर रहे हैं कि नीनवे अमोन से बेहतर नहीं है। यदि आप इस उद्देश्य के लिए अपनी भाषा में प्रश्न रूप का उपयोग नहीं करेंगे, तो आप इसे एक कथन या एक विस्मयादिबोधक के रूप में अनुवादीत कर सकते हैं। वैकल्पिक अनुवाद: [आप अमोन से बेहतर नहीं हैं, जो नील नदी पर स्थित था, जिसके चारों ओर पानी था, जिसकी रक्षा समुद्र करता था, और पानी उसकी दीवार थी!]</p><p>देखें:<span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\"> आलंकारिक प्रश्न</span></p>",
 "associations": {
 "passage": [
 {
@@ -6552,7 +6746,29 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Amon",
+"type": "deity",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "आमोन"
+},
+{
+"id": "place:Thebes",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Thebes"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nile River"
+}
+]
 }
 },
 {
@@ -6797,18 +7013,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "लीबिया"
 },
 {
 "id": "place:Put",
@@ -6818,11 +7034,11 @@
 "preferred_label": "पूत"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "लीबिया"
 }
 ]
 }
@@ -6857,18 +7073,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "लीबिया"
 },
 {
 "id": "place:Put",
@@ -6878,11 +7094,11 @@
 "preferred_label": "पूत"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "लीबिया"
 }
 ]
 }
@@ -6917,18 +7133,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "लीबिया"
 },
 {
 "id": "place:Put",
@@ -6938,11 +7154,11 @@
 "preferred_label": "पूत"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "लीबिया"
 }
 ]
 }
@@ -6977,18 +7193,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "लीबिया"
 },
 {
 "id": "place:Put",
@@ -6998,11 +7214,11 @@
 "preferred_label": "पूत"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "लीबिया"
 }
 ]
 }
@@ -7037,18 +7253,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "लीबिया"
 },
 {
 "id": "place:Put",
@@ -7058,11 +7274,11 @@
 "preferred_label": "पूत"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "लीबिया"
 }
 ]
 }
@@ -7097,18 +7313,18 @@
 ],
 "acai": [
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Cush"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "लीबिया"
 },
 {
 "id": "place:Put",
@@ -7118,11 +7334,11 @@
 "preferred_label": "पूत"
 },
 {
-"id": "place:Egypt",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "लीबिया"
 }
 ]
 }
@@ -7157,18 +7373,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7203,18 +7419,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7228,7 +7444,7 @@
 "index_reference": "34003010",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>उसके नन्हें बच्चे सड़कों के सिरे पर पटक दिए गए</strong></span><strong>&quot;</strong></p><p>यदि आपकी भाषा में <strong>सिरे पर पटक दिए</strong> जैसी निष्क्रिय रूप का उपयोग नहीं होता है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य स्वाभाविक तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [उसके शत्रुओं ने उसके छोटे बच्चों के टुकड़े कर दिया]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
+"content": "<p><span style='direction: rtl;'>עֹלָלֶ֛י⁠הָ יְרֻטְּשׁ֖וּ</span></p><p><strong>&quot;</strong><span><strong>उसके नन्हें बच्चे सड़कों के सिरे पर पटक दिए गए</strong></span><strong>&quot;</strong></p><p>यदि आपकी भाषा में <strong>सिरे पर पटक दिए</strong> जैसी निष्क्रिय रूप का उपयोग नहीं होता है, तो आप इस विचार को सक्रिय रूप में या अपनी भाषा में किसी अन्य स्वाभाविक तरीके से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [उसके शत्रुओं ने उसके छोटे बच्चों के टुकड़े कर दिया]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26672\" data-resourceType=\"UWTranslationManual\">सक्रिय या निष्क्रिय</span></p>",
 "associations": {
 "passage": [
 {
@@ -7247,7 +7463,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
+}
+]
 }
 },
 {
@@ -7280,18 +7511,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7326,18 +7557,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7372,18 +7603,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Lot"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 }
 ]
 }
@@ -7514,7 +7745,7 @@
 "index_reference": "34003012",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>तेरे सब गढ़ ऐसे अंजीर के वृक्षों के समान होंगे जिनमें पहले पक्के अंजीर लगे हों</strong></span><strong>&quot;</strong></p><p>लेखक <strong>गढ़ </strong>की बात ऐसे कर रहे हैं जैसे वे <strong>अंजीर के वृक्षों के समान होंगे जिनमें पहले पक्के अंजीर लगे हों</strong> क्योंकि उन्हें पकड़ना उतना ही सहज होगा, जैसे पके हुए अंजीर को तोड़ना सहज होता है। यदि आपकी भाषा में यह सहायक हो, तो आप अर्थ को सीधे तौर पर कह सकते हैं। वैकल्पिक अनुवाद: [आपके सभी किले उतने ही सहजता से अधिकृत किए जाएंगे जितने कि पके हुए अंजीर तोड़ने में होते हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">रूपक </span></p>",
+"content": "<p><span style='direction: rtl;'>כָּ֨ל־מִבְצָרַ֔יִ⁠ךְ תְּאֵנִ֖ים עִם־בִּכּוּרִ֑ים</span></p><p><strong>&quot;</strong><span><strong>तेरे सब गढ़ ऐसे अंजीर के वृक्षों के समान होंगे जिनमें पहले पक्के अंजीर लगे हों</strong></span><strong>&quot;</strong></p><p>लेखक <strong>गढ़ </strong>की बात ऐसे कर रहे हैं जैसे वे <strong>अंजीर के वृक्षों के समान होंगे जिनमें पहले पक्के अंजीर लगे हों</strong> क्योंकि उन्हें पकड़ना उतना ही सहज होगा, जैसे पके हुए अंजीर को तोड़ना सहज होता है। यदि आपकी भाषा में यह सहायक हो, तो आप अर्थ को सीधे तौर पर कह सकते हैं। वैकल्पिक अनुवाद: [आपके सभी किले उतने ही सहजता से अधिकृत किए जाएंगे जितने कि पके हुए अंजीर तोड़ने में होते हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">रूपक </span></p>",
 "associations": {
 "passage": [
 {
@@ -7533,7 +7764,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fig"
+}
+]
 }
 },
 {
@@ -8220,7 +8459,7 @@
 "index_reference": "34003017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>तेरे मुकुटधारी लोग टिड्डियों के समान, और तेरे सेनापति टिड्डियों के दलों सरीखे ठहरेंगे</strong></span><strong>&quot;</strong></p><p>लेखक कह रहे हैं कि मुकुटधारी लोग और सेनापति, टिड्डियों की तरह हैं क्योंकि वे अविश्वसनीय और बेवफा हैं, जैसे टिड्डियाँ परिस्थितियों के बदलने पर मक्खियों की तरह उड़ जाती हैं। यदि आपकी भाषा में यह सहायक हो, तो आप इसे स्पष्ट रूप से कह सकते हैं। वैकल्पिक अनुवाद: [आपके पहरुए और सेनापति टिड्डियों की तरह अविश्वसनीय और बेवफा हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">उपमा </span></p>",
+"content": "<p><span style='direction: rtl;'>מִנְּזָרַ֨יִ⁠ךְ֙ כָּֽ⁠אַרְבֶּ֔ה וְ⁠טַפְסְרַ֖יִ⁠ךְ כְּ⁠ג֣וֹב גֹּבָ֑י</span></p><p><strong>&quot;</strong><span><strong>तेरे मुकुटधारी लोग टिड्डियों के समान, और तेरे सेनापति टिड्डियों के दलों सरीखे ठहरेंगे</strong></span><strong>&quot;</strong></p><p>लेखक कह रहे हैं कि मुकुटधारी लोग और सेनापति, टिड्डियों की तरह हैं क्योंकि वे अविश्वसनीय और बेवफा हैं, जैसे टिड्डियाँ परिस्थितियों के बदलने पर मक्खियों की तरह उड़ जाती हैं। यदि आपकी भाषा में यह सहायक हो, तो आप इसे स्पष्ट रूप से कह सकते हैं। वैकल्पिक अनुवाद: [आपके पहरुए और सेनापति टिड्डियों की तरह अविश्वसनीय और बेवफा हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26728\" data-resourceType=\"UWTranslationManual\">उपमा </span></p>",
 "associations": {
 "passage": [
 {
@@ -8239,7 +8478,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Locust"
+}
+]
 }
 },
 {
@@ -8290,7 +8537,7 @@
 "index_reference": "34003017",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>और तेरे सेनापति टिड्डियों के दलों सरीखे ठहरेंगे</strong></span><strong>&quot;</strong></p><p>लेखक एक ऐसा शब्द छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होता है। यदि यह आपकी भाषा में स्पष्ट होगा तो आप इस शब्द को जोड़ सकते हैं जैसा हिंदी में किया गया है। वैकल्पिक अनुवाद: [और आपके सेनापति टिड्डियों के झुंड की तरह हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप </span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠טַפְסְרַ֖יִ⁠ךְ כְּ⁠ג֣וֹב גֹּבָ֑י</span></p><p><strong>&quot;</strong><span><strong>और तेरे सेनापति टिड्डियों के दलों सरीखे ठहरेंगे</strong></span><strong>&quot;</strong></p><p>लेखक एक ऐसा शब्द छोड़ रहे हैं जो कई भाषाओं में एक वाक्य को पूरा करने के लिए आवश्यक होता है। यदि यह आपकी भाषा में स्पष्ट होगा तो आप इस शब्द को जोड़ सकते हैं जैसा हिंदी में किया गया है। वैकल्पिक अनुवाद: [और आपके सेनापति टिड्डियों के झुंड की तरह हैं]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26681\" data-resourceType=\"UWTranslationManual\">पदलोप </span></p>",
 "associations": {
 "passage": [
 {
@@ -8309,7 +8556,15 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Locust"
+}
+]
 }
 },
 {
@@ -8388,6 +8643,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8400,13 +8662,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8448,6 +8703,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8460,13 +8722,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8508,6 +8763,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8520,13 +8782,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8568,6 +8823,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8580,13 +8842,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8628,6 +8883,13 @@
 "preferred_label": "Assyria"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.54,
@@ -8640,13 +8902,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -8660,7 +8915,7 @@
 "index_reference": "34003019",
 "language": "hin",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>ऐसा कौन है जिस पर तेरी लगातार दुष्टता का प्रभाव न पड़ा हो</strong></span><strong>&quot;</strong></p><p>यदि आपकी भाषा <strong>दुष्टता </strong>और <strong>प्रभाव</strong> के विचारों के लिए भाववाचक संज्ञाओं का उपयोग नहीं करती है, तो आप इन्हीं विचारों को अन्य तरीकों से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [जब आपका विनाश होगा, तो कोई भी आपकी सहायता नहीं कर पाएंगे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
+"content": "<p><span style='direction: rtl;'>אֵין־כֵּהָ֣ה לְ⁠שִׁבְרֶ֔⁠ךָ</span></p><p><strong>&quot;</strong><span><strong>ऐसा कौन है जिस पर तेरी लगातार दुष्टता का प्रभाव न पड़ा हो</strong></span><strong>&quot;</strong></p><p>यदि आपकी भाषा <strong>दुष्टता </strong>और <strong>प्रभाव</strong> के विचारों के लिए भाववाचक संज्ञाओं का उपयोग नहीं करती है, तो आप इन्हीं विचारों को अन्य तरीकों से व्यक्त कर सकते हैं। वैकल्पिक अनुवाद: [जब आपका विनाश होगा, तो कोई भी आपकी सहायता नहीं कर पाएंगे]</p><p>देखें: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">भाववाचक संज्ञाएँ</span></p>",
 "associations": {
 "passage": [
 {

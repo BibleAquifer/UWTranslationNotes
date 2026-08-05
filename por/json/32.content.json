@@ -192,13 +192,6 @@
 ],
 "acai": [
 {
-"id": "person:Amittai",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Amittai"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.8,
@@ -206,11 +199,11 @@
 "preferred_label": "Jonas"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "person:Amittai",
+"type": "person",
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "Amittai"
 },
 {
 "id": "deity:Lord",
@@ -218,6 +211,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
 }
 ]
 }
@@ -231,7 +231,7 @@
 "index_reference": "32001001",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Amitai&quot;.</strong></p><p><strong>Amitai</strong> é o nome do pai de Jonas.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲמִתַּ֖י</span></p><p><strong>&quot;Amitai&quot;.</strong></p><p><strong>Amitai</strong> é o nome do pai de Jonas.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26805\" data-resourceType=\"UWTranslationManual\">Como traduzir nomes.</span></p>",
 "associations": {
 "passage": [
 {
@@ -250,7 +250,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "person:Amittai",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Amittai"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -262,7 +291,7 @@
 "index_reference": "32001002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Apronte-se, vá à grande cidade de Nínive e grite contra ela, porque a maldade daquela gente chegou aos meus ouvidos&quot;.</strong></p><p>Se for mais natural em seu idioma, você pode inverter a ordem dessas cláusulas, já que a segunda metade do versículo fornece a razão para o resultado descrito na primeira metade. Tradução alternativa: “A maldade de Nínive subiu diante de mim. Portanto, levante-se, vá até aquela grande cidade e clame contra ela”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
+"content": "<p><span style='direction: rtl;'>ק֠וּם לֵ֧ךְ אֶל־נִֽינְוֵ֛ה הָ⁠עִ֥יר הַ⁠גְּדוֹלָ֖ה וּ⁠קְרָ֣א עָלֶ֑י⁠הָ כִּֽי־עָלְתָ֥ה רָעָתָ֖⁠ם לְ⁠פָנָֽ⁠י</span></p><p><strong>&quot;Apronte-se, vá à grande cidade de Nínive e grite contra ela, porque a maldade daquela gente chegou aos meus ouvidos&quot;.</strong></p><p>Se for mais natural em seu idioma, você pode inverter a ordem dessas cláusulas, já que a segunda metade do versículo fornece a razão para o resultado descrito na primeira metade. Tradução alternativa: “A maldade de Nínive subiu diante de mim. Portanto, levante-se, vá até aquela grande cidade e clame contra ela”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
 "associations": {
 "passage": [
 {
@@ -281,7 +310,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+}
+]
 }
 },
 {
@@ -433,7 +470,7 @@
 "index_reference": "32001002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;porque a maldade daquela gente chegou aos meus ouvidos&quot;.</strong></p><p>Se o seu idioma não utiliza um substantivo abstrato para a ideia de <strong>maldade</strong>, você pode expressar a mesma ideia de outra forma. Tradução alternativa: “Eu vi como eles se tornaram perversos” ou &quot;Eu vi como tudo o que eles fazem é ruim&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
+"content": "<p><span style='direction: rtl;'>עָלְתָ֥ה רָעָתָ֖⁠ם לְ⁠פָנָֽ⁠י</span></p><p><strong>&quot;porque a maldade daquela gente chegou aos meus ouvidos&quot;.</strong></p><p>Se o seu idioma não utiliza um substantivo abstrato para a ideia de <strong>maldade</strong>, você pode expressar a mesma ideia de outra forma. Tradução alternativa: “Eu vi como eles se tornaram perversos” ou &quot;Eu vi como tudo o que eles fazem é ruim&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26671\" data-resourceType=\"UWTranslationManual\">Substantivos abstratos.</span></p>",
 "associations": {
 "passage": [
 {
@@ -452,7 +489,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+}
+]
 }
 },
 {
@@ -531,7 +576,7 @@
 "index_reference": "32001003",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;fugiu do Senhor&quot;</strong> - <strong>&quot;para longe do Senhor&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>fugir de diante da face do Senhor</strong>. A expressão<strong> face do Senhor </strong>representa sua presença. Se for útil em seu idioma, você pode declarar o significado de forma clara. A ideia da presença de Deus também inclui seu conhecimento, observação, atenção ou julgamento. Ao fugir, Jonas espera que o Senhor não perceba que ele está desobedecendo. Tradução alternativa: “da presença de Deus”… “longe do Senhor”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><span style='direction: rtl;'>מִ⁠לִּ⁠פְנֵ֖י יְהוָ֑ה &amp; מִ⁠לִּ⁠פְנֵ֖י יְהוָֽה</span></p><p><strong>&quot;fugiu do Senhor&quot;</strong> - <strong>&quot;para longe do Senhor&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>fugir de diante da face do Senhor</strong>. A expressão<strong> face do Senhor </strong>representa sua presença. Se for útil em seu idioma, você pode declarar o significado de forma clara. A ideia da presença de Deus também inclui seu conhecimento, observação, atenção ou julgamento. Ao fugir, Jonas espera que o Senhor não perceba que ele está desobedecendo. Tradução alternativa: “da presença de Deus”… “longe do Senhor”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -550,7 +595,43 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Joppa",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Jope"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Társis"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1003,13 +1084,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1022,6 +1096,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "realia:Ship",
@@ -1055,13 +1136,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1074,6 +1148,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "realia:Ship",
@@ -1107,13 +1188,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
@@ -1126,6 +1200,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "realia:Ship",
@@ -1146,7 +1227,7 @@
 "index_reference": "32001005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Porém Jonas tinha descido ao porão e ali havia se deitado e caído num sono profundo&quot;.</strong></p><p>Esta frase fornece informações de contexto sobre as circunstâncias de Jonas para ajudar os leitores a entenderem o que acontece a seguir na história. Na tradução, apresente essas informações de maneira que fique claro que são informações de contexto e que Jonas já havia feito isso antes da tempestade começar.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de fundo.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠יוֹנָ֗ה יָרַד֙ אֶל־יַרְכְּתֵ֣י הַ⁠סְּפִינָ֔ה וַ⁠יִּשְׁכַּ֖ב וַ⁠יֵּרָדַֽם</span></p><p><strong>&quot;Porém Jonas tinha descido ao porão e ali havia se deitado e caído num sono profundo&quot;.</strong></p><p>Esta frase fornece informações de contexto sobre as circunstâncias de Jonas para ajudar os leitores a entenderem o que acontece a seguir na história. Na tradução, apresente essas informações de maneira que fique claro que são informações de contexto e que Jonas já havia feito isso antes da tempestade começar.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de fundo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1165,7 +1246,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1177,7 +1287,7 @@
 "index_reference": "32001005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;tinha descido ao porão&quot;.</strong></p><p>Tradução alternativa: “a parte interna do navio”.</p>",
+"content": "<p><span style='direction: rtl;'>יַרְכְּתֵ֣י הַ⁠סְּפִינָ֔ה</span></p><p><strong>&quot;tinha descido ao porão&quot;.</strong></p><p>Tradução alternativa: “a parte interna do navio”.</p>",
 "associations": {
 "passage": [
 {
@@ -1188,7 +1298,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1200,7 +1339,7 @@
 "index_reference": "32001005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;e ali havia se deitado e caído num sono profundo&quot;.</strong></p><p>Tradução alternativa: “e estava deitado lá, dormindo profundamente” ou “e estava deitado em sono profundo”.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּשְׁכַּ֖ב וַ⁠יֵּרָדַֽם</span></p><p><strong>&quot;e ali havia se deitado e caído num sono profundo&quot;.</strong></p><p>Tradução alternativa: “e estava deitado lá, dormindo profundamente” ou “e estava deitado em sono profundo”.</p>",
 "associations": {
 "passage": [
 {
@@ -1211,7 +1350,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fear"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Ship"
+}
+]
 }
 },
 {
@@ -1332,7 +1500,7 @@
 "index_reference": "32001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;e peça socorro ao seu deus&quot;.</strong></p><p>Chorar <strong>por socorro</strong> para alguém significa pedir ajuda a ele em voz alta. Tradução alternativa: “Ore ao seu Deus”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>קְרָ֣א אֶל־אֱלֹהֶ֔י⁠ךָ</span></p><p><strong>&quot;e peça socorro ao seu deus&quot;.</strong></p><p>Chorar <strong>por socorro</strong> para alguém significa pedir ajuda a ele em voz alta. Tradução alternativa: “Ore ao seu Deus”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1351,7 +1519,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -1363,7 +1539,7 @@
 "index_reference": "32001006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Pode ser que ele tenha pena de nós e não deixe a gente morrer&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>talvez assim Deus se lembre de nós para que não pereçamos</strong>. A implicação é que o deus de Jonas pode não apenas notá-los, mas também salvá-los. Você pode incluir esta informação se isso for útil para seus leitores. Tradução alternativa: “Talvez o seu deus nos ouça e nos salve para que não morramos”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>אוּלַ֞י יִתְעַשֵּׁ֧ת הָ⁠אֱלֹהִ֛ים לָ֖⁠נוּ וְ⁠לֹ֥א נֹאבֵֽד</span></p><p><strong>&quot;Pode ser que ele tenha pena de nós e não deixe a gente morrer&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>talvez assim Deus se lembre de nós para que não pereçamos</strong>. A implicação é que o deus de Jonas pode não apenas notá-los, mas também salvá-los. Você pode incluir esta informação se isso for útil para seus leitores. Tradução alternativa: “Talvez o seu deus nos ouça e nos salve para que não morramos”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1382,7 +1558,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -1433,7 +1617,7 @@
 "index_reference": "32001007",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Os marinheiros disseram uns aos outros&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então cada homem disse ao seu amigo</strong>. Essa frase é uma expressão idiomática que indica uma ação recíproca. Isso significa que o grupo decidiu fazer isso em conjunto. Tradução alternativa: “Então os marinheiros disseram todos uns aos outros”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּאמְר֞וּ אִ֣ישׁ אֶל־רֵעֵ֗⁠הוּ</span></p><p><strong>&quot;Os marinheiros disseram uns aos outros&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então cada homem disse ao seu amigo</strong>. Essa frase é uma expressão idiomática que indica uma ação recíproca. Isso significa que o grupo decidiu fazer isso em conjunto. Tradução alternativa: “Então os marinheiros disseram todos uns aos outros”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1444,7 +1628,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lot"
+}
+]
 }
 },
 {
@@ -1456,7 +1655,7 @@
 "index_reference": "32001007",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;para descobrir quem é o culpado de estarmos neste perigo&quot;.</strong></p><p>A frase <strong>para descobrir</strong> implica que os homens acreditavam que os deuses controlariam como as sortes cairiam para lhes revelar o que desejavam saber. Isso era uma forma de adivinhação. Você pode incluir essa informação se isso for útil para seus leitores. Tradução alternativa: “para que os deuses possam nos dizer quem causou este problema”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נֵ֣דְעָ֔ה בְּ⁠שֶׁ⁠לְּ⁠מִ֛י הָ⁠רָעָ֥ה הַ⁠זֹּ֖את לָ֑⁠נוּ</span></p><p><strong>&quot;para descobrir quem é o culpado de estarmos neste perigo&quot;.</strong></p><p>A frase <strong>para descobrir</strong> implica que os homens acreditavam que os deuses controlariam como as sortes cairiam para lhes revelar o que desejavam saber. Isso era uma forma de adivinhação. Você pode incluir essa informação se isso for útil para seus leitores. Tradução alternativa: “para que os deuses possam nos dizer quem causou este problema”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1467,7 +1666,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lot"
+}
+]
 }
 },
 {
@@ -1500,18 +1714,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lot"
 }
 ]
 }
@@ -1569,18 +1783,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lot"
 }
 ]
 }
@@ -1607,18 +1821,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "lot"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "lot"
 }
 ]
 }
@@ -1691,18 +1905,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Hebrews",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hebrews"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "group:Hebrews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hebrews"
 }
 ]
 }
@@ -1892,7 +2106,7 @@
 "index_reference": "32001010",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Em seguida, Jonas contou que estava fugindo de Deus, o Senhor. Aí os marinheiros ficaram mais apavorados ainda&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então, os homens se encheram de grande temor e lhe disseram: Por que fizeste tu isso? Pois sabiam os homens que fugia de diante do Senhor, porque ele lho tinha declarado</strong>. Jonas disse aos marinheiros <strong>que estava fugindo de Deus</strong> antes que eles reagissem <strong>com mais pavor ainda</strong>. Se for mais natural em seu idioma colocar a informação na ordem em que aconteceu, você pode colocar esta frase antes da outra e traduzi-la da seguinte forma. Tradução alternativa: “Jonas disse aos homens que estava fugindo da presença de Yahweh”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
+"content": "<p><span style='direction: rtl;'>כִּֽי־יָדְע֣וּ הָ⁠אֲנָשִׁ֗ים כִּֽי־מִ⁠לִּ⁠פְנֵ֤י יְהוָה֙ ה֣וּא בֹרֵ֔חַ כִּ֥י הִגִּ֖יד לָ⁠הֶֽם</span></p><p><strong>&quot;Em seguida, Jonas contou que estava fugindo de Deus, o Senhor. Aí os marinheiros ficaram mais apavorados ainda&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então, os homens se encheram de grande temor e lhe disseram: Por que fizeste tu isso? Pois sabiam os homens que fugia de diante do Senhor, porque ele lho tinha declarado</strong>. Jonas disse aos marinheiros <strong>que estava fugindo de Deus</strong> antes que eles reagissem <strong>com mais pavor ainda</strong>. Se for mais natural em seu idioma colocar a informação na ordem em que aconteceu, você pode colocar esta frase antes da outra e traduzi-la da seguinte forma. Tradução alternativa: “Jonas disse aos homens que estava fugindo da presença de Yahweh”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26700\" data-resourceType=\"UWTranslationManual\">Estrutura de informação.</span></p>",
 "associations": {
 "passage": [
 {
@@ -1911,7 +2125,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fear"
+}
+]
 }
 },
 {
@@ -2000,7 +2229,7 @@
 "index_reference": "32001011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;A tempestade piorava cada vez mais, de modo que os marinheiros perguntaram a Jonas: — &apos;Que devemos fazer com você para que o mar se acalme?&apos;&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>E disseram-lhe: Que te faremos nós, para que o mar se acalme? Por que o mar se elevava e engrossava cada vez mais</strong>. Se for mais natural em seu idioma, você pode inverter a ordem dessas frases, já que a segunda frase dá a razão para o resultado que a primeira frase descreve. Tradução alternativa: “O mar estava agitado e tempestuoso. Portanto, disseram a ele: “O que devemos fazer com você para que o mar se acalme sobre nós?”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּאמְר֤וּ אֵלָי⁠ו֙ מַה־נַּ֣עֲשֶׂה לָּ֔⁠ךְ וְ⁠יִשְׁתֹּ֥ק הַ⁠יָּ֖ם מֵֽ⁠עָלֵ֑י⁠נוּ כִּ֥י הַ⁠יָּ֖ם הוֹלֵ֥ךְ וְ⁠סֹעֵֽר</span></p><p><strong>&quot;A tempestade piorava cada vez mais, de modo que os marinheiros perguntaram a Jonas: — &apos;Que devemos fazer com você para que o mar se acalme?&apos;&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>E disseram-lhe: Que te faremos nós, para que o mar se acalme? Por que o mar se elevava e engrossava cada vez mais</strong>. Se for mais natural em seu idioma, você pode inverter a ordem dessas frases, já que a segunda frase dá a razão para o resultado que a primeira frase descreve. Tradução alternativa: “O mar estava agitado e tempestuoso. Portanto, disseram a ele: “O que devemos fazer com você para que o mar se acalme sobre nós?”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2031,7 +2260,7 @@
 "index_reference": "32001012",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Pois eu sei que foi por minha culpa que esta terrível tempestade caiu sobre vocês&quot;.</strong></p><p>Tradução alternativa: “porque eu sei que esta grande tempestade é minha culpa”.</p>",
+"content": "<p><span style='direction: rtl;'>כִּ֚י יוֹדֵ֣עַ אָ֔נִי כִּ֣י בְ⁠שֶׁ⁠לִּ֔⁠י הַ⁠סַּ֧עַר הַ⁠גָּד֛וֹל הַ⁠זֶּ֖ה עֲלֵי⁠כֶֽם</span></p><p><strong>&quot;Pois eu sei que foi por minha culpa que esta terrível tempestade caiu sobre vocês&quot;.</strong></p><p>Tradução alternativa: “porque eu sei que esta grande tempestade é minha culpa”.</p>",
 "associations": {
 "passage": [
 {
@@ -2054,7 +2283,7 @@
 "index_reference": "32001012",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Vocês me peguem e joguem no mar, que ele ficará calmo&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então o mar se acalmará ao redor de vocês</strong>. Veja como você traduziu a expressão <strong>se acalmará ao redor de vocês</strong> no <a href=\"https://ref.ly/Jonah0:0\">versículo 11</a>.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠יִשְׁתֹּ֥ק הַ⁠יָּ֖ם מֵֽ⁠עֲלֵי⁠כֶ֑ם</span></p><p><strong>&quot;Vocês me peguem e joguem no mar, que ele ficará calmo&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então o mar se acalmará ao redor de vocês</strong>. Veja como você traduziu a expressão <strong>se acalmará ao redor de vocês</strong> no <a href=\"https://ref.ly/Jonah0:0\">versículo 11</a>.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2116,7 +2345,7 @@
 "index_reference": "32001013",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;a tempestade piorava ainda mais&quot;.</strong></p><p>Veja como você traduziu esta expressão idiomática em <a href=\"https://ref.ly/Jonah1:11\">1.11</a>. Tradução alternativa: “a tempestade piorou, e ondas ainda mais altas quebraram”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>הַ⁠יָּ֔ם הוֹלֵ֥ךְ וְ⁠סֹעֵ֖ר</span></p><p><strong>&quot;a tempestade piorava ainda mais&quot;.</strong></p><p>Veja como você traduziu esta expressão idiomática em <a href=\"https://ref.ly/Jonah1:11\">1.11</a>. Tradução alternativa: “a tempestade piorou, e ondas ainda mais altas quebraram”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2177,7 +2406,7 @@
 "index_reference": "32001014",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Então oraram bem alto, assim&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então, clamaram ao Senhor e disseram</strong>. Tradução alternativa: “Portanto, os homens oraram em voz alta a Yahweh”.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּקְרְא֨וּ אֶל־יְהוָ֜ה</span></p><p><strong>&quot;Então oraram bem alto, assim&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Então, clamaram ao Senhor e disseram</strong>. Tradução alternativa: “Portanto, os homens oraram em voz alta a Yahweh”.</p>",
 "associations": {
 "passage": [
 {
@@ -2188,7 +2417,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "exempt"
+}
+]
 }
 },
 {
@@ -2246,7 +2490,7 @@
 "index_reference": "32001014",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;não nos castigues com a morte, por tirarmos a vida deste homem&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Não pereçamos por causa da vida deste homem</strong>. Neste contexto, <strong>da vida deste homem</strong> significa &quot;tirar a vida deste homem&quot;. Você poderia incluir esta informação se for útil para seus leitores. Tradução alternativa: &quot;por favor, não nos mate por tirar a vida deste homem&quot; ou &quot;mesmo que causemos a morte deste homem, por favor, não nos mate&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה</span></p><p><strong>&quot;não nos castigues com a morte, por tirarmos a vida deste homem&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Não pereçamos por causa da vida deste homem</strong>. Neste contexto, <strong>da vida deste homem</strong> significa &quot;tirar a vida deste homem&quot;. Você poderia incluir esta informação se for útil para seus leitores. Tradução alternativa: &quot;por favor, não nos mate por tirar a vida deste homem&quot; ou &quot;mesmo que causemos a morte deste homem, por favor, não nos mate&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2257,7 +2501,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "exempt"
+}
+]
 }
 },
 {
@@ -2315,7 +2574,7 @@
 "index_reference": "32001014",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus, não nos castigues com a morte, por tirarmos a vida deste homem. Pois és tu, ó Senhor, quem está fazendo isso, e o que está acontecendo é da tua vontade&quot;.</strong></p><p>Se for mais natural em seu idioma, você pode mover a última frase para a primeira parte do que os marinheiros rezam, já que essa frase dá a razão para o que o resto da oração descreve. Tradução alternativa: “Ah! Você, Yahweh, escolheu fazer as coisas desta maneira. Portanto, Senhor, por favor, não nos deixe perecer por causa da vida deste homem, e não coloque sangue inocente sobre nós” ou “Ah! Você, Yahweh, causou tudo isso, então Yahweh, por favor, não nos deixe perecer por causa da vida deste homem, e não coloque sangue inocente sobre nós”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
+"content": "<p><span style='direction: rtl;'>אָנָּ֤ה יְהוָה֙ אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה וְ⁠אַל־תִּתֵּ֥ן עָלֵ֖י⁠נוּ דָּ֣ם נָקִ֑יא כִּֽי־אַתָּ֣ה יְהוָ֔ה כַּ⁠אֲשֶׁ֥ר חָפַ֖צְתָּ עָשִֽׂיתָ</span></p><p><strong>&quot;Ó Senhor Deus, não nos castigues com a morte, por tirarmos a vida deste homem. Pois és tu, ó Senhor, quem está fazendo isso, e o que está acontecendo é da tua vontade&quot;.</strong></p><p>Se for mais natural em seu idioma, você pode mover a última frase para a primeira parte do que os marinheiros rezam, já que essa frase dá a razão para o que o resto da oração descreve. Tradução alternativa: “Ah! Você, Yahweh, escolheu fazer as coisas desta maneira. Portanto, Senhor, por favor, não nos deixe perecer por causa da vida deste homem, e não coloque sangue inocente sobre nós” ou “Ah! Você, Yahweh, causou tudo isso, então Yahweh, por favor, não nos deixe perecer por causa da vida deste homem, e não coloque sangue inocente sobre nós”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26745\" data-resourceType=\"UWTranslationManual\">Conectar — Relação de razão e resultado.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2326,7 +2585,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "exempt"
+}
+]
 }
 },
 {
@@ -2338,7 +2612,7 @@
 "index_reference": "32001014",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;não nos castigues com a morte, por tirarmos a vida deste homem&quot;.</strong></p><p>Essas duas frases significam basicamente a mesma coisa. A segunda enfatiza o significado da primeira ao repetir a mesma ideia com palavras diferentes. Se for útil para seus leitores, você pode conectar as frases com uma palavra diferente de <strong>e</strong> para mostrar que a segunda frase está repetindo a primeira, não dizendo algo adicional. Tradução alternativa: “Por favor, não nos deixe perecer por causa da vida deste homem; isto é, não ponha sangue inocente sobre nós”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
+"content": "<p><span style='direction: rtl;'>אַל־נָ֣א נֹאבְדָ֗ה בְּ⁠נֶ֨פֶשׁ֙ הָ⁠אִ֣ישׁ הַ⁠זֶּ֔ה וְ⁠אַל־תִּתֵּ֥ן עָלֵ֖י⁠נוּ דָּ֣ם נָקִ֑יא</span></p><p><strong>&quot;não nos castigues com a morte, por tirarmos a vida deste homem&quot;.</strong></p><p>Essas duas frases significam basicamente a mesma coisa. A segunda enfatiza o significado da primeira ao repetir a mesma ideia com palavras diferentes. Se for útil para seus leitores, você pode conectar as frases com uma palavra diferente de <strong>e</strong> para mostrar que a segunda frase está repetindo a primeira, não dizendo algo adicional. Tradução alternativa: “Por favor, não nos deixe perecer por causa da vida deste homem; isto é, não ponha sangue inocente sobre nós”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2357,7 +2631,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "exempt"
+}
+]
 }
 },
 {
@@ -2369,7 +2658,7 @@
 "index_reference": "32001015",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;logo o mar se acalmou&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>e cessou o mar da sua fúria</strong>. Aqui, <strong>o mar</strong> é descrito como se fosse uma pessoa que pudesse se enfurecer. Se for útil em seu idioma, você pode expressar o significado de forma clara. Tradução alternativa: “o mar parou de se agitar violentamente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">Personificação.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּעֲמֹ֥ד הַ⁠יָּ֖ם מִ⁠זַּעְפּֽ⁠וֹ</span></p><p><strong>&quot;logo o mar se acalmou&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>e cessou o mar da sua fúria</strong>. Aqui, <strong>o mar</strong> é descrito como se fosse uma pessoa que pudesse se enfurecer. Se for útil em seu idioma, você pode expressar o significado de forma clara. Tradução alternativa: “o mar parou de se agitar violentamente”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26716\" data-resourceType=\"UWTranslationManual\">Personificação.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2380,7 +2669,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+}
+]
 }
 },
 {
@@ -2458,18 +2755,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "slaughtering"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "slaughtering"
 }
 ]
 }
@@ -2518,18 +2815,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "slaughtering"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "slaughtering"
 }
 ]
 }
@@ -2543,7 +2840,7 @@
 "index_reference": "32001017",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;O Senhor ordenou que um grande peixe engolisse Jonas. E ele ficou dentro do peixe três dias e três noites&quot;.</strong></p><p>Algumas versões numeram este versículo como o primeiro do capítulo 2. Você pode preferir numerar os versículos de acordo com a principal versão que seu grupo linguístico utiliza.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִ⁠בְלֹ֖עַ אֶת־יוֹנָ֑ה וַ⁠יְהִ֤י יוֹנָה֙ בִּ⁠מְעֵ֣י הַ⁠דָּ֔ג שְׁלֹשָׁ֥ה יָמִ֖ים וּ⁠שְׁלֹשָׁ֥ה לֵילֽוֹת</span></p><p><strong>&quot;O Senhor ordenou que um grande peixe engolisse Jonas. E ele ficou dentro do peixe três dias e três noites&quot;.</strong></p><p>Algumas versões numeram este versículo como o primeiro do capítulo 2. Você pode preferir numerar os versículos de acordo com a principal versão que seu grupo linguístico utiliza.</p>",
 "associations": {
 "passage": [
 {
@@ -2554,7 +2851,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fish"
+}
+]
 }
 },
 {
@@ -2566,7 +2885,7 @@
 "index_reference": "32001017",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;O Senhor ordenou que um grande peixe engolisse Jonas&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Agora o Senhor designou um grande peixe para engolir Jonas</strong>. O autor está utilizando a palavra traduzida <strong>Agora</strong> para introduzir um novo evento na história. Use uma palavra, frase ou outro método em seu idioma que soe natural para introduzir um novo evento. Este novo evento inicia a próxima parte da história, onde Deus salva Jonas do mar, e Jonas faz uma oração.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן יְהוָה֙ דָּ֣ג גָּד֔וֹל לִ⁠בְלֹ֖עַ אֶת־יוֹנָ֑ה</span></p><p><strong>&quot;O Senhor ordenou que um grande peixe engolisse Jonas&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>Agora o Senhor designou um grande peixe para engolir Jonas</strong>. O autor está utilizando a palavra traduzida <strong>Agora</strong> para introduzir um novo evento na história. Use uma palavra, frase ou outro método em seu idioma que soe natural para introduzir um novo evento. Este novo evento inicia a próxima parte da história, onde Deus salva Jonas do mar, e Jonas faz uma oração.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2585,7 +2904,29 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fish"
+}
+]
 }
 },
 {
@@ -2655,18 +2996,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "fauna:Fish",
@@ -2687,7 +3028,7 @@
 "index_reference": "32002002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus&quot;.</strong></p><p>No texto original este versículo se inicia com &quot;E ele disse:&quot;. Na versão NTLH, a expressão <strong>dizendo</strong> foi colocada no versículo 1. Você pode manter isso como na NTLH ou colocar no versículo 2, como a ARC faz. Tradução alternativa: &quot;Jonas falou&quot;.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יֹּ֗אמֶר</span></p><p><strong>&quot;Ó Senhor Deus&quot;.</strong></p><p>No texto original este versículo se inicia com &quot;E ele disse:&quot;. Na versão NTLH, a expressão <strong>dizendo</strong> foi colocada no versículo 1. Você pode manter isso como na NTLH ou colocar no versículo 2, como a ARC faz. Tradução alternativa: &quot;Jonas falou&quot;.</p>",
 "associations": {
 "passage": [
 {
@@ -2698,7 +3039,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2710,7 +3066,7 @@
 "index_reference": "32002002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus, na minha aflição clamei por socorro, e tu me respondeste&quot;.</strong></p><p>Esta é uma linguagem poética. Se o seu idioma tiver uma forma de indicar poesia, você pode usá-la aqui. Esta linha inicia um poema que descreve a experiência de Jonas no peixe, sua oração e a resposta de Deus. O poema descreve esses eventos de um tempo após já terem ocorrido.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26836\" data-resourceType=\"UWTranslationManual\">Poesia.</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי</span></p><p><strong>&quot;Ó Senhor Deus, na minha aflição clamei por socorro, e tu me respondeste&quot;.</strong></p><p>Esta é uma linguagem poética. Se o seu idioma tiver uma forma de indicar poesia, você pode usá-la aqui. Esta linha inicia um poema que descreve a experiência de Jonas no peixe, sua oração e a resposta de Deus. O poema descreve esses eventos de um tempo após já terem ocorrido.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26836\" data-resourceType=\"UWTranslationManual\">Poesia.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2729,7 +3085,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2741,7 +3112,7 @@
 "index_reference": "32002002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus, na minha aflição clamei por socorro, e tu me respondeste&quot;.</strong></p><p>Neste poema, que também é uma oração, Jonas se refere a Deus principalmente na segunda pessoa (usando &quot;tu&quot;), mas no texto original também se refere a Deus na terceira pessoa (usando &quot;ele&quot;). Se isso não for natural em seu idioma, você pode usar a forma da segunda pessoa ao longo de todo poema. Tradução alternativa: &quot;Na minha angústia, clamei ao Senhor e ele me respondeu&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">Primeira, segunda ou terceira pessoa.</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי</span></p><p><strong>&quot;Ó Senhor Deus, na minha aflição clamei por socorro, e tu me respondeste&quot;.</strong></p><p>Neste poema, que também é uma oração, Jonas se refere a Deus principalmente na segunda pessoa (usando &quot;tu&quot;), mas no texto original também se refere a Deus na terceira pessoa (usando &quot;ele&quot;). Se isso não for natural em seu idioma, você pode usar a forma da segunda pessoa ao longo de todo poema. Tradução alternativa: &quot;Na minha angústia, clamei ao Senhor e ele me respondeu&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26670\" data-resourceType=\"UWTranslationManual\">Primeira, segunda ou terceira pessoa.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2752,7 +3123,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2777,18 +3163,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2823,18 +3209,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2848,7 +3234,7 @@
 "index_reference": "32002002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus, na minha aflição clamei por socorro, e tu me respondeste; do fundo do mundo dos mortos, gritei pedindo socorro, e tu ouviste a minha voz&quot;.</strong></p><p>As duas metades deste versículo significam basicamente a mesma coisa. A segunda enfatiza o significado da primeira ao repetir a mesma ideia com palavras diferentes. Se for útil para seus leitores, você pode conectar as frases de uma maneira que mostre que a segunda frase está repetindo a primeira, sem acrescentar algo novo. Tradução alternativa: “Clamei ao Senhor em meu sofrimento, e ele me respondeu; ou seja, do ventre do sheol eu clamei, e você ouviu minha voz”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
+"content": "<p><span style='direction: rtl;'>קָ֠רָאתִי מִ⁠צָּ֥רָה לִ֛⁠י אֶל־יְהוָ֖ה וַֽ⁠יַּעֲנֵ֑⁠נִי מִ⁠בֶּ֧טֶן שְׁא֛וֹל שִׁוַּ֖עְתִּי שָׁמַ֥עְתָּ קוֹלִֽ⁠י</span></p><p><strong>&quot;Ó Senhor Deus, na minha aflição clamei por socorro, e tu me respondeste; do fundo do mundo dos mortos, gritei pedindo socorro, e tu ouviste a minha voz&quot;.</strong></p><p>As duas metades deste versículo significam basicamente a mesma coisa. A segunda enfatiza o significado da primeira ao repetir a mesma ideia com palavras diferentes. Se for útil para seus leitores, você pode conectar as frases de uma maneira que mostre que a segunda frase está repetindo a primeira, sem acrescentar algo novo. Tradução alternativa: “Clamei ao Senhor em meu sofrimento, e ele me respondeu; ou seja, do ventre do sheol eu clamei, e você ouviu minha voz”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -2867,7 +3253,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -2900,18 +3301,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2946,18 +3347,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -2994,7 +3395,7 @@
 "index_reference": "32002003",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>Ali as águas me cercavam por todos os lados&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>e a corrente me cercou</strong>. Tradução alternativa: “e a água do mar fluiu ao meu redor”.</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נָהָ֖ר יְסֹבְבֵ֑⁠נִי</span></p><p><strong>Ali as águas me cercavam por todos os lados&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>e a corrente me cercou</strong>. Tradução alternativa: “e a água do mar fluiu ao meu redor”.</p>",
 "associations": {
 "passage": [
 {
@@ -3234,7 +3635,7 @@
 "index_reference": "32002005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;As águas vieram sobre mim e me sufocaram; o mar me cobriu completamente&quot;.</strong></p><p>Essas duas frases significam basicamente a mesma coisa. A segunda enfatiza o significado da primeira ao repetir a mesma ideia com palavras diferentes. Se for útil para seus leitores, você pode conectar as frases de uma forma que mostre que a segunda frase está repetindo a primeira, não acrescentando algo novo. Tradução alternativa: “A água havia se fechado ao meu redor até a vida; de fato, o abismo estava me cercando”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲפָפ֤וּ⁠נִי מַ֨יִם֙ עַד־נֶ֔פֶשׁ תְּה֖וֹם יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;As águas vieram sobre mim e me sufocaram; o mar me cobriu completamente&quot;.</strong></p><p>Essas duas frases significam basicamente a mesma coisa. A segunda enfatiza o significado da primeira ao repetir a mesma ideia com palavras diferentes. Se for útil para seus leitores, você pode conectar as frases de uma forma que mostre que a segunda frase está repetindo a primeira, não acrescentando algo novo. Tradução alternativa: “A água havia se fechado ao meu redor até a vida; de fato, o abismo estava me cercando”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26713\" data-resourceType=\"UWTranslationManual\">Paralelismo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3253,7 +3654,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+}
+]
 }
 },
 {
@@ -3319,7 +3728,7 @@
 "index_reference": "32002005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;e me sufocaram&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>o abismo me rodeou</strong>. Tradução alternativa: “águas profundas estavam ao meu redor”.</p>",
+"content": "<p><span style='direction: rtl;'>תְּה֖וֹם יְסֹבְבֵ֑⁠נִי</span></p><p><strong>&quot;e me sufocaram&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>o abismo me rodeou</strong>. Tradução alternativa: “águas profundas estavam ao meu redor”.</p>",
 "associations": {
 "passage": [
 {
@@ -3330,7 +3739,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+}
+]
 }
 },
 {
@@ -3373,7 +3790,7 @@
 "index_reference": "32002006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Desci até a raiz das montanhas, desci à terra que tem o portão trancado para sempre&quot;.</strong></p><p>Aqui, Jonas está falando da <strong>terra</strong> debaixo da água como se tivesse um <strong>portão</strong>, como uma prisão. Se for útil no seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “a terra era como uma prisão que estava prestes a me trancar para sempre”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><span style='direction: rtl;'>הָ⁠אָ֛רֶץ בְּרִחֶ֥י⁠הָ בַעֲדִ֖⁠י לְ⁠עוֹלָ֑ם</span></p><p><strong>&quot;Desci até a raiz das montanhas, desci à terra que tem o portão trancado para sempre&quot;.</strong></p><p>Aqui, Jonas está falando da <strong>terra</strong> debaixo da água como se tivesse um <strong>portão</strong>, como uma prisão. Se for útil no seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “a terra era como uma prisão que estava prestes a me trancar para sempre”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3392,7 +3809,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
+}
+]
 }
 },
 {
@@ -3425,18 +3857,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3471,18 +3903,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3509,18 +3941,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3555,18 +3987,18 @@
 ],
 "acai": [
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Hell"
 }
 ]
 }
@@ -3650,7 +4082,7 @@
 "index_reference": "32002007",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;e a minha oração chegou a ti, no teu santo Templo&quot;.</strong></p><p>Jonas fala como se sua <strong>oração</strong> pudesse chegar até Deus e seu templo. Isso significa que Deus ouviu sua oração e respondeu. Se for útil em seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “então você, em seu santo templo, ouviu minha oração”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠תָּב֤וֹא אֵלֶ֨י⁠ךָ֙ תְּפִלָּתִ֔⁠י אֶל־הֵיכַ֖ל קָדְשֶֽׁ⁠ךָ</span></p><p><strong>&quot;e a minha oração chegou a ti, no teu santo Templo&quot;.</strong></p><p>Jonas fala como se sua <strong>oração</strong> pudesse chegar até Deus e seu templo. Isso significa que Deus ouviu sua oração e respondeu. Se for útil em seu idioma, você pode declarar o significado de forma clara. Tradução alternativa: “então você, em seu santo templo, ouviu minha oração”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26706\" data-resourceType=\"UWTranslationManual\">Metáfora.</span></p>",
 "associations": {
 "passage": [
 {
@@ -3669,7 +4101,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -3811,20 +4251,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3837,6 +4263,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "praise"
 }
 ]
 }
@@ -3863,20 +4303,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3889,6 +4315,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "praise"
 }
 ]
 }
@@ -3915,20 +4355,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -3941,6 +4367,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "praise"
 }
 ]
 }
@@ -3975,20 +4415,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4001,6 +4427,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "praise"
 }
 ]
 }
@@ -4035,20 +4475,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "praise"
-},
-{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.6,
@@ -4061,6 +4487,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "praise"
 }
 ]
 }
@@ -4087,18 +4527,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "fauna:Fish",
@@ -4140,18 +4580,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "fauna:Fish",
@@ -4193,18 +4633,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "fauna:Fish",
@@ -4256,7 +4696,7 @@
 "index_reference": "32003001",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;o Senhor Deus disse a Jonas&quot;.</strong></p><p>Esta frase introduz a segunda metade da história de Jonas. A mesma frase introduziu a primeira metade da história em <a href=\"https://ref.ly/Jonah1:1\">1.1</a>. Veja como você a traduziu lá.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֧י דְבַר־יְהוָ֛ה</span></p><p><strong>&quot;o Senhor Deus disse a Jonas&quot;.</strong></p><p>Esta frase introduz a segunda metade da história de Jonas. A mesma frase introduziu a primeira metade da história em <a href=\"https://ref.ly/Jonah1:1\">1.1</a>. Veja como você a traduziu lá.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26833\" data-resourceType=\"UWTranslationManual\">Introdução de um novo evento.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4275,7 +4715,29 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -4287,7 +4749,7 @@
 "index_reference": "32003001",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;o Senhor Deus disse a Jonas&quot;.</strong></p><p>Esta é uma expressão idiomática que significa que Yahweh falou de alguma forma. Veja como você traduziu isso em <a href=\"https://ref.ly/Jonah1:1\">1.1</a>. Tradução alternativa: “Então o Senhor Deus transmitiu sua mensagem”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְהִ֧י דְבַר־יְהוָ֛ה</span></p><p><strong>&quot;o Senhor Deus disse a Jonas&quot;.</strong></p><p>Esta é uma expressão idiomática que significa que Yahweh falou de alguma forma. Veja como você traduziu isso em <a href=\"https://ref.ly/Jonah1:1\">1.1</a>. Tradução alternativa: “Então o Senhor Deus transmitiu sua mensagem”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4306,7 +4768,29 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+}
+]
 }
 },
 {
@@ -4388,7 +4872,7 @@
 "index_reference": "32003002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;e anuncie ao povo de lá a mensagem que eu vou dar a você&quot;.</strong></p><p>Aqui, o pronome <strong>de lá</strong> refere-se à cidade de <strong>Nínive</strong>, que representa as pessoas que vivem lá. Se for útil no seu idioma, você pode usar uma expressão equivalente ou declarar o significado de forma clara. Tradução alternativa: “e diga aos ninivitas o que eu lhe disser”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">Metonímia.</span></p>",
+"content": "<p><span style='direction: rtl;'>וִּ⁠קְרָ֤א אֵלֶ֨י⁠הָ֙ אֶת־הַ⁠קְּרִיאָ֔ה אֲשֶׁ֥ר אָנֹכִ֖י דֹּבֵ֥ר אֵלֶֽי⁠ךָ</span></p><p><strong>&quot;e anuncie ao povo de lá a mensagem que eu vou dar a você&quot;.</strong></p><p>Aqui, o pronome <strong>de lá</strong> refere-se à cidade de <strong>Nínive</strong>, que representa as pessoas que vivem lá. Se for útil no seu idioma, você pode usar uma expressão equivalente ou declarar o significado de forma clara. Tradução alternativa: “e diga aos ninivitas o que eu lhe disser”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26707\" data-resourceType=\"UWTranslationManual\">Metonímia.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4399,7 +4883,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+}
+]
 }
 },
 {
@@ -4432,11 +4924,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Nínive"
+"preferred_label": "Jonas"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4453,11 +4945,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jonas"
+"preferred_label": "Nínive"
 }
 ]
 }
@@ -4492,11 +4984,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Nínive"
+"preferred_label": "Jonas"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4513,11 +5005,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jonas"
+"preferred_label": "Nínive"
 }
 ]
 }
@@ -4531,7 +5023,7 @@
 "index_reference": "32003003",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Nínive era tão grande, que uma pessoa levava três dias para atravessá-la a pé&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> era, pois, Nínive uma grande cidade, de três dias de caminho</strong>. A expressão <strong>era, pois </strong>fornece informações de fundo sobre a cidade de Nínive para ajudar os leitores a entenderem o que acontece a seguir na história.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de fundo.</span></p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠נִֽינְוֵ֗ה הָיְתָ֤ה עִיר־גְּדוֹלָה֙ לֵֽ⁠אלֹהִ֔ים מַהֲלַ֖ךְ שְׁלֹ֥שֶׁת יָמִֽים</span></p><p><strong>&quot;Nínive era tão grande, que uma pessoa levava três dias para atravessá-la a pé&quot;.</strong></p><p>Uma tradução mais literal vai dizer:<strong> era, pois, Nínive uma grande cidade, de três dias de caminho</strong>. A expressão <strong>era, pois </strong>fornece informações de fundo sobre a cidade de Nínive para ajudar os leitores a entenderem o que acontece a seguir na história.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26829\" data-resourceType=\"UWTranslationManual\">Informações de fundo.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4550,7 +5042,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+}
+]
 }
 },
 {
@@ -4583,11 +5104,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Nínive"
+"preferred_label": "Jonas"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4604,11 +5125,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jonas"
+"preferred_label": "Nínive"
 }
 ]
 }
@@ -4643,11 +5164,11 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Nínive"
+"preferred_label": "Jonas"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -4664,11 +5185,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jonas"
+"preferred_label": "Nínive"
 }
 ]
 }
@@ -4682,7 +5203,7 @@
 "index_reference": "32003004",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Jonas entrou na cidade, andou um dia inteiro e então começou a anunciar&quot;.</strong></p><p>A frase <strong>andou um dia inteiro</strong> pode significar: (1) Jonas caminhou um dia até a cidade e então começou a clamar. Tradução alternativa: “Então Jonas caminhou até a cidade por um dia, e então ele clamou”; (2) enquanto Jonas estava caminhando pela cidade no primeiro dia, ele começou a clamar. Tradução alternativa: “Então Jonas começou a caminhar pela cidade por um dia, e enquanto ele ia, ele clamava”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֤חֶל יוֹנָה֙ לָ⁠ב֣וֹא בָ⁠עִ֔יר מַהֲלַ֖ךְ י֣וֹם אֶחָ֑ד וַ⁠יִּקְרָא֙</span></p><p><strong>&quot;Jonas entrou na cidade, andou um dia inteiro e então começou a anunciar&quot;.</strong></p><p>A frase <strong>andou um dia inteiro</strong> pode significar: (1) Jonas caminhou um dia até a cidade e então começou a clamar. Tradução alternativa: “Então Jonas caminhou até a cidade por um dia, e então ele clamou”; (2) enquanto Jonas estava caminhando pela cidade no primeiro dia, ele começou a clamar. Tradução alternativa: “Então Jonas começou a caminhar pela cidade por um dia, e enquanto ele ia, ele clamava”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -4693,7 +5214,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+}
+]
 }
 },
 {
@@ -4718,18 +5254,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Nínive"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
 }
 ]
 }
@@ -4743,7 +5279,7 @@
 "index_reference": "32003004",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Dentro de quarenta dias&quot;.</strong></p><p>Tradução alternativa: “Após 40 dias” ou “Quando 40 dias tiverem se passado”.</p>",
+"content": "<p><span style='direction: rtl;'>ע֚וֹד אַרְבָּעִ֣ים י֔וֹם</span></p><p><strong>&quot;Dentro de quarenta dias&quot;.</strong></p><p>Tradução alternativa: “Após 40 dias” ou “Quando 40 dias tiverem se passado”.</p>",
 "associations": {
 "passage": [
 {
@@ -4754,7 +5290,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+}
+]
 }
 },
 {
@@ -4787,18 +5338,18 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Nínive"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
 }
 ]
 }
@@ -4833,13 +5384,6 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Nínive"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4852,6 +5396,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
 },
 {
 "id": "realia:Sackcloth",
@@ -4893,13 +5444,6 @@
 ],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Nínive"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4912,6 +5456,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
 },
 {
 "id": "realia:Sackcloth",
@@ -4932,7 +5483,7 @@
 "index_reference": "32003005",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;E todos, desde os mais importantes até os mais humildes&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>desde o maior até ao menor</strong>. Tradução alternativa: “das pessoas mais significativas às menos significativas” ou “incluindo todas as pessoas, sejam elas importantes ou não”.</p>",
+"content": "<p><span style='direction: rtl;'>מִ⁠גְּדוֹלָ֖⁠ם וְ⁠עַד־קְטַנָּֽ⁠ם</span></p><p><strong>&quot;E todos, desde os mais importantes até os mais humildes&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>desde o maior até ao menor</strong>. Tradução alternativa: “das pessoas mais significativas às menos significativas” ou “incluindo todas as pessoas, sejam elas importantes ou não”.</p>",
 "associations": {
 "passage": [
 {
@@ -4943,7 +5494,36 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Believe In"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+}
+]
 }
 },
 {
@@ -5007,7 +5587,7 @@
 "index_reference": "32003006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;levantou-se do trono, tirou o manto&quot;.</strong></p><p>O fato de o rei ter se<strong> levantado do trono e tirado seu manto</strong> demonstra que ele estava agindo com humildade. O trono e o manto real eram ambos símbolos de sua autoridade e poder como rei de uma nação poderosa. Se o significado dessas ações não estiver claro para seus leitores, você pode explicá-lo no texto ou em uma nota de rodapé. Tradução alternativa: “e ele deixou seu trono real e removeu seu manto real”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">Ação simbólica.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יָּ֨קָם֙ מִ⁠כִּסְא֔⁠וֹ וַ⁠יַּעֲבֵ֥ר אַדַּרְתּ֖⁠וֹ מֵֽ⁠עָלָ֑י⁠ו</span></p><p><strong>&quot;levantou-se do trono, tirou o manto&quot;.</strong></p><p>O fato de o rei ter se<strong> levantado do trono e tirado seu manto</strong> demonstra que ele estava agindo com humildade. O trono e o manto real eram ambos símbolos de sua autoridade e poder como rei de uma nação poderosa. Se o significado dessas ações não estiver claro para seus leitores, você pode explicá-lo no texto ou em uma nota de rodapé. Tradução alternativa: “e ele deixou seu trono real e removeu seu manto real”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">Ação simbólica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5026,7 +5606,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
@@ -5090,7 +5699,7 @@
 "index_reference": "32003006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;vestiu uma roupa feita de pano grosseiro e sentou-se sobre cinzas&quot;.</strong></p><p>Os atos de vestir <strong>roupa de pano grosseiro</strong> e sentar <strong>sobre as cinzas</strong> são ações simbólicas que demonstram profundo pesar e arrependimento. Se isso não estiver claro para seus leitores, você pode explicar o significado dessas ações no texto ou em uma nota de rodapé. Tradução alternativa: &quot;e ele se cobriu com roupa de saco e sentou-se entre as cinzas para demonstrar seu profundo pesar e arrependimento&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">Ação simbólica.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְכַ֣ס שַׂ֔ק וַ⁠יֵּ֖שֶׁב עַל־הָ⁠אֵֽפֶר</span></p><p><strong>&quot;vestiu uma roupa feita de pano grosseiro e sentou-se sobre cinzas&quot;.</strong></p><p>Os atos de vestir <strong>roupa de pano grosseiro</strong> e sentar <strong>sobre as cinzas</strong> são ações simbólicas que demonstram profundo pesar e arrependimento. Se isso não estiver claro para seus leitores, você pode explicar o significado dessas ações no texto ou em uma nota de rodapé. Tradução alternativa: &quot;e ele se cobriu com roupa de saco e sentou-se entre as cinzas para demonstrar seu profundo pesar e arrependimento&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26816\" data-resourceType=\"UWTranslationManual\">Ação simbólica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -5109,7 +5718,36 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
@@ -5141,11 +5779,56 @@
 "preferred_label": "Nínive"
 },
 {
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Flock"
+}
+]
+}
+},
+{
+"content_id": "851946",
+"reference_id": 190599,
+"version": "1.0.4",
+"title": "Jonas 3.7 (#3)",
+"media_type": "Text",
+"index_reference": "32003007",
+"language": "por",
+"review_level": "None",
+"content": "<p><span style='direction: rtl;'>מִ⁠טַּ֧עַם הַ⁠מֶּ֛לֶךְ וּ⁠גְדֹלָ֖י⁠ו</span></p><p><strong>&quot;Esta é uma ordem do rei e dos seus ministros&quot;.</strong></p><p>Tradução alternativa: “um comando com a autoridade plena do rei e seus oficiais”.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "32003007",
+"start_ref_usfm": "JON 3:7",
+"end_ref": "32003007",
+"end_ref_usfm": "JON 3:7"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
 },
 {
 "id": "fauna:Goat",
@@ -5160,31 +5843,15 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
-}
-]
-}
 },
 {
-"content_id": "851946",
-"reference_id": 190599,
-"version": "1.0.4",
-"title": "Jonas 3.7 (#3)",
-"media_type": "Text",
-"index_reference": "32003007",
-"language": "por",
-"review_level": "None",
-"content": "<p><strong>&quot;Esta é uma ordem do rei e dos seus ministros&quot;.</strong></p><p>Tradução alternativa: “um comando com a autoridade plena do rei e seus oficiais”.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "32003007",
-"start_ref_usfm": "JON 3:7",
-"end_ref": "32003007",
-"end_ref_usfm": "JON 3:7"
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
-],
-"resource": [],
-"acai": []
+]
 }
 },
 {
@@ -5224,13 +5891,6 @@
 "preferred_label": "Nínive"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5243,6 +5903,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5276,13 +5943,6 @@
 "preferred_label": "Nínive"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5295,6 +5955,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5328,13 +5995,6 @@
 "preferred_label": "Nínive"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
@@ -5347,6 +6007,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -5380,18 +6047,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5433,18 +6100,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5478,18 +6145,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5531,18 +6198,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
 }
 ]
 }
@@ -5704,7 +6371,7 @@
 "index_reference": "32003010",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Deus viu o que eles fizeram e como abandonaram os seus maus caminhos&quot;.</strong></p><p>Tradução alternativa: “Deus viu que eles cessaram suas ações malignas”.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יַּ֤רְא הָֽ⁠אֱלֹהִים֙ אֶֽת־מַ֣עֲשֵׂי⁠הֶ֔ם כִּי־שָׁ֖בוּ מִ⁠דַּרְכָּ֣⁠ם הָ⁠רָעָ֑ה</span></p><p><strong>&quot;Deus viu o que eles fizeram e como abandonaram os seus maus caminhos&quot;.</strong></p><p>Tradução alternativa: “Deus viu que eles cessaram suas ações malignas”.</p>",
 "associations": {
 "passage": [
 {
@@ -5715,7 +6382,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -6111,11 +6786,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "gracious"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6125,18 +6800,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Társis"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "gracious"
 },
 {
 "id": "keyterm:Kindness",
@@ -6157,7 +6832,7 @@
 "index_reference": "32004002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus, eu não disse, antes de deixar a minha terra, que era isso mesmo que ias fazer?&quot;.</strong></p><p>Jonas usou essa pergunta retórica para expressar a Deus o quanto estava zangado. Se no seu idioma não se usa a forma de pergunta para esse propósito, você pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Senhor, foi isso que eu disse quando ainda estava no meu próprio país!”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהוָה֙ הֲ⁠לוֹא־זֶ֣ה דְבָרִ֗⁠י עַד־הֱיוֹתִ⁠י֙ עַל־אַדְמָתִ֔⁠י</span></p><p><strong>&quot;Ó Senhor Deus, eu não disse, antes de deixar a minha terra, que era isso mesmo que ias fazer?&quot;.</strong></p><p>Jonas usou essa pergunta retórica para expressar a Deus o quanto estava zangado. Se no seu idioma não se usa a forma de pergunta para esse propósito, você pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Senhor, foi isso que eu disse quando ainda estava no meu próprio país!”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6176,7 +6851,43 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "gracious"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Társis"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "kindness"
+}
+]
 }
 },
 {
@@ -6188,7 +6899,7 @@
 "index_reference": "32004002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Ó Senhor Deus, eu não disse, antes de deixar a minha terra, que era isso mesmo que ias fazer?&quot;.</strong></p><p>A implicação é que Jonas previu corretamente o que aconteceria. Você pode incluir esta informação se isso fosse útil para seus leitores. Tradução alternativa: “Senhor, quando eu ainda estava no meu próprio país, não disse que se eu avisasse o povo de Nínive, eles poderiam se arrepender e você não os destruiria?”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
+"content": "<p><span style='direction: rtl;'>יְהוָה֙ הֲ⁠לוֹא־זֶ֣ה דְבָרִ֗⁠י עַד־הֱיוֹתִ⁠י֙ עַל־אַדְמָתִ֔⁠י</span></p><p><strong>&quot;Ó Senhor Deus, eu não disse, antes de deixar a minha terra, que era isso mesmo que ias fazer?&quot;.</strong></p><p>A implicação é que Jonas previu corretamente o que aconteceria. Você pode incluir esta informação se isso fosse útil para seus leitores. Tradução alternativa: “Senhor, quando eu ainda estava no meu próprio país, não disse que se eu avisasse o povo de Nínive, eles poderiam se arrepender e você não os destruiria?”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26687\" data-resourceType=\"UWTranslationManual\">Conhecimento presumido e informações implícitas.</span></p>",
 "associations": {
 "passage": [
 {
@@ -6207,7 +6918,43 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "gracious"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Társis"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "kindness"
+}
+]
 }
 },
 {
@@ -6240,11 +6987,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "gracious"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6254,18 +7001,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Társis"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "gracious"
 },
 {
 "id": "keyterm:Kindness",
@@ -6286,7 +7033,7 @@
 "index_reference": "32004002",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Sabia que és sempre paciente e bondoso&quot;.</strong></p><p>Tradução alternativa: “e muito fiel” ou “e repleto de amor pelo seu povo”.</p>",
+"content": "<p><span style='direction: rtl;'>וְ⁠רַב־חֶ֔סֶד</span></p><p><strong>&quot;Sabia que és sempre paciente e bondoso&quot;.</strong></p><p>Tradução alternativa: “e muito fiel” ou “e repleto de amor pelo seu povo”.</p>",
 "associations": {
 "passage": [
 {
@@ -6297,7 +7044,43 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Generous",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "gracious"
+},
+{
+"id": "keyterm:Compassionate",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Compassionate"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Társis"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "kindness"
+}
+]
 }
 },
 {
@@ -6330,11 +7113,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "gracious"
 },
 {
 "id": "keyterm:Compassionate",
@@ -6344,18 +7127,18 @@
 "preferred_label": "Compassionate"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "place:Tarshish",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Társis"
-},
-{
-"id": "keyterm:Generous",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "gracious"
 },
 {
 "id": "keyterm:Kindness",
@@ -6594,7 +7377,7 @@
 "index_reference": "32004006",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;uma planta por cima de Jonas, para lhe dar um pouco de sombra&quot;.</strong></p><p>Tradução alternativa: “sobre a cabeça de Jonas como sombra”.</p>",
+"content": "<p><span style='direction: rtl;'>מֵ⁠עַ֣ל לְ⁠יוֹנָ֗ה לִֽ⁠הְי֥וֹת צֵל֙ עַל־רֹאשׁ֔⁠וֹ</span></p><p><strong>&quot;uma planta por cima de Jonas, para lhe dar um pouco de sombra&quot;.</strong></p><p>Tradução alternativa: “sobre a cabeça de Jonas como sombra”.</p>",
 "associations": {
 "passage": [
 {
@@ -6605,7 +7388,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -6637,18 +7442,18 @@
 "preferred_label": "Castor Oil"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6690,18 +7495,18 @@
 "preferred_label": "Castor Oil"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6715,7 +7520,7 @@
 "index_reference": "32004007",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;por ordem de Deus um bicho atacou a planta&quot;.</strong></p><p>Tradução alternativa: “então Deus mandou um verme”.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יְמַ֤ן הָֽ⁠אֱלֹהִים֙ תּוֹלַ֔עַת</span></p><p><strong>&quot;por ordem de Deus um bicho atacou a planta&quot;.</strong></p><p>Tradução alternativa: “então Deus mandou um verme”.</p>",
 "associations": {
 "passage": [
 {
@@ -6726,7 +7531,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "fauna:Maggot",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Worm"
+}
+]
 }
 },
 {
@@ -6804,18 +7631,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6850,18 +7677,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6888,18 +7715,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6934,18 +7761,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6959,7 +7786,7 @@
 "index_reference": "32004008",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Jonas quase desmaiou&quot;.</strong></p><p>Tradução alternativa: “e ele ficou muito fraco” ou “e ele perdeu a força”.</p>",
+"content": "<p><span style='direction: rtl;'>וַ⁠יִּתְעַלָּ֑ף</span></p><p><strong>&quot;Jonas quase desmaiou&quot;.</strong></p><p>Tradução alternativa: “e ele ficou muito fraco” ou “e ele perdeu a força”.</p>",
 "associations": {
 "passage": [
 {
@@ -6970,7 +7797,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -6995,18 +7837,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -7033,18 +7875,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -7079,18 +7921,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "flora:CastorOil",
@@ -7111,7 +7953,7 @@
 "index_reference": "32004009",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;ficar com raiva&quot;</strong> - <strong>&quot;estar com raiva&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>você esteja queimando... é claro que eu tenho razão por queimar</strong>. As frases <strong>você esteja queimando</strong> e <strong>por queimar </strong>são exemplos de uma expressão idiomática que descreve a raiva de Jonas como se fosse um fogo queimando dentro dele. Veja como você traduziu essa expressão em <a href=\"https://ref.ly/Jonah4:1\">4.1</a>.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>חָרָֽה־לְ⁠ךָ֖ &amp; חָֽרָה־לִ֖⁠י</span></p><p><strong>&quot;ficar com raiva&quot;</strong> - <strong>&quot;estar com raiva&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>você esteja queimando... é claro que eu tenho razão por queimar</strong>. As frases <strong>você esteja queimando</strong> e <strong>por queimar </strong>são exemplos de uma expressão idiomática que descreve a raiva de Jonas como se fosse um fogo queimando dentro dele. Veja como você traduziu essa expressão em <a href=\"https://ref.ly/Jonah4:1\">4.1</a>.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7130,7 +7972,29 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jonas"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "flora:CastorOil",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Castor Oil"
+}
+]
 }
 },
 {
@@ -7280,7 +8144,7 @@
 "index_reference": "32004011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;Então eu, com muito mais razão, devo ter pena da grande cidade de Nínive, onde há mais de cento e vinte mil crianças inocentes e também muitos animais!&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>e não hei de eu ter compaixão da grande cidade de Nínive, em que estão mais de cento e vinte mil homens, que não sabem discernir entre a sua mão direita e a sua mão esquerda, e também muitos animais?</strong> Deus está usando a forma de pergunta para enfatizar sua afirmação de que deve ter compaixão de Nínive. Se você não usaria a forma de pergunta para esse propósito em seu idioma, você pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Certamente devo ter compaixão de Nínive, aquela grande cidade, na qual há mais de 120.000 pessoas que não conseguem distinguir entre a mão direita e a esquerda, e também muitos animais!”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
+"content": "<p><span style='direction: rtl;'>וַֽ⁠אֲנִי֙ לֹ֣א אָח֔וּס עַל־נִינְוֵ֖ה הָ⁠עִ֣יר הַ⁠גְּדוֹלָ֑ה אֲשֶׁ֣ר יֶשׁ־בָּ֡⁠הּ הַרְבֵּה֩ מִֽ⁠שְׁתֵּים־עֶשְׂרֵ֨ה רִבּ֜וֹ אָדָ֗ם אֲשֶׁ֤ר לֹֽא־יָדַע֙ בֵּין־יְמִינ֣⁠וֹ לִ⁠שְׂמֹאל֔⁠וֹ וּ⁠בְהֵמָ֖ה רַבָּֽה</span></p><p><strong>&quot;Então eu, com muito mais razão, devo ter pena da grande cidade de Nínive, onde há mais de cento e vinte mil crianças inocentes e também muitos animais!&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>e não hei de eu ter compaixão da grande cidade de Nínive, em que estão mais de cento e vinte mil homens, que não sabem discernir entre a sua mão direita e a sua mão esquerda, e também muitos animais?</strong> Deus está usando a forma de pergunta para enfatizar sua afirmação de que deve ter compaixão de Nínive. Se você não usaria a forma de pergunta para esse propósito em seu idioma, você pode traduzir isso como uma afirmação ou uma exclamação. Tradução alternativa: “Certamente devo ter compaixão de Nínive, aquela grande cidade, na qual há mais de 120.000 pessoas que não conseguem distinguir entre a mão direita e a esquerda, e também muitos animais!”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26724\" data-resourceType=\"UWTranslationManual\">Pergunta retórica.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7299,7 +8163,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 },
 {
@@ -7349,7 +8228,7 @@
 "index_reference": "32004011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;cento e vinte mil&quot;.</strong></p><p>Tradução alternativa: “120.000”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26806\" data-resourceType=\"UWTranslationManual\">Números.</span></p>",
+"content": "<p><span style='direction: rtl;'>מִֽ⁠שְׁתֵּים־עֶשְׂרֵ֨ה רִבּ֜וֹ</span></p><p><strong>&quot;cento e vinte mil&quot;.</strong></p><p>Tradução alternativa: “120.000”.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26806\" data-resourceType=\"UWTranslationManual\">Números.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7368,7 +8247,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 },
 {
@@ -7380,7 +8274,7 @@
 "index_reference": "32004011",
 "language": "por",
 "review_level": "None",
-"content": "<p><strong>&quot;crianças inocentes e também muitos animais!&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>que não sabem discernir entre a sua mão direita e a sua mão esquerda, e também muitos animais?</strong> Esta expressão idiomática significa &quot;quem não sabe a diferença entre o certo e o errado&quot;. Se esta frase não tiver esse significado em seu idioma, você pode usar uma expressão de seu idioma que tenha esse significado ou declarar o significado de forma clara. Tradução alternativa: &quot;que não sabem a diferença entre o alto e o baixo&quot; ou &quot;que não sabem o que é bom para eles mesmos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
+"content": "<p><span style='direction: rtl;'>אֲשֶׁ֤ר לֹֽא־יָדַע֙ בֵּין־יְמִינ֣⁠וֹ לִ⁠שְׂמֹאל֔⁠וֹ</span></p><p><strong>&quot;crianças inocentes e também muitos animais!&quot;.</strong></p><p>Uma tradução mais literal vai dizer: <strong>que não sabem discernir entre a sua mão direita e a sua mão esquerda, e também muitos animais?</strong> Esta expressão idiomática significa &quot;quem não sabe a diferença entre o certo e o errado&quot;. Se esta frase não tiver esse significado em seu idioma, você pode usar uma expressão de seu idioma que tenha esse significado ou declarar o significado de forma clara. Tradução alternativa: &quot;que não sabem a diferença entre o alto e o baixo&quot; ou &quot;que não sabem o que é bom para eles mesmos&quot;.</p><p>Veja: <span data-bnType=\"resourceReference\" data-resourceId=\"26697\" data-resourceType=\"UWTranslationManual\">Expressão idiomática.</span></p>",
 "associations": {
 "passage": [
 {
@@ -7399,7 +8293,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Nínive"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+}
+]
 }
 }
 ]

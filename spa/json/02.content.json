@@ -179,18 +179,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Egipto"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -1071,7 +1071,7 @@
 "index_reference": "02025023",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;acacias. Su longitud: dos codos, y su ancho: un codo, y su altura: un codo y medio&quot;</strong></p><p>Si sería útil para tus lectores, podrías expresar esto en términos de medidas modernas, ya sea en el texto o en una nota al pie. Un <strong>codo</strong> es aproximadamente 46 centímetros. Para tu referencia, una conversión más precisa al sistema métrico es: 92 centímetros … 46 centímetros … 69 centímetros</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26783\" data-resourceType=\"UWTranslationManual\">Distancia Bíblica</span></p>",
+"content": "<p><span style='direction: rtl;'>אַמָּתַ֤יִם אָרְכּ⁠וֹ֙ וְ⁠אַמָּ֣ה רָחְבּ֔⁠וֹ וְ⁠אַמָּ֥ה וָ⁠חֵ֖צִי קֹמָתֽ⁠וֹ</span></p><p><strong>&quot;acacias. Su longitud: dos codos, y su ancho: un codo, y su altura: un codo y medio&quot;</strong></p><p>Si sería útil para tus lectores, podrías expresar esto en términos de medidas modernas, ya sea en el texto o en una nota al pie. Un <strong>codo</strong> es aproximadamente 46 centímetros. Para tu referencia, una conversión más precisa al sistema métrico es: 92 centímetros … 46 centímetros … 69 centímetros</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26783\" data-resourceType=\"UWTranslationManual\">Distancia Bíblica</span></p>",
 "associations": {
 "passage": [
 {
@@ -1090,7 +1090,22 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Acacia"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cubit"
+}
+]
 }
 },
 {
@@ -1246,7 +1261,7 @@
 "index_reference": "02029031",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;el carnero de consagración&quot;</strong></p><p>El <strong>carnero de consagración</strong> se refiere al segundo carnero, el que se describe en <a href=\"https://ref.ly/Exod29:19\">29:19</a> y siguientes.</p>",
+"content": "<p><span style='direction: rtl;'>אֵ֥יל הַ⁠מִּלֻּאִ֖ים</span></p><p><strong>&quot;el carnero de consagración&quot;</strong></p><p>El <strong>carnero de consagración</strong> se refiere al segundo carnero, el que se describe en <a href=\"https://ref.ly/Exod29:19\">29:19</a> y siguientes.</p>",
 "associations": {
 "passage": [
 {
@@ -1257,7 +1272,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+}
+]
 }
 },
 {
@@ -1307,7 +1344,7 @@
 "index_reference": "02030002",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;será de un codo y&quot;</strong> - <strong>&quot;será de un codo.&quot;</strong> - <strong>&quot;y&quot;</strong> - <strong>&quot;será de dos codos&quot;</strong></p><p>Si sería útil para tus lectores, podrías expresar esto en términos de medidas modernas, ya sea en el texto o en una nota al pie. Un <strong>codo</strong> es aproximadamente 46 cm. Para tu referencia, una conversión más precisa al sistema métrico es: 46 cm … 46 cm … 92 cm</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26783\" data-resourceType=\"UWTranslationManual\">Distancia Bíblica</span></p>",
+"content": "<p><span style='direction: rtl;'>אַמָּ֨ה &amp; וְ⁠אַמָּ֤ה &amp; וְ⁠אַמָּתַ֖יִם</span></p><p><strong>&quot;será de un codo y&quot;</strong> - <strong>&quot;será de un codo.&quot;</strong> - <strong>&quot;y&quot;</strong> - <strong>&quot;será de dos codos&quot;</strong></p><p>Si sería útil para tus lectores, podrías expresar esto en términos de medidas modernas, ya sea en el texto o en una nota al pie. Un <strong>codo</strong> es aproximadamente 46 cm. Para tu referencia, una conversión más precisa al sistema métrico es: 46 cm … 46 cm … 92 cm</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26783\" data-resourceType=\"UWTranslationManual\">Distancia Bíblica</span></p>",
 "associations": {
 "passage": [
 {
@@ -1326,7 +1363,22 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:HornsOfAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Horns of Altar"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cubit"
+}
+]
 }
 },
 {
@@ -1338,7 +1390,7 @@
 "index_reference": "02030015",
 "language": "spa",
 "review_level": "Professional",
-"content": "<p><strong>&quot;del medio shekel&quot;</strong></p><p>Mira cómo tradujiste esto en <a href=\"https://ref.ly/Exod30:13\">Éxodo 30:13</a>.</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26786\" data-resourceType=\"UWTranslationManual\">Dinero Bíblico</span></p>",
+"content": "<p><span style='direction: rtl;'>מִֽ⁠מַּחֲצִ֖ית הַ⁠שָּׁ֑קֶל</span></p><p><strong>&quot;del medio shekel&quot;</strong></p><p>Mira cómo tradujiste esto en <a href=\"https://ref.ly/Exod30:13\">Éxodo 30:13</a>.</p><p>Ver: <span data-bnType=\"resourceReference\" data-resourceId=\"26786\" data-resourceType=\"UWTranslationManual\">Dinero Bíblico</span></p>",
 "associations": {
 "passage": [
 {
@@ -1357,7 +1409,36 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "apaciguar"
+},
+{
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Shekel"
+}
+]
 }
 },
 {
