@@ -35,20 +35,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.375,
@@ -61,6 +47,20 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "amar"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "verdadero"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Live.3",
@@ -109,18 +109,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "amar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -155,13 +155,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dar testimonio"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
@@ -169,11 +162,11 @@
 "preferred_label": "Espíritu"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fidelidad"
+"preferred_label": "dar testimonio"
 },
 {
 "id": "keyterm:Blood",
@@ -181,6 +174,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sangre"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fidelidad"
 },
 {
 "id": "person:Jesus.2",

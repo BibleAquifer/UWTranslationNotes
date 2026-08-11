@@ -19,3 +19,9 @@ The repository is organized by language codes, with each language folder contain
 ## Documentation
 
 For more information about the Aquifer platform, data, and metadata formats, visit the [Aquifer Documentation repository](https://github.com/BibleAquifer/UWTranslationNotes).
+
+## Sources
+
+This edition of _unfoldingWord Translation Notes_ is built on release `v89` of the unfoldingWord family of translation resources.
+
+It is available for download at https://git.door43.org/unfoldingWord/en_tn
