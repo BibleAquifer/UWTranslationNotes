@@ -43,13 +43,6 @@
 "preferred_label": "Media"
 },
 {
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "persa"
-},
-{
 "id": "person:Medan",
 "type": "person",
 "confidence": 0.6,
@@ -57,18 +50,25 @@
 "preferred_label": "Medos"
 },
 {
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Assuero"
-},
-{
 "id": "place:Persia",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Persas"
+},
+{
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "persa"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Assuero"
 }
 ]
 }
@@ -134,25 +134,11 @@
 ],
 "acai": [
 {
-"id": "person:Mordecai.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Mardochêo"
-},
-{
 "id": "person:Kish.4",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Cis"
-},
-{
-"id": "person:Shimei.18",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Semei"
 },
 {
 "id": "person:Jair.4",
@@ -162,11 +148,18 @@
 "preferred_label": "Jair"
 },
 {
-"id": "person:Benjamin",
+"id": "person:Shimei.18",
 "type": "person",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Benjamín"
+"preferred_label": "Semei"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Mardochêo"
 },
 {
 "id": "group:Jews",
@@ -188,6 +181,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Susán"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Benjamín"
 }
 ]
 }
@@ -373,18 +373,18 @@
 ],
 "acai": [
 {
-"id": "person:Mordecai.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Mardochêo"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Mardochêo"
 }
 ]
 }
@@ -419,18 +419,18 @@
 ],
 "acai": [
 {
-"id": "person:Mordecai.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Mardochêo"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Mardochêo"
 }
 ]
 }
@@ -465,18 +465,18 @@
 ],
 "acai": [
 {
-"id": "person:Mordecai.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Mardochêo"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Mardochêo"
 }
 ]
 }
@@ -503,13 +503,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Assuero"
-},
-{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.6,
@@ -517,11 +510,11 @@
 "preferred_label": "Jews"
 },
 {
-"id": "person:Mordecai.2",
+"id": "person:Ahasuerus",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Mardochêo"
+"preferred_label": "Assuero"
 },
 {
 "id": "person:Haman",
@@ -529,6 +522,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Mardochêo"
 }
 ]
 }

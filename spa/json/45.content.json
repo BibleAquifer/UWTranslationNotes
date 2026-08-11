@@ -29,11 +29,11 @@
 ],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Life",
@@ -43,18 +43,18 @@
 "preferred_label": "Life"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "hacer la paz"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Mind",
@@ -110,18 +110,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Mind",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "modo de pensar"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ley"
+},
+{
+"id": "keyterm:Mind",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "modo de pensar"
 }
 ]
 }
@@ -155,11 +155,11 @@
 "preferred_label": "esclavitud"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "temer"
 },
 {
 "id": "deity:Lord",
@@ -169,11 +169,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "temer"
+"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -307,18 +307,18 @@
 ],
 "acai": [
 {
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
 "id": "keyterm:DivineAnswer",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "respuesta divina"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Baal"
 }
 ]
 }
@@ -484,18 +484,18 @@
 ],
 "acai": [
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "nación; gente"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "nación; gente"
 }
 ]
 }
