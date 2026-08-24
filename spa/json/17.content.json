@@ -43,13 +43,6 @@
 "preferred_label": "Media"
 },
 {
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Medos"
-},
-{
 "id": "place:Persia",
 "type": "place",
 "confidence": 0.6,
@@ -62,6 +55,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "persa"
+},
+{
+"id": "person:Medan",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Medos"
 },
 {
 "id": "person:Ahasuerus",
@@ -134,25 +134,11 @@
 ],
 "acai": [
 {
-"id": "person:Kish.4",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Cis"
-},
-{
 "id": "person:Jair.4",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Jair"
-},
-{
-"id": "person:Shimei.18",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Semei"
 },
 {
 "id": "person:Mordecai.2",
@@ -162,15 +148,22 @@
 "preferred_label": "Mardochêo"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.6,
+"id": "person:Shimei.18",
+"type": "person",
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "Semei"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "person:Kish.4",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Cis"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Benjamín"
@@ -183,8 +176,15 @@
 "preferred_label": "Susán"
 },
 {
-"id": "person:Benjamin",
-"type": "person",
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Benjamín"
@@ -229,18 +229,18 @@
 "preferred_label": "Hegai"
 },
 {
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Susán"
-},
-{
 "id": "person:Esther",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Esther"
+},
+{
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Susán"
 },
 {
 "id": "realia:House",
@@ -281,18 +281,18 @@
 "preferred_label": "Hegai"
 },
 {
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Susán"
-},
-{
 "id": "person:Esther",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Esther"
+},
+{
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Susán"
 },
 {
 "id": "realia:House",
@@ -503,13 +503,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "person:Ahasuerus",
 "type": "person",
 "confidence": 0.6,
@@ -529,6 +522,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Mardochêo"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jews"
 }
 ]
 }
@@ -655,18 +655,18 @@
 ],
 "acai": [
 {
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Susán"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Susán"
 }
 ]
 }
@@ -793,18 +793,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 }
 ]
 }
