@@ -35,11 +35,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ought",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "deber"
+"preferred_label": "verdadero"
 },
 {
 "id": "keyterm:Love",
@@ -49,11 +49,11 @@
 "preferred_label": "amar"
 },
 {
-"id": "keyterm:True",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "verdadero"
+"preferred_label": "deber"
 },
 {
 "id": "deity:Lord",
@@ -155,25 +155,18 @@
 ],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dar testimonio"
-},
-{
 "id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sangre"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Truth",
@@ -183,11 +176,18 @@
 "preferred_label": "fidelidad"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:BearWitness",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "dar testimonio"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
 }
 ]
 }
