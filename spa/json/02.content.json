@@ -612,7 +612,7 @@
 "index_reference": "02014002",
 "language": "spa",
 "review_level": "None",
-"content": "<p><strong>&quot;Decir&quot;</strong></p><p>Este verso comienza una cita directa que continúa en <data class=\"bible-ref\" data-start-ref=\"02014004\" data-end-ref=\"02014004\">14:4</data>. Puede ser útil para tus lectores indicar esto con una comilla de apertura de primer nivel o con cualquier otra puntuación o convención que tu idioma use para indicar el comienzo de una cita. Puede haber otras citas en este capítulo; estarán marcadas por la misma puntuación, pero no tendrán sus propias notas a menos que haya algo único sobre ellas.</p><p>Ver: <data class=\"resource-ref\" data-content-id=\"26720\" data-resource-code=\"UWTranslationManual\">Marcado de Citas</data></p>",
+"content": "<p><span style='direction: rtl;'>דַּבֵּר֮</span></p><p><strong>&quot;Decir&quot;</strong></p><p>Este verso comienza una cita directa que continúa en <data class=\"bible-ref\" data-start-ref=\"02014004\" data-end-ref=\"02014004\">14:4</data>. Puede ser útil para tus lectores indicar esto con una comilla de apertura de primer nivel o con cualquier otra puntuación o convención que tu idioma use para indicar el comienzo de una cita. Puede haber otras citas en este capítulo; estarán marcadas por la misma puntuación, pero no tendrán sus propias notas a menos que haya algo único sobre ellas.</p><p>Ver: <data class=\"resource-ref\" data-content-id=\"26720\" data-resource-code=\"UWTranslationManual\">Marcado de Citas</data></p>",
 "associations": {
 "passage": [
 {
@@ -631,7 +631,36 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Migdol",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Migdol"
+},
+{
+"id": "place:Baal-zephon",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Baalzephón"
+},
+{
+"id": "place:Pi-hahiroth",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "alcanzáronlos"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+}
+]
 }
 },
 {
@@ -1305,18 +1334,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "sacerdocio"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "santo"
 },
 {
 "id": "fauna:Lamb",
@@ -1449,18 +1478,18 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "apaciguar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "realia:Shekel",
