@@ -53,7 +53,7 @@
 "media_type": "Text",
 "index_reference": "52004008",
 "language": "spa",
-"review_level": "None",
+"review_level": "Professional",
 "content": "<p><strong><span style='direction: ltr;'>ὁ ἀθετῶν</span></strong></p><p><strong>&quot;el que rechaza esto&quot;</strong></p><p>Pablo omite algunas de las palabras que en muchos idiomas serían necesarias para completar la frase. En muchos idiomas sería necesario decir qué es lo que se rechaza. Si fuera útil en tu idioma, podrías hablar de lo que Pablo ordenó a los tesalonicenses acerca de llevar una vida santa y evitar la inmoralidad sexual. Traducción alternativa: [el que rechaza estas órdenes sobre la moralidad sexual] o [el que rechaza lo que hemos dicho sobre el comportamiento sexual].</p><p>Ver: <data class=\"resource-ref\" data-content-id=\"728107\" data-resource-code=\"UWTranslationManual\" data-language=\"spa\">Elipsis</data></p>",
 "associations": {
 "passage": [
@@ -77,6 +77,13 @@
 "content_id": 727910,
 "resource_code": "UWTranslationNotes",
 "label": "Elipsis",
+"language": "spa"
+},
+{
+"reference_id": 26743,
+"content_id": 727977,
+"resource_code": "UWTranslationNotes",
+"label": "Conectores - Relación de contraste",
 "language": "spa"
 }
 ],
@@ -106,7 +113,7 @@
 "media_type": "Text",
 "index_reference": "52005023",
 "language": "spa",
-"review_level": "None",
+"review_level": "Professional",
 "content": "<p><strong><span style='direction: ltr;'>ὁ Θεὸς τῆς εἰρήνης</span></strong></p><p><strong>&quot;el Dios de la paz&quot;</strong></p><p>Aquí Pablo usa la forma posesiva <strong>el Dios de paz</strong>, que es un título para Dios encontrado en el Nuevo Testamento (ver <data class=\"bible-ref\" data-start-ref=\"45015033\" data-end-ref=\"45015033\">Romanos 15:33,</data> <data class=\"bible-ref\" data-start-ref=\"45016020\" data-end-ref=\"45016020\">16:20</data>; <data class=\"bible-ref\" data-start-ref=\"50004009\" data-end-ref=\"50004009\">Filipenses 4:9</data>; <data class=\"bible-ref\" data-start-ref=\"58013020\" data-end-ref=\"58013020\">Hebreos 13:20</data>). En este contexto, la frase <strong>el Dios de paz</strong> podría referirse a: (1) lo que Dios hace. Traducción alternativa: “el Dios que da paz” (2) quién es Dios. Traducción alternativa: “el Dios que se caracteriza por la paz” (3) Ambos. Traducción alternativa: “el Dios pacífico que da paz”</p><p>Ver: <data class=\"resource-ref\" data-content-id=\"727947\" data-resource-code=\"UWTranslationManual\" data-language=\"spa\">Posesión</data></p>",
 "associations": {
 "passage": [
@@ -141,18 +148,18 @@
 "preferred_label": "quedar libre de castigo"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "consagración"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "hacer la paz"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -162,13 +169,6 @@
 "preferred_label": "espíritu"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.6,
@@ -176,11 +176,18 @@
 "preferred_label": "cuerpo"
 },
 {
-"id": "keyterm:Peace",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "hacer la paz"
+"preferred_label": "Jehová"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 }
 ]
 }
