@@ -35,6 +35,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "amar"
+},
+{
 "id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.375,
@@ -61,13 +68,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "amar"
 }
 ]
 }
@@ -162,18 +162,18 @@
 "preferred_label": "dar testimonio"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "fidelidad"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Blood",
@@ -183,11 +183,11 @@
 "preferred_label": "sangre"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "Espíritu"
 }
 ]
 }
