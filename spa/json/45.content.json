@@ -29,6 +29,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.6,
@@ -36,11 +43,11 @@
 "preferred_label": "hacer la paz"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Mind",
@@ -50,18 +57,11 @@
 "preferred_label": "modo de pensar"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "Life"
 }
 ]
 }
@@ -103,11 +103,11 @@
 "preferred_label": "cuerpo"
 },
 {
-"id": "keyterm:Mind",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "modo de pensar"
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Law",
@@ -117,11 +117,11 @@
 "preferred_label": "ley"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Mind",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "modo de pensar"
 }
 ]
 }
@@ -155,13 +155,6 @@
 "preferred_label": "esclavitud"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "espíritu"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
@@ -181,6 +174,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "espíritu"
 }
 ]
 }
@@ -392,18 +392,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "espíritu"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "espíritu"
 }
 ]
 }
@@ -530,18 +530,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Life"
 }
 ]
 }
