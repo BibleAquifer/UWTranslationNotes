@@ -8,7 +8,7 @@
 "index_reference": "59002019",
 "language": "spa",
 "review_level": "None",
-"content": "<p><strong>&quot;Crees que Dios es uno&quot;</strong></p><p>Como explica la Parte 1 de la Introducción General a Santiago, las personas a las que Santiago estaba escribiendo eran creyentes en Jesús que tenían un trasfondo judío. Como resultado, habrían sabido que él se refería aquí a la afirmación judía esencial: “Escucha, Israel, Yahvé nuestro Dios es uno”. Moisés dice esto en <data class=\"bible-ref\" data-start-ref=\"05006004\" data-end-ref=\"05006004\"><span>Deuteronomio<strong> </strong></span>6:4</data>. Si sería útil para tus lectores, podrías declararlo explícitamente. Traducción alternativa: “Crees en la enseñanza esencial de Moisés de que hay un solo Dios”</p>",
+"content": "<p><strong><span style='direction: ltr;'>σὺ πιστεύεις ὅτι εἷς ἐστιν ὁ Θεός</span></strong></p><p><strong>&quot;Crees que Dios es uno&quot;</strong></p><p>Como explica la Parte 1 de la Introducción General a Santiago, las personas a las que Santiago estaba escribiendo eran creyentes en Jesús que tenían un trasfondo judío. Como resultado, habrían sabido que él se refería aquí a la afirmación judía esencial: “Escucha, Israel, Yahvé nuestro Dios es uno”. Moisés dice esto en <data class=\"bible-ref\" data-start-ref=\"05006004\" data-end-ref=\"05006004\"><span>Deuteronomio<strong> </strong></span>6:4</data>. Si sería útil para tus lectores, podrías declararlo explícitamente. Traducción alternativa: “Crees en la enseñanza esencial de Moisés de que hay un solo Dios”</p>",
 "associations": {
 "passage": [
 {
@@ -25,7 +25,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Demonios"
+}
+]
 }
 },
 {
@@ -69,7 +91,7 @@
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Un ángel"
 },
 {
 "id": "keyterm:Just",
