@@ -258,18 +258,18 @@
 "preferred_label": "orang pilihan"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
+},
+{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "memerintahkan"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Roh"
 }
 ]
 }
@@ -311,18 +311,18 @@
 "preferred_label": "orang pilihan"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
+},
+{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "memerintahkan"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Roh"
 }
 ]
 }
@@ -357,18 +357,18 @@
 ],
 "acai": [
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Roh"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "berdoa"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
 }
 ]
 }
@@ -414,7 +414,7 @@
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Roh"
+"preferred_label": "Roh Kudus"
 },
 {
 "id": "place:Cyprus",
@@ -466,7 +466,7 @@
 "index_reference": "44016018",
 "language": "ind",
 "review_level": "None",
-"content": "<p><strong>&quot;</strong><span><strong>Seketika itu juga keluarlah roh itu</strong></span><strong>&quot;</strong></p><p>Dalam bahasa Yunani, <strong>jam</strong> merupakan satuan waktu yang paling singkat. Dalam konteks ini, istilah tersebut tidak merujuk pada jam literal 60 menit; melainkan waktu terpendek yang bisa dibayangkan. Jika hal ini berguna dalam bahasa Anda, Anda bisa menyatakan maknanya secara jelas. Terjemahan alternatif: “itu keluar saat itu juga”</p><p>Lihat: <data class=\"resource-ref\" data-content-id=\"727531\" data-resource-code=\"UWTranslationManual\" data-language=\"ind\">Ungkapan</data></p>",
+"content": "<p><strong><span style='direction: ltr;'>ἐξῆλθεν αὐτῇ τῇ ὥρᾳ</span></strong></p><p><strong>&quot;</strong><span><strong>Seketika itu juga keluarlah roh itu</strong></span><strong>&quot;</strong></p><p>Dalam bahasa Yunani, <strong>jam</strong> merupakan satuan waktu yang paling singkat. Dalam konteks ini, istilah tersebut tidak merujuk pada jam literal 60 menit; melainkan waktu terpendek yang bisa dibayangkan. Jika hal ini berguna dalam bahasa Anda, Anda bisa menyatakan maknanya secara jelas. Terjemahan alternatif: “itu keluar saat itu juga”</p><p>Lihat: <data class=\"resource-ref\" data-content-id=\"727531\" data-resource-code=\"UWTranslationManual\" data-language=\"ind\">Ungkapan</data></p>",
 "associations": {
 "passage": [
 {
@@ -485,7 +485,29 @@
 "language": "ind"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Yesus"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "nama"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Paulus"
+}
+]
 }
 }
 ]
