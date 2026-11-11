@@ -29,18 +29,18 @@
 ],
 "acai": [
 {
-"id": "person:Pethuel",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Pethuel"
-},
-{
 "id": "person:Joel.14",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Joël"
+},
+{
+"id": "person:Pethuel",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Pethuel"
 },
 {
 "id": "deity:Lord",
@@ -120,18 +120,18 @@
 ],
 "acai": [
 {
-"id": "person:Pethuel",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Pethuel"
-},
-{
 "id": "person:Joel.14",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Joël"
+},
+{
+"id": "person:Pethuel",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Pethuel"
 },
 {
 "id": "deity:Lord",
@@ -514,13 +514,6 @@
 ],
 "acai": [
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
@@ -533,6 +526,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
 }
 ]
 }
@@ -567,13 +567,6 @@
 ],
 "acai": [
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
@@ -586,6 +579,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
 }
 ]
 }
@@ -620,13 +620,6 @@
 ],
 "acai": [
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
@@ -639,6 +632,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
 }
 ]
 }
@@ -673,13 +673,6 @@
 ],
 "acai": [
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
@@ -692,6 +685,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
 }
 ]
 }
@@ -1666,25 +1666,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
 },
 {
 "id": "realia:AnointingOil",
@@ -1694,13 +1680,6 @@
 "preferred_label": "huile d'onction"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -1708,11 +1687,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -1747,25 +1747,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
 },
 {
 "id": "realia:AnointingOil",
@@ -1775,13 +1761,6 @@
 "preferred_label": "huile d'onction"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -1789,11 +1768,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -1828,25 +1828,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
 },
 {
 "id": "realia:AnointingOil",
@@ -1856,13 +1842,6 @@
 "preferred_label": "huile d'onction"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -1870,11 +1849,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -1909,25 +1909,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
 },
 {
 "id": "realia:AnointingOil",
@@ -1937,13 +1923,6 @@
 "preferred_label": "huile d'onction"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -1951,11 +1930,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -1990,25 +1990,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
 },
 {
 "id": "realia:AnointingOil",
@@ -2018,13 +2004,6 @@
 "preferred_label": "huile d'onction"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -2032,11 +2011,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -2071,25 +2071,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
 },
 {
 "id": "realia:AnointingOil",
@@ -2099,13 +2085,6 @@
 "preferred_label": "huile d'onction"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.54,
@@ -2113,11 +2092,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -2198,18 +2198,18 @@
 ],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "figue"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "palmier dattier"
 },
 {
 "id": "flora:Pomegranate",
@@ -2219,11 +2219,11 @@
 "preferred_label": "grenadier"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "palmier dattier"
+"preferred_label": "vigne"
 }
 ]
 }
@@ -2258,18 +2258,18 @@
 ],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "figue"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "palmier dattier"
 },
 {
 "id": "flora:Pomegranate",
@@ -2279,11 +2279,11 @@
 "preferred_label": "grenadier"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "palmier dattier"
+"preferred_label": "vigne"
 }
 ]
 }
@@ -2318,18 +2318,18 @@
 ],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "figue"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "palmier dattier"
 },
 {
 "id": "flora:Pomegranate",
@@ -2339,11 +2339,11 @@
 "preferred_label": "grenadier"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "palmier dattier"
+"preferred_label": "vigne"
 }
 ]
 }
@@ -2378,18 +2378,18 @@
 ],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "figue"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "palmier dattier"
 },
 {
 "id": "flora:Pomegranate",
@@ -2399,11 +2399,11 @@
 "preferred_label": "grenadier"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "palmier dattier"
+"preferred_label": "vigne"
 }
 ]
 }
@@ -2438,18 +2438,18 @@
 ],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "figue"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "palmier dattier"
 },
 {
 "id": "flora:Pomegranate",
@@ -2459,11 +2459,11 @@
 "preferred_label": "grenadier"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "palmier dattier"
+"preferred_label": "vigne"
 }
 ]
 }
@@ -2498,18 +2498,18 @@
 ],
 "acai": [
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "figue"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "palmier dattier"
 },
 {
 "id": "flora:Pomegranate",
@@ -2519,11 +2519,11 @@
 "preferred_label": "grenadier"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "palmier dattier"
+"preferred_label": "vigne"
 }
 ]
 }
@@ -2558,13 +2558,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -2572,11 +2565,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "autel de pierre"
+"preferred_label": "offrande"
 },
 {
 "id": "realia:TempleAltar",
@@ -2586,11 +2579,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "vin"
 },
 {
 "id": "realia:Sackcloth",
@@ -2598,6 +2591,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "sac"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:House",
@@ -2614,11 +2614,11 @@
 "preferred_label": "autel"
 },
 {
-"id": "realia:Wine",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "vin"
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -2653,13 +2653,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -2667,11 +2660,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "autel de pierre"
+"preferred_label": "offrande"
 },
 {
 "id": "realia:TempleAltar",
@@ -2681,11 +2674,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "vin"
 },
 {
 "id": "realia:Sackcloth",
@@ -2693,6 +2686,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "sac"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:House",
@@ -2709,11 +2709,11 @@
 "preferred_label": "autel"
 },
 {
-"id": "realia:Wine",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "vin"
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -2748,13 +2748,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -2762,11 +2755,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "autel de pierre"
+"preferred_label": "offrande"
 },
 {
 "id": "realia:TempleAltar",
@@ -2776,11 +2769,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "vin"
 },
 {
 "id": "realia:Sackcloth",
@@ -2788,6 +2781,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "sac"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:House",
@@ -2804,11 +2804,11 @@
 "preferred_label": "autel"
 },
 {
-"id": "realia:Wine",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "vin"
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -2843,13 +2843,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -2857,11 +2850,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "autel de pierre"
+"preferred_label": "offrande"
 },
 {
 "id": "realia:TempleAltar",
@@ -2871,11 +2864,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "vin"
 },
 {
 "id": "realia:Sackcloth",
@@ -2883,6 +2876,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "sac"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:House",
@@ -2899,11 +2899,11 @@
 "preferred_label": "autel"
 },
 {
-"id": "realia:Wine",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "vin"
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -2938,13 +2938,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -2952,11 +2945,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "autel de pierre"
+"preferred_label": "offrande"
 },
 {
 "id": "realia:TempleAltar",
@@ -2966,11 +2959,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "vin"
 },
 {
 "id": "realia:Sackcloth",
@@ -2978,6 +2971,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "sac"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:House",
@@ -2994,11 +2994,11 @@
 "preferred_label": "autel"
 },
 {
-"id": "realia:Wine",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "vin"
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -3033,18 +3033,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "saint"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "realia:House",
@@ -3086,18 +3086,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "saint"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "realia:House",
@@ -3656,20 +3656,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
@@ -3682,6 +3668,20 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -3716,20 +3716,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
@@ -3742,6 +3728,20 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -3776,20 +3776,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
@@ -3802,6 +3788,20 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -3836,20 +3836,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
@@ -3862,6 +3848,20 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -3896,20 +3896,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
@@ -3922,6 +3908,20 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -5783,18 +5783,18 @@
 ],
 "acai": [
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "maison"
-},
-{
 "id": "realia:Window",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "fenêtre"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "maison"
 }
 ]
 }
@@ -5829,18 +5829,18 @@
 ],
 "acai": [
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "maison"
-},
-{
 "id": "realia:Window",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "fenêtre"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "maison"
 }
 ]
 }
@@ -6368,18 +6368,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bonté"
-},
-{
 "id": "keyterm:Generous",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bienveillant"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bonté"
 }
 ]
 }
@@ -6428,18 +6428,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bonté"
-},
-{
 "id": "keyterm:Generous",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bienveillant"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bonté"
 }
 ]
 }
@@ -6488,18 +6488,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bonté"
-},
-{
 "id": "keyterm:Generous",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bienveillant"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bonté"
 }
 ]
 }
@@ -6548,18 +6548,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bonté"
-},
-{
 "id": "keyterm:Generous",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "bienveillant"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bonté"
 }
 ]
 }
@@ -7032,13 +7032,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7046,11 +7039,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7058,6 +7051,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7106,13 +7106,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7120,11 +7113,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7132,6 +7125,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7180,13 +7180,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7194,11 +7187,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7206,6 +7199,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7254,13 +7254,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7268,11 +7261,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7280,6 +7273,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7328,13 +7328,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7342,11 +7335,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7354,6 +7347,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7402,13 +7402,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7416,11 +7409,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7428,6 +7421,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7476,13 +7476,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7490,11 +7483,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7502,6 +7495,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7550,13 +7550,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.54,
@@ -7564,11 +7557,11 @@
 "preferred_label": "autel du Temple"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "autel du tabernacle"
+"preferred_label": "autel de pierre"
 },
 {
 "id": "realia:Altar",
@@ -7576,6 +7569,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 }
 ]
 }
@@ -7709,32 +7709,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
 },
 {
 "id": "realia:AnointingOil",
@@ -7751,11 +7730,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -7797,32 +7797,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
 },
 {
 "id": "realia:AnointingOil",
@@ -7839,11 +7818,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -7885,32 +7885,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
 },
 {
 "id": "realia:AnointingOil",
@@ -7927,11 +7906,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -7973,32 +7973,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
 },
 {
 "id": "realia:AnointingOil",
@@ -8015,11 +7994,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -8061,32 +8061,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
 },
 {
 "id": "realia:AnointingOil",
@@ -8103,11 +8082,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -8149,32 +8149,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
 },
 {
 "id": "realia:AnointingOil",
@@ -8191,11 +8170,32 @@
 "preferred_label": "huile d'olive"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "grain"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -8669,18 +8669,18 @@
 "preferred_label": "crainte"
 },
 {
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "figue"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "herbe"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "figue"
 },
 {
 "id": "flora:Vine",
@@ -8729,18 +8729,18 @@
 "preferred_label": "crainte"
 },
 {
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "figue"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "herbe"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "figue"
 },
 {
 "id": "flora:Vine",
@@ -8789,18 +8789,18 @@
 "preferred_label": "crainte"
 },
 {
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "figue"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "herbe"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "figue"
 },
 {
 "id": "flora:Vine",
@@ -8849,18 +8849,18 @@
 "preferred_label": "crainte"
 },
 {
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "figue"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "herbe"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "figue"
 },
 {
 "id": "flora:Vine",
@@ -9224,46 +9224,11 @@
 ],
 "acai": [
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "aire de battage"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "huile d'olive"
 },
 {
 "id": "realia:Winepress",
@@ -9278,6 +9243,41 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "huile d'onction"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "aire de battage"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "moût"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "mulet"
 }
 ]
 }
@@ -9616,18 +9616,18 @@
 ],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israël"
 }
 ]
 }
@@ -9662,18 +9662,18 @@
 ],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israël"
 }
 ]
 }
@@ -10795,13 +10795,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -10814,6 +10807,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -10848,13 +10848,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -10867,6 +10860,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -10901,13 +10901,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -10920,6 +10913,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -10954,13 +10954,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -10973,6 +10966,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -11007,13 +11007,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -11026,6 +11019,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -11650,18 +11650,11 @@
 "preferred_label": "Grecs"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Javan",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Javan"
 },
 {
 "id": "person:Judah.4",
@@ -11671,11 +11664,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "person:Javan",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Javan"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 }
 ]
 }
@@ -11717,18 +11717,11 @@
 "preferred_label": "Grecs"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Javan",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Javan"
 },
 {
 "id": "person:Judah.4",
@@ -11738,11 +11731,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "person:Javan",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Javan"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 }
 ]
 }
@@ -11784,18 +11784,11 @@
 "preferred_label": "Grecs"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Javan",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Javan"
 },
 {
 "id": "person:Judah.4",
@@ -11805,11 +11798,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "person:Javan",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Javan"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 }
 ]
 }
@@ -11851,18 +11851,11 @@
 "preferred_label": "Grecs"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Javan",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Javan"
 },
 {
 "id": "person:Judah.4",
@@ -11872,11 +11865,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "person:Javan",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Javan"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 }
 ]
 }
@@ -12042,18 +12042,11 @@
 "preferred_label": "Sabéens"
 },
 {
-"id": "person:Sheba",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Séba"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -12063,11 +12056,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Séba"
 }
 ]
 }
@@ -12109,18 +12109,11 @@
 "preferred_label": "Sabéens"
 },
 {
-"id": "person:Sheba",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Séba"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -12130,11 +12123,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Séba"
 }
 ]
 }
@@ -12176,18 +12176,11 @@
 "preferred_label": "Sabéens"
 },
 {
-"id": "person:Sheba",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Séba"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -12197,11 +12190,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Séba"
 }
 ]
 }
@@ -12243,18 +12243,11 @@
 "preferred_label": "Sabéens"
 },
 {
-"id": "person:Sheba",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Séba"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -12264,11 +12257,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Séba"
 }
 ]
 }
@@ -12310,18 +12310,11 @@
 "preferred_label": "Sabéens"
 },
 {
-"id": "person:Sheba",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Séba"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -12331,11 +12324,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Séba"
 }
 ]
 }
@@ -12377,18 +12377,11 @@
 "preferred_label": "Sabéens"
 },
 {
-"id": "person:Sheba",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Séba"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -12398,11 +12391,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Séba"
 }
 ]
 }
@@ -12437,18 +12437,18 @@
 ],
 "acai": [
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Gentils"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "saint"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Gentils"
 }
 ]
 }
@@ -12483,18 +12483,18 @@
 ],
 "acai": [
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Gentils"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "saint"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Gentils"
 }
 ]
 }
@@ -12543,13 +12543,6 @@
 "preferred_label": "Un homme"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "épée"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -12562,6 +12555,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "hoyau"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "épée"
 }
 ]
 }
@@ -12610,13 +12610,6 @@
 "preferred_label": "Un homme"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "épée"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -12629,6 +12622,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "hoyau"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "épée"
 }
 ]
 }
@@ -12677,13 +12677,6 @@
 "preferred_label": "Un homme"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "épée"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -12696,6 +12689,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "hoyau"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "épée"
 }
 ]
 }
@@ -12744,13 +12744,6 @@
 "preferred_label": "Un homme"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "épée"
-},
-{
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.54,
@@ -12763,6 +12756,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "hoyau"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "épée"
 }
 ]
 }
@@ -13400,6 +13400,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
@@ -13419,13 +13426,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israël"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 },
 {
 "id": "realia:Fortress",
@@ -13467,6 +13467,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
@@ -13486,13 +13493,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israël"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 },
 {
 "id": "realia:Fortress",
@@ -13534,6 +13534,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
@@ -13553,13 +13560,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israël"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 },
 {
 "id": "realia:Fortress",
@@ -13601,6 +13601,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
@@ -13620,13 +13627,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israël"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
 },
 {
 "id": "realia:Fortress",
@@ -13767,11 +13767,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -13781,11 +13781,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -13834,11 +13834,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -13848,11 +13848,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -13901,11 +13901,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -13915,11 +13915,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -13968,11 +13968,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -13982,11 +13982,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -14035,11 +14035,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -14049,11 +14049,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -14102,11 +14102,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -14116,11 +14116,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -14169,11 +14169,11 @@
 "preferred_label": "vallée de Sittim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Judah.4",
@@ -14183,11 +14183,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "realia:House",
@@ -14229,18 +14229,18 @@
 ],
 "acai": [
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "exempt"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "group:Judah",
@@ -14257,11 +14257,11 @@
 "preferred_label": "Égypte"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Édom"
 }
 ]
 }
@@ -14296,18 +14296,18 @@
 ],
 "acai": [
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "exempt"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "group:Judah",
@@ -14324,11 +14324,11 @@
 "preferred_label": "Égypte"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Édom"
 }
 ]
 }
@@ -14363,18 +14363,18 @@
 ],
 "acai": [
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "exempt"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "group:Judah",
@@ -14391,11 +14391,11 @@
 "preferred_label": "Égypte"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Édom"
 }
 ]
 }
@@ -14430,18 +14430,18 @@
 ],
 "acai": [
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "exempt"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "group:Judah",
@@ -14458,11 +14458,11 @@
 "preferred_label": "Égypte"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Édom"
 }
 ]
 }
@@ -14497,13 +14497,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -14516,6 +14509,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -14550,13 +14550,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -14569,6 +14562,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
@@ -14603,13 +14603,6 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -14622,6 +14615,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
 }
 ]
 }
