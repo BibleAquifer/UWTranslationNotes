@@ -35,13 +35,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.375,
@@ -49,11 +42,11 @@
 "preferred_label": "verdadero"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "obligado"
+"preferred_label": "amor"
 },
 {
 "id": "keyterm:Live.3",
@@ -63,11 +56,18 @@
 "preferred_label": "andar"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "amor"
+"preferred_label": "obligado"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -109,18 +109,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "amor"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 }
 ]
 }
@@ -155,6 +155,13 @@
 ],
 "acai": [
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Espíritu Santo"
+},
+{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.6,
@@ -167,13 +174,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "dar testimonio"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Espíritu Santo"
 },
 {
 "id": "keyterm:Blood",

@@ -43,11 +43,11 @@
 "preferred_label": "Persia"
 },
 {
-"id": "person:Ahasuerus",
-"type": "person",
+"id": "group:Mede",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Asuero"
+"preferred_label": "medos"
 },
 {
 "id": "person:Medan",
@@ -57,11 +57,11 @@
 "preferred_label": "Medán"
 },
 {
-"id": "group:Mede",
-"type": "group",
+"id": "person:Ahasuerus",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "medos"
+"preferred_label": "Asuero"
 },
 {
 "id": "group:Persia",
@@ -134,11 +134,11 @@
 ],
 "acai": [
 {
-"id": "person:Mordecai.2",
+"id": "person:Kish.4",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Mardoqueo"
+"preferred_label": "Quis"
 },
 {
 "id": "person:Jair.4",
@@ -148,11 +148,11 @@
 "preferred_label": "Jair"
 },
 {
-"id": "person:Kish.4",
+"id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Quis"
+"preferred_label": "Mardoqueo"
 },
 {
 "id": "person:Shimei.18",
@@ -162,20 +162,6 @@
 "preferred_label": "Simei"
 },
 {
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Susa"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "tribu de Benjamín"
-},
-{
 "id": "person:Benjamin",
 "type": "person",
 "confidence": 0.6,
@@ -183,11 +169,25 @@
 "preferred_label": "Benjamín"
 },
 {
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Susa"
+},
+{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "judío"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribu de Benjamín"
 }
 ]
 }
@@ -229,18 +229,18 @@
 "preferred_label": "Hegai"
 },
 {
-"id": "person:Esther",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Ester"
-},
-{
 "id": "place:Susa",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Susa"
+},
+{
+"id": "person:Esther",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ester"
 },
 {
 "id": "realia:House",
@@ -281,18 +281,18 @@
 "preferred_label": "Hegai"
 },
 {
-"id": "person:Esther",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Ester"
-},
-{
 "id": "place:Susa",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Susa"
+},
+{
+"id": "person:Esther",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ester"
 },
 {
 "id": "realia:House",
@@ -380,18 +380,18 @@
 ],
 "acai": [
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amán"
-},
-{
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Mardoqueo"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Amán"
 }
 ]
 }
@@ -426,18 +426,18 @@
 ],
 "acai": [
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amán"
-},
-{
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Mardoqueo"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Amán"
 }
 ]
 }
@@ -479,18 +479,18 @@
 ],
 "acai": [
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amán"
-},
-{
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Mardoqueo"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Amán"
 }
 ]
 }
@@ -517,18 +517,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Ahasuerus",
-"type": "person",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Asuero"
-},
-{
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amán"
+"preferred_label": "judío"
 },
 {
 "id": "person:Mordecai.2",
@@ -538,11 +531,18 @@
 "preferred_label": "Mardoqueo"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "person:Haman",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "judío"
+"preferred_label": "Amán"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Asuero"
 }
 ]
 }
@@ -577,18 +577,18 @@
 ],
 "acai": [
 {
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Asuero"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Asuero"
 }
 ]
 }
@@ -669,18 +669,18 @@
 ],
 "acai": [
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amán"
-},
-{
 "id": "place:Susa",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Susa"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Amán"
 }
 ]
 }
@@ -821,18 +821,18 @@
 ],
 "acai": [
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amán"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "gloria"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Amán"
 }
 ]
 }
