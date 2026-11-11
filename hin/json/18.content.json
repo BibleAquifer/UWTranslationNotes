@@ -133,18 +133,18 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -193,18 +193,18 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -253,18 +253,18 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -313,18 +313,18 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -373,18 +373,18 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -481,11 +481,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Bull",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "बकरी"
 },
 {
 "id": "fauna:Donkey",
@@ -495,6 +495,13 @@
 "preferred_label": "गधा"
 },
 {
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "झुंड"
+},
+{
 "id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.54,
@@ -502,18 +509,11 @@
 "preferred_label": "ऊँट"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "बकरी"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "झुंड"
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -548,11 +548,11 @@
 ],
 "acai": [
 {
-"id": "fauna:Bull",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "बकरी"
 },
 {
 "id": "fauna:Donkey",
@@ -562,6 +562,13 @@
 "preferred_label": "गधा"
 },
 {
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "झुंड"
+},
+{
 "id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.54,
@@ -569,18 +576,11 @@
 "preferred_label": "ऊँट"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "बकरी"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "झुंड"
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -732,6 +732,20 @@
 ],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -746,13 +760,6 @@
 "preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -760,18 +767,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "भेंट"
 }
 ]
 }
@@ -806,6 +806,20 @@
 ],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -820,13 +834,6 @@
 "preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -834,18 +841,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "भेंट"
 }
 ]
 }
@@ -880,6 +880,20 @@
 ],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -894,13 +908,6 @@
 "preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -908,18 +915,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "भेंट"
 }
 ]
 }
@@ -954,6 +954,20 @@
 ],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -968,13 +982,6 @@
 "preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -982,18 +989,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "भेंट"
 }
 ]
 }
@@ -1028,6 +1028,20 @@
 ],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1042,13 +1056,6 @@
 "preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -1056,18 +1063,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "भेंट"
 }
 ]
 }
@@ -1102,6 +1102,20 @@
 ],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1116,13 +1130,6 @@
 "preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -1130,18 +1137,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "भेंट"
 }
 ]
 }
@@ -1459,13 +1459,6 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1478,6 +1471,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "शैतान"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -1519,13 +1519,6 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1538,6 +1531,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "शैतान"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -1579,13 +1579,6 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1598,6 +1591,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "शैतान"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -1639,13 +1639,6 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1658,6 +1651,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "शैतान"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -1699,13 +1699,6 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -1718,6 +1711,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "शैतान"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -1752,18 +1752,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -1773,11 +1773,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -1812,18 +1812,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -1833,11 +1833,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -2485,11 +2485,11 @@
 ],
 "acai": [
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "घर"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -2499,11 +2499,11 @@
 "preferred_label": "दाखमधु"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "दाखलता"
+"preferred_label": "घर"
 }
 ]
 }
@@ -2552,11 +2552,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "realia:Mattock",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "कुदाल"
 },
 {
 "id": "fauna:Donkey",
@@ -2566,11 +2566,11 @@
 "preferred_label": "गधा"
 },
 {
-"id": "realia:Mattock",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "कुदाल"
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -2619,11 +2619,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "realia:Mattock",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "कुदाल"
 },
 {
 "id": "fauna:Donkey",
@@ -2633,11 +2633,11 @@
 "preferred_label": "गधा"
 },
 {
-"id": "realia:Mattock",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "कुदाल"
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -3043,18 +3043,18 @@
 ],
 "acai": [
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कसद्द"
-},
-{
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "कसदी"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कसद्द"
 },
 {
 "id": "realia:Sword",
@@ -3103,18 +3103,18 @@
 ],
 "acai": [
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कसद्द"
-},
-{
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "कसदी"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कसद्द"
 },
 {
 "id": "realia:Sword",
@@ -3163,11 +3163,11 @@
 ],
 "acai": [
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "घर"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -3177,11 +3177,11 @@
 "preferred_label": "दाखमधु"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "दाखलता"
+"preferred_label": "घर"
 }
 ]
 }
@@ -3623,18 +3623,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "पाप करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Job",
@@ -3852,18 +3852,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -3873,11 +3873,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -3912,18 +3912,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -3933,11 +3933,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -3972,18 +3972,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -3993,11 +3993,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -4032,18 +4032,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -4053,11 +4053,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -4092,18 +4092,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -4113,11 +4113,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -4152,18 +4152,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -4173,11 +4173,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -4212,18 +4212,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -4233,11 +4233,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -4272,18 +4272,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 },
 {
 "id": "deity:Satan",
@@ -4293,11 +4293,11 @@
 "preferred_label": "शैतान"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "भय"
 }
 ]
 }
@@ -4704,18 +4704,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शैतान"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शैतान"
 }
 ]
 }
@@ -4757,18 +4757,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शैतान"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शैतान"
 }
 ]
 }
@@ -4810,18 +4810,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शैतान"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शैतान"
 }
 ]
 }
@@ -4863,18 +4863,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शैतान"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शैतान"
 }
 ]
 }
@@ -5214,18 +5214,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "पाप करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Job",
@@ -5267,18 +5267,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "पाप करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Job",
@@ -5320,18 +5320,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "पाप करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Job",
@@ -5373,18 +5373,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "पाप करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Job",
@@ -5426,18 +5426,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "पाप करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Job",
@@ -5479,18 +5479,11 @@
 ],
 "acai": [
 {
-"id": "group:Naamathites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "नामाती"
-},
-{
-"id": "person:Eliphaz.2",
+"id": "person:Bildad",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "एलीपज"
+"preferred_label": "बिल्दद"
 },
 {
 "id": "group:Teman",
@@ -5500,11 +5493,11 @@
 "preferred_label": "तेमानी"
 },
 {
-"id": "person:Bildad",
+"id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बिल्दद"
+"preferred_label": "एलीपज"
 },
 {
 "id": "group:Shuhites",
@@ -5519,6 +5512,13 @@
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "सोपर"
+},
+{
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "नामाती"
 },
 {
 "id": "person:Job",
@@ -5567,18 +5567,11 @@
 ],
 "acai": [
 {
-"id": "group:Naamathites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "नामाती"
-},
-{
-"id": "person:Eliphaz.2",
+"id": "person:Bildad",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "एलीपज"
+"preferred_label": "बिल्दद"
 },
 {
 "id": "group:Teman",
@@ -5588,11 +5581,11 @@
 "preferred_label": "तेमानी"
 },
 {
-"id": "person:Bildad",
+"id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बिल्दद"
+"preferred_label": "एलीपज"
 },
 {
 "id": "group:Shuhites",
@@ -5607,6 +5600,13 @@
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "सोपर"
+},
+{
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "नामाती"
 },
 {
 "id": "person:Job",
@@ -5655,18 +5655,11 @@
 ],
 "acai": [
 {
-"id": "group:Naamathites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "नामाती"
-},
-{
-"id": "person:Eliphaz.2",
+"id": "person:Bildad",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "एलीपज"
+"preferred_label": "बिल्दद"
 },
 {
 "id": "group:Teman",
@@ -5676,11 +5669,11 @@
 "preferred_label": "तेमानी"
 },
 {
-"id": "person:Bildad",
+"id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बिल्दद"
+"preferred_label": "एलीपज"
 },
 {
 "id": "group:Shuhites",
@@ -5695,6 +5688,13 @@
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "सोपर"
+},
+{
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "नामाती"
 },
 {
 "id": "person:Job",
@@ -7964,18 +7964,18 @@
 ],
 "acai": [
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "रुपया"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "रुपया"
 }
 ]
 }
@@ -9475,18 +9475,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -9521,18 +9521,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -9567,18 +9567,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -9613,18 +9613,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -10497,18 +10497,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -10543,18 +10543,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -10589,18 +10589,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -10635,18 +10635,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -10681,18 +10681,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -10819,18 +10819,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 },
 {
 "id": "realia:Foundation",
@@ -10872,18 +10872,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 },
 {
 "id": "realia:Foundation",
@@ -10925,18 +10925,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 },
 {
 "id": "realia:Foundation",
@@ -10978,18 +10978,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 },
 {
 "id": "realia:Foundation",
@@ -11782,18 +11782,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fool",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मूर्ख"
-},
-{
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "श्राप देना"
+},
+{
+"id": "keyterm:Fool",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
 }
 ]
 }
@@ -11828,18 +11828,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fool",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मूर्ख"
-},
-{
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "श्राप देना"
+},
+{
+"id": "keyterm:Fool",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
 }
 ]
 }
@@ -11874,18 +11874,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fool",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मूर्ख"
-},
-{
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "श्राप देना"
+},
+{
+"id": "keyterm:Fool",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
 }
 ]
 }
@@ -11920,18 +11920,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fool",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मूर्ख"
-},
-{
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "श्राप देना"
+},
+{
+"id": "keyterm:Fool",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
 }
 ]
 }
@@ -11966,18 +11966,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fool",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मूर्ख"
-},
-{
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "श्राप देना"
+},
+{
+"id": "keyterm:Fool",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
 }
 ]
 }
@@ -13139,18 +13139,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धूर्त"
-},
-{
 "id": "keyterm:SoundWisdom",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "खरी बुद्धि"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धूर्त"
 }
 ]
 }
@@ -13185,18 +13185,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धूर्त"
-},
-{
 "id": "keyterm:SoundWisdom",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "खरी बुद्धि"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धूर्त"
 }
 ]
 }
@@ -13231,18 +13231,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धूर्त"
-},
-{
 "id": "keyterm:SoundWisdom",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "खरी बुद्धि"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धूर्त"
 }
 ]
 }
@@ -15589,18 +15589,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Arrow",
@@ -15642,18 +15642,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Arrow",
@@ -15695,18 +15695,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Arrow",
@@ -15748,18 +15748,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "realia:Arrow",
@@ -15808,18 +15808,18 @@
 "preferred_label": "घास"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "flora:GreenVegetation",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "हरी घास"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "fauna:WildDonkey",
@@ -15868,18 +15868,18 @@
 "preferred_label": "घास"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "flora:GreenVegetation",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "हरी घास"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "fauna:WildDonkey",
@@ -15928,18 +15928,18 @@
 "preferred_label": "घास"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "flora:GreenVegetation",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "हरी घास"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "fauna:WildDonkey",
@@ -17157,11 +17157,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "करुणा"
 },
 {
 "id": "deity:Lord",
@@ -17171,11 +17171,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "करुणा"
+"preferred_label": "भय"
 }
 ]
 }
@@ -17210,11 +17210,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "करुणा"
 },
 {
 "id": "deity:Lord",
@@ -17224,11 +17224,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "करुणा"
+"preferred_label": "भय"
 }
 ]
 }
@@ -17263,11 +17263,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "करुणा"
 },
 {
 "id": "deity:Lord",
@@ -17277,11 +17277,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "करुणा"
+"preferred_label": "भय"
 }
 ]
 }
@@ -17316,11 +17316,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "करुणा"
 },
 {
 "id": "deity:Lord",
@@ -17330,11 +17330,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "करुणा"
+"preferred_label": "भय"
 }
 ]
 }
@@ -17369,11 +17369,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "करुणा"
 },
 {
 "id": "deity:Lord",
@@ -17383,11 +17383,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "करुणा"
+"preferred_label": "भय"
 }
 ]
 }
@@ -21524,18 +21524,18 @@
 "preferred_label": "क्षमा करना"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -21577,18 +21577,18 @@
 "preferred_label": "क्षमा करना"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -21630,18 +21630,18 @@
 "preferred_label": "क्षमा करना"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -21683,18 +21683,18 @@
 "preferred_label": "क्षमा करना"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -22077,18 +22077,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BegForMercy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दया की भीख माँगना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -22123,18 +22123,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BegForMercy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दया की भीख माँगना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -22920,18 +22920,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -22966,18 +22966,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -23012,18 +23012,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "आशा"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -24087,18 +24087,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -24133,18 +24133,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -25343,18 +25343,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:BegForMercy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दया की भीख माँगना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -25389,18 +25389,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:BegForMercy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दया की भीख माँगना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -25435,18 +25435,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:BegForMercy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दया की भीख माँगना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -25792,18 +25792,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -25838,18 +25838,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -25884,18 +25884,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -26502,13 +26502,6 @@
 ],
 "acai": [
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जहाज"
-},
-{
 "id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.54,
@@ -26521,6 +26514,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जहाज"
 }
 ]
 }
@@ -26555,13 +26555,6 @@
 ],
 "acai": [
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जहाज"
-},
-{
 "id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.54,
@@ -26574,6 +26567,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जहाज"
 }
 ]
 }
@@ -26608,13 +26608,6 @@
 ],
 "acai": [
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जहाज"
-},
-{
 "id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.54,
@@ -26627,6 +26620,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जहाज"
 }
 ]
 }
@@ -28999,18 +28999,18 @@
 "preferred_label": "पाप करना"
 },
 {
-"id": "keyterm:PronounceInnocent",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "निर्दोष ठहराना"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "keyterm:PronounceInnocent",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "निर्दोष ठहराना"
 }
 ]
 }
@@ -29052,18 +29052,18 @@
 "preferred_label": "पाप करना"
 },
 {
-"id": "keyterm:PronounceInnocent",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "निर्दोष ठहराना"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "keyterm:PronounceInnocent",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "निर्दोष ठहराना"
 }
 ]
 }
@@ -31469,18 +31469,18 @@
 ],
 "acai": [
 {
-"id": "fauna:WildDonkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जंगली गधा"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:WildDonkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जंगली गधा"
 }
 ]
 }
@@ -31515,18 +31515,18 @@
 ],
 "acai": [
 {
-"id": "fauna:WildDonkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जंगली गधा"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:WildDonkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जंगली गधा"
 }
 ]
 }
@@ -31561,18 +31561,18 @@
 ],
 "acai": [
 {
-"id": "fauna:WildDonkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जंगली गधा"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:WildDonkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जंगली गधा"
 }
 ]
 }
@@ -31607,18 +31607,18 @@
 ],
 "acai": [
 {
-"id": "fauna:WildDonkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जंगली गधा"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:WildDonkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जंगली गधा"
 }
 ]
 }
@@ -32150,18 +32150,18 @@
 "preferred_label": "सुरक्षा"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "आशा"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "भरोसा रखना"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "आशा"
 }
 ]
 }
@@ -32203,18 +32203,18 @@
 "preferred_label": "सुरक्षा"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "आशा"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "भरोसा रखना"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "आशा"
 }
 ]
 }
@@ -32256,18 +32256,18 @@
 "preferred_label": "सुरक्षा"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "आशा"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "भरोसा रखना"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "आशा"
 }
 ]
 }
@@ -34026,18 +34026,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -34072,18 +34072,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -34118,18 +34118,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -34164,18 +34164,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -34210,11 +34210,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "समझ"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Counsel",
@@ -34224,11 +34224,11 @@
 "preferred_label": "सम्मति"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "समझ"
 }
 ]
 }
@@ -34263,11 +34263,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "समझ"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Counsel",
@@ -34277,11 +34277,11 @@
 "preferred_label": "सम्मति"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "समझ"
 }
 ]
 }
@@ -34316,11 +34316,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "समझ"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Counsel",
@@ -34330,11 +34330,11 @@
 "preferred_label": "सम्मति"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "समझ"
 }
 ]
 }
@@ -37142,18 +37142,18 @@
 "preferred_label": "पाप करना"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -37312,18 +37312,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bitter",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कड़वा"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "keyterm:Bitter",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कड़वा"
 }
 ]
 }
@@ -37358,18 +37358,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bitter",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कड़वा"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "keyterm:Bitter",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कड़वा"
 }
 ]
 }
@@ -37404,18 +37404,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bitter",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कड़वा"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "keyterm:Bitter",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कड़वा"
 }
 ]
 }
@@ -37450,18 +37450,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Bitter",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कड़वा"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "keyterm:Bitter",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कड़वा"
 }
 ]
 }
@@ -38031,18 +38031,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अशुद्ध करना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -38077,18 +38077,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अशुद्ध करना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -38123,18 +38123,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अशुद्ध करना"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 }
 ]
 }
@@ -38891,18 +38891,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "विधि"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "विधि"
 }
 ]
 }
@@ -38937,18 +38937,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "विधि"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "विधि"
 }
 ]
 }
@@ -38983,18 +38983,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "विधि"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "विधि"
 }
 ]
 }
@@ -39029,18 +39029,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "विधि"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "विधि"
 }
 ]
 }
@@ -40297,18 +40297,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -40343,18 +40343,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -40389,18 +40389,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -49064,6 +49064,13 @@
 ],
 "acai": [
 {
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "फंदा"
+},
+{
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.54,
@@ -49076,13 +49083,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जाल"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "फंदा"
 }
 ]
 }
@@ -49117,6 +49117,13 @@
 ],
 "acai": [
 {
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "फंदा"
+},
+{
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.54,
@@ -49129,13 +49136,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जाल"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "फंदा"
 }
 ]
 }
@@ -49170,6 +49170,13 @@
 ],
 "acai": [
 {
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "फंदा"
+},
+{
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.54,
@@ -49182,13 +49189,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जाल"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "फंदा"
 }
 ]
 }
@@ -50877,18 +50877,18 @@
 "preferred_label": "मछली पकड़ने का जाल"
 },
 {
-"id": "realia:Siege-works",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "घेराबंदी के निर्माण"
-},
-{
 "id": "realia:Net",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जाल"
+},
+{
+"id": "realia:Siege-works",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "घेराबंदी के निर्माण"
 }
 ]
 }
@@ -54641,14 +54641,14 @@
 ],
 "acai": [
 {
-"id": "fauna:Cobra",
+"id": "fauna:Viper",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "नाग"
 },
 {
-"id": "fauna:Viper",
+"id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -54687,14 +54687,14 @@
 ],
 "acai": [
 {
-"id": "fauna:Cobra",
+"id": "fauna:Viper",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "नाग"
 },
 {
-"id": "fauna:Viper",
+"id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -54733,14 +54733,14 @@
 ],
 "acai": [
 {
-"id": "fauna:Cobra",
+"id": "fauna:Viper",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "नाग"
 },
 {
-"id": "fauna:Viper",
+"id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -54779,14 +54779,14 @@
 ],
 "acai": [
 {
-"id": "fauna:Cobra",
+"id": "fauna:Viper",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "नाग"
 },
 {
-"id": "fauna:Viper",
+"id": "fauna:Cobra",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
@@ -55430,18 +55430,18 @@
 ],
 "acai": [
 {
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "धनुष"
-},
-{
 "id": "realia:Weapons",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "हथियार"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "धनुष"
 }
 ]
 }
@@ -55476,18 +55476,18 @@
 ],
 "acai": [
 {
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "धनुष"
-},
-{
 "id": "realia:Weapons",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "हथियार"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "धनुष"
 }
 ]
 }
@@ -55522,18 +55522,18 @@
 ],
 "acai": [
 {
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "धनुष"
-},
-{
 "id": "realia:Weapons",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "हथियार"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "धनुष"
 }
 ]
 }
@@ -56190,18 +56190,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -56236,18 +56236,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -56282,18 +56282,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -56328,18 +56328,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -57535,18 +57535,18 @@
 "preferred_label": "बाँसुरी"
 },
 {
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "डफ"
-},
-{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "वीणा"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "डफ"
 }
 ]
 }
@@ -57588,18 +57588,18 @@
 "preferred_label": "बाँसुरी"
 },
 {
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "डफ"
-},
-{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "वीणा"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "डफ"
 }
 ]
 }
@@ -57641,18 +57641,18 @@
 "preferred_label": "बाँसुरी"
 },
 {
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "डफ"
-},
-{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "वीणा"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "डफ"
 }
 ]
 }
@@ -60951,18 +60951,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Complete",
@@ -61004,18 +61004,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Complete",
@@ -61057,18 +61057,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Complete",
@@ -66636,18 +66636,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -66682,18 +66682,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -66728,18 +66728,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गधा"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -67023,18 +67023,18 @@
 ],
 "acai": [
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जौ"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "दाखलता"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जौ"
 }
 ]
 }
@@ -67069,18 +67069,18 @@
 ],
 "acai": [
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जौ"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "दाखलता"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जौ"
 }
 ]
 }
@@ -67115,18 +67115,18 @@
 ],
 "acai": [
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जौ"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "दाखलता"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जौ"
 }
 ]
 }
@@ -68900,18 +68900,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
 }
 ]
 }
@@ -68946,18 +68946,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पाप करना"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
 }
 ]
 }
@@ -70619,18 +70619,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -70665,18 +70665,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -70711,18 +70711,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -71502,18 +71502,18 @@
 ],
 "acai": [
 {
-"id": "place:Abaddon",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "अबद्दोन"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "place:Abaddon",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अबद्दोन"
 }
 ]
 }
@@ -71548,18 +71548,18 @@
 ],
 "acai": [
 {
-"id": "place:Abaddon",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "अबद्दोन"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "place:Abaddon",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अबद्दोन"
 }
 ]
 }
@@ -71594,18 +71594,18 @@
 ],
 "acai": [
 {
-"id": "place:Abaddon",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "अबद्दोन"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "place:Abaddon",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अबद्दोन"
 }
 ]
 }
@@ -71640,18 +71640,18 @@
 ],
 "acai": [
 {
-"id": "place:Abaddon",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "अबद्दोन"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "place:Abaddon",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अबद्दोन"
 }
 ]
 }
@@ -74286,18 +74286,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 }
 ]
 }
@@ -74332,18 +74332,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 }
 ]
 }
@@ -74378,18 +74378,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "पतंगा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
 }
 ]
 }
@@ -75641,18 +75641,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बाज"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बाज"
 }
 ]
 }
@@ -75687,18 +75687,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बाज"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बाज"
 }
 ]
 }
@@ -75733,18 +75733,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बाज"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बाज"
 }
 ]
 }
@@ -75779,18 +75779,18 @@
 ],
 "acai": [
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बाज"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "गिद्ध"
+},
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बाज"
 }
 ]
 }
@@ -76252,18 +76252,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -76298,18 +76298,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -76344,18 +76344,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -76390,18 +76390,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -76436,18 +76436,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -77250,18 +77250,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -77862,11 +77862,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Understanding",
@@ -77883,11 +77883,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "भय"
 }
 ]
 }
@@ -77922,11 +77922,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Understanding",
@@ -77943,11 +77943,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "भय"
 }
 ]
 }
@@ -77982,11 +77982,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Understanding",
@@ -78003,11 +78003,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "भय"
 }
 ]
 }
@@ -78042,11 +78042,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Understanding",
@@ -78063,11 +78063,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "भय"
 }
 ]
 }
@@ -78443,18 +78443,18 @@
 ],
 "acai": [
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जैतून का तेल"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "अभिषेक का तेल"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
 }
 ]
 }
@@ -78489,18 +78489,18 @@
 ],
 "acai": [
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जैतून का तेल"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "अभिषेक का तेल"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
 }
 ]
 }
@@ -78535,18 +78535,18 @@
 ],
 "acai": [
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "जैतून का तेल"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "अभिषेक का तेल"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
 }
 ]
 }
@@ -79256,18 +79256,18 @@
 ],
 "acai": [
 {
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बागा"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "पगड़ी"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बागा"
 }
 ]
 }
@@ -79302,18 +79302,18 @@
 ],
 "acai": [
 {
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बागा"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "पगड़ी"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बागा"
 }
 ]
 }
@@ -79348,18 +79348,18 @@
 ],
 "acai": [
 {
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बागा"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "पगड़ी"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बागा"
 }
 ]
 }
@@ -79394,18 +79394,18 @@
 ],
 "acai": [
 {
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बागा"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "पगड़ी"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बागा"
 }
 ]
 }
@@ -79440,18 +79440,18 @@
 ],
 "acai": [
 {
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बागा"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "पगड़ी"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बागा"
 }
 ]
 }
@@ -80627,13 +80627,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बकरी"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
@@ -80646,6 +80639,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "कुत्ता"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बकरी"
 }
 ]
 }
@@ -80680,13 +80680,6 @@
 ],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बकरी"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
@@ -80699,6 +80692,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "कुत्ता"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बकरी"
 }
 ]
 }
@@ -83818,6 +83818,13 @@
 ],
 "acai": [
 {
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.54,
@@ -83830,13 +83837,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "शुतुर्मुर्ग"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
 }
 ]
 }
@@ -83871,6 +83871,13 @@
 ],
 "acai": [
 {
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.54,
@@ -83883,13 +83890,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "शुतुर्मुर्ग"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
 }
 ]
 }
@@ -83924,6 +83924,13 @@
 ],
 "acai": [
 {
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.54,
@@ -83936,13 +83943,6 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "शुतुर्मुर्ग"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
 }
 ]
 }
@@ -84339,18 +84339,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -84385,18 +84385,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -84431,18 +84431,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -84477,18 +84477,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -86954,18 +86954,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "जलन"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -87449,18 +87449,18 @@
 "preferred_label": "आदम"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -87502,18 +87502,18 @@
 "preferred_label": "आदम"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -88227,6 +88227,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "खरा / सिद्ध"
+},
+{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -88234,11 +88241,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
+"preferred_label": "बिच्छू पेड़"
 },
 {
 "id": "flora:Weed",
@@ -88248,13 +88255,6 @@
 "preferred_label": "जंगली बीज"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गेहूँ"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
@@ -88262,11 +88262,11 @@
 "preferred_label": "जौ"
 },
 {
-"id": "flora:Thistle",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "बिच्छू पेड़"
+"preferred_label": "गेहूँ"
 }
 ]
 }
@@ -88301,6 +88301,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "खरा / सिद्ध"
+},
+{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -88308,11 +88315,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
+"preferred_label": "बिच्छू पेड़"
 },
 {
 "id": "flora:Weed",
@@ -88322,13 +88329,6 @@
 "preferred_label": "जंगली बीज"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गेहूँ"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
@@ -88336,11 +88336,11 @@
 "preferred_label": "जौ"
 },
 {
-"id": "flora:Thistle",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "बिच्छू पेड़"
+"preferred_label": "गेहूँ"
 }
 ]
 }
@@ -88375,6 +88375,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "खरा / सिद्ध"
+},
+{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
@@ -88382,11 +88389,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
+"preferred_label": "बिच्छू पेड़"
 },
 {
 "id": "flora:Weed",
@@ -88396,13 +88403,6 @@
 "preferred_label": "जंगली बीज"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गेहूँ"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
@@ -88410,11 +88410,11 @@
 "preferred_label": "जौ"
 },
 {
-"id": "flora:Thistle",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "बिच्छू पेड़"
+"preferred_label": "गेहूँ"
 }
 ]
 }
@@ -88550,11 +88550,11 @@
 ],
 "acai": [
 {
-"id": "person:Ram.3",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "राम"
+"preferred_label": "बूजी"
 },
 {
 "id": "person:Barachel",
@@ -88564,18 +88564,18 @@
 "preferred_label": "बारकेल"
 },
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "बूजी"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "एलीहू"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "राम"
 },
 {
 "id": "deity:Lord",
@@ -88631,11 +88631,11 @@
 ],
 "acai": [
 {
-"id": "person:Ram.3",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "राम"
+"preferred_label": "बूजी"
 },
 {
 "id": "person:Barachel",
@@ -88645,18 +88645,18 @@
 "preferred_label": "बारकेल"
 },
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "बूजी"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "एलीहू"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "राम"
 },
 {
 "id": "deity:Lord",
@@ -88712,11 +88712,11 @@
 ],
 "acai": [
 {
-"id": "person:Ram.3",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "राम"
+"preferred_label": "बूजी"
 },
 {
 "id": "person:Barachel",
@@ -88726,18 +88726,18 @@
 "preferred_label": "बारकेल"
 },
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "बूजी"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "एलीहू"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "राम"
 },
 {
 "id": "deity:Lord",
@@ -88793,11 +88793,11 @@
 ],
 "acai": [
 {
-"id": "person:Ram.3",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "राम"
+"preferred_label": "बूजी"
 },
 {
 "id": "person:Barachel",
@@ -88807,18 +88807,18 @@
 "preferred_label": "बारकेल"
 },
 {
-"id": "group:Buzites",
-"type": "group",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "बूजी"
-},
-{
 "id": "person:Elihu.5",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "एलीहू"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "राम"
 },
 {
 "id": "deity:Lord",
@@ -88874,18 +88874,18 @@
 ],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "अय्यूब"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 }
 ]
 }
@@ -88920,18 +88920,18 @@
 ],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "अय्यूब"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
 }
 ]
 }
@@ -89143,11 +89143,11 @@
 ],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
+"id": "person:Barachel",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बूजी"
+"preferred_label": "बारकेल"
 },
 {
 "id": "person:Elihu.5",
@@ -89157,11 +89157,11 @@
 "preferred_label": "एलीहू"
 },
 {
-"id": "person:Barachel",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बारकेल"
+"preferred_label": "बूजी"
 },
 {
 "id": "keyterm:Fear",
@@ -89203,11 +89203,11 @@
 ],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
+"id": "person:Barachel",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बूजी"
+"preferred_label": "बारकेल"
 },
 {
 "id": "person:Elihu.5",
@@ -89217,11 +89217,11 @@
 "preferred_label": "एलीहू"
 },
 {
-"id": "person:Barachel",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बारकेल"
+"preferred_label": "बूजी"
 },
 {
 "id": "keyterm:Fear",
@@ -89263,11 +89263,11 @@
 ],
 "acai": [
 {
-"id": "group:Buzites",
-"type": "group",
+"id": "person:Barachel",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बूजी"
+"preferred_label": "बारकेल"
 },
 {
 "id": "person:Elihu.5",
@@ -89277,11 +89277,11 @@
 "preferred_label": "एलीहू"
 },
 {
-"id": "person:Barachel",
-"type": "person",
+"id": "group:Buzites",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "बारकेल"
+"preferred_label": "बूजी"
 },
 {
 "id": "keyterm:Fear",
@@ -89842,18 +89842,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -89888,18 +89888,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -90282,18 +90282,18 @@
 "preferred_label": "कुप्पा"
 },
 {
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "दाखमधु"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "दाखलता"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "दाखमधु"
 }
 ]
 }
@@ -90335,18 +90335,18 @@
 "preferred_label": "कुप्पा"
 },
 {
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "दाखमधु"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "दाखलता"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "दाखमधु"
 }
 ]
 }
@@ -90761,18 +90761,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "सिधाई"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -90807,18 +90807,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "सिधाई"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -90853,18 +90853,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "सिधाई"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -90899,18 +90899,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "सिधाई"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -91303,18 +91303,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -91349,18 +91349,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "जलन"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "जलन"
 }
 ]
 }
@@ -92784,18 +92784,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:KindlyDisposed",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कृपादृष्टि रखना"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:KindlyDisposed",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कृपादृष्टि रखना"
 }
 ]
 }
@@ -92830,18 +92830,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:KindlyDisposed",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कृपादृष्टि रखना"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:KindlyDisposed",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कृपादृष्टि रखना"
 }
 ]
 }
@@ -92876,18 +92876,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:KindlyDisposed",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कृपादृष्टि रखना"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:KindlyDisposed",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कृपादृष्टि रखना"
 }
 ]
 }
@@ -92922,18 +92922,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:KindlyDisposed",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "कृपादृष्टि रखना"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "नरक"
+},
+{
+"id": "keyterm:KindlyDisposed",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "कृपादृष्टि रखना"
 }
 ]
 }
@@ -94349,18 +94349,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -94402,18 +94402,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -96440,18 +96440,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पंथ"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "समझ रखना"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पंथ"
 }
 ]
 }
@@ -96486,18 +96486,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "पंथ"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "समझ रखना"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "पंथ"
 }
 ]
 }
@@ -96851,18 +96851,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "परिणाम भुगतना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -96897,18 +96897,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "परिणाम भुगतना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -96943,18 +96943,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "परिणाम भुगतना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -97299,11 +97299,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
+"id": "person:Job",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मंशा"
+"preferred_label": "अय्यूब"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -97313,11 +97313,11 @@
 "preferred_label": "समझ रखना"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Intention",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -97352,11 +97352,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
+"id": "person:Job",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मंशा"
+"preferred_label": "अय्यूब"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -97366,11 +97366,11 @@
 "preferred_label": "समझ रखना"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Intention",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -97405,11 +97405,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
+"id": "person:Job",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मंशा"
+"preferred_label": "अय्यूब"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -97419,11 +97419,11 @@
 "preferred_label": "समझ रखना"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Intention",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -97458,11 +97458,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
+"id": "person:Job",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "मंशा"
+"preferred_label": "अय्यूब"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -97472,11 +97472,11 @@
 "preferred_label": "समझ रखना"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Intention",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -97603,13 +97603,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -97622,6 +97615,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -97656,13 +97656,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.6,
@@ -97675,6 +97668,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बलवा करना"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -99208,18 +99208,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -99254,18 +99254,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -99300,18 +99300,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "मंशा"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "मंशा"
 }
 ]
 }
@@ -99812,18 +99812,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -99858,18 +99858,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -99904,18 +99904,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -102087,18 +102087,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -102133,18 +102133,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -102179,18 +102179,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -106135,18 +106135,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ऐश्वर्य"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -106181,18 +106181,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ऐश्वर्य"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -106227,18 +106227,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ऐश्वर्य"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 }
 ]
 }
@@ -106273,18 +106273,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -106319,18 +106319,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -106365,18 +106365,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -106411,18 +106411,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "बल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 }
 ]
 }
@@ -110246,18 +110246,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 },
 {
 "id": "fauna:Rooster",
@@ -110299,18 +110299,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 },
 {
 "id": "fauna:Rooster",
@@ -111425,18 +111425,18 @@
 ],
 "acai": [
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "घास"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "झुंड"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "घास"
 },
 {
 "id": "fauna:Goat",
@@ -111485,18 +111485,18 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "realia:Manger",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "चरनी"
-},
-{
 "id": "fauna:WildOx",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जंगली साँड़"
+},
+{
+"id": "realia:Manger",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "चरनी"
 }
 ]
 }
@@ -111538,18 +111538,18 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "realia:Manger",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "चरनी"
-},
-{
 "id": "fauna:WildOx",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जंगली साँड़"
+},
+{
+"id": "realia:Manger",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "चरनी"
 }
 ]
 }
@@ -111591,18 +111591,18 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "realia:Manger",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "चरनी"
-},
-{
 "id": "fauna:WildOx",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "जंगली साँड़"
+},
+{
+"id": "realia:Manger",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "चरनी"
 }
 ]
 }
@@ -111881,18 +111881,18 @@
 "preferred_label": "जौ"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "खलिहान"
-},
-{
 "id": "flora:Coriander",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "धनिया"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "खलिहान"
 }
 ]
 }
@@ -112404,18 +112404,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -112450,18 +112450,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "समझ"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "समझ"
 }
 ]
 }
@@ -112691,18 +112691,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
 "id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ऐश्वर्य"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "भय"
 },
 {
 "id": "fauna:Locust",
@@ -113077,18 +113077,18 @@
 ],
 "acai": [
 {
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बर्छी"
-},
-{
 "id": "realia:Quiver",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तरकश"
+},
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बर्छी"
 },
 {
 "id": "realia:Spear",
@@ -113130,18 +113130,18 @@
 ],
 "acai": [
 {
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बर्छी"
-},
-{
 "id": "realia:Quiver",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तरकश"
+},
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बर्छी"
 },
 {
 "id": "realia:Spear",
@@ -113183,18 +113183,18 @@
 ],
 "acai": [
 {
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बर्छी"
-},
-{
 "id": "realia:Quiver",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तरकश"
+},
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बर्छी"
 },
 {
 "id": "realia:Spear",
@@ -114581,18 +114581,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -114627,18 +114627,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "धर्मी होना"
-},
-{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "दोषी ठहराना"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "धर्मी होना"
 }
 ]
 }
@@ -119353,18 +119353,18 @@
 ],
 "acai": [
 {
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बर्छी"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तलवार"
+},
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बर्छी"
 },
 {
 "id": "realia:Spear",
@@ -119406,18 +119406,18 @@
 ],
 "acai": [
 {
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बर्छी"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तलवार"
+},
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बर्छी"
 },
 {
 "id": "realia:Spear",
@@ -119459,18 +119459,18 @@
 ],
 "acai": [
 {
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "बर्छी"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तलवार"
+},
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "बर्छी"
 },
 {
 "id": "realia:Spear",
@@ -119605,18 +119605,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sling",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गोफन"
-},
-{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "realia:Sling",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गोफन"
 }
 ]
 }
@@ -119651,18 +119651,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sling",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गोफन"
-},
-{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "realia:Sling",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गोफन"
 }
 ]
 }
@@ -119697,18 +119697,18 @@
 ],
 "acai": [
 {
-"id": "realia:Sling",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गोफन"
-},
-{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "तीर"
+},
+{
+"id": "realia:Sling",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गोफन"
 }
 ]
 }
@@ -120712,6 +120712,13 @@
 "preferred_label": "एलीपज"
 },
 {
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तेमानी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -120724,13 +120731,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
-},
-{
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "तेमानी"
 },
 {
 "id": "place:Teman",
@@ -120779,6 +120779,13 @@
 "preferred_label": "एलीपज"
 },
 {
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तेमानी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -120791,13 +120798,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
-},
-{
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "तेमानी"
 },
 {
 "id": "place:Teman",
@@ -120846,6 +120846,13 @@
 "preferred_label": "एलीपज"
 },
 {
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तेमानी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -120858,13 +120865,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "अय्यूब"
-},
-{
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "तेमानी"
 },
 {
 "id": "place:Teman",
@@ -120906,11 +120906,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Job",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "अय्यूब"
 },
 {
 "id": "keyterm:Foolish",
@@ -120920,18 +120920,11 @@
 "preferred_label": "मूर्खतापूर्ण"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "भेंट"
 },
 {
 "id": "fauna:Lamb",
@@ -120939,6 +120932,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "भेड़"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -120973,11 +120973,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Job",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "अय्यूब"
 },
 {
 "id": "keyterm:Foolish",
@@ -120987,18 +120987,11 @@
 "preferred_label": "मूर्खतापूर्ण"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "अय्यूब"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "भेंट"
 },
 {
 "id": "fauna:Lamb",
@@ -121006,6 +120999,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "भेड़"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 }
 ]
 }
@@ -121040,18 +121040,18 @@
 ],
 "acai": [
 {
-"id": "person:Eliphaz.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "एलीपज"
-},
-{
 "id": "person:Bildad",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "बिल्दद"
+},
+{
+"id": "person:Eliphaz.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "एलीपज"
 },
 {
 "id": "person:Zophar",
@@ -121061,6 +121061,13 @@
 "preferred_label": "सोपर"
 },
 {
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "तेमानी"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -121068,18 +121075,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "group:Naamathites",
+"id": "group:Shuhites",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "नामाती"
-},
-{
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "तेमानी"
+"preferred_label": "शूही"
 },
 {
 "id": "person:Job",
@@ -121089,11 +121089,11 @@
 "preferred_label": "अय्यूब"
 },
 {
-"id": "group:Shuhites",
+"id": "group:Naamathites",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "शूही"
+"preferred_label": "नामाती"
 },
 {
 "id": "place:Teman",
@@ -121534,18 +121534,18 @@
 "preferred_label": "कसीआ"
 },
 {
-"id": "person:Jemimah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यमीमा"
-},
-{
 "id": "person:Keren-happuch",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "केरेन्हप्पूक"
+},
+{
+"id": "person:Jemimah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "यमीमा"
 }
 ]
 }
@@ -121587,18 +121587,18 @@
 "preferred_label": "कसीआ"
 },
 {
-"id": "person:Jemimah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यमीमा"
-},
-{
 "id": "person:Keren-happuch",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "केरेन्हप्पूक"
+},
+{
+"id": "person:Jemimah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "यमीमा"
 }
 ]
 }
@@ -121640,18 +121640,18 @@
 "preferred_label": "कसीआ"
 },
 {
-"id": "person:Jemimah",
-"type": "person",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "यमीमा"
-},
-{
 "id": "person:Keren-happuch",
 "type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "केरेन्हप्पूक"
+},
+{
+"id": "person:Jemimah",
+"type": "person",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "यमीमा"
 }
 ]
 }
