@@ -251,6 +251,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "memerintahkan"
+},
+{
 "id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.6,
@@ -263,13 +270,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Roh Kudus"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "memerintahkan"
 }
 ]
 }
@@ -304,6 +304,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "memerintahkan"
+},
+{
 "id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.6,
@@ -316,13 +323,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Roh Kudus"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "memerintahkan"
 }
 ]
 }
@@ -410,18 +410,18 @@
 "preferred_label": "Seleukia"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Roh Kudus"
-},
-{
 "id": "place:Cyprus",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Siprus"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
 }
 ]
 }
@@ -487,11 +487,11 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
+"id": "person:Paul",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Yesus"
+"preferred_label": "Paulus"
 },
 {
 "id": "keyterm:Name",
@@ -501,11 +501,11 @@
 "preferred_label": "nama"
 },
 {
-"id": "person:Paul",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Paulus"
+"preferred_label": "Yesus"
 }
 ]
 }
