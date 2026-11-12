@@ -35,13 +35,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.375,
@@ -54,6 +47,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "andar"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "verdadero"
 },
 {
 "id": "keyterm:Ought",
@@ -155,11 +155,25 @@
 ],
 "acai": [
 {
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "sangre"
+},
+{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Espíritu Santo"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Truth",
@@ -174,20 +188,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "dar testimonio"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesús"
 }
 ]
 }

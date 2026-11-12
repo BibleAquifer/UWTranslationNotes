@@ -27,6 +27,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Demonios"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.6,
@@ -39,13 +46,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Jehová"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Demonios"
 }
 ]
 }
@@ -87,18 +87,18 @@
 "preferred_label": "Rahab"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Un ángel"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ser justo"
 }
 ]
 }
