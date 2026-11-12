@@ -150,6 +150,13 @@
 "preferred_label": "摩押"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "猶大支派"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -162,13 +169,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "猶大支派"
 }
 ]
 }
@@ -210,6 +210,13 @@
 "preferred_label": "摩押"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "猶大支派"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -222,13 +229,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "猶大支派"
 }
 ]
 }
@@ -270,6 +270,13 @@
 "preferred_label": "摩押"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "猶大支派"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -282,13 +289,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "猶大支派"
 }
 ]
 }
@@ -323,11 +323,11 @@
 ],
 "acai": [
 {
-"id": "group:Ephrathah",
-"type": "group",
+"id": "person:Ephrathah",
+"type": "person",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "以法他人"
+"preferred_label": "以法她"
 },
 {
 "id": "person:Naomi",
@@ -337,11 +337,11 @@
 "preferred_label": "拿俄米"
 },
 {
-"id": "person:Ephrathah",
-"type": "person",
+"id": "group:Ephrathah",
+"type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "以法她"
+"preferred_label": "以法他人"
 },
 {
 "id": "person:Chilion",
@@ -351,11 +351,32 @@
 "preferred_label": "基連"
 },
 {
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以利米勒"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "猶大支派"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "猶大"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "伯利恆（猶大）"
 },
 {
 "id": "person:Mahlon",
@@ -370,27 +391,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以利米勒"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "伯利恆（猶大）"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "猶大"
 }
 ]
 }
@@ -478,18 +478,18 @@
 "preferred_label": "俄珥巴"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -523,18 +523,18 @@
 "preferred_label": "俄珥巴"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -615,6 +615,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -627,13 +634,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -668,6 +668,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -680,13 +687,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -713,6 +713,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -725,13 +732,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -766,6 +766,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -778,13 +785,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -819,6 +819,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -831,13 +838,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -872,6 +872,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -884,13 +891,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -925,6 +925,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.6,
@@ -937,13 +944,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -1008,18 +1008,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -1061,18 +1061,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -1106,18 +1106,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -1151,18 +1151,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -1204,18 +1204,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -1257,18 +1257,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -1310,18 +1310,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "person:Naomi",
@@ -2397,18 +2397,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -2443,18 +2443,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -2667,18 +2667,18 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -2720,18 +2720,18 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -2773,18 +2773,18 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -2826,18 +2826,18 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -2879,18 +2879,18 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -3239,11 +3239,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "路得"
 },
 {
 "id": "person:Naomi",
@@ -3260,11 +3260,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "路得"
+"preferred_label": "摩押"
 },
 {
 "id": "flora:Barley",
@@ -3306,11 +3306,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "路得"
 },
 {
 "id": "person:Naomi",
@@ -3327,11 +3327,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "路得"
+"preferred_label": "摩押"
 },
 {
 "id": "flora:Barley",
@@ -3373,11 +3373,11 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Ruth",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "路得"
 },
 {
 "id": "person:Naomi",
@@ -3394,11 +3394,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "person:Ruth",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "路得"
+"preferred_label": "摩押"
 },
 {
 "id": "flora:Barley",
@@ -3690,18 +3690,18 @@
 ],
 "acai": [
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
 },
 {
 "id": "person:Ruth",
@@ -3711,11 +3711,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -3742,18 +3742,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
 },
 {
 "id": "person:Ruth",
@@ -3763,11 +3763,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -3802,18 +3802,18 @@
 ],
 "acai": [
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
 },
 {
 "id": "person:Ruth",
@@ -3823,11 +3823,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -3862,18 +3862,18 @@
 ],
 "acai": [
 {
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
 },
 {
 "id": "person:Ruth",
@@ -3883,11 +3883,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -3922,18 +3922,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以利米勒"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 },
 {
 "id": "flora:Barley",
@@ -3975,18 +3975,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "以利米勒"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 },
 {
 "id": "flora:Barley",
@@ -4028,20 +4028,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "伯利恆（猶大）"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
@@ -4054,6 +4040,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "flora:Barley",
@@ -4095,20 +4095,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "伯利恆（猶大）"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
@@ -4121,6 +4107,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "flora:Barley",
@@ -4162,20 +4162,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "伯利恆（猶大）"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
@@ -4188,6 +4174,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "flora:Barley",
@@ -4229,20 +4229,6 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "伯利恆（猶大）"
-},
-{
 "id": "person:Boaz",
 "type": "person",
 "confidence": 0.6,
@@ -4255,6 +4241,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "flora:Barley",
@@ -4578,18 +4578,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -4624,18 +4624,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -5278,18 +5278,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "尋求庇護"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "尋求庇護"
 },
 {
 "id": "person:Israel",
@@ -5331,18 +5331,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "尋求庇護"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "尋求庇護"
 },
 {
 "id": "person:Israel",
@@ -5384,18 +5384,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "尋求庇護"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "尋求庇護"
 },
 {
 "id": "person:Israel",
@@ -5846,18 +5846,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鐮刀"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -5891,18 +5891,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鐮刀"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -5944,18 +5944,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "鐮刀"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -6151,18 +6151,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -6197,18 +6197,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -6243,18 +6243,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -6289,18 +6289,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -6335,18 +6335,18 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -6381,18 +6381,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6441,18 +6441,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6501,18 +6501,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6561,18 +6561,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6621,18 +6621,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6681,18 +6681,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6741,18 +6741,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6793,18 +6793,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "keyterm:Bless",
@@ -6853,18 +6853,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -6899,18 +6899,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -6945,18 +6945,18 @@
 ],
 "acai": [
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -6983,18 +6983,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -7029,18 +7029,18 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "person:Ruth",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 }
 ]
 }
@@ -7492,18 +7492,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "禾場"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -7545,18 +7545,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "禾場"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -7598,18 +7598,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "禾場"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -7651,18 +7651,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "禾場"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "大麥"
 }
 ]
 }
@@ -8295,18 +8295,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "deity:Lord",
@@ -8348,18 +8348,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "deity:Lord",
@@ -8401,18 +8401,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "deity:Lord",
@@ -8454,18 +8454,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "deity:Lord",
@@ -8507,18 +8507,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
 },
 {
 "id": "deity:Lord",
@@ -9888,18 +9888,18 @@
 ],
 "acai": [
 {
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "摩押"
+},
+{
+"id": "person:Naomi",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "拿俄米"
 },
 {
 "id": "person:Elimelech",
@@ -10174,18 +10174,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
+"preferred_label": "使…為業"
 },
 {
 "id": "person:Boaz",
@@ -10195,11 +10188,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "使…為業"
+"preferred_label": "拿俄米"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -10241,18 +10241,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
+"preferred_label": "使…為業"
 },
 {
 "id": "person:Boaz",
@@ -10262,11 +10255,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "使…為業"
+"preferred_label": "拿俄米"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -10308,18 +10308,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
+"preferred_label": "使…為業"
 },
 {
 "id": "person:Boaz",
@@ -10329,11 +10322,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "使…為業"
+"preferred_label": "拿俄米"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -10367,18 +10367,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
+"preferred_label": "使…為業"
 },
 {
 "id": "person:Boaz",
@@ -10388,11 +10381,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "使…為業"
+"preferred_label": "拿俄米"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -10434,18 +10434,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
+"preferred_label": "使…為業"
 },
 {
 "id": "person:Boaz",
@@ -10455,11 +10448,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "使…為業"
+"preferred_label": "拿俄米"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -10501,18 +10501,11 @@
 "preferred_label": "路得"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Naomi",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拿俄米"
+"preferred_label": "使…為業"
 },
 {
 "id": "person:Boaz",
@@ -10522,11 +10515,18 @@
 "preferred_label": "波阿斯"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Naomi",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "使…為業"
+"preferred_label": "拿俄米"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -10568,18 +10568,18 @@
 "preferred_label": "至親贖業人"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "使…為業"
-},
-{
 "id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "救贖"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "使…為業"
 }
 ]
 }
@@ -10621,18 +10621,18 @@
 "preferred_label": "至親贖業人"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "使…為業"
-},
-{
 "id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "救贖"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "使…為業"
 }
 ]
 }
@@ -11003,11 +11003,11 @@
 "preferred_label": "基連"
 },
 {
-"id": "person:Mahlon",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "瑪倫"
+"preferred_label": "以利米勒"
 },
 {
 "id": "person:Naomi",
@@ -11017,11 +11017,11 @@
 "preferred_label": "拿俄米"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "以利米勒"
+"preferred_label": "瑪倫"
 }
 ]
 }
@@ -11070,11 +11070,11 @@
 "preferred_label": "基連"
 },
 {
-"id": "person:Mahlon",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "瑪倫"
+"preferred_label": "以利米勒"
 },
 {
 "id": "person:Naomi",
@@ -11084,11 +11084,11 @@
 "preferred_label": "拿俄米"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "以利米勒"
+"preferred_label": "瑪倫"
 }
 ]
 }
@@ -11129,11 +11129,11 @@
 "preferred_label": "基連"
 },
 {
-"id": "person:Mahlon",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "瑪倫"
+"preferred_label": "以利米勒"
 },
 {
 "id": "person:Naomi",
@@ -11143,11 +11143,11 @@
 "preferred_label": "拿俄米"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Mahlon",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "以利米勒"
+"preferred_label": "瑪倫"
 }
 ]
 }
@@ -11182,13 +11182,6 @@
 ],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11196,11 +11189,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11208,6 +11201,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11234,13 +11234,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11248,11 +11241,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11260,6 +11253,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11294,13 +11294,6 @@
 ],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11308,11 +11301,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11320,6 +11313,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11354,13 +11354,6 @@
 ],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11368,11 +11361,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11380,6 +11373,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11414,13 +11414,6 @@
 ],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11428,11 +11421,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11440,6 +11433,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11474,13 +11474,6 @@
 ],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11488,11 +11481,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11500,6 +11493,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11526,13 +11526,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "瑪倫"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
@@ -11540,11 +11533,11 @@
 "preferred_label": "使…為業"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "person:Mahlon",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "摩押"
+"preferred_label": "瑪倫"
 },
 {
 "id": "person:Ruth",
@@ -11552,6 +11545,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "摩押"
 }
 ]
 }
@@ -11593,11 +11593,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -11614,18 +11621,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -11667,11 +11667,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -11688,18 +11695,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -11741,11 +11741,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -11762,18 +11769,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -11815,11 +11815,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -11836,18 +11843,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -11889,11 +11889,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -11910,18 +11917,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -11963,11 +11963,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -11984,18 +11991,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -12037,11 +12037,18 @@
 "preferred_label": "利亞"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Rachel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "長老們"
+"preferred_label": "拉結"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Israel",
@@ -12058,18 +12065,11 @@
 "preferred_label": "伯利恆（猶大）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "拉結"
+"preferred_label": "長老們"
 }
 ]
 }
@@ -12104,11 +12104,11 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Tamar",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "猶大支派"
+"preferred_label": "她瑪"
 },
 {
 "id": "deity:Lord",
@@ -12118,11 +12118,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "person:Tamar",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "她瑪"
+"preferred_label": "猶大"
 },
 {
 "id": "person:Perez",
@@ -12132,11 +12132,11 @@
 "preferred_label": "法勒斯"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "猶大"
+"preferred_label": "猶大支派"
 }
 ]
 }
@@ -12171,11 +12171,11 @@
 ],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Tamar",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "猶大支派"
+"preferred_label": "她瑪"
 },
 {
 "id": "deity:Lord",
@@ -12185,11 +12185,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "person:Tamar",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "她瑪"
+"preferred_label": "猶大"
 },
 {
 "id": "person:Perez",
@@ -12199,11 +12199,11 @@
 "preferred_label": "法勒斯"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "猶大"
+"preferred_label": "猶大支派"
 }
 ]
 }
@@ -12238,13 +12238,6 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12257,6 +12250,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -12291,13 +12291,6 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12310,6 +12303,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -12344,13 +12344,6 @@
 ],
 "acai": [
 {
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "波阿斯"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12363,6 +12356,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "路得"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "波阿斯"
 }
 ]
 }
@@ -12404,20 +12404,6 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
@@ -12430,6 +12416,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -12471,20 +12471,6 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
@@ -12497,6 +12483,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -12538,20 +12538,6 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
@@ -12564,6 +12550,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -12605,20 +12605,6 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
@@ -12631,6 +12617,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -12672,20 +12672,6 @@
 "preferred_label": "婦女們"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.6,
@@ -12698,6 +12684,20 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 }
 ]
 }
@@ -13395,6 +13395,13 @@
 ],
 "acai": [
 {
+"id": "person:Salmon",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "撒門"
+},
+{
 "id": "person:Nahshon",
 "type": "person",
 "confidence": 0.6,
@@ -13407,13 +13414,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "亞米拿達"
-},
-{
-"id": "person:Salmon",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "撒門"
 }
 ]
 }
@@ -13455,18 +13455,18 @@
 "preferred_label": "耶西"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "大衛"
-},
-{
 "id": "person:Obed",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "俄備得"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "大衛"
 }
 ]
 }
