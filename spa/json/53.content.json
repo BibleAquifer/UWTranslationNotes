@@ -29,11 +29,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "amor"
+"preferred_label": "Jesús"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Always",
@@ -43,18 +50,25 @@
 "preferred_label": "para siempre"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "bueno"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "favor"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:AskFor",
@@ -69,20 +83,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "esperanza"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jehová"
 }
 ]
 }
@@ -117,11 +117,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Teaching",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "enseñanza"
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Live.3",
@@ -131,18 +131,18 @@
 "preferred_label": "andar"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "nombre"
+},
+{
+"id": "keyterm:Teaching",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "enseñanza"
 }
 ]
 }

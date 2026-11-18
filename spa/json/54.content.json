@@ -29,11 +29,11 @@
 "preferred_label": "incorruptible"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "¡ciertamente!"
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Always",
@@ -43,13 +43,6 @@
 "preferred_label": "para siempre"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "gloria"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
@@ -57,11 +50,18 @@
 "preferred_label": "habilidad"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "gloria"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
 }
 ]
 }
@@ -103,18 +103,18 @@
 "preferred_label": "creer"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "favor"
-},
-{
 "id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "promesa"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "favor"
 }
 ]
 }
