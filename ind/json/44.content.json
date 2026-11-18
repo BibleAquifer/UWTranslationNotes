@@ -258,18 +258,18 @@
 "preferred_label": "Roh Kudus"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "orang pilihan"
-},
-{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "memerintahkan"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "orang pilihan"
 }
 ]
 }
@@ -311,18 +311,18 @@
 "preferred_label": "Roh Kudus"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "orang pilihan"
-},
-{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "memerintahkan"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "orang pilihan"
 }
 ]
 }
@@ -410,18 +410,18 @@
 "preferred_label": "Seleukia"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Roh Kudus"
-},
-{
 "id": "place:Cyprus",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Siprus"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
 }
 ]
 }
@@ -487,13 +487,6 @@
 ],
 "acai": [
 {
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Paulus"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.6,
@@ -506,8 +499,53 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "nama"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Paulus"
 }
 ]
+}
+},
+{
+"content_id": "630388",
+"reference_id": 139667,
+"version": "1.0.4",
+"title": "Kisah Para Rasul 23:1 (#2)",
+"media_type": "Text",
+"index_reference": "44023001",
+"language": "ind",
+"review_level": "None",
+"content": "<p><strong>&quot;Hai saudara-saudaraku&quot;</strong></p><p>Ini adalah bentuk sapaan idiomatik. Gunakan cara yang alami dalam bahasa Anda untuk merujuk pada kelompok orang tertentu. Terjemahan alternatif: &quot;saudara-saudaraku&quot;.</p><p>Lihat: <data class=\"resource-ref\" data-content-id=\"727531\" data-resource-code=\"UWTranslationManual\" data-language=\"ind\">Ungkapan</data></p>",
+"associations": {
+"passage": [
+{
+"start_ref": "44023001",
+"start_ref_usfm": "ACT 23:1",
+"end_ref": "44023001",
+"end_ref_usfm": "ACT 23:1"
+}
+],
+"resource": [
+{
+"reference_id": "26697",
+"content_id": "727531",
+"resource_code": "UWTranslationManual",
+"label": "Ungkapan",
+"language": "ind"
+},
+{
+"reference_id": 26706,
+"content_id": 727537,
+"resource_code": "UWTranslationNotes",
+"label": "Metafora",
+"language": "ind"
+}
+],
+"acai": []
 }
 }
 ]
